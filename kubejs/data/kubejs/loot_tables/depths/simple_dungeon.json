@@ -1,0 +1,304 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:experience_gem",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:greater_experience_gem",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:weapon_parts",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:arcane_debris",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:smithing_template_rune",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:forgotten_hat",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galosphere:silver_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miners_delight:cave_carrot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "hexcasting:amethyst_dust",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "galosphere:silver_bomb",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "samurai_dynasty:amethyst_ingot",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:lantern",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "miners_delight:copper_carrot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "alexscaves:cinder_brick",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cobbled_deepslate",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diorite",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:andesite",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:granite",
+          "weight": 10
+        }
+      ],
+      "rolls": 3.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/simple_dungeon"
+}

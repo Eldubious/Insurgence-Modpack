@@ -1,0 +1,41 @@
+{
+    "additional_requirements": {
+        "forge_tier": 5
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 0,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:iron_nugget"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "create:cogwheel"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "create:large_cogwheel"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "create:golden_sheet"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 2,
+            "id": "create:precision_mechanism"
+        }
+    }
+}

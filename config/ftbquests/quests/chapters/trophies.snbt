@@ -1,0 +1,885 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trophies"
+	group: "3CFA5B714A0693A0"
+	id: "58BB17ABFCECB38C"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7AFD694BC592309D"
+			tasks: [{
+				id: "54DE59F103FC7514"
+				title: "Trophies"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7BA863270EBE7DB9"
+			tasks: [{
+				id: "6A8C683C598FDB0B"
+				item: "minecraft:music_disc_13"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "530D5B5962E9632E"
+			tasks: [{
+				id: "66C002D45DB7889E"
+				item: "minecraft:music_disc_cat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "4FCCA4EAF3A9D425"
+			tasks: [{
+				id: "772042E9A2138E78"
+				item: "minecraft:music_disc_blocks"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "651EB88838B8C4C1"
+			tasks: [{
+				id: "3E56314D898807AD"
+				item: "minecraft:music_disc_chirp"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "0E0F46704E854F45"
+			tasks: [{
+				id: "1D75A30FC2F61081"
+				item: "minecraft:music_disc_far"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "594706137FE1BBD5"
+			tasks: [{
+				id: "364EFD669178D569"
+				item: "minecraft:music_disc_mall"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "1BDF67A6CD9DB329"
+			tasks: [{
+				id: "63412DF1852A73E6"
+				item: "minecraft:music_disc_mellohi"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "2C28F6A35BBCD963"
+			tasks: [{
+				id: "5E1322DB60DC79D2"
+				item: "minecraft:music_disc_stal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "35D0B57DB8FF60D8"
+			tasks: [{
+				id: "6A2A2138C10885FC"
+				item: "minecraft:music_disc_strad"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "49E1D3766CEFF40D"
+			tasks: [{
+				id: "21649DB5E2D1DDF7"
+				item: "minecraft:music_disc_ward"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "57869782853C128F"
+			tasks: [{
+				id: "42C8848F41D5F2D1"
+				item: "minecraft:music_disc_11"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "46F850545836ED6C"
+			tasks: [{
+				id: "68DA2ADB03481EC4"
+				item: "minecraft:music_disc_wait"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "31766031529522EF"
+			tasks: [{
+				id: "7289B4898141577A"
+				item: "minecraft:music_disc_otherside"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "510DF888947E4FB2"
+			tasks: [{
+				id: "1FD9A404A9B1B027"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "062CC8E24DF51EC9"
+			tasks: [{
+				id: "086306582FC318F0"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "23835333A3F2E013"
+			tasks: [{
+				id: "2268BED34070D6A8"
+				item: "minecraft:music_disc_relic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "41E3A3E96EC3F71D"
+			tasks: [{
+				id: "02C04513127D9A37"
+				item: "rubinated_nether:shimmer_disc"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "4CCA902E60673F16"
+			tasks: [{
+				id: "1688F055F4FA371A"
+				item: "quark:music_disc_endermosh"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "43EA585D1E7ABA86"
+			tasks: [{
+				id: "0AFBB827F688C8F8"
+				item: "quark:music_disc_chatter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "1F05B1196AC03236"
+			tasks: [{
+				id: "6E14A234204CF2D3"
+				item: "quark:music_disc_crickets"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "239C9977D26D57F0"
+			tasks: [{
+				id: "2E881EDA8B51D34F"
+				item: "quark:music_disc_clock"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "5A68912B1B4E9EF3"
+			tasks: [{
+				id: "1E135D2978E0BD0A"
+				item: "quark:music_disc_fire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "7889DAB84B65B33C"
+			tasks: [{
+				id: "0EA06760AE93B893"
+				item: "quark:music_disc_wind"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "1AF8FEA6C49FB546"
+			tasks: [{
+				id: "448485BAD429639A"
+				item: "quark:music_disc_rain"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "74D46B9DC5363041"
+			tasks: [{
+				id: "70AECD52365C86A3"
+				item: "quark:music_disc_ocean"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "006FCDF8DABB0F3B"
+			tasks: [{
+				id: "3405FF13CC0DF834"
+				item: "quark:music_disc_drips"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "376F97FCE56CCAC1"
+			tasks: [{
+				id: "0B894AA391806FED"
+				item: "endergetic:music_disc_kilobyte"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "0677638E578013C3"
+			tasks: [{
+				id: "5E00247DA1EA0925"
+				item: "nethers_exoticism:music_disc_forest"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "3E778B2D5F6B5A00"
+			tasks: [{
+				id: "60319468BD03890C"
+				item: "unusualend:music_disc_endstone_golem_theme"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "2E6FA6F630C5F539"
+			tasks: [{
+				id: "409A6308745B439A"
+				item: "unusualend:music_disc_flying_ships"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "464A138CB3011DD6"
+			tasks: [{
+				id: "4E89A593C06280B4"
+				item: "unusualend:music_disc_queen"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "1E1DF06E4160B548"
+			tasks: [{
+				id: "432F058B90BD4D01"
+				item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "2FF77730E2EDE966"
+			tasks: [{
+				id: "0D46E8836AC3B1D7"
+				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "4F6A0C38B87BC7F3"
+			tasks: [{
+				id: "6FEA77F6BC086AAC"
+				item: "the_bumblezone:music_disc_la_bee_da_loca"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "1B25275B4676B634"
+			tasks: [{
+				id: "6BB50A6020132FC5"
+				item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "3D63E57D016BD03C"
+			tasks: [{
+				id: "280AE817D016FBBB"
+				item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "27273BD78CE54018"
+			tasks: [{
+				id: "095362229841068A"
+				item: "the_bumblezone:music_disc_beenna_box"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			id: "1597E15D4940B804"
+			tasks: [{
+				id: "36D35B711B1AC154"
+				item: "the_bumblezone:music_disc_radiance_renren"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "680E6EA5A10DEEC5"
+			tasks: [{
+				id: "3EA406876D954CC3"
+				item: "the_bumblezone:music_disc_life_renren"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "749A02571D6F07CA"
+			tasks: [{
+				id: "0E01F9A81F8F5DF4"
+				item: "the_bumblezone:music_disc_drowning_in_despair"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "1C83FF614F064946"
+			tasks: [{
+				id: "5387E51C703787B0"
+				item: "the_bumblezone:music_disc_knowing_renren"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "52916DFBA53ECF77"
+			tasks: [{
+				id: "5A9CAD06BD8DABEA"
+				item: "the_bumblezone:music_disc_a_last_first_last"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "17A7F062D9B9A8B3"
+			tasks: [{
+				id: "7623F19184DF0278"
+				item: "idas:music_disc_slither"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "131C38AD09FAD9C9"
+			tasks: [{
+				id: "027EAD02B63C9C25"
+				item: "idas:music_disc_calidum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "03F7DDBE8D2B1251"
+			tasks: [{
+				id: "0CE5310992EE9ED4"
+				item: "traveloptics:music_disc_169"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "230AB75D314E1784"
+			tasks: [{
+				id: "269B7C9AE449133C"
+				item: "tropicraft:music_disc_buried_treasure"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "36F0A0B52E9C9A17"
+			tasks: [{
+				id: "6D437F99A476A615"
+				item: "tropicraft:music_disc_eastern_isles"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "75C7CF644F8D9F5C"
+			tasks: [{
+				id: "741E40E8512F9D25"
+				item: "tropicraft:music_disc_the_tribe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "37FA570DBA12E19D"
+			tasks: [{
+				id: "5C2B5BB86E465E20"
+				item: "tropicraft:music_disc_low_tide"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			id: "3CEFA28787175E29"
+			tasks: [{
+				id: "08836BB1C91B52A9"
+				item: "tropicraft:music_disc_trade_winds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "46DF762C8B2B06ED"
+			tasks: [{
+				id: "01E24EC1B40F87EF"
+				item: "tropicraft:music_disc_summering"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "49BDE2E66250D692"
+			tasks: [{
+				id: "4D4734C679C81A5D"
+				item: "ars_nouveau:music_disc_aria_biblio"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "11E0DBE053AC7DE3"
+			tasks: [{
+				id: "2E201A87FAF4D1F0"
+				item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "101B644371CEE61E"
+			tasks: [{
+				id: "5A5877812FCA3279"
+				item: "ars_nouveau:music_disc_firel_the_wild_hunt"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "4133CA340C6E359B"
+			tasks: [{
+				id: "6562C7833E063CDC"
+				item: "aether:music_disc_aether_tune"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "3BCDF3732EF13FAF"
+			tasks: [{
+				id: "5D8DD6E3A1577C1F"
+				item: "aether:music_disc_ascending_dawn"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "4A2AAC72DA487B08"
+			tasks: [{
+				id: "5062FB2721676F9F"
+				item: "aether_redux:ancient_sentrite_music_disc"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "43CBF1154EFB16E1"
+			tasks: [{
+				id: "717A382E360ECBA6"
+				item: "aether:music_disc_sliders_wrath"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			id: "42587662A4A69FAC"
+			tasks: [{
+				id: "662E547939E67411"
+				item: "alexsmobs:music_disc_thime"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			id: "553B120F46985F41"
+			tasks: [{
+				id: "0EF323D6FB748B7C"
+				item: "alexsmobs:music_disc_daze"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			id: "11D19CD4340B5746"
+			tasks: [{
+				id: "14544952462E0FEF"
+				item: "twilightforest:music_disc_thread"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			id: "37D16D44EE472CAB"
+			tasks: [{
+				id: "425254DACB9F2064"
+				item: "twilightforest:music_disc_findings"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "6BF4AFE6A5A4E3CF"
+			tasks: [{
+				id: "2DC6F7566FD577AD"
+				item: "twilightforest:music_disc_radiance"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			id: "05D6C0EAA2590F3F"
+			tasks: [{
+				id: "3E02E612A45C1E27"
+				item: "twilightforest:music_disc_steps"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			id: "7CFD0B6B6B569B52"
+			tasks: [{
+				id: "70BE31F9D0108EA4"
+				item: "twilightforest:music_disc_motion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "0F866325349E1789"
+			tasks: [{
+				id: "090E7A6558D225A5"
+				item: "twilightforest:music_disc_wayfarer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			id: "4D68F4CB15E7A0D6"
+			tasks: [{
+				id: "72C5E6C17CAA713A"
+				item: "twilightforest:music_disc_home"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			id: "4C9DE79447394677"
+			tasks: [{
+				id: "4D4053DAD296B3CD"
+				item: "twilightforest:music_disc_maker"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			id: "1FFCC2E0B8036722"
+			tasks: [{
+				id: "60640433E41EC1BF"
+				item: "twilightforest:music_disc_superstitious"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "6BC8AC62C317BFFF"
+			tasks: [{
+				id: "5DAD4B6C27C1F31C"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			id: "7FDC4DB2000CE405"
+			tasks: [{
+				id: "249BB8AA311C8789"
+				item: "cataclysm:music_disc_ender_guardian"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			id: "04017C455826744C"
+			tasks: [{
+				id: "3BDCB5AE2A30115B"
+				item: "cataclysm:music_disc_ignis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "773C8A205576C1E9"
+			tasks: [{
+				id: "086C08C81CF7E7F8"
+				item: "cataclysm:music_disc_the_harbinger"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "6205E511F35C0DC4"
+			tasks: [{
+				id: "2527504E1A59F33D"
+				item: "cataclysm:music_disc_the_leviathan"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "45B7003D445DF316"
+			tasks: [{
+				id: "7012686484674C09"
+				item: "cataclysm:music_disc_ancient_remnant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "0937E19874EA09E3"
+			tasks: [{
+				id: "7260764D851310FE"
+				item: "cataclysm:music_disc_maledictus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "733BB4514669EA1E"
+			tasks: [{
+				id: "28329192E4C61403"
+				item: "call_of_yucutan:music_disc_xibalba"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			id: "38776B7F1CD93F06"
+			tasks: [{
+				id: "214C18D53FAEECC5"
+				item: "call_of_yucutan:music_disc_awakening"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "6BB1DBB62F12636E"
+			tasks: [{
+				id: "3A40F5047BDA66AE"
+				item: "alexscaves:music_disc_fusion"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			id: "01295264E7500BA1"
+			tasks: [{
+				id: "4BB832BBC9F97224"
+				item: "alexscaves:music_disc_tasty"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			id: "3188B0DBDB66A575"
+			tasks: [{
+				id: "0ADD6AA70DA46F1E"
+				item: "supplementaries:music_disc_heave_ho"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			id: "0219FB0E8B57F262"
+			tasks: [{
+				id: "73D5CC1E5FF00CF9"
+				item: "supplementaries:pancake"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "03A4B1FC9758FFC2"
+			tasks: [{
+				id: "5AA8AE15FECFD38B"
+				item: "estrogen:estrogen_chip_cookie"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:music_disc"
+					}
+				}
+			}
+			icon_scale: 1.5d
+			id: "5A698E3B1E0D9ED5"
+			rewards: [{
+				id: "2BC09B6A10F790E3"
+				item: {
+					Count: 1
+					id: "trofers:small_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "kubejs:music_disc"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BA5CA389EEFA978"
+				title: "You did it"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+	]
+	title: "Trophies"
+}

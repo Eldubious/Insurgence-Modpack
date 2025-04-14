@@ -1,0 +1,86 @@
+{
+  "carvers": {
+    "air": "minecraft:nether_cave"
+  },
+  "downfall": 0,
+  "effects": {
+    "fog_color": 1787717,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.dripstone_caves"
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:ghast": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:skeleton": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:cod": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 5,
+        "minCount": 5,
+        "weight": 20
+      },
+      {
+        "type": "minecraft:ghast",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 50
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:cod",
+        "weight": 0,
+        "minCount": 2,
+        "maxCount": 0
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

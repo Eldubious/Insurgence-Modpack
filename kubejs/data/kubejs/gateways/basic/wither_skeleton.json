@@ -1,0 +1,114 @@
+{
+    "size": "small",
+    "color": "#111111",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 3
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 4800,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 4
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 4
+                }
+            ],
+            "max_wave_time": 4800,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:iron"
+                        }
+                    ],
+                    "count": 6
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 6
+                }
+            ],
+            "max_wave_time": 4800,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:wither_skeleton",
+                    "count": 6
+                },
+                {
+                    "entity": "minecraft:wither",
+                    "count": 1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:wither_skeleton",
+                    "rolls": 8
+                }
+            ],
+            "max_wave_time": 4800,
+            "setup_time": 200
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "id": "minecraft:nether_star"
+            }
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:mob_effect",
+            "effect": "minecraft:wither",
+            "duration": 1200,
+            "amplifier": 2
+        },
+        {
+            "type": "gateways:mob_effect",
+            "effect": "minecraft:blindness",
+            "duration": 200,
+            "amplifier": 2
+        }
+    ],
+    "spawn_algorithm": "gateways:open_field",
+    "rules": {
+        "player_damage_only": true
+    },
+    "boss_event": {
+        "mode": "boss_bar",
+        "fog": true
+    }
+}

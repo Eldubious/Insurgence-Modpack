@@ -1,0 +1,8 @@
+{
+    "type": "forbidden_arcanus:simple_item",
+    "amount": 40,
+    "essence_type": "souls",
+    "item": {
+        "item": "endrem:undead_soul"
+    }
+}

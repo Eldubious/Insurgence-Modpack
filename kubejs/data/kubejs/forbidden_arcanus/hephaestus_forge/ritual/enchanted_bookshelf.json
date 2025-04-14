@@ -1,0 +1,29 @@
+{
+    "additional_requirements": {
+        "forge_tier": 2
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 0,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 4,
+            "ingredient": {
+                "item": "minecraft:enchanted_book"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "minecraft:chiseled_bookshelf"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "experienceobelisk:enchanted_bookshelf"
+        }
+    }
+}

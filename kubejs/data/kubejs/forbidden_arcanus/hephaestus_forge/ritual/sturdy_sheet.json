@@ -1,0 +1,41 @@
+{
+    "additional_requirements": {
+        "forge_tier": 5
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 0,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:obsidian"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "forbidden_arcanus:obsidian_with_iron"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "alexsmobs:lava_bottle"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "forbidden_arcanus:obsidian_ingot"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 2,
+            "id": "create:sturdy_sheet"
+        }
+    }
+}

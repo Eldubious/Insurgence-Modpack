@@ -1,0 +1,1157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "3CFA5B714A0693A0"
+	icon: "ars_nouveau:summon_focus"
+	id: "7E9DF58BB0875247"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "71BE94EFA4ABD7FE"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 48L
+					id: "5D894DAABDA8DD9D"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "039AC52EE449D3DC"
+					item: { Count: 9, id: "forbidden_arcanus:arcane_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6E0A5F9F315A4AD9"
+					item: { Count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					type: "item"
+				}
+				{
+					id: "7CBC63CF06134016"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "59F5EB6D3EA1EF7A"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge: Tier 1"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"71BE94EFA4ABD7FE"
+				"64380E931525FE57"
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 2
+					}
+				}
+			}
+			id: "75A8BAC7D360635B"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "12E76B97927EA014"
+					item: { Count: 4, id: "forbidden_arcanus:spawner_scrap" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "045A4FE677482A98"
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					type: "item"
+				}
+				{
+					id: "6306D6F4451495A7"
+					item: "forbidden_arcanus:edelwood_planks"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge: Tier 2"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["75A8BAC7D360635B"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 3
+					}
+				}
+			}
+			id: "26397AB6AB546E7B"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "270E2546603017B2"
+					item: { Count: 4, id: "forbidden_arcanus:deorum_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C3D4254E578FB12"
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					type: "item"
+				}
+				{
+					id: "01300472145A0437"
+					item: "forbidden_arcanus:chiseled_polished_darkstone"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge: Tier 3"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26397AB6AB546E7B"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 4
+					}
+				}
+			}
+			id: "167DA3C75CC9605A"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A8FE60AC880602B"
+					item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "79C6A558889D47EB"
+					item: { Count: 4, id: "forbidden_arcanus:rune" }
+					type: "item"
+				}
+				{
+					id: "73F20E0E18AC56A3"
+					item: "forbidden_arcanus:chiseled_polished_darkstone"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge: Tier 4"
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["167DA3C75CC9605A"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 5
+					}
+				}
+			}
+			id: "5222EFFB9C348B21"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 2L
+					id: "651B9E93FF0A7A97"
+					item: { Count: 2, id: "forbidden_arcanus:dragon_scale" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "08EBEC774667717D"
+					item: { Count: 2, id: "forbidden_arcanus:dark_nether_star" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00C941DDF8042D4B"
+					item: { Count: 4, id: "minecraft:sculk_catalyst" }
+					type: "item"
+				}
+				{
+					id: "3336FD21E5B76076"
+					item: "forbidden_arcanus:stellarite_block"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge: Tier 5"
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["71BE94EFA4ABD7FE"]
+			id: "64380E931525FE57"
+			tasks: [{
+				id: "7B80FCB1EEC537EB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forbidden_arcanus:blacksmith_gavel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blacksmith Gavel"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "4253BA120B32172F"
+			shape: "diamond"
+			tasks: [{
+				id: "1DD271A919B069EC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "forbidden_arcanus:soul"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:corrupt_soul"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:enchanted_soul"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Souls"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			id: "2CFB1EC9500E0866"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0D85D394B6D9EE2A"
+					title: "Aureal"
+					type: "checkmark"
+				}
+				{
+					id: "2654290B91EB59B6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "forbidden_arcanus:aureal_bottle"
+								}
+								{
+									Count: 1b
+									id: "forbidden_arcanus:splash_aureal_bottle"
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:blood_test_tube"
+				tag: {
+					Blood: 3000
+				}
+			}
+			id: "5B10DC1CC441222A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "599162FA2CFA1E74"
+					title: "Blood"
+					type: "checkmark"
+				}
+				{
+					id: "3F7FDDFAD25512A5"
+					item: "forbidden_arcanus:test_tube"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "68BBDE71D103535B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "14A44B29DFA3A682"
+			shape: "diamond"
+			tasks: [{
+				id: "43DEF67113B71162"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:experience_bottle"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:xpetrified_orb"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Experience"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "68CD02D427506613"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "459D9F8EF1358CC0"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "0C1354323A0A6218"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "101181BDF10EE3B0"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "3F68B8ED1F80A41D"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "6761A06F8CE5D5C6"
+			tasks: [{
+				id: "7F0ACE0C930A054E"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "0AB6DFB611034353"
+			shape: "diamond"
+			tasks: [{
+				id: "0C3C4AEA80193F46"
+				item: {
+					Count: 1
+					id: "ars_elemental:spell_horn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "5F8064CA0460380F"
+			shape: "diamond"
+			tasks: [{
+				id: "68E6ADEBC9FE65C8"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "32CC81E38A884EB3"
+			shape: "diamond"
+			tasks: [{
+				id: "4D0F2EB70498F7E9"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "429408478CF70832"
+			shape: "diamond"
+			tasks: [{
+				id: "53376875D8CECFF5"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "14852635570A8E78"
+			shape: "diamond"
+			tasks: [{
+				id: "0F62C931A928E241"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "7A47CE97504C7FCE"
+			shape: "diamond"
+			tasks: [{
+				id: "7138B43DCBCBC064"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "41C4BF5E0D128327"
+			shape: "diamond"
+			tasks: [{
+				id: "10711959CAFC6652"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "42AA290F42467494"
+			shape: "diamond"
+			tasks: [{
+				id: "6D28C363B02134FE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "7248489FC172E065"
+			shape: "diamond"
+			tasks: [{
+				id: "252DA612C5B32D41"
+				item: {
+					Count: 1
+					id: "arsdelight:enchanters_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "0EBFAF0E677083EC"
+			shape: "diamond"
+			tasks: [{
+				id: "1FDB491DE4A25E78"
+				item: {
+					Count: 1
+					id: "not_enough_glyphs:spell_binder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C2C503B4BFDCA8D"]
+			id: "7D9F6E5F7B376D8C"
+			tasks: [{
+				id: "396411F972E60E37"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3C2C503B4BFDCA8D"]
+			id: "43785A7389C1D571"
+			tasks: [{
+				id: "5328912F79AF321A"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["43785A7389C1D571"]
+			id: "2C493D3407231BF8"
+			tasks: [{
+				id: "64A44958047B1C81"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7D9F6E5F7B376D8C"]
+			id: "1FA02BD909975290"
+			tasks: [{
+				id: "7771DB93B2642F67"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["634C7DED6FFDE58C"]
+			id: "2537096FBDD1B38A"
+			tasks: [{
+				id: "49CDDEC3EE675876"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["2537096FBDD1B38A"]
+			id: "4C5AD0901185CF6E"
+			tasks: [{
+				id: "280EF210F3CDF472"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2537096FBDD1B38A"]
+			id: "613E742FAA624E36"
+			tasks: [{
+				id: "16DF006024B2C284"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["77218F3840D1E191"]
+			id: "35037C1C8001B09F"
+			tasks: [{
+				id: "28BE53C08DCF6F1B"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["26397AB6AB546E7B"]
+			id: "5ABA6F936D8779FD"
+			tasks: [{
+				id: "36C6342D3AE19F2C"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5ABA6F936D8779FD"]
+			id: "108908433D1A8591"
+			tasks: [{
+				id: "7BC437A3E47C678E"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["108908433D1A8591"]
+			id: "58DAD9847210F7AC"
+			tasks: [{
+				id: "7A080F6A3B569A7B"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["108908433D1A8591"]
+			id: "11A5E56762E1DCFD"
+			tasks: [{
+				id: "1D929E82832A4C9B"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["26397AB6AB546E7B"]
+			id: "506B2EEDEDAC775D"
+			tasks: [{
+				id: "72113B1ADA1B024A"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["506B2EEDEDAC775D"]
+			id: "0B7A049335EDB19B"
+			tasks: [{
+				id: "0E6FCC4D68117B67"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0B7A049335EDB19B"]
+			id: "374E99416D5292C8"
+			tasks: [{
+				id: "245811CA9C624F7F"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0B7A049335EDB19B"]
+			id: "5F62DEBEDC266D50"
+			tasks: [{
+				id: "4D19F76E0F2ACA18"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["45E47C14B3A39CAA"]
+			id: "77218F3840D1E191"
+			tasks: [{
+				id: "1F10AE23B89CDF4F"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["167DA3C75CC9605A"]
+			id: "45E47C14B3A39CAA"
+			tasks: [{
+				id: "02C510F5155C1696"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			id: "078452165202C2BB"
+			subtitle: "&a-15  &r&c+100%"
+			tasks: [{
+				id: "7B49F20FD1EB43B1"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			id: "6E44A8E2D40B2864"
+			tasks: [{
+				id: "0350501062A9C50C"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			id: "076AEF8CBE27361C"
+			tasks: [{
+				id: "4815BA442E3615F9"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["167DA3C75CC9605A"]
+			id: "2463EADEB90BE144"
+			tasks: [{
+				id: "116F5EE00F305FBC"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2463EADEB90BE144"]
+			id: "79038DE30FE9513E"
+			tasks: [{
+				id: "44743A497E12B169"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["167DA3C75CC9605A"]
+			id: "58E21243BEFFE2DA"
+			tasks: [{
+				id: "7A3702A343FFCEA9"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3C2C503B4BFDCA8D"]
+			id: "2FABABDA1C8B36D8"
+			tasks: [{
+				id: "0D1A0B8CFBFB1CAD"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["5222EFFB9C348B21"]
+			id: "35B726C678D2304C"
+			tasks: [{
+				id: "14ED49F29B926C1E"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["35B726C678D2304C"]
+			id: "3C2C503B4BFDCA8D"
+			tasks: [{
+				id: "297A88B031EE6A11"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"1FA02BD909975290"
+				"2C493D3407231BF8"
+			]
+			dependency_requirement: "one_completed"
+			id: "634C7DED6FFDE58C"
+			tasks: [{
+				id: "75D18CE5AA6EE0AC"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["75A8BAC7D360635B"]
+			id: "6DAB7DD930F91C65"
+			tasks: [{
+				id: "30F96E9712BE8AD8"
+				item: "experienceobelisk:archivers_bookshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["75A8BAC7D360635B"]
+			id: "66A32D3A81D45891"
+			tasks: [{
+				id: "620D1C6D4120728F"
+				item: "experienceobelisk:enchanted_bookshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["75A8BAC7D360635B"]
+			id: "4C2182F55668E933"
+			tasks: [{
+				id: "6EDD485571C5D74B"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			icon: "minecraft:lime_candle"
+			id: "51903C2403D728B6"
+			shape: "diamond"
+			tasks: [{
+				id: "25B0FE28976B70D0"
+				title: "&a&lEterna"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:purple_candle"
+			id: "346A3B4116992486"
+			shape: "diamond"
+			tasks: [{
+				id: "4FBC1A3774F2CEF8"
+				title: "&5&lArcana"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			icon: "minecraft:red_candle"
+			id: "18728C162E4DB57A"
+			shape: "diamond"
+			tasks: [{
+				id: "62502E4D621004A2"
+				title: "&c&lQuanta"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["399F5A95ED4A5ADA"]
+			id: "556E6AF2B5F4B46C"
+			tasks: [{
+				id: "203D0430A45E351A"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4C2182F55668E933"]
+			id: "399F5A95ED4A5ADA"
+			tasks: [
+				{
+					id: "1E6AD9D3DA9F38D4"
+					item: "architects_palette:cerebral_plate"
+					type: "item"
+				}
+				{
+					id: "2EECCC6726E9E5A7"
+					item: "experienceobelisk:forgotten_dust"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["353BC87FB38D9AD1"]
+			id: "35D02AAB8417B8D3"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "55D0BAC716B6DE47"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35D02AAB8417B8D3"]
+			id: "246E94E9C803405A"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "41F66B45905CDEAC"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"246E94E9C803405A"
+				"1CD0163A40E4BD9C"
+			]
+			id: "0846ED4DE1308E2D"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "737DF8222017CC42"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0846ED4DE1308E2D"]
+			id: "1BE3A6E9C2FDF657"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "4B7EF018FEFF013D"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			id: "289D85B5DB749BF4"
+			tasks: [
+				{
+					id: "7A0F4A896541CC51"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "51DF2046F022B7EE"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "4D6B7860D194F056"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "313F7CE17271E9AE"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "666266A9B4472FE2"
+					item: "ars_elemental:yellow_archwood_sapling"
+					type: "item"
+				}
+			]
+			title: "Archwood Saplings"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "49A8B61D652229BF"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3B08461B71254E7D"
+				title: "Spellcasting"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49A8B61D652229BF"]
+			id: "353BC87FB38D9AD1"
+			shape: "rsquare"
+			tasks: [{
+				id: "64E05F55860D0C28"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49A8B61D652229BF"]
+			id: "0A829FA625464AB1"
+			shape: "rsquare"
+			tasks: [{
+				id: "7E6009112578E885"
+				title: "Iron's Spells \\& Spellbooks"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49A8B61D652229BF"]
+			id: "2D11DE2C1108B8FC"
+			shape: "rsquare"
+			tasks: [{
+				id: "169422C43BCEE353"
+				title: "Hex Casting"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["353BC87FB38D9AD1"]
+			id: "29AAF286D0A155F7"
+			tasks: [{
+				id: "69557C8FD054D8C4"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["353BC87FB38D9AD1"]
+			id: "13D146DB47BFA059"
+			tasks: [{
+				id: "6C6AC51C31180722"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F25453421DB581B"]
+			id: "1CD0163A40E4BD9C"
+			tasks: [{
+				id: "06AF45F8D322554B"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "6F25453421DB581B"
+			tasks: [{
+				id: "3F14981B9D1734BF"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"108908433D1A8591"
+				"0B7A049335EDB19B"
+			]
+			id: "78A560C85E878DFC"
+			tasks: [{
+				id: "1F9CBF9935C3B0C1"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.0d
+		}
+	]
+	title: "Magic"
+}

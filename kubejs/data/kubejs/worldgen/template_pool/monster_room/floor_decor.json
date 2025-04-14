@@ -1,0 +1,113 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_2",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_3",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_4",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_5",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_6",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_7",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_8",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_9",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_10",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_11",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/floor_12",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

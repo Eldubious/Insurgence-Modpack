@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "#C7AD5D",
+        "translate": "trophy.kubejs.create"
+    },
+    "item": {
+        "item": "create:brass_hand"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#C7AD5D"
+    }
+}

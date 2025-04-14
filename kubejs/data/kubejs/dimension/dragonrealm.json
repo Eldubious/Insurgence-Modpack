@@ -1,0 +1,240 @@
+{
+  "type": "kubejs:dragonrealm",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "kubejs:dragonrealm",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "regions_unexplored:temperate_grove",
+          "parameters": {
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:grassland",
+          "parameters": {
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": -0.07,
+            "offset": 0,
+            "temperature": 0.1,
+            "weirdness": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:silver_birch_forest",
+          "parameters": {
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": -0.2,
+            "offset": 0,
+            "temperature": -0.5,
+            "weirdness": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:marsh",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.75,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:rocky_meadow",
+          "parameters": {
+            "temperature": -0.02,
+            "humidity": 0.22,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:mauve_hills",
+          "parameters": {
+            "temperature": 0.08,
+            "humidity": -0.03,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:maple_forest",
+          "parameters": {
+            "temperature": 0.15,
+            "humidity": -0.3,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:autumnal_maple_forest",
+          "parameters": {
+            "temperature": 0.15,
+            "humidity": -0.32,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:spires",
+          "parameters": {
+            "temperature": -0.9,
+            "humidity": -0.2,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:frozen_tundra",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.7,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:frozen_pine_taiga",
+          "parameters": {
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0.58,
+            "offset": 0.175,
+            "temperature": -0.7,
+            "weirdness": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:icy_heights",
+          "parameters": {
+            "temperature": -0.72,
+            "humidity": 0.7,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "regions_unexplored:clover_plains",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": -0.25,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:highland_fields",
+          "parameters": {
+            "temperature": -0.26,
+            "humidity": -0.26,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:barley_fields",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -0.37,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:poppy_fields",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -0.25,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:rainforest",
+          "parameters": {
+            "temperature": 0.55,
+            "humidity": 0.7,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "regions_unexplored:sparse_rainforest",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.7,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:eucalyptus_forest",
+          "parameters": {
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0.72,
+            "offset": 0,
+            "temperature": 0.54,
+            "weirdness": 0
+          }
+        }
+      ]
+    }
+  }
+}

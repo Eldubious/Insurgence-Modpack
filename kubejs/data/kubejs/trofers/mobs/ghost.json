@@ -1,0 +1,24 @@
+{
+  "name": {
+    "color": "#E0F3F0",
+    "translate": "trophy.trofers.composed",
+    "with": [{
+      "translate": "entity.iceandfire.ghost"
+    }]
+  }, 
+  "entity": {
+    "type": "iceandfire:ghost"
+  },
+  "display": {
+    "scale": 0.25
+  },
+  "colors": {
+    "accent": "#E0F3F0",
+    "base": "#606060"
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "iceandfire:ghost_idle"
+    }
+  }
+}

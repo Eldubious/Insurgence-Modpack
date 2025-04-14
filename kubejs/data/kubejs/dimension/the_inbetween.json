@@ -1,0 +1,12 @@
+{
+    "type": "kubejs:the_inbetween",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "kubejs:the_inbetween",
+            "layers": [],
+            "features": false,
+            "lakes": false
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	hide_tooltip: true
+	id: "237B450940CD8046"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:sentry_armor_trim_smithing_template", weight: 10.0f }
+		{ item: "minecraft:vex_armor_trim_smithing_template", weight: 2.5f }
+		{ item: "minecraft:wild_armor_trim_smithing_template", weight: 7.0f }
+		{ item: "minecraft:coast_armor_trim_smithing_template", weight: 10.0f }
+		{ item: "minecraft:dune_armor_trim_smithing_template", weight: 7.0f }
+		{ item: "minecraft:wayfinder_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:raiser_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:shaper_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:host_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:ward_armor_trim_smithing_template" }
+		{ item: "minecraft:silence_armor_trim_smithing_template" }
+		{ item: "minecraft:tide_armor_trim_smithing_template", weight: 7.0f }
+		{ item: "minecraft:snout_armor_trim_smithing_template", weight: 2.5f }
+		{ item: "minecraft:rib_armor_trim_smithing_template", weight: 2.5f }
+		{ item: "minecraft:eye_armor_trim_smithing_template", weight: 2.5f }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "alexscaves:polarity_armor_trim_smithing_template" }
+		{ item: "unusualend:ancient_armor_trim_smithing_template" }
+	]
+	title: "Random Smithing Template"
+}

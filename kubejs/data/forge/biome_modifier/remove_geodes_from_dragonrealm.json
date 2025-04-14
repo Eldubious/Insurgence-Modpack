@@ -1,0 +1,6 @@
+{
+    "type": "forge:remove_features",
+    "biomes": "#kubejs:is_dragonrealm",
+    "features": "minecraft:amethyst_geode",
+    "step": "local_modifications"
+}

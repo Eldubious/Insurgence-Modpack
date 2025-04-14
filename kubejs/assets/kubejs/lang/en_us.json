@@ -1,0 +1,20 @@
+{
+    "item.kubejs.enchant_catalyst": "Enchanting Catalyst",
+    "item.kubejs.dimension_gem_common": "Common Dimensional Gem",
+    "item.kubejs.dimension_gem_uncommon": "Uncommon Dimensional Gem",
+    "item.kubejs.dimension_gem_rare": "Rare Dimensional Gem",
+    "item.kubejs.dimension_gem_epic": "Epic Dimensional Gem",
+    "item.kubejs.dimension_gem_legendary": "Legendary Dimensional Gem",
+    
+    "block.kubejs.depths_portal": "The Depths Portal",
+    "block.kubejs.dragon_portal": "Dragonrealm Portal",
+    "block.kubejs.inbetween_portal": "The Inbetween Portal",
+    
+    "trim_material.kubejs.ender": "Ender Pearl Material",
+    "trim_material.kubejs.pink": "Pink Dye Material",
+
+    "biome.kubejs.the_inbetween": "The Inbetween",
+    
+    "trophy.kubejs.winner": "Winner's Trophy",
+    "trophy.kubejs.music_disc": "Record Collector Trophy"   
+}

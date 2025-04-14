@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "aqua",
+        "translate": "trophy.kubejs.music_disc"
+    },
+    "item": {
+        "item": "minecraft:music_disc_otherside"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#55FFFF"
+    }
+}

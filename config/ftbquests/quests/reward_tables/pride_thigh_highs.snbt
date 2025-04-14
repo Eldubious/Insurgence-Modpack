@@ -1,0 +1,169 @@
+{
+	id: "691859D5617CB2B6"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:trans"
+				}
+			}
+			title: "Thigh Highs (Transgender)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:pride"
+				}
+			}
+			title: "Thigh Highs (Pride)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:polysexual"
+				}
+			}
+			title: "Thigh Highs (Polysexual)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:pansexual"
+				}
+			}
+			title: "Thigh Highs (Pansexual)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:lesbian"
+				}
+			}
+			title: "Thigh Highs (Lesbian)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:genderqueer"
+				}
+			}
+			title: "Thigh Highs (Genderqueer)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:aromantic"
+				}
+			}
+			title: "Thigh Highs (Aromantic)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:non_binary"
+				}
+			}
+			title: "Thigh Highs (Non-Binary)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:bisexual"
+				}
+			}
+			title: "Thigh Highs (Bisexual)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:asexual"
+				}
+			}
+			title: "Thigh Highs (Asexual)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:vincian"
+				}
+			}
+			title: "Thigh Highs (Vincian)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:genderfluid"
+				}
+			}
+			title: "Thigh Highs (Genderfluid)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:agender"
+				}
+			}
+			title: "Thigh Highs (Agender)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:intersex"
+				}
+			}
+			title: "Thigh Highs (Intersex)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:demisexual"
+				}
+			}
+			title: "Thigh Highs (Demisexual)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:polyamorous"
+				}
+			}
+			title: "Thigh Highs (Polyamorous)"
+		}
+		{ item: "estrogen:thigh_highs" }
+	]
+	title: "Thigh Highs"
+}

@@ -1,0 +1,13 @@
+{
+    "name": {
+        "color": "gold",
+        "translate": "trophy.kubejs.winner"
+    },
+    "item": {
+        "item": "minecraft:command_block"
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#FFAA00"
+    }
+}

@@ -1,0 +1,763 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i_eyes_of_ender"
+	group: "1CF0BF9967B6E091"
+	id: "7013B426C011FE04"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2591142E4D80076C"]
+			id: "028BD0B18C0778C3"
+			tasks: [{
+				id: "3EC2AF63ABCEE22A"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2591142E4D80076C"
+			tasks: [{
+				id: "31BDE90062E5151E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Punch Wood"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["028BD0B18C0778C3"]
+			id: "16D424DA9B3FB2D9"
+			tasks: [{
+				id: "1D763B76EF29721B"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16D424DA9B3FB2D9"]
+			id: "29170DA1A1C2AE08"
+			tasks: [{
+				id: "469E20AC56020222"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Please note that these eyes cannot be used to activate the end portal and are only used to locate specific structures in the Cataclysm Mod."]
+			id: "14B3AC1E95249036"
+			tasks: [{
+				id: "06A811EF388C78BE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:mech_eye"
+							}
+							{
+								Count: 1b
+								id: "cataclysm:flame_eye"
+							}
+							{
+								Count: 1b
+								id: "cataclysm:void_eye"
+							}
+							{
+								Count: 1b
+								id: "cataclysm:monstrous_eye"
+							}
+							{
+								Count: 1b
+								id: "cataclysm:abyss_eye"
+							}
+							{
+								Count: 1b
+								id: "cataclysm:desert_eye"
+							}
+							{
+								Count: 1b
+								id: "cataclysm:cursed_eye"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Cataclysm Eyes"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "0D84E48E84D4AB37"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0CB53243A228BF42"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			id: "4E251B6663E4D15A"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "457E4A0010F2E8C4"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			id: "77BC926446ABCB11"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2CD6C8606D2DA67D"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41CF7655025B88E9"]
+			dependency_requirement: "one_completed"
+			id: "63575EE03B1455A4"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0AA9C956B08F1507"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			id: "1B05B422B498B2E2"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "298B1233825D4F25"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			id: "59DDC7277CB358F1"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2CF79983F60B753C"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["273A97292F172154"]
+			dependency_requirement: "one_completed"
+			id: "4F51D68031806B89"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3C94E4740FF25380"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3342E366D677026B"]
+			dependency_requirement: "one_completed"
+			id: "318E78A15B16C2A3"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7AF2B60525CCDAF2"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4D5676EBC209B585"]
+			dependency_requirement: "one_completed"
+			id: "6E2BE194B9FA1348"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4808A0F65F3E113F"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			id: "244042B5A65D4E45"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2180D36C344D55C0"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3D35E639441259C8"
+				"41A41739C8CF6BC7"
+			]
+			dependency_requirement: "one_completed"
+			id: "4612DF45B7A0C5A4"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3CDB950D754EBF1E"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"07337E96BC786D06"
+				"70CB4041AEFBE371"
+			]
+			dependency_requirement: "one_completed"
+			id: "0EDEBEEBAABD1CF1"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "59A255F4B632DE52"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["26807E6B797EA05E"]
+			dependency_requirement: "one_completed"
+			id: "254170FE6F37010E"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "29ED793613C2F0C4"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["011AF9D111D31577"]
+			id: "4346CA9CC61254AE"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "17E3BA80C0E88DC4"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "47249D2950480CBC"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4636DA7DD1C5D3F5"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "7E6F73345F5B2322"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "464BEDF8F5E57505"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -12.0d
+		}
+		{
+			id: "41CF7655025B88E9"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "10A369AD7ACB6E7A"
+					item: "oceanic_delight:elder_guardian_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B148B3F91F4B86E"
+					item: { Count: 2, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3E56DD30D4A894DE"
+					item: { Count: 2, id: "minecraft:prismarine_crystals" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "09EAB525321244BB"
+					item: { Count: 4, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+			]
+			title: "Guardian Eye Ingredients"
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			id: "273A97292F172154"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "16D668C8948F64AE"
+					item: "endrem:witch_pupil"
+					type: "item"
+				}
+				{
+					id: "7D7B8356EFA61517"
+					item: "alexscaves:radiant_essence"
+					type: "item"
+				}
+				{
+					id: "235407D6FE2A6598"
+					item: "alexscaves:vanilla_ice_cream_scoop"
+					type: "item"
+				}
+				{
+					id: "4771EFA17098A170"
+					item: "alexscaves:chocolate_ice_cream_scoop"
+					type: "item"
+				}
+				{
+					id: "33B2CD1EBCD4BA7D"
+					item: "alexscaves:sweetberry_ice_cream_scoop"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E1AE539309D63DA"
+					item: { Count: 4, id: "alexscaves:licoroot_vine" }
+					type: "item"
+				}
+			]
+			title: "Witch Eye Ingredients"
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			id: "26807E6B797EA05E"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "20FE910DD83D59C0"
+					item: {
+						Count: 1
+						id: "alexscaves:gazing_pearl"
+						tag: {
+							HasReputation: 1b
+							LastReputationTimestamp: 53665L
+							Reputation: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7A00412FAB56D40F"
+					item: { Count: 3, id: "alexscaves:marine_snow" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5F50A6A2F4EF77BD"
+					item: { Count: 5, id: "minecraft:ink_sac" }
+					type: "item"
+				}
+			]
+			title: "Black Eye Ingredients"
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			id: "3342E366D677026B"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "57F070C03EFB9628"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					id: "5CBA2B366AA09457"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "39E116806299D71F"
+					item: { Count: 3, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7116B98CBE08CA44"
+					item: { Count: 4, id: "twilightforest:knightmetal_ingot" }
+					type: "item"
+				}
+			]
+			title: "Undead Eye Ingredients"
+			x: 12.0d
+			y: -11.0d
+		}
+		{
+			id: "07337E96BC786D06"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "318DF28B3A9F0926"
+					item: "alexscaves:telecore"
+					type: "item"
+				}
+				{
+					id: "1C2435BA92968859"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+				{
+					id: "482CF4C1C1AEB802"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "10F3A17429D36FB5"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4C4624016C8AE201"
+					item: { Count: 5, id: "alexscaves:ferrouslime_ball" }
+					type: "item"
+				}
+			]
+			title: "Lost Eye Ingredients"
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			id: "4D5676EBC209B585"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "3244DB216118D560"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "68DE633AF975CF8C"
+					item: "minecraft:fire_coral"
+					type: "item"
+				}
+				{
+					id: "780626117403AB28"
+					item: "minecraft:bubble_coral"
+					type: "item"
+				}
+				{
+					id: "0AC3BD9E802B6B63"
+					item: "minecraft:tube_coral"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "57AF8030924B987E"
+					item: { Count: 2, id: "minecraft:horn_coral" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44E4803F57423DDF"
+					item: { Count: 2, id: "ars_elemental:siren_shards" }
+					type: "item"
+				}
+				{
+					id: "2CD3613606889614"
+					item: "oceanic_delight:stuffed_pufferfish"
+					type: "item"
+				}
+			]
+			title: "Exotic Eye Ingredients"
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			id: "70CB4041AEFBE371"
+			shape: "diamond"
+			subtitle: "&8&oOption 2"
+			tasks: [
+				{
+					id: "5DEBBDF68BEE97E1"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "7F8D48BED1AE6F7B"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "5058193F6A90E3A5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Lost Eye Ingredients"
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			id: "41A41739C8CF6BC7"
+			shape: "diamond"
+			subtitle: "&8&oOption 1"
+			tasks: [
+				{
+					id: "2510C0E811427770"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A3B4D9B7FC66FD5"
+					item: { Count: 2, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0FB7DEAB32D5DF0C"
+					item: { Count: 3, id: "architects_palette:sunmetal_brick" }
+					type: "item"
+				}
+				{
+					id: "0590389597F552CC"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "662511AA1F0A66B9"
+					item: { Count: 2, id: "minecraft:nether_bricks" }
+					type: "item"
+				}
+			]
+			title: "Nether Eye Ingredients"
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			id: "3D35E639441259C8"
+			shape: "diamond"
+			subtitle: "&8&oOption 2"
+			tasks: [
+				{
+					id: "7932EA5EC728FBB0"
+					item: "rubinated_nether:molten_ruby_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7679CF452BDF9F55"
+					item: { Count: 2, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7A5FD6A393E7D156"
+					item: { Count: 3, id: "ars_nouveau:fire_essence" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6BA5B3E92659E5E2"
+					item: { Count: 3, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			title: "Nether Eye Ingredients"
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			id: "011AF9D111D31577"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4DDA37AD73341B5B"
+					item: "aether:freezer"
+					type: "item"
+				}
+				{
+					id: "23EB24FA06EE17C7"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -8.0d
+		}
+	]
+	title: "Chapter I: Eyes of Ender"
+}

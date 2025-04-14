@@ -1,0 +1,11 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "kubejs:has_structure/fire_dragon_nest"
+      }
+    ]
+  ]
+}

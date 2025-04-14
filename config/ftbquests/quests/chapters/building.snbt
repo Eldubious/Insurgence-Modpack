@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "3CFA5B714A0693A0"
+	id: "530B4D067B8FC97F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "54FD155C3FDB09BA"
+			tasks: [{
+				id: "07D8907ECC12112E"
+				title: "Building tips"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "48A7DDE66C5DFE43"
+			rewards: [
+				{
+					id: "4451866DE8AB764D"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "33AF3F4D626CB9DE"
+					item: "tropicraft:red_mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "366706B29963667F"
+					item: "tropicraft:tall_mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "32B213863C328F03"
+					item: "tropicraft:tea_mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "310B62F8837A9616"
+					item: "tropicraft:black_mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "2CD6E230C98BCAE1"
+					item: "twilightforest:mangrove_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22AD6888317F8BB9"
+					item: "minecraft:mangrove_planks"
+					type: "item"
+				}
+				{
+					id: "1576145319271ACE"
+					item: "tropicraft:mangrove_planks"
+					type: "item"
+				}
+				{
+					id: "78906F3D7896B99B"
+					item: "twilightforest:mangrove_planks"
+					type: "item"
+				}
+			]
+			title: "The Three Shades of Mangrove Planks"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "1DE3E7D0ADCAE70D"
+			tasks: [{
+				id: "73A145D83BAE5908"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "34D1C90EF8B86D14"
+			tasks: [{
+				id: "7D3B44BAAE099872"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "create:copycat_step"
+										}
+										{
+											Count: 1b
+											id: "create:copycat_panel"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_block"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_slab"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_stairs"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_stairs"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_fence"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_wall"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_step"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_beam"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_slice"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_slice"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_corner_slice"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_ghost_block"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_half_panel"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_pane"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_flat_pane"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_byte"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_byte_panel"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_board"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_catwalk"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_box"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_half_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_half_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_stacked_half_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_slope"
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_vertical_slope"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_slope_layer"
+							}
+						]
+					}
+				}
+				title: "Copycat Blocks: Decorative"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "5A9E9CFC93A700B3"
+			tasks: [{
+				id: "2AB9471A8E3AB792"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "copycats:copycat_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_iron_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_sliding_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_folding_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_trapdoor"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_iron_trapdoor"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_fence_gate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_wooden_button"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_stone_button"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_wooden_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_stone_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_light_weighted_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_heavy_weighted_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_ladder"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_shaft"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_cogwheel"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_large_cogwheel"
+							}
+						]
+					}
+				}
+				title: "Copycat Blocks: Functional"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "536EE47B8AEEA015"
+			tasks: [{
+				id: "0E7D9D7572498C51"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "arts_and_crafts:paintbrushes"
+					}
+				}
+				title: "Paintbrushes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "5D8A2369208F4B14"
+			tasks: [{
+				id: "656564897CBFFCD6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "arts_and_crafts:chalk_sticks"
+					}
+				}
+				title: "Chalk Sticks"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	title: "Building"
+}

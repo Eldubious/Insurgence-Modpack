@@ -1,0 +1,28 @@
+{
+    "has_precipitation": false,
+    "temperature": 0,
+    "downfall": 1,
+    "effects": {
+        "fog_color": 1059929,
+        "sky_color": 2230636,
+        "water_color": 6565049,
+        "water_fog_color": 4595076,
+        "particle": {
+            "probability": 0.002,
+            "options": {
+                "type": "minecraft:white_ash"
+            }
+        },
+        "music": {
+            "sound": "music.overworld.deep_dark",
+            "min_delay": 500,
+            "max_delay": 1000,
+            "replace_current_music": false
+        }
+    },
+    "carvers": {},
+    "features": [],
+    "creature_spawn_probability": 0.0,
+    "spawners": {},
+    "spawn_costs": {}
+}

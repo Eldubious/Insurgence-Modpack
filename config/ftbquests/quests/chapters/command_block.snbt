@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "command_block"
+	group: "1CF0BF9967B6E091"
+	icon: "witherstormmod:command_block_book"
+	id: "5060EEC4ED6725AA"
+	order_index: 1
+	quest_links: [{
+		id: "00E0C1AF24468420"
+		linked_quest: "71F2AF85715C84CE"
+		shape: "pentagon"
+		size: 1.5d
+		x: 4.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			id: "525D2A396FFFDAC2"
+			tasks: [{
+				id: "268531A7BC06A031"
+				title: "Command Block"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2BB131B790A6A6AF"
+				"6DE14536CD3E0D8C"
+				"75EA51C75C4E6F91"
+				"2CAD77E4AF9C4220"
+				"767386982B084F5D"
+				"77BBB0B271A4C8B4"
+				"6019838D64FC79D5"
+				"4E6F2B9CB624394C"
+				"745FC63E15FD4A49"
+				"71F2AF85715C84CE"
+			]
+			id: "52BD91BCCE447C45"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1441634DC7A0F18D"
+				item: "architects_palette:unobtanium_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52BD91BCCE447C45"]
+			disable_toast: true
+			id: "225F1DADD3684C32"
+			optional: true
+			tasks: [{
+				id: "7C76A998C0BEDC87"
+				title: "Duplicating Unobtanium"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "2BB131B790A6A6AF"
+			tasks: [{
+				id: "6169F4AAA3DD5D7B"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "4E6F2B9CB624394C"
+			tasks: [{
+				count: 4L
+				id: "72E47CF719FD1AB1"
+				item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "767386982B084F5D"
+			tasks: [{
+				count: 4L
+				id: "169F6E58234A8BA2"
+				item: { Count: 4, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "745FC63E15FD4A49"
+			tasks: [{
+				count: 4L
+				id: "31D1489571AFE4D2"
+				item: { Count: 4, id: "traveloptics:void_spellweave_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "6DE14536CD3E0D8C"
+			tasks: [{
+				count: 4L
+				id: "086C23C631C0968B"
+				item: { Count: 4, id: "samurai_dynasty:amethyst_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "6019838D64FC79D5"
+			tasks: [{
+				count: 4L
+				id: "304FB9344721ABDE"
+				item: { Count: 4, id: "unusualend:pearlescent_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "77BBB0B271A4C8B4"
+			tasks: [{
+				count: 4L
+				id: "5CBA6B2EECDFE8AC"
+				item: { Count: 4, id: "forbidden_arcanus:obsidian_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "75EA51C75C4E6F91"
+			tasks: [{
+				count: 4L
+				id: "7B11604FE446974D"
+				item: { Count: 4, id: "irons_spellbooks:arcane_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "2CAD77E4AF9C4220"
+			tasks: [{
+				count: 4L
+				id: "7FFB11F0923595AB"
+				item: { Count: 4, id: "experienceobelisk:cognitive_alloy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			icon: "dimdungeons:item_portal_key"
+			id: "0BD15CC781F69834"
+			size: 1.2d
+			tasks: [
+				{
+					id: "461C4C8C49D03271"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "01281A6BDFCEA233"
+					item: "dimdungeons:block_key_charger"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Creating Portal Keys"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"52BD91BCCE447C45"
+				"375F95F85CEB2F17"
+			]
+			id: "4EC3DFF09750A710"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "136BAAF3646CD0F8"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["499F11C723DB76E6"]
+			id: "375F95F85CEB2F17"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4C500D35E469B490"
+				item: "kubejs:dimension_gem_legendary"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EC3DFF09750A710"]
+			id: "565D06C38AD6EF80"
+			subtitle: "&8&oBelly of the Beast"
+			tasks: [{
+				dimension: "witherstormmod:bowels"
+				icon: "witherstormmod:tainted_flesh_block"
+				id: "02E4E062E84F86A6"
+				type: "dimension"
+			}]
+			title: "Entering the Wither Storm"
+			x: 17.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"0BD15CC781F69834"
+				"4907442471DEB3E2"
+			]
+			id: "23324F0768507D9C"
+			size: 1.5d
+			tasks: [{
+				dimension: "dimdungeons:dungeon_dimension"
+				id: "4E65CA9AA51DCE0B"
+				type: "dimension"
+			}]
+			title: "Enter the Dimensional Dungeons"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			id: "499F11C723DB76E6"
+			size: 1.2d
+			tasks: [{
+				id: "1D2593521547FFAA"
+				item: "dimdungeons:item_blank_advanced_key"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "4907442471DEB3E2"
+			size: 1.2d
+			tasks: [
+				{
+					id: "4D51574C696C4D13"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "563FE1B400765590"
+					item: { Count: 2, id: "dimdungeons:block_gilded_portal" }
+					type: "item"
+				}
+			]
+			title: "Creating the Dungeon Portal"
+			x: 5.0d
+			y: -3.5d
+		}
+	]
+	title: "Command Block"
+}

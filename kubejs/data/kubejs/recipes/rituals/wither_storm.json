@@ -1,0 +1,14 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "minecraft:command_block" },
+    "outputs": [
+        { "mob": "witherstormmod:wither_storm", "offset": { "x": 0, "y": 1, "z": 0 }}
+    ],
+    "inputs": [
+        { "ingredient": { "item": "minecraft:wither_skeleton_skull" }, "count": 3 },
+        { "ingredient": { "item": "minecraft:soul_sand" }, "count": 3 },
+        { "ingredient": { "item": "iceandfire:witherbone" }, "count": 3 },
+        { "item": "forbidden_arcanus:dark_nether_star" }
+    ],
+    "recipe_time": 200
+}

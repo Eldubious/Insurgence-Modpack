@@ -1,0 +1,144 @@
+{
+    "type": "kubejs:the_depths",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "kubejs:the_depths",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                "biome": "kubejs:calcite_caves",
+                "parameters": {
+                    "continentalness": 0,
+                    "depth": 0,
+                    "erosion": 0,
+                    "humidity": 0,
+                    "offset": 0,
+                    "temperature": 0,
+                    "weirdness": 0
+                }
+                },
+                {
+                "biome": "kubejs:asurite_caves",
+                "parameters": {
+                    "continentalness": 0,
+                    "depth": 0,
+                    "erosion": 0.5,
+                    "humidity": 0.5,
+                    "offset": 0,
+                    "temperature": 0,
+                    "weirdness": 0
+                }
+                },
+                {
+                "biome": "minecraft:dark_forest",
+                "parameters": {
+                    "continentalness": 0,
+                    "depth": 0,
+                    "erosion": 0,
+                    "humidity": 0,
+                    "offset": 0,
+                    "temperature": 0.4,
+                    "weirdness": 0
+                }
+                },
+                {
+                "biome": "minecraft:deep_dark",
+                "parameters": {
+                    "continentalness": 0,
+                    "weirdness": 0,
+                    "depth": 1.1,
+                    "erosion": 0.6,
+                    "humidity": 0,
+                    "offset": 0,
+                    "temperature": 0
+                }
+                },
+                {
+                "biome": "regions_unexplored:chalk_cliffs",
+                "parameters": {
+                    "continentalness": 0,
+                    "depth": 0,
+                    "erosion": 0,
+                    "humidity": 0,
+                    "offset": 0.175,
+                    "temperature": -0.5,
+                    "weirdness": 0
+                }
+                },
+                {
+                "biome": "regions_unexplored:prismachasm",
+                "parameters": {
+                    "temperature": -0.5,
+                    "humidity": 0.5,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0,
+                    "offset": 0
+                }
+                },
+                {
+                "biome": "regions_unexplored:redstone_caves",
+                "parameters": {
+                    "temperature": -0.5,
+                    "humidity": -0.5,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0,
+                    "offset": 0
+                }
+                },
+                {
+                "biome": "regions_unexplored:ancient_delta",
+                "parameters": {
+                    "temperature": 0,
+                    "humidity": 0.5,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0,
+                    "offset": 0
+                }
+                },
+                {
+                "biome": "minecraft:lush_caves",
+                "parameters": {
+                    "temperature": 0.4,
+                    "humidity": 0.25,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0,
+                    "offset": 0
+                }
+                },
+                {
+                  "biome": "minecraft:badlands",
+                  "parameters": {
+                    "temperature": 1,
+                    "humidity": -0.5,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0,
+                    "offset": 0
+                  }
+                },
+                {
+                  "biome": "minecraft:basalt_deltas",
+                  "parameters": {
+                    "temperature": 1,
+                    "humidity": 0,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0,
+                    "depth": 0.4,
+                    "offset": 0
+                  }
+                }
+            ]
+        }
+    }
+}

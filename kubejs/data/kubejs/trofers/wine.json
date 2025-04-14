@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "dark_purple",
+        "translate": "trophy.kubejs.wine"
+    },
+    "item": {
+        "item": "vinery:bottle_mojang_noir"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#AA00AA"
+    }
+}

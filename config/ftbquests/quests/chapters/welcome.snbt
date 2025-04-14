@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "welcome"
+	group: ""
+	id: "442879CDC4F5BACB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "11090A911B3D930A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7709DE08F6464A35"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["The dragons from this mod are all in another dimension"]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "43846740E81844ED"
+			subtitle: "You need not fear"
+			tasks: [{
+				id: "1FCF445133CEC084"
+				title: "Ice and Fire"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Enforced progression is disabled."]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "067C5F8A793B400D"
+			subtitle: "explore as you please"
+			tasks: [{
+				id: "08696C262281C607"
+				title: "Twilight Forest"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: ["The advance machines from create are not usable until late game"]
+			icon: "create:goggles"
+			id: "4741DB7CBD8D42B8"
+			tasks: [{
+				id: "2C68F56F9265783F"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["The Depths, Dragonrealm, and the Inbetween are all custom-made dimensions for this modpack"]
+			id: "558F1BD26018BC38"
+			shape: "rsquare"
+			tasks: [{
+				id: "13ABE713B393E8F4"
+				title: "Custom Dimensions"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["A few creatures from Alex's Mobs no longer spawn in their usual locations."]
+			icon: "alexsmobs:raccoon_tail"
+			id: "2A387BC38A0BE79E"
+			tasks: [{
+				id: "4DD62288104F9748"
+				title: "Alex's Mobs"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: ["The only foods that will give bonus hearts are the more advanced food items."]
+			icon: "minecraft:golden_carrot"
+			id: "164D7BCD9F9EC37F"
+			rewards: [{
+				id: "43FE14768976788F"
+				table_id: 346162584000431563L
+				title: "&l&6Quality Foods"
+				type: "random"
+			}]
+			tasks: [{
+				id: "04EF1F66DCBAE4A6"
+				title: "SoL: Carrot Edition"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Plenty of mods offer in-game documentation in the form of guidebooks."
+				""
+				"I'm keeping them here so that they don't clutter up your inventory until you're ready to recieve them."
+				""
+				"They will be here until then."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "twilightdelight:twilight_guide"
+				}
+			}
+			id: "01DFE8A392E2D25A"
+			rewards: [
+				{
+					id: "58D7EBEAD5915F32"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "42AF321A4B95AC40"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "hexcasting:thehexbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D1CC711EBCA3A0A"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FB04775DAD33A9F"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+				{
+					id: "3EE24735ED7B32A5"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "2E5EF1B213A844C3"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+				{
+					id: "56977B6D2F8A4186"
+					item: "mahoutsukai:guidebook"
+					type: "item"
+				}
+				{
+					id: "38BFA8881627128D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "692A57509E399E0D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "twilightdelight:twilight_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50ABF97D3CE5A19D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "irons_spellbooks:iss_guide_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "3F6461E20D2A10EB"
+				title: "Give me my books."
+				type: "checkmark"
+			}]
+			title: "Claiming Your Guidebooks"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Here you can get some very useful items relatively easier than normal by submitting some items."
+				""
+				"Learn more about these items by checking their related quests in the \"Tips\" chapter."
+			]
+			id: "195AF921B74DCDE4"
+			rewards: [
+				{
+					id: "3DD3685957160041"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								maps: [I; ]
+							}
+						}
+						id: "map_atlases:atlas"
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "014103E2ABBD107A"
+					item: "minecraft:map"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5E7DB69C5F827DAC"
+					item: "quark:backpack"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "44156DA70F5EAF8A"
+					item: "minecraft:torch"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			subtitle: "&8&oSingle-Use Offer!"
+			tasks: [
+				{
+					count: 5L
+					id: "3B1A204790A39502"
+					item: { Count: 10, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "126920BC92824585"
+					item: { Count: 3, id: "minecraft:paper" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "35BE53F52C9F91D2"
+					item: { Count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3BA6C642E8887B60"
+					item: { Count: 4, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			title: "Starter Kit"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "questbook.chapter.main"
+}

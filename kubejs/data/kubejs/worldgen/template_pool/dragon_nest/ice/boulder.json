@@ -1,0 +1,32 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/boulder/claw",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/boulder/claw_small",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/boulder/round_small",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": "mahoutsukai:marble",
+    "spawners": [
+        {
+            "type": "minecraft:camel",
+            "weight": 70,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "samurai_dynasty:onibi",
+            "weight": 100,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "quark:forgotten",
+            "weight": 100,
+            "minCount": 2,
+            "maxCount": 4
+        },
+        {
+            "type": "samurai_dynasty:oni",
+            "weight": 75,
+            "minCount": 1,
+            "maxCount": 1
+        }
+    ]
+}

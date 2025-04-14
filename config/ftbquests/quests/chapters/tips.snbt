@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/info_gray"
+		}
+	}
+	id: "21808972CAB895B3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E78D0B79DB3549A"
+			tasks: [{
+				id: "7ABB380928FE83DE"
+				title: "Tips and tricks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "estrogen:textures/mob_effect/estrogen.png"
+				}
+			}
+			id: "1DDB1FC83FF5457A"
+			tasks: [{
+				id: "46BAC963244DDB67"
+				title: "Dodging"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "264D5D92DF27B7D3"
+			tasks: [{
+				id: "70566A1EEC6F7B61"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "475793B8DA21F11A"
+			tasks: [{
+				id: "0AD2153FEAE0BAA2"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "045CFA75399D07B9"
+			tasks: [{
+				id: "1478E65C86938327"
+				item: {
+					Count: 1
+					id: "travelerscompass:travelerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "0D0AC8A0803A097E"
+			tasks: [{
+				id: "4E6D82806ED95793"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: ["These aren't needed until the end-game, but they have some rituals which may be useful before then."]
+			icon: "summoningrituals:indestructible_altar"
+			id: "71F2AF85715C84CE"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "05777095C2CFC103"
+				observe_type: 0
+				timer: 25L
+				to_observe: "summoningrituals:indestructible_altar"
+				type: "observation"
+			}]
+			title: "Find a Summoning Altar"
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "Tips"
+}

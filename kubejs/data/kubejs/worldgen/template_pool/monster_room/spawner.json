@@ -1,0 +1,59 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/spawner/zombie",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/spawner/spider",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/spawner/skeleton",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/spawner/skeleton_villager",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/spawner/wither_skeleton",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/spawner/forgotten",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

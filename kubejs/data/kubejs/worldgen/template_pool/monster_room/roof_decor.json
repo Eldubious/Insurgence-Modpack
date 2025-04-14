@@ -1,0 +1,66 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/roof_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/roof_2",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/roof_3",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/roof_4",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/roof_5",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:monster_room/decor/roof_6",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:empty_pool_element",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "#A3E4E6",
+        "translate": "trophy.kubejs.bee_essence"
+    },
+    "item": {
+        "item": "the_bumblezone:essence_of_the_bees"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#FFFFFF",
+        "accent": "#A3E4E6"
+    }
+}

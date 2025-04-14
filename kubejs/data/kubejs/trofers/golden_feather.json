@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "white",
+        "translate": "trophy.kubejs.feather"
+    },
+    "item": {
+        "item": "forbidden_arcanus:golden_feather"
+    },
+    "animation": {
+        "type": "tumbling",
+        "speed": 0.4
+    },
+    "colors": {
+        "base": "#FFFFFF",
+        "accent": "#FFAA00"
+    }
+}

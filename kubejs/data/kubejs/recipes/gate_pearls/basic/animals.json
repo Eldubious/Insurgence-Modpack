@@ -1,0 +1,33 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        "DPD",
+        "CEM",
+        "DBD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:emerald"
+        },
+        "P": {
+            "item": "minecraft:porkchop"
+        },
+        "C": {
+            "item": "minecraft:chicken"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "M": {
+            "item": "minecraft:mutton"
+        },
+        "B": {
+            "item": "minecraft:beef"
+        }
+    },
+    "result": {
+        "id": "gateways:gate_pearl"
+    },
+    "gateway": "kubejs:basic/animals"
+}

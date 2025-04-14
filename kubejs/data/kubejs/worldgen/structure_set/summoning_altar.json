@@ -1,0 +1,42 @@
+{
+    "structures": [
+        {
+            "structure": "kubejs:summoning_altar/forest",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/flower_forest",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/dark_forest",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/jungle",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/bamboo",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/savanna",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/desert",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:summoning_altar/snowy",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 35,
+        "separation": 8,
+        "salt": 1646207470
+    }
+}

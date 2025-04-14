@@ -1,0 +1,50 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/decor/ground_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/decor/ground_2",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/decor/ground_3",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/decor/ground_4",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:dragon_nest/ice/decor/ground_5",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

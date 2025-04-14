@@ -1,0 +1,22 @@
+{
+    "structures": [
+        {
+            "structure": "kubejs:dragon_nest/fire",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:dragon_nest/ice",
+            "weight": 1
+        },
+        {
+            "structure": "kubejs:dragon_nest/lightning",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 15,
+        "separation": 5,
+        "salt": 1646207470
+    }
+}

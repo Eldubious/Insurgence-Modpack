@@ -1,0 +1,26 @@
+{
+    "name": {
+        "color": "light_purple",
+        "translate": "trophy.kubejs.creative_worldshaper"
+    },
+    "item": {
+        "item": "create:handheld_worldshaper"
+    },
+    "display": {
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -25
+        },
+        "offset": {
+            "x": -3,
+            "y": 2,
+            "z": 1
+        },
+        "scale": 0.8
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#FF55FF"
+    }
+}

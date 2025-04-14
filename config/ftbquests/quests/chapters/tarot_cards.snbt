@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tarot_cards"
+	group: "3CFA5B714A0693A0"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 22
+			}
+		}
+		id: "tarotcards:tarot_deck"
+	}
+	id: "2644FFA6617C8E91"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 1.1d
+			id: "6DDE247EDB43863F"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "54BF6A94400E41BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "328267209E1C081A"
+			tasks: [{
+				id: "6042CD54463F2ABA"
+				item: {
+					Count: 1
+					id: "tarotcards:death"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXIII: &r&fDeath"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "78991565E3ABB634"
+			tasks: [{
+				id: "21DA5299FADC5FDF"
+				item: {
+					Count: 1
+					id: "tarotcards:judgement"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXX: &r&fJudgement"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Obtained by"]
+			id: "3404A30B1FA15A22"
+			subtitle: "&o&8Reflect 25% Damage Taken"
+			tasks: [{
+				id: "2BE512CBE75FD4C1"
+				item: {
+					Count: 1
+					id: "tarotcards:justice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXI: &r&fJustice"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "7A748F652D1887DA"
+			subtitle: "&o&8Strength II"
+			tasks: [{
+				id: "3B228BC5F9B7F6E8"
+				item: {
+					Count: 1
+					id: "tarotcards:strength"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lVIII: &r&fStrength"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "3E55996CACC61EA3"
+			tasks: [{
+				id: "3B1D5847D4AF053D"
+				item: {
+					Count: 1
+					id: "tarotcards:temperance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXIV: &r&fTemperance"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: ["Obtained by"]
+			id: "0108FAF3CBC4C51A"
+			subtitle: "&o&8+20% Speed Boost"
+			tasks: [{
+				id: "4CB02689BBBE3F5A"
+				item: {
+					Count: 1
+					id: "tarotcards:the_chariot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lVII: &r&fThe Chariot"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "21A6BE26C0E5016C"
+			tasks: [{
+				id: "267B403C918CDF71"
+				item: {
+					Count: 1
+					id: "tarotcards:the_devil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXV: &r&fThe Devil"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			description: ["Permanent Hero of the Village III"]
+			id: "4FB3C77AEFC45D42"
+			tasks: [{
+				id: "58BB31B3DDD1221E"
+				item: {
+					Count: 1
+					id: "tarotcards:the_emperor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lIV: &r&fThe Emperor"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Nerby animals will breed automatically, and babies grow up faster"]
+			id: "57F8EE2F5E5A55B5"
+			tasks: [{
+				id: "6973198056270CB8"
+				item: {
+					Count: 1
+					id: "tarotcards:the_empress"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lIII: &r&fThe Empress"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Gain permanent Jump Boost III"]
+			id: "33316CD70B2A1100"
+			tasks: [{
+				id: "52365D750A449AE1"
+				item: {
+					Count: 1
+					id: "tarotcards:the_fool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&l0: &r&fThe Fool"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "402C3F65692271AD"
+			tasks: [{
+				id: "686AAA86ADD70D39"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hanged_man"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXII: &r&fThe Hanged Man"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: ["Obtained by"]
+			id: "788285D8B562BAE9"
+			subtitle: "&o&8+10 Armor When Away From Allies"
+			tasks: [{
+				id: "13294F9EBB5419A6"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hermit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lIX: &r&fThe Hermit"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			description: ["+150% Experience gained"]
+			id: "62A2EC592851A424"
+			tasks: [{
+				id: "2CABBE8D27D91370"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hierophant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lV: &r&fThe Hierophant"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: ["Can upgrade enchanted books using experience"]
+			id: "1F96453B597ED80B"
+			tasks: [{
+				id: "5FC645697FBC9E90"
+				item: {
+					Count: 1
+					id: "tarotcards:the_high_priestess"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lII: &r&fThe High Priestess"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["Allies gain Regeneration III"]
+			id: "040F6AA8C874387F"
+			tasks: [{
+				id: "50441372283EABB4"
+				item: {
+					Count: 1
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lVI: &r&fThe Lovers"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: ["This card will prevent golden tools from breaking"]
+			id: "1BCC7BD401FC8001"
+			tasks: [{
+				id: "63A0DBD7458C64C9"
+				item: {
+					Count: 1
+					id: "tarotcards:the_magician"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lI: &r&fThe Magician"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "14464D481C0A3217"
+			tasks: [{
+				id: "72B10E3D1383A7F4"
+				item: {
+					Count: 1
+					id: "tarotcards:the_moon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXVIII: &r&fThe Moon"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "237F744E295CC1B4"
+			tasks: [{
+				id: "08E24A6D7D3C323F"
+				item: {
+					Count: 1
+					id: "tarotcards:the_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXVII: &r&fThe Star"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "17863EADD917CD82"
+			tasks: [{
+				id: "7F49C3368F2C4238"
+				item: {
+					Count: 1
+					id: "tarotcards:the_sun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXIX: &r&fThe Sun"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "2D5059FFEFC4B9FA"
+			tasks: [{
+				id: "4DE1EA8547AF0F1F"
+				item: {
+					Count: 1
+					id: "tarotcards:the_tower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXVI: &r&fThe Tower"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "7CF5B9CFE8EC597A"
+			subtitle: "&o&8+3 Luck Permanently"
+			tasks: [{
+				id: "1EB173CAEDE308CC"
+				item: {
+					Count: 1
+					id: "tarotcards:wheel_of_fortune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lX: &r&fWheel of Fortune"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "13402DD2D1D33E94"
+			tasks: [{
+				id: "3EE7CD4B35D5133A"
+				item: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6&lXXI: &r&fThe World"
+			x: 0.0d
+			y: -9.0d
+		}
+	]
+	title: "Tarot Cards"
+}
