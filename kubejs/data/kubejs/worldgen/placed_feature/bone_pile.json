@@ -1,0 +1,8 @@
+{
+    "feature": "kubejs:bone_pile",
+    "placement": [
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

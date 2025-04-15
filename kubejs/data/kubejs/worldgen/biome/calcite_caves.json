@@ -25,7 +25,9 @@
     [],
     [],
     [],
-    []
+    [
+      "kubejs:bone_pile"
+    ]
   ],
   "has_precipitation": false,
   "spawn_costs": {
