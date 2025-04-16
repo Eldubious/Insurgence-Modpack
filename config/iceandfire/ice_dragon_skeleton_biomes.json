@@ -1,3 +1,9 @@
 {
-  "biomes": []
+  "biomes": [
+    {
+      "type": "REGISTRY_NAME",
+      "negate": false,
+      "value": "kubejs:dragon_hollow"
+    }
+  ]
 }

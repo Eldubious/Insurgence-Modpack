@@ -3,14 +3,14 @@
     "temperature": 0,
     "downfall": 1,
     "effects": {
-        "fog_color": 1059929,
-        "sky_color": 2230636,
-        "water_color": 6565049,
-        "water_fog_color": 4595076,
+        "fog_color": 9925117,
+        "sky_color": 10979069,
+        "water_color": 12015352,
+        "water_fog_color": 8522194,
         "particle": {
             "probability": 0.002,
             "options": {
-                "type": "minecraft:white_ash"
+                "type": "ribbits:spell"
             }
         },
         "music": {

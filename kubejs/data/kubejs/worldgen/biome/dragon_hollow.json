@@ -4,16 +4,16 @@
   },
   "downfall": 0,
   "effects": {
-    "fog_color": 1787717,
+    "fog_color": 7083012,
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.dripstone_caves"
     },
-    "sky_color": 7254527,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 5246723,
+    "water_color": 9575173,
+    "water_fog_color": 7083012
   },
   "features": [
     [],
@@ -22,7 +22,16 @@
     [],
     [],
     [],
-    [],
+    [
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "kubejs:ore_calcite",
+      "kubejs:ore_dreadstone"
+    ],
     [],
     [],
     [
@@ -35,7 +44,7 @@
       "charge": 0.7,
       "energy_budget": 0.15
     },
-    "minecraft:ghast": {
+    "quark:forgotten": {
       "charge": 0.7,
       "energy_budget": 0.15
     },
@@ -58,13 +67,13 @@
         "type": "minecraft:skeleton",
         "maxCount": 5,
         "minCount": 5,
-        "weight": 20
+        "weight": 10
       },
       {
-        "type": "minecraft:ghast",
+        "type": "quark:forgotten",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 50
+        "weight": 20
       },
       {
         "type": "minecraft:enderman",

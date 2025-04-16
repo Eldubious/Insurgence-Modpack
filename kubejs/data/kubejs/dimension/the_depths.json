@@ -7,7 +7,7 @@
             "type": "minecraft:multi_noise",
             "biomes": [
                 {
-                "biome": "kubejs:calcite_caves",
+                "biome": "kubejs:dragon_hollow",
                 "parameters": {
                     "continentalness": 0,
                     "depth": 0,
@@ -122,7 +122,7 @@
                     "continentalness": 0,
                     "erosion": 0,
                     "weirdness": 0,
-                    "depth": 0,
+                    "depth": 1.1,
                     "offset": 0
                   }
                 },

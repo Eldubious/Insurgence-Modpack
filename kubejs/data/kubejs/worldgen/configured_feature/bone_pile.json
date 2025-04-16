@@ -4,7 +4,7 @@
         "state_provider": {
             "type": "minecraft:rotated_block_provider",
             "state": {
-                "Name": "minecraft:bone_block"
+                "Name": "iceandfire:dragon_bone_block"
             }
         }
     }
