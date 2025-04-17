@@ -127,11 +127,19 @@ BlockEvents.rightClicked('iceandfire:dragonscale_red', event => {
 })
 
 // Print out all persistent data for each portal type
+// Or clear them if sneaking
 BlockEvents.rightClicked('kubejs:depths_portal', event => {
     if (event.player.mainHandItem.id.toString() == 'minecraft:debug_stick') {
         var server = event.getServer()
         var data = server.getPersistentData()
-        event.player.tell(data['depths'])
+
+        if (event.player.isCrouching()) {
+            data.put("depths", [])
+            event.player.tell('cleared this portal data!')
+            event.cancel()
+        }
+
+        event.player.tell('Depths Portals:\n' + data.get("depths"))
     }
 })
 
@@ -139,7 +147,14 @@ BlockEvents.rightClicked('kubejs:dragon_portal', event => {
     if (event.player.mainHandItem.id.toString() == 'minecraft:debug_stick') {
         var server = event.getServer()
         var data = server.getPersistentData()
-        event.player.tell(data['dragonrealm'])
+
+        if (event.player.isCrouching()) {
+            data.put("dragonrealm", [])
+            event.player.tell('cleared this portal data!')
+            event.cancel()
+        }
+
+        event.player.tell('Dragonrealm Portals:\n' + data.get("dragonrealm"))
     }
 })
 
@@ -147,6 +162,43 @@ BlockEvents.rightClicked('kubejs:inbetween_portal', event => {
     if (event.player.mainHandItem.id.toString() == 'minecraft:debug_stick') {
         var server = event.getServer()
         var data = server.getPersistentData()
-        event.player.tell(data['inbetween'])
+
+        if (event.player.isCrouching()) {
+            data.put("inbetween", [])
+            event.player.tell('cleared this portal data!')
+            event.cancel()
+        }
+
+        event.player.tell('Inbetween Portals:\n' + data.get("inbetween"))
+    }
+})
+
+// Print out all of persistent data's keys for the server or increment a test value on the data
+BlockEvents.rightClicked('architects_palette:unobtanium_block', event => {
+    if (event.player.mainHandItem.id.toString() == 'minecraft:debug_stick') {
+        var server = event.getServer()
+        var data = server.getPersistentData()
+
+        if (event.player.isCrouching()) {
+            
+            data.put("debug", {"foo": 69, "bar": 420})
+            event.player.tell('incremented debug counter')
+        }
+        else event.player.tell("Server's Persistent Data:\n" + data.get("debug"))
+    }
+})
+
+// Setblock command tests
+BlockEvents.rightClicked('minecraft:jungle_wood', event => {
+    if (event.player.mainHandItem.id.toString() == 'minecraft:debug_stick') {
+        var server = event.getServer()
+        var pos = event.block.getPos()
+        var x = pos.getX(); var y = pos.getY(); var z = pos.getZ()
+        var dimension = event.block.getDimension().toString()
+
+        var cmd = `execute in ${dimension} run setblock ${x} ${y+1} ${z} minecraft:jungle_wood`
+        server.runCommandSilent(cmd)
+        cmd = `execute in ${dimension} run fill ${x-1} ${y+2} ${z-1} ${x+1} ${y+2} ${z+1} minecraft:jungle_leaves`
+        server.runCommandSilent(cmd)
     }
 })

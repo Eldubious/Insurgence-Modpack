@@ -19,7 +19,7 @@
                 }
                 },
                 {
-                "biome": "kubejs:asurite_caves",
+                "biome": "kubejs:asurine_caves",
                 "parameters": {
                     "continentalness": 0,
                     "depth": 0,
@@ -31,7 +31,7 @@
                 }
                 },
                 {
-                "biome": "minecraft:dark_forest",
+                "biome": "kubejs:crimson_caves",
                 "parameters": {
                     "continentalness": 0,
                     "depth": 0,
@@ -55,7 +55,7 @@
                 }
                 },
                 {
-                "biome": "regions_unexplored:chalk_cliffs",
+                "biome": "kubejs:mossy_fields",
                 "parameters": {
                     "continentalness": 0,
                     "depth": 0,
