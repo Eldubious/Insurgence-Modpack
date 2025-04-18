@@ -1,357 +1,309 @@
-// Handle all portal block right-click events
-BlockEvents.rightClicked(event => {
-    var server = event.getServer()
-    let data = server.getPersistentData()
-    var level = event.getLevel()
+/*
+    Allow the player to right-click a portal and teleport to another dimension.
+    This script implements the interaction event as well as the linking and generation
+    logic
+*/
+BlockEvents.rightClicked('kubejs:depths_portal', event => {
+    interactEvent(event, "depths")
+    event.cancel()
+})
 
-    var blockId = event.block.id.toString()
-    var blockPos = event.block.pos
-    var x = blockPos.getX(); var y = blockPos.getY(); var z = blockPos.getZ()
-    var playerId = event.player.uuid.toString()
-    var dimensionId = level.dimension.toString()
+BlockEvents.rightClicked('kubejs:dragon_portal', event => {
+    interactEvent(event, "dragonrealm")
+    event.cancel()
+})
 
-    // Make sure both hands are empty
+BlockEvents.rightClicked('kubejs:inbetween_portal', event => {
+    interactEvent(event, "inbetween")
+    event.cancel()
+})
+
+/*
+    Handle the interaction event for all three portal types
+*/
+function interactEvent(event, portalType) {
     if (event.player.mainHandItem.id.toString() == 'minecraft:air' &&
         event.player.offHandItem.id.toString() == 'minecraft:air') {
-    
-        // Teleport player to The Depths when right-clicking the portal
-        if (blockId == 'kubejs:depths_portal') {
-            let targetDim = getTargetDim('depths')
-            if (targetDim == 'noTarget') {
-                event.player.tell('You can only use this portal in the Overworld and the Depths!')
-                event.cancel()
-            }
 
-            // Check persistent data to find a portal to link to
-            let destPortal = checkPersistentData('depths', targetDim)
-            let createPortal = false    // Will a portal block be generated?
-            let destX = 0; let destY = 0; let destZ = 0
-            
-            // Determine to coordinates to teleport to
-            if (destPortal == null) {
-                let coords = scaleCoords('depths', targetDim)
-                createPortal = true
-
-                destX = coords[0]
-                destY = clampVertical(targetDim)
-                destZ = coords[1]  
-            } else {
-                destX = destPortal["x"]
-                destY = destPortal["y"] + 1     // Spawn on top of the portal
-                destZ = destPortal["z"]
-            }
-
-            // Teleport the player
-            var tpCmd = `execute in ${targetDim} run tp ${playerId} ${destX} ${destY} ${destZ}`
-            server.runCommandSilent(tpCmd)
-
-            // Create and run commands for generating a spawn area
-            // (Must be done after teleporting so that the area loads)
-            if (createPortal) {
-                // Clear an area of blocks
-                var clearCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY+1} ${destZ+2} minecraft:air`
-                server.runCommandSilent(clearCmd)
-
-                // Place a platform of blocks below the portal
-                var platformCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY-2} ${destZ+2} minecraft:polished_deepslate`
-                server.runCommandSilent(platformCmd)
-
-                // Place light sources
-                placeLamps('depths', targetDim, destX, destY, destZ)
-
-                // Place the portal block
-                var blockCmd = `execute in ${targetDim} run setblock ${destX} ${destY-1} ${destZ} kubejs:depths_portal`
-                server.runCommandSilent(blockCmd)
-
-                // Add newly made portal to data
-                data.get('depths').push({"x": destX, "y": destY-1, "z": destZ, "level": targetDim})
-            }
-            // Command to clear smaller area on already made portal to prevent suffocation
-            else {
-                var airCmd = `execute in ${targetDim} run fill ${destX} ${destY} ${destZ} ${destX} ${destY+1} ${destZ} minecraft:air destroy`
-                server.runCommandSilent(airCmd)
-            }
-            event.cancel()
-        }
-
-        // Teleport player to The Dragonrealm when right-clicking the portal
-        else if (blockId == 'kubejs:dragon_portal') {
-            let targetDim = getTargetDim('dragonrealm')
-            if (targetDim == 'noTarget') {
-                event.player.tell('You can only use this portal in the Overworld and the Dragonrealm!')
-                event.cancel()
-            }
-
-            // Check persistent data to find a portal to link to
-            let destPortal = checkPersistentData('dragonrealm', targetDim)
-            let createPortal = false    // Will a portal block be generated?
-            let destX = 0; let destY = 0; let destZ = 0
-            
-            // Determine to coordinates to teleport to
-            if (destPortal == null) {
-                let coords = scaleCoords('dragonrealm', targetDim)
-                createPortal = true
-
-                destX = coords[0]
-                destY = clampVertical(targetDim)
-                destZ = coords[1]  
-            } else {
-                destX = destPortal["x"]
-                destY = destPortal["y"] + 1     // Spawn on top of the portal
-                destZ = destPortal["z"]
-            }
-
-            // Teleport the player
-            var tpCmd = `execute in ${targetDim} run tp ${playerId} ${destX} ${destY} ${destZ}`
-            server.runCommandSilent(tpCmd)
-
-            // Create and run commands for generating a spawn area
-            // (Must be done after teleporting so that the area loads)
-            if (createPortal) {
-                // Clear an area of blocks
-                var clearCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY+1} ${destZ+2} minecraft:air`
-                server.runCommandSilent(clearCmd)
-
-                // Place a platform of blocks below the portal
-                var platformCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY-2} ${destZ+2} minecraft:stone_bricks`
-                server.runCommandSilent(platformCmd)
-
-                // Place light sources
-                placeLamps('dragonrealm', targetDim, destX, destY, destZ)
-
-                // Place the portal block
-                var blockCmd = `execute in ${targetDim} run setblock ${destX} ${destY-1} ${destZ} kubejs:dragon_portal`
-                server.runCommandSilent(blockCmd)
-
-                // Add newly made portal to data
-                data.get('dragonrealm').push({"x": destX, "y": destY-1, "z": destZ, "level": targetDim})
-            }
-            // Command to clear smaller area on already made portal to prevent suffocation
-            else {
-                var airCmd = `execute in ${targetDim} run fill ${destX} ${destY} ${destZ} ${destX} ${destY+1} ${destZ} minecraft:air destroy`
-                server.runCommandSilent(airCmd)
-            }
-            event.cancel()
-        }
-
-        // Teleport player to The Inbetween when right-clicking the portal
-        else if (blockId == 'kubejs:inbetween_portal') {
-            let targetDim = getTargetDim('inbetween')
-            if (targetDim == 'noTarget') {
-                event.player.tell('You can only use this portal in the Overworld and the Inbetween!')
-                event.cancel()
-            }
-
-            // Check persistent data to find a portal to link to
-            let destPortal = checkPersistentData('inbetween', targetDim)
-            let createPortal = false    // Will a portal block be generated?
-            let destX = 0; let destY = 0; let destZ = 0
-            
-            // Determine to coordinates to teleport to
-            if (destPortal == null) {
-                let coords = scaleCoords('inbetween', targetDim)
-                createPortal = true
-
-                destX = coords[0]
-                destY = clampVertical(targetDim)
-                destZ = coords[1]  
-            } else {
-                destX = destPortal["x"]
-                destY = destPortal["y"] + 1     // Spawn on top of the portal
-                destZ = destPortal["z"]
-            }
-            
-            // Teleport the player
-            var tpCmd = `execute in ${targetDim} run tp ${playerId} ${destX} ${destY} ${destZ}`
-            server.runCommandSilent(tpCmd)
-
-            // Create and run commands for generating a spawn area
-            // (Must be done after teleporting so that the area loads)
-            if (createPortal) {
-                // Clear an area of blocks
-                var clearCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY+1} ${destZ+2} minecraft:air`
-                server.runCommandSilent(clearCmd)
-
-                // Place a platform of blocks below the portal
-                var platformCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY-2} ${destZ+2} architects_palette:twisted_planks`
-                server.runCommandSilent(platformCmd)
-
-                // Place the portal block
-                var blockCmd = `execute in ${targetDim} run setblock ${destX} ${destY-1} ${destZ} kubejs:inbetween_portal`
-                server.runCommandSilent(blockCmd)
-
-                // Add newly made portal to data
-                data.get('inbetween').push({"x": destX, "y": destY-1, "z": destZ, "level": targetDim})
-            }
-            // Command to clear smaller area on already made portal to prevent suffocation
-            else {
-                var airCmd = `execute in ${targetDim} run fill ${destX} ${destY} ${destZ} ${destX} ${destY+1} ${destZ} minecraft:air destroy`
-                server.runCommandSilent(airCmd)
-            }
-            event.cancel()
-        }
-    }
-
-    /*
-        Checks the server's persistent data to find any already placed portals nearby
-        portalType = "depths", "dragonrealm", or "inbetween"
-    */
-    function checkPersistentData(portalType, targetDim) {
-        // Initialize the portals' fields if not done so already
-        if (!data.contains("depths")) {
-            data.put("depths", [])
-        }
-        if (!data.contains("dragonrealm")) {
-            data.put("dragonrealm", [])
-        }
-        if (!data.contains("inbetween")) {
-            data.put("inbetween", [])
-        }
-
-        // Add current portal data if not present already
-        addPortal(portalType)
-
-        // Iterate through all portal objects of desired type
-        let retVal = null
-        let minDist = Number.MAX_SAFE_INTEGER
-        data.get(portalType).forEach(element => {
-            if (element["level"] == targetDim) {
-                
-                let coords = scaleCoords(portalType, targetDim)
-                // Calculate the taxicab distance of the found portal
-                let distance = Math.abs(element["x"] - coords[0]) + Math.abs(element["z"] - coords[1])
-
-                //event.player.tell(`curr coords (adjusted): ${coords[0]} ${coords[1]}\ndest coords: ${element["x"]} ${element["z"]}`)
-                //event.player.tell('distance (relative): ' + distance)
-
-                // The portal is less than 100 blocks away and closer than the last found portal
-                if (distance <= 100 && distance < minDist) {
-                    retVal = element
-                    minDist = distance
-                }  
-            }
-        })
-        return retVal
-    }
-
-    // Adds current portal to persistent data if not present already
-    function addPortal(portalType) {
-        let containsPortal = false
-        data.get(portalType).forEach(element => {
-            if (element["level"] == dimensionId && element["x"] == x && element["y"] == y && element["z"] == z)
-                containsPortal = true
-        })
-        if (!containsPortal)
-            data.get(portalType).push({"x": x, "y": y, "z": z, "level": dimensionId})
-    }
-
-    // Determines what the target dimension is based on the portal type and current dimension.
-    // Returns dimension id or 'noTarget' if none was found
-    function getTargetDim(portalType) {
-        let targetDim = 'noTarget'
-
-        switch (portalType) {
-            case "depths":
-                if (dimensionId == 'minecraft:overworld')
-                    targetDim = 'kubejs:the_depths'
-                else if (dimensionId == 'kubejs:the_depths')
-                    targetDim = 'minecraft:overworld'
-                break;
+        var server = event.getServer()
+        var data = server.getPersistentData()
+        var level = event.getLevel()
         
-            case "dragonrealm":
-                if (dimensionId == 'minecraft:overworld')
-                    targetDim = 'kubejs:dragonrealm'
-                else if (dimensionId == 'kubejs:dragonrealm')
-                    targetDim = 'minecraft:overworld'
-                break;
+        var blockPos = event.block.getPos()
+        var x = blockPos.getX(); var y = blockPos.getY(); var z = blockPos.getZ()
+        var playerId = event.player.uuid.toString()
+        var dimensionId = level.dimension.toString()
 
-            case "inbetween":
-                if (dimensionId == 'minecraft:overworld')
-                    targetDim = 'kubejs:the_inbetween'
-                else if (dimensionId == 'kubejs:the_inbetween')
-                    targetDim = 'minecraft:overworld'
-                break;
+        // Get the dimension the player will teleport to
+        var targetDim = getTargetDim(portalType, dimensionId)
+        if (targetDim == 'noTarget') {
+            event.player.tell('You can only use this portal in the Overworld and the Depths!')
+            event.cancel()
         }
-        return targetDim
-    }
 
-    // Return a clamped y value based on the height of the destination dimension
-    function clampVertical(targetDim) {
-        let retVal = y
+        // Check persistent data to find a portal to link to
+        var destPortal = checkPersistentData(data, portalType, targetDim, dimensionId, x, y, z)
+        var createPortal = false    // Will a portal block have to be generated?
+        var destX = 0; var destY = 0; var destZ = 0
+        
+        // Determine to coordinates to teleport to
+        if (destPortal == null) {
+            let coords = scaleCoords(portalType, targetDim, x, z)
+            createPortal = true
 
-        switch (targetDim) {
-            case 'kubejs:the_depths':
-                if (y < 0) retVal = 0
-                else if (y > 60) retVal = 60
-                break
-            
-            case 'kubejs:dragonrealm':
-                if (y < 60) retVal = 60
-                else if (y > 150) retVal = 150
-                break
-            
-            case 'kubejs:the_inbetween':
-                if (y < 60) retVal = 60
-                else if (y > 100) retVal = 100
-                break
-            
-            case 'minecraft:overworld':
-                if (y < 60) retVal = 60
-                else if (y > 100) retVal = 100
-                break
+            destX = coords[0]
+            destY = clampVertical(targetDim, y)
+            destZ = coords[1]  
+        } else {
+            destX = destPortal["x"]
+            destY = destPortal["y"] + 1     // Spawn on top of the portal
+            destZ = destPortal["z"]
         }
-        return retVal
+
+        runCommands(server, data, portalType, targetDim, playerId, destX, destY, destZ, createPortal)
     }
+}
 
-    // Scales the horizontal coordinates according to which dimension the player is travelling to
-    function scaleCoords(portalType, targetDim) {
-        switch (portalType) {
-            // Player is using a Depths Portal
-            // Coordinate scale is 1-4 with overworld
-            case 'depths':
-                switch (targetDim) {
-                    case 'minecraft:overworld':
-                        return [Math.round(x*4), Math.round(z*4)]
+/*
+    Determines what the target dimension is based on the portal type and current dimension.
+    Returns dimension id or 'noTarget' if none was found
+*/
+function getTargetDim(portalType, dimensionId) {
+    let targetDim = 'noTarget'
 
-                    case 'kubejs:the_depths':
-                        return [Math.round(x/4), Math.round(z/4)]
-                }
-                break
+    switch (portalType) {
+        case "depths":
+            if (dimensionId == 'minecraft:overworld')
+                targetDim = 'kubejs:the_depths'
+            else if (dimensionId == 'kubejs:the_depths')
+                targetDim = 'minecraft:overworld'
+            break;
+        
+        case "dragonrealm":
+            if (dimensionId == 'minecraft:overworld')
+                targetDim = 'kubejs:dragonrealm'
+            else if (dimensionId == 'kubejs:dragonrealm')
+                targetDim = 'minecraft:overworld'
+            break;
 
-            // Player is using a Dragonrealm Portal
-            // Coordinate scale is 1-1 with overworld
-            case 'dragonrealm':
-                return [x, z]
+        case "inbetween":
+            if (dimensionId == 'minecraft:overworld')
+                targetDim = 'kubejs:the_inbetween'
+            else if (dimensionId == 'kubejs:the_inbetween')
+                targetDim = 'minecraft:overworld'
+            break;
+    }
+    return targetDim
+}
+
+/*
+    Checks the server's persistent data to find any already placed portals nearby
+    portalType = "depths", "dragonrealm", or "inbetween"
+*/
+function checkPersistentData(data, portalType, targetDim, dimensionId, x, y, z) {
+    portalsInit(data)
+    addPortal(data, portalType, dimensionId, x, y, z)
+    
+    // Iterate through all portal objects of desired type
+    var retVal = null
+    var minDist = Number.MAX_SAFE_INTEGER
+    data.get(portalType).forEach(element => {
+        if (element["level"] == targetDim) {
                 
-            // Player is using an Inbetween Portal
-            // Coordinate scale is 1-32 with overworld
-            case 'inbetween':
-                switch (targetDim) {
-                    case 'minecraft:overworld':
-                        return [Math.round(x*32), Math.round(z*32)]
-
-                    case 'kubejs:the_inbetween':
-                        return [Math.round(x/32), Math.round(z/32)]
-                }
-                break
+            // Calculate the taxicab distance of the found portal
+            let coords = scaleCoords(portalType, targetDim, x, z)
+            let distance = Math.abs(element["x"] - coords[0]) + Math.abs(element["z"] - coords[1])
+    
+            // DEBUG
+            //event.player.tell(`curr coords (adjusted): ${coords[0]} ${coords[1]}\ndest coords: ${element["x"]} ${element["z"]}`)
+            //event.player.tell('distance (relative): ' + distance)
+    
+            // The portal is less than 25 blocks away and closer than the last found portal
+            if (distance <= 25 && distance < minDist) {
+                retVal = element
+                minDist = distance
+            }  
         }
+    })
+    return retVal
+}
+
+/*
+    Initialize the portals' fields.
+    Will only do anything if the fields don't already exist
+*/
+function portalsInit(data) {
+    if (!data.contains("depths"))
+        data.put("depths", [])
+    if (!data.contains("dragonrealm"))
+        data.put("dragonrealm", [])
+    if (!data.contains("inbetween"))
+        data.put("inbetween", [])
+}
+
+/*
+    Adds current portal to persistent data.
+    Only will add portal if a matching element is not found
+*/
+function addPortal(data, portalType, dimensionId, x, y, z) {
+    let containsPortal = false
+
+    data.get(portalType).forEach(element => {
+        if (element["level"] == dimensionId && element["x"] == x && element["y"] == y && element["z"] == z)
+            containsPortal = true
+    })
+    
+    if (!containsPortal)
+        data.get(portalType).push({"x": x, "y": y, "z": z, "level": dimensionId})
+}
+
+/*
+    Scales the horizontal coordinates according to which dimension the player is travelling to
+    and which dimension they are travelling from
+*/
+function scaleCoords(portalType, targetDim, x, z) {
+    switch (portalType) {
+        // Player is using a Depths Portal
+        // Coordinate scale is 1-4 with overworld
+        case 'depths':
+            switch (targetDim) {
+                case 'minecraft:overworld':
+                    return [Math.round(x*4), Math.round(z*4)]
+
+                case 'kubejs:the_depths':
+                    return [Math.round(x/4), Math.round(z/4)]
+            }
+            break
+
+        // Player is using a Dragonrealm Portal
+        // Coordinate scale is 1-1 with overworld
+        case 'dragonrealm':
+            return [x, z]
+            
+        // Player is using an Inbetween Portal
+        // Coordinate scale is 1-32 with overworld
+        case 'inbetween':
+            switch (targetDim) {
+                case 'minecraft:overworld':
+                    return [Math.round(x*32), Math.round(z*32)]
+
+                case 'kubejs:the_inbetween':
+                    return [Math.round(x/32), Math.round(z/32)]
+            }
+            break
+    }
+}
+
+/*
+    Return a clamped y value based on the height of the destination dimension
+*/
+function clampVertical(targetDim, y) {
+    let retVal = y
+
+    switch (targetDim) {
+        case 'kubejs:the_depths':
+            if (y < 0) retVal = 0
+            else if (y > 60) retVal = 60
+            break
+        
+        case 'kubejs:dragonrealm':
+            if (y < 60) retVal = 60
+            else if (y > 150) retVal = 150
+            break
+        
+        case 'kubejs:the_inbetween':
+            if (y < 60) retVal = 60
+            else if (y > 100) retVal = 100
+            break
+        
+        case 'minecraft:overworld':
+            if (y < 60) retVal = 60
+            else if (y > 100) retVal = 100
+            break
+    }
+    return retVal
+}
+
+/*
+    Organizes which commands need to be run.
+    Will run the teleport command and commands to fill the portal area
+*/
+function runCommands(server, data, portalType, targetDim, playerId, destX, destY, destZ, createPortal) {
+
+    // Teleport the player first so that the area is loaded
+    let tpCmd = `execute in ${targetDim} run tp ${playerId} ${destX} ${destY} ${destZ}`
+    server.runCommandSilent(tpCmd)
+
+    if (createPortal) {
+        // Create and run commands for generating a spawn area
+        generatePortal(server, data, portalType, targetDim, destX, destY, destZ)
+    }
+    else {
+        // Prevent suffocation traps on an already generated portal (obviously not fool-proof)
+        var airCmd = `execute in ${targetDim} run fill ${destX} ${destY} ${destZ} ${destX} ${destY+1} ${destZ} minecraft:air destroy`
+        server.runCommandSilent(airCmd)
+    }
+}
+
+/*
+    Runs the commands necessary to create the spawn platform area for the portal.
+    Only is called if portal is being generated for the first time
+*/
+function generatePortal(server, data, portalType, targetDim, destX, destY, destZ) {
+    // Get id of the blocks needed
+    let portalId = 'minecraft:bedrock'
+    let blockId = 'minecraft:stone'
+    let lampId = 'minecraft:glowstone'
+    switch (portalType) {
+        case 'depths':
+            portalId = 'kubejs:depths_portal'
+            blockId = 'minecraft:deepslate_bricks'
+            lampId = 'supplementaries:deepslate_lamp'
+            break
+        case 'dragonrealm':
+            portalId = 'kubejs:dragon_portal'
+            blockId = 'minecraft:stone_bricks'
+            lampId = 'architects_palette:tuff_lamp'
+            break
+        case 'inbetween':
+            portalId = 'kubejs:inbetween_portal'
+            blockId = 'architects_palette:twisted_planks'
+            lampId = 'minecraft:glowstone'
+            break
     }
 
-    // This function runs 4 commands to place lamp blocks on all 4 sides of the spawn platform
-    function placeLamps(portalType, targetDim, destX, destY, destZ) {
-        let lampType = 'architects_palette:tuff_lamp'
-        if (portalType == 'depths') lampType = 'supplementaries:deepslate_lamp'
+    // Clear an area of blocks
+    var clearCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY+1} ${destZ+2} minecraft:air`
+    server.runCommandSilent(clearCmd)
 
-        let cmd = `execute in ${targetDim} run setblock ${destX-2} ${destY-2} ${destZ} ${lampType}`
-        server.runCommandSilent(cmd)
+    // Place a platform of blocks below the portal
+    var platformCmd = `execute in ${targetDim} run fill ${destX-2} ${destY-2} ${destZ-2} ${destX+2} ${destY-2} ${destZ+2} ${blockId}`
+    server.runCommandSilent(platformCmd)
 
-        cmd = `execute in ${targetDim} run setblock ${destX+2} ${destY-2} ${destZ} ${lampType}`
-        server.runCommandSilent(cmd)
+    // Place light sources
+    placeLamps(server, targetDim, destX, destY, destZ, lampId)
 
-        cmd = `execute in ${targetDim} run setblock ${destX} ${destY-2} ${destZ-2} ${lampType}`
-        server.runCommandSilent(cmd)
+    // Place the portal block
+    var blockCmd = `execute in ${targetDim} run setblock ${destX} ${destY-1} ${destZ} ${portalId}`
+    server.runCommandSilent(blockCmd)
 
-        cmd = `execute in ${targetDim} run setblock ${destX} ${destY-2} ${destZ+2} ${lampType}`
-        server.runCommandSilent(cmd)
-    }
-})
+    // Add newly made portal to data
+    data.get(portalType).push({"x": destX, "y": destY-1, "z": destZ, "level": targetDim})
+}
+
+/*
+    This function runs 4 commands to place lamp blocks on all 4 sides of the spawn platform
+*/
+function placeLamps(server, targetDim, destX, destY, destZ, lampId) {
+    let cmd = `execute in ${targetDim} run setblock ${destX-2} ${destY-2} ${destZ} ${lampId}`
+    server.runCommandSilent(cmd)
+
+    cmd = `execute in ${targetDim} run setblock ${destX+2} ${destY-2} ${destZ} ${lampId}`
+    server.runCommandSilent(cmd)
+
+    cmd = `execute in ${targetDim} run setblock ${destX} ${destY-2} ${destZ-2} ${lampId}`
+    server.runCommandSilent(cmd)
+
+    cmd = `execute in ${targetDim} run setblock ${destX} ${destY-2} ${destZ+2} ${lampId}`
+    server.runCommandSilent(cmd)
+}

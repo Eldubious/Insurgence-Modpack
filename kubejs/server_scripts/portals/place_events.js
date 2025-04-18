@@ -2,80 +2,49 @@
     Add portal data to the server's persistent data when placed
 */
 BlockEvents.placed('kubejs:depths_portal', event => {
-    var server = event.getServer()
-    var data = server.getPersistentData()
-
-    var blockPos = event.block.pos
-    var x = blockPos.getX(); var y = blockPos.getY(); var z = blockPos.getZ()
-    var dimensionId = level.dimension.toString()
-
-    // Initialize portal field if it doesn't exist
-    if (!data.contains("depths")) {
-        data.put("depths", [])
-    }
-    event.player.tell('event fired')
-
-    // Add portal if not added
-    let containsPortal = false
-    data.get('depths').forEach(element => {
-        if (element["level"] == dimensionId && element["x"] == x && element["y"] == y && element["z"] == z)
-            containsPortal = true
-    })
-    if (!containsPortal)
-        data.get('depths').push({"x": x, "y": y, "z": z, "level": dimensionId})
+    placeEvent(event, 'depths')
 })
 
-/*
-    Add portal data to the server's persistent data when placed
-*/
 BlockEvents.placed('kubejs:dragon_portal', event => {
-    var server = event.getServer()
-    var data = server.getPersistentData()
-
-    var blockPos = event.block.pos
-    var x = blockPos.getX(); var y = blockPos.getY(); var z = blockPos.getZ()
-    var dimensionId = level.dimension.toString()
-
-    // Initialize portal field if it doesn't exist
-    if (!data.contains("dragonrealm")) {
-        data.put("dragonrealm", [])
-    }
-
-    // Add portal if not added
-    let containsPortal = false
-    data.get('dragonrealm').forEach(element => {
-        if (element["level"] == dimensionId && element["x"] == x && element["y"] == y && element["z"] == z)
-            containsPortal = true
-    })
-    if (!containsPortal)
-        data.get('dragonrealm').push({"x": x, "y": y, "z": z, "level": dimensionId})
-
-
+    placeEvent(event, 'dragonrealm')
 })
 
-/*
-    Add portal data to the server's persistent data when placed
-*/
 BlockEvents.placed('kubejs:inbetween_portal', event => {
+    placeEvent(event, 'inbetween')
+})
+
+// Handle the place event for all three portal types
+function placeEvent(event, portalType) {
     var server = event.getServer()
     var data = server.getPersistentData()
 
-    var blockPos = event.block.pos
+    var blockPos = event.block.getPos()
     var x = blockPos.getX(); var y = blockPos.getY(); var z = blockPos.getZ()
-    var dimensionId = level.dimension.toString()
+    var dimensionId = event.level.dimension.toString()
 
-    // Initialize portal field if it doesn't exist
-    if (!data.contains("inbetween")) {
-        data.put("inbetween", [])
-    }
+    portalsInit(data)
+    addNewPortal(data, portalType, dimensionId, x, y, z)
+}
 
-    // Add portal if not added
-    let containsPortal = false
-    data.get('inbetween').forEach(element => {
+// Initialize data fields if they do not exist
+function portalsInit(data) {
+    if (!data.contains('inbetween'))
+        data.put('inbetween', [])
+    if (!data.contains('dragonrealm'))
+        data.put('dragonrealm', [])
+    if (!data.contains('depths'))
+        data.put('depths', [])
+}
+
+// Adds a portal to the persistent data if it doesn't already exist
+function addNewPortal(data, portalType, dimensionId, x, y, z) {
+    var containsPortal = false
+
+    data.get(portalType).forEach(element => {
         if (element["level"] == dimensionId && element["x"] == x && element["y"] == y && element["z"] == z)
             containsPortal = true
     })
-    if (!containsPortal)
-        data.get('inbetween').push({"x": x, "y": y, "z": z, "level": dimensionId})
 
-})
+    if (!containsPortal)
+        data.get(portalType).push({"x": x, "y": y, "z": z, "level": dimensionId})
+}
