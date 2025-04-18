@@ -1,0 +1,7 @@
+# Config folders to ignore
+
+# Individual configs to ignore
+aeroblender-common.toml
+aether_redux_common.toml
+aether_redux_pack_config.json
+alexscaves-client.toml

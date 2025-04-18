@@ -1,3 +1,4 @@
+# Ignored folders
 .DS_store
 .vscode
 .mixin.out
@@ -24,10 +25,3 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 kubejs/probe
-# Ignored configs
-config/debugkeybind.json
-config/modernfix-mixins.properties
-config/modernfix-common.toml
-config/nbt_ac.txt
-config/solcarrot-client.toml
-config/attributefix.json
