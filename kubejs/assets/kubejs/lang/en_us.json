@@ -5,6 +5,8 @@
     "item.kubejs.dimension_gem_rare": "Rare Dimensional Gem",
     "item.kubejs.dimension_gem_epic": "Epic Dimensional Gem",
     "item.kubejs.dimension_gem_legendary": "Legendary Dimensional Gem",
+
+    "item.kubejs.enhancer.divine_pact.hephaestus_forge": "Allows the creation of Enchanter's Tools and the Eternal Stella.",
     
     "block.kubejs.depths_portal": "The Depths Portal",
     "block.kubejs.dragon_portal": "Dragonrealm Portal",

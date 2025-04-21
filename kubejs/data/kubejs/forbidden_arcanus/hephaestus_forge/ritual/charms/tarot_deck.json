@@ -1,0 +1,50 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ],
+        "forge_tier": 4
+    },
+    "essences": {
+        "aureal": 300,
+        "blood": 0,
+        "experience": 70,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:gold_nugget"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:paper"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:gold_nugget"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:paper"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "minecraft:chest"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "tarotcards:tarot_deck"
+        }
+    }
+}

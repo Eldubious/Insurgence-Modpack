@@ -16,7 +16,7 @@
             }
         },
         {
-            "amount": 1,
+            "amount": 3,
             "ingredient": {
                 "item": "minecraft:quartz"
             }

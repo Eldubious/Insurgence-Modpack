@@ -109,9 +109,42 @@ SummoningRituals.start(event => {
 
     // Wither Storm
     if (event.recipe.getId().toString() == 'kubejs:rituals/wither_storm') {
+        var playerId = event.player.uuid.toString()
+
         // Prevent automatic summoning
         if (!event.player) event.cancel()
 
         event.player.potionEffects.add('minecraft:darkness', 220, 0, false, false)
+
+        // Play sounds for all players within 50 blocks of the summoner
+        // 1.5s -> 3s -> 4.5s -> 6s -> 7s -> 8s -> 9s -> 9.5s -> 10s
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 0`)
+        }, 1500);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 0.25`)
+        }, 3000);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 0.5`)
+        }, 4500);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 0.75`)
+        }, 6000);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 1`)
+        }, 7000);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 1`)
+        }, 8000);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 1.25`)
+        }, 9000);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.warden.heartbeat hostile @a[distance=..50] ~ ~ ~ 100 1.5`)
+        }, 9500);
+        setTimeout(() => {
+            event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.wither.spawn hostile @a[distance=..50] ~ ~ ~ 100 0.75`)
+            event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/summon_wither_storm summoned_wither_storm`)
+        }, 10000)
     }
 })

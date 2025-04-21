@@ -8,16 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "54FD155C3FDB09BA"
-			tasks: [{
-				id: "07D8907ECC12112E"
-				title: "Building tips"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			id: "48A7DDE66C5DFE43"
 			rewards: [
 				{

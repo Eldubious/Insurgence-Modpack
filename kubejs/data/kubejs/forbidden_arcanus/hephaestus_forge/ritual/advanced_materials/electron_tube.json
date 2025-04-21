@@ -1,5 +1,8 @@
 {
     "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
         "forge_tier": 5
     },
     "essences": {
@@ -12,30 +15,30 @@
         {
             "amount": 2,
             "ingredient": {
+                "item": "create:polished_rose_quartz"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
                 "item": "minecraft:iron_nugget"
             }
         },
         {
             "amount": 3,
             "ingredient": {
-                "item": "create:cogwheel"
-            }
-        },
-        {
-            "amount": 3,
-            "ingredient": {
-                "item": "create:large_cogwheel"
+                "item": "minecraft:redstone"
             }
         }
     ],
     "main_ingredient": {
-        "item": "create:golden_sheet"
+        "item": "create:iron_sheet"
     },
     "result": {
         "type": "forbidden_arcanus:create_item",
         "result_item": {
             "Count": 2,
-            "id": "create:precision_mechanism"
+            "id": "create:electron_tube"
         }
     }
 }

@@ -1,0 +1,73 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ]
+    },
+    "essences": {
+        "aureal": 500,
+        "blood": 200,
+        "experience": 0,
+        "souls": 1
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_elemental:mark_of_mastery"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "forge:raw_fishes"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:algal_brick"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "forge:raw_fishes"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:algal_brick"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "forge:raw_fishes"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:algal_brick"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "forge:raw_fishes"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_elemental:siren_shards"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_elemental:siren_charm"
+        }
+    }
+}

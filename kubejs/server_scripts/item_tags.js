@@ -48,6 +48,26 @@ ServerEvents.tags('item', event => {
     removeFromTag('farmersdelight:tools/knives', 'aetherdelight:stratus_knife')
 	removeFromTag('aquaculturedelight:kelp_rolls', 'aquaculture:sushi')
 
+	// Blacklist items from Eternal Stella
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:shattered_dimensional_carver')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:dimensional_carver')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:pupfish_finder')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:leech')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:minnow')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:worm')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask_amplify')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask_extend_time')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'galosphere:preserved_flesh')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bubble_blower')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:rope_arrow')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bamboo_spikes_tipped')
+
+	// Ender Eyes
+	const eyes = ['endrem:black_eye', 'endrem:cold_eye', 'endrem:corrupted_eye', 'endrem:lost_eye', 'endrem:nether_eye', 'endrem:old_eye', 'endrem:rogue_eye', 'endrem:cursed_eye',
+		'endrem:evil_eye', 'endrem:guardian_eye', 'endrem:magical_eye', 'endrem:wither_eye', 'endrem:witch_eye', 'endrem:undead_eye', 'endrem:exotic_eye', 'endrem:cryptic_eye']
+	eyes.forEach(element => addToTag('forbidden_arcanus:modifier/eternal_incompatible', element))
+
     // Dimensional Gems
     const gems = ['kubejs:dimension_gem_common', 'kubejs:dimension_gem_uncommon', 'kubejs:dimension_gem_rare',
         'kubejs:dimension_gem_epic', 'kubejs:dimension_gem_legendary']

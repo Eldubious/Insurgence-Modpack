@@ -1,0 +1,31 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ]
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 250,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "twilightforest:charm_of_life_1"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "minecraft:ghast_tear"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "twilightforest:charm_of_life_2"
+        }
+    }
+}

@@ -1,6 +1,27 @@
 // Create and remove recipes for Forbidden & Arcanus items
 ServerEvents.recipes(event => {
 
+    /*
+        Remove recipes for items meant to be crafted in the Hephaestus Forge
+    */
+    // Advanced Materials
+    event.remove({id: 'create:crafting/materials/electron_tube'})
+    event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
+    event.remove({id: 'create:sequenced_assembly/sturdy_sheet'})
+    event.remove([{id: 'ars_elemental:mark_of_mastery'}, {id: 'ars_elemental:imbuement_mark_of_mastery'}])
+    // Materials
+    event.remove({id: 'experienceobelisk:bibliophage'})
+    event.remove({id: 'apotheosis:prismatic_web'})
+    // Charms
+    event.remove({id: 'ars_elemental:siren_charm'})
+    event.remove({id: 'ars_elemental:firenando_charm'})
+    event.remove({id: 'ars_nouveau:starbuncle_charm'})
+    event.remove({id: 'ars_nouveau:drygmy_charm'})
+    event.remove({id: 'ars_nouveau:whirlisprig_charm'})
+    event.remove({id: 'ars_nouveau:wixie_charm'})
+    event.remove({id: 'tarotcards:tarot_deck'})
+
+
     // Convert Soulless Sand back into Soul Sand
 
 

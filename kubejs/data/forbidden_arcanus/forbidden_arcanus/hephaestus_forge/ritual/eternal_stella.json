@@ -1,12 +1,15 @@
 {
   "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:divine_pact"
+    ],
     "forge_tier": 3
   },
   "essences": {
-    "aureal": 82,
+    "aureal": 400,
     "blood": 1000,
     "experience": 0,
-    "souls": 1
+    "souls": 5
   },
   "inputs": [
     {

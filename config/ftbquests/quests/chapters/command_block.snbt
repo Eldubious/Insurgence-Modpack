@@ -213,7 +213,6 @@
 		{
 			dependencies: ["4EC3DFF09750A710"]
 			id: "565D06C38AD6EF80"
-			subtitle: "&8&oBelly of the Beast"
 			tasks: [{
 				dimension: "witherstormmod:bowels"
 				icon: "witherstormmod:tainted_flesh_block"

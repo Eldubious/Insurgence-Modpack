@@ -3,12 +3,6 @@ const items = []
 
 ServerEvents.recipes(event => {
 
-    // Remove recipes
-    event.remove({id: 'create:crafting/materials/electron_tube'})
-    event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
-    event.remove({id: 'create:sequenced_assembly/sturdy_sheet'})
-    event.remove([{id: 'ars_elemental:mark_of_mastery'}, {id: 'ars_elemental:imbuement_mark_of_mastery'}])
-
     // Replace inputs for non-gated recipes
     event.replaceInput(
         {id: 'create:crafting/kinetics/contraption_controls'},

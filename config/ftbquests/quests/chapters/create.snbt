@@ -835,40 +835,6 @@
 			x: 3.5d
 			y: 10.5d
 		}
-		{
-			id: "06ABE0CD9A569C70"
-			tasks: [{
-				id: "5A4DCB06EBFEF030"
-				item: "ars_nouveau:amethyst_golem_charm"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 9.0d
-		}
-		{
-			id: "3C93487FA8D08A10"
-			tasks: [{
-				id: "1D69A2C9DF2155AE"
-				item: {
-					Count: 1
-					id: "ars_nouveau:starbuncle_charm"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 9.0d
-		}
-		{
-			id: "1E953E46FBA3E1AC"
-			tasks: [{
-				id: "506E759080F83AE3"
-				item: "ars_nouveau:whirlisprig_charm"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 9.0d
-		}
 	]
 	title: "Automation"
 }

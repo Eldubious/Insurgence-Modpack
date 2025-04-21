@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
 
     function freezer(output, input, time, exp, category) {
         aetherFreezer(output, input, time, exp, category)
-        netherFreezer(output, input, time, exp)
+        netherFreezer(output, input, time, exp, category)
     }
 
     // Items

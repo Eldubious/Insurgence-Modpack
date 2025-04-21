@@ -1,0 +1,73 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ]
+    },
+    "essences": {
+        "aureal": 500,
+        "blood": 200,
+        "experience": 0,
+        "souls": 1
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:brewing_stand"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "minecraft:saplings"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:emerald"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "minecraft:saplings"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:crafting_table"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "minecraft:saplings"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:emerald"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "minecraft:saplings"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:wixie_shards"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:wixie_charm"
+        }
+    }
+}
