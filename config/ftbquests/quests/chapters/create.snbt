@@ -26,17 +26,6 @@
 	]
 	quests: [
 		{
-			id: "138C777E46699C7A"
-			shape: "gear"
-			tasks: [{
-				id: "4073B9BE7E1108AE"
-				title: "Advanced Automation"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "3D290937A86894B4"
 			tasks: [{
@@ -518,138 +507,6 @@
 			y: -6.0d
 		}
 		{
-			icon: "minecraft:redstone_torch"
-			id: "480033A881F3207A"
-			tasks: [{
-				id: "41510DDB018ECF26"
-				title: "Redstone Machines"
-				type: "checkmark"
-			}]
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["480033A881F3207A"]
-			id: "039A3CF00A882952"
-			tasks: [{
-				id: "5021E5AA3BFE14DA"
-				item: "quark:crafter"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -1.0d
-		}
-		{
-			id: "729315D5FE9E5336"
-			tasks: [{
-				id: "5FC900DD82AE032A"
-				item: "supplementaries:cog_block"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 1.0d
-		}
-		{
-			id: "3A82F97127CB45AA"
-			tasks: [{
-				id: "61C9D5526FBA3EAA"
-				item: "create:redstone_link"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			id: "674FFC533D9BB392"
-			tasks: [{
-				id: "2721E7301C5DDAC0"
-				item: "create:pulse_repeater"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 0.5d
-		}
-		{
-			id: "6E607FE7321D66E5"
-			tasks: [{
-				id: "33267AFEA935D7BC"
-				item: "create:pulse_extender"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -0.5d
-		}
-		{
-			id: "1A361D30E5F2251F"
-			tasks: [{
-				id: "0E6F491860EA0FAA"
-				item: "ars_nouveau:redstone_relay"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			id: "325FE3A3D7DAFB08"
-			tasks: [{
-				id: "529A54FBD993F7B9"
-				item: "create:redstone_contact"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 0.0d
-		}
-		{
-			id: "6BAF9819622F61DA"
-			tasks: [{
-				id: "6D6F58C3B02F09C1"
-				item: "quark:redstone_randomizer"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			id: "1140852558440E8E"
-			tasks: [{
-				id: "13B0D637F350CCFA"
-				item: "supplementaries:hourglass"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 2.5d
-		}
-		{
-			id: "393E3322DE1A5EB1"
-			tasks: [{
-				id: "5E955CD852834419"
-				item: "supplementaries:cannon"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			id: "3FA10147A32F0AB7"
-			tasks: [{
-				id: "2505CE886A91F1A4"
-				item: "supplementaries:turn_table"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 2.5d
-		}
-		{
-			id: "4622F63CC595E1B7"
-			tasks: [{
-				id: "46ECB7CDE875F5A0"
-				item: "supplementaries:spring_launcher"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.5d
-		}
-		{
 			can_repeat: true
 			icon: "create:brass_hand"
 			id: "559744A5A9A74B1C"
@@ -670,7 +527,7 @@
 			}]
 			title: "Learn How to Use Create Machines"
 			x: 0.0d
-			y: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "0FD497ACEAD7AE82"

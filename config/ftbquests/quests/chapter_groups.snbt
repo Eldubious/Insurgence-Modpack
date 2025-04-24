@@ -2,6 +2,5 @@
 	chapter_groups: [
 		{ id: "1CF0BF9967B6E091", title: "Main Progression" }
 		{ id: "3CFA5B714A0693A0", title: "Guides" }
-		{ id: "17CFDBCF3F844730", title: "Market" }
 	]
 }

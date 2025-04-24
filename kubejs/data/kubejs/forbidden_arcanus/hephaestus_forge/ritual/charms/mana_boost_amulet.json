@@ -1,0 +1,74 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ],
+        "forge_tier": 3
+    },
+    "essences": {
+        "aureal": 1000,
+        "blood": 0,
+        "experience": 500,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:magebloom_fiber"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:oracle_jelly"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:magebloom_fiber"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:dull_trinket"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:amulet_of_mana_boost"
+        }
+    }
+}

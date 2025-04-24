@@ -84,6 +84,7 @@ ServerEvents.recipes(event => {
     )
 
     // Replace Ice and Fire and Samurai Dynasty's Silver with Galosphere's Silver
+    event.remove({id: 'samurai_dynasty:silver_ingot_from_nugget'})
     event.remove({input: 'create:crushed_raw_silver', not: [{output: 'galosphere:silver_ingot'}, {output: 'galosphere:silver_nugget'}]})
     event.replaceInput(
         {id: 'samurai_dynasty:silver_block'},

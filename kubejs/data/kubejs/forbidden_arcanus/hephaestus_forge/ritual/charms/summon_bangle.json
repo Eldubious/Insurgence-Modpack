@@ -1,0 +1,73 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ]
+    },
+    "essences": {
+        "aureal": 100,
+        "blood": 0,
+        "experience": 0,
+        "souls": 2
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:wilden_horn"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:bone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:conjuration_essence"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:bone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:conjuration_essence"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:bone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:conjuration_essence"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:bone"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_elemental:base_bangle"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_elemental:summon_bangle"
+        }
+    }
+}

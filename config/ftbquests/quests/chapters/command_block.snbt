@@ -52,6 +52,7 @@
 		{
 			dependencies: ["52BD91BCCE447C45"]
 			disable_toast: true
+			icon: "architects_palette:unobtanium"
 			id: "225F1DADD3684C32"
 			optional: true
 			tasks: [{

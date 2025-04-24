@@ -1,0 +1,74 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ],
+        "forge_tier": 2
+    },
+    "essences": {
+        "aureal": 200,
+        "blood": 1000,
+        "experience": 100,
+        "souls": 2
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "forge:ender_pearls"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "tag": "forge:ender_pearls"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:ring_of_potential"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:ring_of_lesser_discount"
+        }
+    }
+}

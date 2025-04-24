@@ -1,0 +1,73 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ]
+    },
+    "essences": {
+        "aureal": 100,
+        "blood": 0,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:sugar"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:nether_wart"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:glowstone_dust"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:fermented_spider_eye"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:redstone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:brewing_stand"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "forbidden_arcanus:golden_feather"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:mundane_belt"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:belt_of_unstable_gifts"
+        }
+    }
+}

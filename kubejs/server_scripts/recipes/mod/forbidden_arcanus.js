@@ -20,6 +20,22 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ars_nouveau:whirlisprig_charm'})
     event.remove({id: 'ars_nouveau:wixie_charm'})
     event.remove({id: 'tarotcards:tarot_deck'})
+    event.remove({id: 'ars_elemental:air_bangle'})
+    event.remove({id: 'ars_elemental:anima_bangle'})
+    event.remove({id: 'ars_elemental:earth_bangle'})
+    event.remove({id: 'ars_elemental:water_bangle'})
+    event.remove({id: 'ars_elemental:fire_bangle'})
+    event.remove({id: 'ars_elemental:summon_bangle'})
+    event.remove({id: 'ars_elemental:base_bangle'})
+    event.remove({id: 'ars_nouveau:ring_of_lesser_discount'})
+    event.remove({id: 'ars_nouveau:ring_of_greater_discount'})
+    event.remove({id: 'ars_nouveau:amulet_of_mana_boost'})
+    event.remove({id: 'ars_nouveau:amulet_of_mana_regen'})
+    event.remove({id: 'hexcasting:lens'})
+    event.remove({id: 'experienceobelisk:enlightened_amulet'})
+    event.remove({id: 'ars_nouveau:belt_of_levitation'})
+    event.remove({id: 'ars_nouveau:belt_of_unstable_gifts'})
+    event.remove({id: 'ars_nouveau:jump_ring'})
 
 
     // Convert Soulless Sand back into Soul Sand
