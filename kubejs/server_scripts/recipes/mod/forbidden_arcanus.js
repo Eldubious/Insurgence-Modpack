@@ -42,13 +42,7 @@ ServerEvents.recipes(event => {
 
 
     // Automatically extract Soul from Soul Sand
-    event.recipes.create.splashing(
-        [
-            'forbidden_arcanus:soul',
-            Item.of('forbidden_arcanus:soulless_sand').withChance(0.80)
-        ],
-        'minecraft:soul_sand'
-    )
+    
 
     // Upgrade Soul into Corrupt Soul
     event.recipes.ars_nouveau.imbuement(

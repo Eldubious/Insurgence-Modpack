@@ -21,10 +21,5 @@ ServerEvents.recipes(event => {
     event.stonecutting('architects_palette:flint_pillar', 'supplementaries:flint_block')
     event.stonecutting('architects_palette:flint_tiles', 'supplementaries:flint_block')
 
-    // Cerebral Plate
-    event.remove({id: 'architects_palette:cerebral_plate'})
-    event.shapeless(
-        Item.of('architects_palette:cerebral_plate', 4),
-        ['minecraft:tuff', 'minecraft:quartz', 'experienceobelisk:forgotten_dust', 'minecraft:charcoal']
-    )
+    
 })

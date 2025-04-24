@@ -1,4 +1,4 @@
-// Create and remove recipes crafted from the Withered Beacon
+// Create and modify recipes for the Withered Beacon
 ServerEvents.recipes(event => {
 
     // Remove all original recipes using the Withered Beacon

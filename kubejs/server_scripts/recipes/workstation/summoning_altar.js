@@ -1,25 +1,9 @@
-// Create rituals for the Summoning Altar
+// Create and modify rituals for the Summoning Altar
 ServerEvents.recipes(event => {
 
-    /*  Create a recipe that uses an Enchanted Soul as a catalyst which
-        takes 4 input items and has one output */
-    function itemRitual(output, inputItems) {
-        event.recipes.summoningrituals.altar('forbidden_arcanus:enchanted_soul')
-            .recipeTime(20)
-            .input(inputItems[0])
-            .input(inputItems[1])
-            .input(inputItems[2])
-            .input(inputItems[3])
-            .itemOutput(
-                SummoningOutput.item(Item.of(output))
-                    .offset(0, 1, 0)
-                    .spread(0, 0, 0)
-            )
-    }
-    
-    // Create entity summoning rituals based on how many input items are used
+    // Register a mob sacrifice ritual
     function mobRitual(output, catalyst, inputItems) {
-        if (inputItems.length == 5) {
+        if (inputItems.length == 5) {           // There are 5 item inputs
             event.recipes.summoningrituals.altar(catalyst)
                 .recipeTime(60)
                 .input(inputItems[0])
@@ -29,7 +13,7 @@ ServerEvents.recipes(event => {
                 .input(inputItems[4])
                 .mobOutput(output)
 
-        } else if (inputItems.length == 4) {
+        } else if (inputItems.length == 4) {    // There are 4 item inputs
             event.recipes.summoningrituals.altar(catalyst)
                 .recipeTime(60)
                 .input(inputItems[0])
@@ -38,7 +22,7 @@ ServerEvents.recipes(event => {
                 .input(inputItems[3])
                 .mobOutput(output)
 
-        } else if (inputItems.length == 3) {
+        } else if (inputItems.length == 3) {    // There are 3 item inputs
             event.recipes.summoningrituals.altar(catalyst)
                 .recipeTime(60)
                 .input(inputItems[0])
@@ -46,7 +30,7 @@ ServerEvents.recipes(event => {
                 .input(inputItems[2])
                 .mobOutput(output)
 
-        } else if (inputItems.length == 2) {
+        } else if (inputItems.length == 2) {    // There are two item inputs
             event.recipes.summoningrituals.altar(catalyst)
                 .recipeTime(60)
                 .input(inputItems[0])
@@ -104,7 +88,8 @@ ServerEvents.recipes(event => {
     mobSacrifice('minecraft:skeleton_horse', 'minecraft:wither_rose', ['4x minecraft:bone', '4x minecraft:bone_meal', 'ars_elemental:anima_essence'], 'minecraft:horse')
     mobSacrifice('minecraft:zombie_horse', 'minecraft:wither_rose', ['4x minecraft:rotten_flesh', '2x forbidden_arcanus:rotten_leather', 'ars_elemental:anima_essence'], 'minecraft:horse')
 })
-// Apply effects to specific recipes
+
+// Event handler for summoning the Wither Storm
 SummoningRituals.start(event => {
 
     // Wither Storm

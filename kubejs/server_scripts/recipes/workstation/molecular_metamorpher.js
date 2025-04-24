@@ -1,4 +1,4 @@
-// Create and Modify recipes for the Molecular Metamorpher
+// Create and modify recipes for the Molecular Metamorpher
 ServerEvents.recipes(event => {
 
     // Register a recipe
@@ -29,12 +29,9 @@ ServerEvents.recipes(event => {
     // Entwine Rod
     event.remove({id: 'architects_palette:entwine_rod'})
     metamorphosis('architects_palette:entwine_rod', 4, 'minecraft:ender_pearl', 1, 'galosphere:silver_nugget', 2, 'unusualend:warped_moss', 5, 55, 40)
-
     // Oracle Jelly
     event.remove({id: 'architects_palette:oracle_jelly'})
     metamorphosis('architects_palette:oracle_jelly', 4, 'minecraft:sugar', 1, 'hexcasting:amethyst_dust', 2, 'unusualend:end_blob', 2, 55, 40)
-
     // Cryptic Eye
     metamorphosis('endrem:cryptic_eye', 1, 'minecraft:ender_eye', 1, 'create:experience_nugget', 6, [], 0, 315, 600)
-
 })

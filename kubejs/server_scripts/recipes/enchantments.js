@@ -1,10 +1,8 @@
 // Add Enchanting Apparatus recipes for every enchantment
-
 const earth_essence = 'ars_nouveau:earth_essence'; const air_essence = 'ars_nouveau:air_essence'
 const water_essence = 'ars_nouveau:water_essence'; const fire_essence = 'ars_nouveau:fire_essence'
 const manip_essence = 'ars_nouveau:manipulation_essence'; const conj_essence = 'ars_nouveau:conjuration_essence'
 const abj_essence = 'ars_nouveau:abjuration_essence'; const anima_essence = 'ars_elemental:anima_essence'
-
 
 ServerEvents.recipes(event => {
 
@@ -482,5 +480,4 @@ ServerEvents.recipes(event => {
     createEnchantRecipe('alexscaves:humungous_hex', 3, 'hexcasting:charged_amethyst', 'irons_spellbooks:arcane_ingot', manip_essence)
     createEnchantRecipe('alexscaves:multiple_mint', 3, 'rubinated_nether:ruby_shard', 'alexscaves:large_peppermint', conj_essence)
     createEnchantRecipe('alexscaves:seekcandy', 1, 'minecraft:diamond', 'alexscaves:frostmint')
-
 })

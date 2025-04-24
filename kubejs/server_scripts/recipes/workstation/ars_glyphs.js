@@ -1,7 +1,7 @@
-// Change the recipes of some glyphs from Ars Nouveau
+// Modify the recipes of some Ars Nouveau glyphs
 ServerEvents.recipes(event => {
 
-    // Register recipe for a glyph
+    // Replace a recipe
     function glyph(outputGlyph, inputItems, xpCost) {
         event.recipes.ars_nouveau.glyph(
             outputGlyph, // Must be valid glyph

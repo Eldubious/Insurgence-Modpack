@@ -1,17 +1,7 @@
 // All recipes related to the dimensional dungeons
 ServerEvents.recipes(event => {
 
-    // Portal Keyhole
-    event.remove({id: 'dimdungeons:recipe_block_portal_keyhole'})
-    event.recipes.ars_nouveau.enchanting_apparatus(
-        [
-            'supplementaries:lock_block',
-            'minecraft:ender_eye',
-            'minecraft:ender_eye'
-        ],
-        'dimdungeons:block_gilded_portal',
-        'dimdungeons:block_portal_keyhole'
-    )
+    
 
 
 

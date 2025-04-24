@@ -1,52 +1,22 @@
-// Create and remove recipes for Farmer's Delight items and workstations
+// Create and modify recipes for the Cutting Board
 ServerEvents.recipes(event => {
+    
+    // Register a recipe
+    function cuttingBoard(output, input, tool, sound) {
+        event.recipes.farmersdelight.cutting(
+            input, tool, output, sound
+        )
+    }
 
-    // Add Cooking Pot recipes
-    // Golden Apple Stew
-    event.remove({id: 'witherstormmod:golden_apple_stew'})
-    event.recipes.farmersdelight.cooking(
-        ['minecraft:golden_apple', '#witherstormmod:cure_base', '#witherstormmod:cure_ingredient', 'minecraft:suspicious_stew'],
-        'witherstormmod:golden_apple_stew',
-        5,
-        400,
-        'minecraft:bowl'
-    )
+    // Raw Catfish
+    cuttingBoard('6x aquaculture:fish_fillet_raw', 'alexsmobs:raw_catfish', '#forge:tools/knives')
+    // Fresh Marlin
+    cuttingBoard('10x aquaculture:fish_fillet_raw', 'tropicraft:fresh_marlin', '#forge:tools/knives')
 
-    event.remove({id: 'call_of_yucutan:xocolotl'})
-    event.recipes.farmersdelight.cooking(
-        ['minecraft:cocoa_beans', 'minecraft:cocoa_beans', 'minecraft:sugar', 'minecraft:milk_bucket', 'call_of_yucutan:chili_pepper', 'call_of_yucutan:chili_pepper'],
-        'call_of_yucutan:xocolatl',
-        5,
-        400,
-        'minecraft:bowl'
-    )
-
-    // Add fillet recipe for Raw Catfish and Fresh Marlin
-    event.recipes.farmersdelight.cutting(
-        'alexsmobs:raw_catfish',
-        '#forge:tools/knives',
-        '6x aquaculture:fish_fillet_raw'
-    )
-    event.recipes.farmersdelight.cutting(
-        'tropicraft:fresh_marlin',
-        '#forge:tools/knives',
-        '10x aquaculture:fish_fillet_raw'
-    )
-
-    // Skyjade Knife crafting recipe
-    event.shaped(
-        'aetherdelight:skyjade_knife',
-        [
-            ' J',
-            'S '
-        ],
-        {
-            J: 'call_of_yucutan:jade',
-            S: 'aether:skyroot_stick'
-        }
-    )
-
-    // Function for salvaging with Cutting Board recipes
+    /*
+        Equipment Salvaging using the Cutting Board
+    */
+    // Register a recipe
     function salvage(type, input, outputs) {
         // Using Hammers
         if (type == 0) {
