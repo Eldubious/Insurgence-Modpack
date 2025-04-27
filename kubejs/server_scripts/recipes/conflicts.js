@@ -7,6 +7,20 @@ ServerEvents.recipes(event => {
 
     // Remove the Forbidden Arcanus Bat Soup recipe
     event.remove({output: 'forbidden_arcanus:bat_soup'})
+    // Edelwood Bat Soup Bucket
+    event.replaceInput({id: 'forbidden_arcanus:edelwood_bat_soup_bucket'},
+        'forbidden_arcanus:bat_soup',
+        'miners_delight:bat_soup'
+    )
+
+    // Replace Miner's Delight's Moss with Quark's Moss Paste
+    event.replaceOutput({id: 'miners_delight:cutting/moss'},
+        'miners_delight:moss',
+        'quark:moss_paste'
+    )
+
+    // Remove Oceanic Delight's Takoyaki
+    event.remove({id: 'oceanic_delight:takoyaki'})
 
     // Replace Aquaculture's Fish Bones with Alex's Mob's Fish Bones
     event.remove({id: 'alexsmobs:bonemeal_from_fish_bones'})
@@ -105,5 +119,19 @@ ServerEvents.recipes(event => {
         {output: '#forge:nuggets/silver', not: [{id: 'iceandfire:silver_ingot_to_silver_nugget'}, {id: 'samurai_dynasty:silver_nugget'}]},
         '#forge:nuggets/silver',
         'galosphere:silver_nugget'
+    )
+
+    // Replace Farmer's Delight's Rope with Supplementaries' Rope
+    event.remove({id: 'quarkdelight:rope'})
+    event.remove({id: 'quarkdelight:safety_net'})
+    event.remove({id: 'supplementaries:rope'})
+    event.remove({id: 'supplementaries:rope_2'})
+    event.replaceOutput({output: 'farmersdelight:rope'},
+        'farmersdelight:rope',
+        'supplementaries:rope'
+    )
+    event.replaceInput({input: 'farmersdelight:rope'},
+        'farmersdelight:rope',
+        'supplementaries:rope'
     )
 })

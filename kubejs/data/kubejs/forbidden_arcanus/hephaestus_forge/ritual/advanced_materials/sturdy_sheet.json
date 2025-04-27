@@ -15,21 +15,46 @@
         {
             "amount": 2,
             "ingredient": {
-                "item": "minecraft:obsidian"
+                "item": "alexsmobs:lava_bottle"
             }
         },
         {
-            "amount": 3,
+            "amount": 1,
             "ingredient": {
                 "item": "forbidden_arcanus:obsidian_with_iron"
             }
         },
         {
-            "amount": 3,
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:obsidian"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "forbidden_arcanus:obsidian_with_iron"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:obsidian"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "forbidden_arcanus:obsidian_with_iron"
+            }
+        },
+        {
+            "amount": 1,
             "ingredient": {
                 "item": "alexsmobs:lava_bottle"
             }
         }
+        
     ],
     "main_ingredient": {
         "item": "forbidden_arcanus:obsidian_ingot"

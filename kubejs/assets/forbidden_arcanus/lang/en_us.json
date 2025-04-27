@@ -1,13 +1,13 @@
 {
-    "item.forbidden_arcanus.enhancer.artisan_relic.hephaestus_forge": "Saves you a lot of experience.\nAlso allows you to create advanced materials.",
+    "item.forbidden_arcanus.enhancer.artisan_relic.hephaestus_forge": "Allows the creation of advanced materials & bookshelves, and saves you a lot of Experience.",
 
-    "item.forbidden_arcanus.enhancer.crescent_moon.hephaestus_forge": "Reduces the required Aureal depending on the time of day. Also allows the creation of magical charms.",
+    "item.forbidden_arcanus.enhancer.crescent_moon.hephaestus_forge": "Allows the creation of magical charms, and reduces the required Aureal depending on the time of day.",
 
-    "item.forbidden_arcanus.enhancer.crimson_stone.hephaestus_forge": "Heavily decreases the amount of required souls",
+    "item.forbidden_arcanus.enhancer.crimson_stone.hephaestus_forge": "Allows the creation of ___, and heavily decreases the amount of required souls",
 
     "item.forbidden_arcanus.enhancer.elementarium.hephaestus_forge": "Allows the creation of elemental items.",
 
-    "item.forbidden_arcanus.enhancer.divine_pact.hephaestus_forge": "Allows the creation of celestial items.",
+    "item.forbidden_arcanus.enhancer.divine_pact.hephaestus_forge": "Allows the creation of Enchanter's Tools and the Eternal Stella.",
 
     "item.forbidden_arcanus.enhancer.maledictus_pact.hephaestus_forge": "Allows the creation of cursed items.",
 

@@ -5,11 +5,16 @@ StartupEvents.registry('item', event => {
     event.create('enchant_catalyst')
         .maxStackSize(16)
         .translationKey('item.kubejs.enchant_catalyst')
-        .tooltip('§6§oUsed in the Enchanting Apparatus to enchant items.')
         .glow(true)
 
-    // Dimensional Gems
-    const gems = ['dimension_gem_common', 'dimension_gem_uncommon', 'dimension_gem_rare',
-        'dimension_gem_epic', 'dimension_gem_legendary']
-    gems.forEach(element => event.create(element).translationKey('item.kubejs.' + element))
+    // Hyper Enchanting Catalyst
+    event.create('hyper_enchant_catalyst')
+        .maxStackSize(16)
+        .translationKey('item.kubejs.hyper_enchant_catalyst')
+        .glow(true)
+
+    // Obfuscated
+    event.create('obfuscated')
+        .unstackable()
+        .translationKey('item.kubejs.obfuscated')
 })

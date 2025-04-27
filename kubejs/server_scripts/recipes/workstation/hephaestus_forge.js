@@ -1,9 +1,6 @@
-// Create and remove recipes for Forbidden & Arcanus items
+// Remove recipes for items which are crafted in the Hephaestus Forge
 ServerEvents.recipes(event => {
 
-    /*
-        Remove recipes for items meant to be crafted in the Hephaestus Forge
-    */
     // Advanced Materials
     event.remove({id: 'create:crafting/materials/electron_tube'})
     event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
@@ -36,41 +33,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ars_nouveau:belt_of_levitation'})
     event.remove({id: 'ars_nouveau:belt_of_unstable_gifts'})
     event.remove({id: 'ars_nouveau:jump_ring'})
+    // Bookshelves
 
-
-    // Convert Soulless Sand back into Soul Sand
-
-
-    // Automatically extract Soul from Soul Sand
-    
-
-    // Upgrade Soul into Corrupt Soul
-    event.recipes.ars_nouveau.imbuement(
-        'forbidden_arcanus:soul',
-        'forbidden_arcanus:corrupt_soul',
-        3000,
-        [
-            'forbidden_arcanus:corrupti_dust',
-            'forbidden_arcanus:dark_matter',
-            'rubinated_nether:bleeding_obsidian'
-        ]
-    )
-
-    // Upgrade Soul into Enchanted Soul
-    event.recipes.ars_nouveau.imbuement(
-        'forbidden_arcanus:soul',
-        'forbidden_arcanus:enchanted_soul',
-        5000,
-        [
-            'forbidden_arcanus:xpetrified_orb',
-            'minecraft:experience_bottle',
-            'forbidden_arcanus:deorum_block'
-        ]
-    )
-
-
-
-
-    // Make Enchanted Golden Apple use Forge for recipe
-    event.remove({id: 'forbidden_arcanus:enchanted_golden_apple'})
 })

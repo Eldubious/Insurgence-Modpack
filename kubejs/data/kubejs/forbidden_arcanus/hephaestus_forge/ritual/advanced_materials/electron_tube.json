@@ -13,7 +13,13 @@
     },
     "inputs": [
         {
-            "amount": 2,
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:redstone"
+            }
+        },
+        {
+            "amount": 1,
             "ingredient": {
                 "item": "create:polished_rose_quartz"
             }
@@ -25,7 +31,19 @@
             }
         },
         {
-            "amount": 3,
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:redstone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "create:polished_rose_quartz"
+            }
+        },
+        {
+            "amount": 1,
             "ingredient": {
                 "item": "minecraft:redstone"
             }

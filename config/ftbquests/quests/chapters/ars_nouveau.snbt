@@ -5,7 +5,7 @@
 	group: "3CFA5B714A0693A0"
 	icon: "ars_nouveau:summon_focus"
 	id: "7E9DF58BB0875247"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

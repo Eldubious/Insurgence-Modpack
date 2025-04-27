@@ -19,7 +19,10 @@ ServerEvents.recipes(event => {
     superBeacon('main_activated',
         [
             {item: 'architects_palette:unobtanium'},
+            {item: 'architects_palette:unobtanium'},
             {item: 'create:shadow_steel'},
+            {item: 'create:shadow_steel'},
+            {item: 'create:refined_radiance'},
             {item: 'create:refined_radiance'}
         ],
         'create:chromatic_compound'

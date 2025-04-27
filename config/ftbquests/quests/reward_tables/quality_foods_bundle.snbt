@@ -307,6 +307,29 @@
 		{ item: "trailandtales_delight:stuffed_sniffer_egg" }
 		{ item: "trailandtales_delight:golden_lantern_fruit" }
 		{ item: "call_of_yucutan:xocolatl" }
+		{ item: "ancient_aether:festive_gummy_swet" }
+		{ item: "hexcasting:sub_sandwich" }
+		{ item: "oceanic_delight:sea_grape_juice" }
+		{ item: "oceanic_delight:squid_salad" }
+		{ item: "oceanic_delight:caesar_salad" }
+		{ item: "oceanic_delight:sea_salad" }
+		{ item: "oceanic_delight:sponge_cake_slice" }
+		{ item: "oceanic_delight:nautilus_juice" }
+		{ item: "oceanic_delight:steamed_beef" }
+		{ item: "oceanic_delight:sea_pickle_roll" }
+		{ item: "oceanic_delight:fish_egg_roll" }
+		{ item: "oceanic_delight:glow_squid_stew" }
+		{ item: "oceanic_delight:globular_rice" }
+		{ item: "oceanic_delight:shrimp_stew" }
+		{ item: "oceanic_delight:pasta_with_eyeball" }
+		{ item: "oceanic_delight:squid_and_pickles" }
+		{ item: "oceanic_delight:bowl_of_paella" }
+		{ item: "oceanic_delight:plate_of_stuffed_pufferfish" }
+		{ item: "pineapple_delight:pineapple_pie_side" }
+		{ item: "pineapple_delight:pineapple_fried_rice" }
+		{ item: "pineapple_delight:pineapple_juice" }
+		{ item: "pineapple_delight:pineapple_milk_shake" }
+		{ item: "pineapple_delight:pineapple_ice_cream" }
 	]
 	title: "Quality Foods Bundle"
 }

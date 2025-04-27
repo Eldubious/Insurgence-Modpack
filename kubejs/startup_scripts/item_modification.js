@@ -23,7 +23,7 @@ ItemEvents.modification(event => {
         event.modify(resource, item => {item.rarity = 'EPIC'})
     }
 
-    const uncommon_items = ['kubejs:dimension_gem_common', 'vinery:red_grapejuice', 'vinery:white_grapejuice', 'vinery:red_taiga_grapejuice', 'vinery:white_taiga_grapejuice',
+    const uncommon_items = ['vinery:red_grapejuice', 'vinery:white_grapejuice', 'vinery:red_taiga_grapejuice', 'vinery:white_taiga_grapejuice',
         'vinery:red_jungle_grapejuice', 'vinery:white_jungle_grapejuice', 'vinery:red_savanna_grapejuice', 'vinery:white_savanna_grapejuice', 'vinery:apple_juice',
         'vinery:apple_mash', 'vinery:basket', 'tropicraft:fire_helmet', 'tropicraft:fire_chestplate', 'tropicraft:fire_leggings', 'tropicraft:fire_boots', 'tropicraft:water_wand',
         'tropicraft:exploding_coconut', 'tropicraft:fishing_net', 'tropicraft:drink_mixer', 'tropicraft:air_compressor', 'tropicraft:ashen_mask_horn_monkey',
@@ -214,7 +214,7 @@ ItemEvents.modification(event => {
     ]
     uncommon_items.forEach(element => uncommon(element))
         
-    const rare_items = ['kubejs:dimension_gem_uncommon', 'kubejs:dimension_gem_rare', 'vinery:mead', 'vinery:apple_cider', 'vinery:apple_wine',
+    const rare_items = ['vinery:mead', 'vinery:apple_cider', 'vinery:apple_wine',
         'vinery:mellohi_wine', 'vinery:glowing_wine', 'vinery:solaris_wine', 'vinery:noir_wine', 'vinery:red_wine', 'vinery:strad_wine', 'vinery:cherry_wine', 'vinery:cristel_wine',
         'vinery:creepers_crush', 'vinery:kelp_cider', 'vinery:lilitu_wine', 'vinery:jo_special_mixture', 'vinery:eiswein', 'vinery:aegis_wine', 'vinery:bolvar_wine',
         'vinery:chorus_wine', 'vinery:villagers_fright', 'vinery:clark_wine', 'vinery:magnetic_wine', 'vinery:stal_wine', 'vinery:chenet_wine', 'tropicraft:white_pearl',
@@ -285,7 +285,7 @@ ItemEvents.modification(event => {
     ]
     rare_items.forEach(element => rare(element))
 
-    const epic_items = ['kubejs:dimension_gem_epic', 'kubejs:dimension_gem_legendary', 'kubejs:enchant_catalyst', 'vinery:winemaker_leggings', 'vinery:winemaker_boots',
+    const epic_items = ['vinery:winemaker_leggings', 'vinery:winemaker_boots', 'kubejs:hyper_enchant_catalyst', 'kubejs:obfuscated',
         'vinery:jellie_wine', 'vinery:bottle_mojang_noir', 'tarotcards:tarot_deck', 'tarotcards:death', 'tarotcards:judgement', 'tarotcards:justice', 'tarotcards:strength',
         'tarotcards:temperance', 'tarotcards:the_chariot', 'tarotcards:the_devil', 'tarotcards:the_emperor', 'tarotcards:the_empress', 'tarotcards:the_fool', 'tarotcards:the_hanged_man',
         'tarotcards:the_hermit', 'tarotcards:the_hierophant', 'tarotcards:the_high_priestess', 'tarotcards:the_lovers', 'tarotcards:the_magician', 'tarotcards:the_moon',

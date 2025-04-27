@@ -12,6 +12,8 @@ ServerEvents.recipes(event => {
     cuttingBoard('6x aquaculture:fish_fillet_raw', 'alexsmobs:raw_catfish', '#forge:tools/knives')
     // Fresh Marlin
     cuttingBoard('10x aquaculture:fish_fillet_raw', 'tropicraft:fresh_marlin', '#forge:tools/knives')
+    // Pineapple Cubes
+    cuttingBoard('2x tropicraft:pineapple_cubes', 'pineapple_delight:pineapple_side', '#forge:tools/knives')
 
     /*
         Equipment Salvaging using the Cutting Board
@@ -78,7 +80,6 @@ ServerEvents.recipes(event => {
     salvage(1, 'irons_spellbooks:ruined_book', [Item.of('minecraft:leather', 2), Item.of('minecraft:sculk_vein').withChance(0.90), Item.of('irons_spellbooks:cooldown_upgrade_orb').withChance(0.15)])
     // Music Discs
     salvage(0, 'minecraft:disc_fragment_5', [Item.of('minecraft:echo_shard').withChance(0.10)])
-    salvage(0, 'idas:disc_fragment_slither', [Item.of('create:golden_sheet').withChance(0.10)])
     salvage(0, 'alexscaves:disc_fragment_tasty', [Item.of('alexscaves:peppermint_powder').withChance(0.45)])
     salvage(0, 'alexscaves:disc_fragment_fusion', [Item.of('alexscaves:sulfur_dust').withChance(0.45)])
     salvage(0, 'unusualend:disc_fragment_flying_ships', [Item.of('ends_delight:chorus_fruit_grain').withChance(0.60)])

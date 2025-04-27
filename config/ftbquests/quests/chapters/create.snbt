@@ -5,7 +5,7 @@
 	group: "3CFA5B714A0693A0"
 	icon: "create:brass_hand"
 	id: "6B8ECE496184FF3A"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "3CACE2BC9F1A7B87"

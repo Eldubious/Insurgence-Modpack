@@ -210,6 +210,83 @@
 			x: 0.0d
 			y: 2.5d
 		}
+		{
+			can_repeat: true
+			id: "2FD01DFC20B71311"
+			rewards: [
+				{
+					id: "50FCCF32DD08572D"
+					item: {
+						Count: 1
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 30s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79F36205F5F028C1"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_apron"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 30s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C31A9DE76975B03"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 30s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "777F6DF92ABA2A3B"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 30s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "749A8AE977C43097"
+				title: "a"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
 	]
 	title: "Welcome"
 }

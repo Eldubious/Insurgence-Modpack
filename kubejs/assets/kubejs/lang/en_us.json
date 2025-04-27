@@ -1,13 +1,18 @@
 {
     "item.kubejs.enchant_catalyst": "Enchanting Catalyst",
-    "item.kubejs.dimension_gem_common": "Common Dimensional Gem",
-    "item.kubejs.dimension_gem_uncommon": "Uncommon Dimensional Gem",
-    "item.kubejs.dimension_gem_rare": "Rare Dimensional Gem",
-    "item.kubejs.dimension_gem_epic": "Epic Dimensional Gem",
-    "item.kubejs.dimension_gem_legendary": "Legendary Dimensional Gem",
+    "item.kubejs.hyper_enchant_catalyst": "Hyper Enchanting Catalyst",
+    "item.kubejs.obfuscated": "§5§kMeaningOfLife",
 
-    "item.kubejs.enhancer.divine_pact.hephaestus_forge": "Allows the creation of Enchanter's Tools and the Eternal Stella.",
-    "item.kubejs.enhancer.maledictus_pact.hephaestus_forge": "Allows the creation of cursed items.",
+    "tooltip.kubejs.enchant_catalyst": "§6§oUsed in the Enchanting Apparatus to enchant items.",
+    "tooltip.kubejs.hyper_enchant_catalyst": "§6§oUsed in the Enchanting Apparatus to enchant items.",
+    "tooltip.kubejs.cataclysm_eyes": "§7§oCannot§r§7 be used to open the End Portal",
+    "tooltip.kubejs.mech_eye": "§7Used to find the ___.",
+    "tooltip.kubejs.flame_eye": "§7Used to find the Burning Arena.",
+    "tooltip.kubejs.void_eye": "§7Used to find the ___.",
+    "tooltip.kubejs.monstrous_eye": "§7Used to find the ___.",
+    "tooltip.kubejs.abyss_eye": "§7Used to find the ___.",
+    "tooltip.kubejs.desert_eye": "§7Used to find the ___.",
+    "tooltip.kubejs.cursed_eye": "§7Used to find the Frozen Prison.",
     
     "block.kubejs.depths_portal": "The Depths Portal",
     "block.kubejs.dragon_portal": "Dragonrealm Portal",
@@ -23,5 +28,8 @@
     "biome.kubejs.asurine_caves": "Asurine Caves",
     
     "trophy.kubejs.winner": "Winner's Trophy",
-    "trophy.kubejs.music_disc": "Record Collector Trophy"   
+    "trophy.kubejs.music_disc": "Record Collector Trophy",
+
+    "questbook.kubejs.hovertext.cooking_pot": "These foods are made using a Cooking Pot.",
+    "questbook.kubejs.hovertext.crafting_table": "These foods are made using a Crafting Table."
 }

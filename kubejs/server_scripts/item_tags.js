@@ -16,6 +16,9 @@ ServerEvents.tags('item', event => {
 	addToTag('mynethersdelight:hot_spice', 'twilightforest:fiery_blood')
 	addToTag('mynethersdelight:hot_spice', 'twilightforest:fiery_tears')
 
+	// Add Alex's Mobs Catfish to catfish tag
+	addToTag('forge:raw_fishes/catfish', 'alexsmobs:raw_catfish')
+
 	// Add more fish to fillet recipes
 	addToTag('aquaculturedelight:fillet_two', 'alexsmobs:blobfish')
 	addToTag('aquaculturedelight:fillet_three', 'alexsmobs:cosmic_cod')
@@ -46,7 +49,14 @@ ServerEvents.tags('item', event => {
     jadeOres.forEach(item => {removeFromTag('forge:ores/jade', item)})
     removeFromTag('forge:storage_blocks/raw_silver', 'iceandfire:raw_silver_block')
     removeFromTag('farmersdelight:tools/knives', 'aetherdelight:stratus_knife')
+	removeFromTag('forge:tools/knives', 'aetherdelight:stratus_knife')
 	removeFromTag('aquaculturedelight:kelp_rolls', 'aquaculture:sushi')
+	removeFromTag('forge:moss', 'miners_delight:moss')
+	addToTag('forge:moss', 'quark:moss_paste')
+	removeFromTag('forge:rope', 'quark:rope')
+	removeFromTag('supplementaries:ropes', 'quark:rope')
+	removeFromTag('forge:rope', 'farmersdelight:rope')
+	removeFromTag('supplementaries:ropes', 'farmersdelight:rope')
 
 	// Blacklist items from Eternal Stella
 	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:shattered_dimensional_carver')
@@ -67,6 +77,11 @@ ServerEvents.tags('item', event => {
 	const eyes = ['endrem:black_eye', 'endrem:cold_eye', 'endrem:corrupted_eye', 'endrem:lost_eye', 'endrem:nether_eye', 'endrem:old_eye', 'endrem:rogue_eye', 'endrem:cursed_eye',
 		'endrem:evil_eye', 'endrem:guardian_eye', 'endrem:magical_eye', 'endrem:wither_eye', 'endrem:witch_eye', 'endrem:undead_eye', 'endrem:exotic_eye', 'endrem:cryptic_eye']
 	eyes.forEach(element => addToTag('forbidden_arcanus:modifier/eternal_incompatible', element))
+
+	// Aether Grass
+	addToTag('kubejs:aether_grass', 'aether_redux:short_aether_grass')
+	addToTag('kubejs:aether_grass', 'ancient_aether:sky_grass')
+	addToTag('kubejs:aether_grass', 'aether_redux:splitfern')
 
     // Dimensional Gems
     const gems = ['kubejs:dimension_gem_common', 'kubejs:dimension_gem_uncommon', 'kubejs:dimension_gem_rare',
@@ -157,7 +172,8 @@ ServerEvents.tags('item', event => {
 		"oceanic_delight:nautilus_juice", "oceanic_delight:sponge_cake_slice", "oceanic_delight:squid_salad", "oceanic_delight:caesar_salad", "oceanic_delight:sea_salad",
 		"oceanic_delight:seafood_skewer", "oceanic_delight:steamed_beef", "oceanic_delight:sea_pickle_roll", "oceanic_delight:fish_egg_roll", "oceanic_delight:glow_squid_stew",
 		"oceanic_delight:globular_rice", "oceanic_delight:shrimp_stew", "oceanic_delight:pasta_with_eyeball", "oceanic_delight:squid_and_pickles", "oceanic_delight:bowl_of_paella",
-		"oceanic_delight:plate_of_stuffed_pufferfish", "aether:healing_stone", "ancient_aether:festive_gummy_swet", "hexcasting:sub_sandwich"]
+		"oceanic_delight:plate_of_stuffed_pufferfish", "aether:healing_stone", "ancient_aether:festive_gummy_swet", "hexcasting:sub_sandwich", "pineapple_delight:pineapple_pie_side",
+		"pineapple_delight:pineapple_fried_rice", "pineapple_delight:pineapple_juice", "pineapple_delight:pineapple_milk_shake", "pineapple_delight:pineapple_ice_cream"]
     qualityFoods.forEach(element => addToTag('kubejs:quality_foods', element)) 
     // DEV: store length of list in global variable
     global.qualityFoodsLen = qualityFoods.length 
