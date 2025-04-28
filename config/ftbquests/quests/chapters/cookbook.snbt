@@ -2186,6 +2186,7 @@
 				item: "vinery:vinery_standard"
 				type: "item"
 			}]
+			title: "The Completionist Banner"
 			x: -4.3d
 			y: -0.6d
 		}

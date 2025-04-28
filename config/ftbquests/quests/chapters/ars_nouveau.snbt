@@ -9,6 +9,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"The Hephaestus Forge is a structure that can craft items using essences (aureal, souls, blood, and experience). The Forge can be filled with essences by placing items in it (see the associated quests to see which items can provide essence)."
+				""
+				""
+				"The base of the Forge is made like this:"
+				""
+				"{@pagebreak}"
+				"Once you have made the base, place a Smithing Table on the center block and interact with it using Mundabitur Dust. That will cause the Smithing Table to transform into the Hephaestus Forge. To use items in the crafting recipe, just place Darkstone Pedestals on top of the base and interact with them to add items."
+			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "71BE94EFA4ABD7FE"
 			shape: "rsquare"
@@ -43,7 +52,7 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge: Tier 1"
+			title: "&fHephaestus Forge:&e&l Tier 1"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -52,6 +61,7 @@
 				"71BE94EFA4ABD7FE"
 				"64380E931525FE57"
 			]
+			description: ["The Hephaestus Forge can be upgraded the same way you craft items with it. Each upgrade allows you to craft higher-tier items."]
 			icon: {
 				Count: 1
 				id: "forbidden_arcanus:hephaestus_forge"
@@ -83,7 +93,7 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge: Tier 2"
+			title: "&fHephaestus Forge:&6&l Tier 2"
 			x: 0.0d
 			y: -8.0d
 		}
@@ -120,7 +130,7 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge: Tier 3"
+			title: "&fHephaestus Forge:&4&l Tier 3"
 			x: 0.0d
 			y: -11.0d
 		}
@@ -157,7 +167,7 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge: Tier 4"
+			title: "&fHephaestus Forge:&c&l Tier 4"
 			x: 0.0d
 			y: -14.0d
 		}
@@ -200,12 +210,17 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge: Tier 5"
+			title: "&fHephaestus Forge:&d&l Tier 5"
 			x: 0.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["71BE94EFA4ABD7FE"]
+			description: [
+				"A Blacksmith Gavel is required to start crafting an item using the Hephaestus Forge."
+				""
+				"To start the craft, just interact with the Forge using the Gavel while all of the required items are on their pedestals and the Forge has the essence needed."
+			]
 			id: "64380E931525FE57"
 			tasks: [{
 				id: "7B80FCB1EEC537EB"
@@ -216,6 +231,7 @@
 						value: "forbidden_arcanus:blacksmith_gavel"
 					}
 				}
+				title: "Any Blacksmith Gavel"
 				type: "item"
 			}]
 			title: "Blacksmith Gavel"
@@ -223,6 +239,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["71BE94EFA4ABD7FE"]
 			id: "4253BA120B32172F"
 			shape: "diamond"
 			tasks: [{
@@ -254,6 +271,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["71BE94EFA4ABD7FE"]
 			icon: "forbidden_arcanus:arcane_crystal_obelisk"
 			id: "2CFB1EC9500E0866"
 			shape: "diamond"
@@ -289,6 +307,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["71BE94EFA4ABD7FE"]
 			icon: {
 				Count: 1
 				id: "forbidden_arcanus:blood_test_tube"
@@ -327,6 +346,22 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["71BE94EFA4ABD7FE"]
+			description: [
+				"Each of these items provides a different amount of experience."
+				""
+				"&aBottle o' Enchanting&r -"
+				" "
+				"&aXpetrified Orb&r - "
+				""
+				"&aExperience Nugget&r - "
+				""
+				"&aExperience Block&r - "
+				""
+				"&aExperience Gem&r - "
+				""
+				"&aGreater Experience Gem&r - "
+			]
 			id: "14A44B29DFA3A682"
 			shape: "diamond"
 			tasks: [{

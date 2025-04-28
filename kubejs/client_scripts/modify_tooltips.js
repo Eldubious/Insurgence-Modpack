@@ -19,7 +19,7 @@ ItemEvents.tooltip(event => {
         'aetherdelight:stratus_knife', 'aetherdelight:raw_aerfillet', 'aetherdelight:cooked_aerfillet', 'aetherdelight:quail_stew', 'aetherdelight:goldenleaf_salad', 'aetherdelight:goldenleaf_crate',
         'aetherdelight:oat_cookie', 'aetherdelight:strange_root_salad', 'aetherdelight:luxbuds_salad', 'aetherdelight:quickroot_crate', 'aetherdelight:chromaberry_crate', 'iceandfire:copper_nugget',
         'iceandfire:raw_silver', 'iceandfire:silver_ingot', 'iceandfire:silver_nugget', 'iceandfire:silver_ore', 'iceandfire:deepslate_silver_ore', 'iceandfire:raw_silver_block',
-        'iceandfire:silver_block', 'forbidden_arcanus:bat_wing', 'farmersdelight:rope'
+        'iceandfire:silver_block', 'forbidden_arcanus:bat_wing', 'farmersdelight:rope', 'rubinated_nether:freezer', 'dimdungeons:item_blank_teleporter_key'
     ]
     unused_items.forEach(element => {
         event.add(element, '§4§o§lShould not be obtainable')

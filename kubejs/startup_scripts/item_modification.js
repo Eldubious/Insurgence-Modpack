@@ -1,18 +1,25 @@
 // All item modifications
 ItemEvents.modification(event => {
 
-    // Modify item stack sizes
-    function increaseStackSize(resource) {
-        event.modify(resource, item => {item.maxStackSize = 16})
+    /*
+        Modify item stack sizes
+    */
+    function increaseStackSize(resource, size) {
+        event.modify(resource, item => {item.maxStackSize = size})
     }
 
+    // Increase Chromatic Compound stack size
+    increaseStackSize('create:chromatic_compound', 64)
+    // Increase all potion stack sizes to 16
     const potion_items= ['minecraft:potion', 'minecraft:splash_potion', 'minecraft:lingering_potion', 'estrogen:gender_change_potion', 'unusualend:warped_potion',
         'irons_spellbooks:oakskin_elixir', 'irons_spellbooks:greater_oakskin_elixir', 'irons_spellbooks:greater_healing_potion', 'irons_spellbooks:invisibility_elixir',
         'irons_spellbooks:greater_invisibility_elixir', 'irons_spellbooks:evasion_elixir', 'irons_spellbooks:greater_evasion_elixir', 'irons_spellbooks:fire_ale',
         'irons_spellbooks:netherward_tincture']
-    potion_items.forEach(element => increaseStackSize(element))
-
-    // Modify item rarities
+    potion_items.forEach(element => increaseStackSize(element, 16))
+    
+    /*
+        Modify item rarities
+    */
     function uncommon(resource) {
         event.modify(resource, item => {item.rarity = 'UNCOMMON'})
     }

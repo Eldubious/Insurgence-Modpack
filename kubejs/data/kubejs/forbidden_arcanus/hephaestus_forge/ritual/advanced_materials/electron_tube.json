@@ -25,6 +25,12 @@
             }
         },
         {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:redstone"
+            }
+        },
+        {
             "amount": 3,
             "ingredient": {
                 "item": "minecraft:iron_nugget"
@@ -40,12 +46,6 @@
             "amount": 1,
             "ingredient": {
                 "item": "create:polished_rose_quartz"
-            }
-        },
-        {
-            "amount": 1,
-            "ingredient": {
-                "item": "minecraft:redstone"
             }
         }
     ],
