@@ -1,4 +1,11 @@
 {
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/star"
+		}
+	}
 	id: "04CDD1093DE085CB"
 	loot_size: 1
 	order_index: 1
@@ -331,5 +338,5 @@
 		{ item: "pineapple_delight:pineapple_milk_shake" }
 		{ item: "pineapple_delight:pineapple_ice_cream" }
 	]
-	title: "Quality Foods Bundle"
+	title: "&6Quality Foods&r Reward"
 }

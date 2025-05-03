@@ -508,6 +508,10 @@
 		}
 		{
 			can_repeat: true
+			description: [
+				"You can use the command &7/create ponder&r to view the ponder index anytime."
+				"This works in survival without cheats enabled too."
+			]
 			icon: "create:brass_hand"
 			id: "559744A5A9A74B1C"
 			rewards: [{
@@ -522,7 +526,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "431287E627FC1D83"
-				title: "Pondering..."
+				title: "Alright!"
 				type: "checkmark"
 			}]
 			title: "Learn How to Use Create Machines"

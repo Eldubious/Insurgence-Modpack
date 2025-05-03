@@ -1,0 +1,11 @@
+{
+	icon: "irons_spellbooks:blood_vial"
+	id: "7321851871010ED7"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "irons_spellbooks:blood_vial", weight: 3.0f }
+		{ item: "twilightforest:fiery_blood" }
+	]
+	title: "Heph. Forge: &cBlood"
+}

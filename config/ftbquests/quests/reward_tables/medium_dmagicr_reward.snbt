@@ -1,0 +1,36 @@
+{
+	icon: "forbidden_arcanus:arcane_crystal_dust"
+	id: "7C8897044EDD550A"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 3, item: "forbidden_arcanus:deorum_ingot", weight: 3.0f }
+		{ item: "forbidden_arcanus:golden_orchid_seeds" }
+		{ count: 4, item: "forbidden_arcanus:corrupted_arcane_crystal", weight: 2.0f }
+		{ count: 4, item: "forbidden_arcanus:dark_rune", weight: 2.0f }
+		{ count: 2, item: "forbidden_arcanus:corrupt_soul", weight: 3.0f }
+		{ count: 2, item: "forbidden_arcanus:enchanted_soul", weight: 2.0f }
+		{ count: 3, item: "ars_nouveau:wilden_horn", weight: 2.0f }
+		{ count: 3, item: "ars_nouveau:wilden_spike", weight: 2.0f }
+		{ count: 3, item: "ars_nouveau:wilden_wing", weight: 2.0f }
+		{ item: "ars_nouveau:wixie_shards" }
+		{ item: "ars_nouveau:drygmy_shard" }
+		{ item: "ars_elemental:siren_shards" }
+		{ item: "ars_nouveau:whirlisprig_shards" }
+		{ item: "ars_nouveau:starbuncle_shards" }
+		{ item: "irons_spellbooks:arcane_debris" }
+		{ count: 3, item: "irons_spellbooks:rare_ink", weight: 2.0f }
+		{ item: "irons_spellbooks:epic_ink" }
+		{ count: 5, item: "irons_spellbooks:upgrade_orb" }
+		{ item: "irons_spellbooks:ruined_book", weight: 0.5f }
+		{ count: 16, item: "ars_nouveau:source_gem", weight: 3.5f }
+		{ count: 16, item: "irons_spellbooks:blood_vial" }
+		{ count: 16, item: "irons_spellbooks:arcane_ingot", weight: 3.0f }
+		{ count: 6, item: "irons_spellbooks:magic_cloth", weight: 2.0f }
+		{ count: 2, item: "irons_spellbooks:lightning_bottle" }
+		{ count: 20, item: "minecraft:experience_bottle", weight: 3.5f }
+		{ count: 5, item: "kubejs:enchant_catalyst", weight: 2.5f }
+		{ count: 2, item: "kubejs:hyper_enchant_catalyst" }
+	]
+	title: "Medium &dMagic&r Reward"
+}

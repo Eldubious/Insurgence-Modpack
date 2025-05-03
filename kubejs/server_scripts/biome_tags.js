@@ -19,7 +19,7 @@ ServerEvents.tags('worldgen/biome', event => {
 
     // Biomes found in the Depths
     const depths_biomes = ["regions_unexplored:prismachasm", "minecraft:deep_dark", "kubejs:dragon_hollow"]
-
+    
     /*
         Add/Remove biome tags for biomes found only in the Dragonrealm
      */

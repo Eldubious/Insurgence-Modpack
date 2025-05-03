@@ -25,20 +25,32 @@ ServerEvents.recipes(event => {
             C: 'architects_palette:cerebral_plate'
         }
     )
-    // Experience Obelisk
-    event.remove({id: 'experienceobelisk:experience_obelisk'})
-    event.shaped('experienceobelisk:experience_obelisk',
+    // Blank Runestone
+    event.shaped('2x irons_spellbooks:blank_rune',
         [
-            ' E ',
-            'ECE',
-            'DDD'
+            'ABA',
+            'ACA',
+            'AAA'
         ],
         {
-            E: 'create:experience_nugget',
-            C: 'experienceobelisk:cognitive_crystal',
-            D: 'minecraft:polished_deepslate'
+            A: 'ars_nouveau:source_gem',
+            B: 'minecraft:stone',
+            C: 'irons_spellbooks:blank_rune'
         }
     )
+    event.shaped('2x irons_spellbooks:blank_rune',
+        [
+            'ABA',
+            'ACA',
+            'AAA'
+        ],
+        {
+            A: 'ars_nouveau:source_gem',
+            B: 'minecraft:deepslate',
+            C: 'irons_spellbooks:blank_rune'
+        }
+    )
+    
 
 
 
@@ -106,6 +118,20 @@ ServerEvents.recipes(event => {
             A: '#kubejs:aether_grass'
         }
     )
+    // Experience Obelisk
+    event.remove({id: 'experienceobelisk:experience_obelisk'})
+    event.shaped('experienceobelisk:experience_obelisk',
+        [
+            ' E ',
+            'ECE',
+            'DDD'
+        ],
+        {
+            E: 'create:experience_nugget',
+            C: 'experienceobelisk:cognitive_crystal',
+            D: 'minecraft:polished_deepslate'
+        }
+    )
 
     /*
         Tools and Equipment
@@ -127,7 +153,6 @@ ServerEvents.recipes(event => {
             E: 'minecraft:lodestone'
         }
     )
-
     // Skyjade Knife
     event.shaped(
         'aetherdelight:skyjade_knife',
@@ -140,7 +165,44 @@ ServerEvents.recipes(event => {
             S: 'aether:skyroot_stick'
         }
     )
-
+    // Personal Dimension Key
+    event.remove({id: 'dimdungeons:recipe_item_blank_build_key'})
+    event.shaped(Item.of('dimdungeons:item_blank_build_key'),
+        [
+            ' A ',
+            'ABA',
+            'CA '
+        ],
+        {
+            A: 'forbidden_arcanus:ender_pearl_fragment',
+            B: 'dimdungeons:item_homeward_pearl',
+            C: 'architects_palette:entwine_rod'
+        }
+    )
+    // Basic Dungeon Key
+    event.remove({id: 'dimdungeons:recipe_item_blank_key'})
+    event.shaped(Item.of('dimdungeons:item_portal_key'),
+        [
+            ' A',
+            'B '
+        ],
+        {
+            A: 'minecraft:name_tag',
+            B: 'architects_palette:entwine_rod'
+        }
+    )
+    // Bell of Secrets
+    event.shaped(Item.of('dimdungeons:item_secret_bell'),
+        [
+            'ABA',
+            ' C '
+        ],
+        {
+            A: 'ars_nouveau:conjuration_essence',
+            B: 'minecraft:stick',
+            C: 'minecraft:bell'
+        }
+    )
     // Cataclysm Eyes
     // Eye of Flame
     event.remove({id: 'cataclysm:flame_eye'})

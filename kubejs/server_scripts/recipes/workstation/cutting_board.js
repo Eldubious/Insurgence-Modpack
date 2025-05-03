@@ -14,6 +14,8 @@ ServerEvents.recipes(event => {
     cuttingBoard('10x aquaculture:fish_fillet_raw', 'tropicraft:fresh_marlin', '#forge:tools/knives')
     // Pineapple Cubes
     cuttingBoard('2x tropicraft:pineapple_cubes', 'pineapple_delight:pineapple_side', '#forge:tools/knives')
+    // Coconut Chunks
+    cuttingBoard('4x tropicraft:coconut_chunk', 'tropicraft:coconut', '#forge:tools/knives')
 
     /*
         Equipment Salvaging using the Cutting Board

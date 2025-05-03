@@ -1,0 +1,28 @@
+{
+	icon: "forbidden_arcanus:arcane_crystal_dust_speck"
+	id: "2C11732DFD4C669A"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 4, item: "forbidden_arcanus:arcane_crystal", weight: 2.0f }
+		{ count: 4, item: "forbidden_arcanus:rune", weight: 1.25f }
+		{ count: 2, item: "forbidden_arcanus:soul", weight: 1.75f }
+		{ count: 6, item: "ars_nouveau:sourceberry_bush", weight: 2.75f }
+		{ count: 6, item: "ars_nouveau:source_gem", weight: 3.0f }
+		{ count: 3, item: "irons_spellbooks:common_ink", weight: 2.0f }
+		{ item: "irons_spellbooks:uncommon_ink" }
+		{ count: 5, item: "irons_spellbooks:divine_pearl" }
+		{ count: 10, item: "irons_spellbooks:arcane_essence", weight: 3.0f }
+		{ count: 5, item: "irons_spellbooks:arcane_ingot", weight: 2.0f }
+		{ count: 4, item: "mahoutsukai:powdered_iron", weight: 2.5f }
+		{ count: 3, item: "mahoutsukai:powdered_gold", weight: 2.5f }
+		{ count: 3, item: "mahoutsukai:powdered_emerald", weight: 2.5f }
+		{ count: 8, item: "minecraft:amethyst_shard", weight: 3.5f }
+		{ count: 8, item: "minecraft:lapis_lazuli", weight: 3.5f }
+		{ count: 4, item: "forbidden_arcanus:arcane_crystal_dust", weight: 3.0f }
+		{ count: 10, item: "minecraft:experience_bottle", weight: 3.5f }
+		{ count: 3, item: "kubejs:enchant_catalyst", weight: 1.25f }
+		{ item: "kubejs:hyper_enchant_catalyst", weight: 0.5f }
+	]
+	title: "Small &dMagic&r Reward"
+}

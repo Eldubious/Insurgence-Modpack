@@ -1,0 +1,16 @@
+{
+	icon: "forbidden_arcanus:xpetrified_orb"
+	id: "1E1BE080B7258F33"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "minecraft:experience_bottle" }
+		{ item: "forbidden_arcanus:xpetrified_orb" }
+		{ item: "create:experience_nugget" }
+		{ item: "create:experience_block" }
+		{ item: "ars_nouveau:experience_gem" }
+		{ item: "ars_nouveau:greater_experience_gem" }
+		{ item: "experienceobelisk:experience_jelly" }
+	]
+	title: "Heph. Forge: &aExperience"
+}

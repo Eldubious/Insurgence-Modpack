@@ -72,6 +72,7 @@ ServerEvents.tags('item', event => {
 	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bubble_blower')
 	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:rope_arrow')
 	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bamboo_spikes_tipped')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'traveloptics:celestial_shard')
 
 	// Ender Eyes
 	const eyes = ['endrem:black_eye', 'endrem:cold_eye', 'endrem:corrupted_eye', 'endrem:lost_eye', 'endrem:nether_eye', 'endrem:old_eye', 'endrem:rogue_eye', 'endrem:cursed_eye',

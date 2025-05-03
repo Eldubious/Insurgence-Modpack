@@ -17,8 +17,8 @@ ServerEvents.recipes(event => {
         while (level <= max_level) {
             var inputItems = ['kubejs:enchant_catalyst']
 
-            if (level == max_level)     // Use the hyper catalyst for overleveled enchants
-                inputItems = ['kubejs:enchant_catalyst']
+            if (level == max_level && max_level != 1)     // Use the hyper catalyst for overleveled enchants
+                inputItems = ['kubejs:hyper_enchant_catalyst']
             
             inputItems = inputItems.concat(gem_count, material_count, essence_count)
 

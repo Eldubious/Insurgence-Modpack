@@ -221,6 +221,13 @@
 				""
 				"To start the craft, just interact with the Forge using the Gavel while all of the required items are on their pedestals and the Forge has the essence needed."
 			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:iron_blacksmith_gavel"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "64380E931525FE57"
 			tasks: [{
 				id: "7B80FCB1EEC537EB"
@@ -240,7 +247,14 @@
 		}
 		{
 			dependencies: ["71BE94EFA4ABD7FE"]
+			icon: "forbidden_arcanus:soul"
 			id: "4253BA120B32172F"
+			rewards: [{
+				id: "1EBDA7BAB0E264E7"
+				table_id: 1805876313326258363L
+				title: "&fRandom &eSoul Essence&r Item"
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1DD271A919B069EC"
@@ -266,14 +280,20 @@
 				}
 				type: "item"
 			}]
-			title: "Souls"
+			title: "&lSouls"
 			x: -1.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["71BE94EFA4ABD7FE"]
-			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			icon: "forbidden_arcanus:aureal_bottle"
 			id: "2CFB1EC9500E0866"
+			rewards: [{
+				id: "4489EB4A5682C5E2"
+				table_id: 7492143677005707526L
+				title: "&fRandom &bAureal Essence&r Item"
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -303,19 +323,20 @@
 					type: "item"
 				}
 			]
+			title: "&lAureal"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["71BE94EFA4ABD7FE"]
-			icon: {
-				Count: 1
-				id: "forbidden_arcanus:blood_test_tube"
-				tag: {
-					Blood: 3000
-				}
-			}
+			icon: "irons_spellbooks:blood_vial"
 			id: "5B10DC1CC441222A"
+			rewards: [{
+				id: "1DE77069C8E66AE0"
+				table_id: 8296058328614768343L
+				title: "&fRandom &cBlood Essence&r Item"
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -342,6 +363,7 @@
 					type: "item"
 				}
 			]
+			title: "&lBlood"
 			x: 1.5d
 			y: -5.0d
 		}
@@ -362,7 +384,14 @@
 				""
 				"&aGreater Experience Gem&r - "
 			]
+			icon: "forbidden_arcanus:xpetrified_orb"
 			id: "14A44B29DFA3A682"
+			rewards: [{
+				id: "3D0DCDEEC0005823"
+				table_id: 2169574488942153523L
+				title: "&fRandom &aExperience Essence&r Item"
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "43DEF67113B71162"
@@ -384,12 +413,18 @@
 				}
 				type: "item"
 			}]
-			title: "Experience"
+			title: "&lExperience"
 			x: 2.5d
 			y: -5.0d
 		}
 		{
 			id: "68CD02D427506613"
+			rewards: [{
+				id: "0059C3605A6369F1"
+				table_id: 3175445853633275546L
+				title: "&fSmall Reward: &dMagical"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -417,174 +452,49 @@
 					type: "item"
 				}
 			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The Imbuement Chamber will allow you to &oimbue&r your items with source."
+				""
+				"Some recipes require items to be placed on pedestals near the chamber, but these items will not be consumed."
+				""
+				"The Imbuement Chamber does not require source to function, but placing a Source Jar with source inside will speed up the process."
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "6761A06F8CE5D5C6"
+			rewards: [
+				{
+					count: 4
+					id: "3F03053EE8F44A39"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "091BB167DC65FC9E"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7F0ACE0C930A054E"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "04613430D51B2880"
+					item: { Count: 3, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: -5.0d
-		}
-		{
-			id: "6761A06F8CE5D5C6"
-			tasks: [{
-				id: "7F0ACE0C930A054E"
-				item: "ars_nouveau:imbuement_chamber"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.0d
-		}
-		{
-			id: "0AB6DFB611034353"
-			shape: "diamond"
-			tasks: [{
-				id: "0C3C4AEA80193F46"
-				item: {
-					Count: 1
-					id: "ars_elemental:spell_horn"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.0d
-		}
-		{
-			id: "5F8064CA0460380F"
-			shape: "diamond"
-			tasks: [{
-				id: "68E6ADEBC9FE65C8"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_eye"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 5.0d
-		}
-		{
-			id: "32CC81E38A884EB3"
-			shape: "diamond"
-			tasks: [{
-				id: "4D0F2EB70498F7E9"
-				item: {
-					Count: 1
-					id: "ars_nouveau:spell_crossbow"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			id: "429408478CF70832"
-			shape: "diamond"
-			tasks: [{
-				id: "53376875D8CECFF5"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_mirror"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			id: "14852635570A8E78"
-			shape: "diamond"
-			tasks: [{
-				id: "0F62C931A928E241"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			id: "7A47CE97504C7FCE"
-			shape: "diamond"
-			tasks: [{
-				id: "7138B43DCBCBC064"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			id: "41C4BF5E0D128327"
-			shape: "diamond"
-			tasks: [{
-				id: "10711959CAFC6652"
-				item: {
-					Count: 1
-					id: "ars_nouveau:spell_bow"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			id: "42AA290F42467494"
-			shape: "diamond"
-			tasks: [{
-				id: "6D28C363B02134FE"
-				item: {
-					Count: 1
-					id: "ars_nouveau:wand"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 5.0d
-		}
-		{
-			id: "7248489FC172E065"
-			shape: "diamond"
-			tasks: [{
-				id: "252DA612C5B32D41"
-				item: {
-					Count: 1
-					id: "arsdelight:enchanters_knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 7.0d
-		}
-		{
-			id: "0EBFAF0E677083EC"
-			shape: "diamond"
-			tasks: [{
-				id: "1FDB491DE4A25E78"
-				item: {
-					Count: 1
-					id: "not_enough_glyphs:spell_binder"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["3C2C503B4BFDCA8D"]
@@ -995,61 +905,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["353BC87FB38D9AD1"]
-			id: "35D02AAB8417B8D3"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "55D0BAC716B6DE47"
-				item: "ars_nouveau:novice_spell_book"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["35D02AAB8417B8D3"]
-			id: "246E94E9C803405A"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "41F66B45905CDEAC"
-				item: "ars_nouveau:apprentice_spell_book"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"246E94E9C803405A"
-				"1CD0163A40E4BD9C"
-			]
-			id: "0846ED4DE1308E2D"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "737DF8222017CC42"
-				item: "ars_nouveau:archmage_spell_book"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0846ED4DE1308E2D"]
-			id: "1BE3A6E9C2FDF657"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "4B7EF018FEFF013D"
-				item: "ars_nouveau:creative_spell_book"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 9.5d
-		}
-		{
 			id: "289D85B5DB749BF4"
 			tasks: [
 				{
@@ -1079,99 +934,8 @@
 				}
 			]
 			title: "Archwood Saplings"
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			id: "49A8B61D652229BF"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "3B08461B71254E7D"
-				title: "Spellcasting"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["49A8B61D652229BF"]
-			id: "353BC87FB38D9AD1"
-			shape: "rsquare"
-			tasks: [{
-				id: "64E05F55860D0C28"
-				title: "Ars Nouveau"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["49A8B61D652229BF"]
-			id: "0A829FA625464AB1"
-			shape: "rsquare"
-			tasks: [{
-				id: "7E6009112578E885"
-				title: "Iron's Spells \\& Spellbooks"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["49A8B61D652229BF"]
-			id: "2D11DE2C1108B8FC"
-			shape: "rsquare"
-			tasks: [{
-				id: "169422C43BCEE353"
-				title: "Hex Casting"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["353BC87FB38D9AD1"]
-			id: "29AAF286D0A155F7"
-			tasks: [{
-				id: "69557C8FD054D8C4"
-				item: "ars_nouveau:scribes_table"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["353BC87FB38D9AD1"]
-			id: "13D146DB47BFA059"
-			tasks: [{
-				id: "6C6AC51C31180722"
-				item: "ars_nouveau:alteration_table"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6F25453421DB581B"]
-			id: "1CD0163A40E4BD9C"
-			tasks: [{
-				id: "06AF45F8D322554B"
-				item: "ars_nouveau:wilden_tribute"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 7.0d
-		}
-		{
-			id: "6F25453421DB581B"
-			tasks: [{
-				id: "3F14981B9D1734BF"
-				item: "ars_nouveau:ritual_wilden_summon"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1186,6 +950,390 @@
 			}]
 			x: -3.5d
 			y: -11.0d
+		}
+		{
+			dependencies: ["6761A06F8CE5D5C6"]
+			id: "037A19F881B4E4C0"
+			tasks: [{
+				id: "3FCD57D0BFCF3D78"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:fire_essence"
+			id: "318DD367E6919A1C"
+			rewards: [
+				{
+					id: "40223FEF415F485F"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "0B709D2F0EEFBFC2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "45E2FCC9D62CFD00"
+					item: "irons_spellbooks:fire_rune"
+					type: "item"
+				}
+				{
+					id: "002011D94F5387C2"
+					item: "rubinated_nether:molten_ruby"
+					type: "item"
+				}
+				{
+					id: "4ACF8407F691B23C"
+					item: "architects_palette:nether_brass_ingot"
+					type: "item"
+				}
+			]
+			title: "Fire Essence"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:air_essence"
+			id: "68AA2FCF703A901F"
+			rewards: [
+				{
+					id: "36753286D958FA70"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "7FE736DE4B98F1A4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5741066E6D8939D2"
+					item: "irons_spellbooks:holy_rune"
+					type: "item"
+				}
+				{
+					id: "764ECAA1AF20365D"
+					item: "forbidden_arcanus:golden_feather"
+					type: "item"
+				}
+				{
+					id: "34A45AB3B14CF4C1"
+					item: "quark:bottled_cloud"
+					type: "item"
+				}
+			]
+			title: "Air Essence"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_elemental:anima_essence"
+			id: "49B7AB1EBEE70E6B"
+			rewards: [
+				{
+					id: "325F3A1B8A1E1FA7"
+					item: "ars_elemental:anima_essence"
+					type: "item"
+				}
+				{
+					id: "12F265831DB193CA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5DB64AD188F29481"
+					item: "irons_spellbooks:blood_rune"
+					type: "item"
+				}
+				{
+					id: "33D398A313FF889B"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "4E9DB68DD198386A"
+					item: "iceandfire:dragonbone"
+					type: "item"
+				}
+			]
+			title: "Anima Essence"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:conjuration_essence"
+			id: "1084D30B6C0094E1"
+			rewards: [
+				{
+					id: "380AF2472EFFCD40"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "796951348CE61253"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "65C4134437274201"
+					item: "irons_spellbooks:evocation_rune"
+					type: "item"
+				}
+				{
+					id: "6E88A9BA69C98FC2"
+					item: "quark:soul_bead"
+					type: "item"
+				}
+				{
+					id: "4F7055774281EAB6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "Conjuration Essence"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:manipulation_essence"
+			id: "73D06D28114FFD37"
+			rewards: [
+				{
+					id: "7F24572536AFE7FF"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "2A265594D872AEA2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "08E127F8D86E8911"
+					item: "irons_spellbooks:arcane_rune"
+					type: "item"
+				}
+				{
+					id: "0C36A8B48438ECC3"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "0B07FAF1970FB8B9"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+			]
+			title: "Manipulation Essence"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:abjuration_essence"
+			id: "35586F6CE9DB4CBA"
+			rewards: [
+				{
+					id: "4EEF0133996E812A"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "34AABDA845F8D150"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "707C099FA6E69289"
+					item: "irons_spellbooks:cooldown_rune"
+					type: "item"
+				}
+				{
+					id: "2E7A06DBE2688179"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "4CF8A09CD5731453"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+			]
+			title: "Abjuration Essence"
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:water_essence"
+			id: "4C442E306B35C39B"
+			rewards: [
+				{
+					id: "60945ABFD0BD4611"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "44BCF16C218E30DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3F34817A75708A7B"
+					item: "irons_spellbooks:protection_rune"
+					type: "item"
+				}
+				{
+					id: "00315F5F561390C0"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "5C7490C7FF59778C"
+					item: "architects_palette:algal_brick"
+					type: "item"
+				}
+			]
+			title: "Water Essence"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["037A19F881B4E4C0"]
+			icon: "ars_nouveau:earth_essence"
+			id: "0DE73F6B69DB79A9"
+			rewards: [
+				{
+					id: "6CFF457D796213D7"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "140EEAF4FC727B93"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "78EA7ABDD7CD3397"
+					item: "irons_spellbooks:nature_rune"
+					type: "item"
+				}
+				{
+					id: "6692EFEAD084400F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "500CB879BB56A9E3"
+					item: "ars_nouveau:mendosteen_pod"
+					type: "item"
+				}
+			]
+			title: "Earth Essence"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71BE94EFA4ABD7FE"]
+			description: [
+				"Enhancer Relics are items you can place in your Hephaestus Forge to reduce its essence requirements, and allow you to craft certain items."
+				""
+				"Each relic is obtained in a different way:"
+				""
+				"&lArtisan Relic&r:"
+				"Found in"
+				""
+				"&lCrescent Moon&r:"
+				"Found in"
+				""
+				"&lCrimson Stone&r:"
+				"Found in"
+				""
+				"&lSoul Crimson Stone&r:"
+				"Found in"
+				""
+				"&lDivine Pact&r:"
+				"&7Found occasionally in loot chests inside of the dimensional dungeons.&r"
+				""
+				"&lMaledictus Pact&r:"
+				"Found in"
+			]
+			id: "2F9612E409C3E9A6"
+			rewards: [{
+				id: "7BEE2ABD3F12269A"
+				table_id: 8973588302294504714L
+				title: "&fMedium Reward: &dMagical&r"
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F18D5A920615A12"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "forbidden_arcanus:artisan_relic"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:crescent_moon"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:crimson_stone"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:soul_crimson_stone"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:elementarium"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:divine_pact"
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:maledictus_pact"
+							}
+						]
+					}
+				}
+				title: "Any Enhancer Relic"
+				type: "item"
+			}]
+			title: "Enhancer Relics"
+			x: -1.0d
+			y: -6.5d
 		}
 	]
 	title: "Magic"

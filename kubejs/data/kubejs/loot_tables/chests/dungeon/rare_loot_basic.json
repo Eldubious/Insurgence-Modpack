@@ -1,0 +1,242 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+            },
+            "bonus_rolls": 0.5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "forbidden_arcanus:dragon_scale",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "experienceobelisk:cognitive_alloy",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "trailandtales_delight:golden_lantern_fruit",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "forbidden_arcanus:mundabitur_dust",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "illagerinvasion:hallowed_gem",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "rubinated_nether:ruby",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "call_of_yucutan:jade",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "iceandfire:sapphire_gem",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "quark:ancient_tome",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "quark:tome_enchant",
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:celestial_shard",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:scrap_tome",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:improved_scrap_tome",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0.5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "dimdungeons:item_blank_advanced_key",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "forbidden_arcanus:divine_pact",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 9
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+            },
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "kubejs:enchant_catalyst",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "kubejs:hyper_enchant_catalyst",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
