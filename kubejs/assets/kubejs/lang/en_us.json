@@ -13,6 +13,8 @@
     "tooltip.kubejs.abyss_eye": "§7Used to find the ___.",
     "tooltip.kubejs.desert_eye": "§7Used to find the ___.",
     "tooltip.kubejs.cursed_eye": "§7Used to find the Frozen Prison.",
+    "tooltip.kubejs.shadow_steel": "§7Found in loot chests in Dimensional Dungeons",
+    "tooltip.kubejs.refined_radiance": "§7Found in loot chests in Advanced Dimensional Dungeons.",
     
     "block.kubejs.depths_portal": "The Depths Portal",
     "block.kubejs.dragon_portal": "Dragonrealm Portal",
@@ -29,6 +31,25 @@
     
     "trophy.kubejs.winner": "Winner's Trophy",
     "trophy.kubejs.music_disc": "Record Collector Trophy",
+    
+    "kubejs.title.insurgence_title": "§lInsurgence Tip:",
+    "kubejs.tip.quests": "The questbook has lots of useful information on progression.",
+    "kubejs.tip.thank_you": "Thank you for playing!",
+    "kubejs.tip.the_bumblezone": "If you can find a way to enter a beehive, you will enter The Bumblezone.",
+    "kubejs.tip.joke_the_bumblezone": "If you can find a way to enter a beehive, you will find lots of bees inside.",
+    "kubejs.tip.twilight_forest": "The Twilight Forest does not have enforced progression in this modpack. Explore the dimension at your own pace!",
+    "kubejs.tip.the_depths": "Try cave-diving in expansive caves of the Depths.",
+    "kubejs.tip.dragonrealm": "The dragons from Ice and Fire all live in a dimension known as the Dragonrealm, but you can occasionally find their remains in the Depths dimension",
+    "kubejs.tip.the_inbetween": "If you need to travel long distances, consider travelling through the Inbetween. One block there is equivalent to 32 in the overworld.",
+    "kubejs.tip.making_food": "You can get bonus health for eating certain kinds of foods. Try making new things!",
+    "kubejs.tip.millstone": "With the Millstone, you can crush ores for a chance to double them.",
+    "kubejs.tip.construction_wands": "Construction wands will allow you to place multiple blocks at once.",
+    "kubejs.tip.spell_scrolls": "Spell Scrolls that you find will be consumed on use, but if you inscribe them into a spellbook, they will last forever.",
+    "kubejs.tip.jade_armor": "Jade Armor will make you immune to the wither effect.",
+    "kubejs.tip.enchanting_apparatus": "You can manually add enchantments to items using materials instead of experience with the Enchanting Apparatus.",
+    "kubejs.tip.enchant_catalyst": "To enchant items using the Enchanting Apparatus, you will need an Enchanting Catalyst.",
+    "kubejs.tip.dim_dungeons_monsters": "Enemies in the Dimensional Dungeons are a lot stronger than those you would face normally.",
+    "kubejs.tip.summoning_altar": "Around the Overworld, you can occasionally find a Summoning Altar. By offering it certain things, you can summon rare mobs and items into your world.",
 
     "questbook.kubejs.hovertext.cooking_pot": "These foods are made using a Cooking Pot.",
     "questbook.kubejs.hovertext.crafting_table": "These foods are made using a Crafting Table."

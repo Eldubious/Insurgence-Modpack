@@ -10,7 +10,9 @@ ItemEvents.tooltip(event => {
         event.add(element, Component.translate(`tooltip.kubejs.${name}`))
         event.add(element, Component.translate('tooltip.kubejs.cataclysm_eyes'))
     })
-
+    event.add('create:shadow_steel', Component.translate('tooltip.kubejs.shadow_steel'))
+    event.add('create:refined_radiance', Component.translate('tooltip.kubejs.refined_radiance'))
+    
     // Mark unused items so I don't forget
     const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'samurai_dynasty:ruby_ore', 'samurai_dynasty:deepslate_ruby_ore',
         'samurai_dynasty:jade', 'samurai_dynasty:jade_ore', 'samurai_dynasty:deepslate_jade_ore', 'samurai_dynasty:raw_silver', 'samurai_dynasty:silver_ingot', 'samurai_dynasty:silver_nugget',
