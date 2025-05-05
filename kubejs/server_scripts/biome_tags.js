@@ -18,7 +18,7 @@ ServerEvents.tags('worldgen/biome', event => {
         "regions_unexplored:rainforest", "regions_unexplored:silver_birch_forest", "regions_unexplored:sparse_rainforest", "regions_unexplored:spires", "regions_unexplored:temperate_grove"]
 
     // Biomes found in the Depths
-    const depths_biomes = ["regions_unexplored:prismachasm", "minecraft:deep_dark", "kubejs:dragon_hollow"]
+    const depths_biomes = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves", "minecraft:deep_dark", "kubejs:dragon_hollow", "kubejs:asurine_caves", "kubejs:crimson_caves", "kubejs:mossy_fields"]
     
     /*
         Add/Remove biome tags for biomes found only in the Dragonrealm

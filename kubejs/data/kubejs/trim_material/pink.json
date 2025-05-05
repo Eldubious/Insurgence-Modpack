@@ -1,9 +1,0 @@
-{
-    "asset_name": "pink",
-    "description": {
-        "color": "#cb71bc",
-        "translate": "trim_material.kubejs.pink"
-    },
-    "ingredient": "minecraft:pink_dye",
-    "item_model_index": 0.35
-}

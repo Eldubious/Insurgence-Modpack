@@ -30,7 +30,7 @@
 	#Which dimension's worldborder to consider when activating keys. Using dimdungeons:dungeon_dimension may not work for everyone.
 	worldborderToRespect = "dimdungeons:dungeon_dimension"
 	#The chance for an enemy in a basic dungeon to be carrying a theme key.
-	chanceForThemeKeys = 4
+	chanceForThemeKeys = 0
 	#The speed at which to build a dungeon. Value corresponds to the number of ticks skipped between chunks, to avoid lag spikes.
 	dungeonBuildSpeed = 5
 

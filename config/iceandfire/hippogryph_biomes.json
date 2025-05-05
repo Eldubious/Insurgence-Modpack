@@ -1,0 +1,33 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "kubejs:is_dragonrealm"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:eucalyptus_forest"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:marsh"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:rainforest"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:sparse_rainforest"
+      }
+    ]
+  ]
+}

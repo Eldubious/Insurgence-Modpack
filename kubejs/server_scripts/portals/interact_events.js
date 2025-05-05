@@ -104,24 +104,38 @@ function checkPersistentData(data, portalType, targetDim, dimensionId, x, y, z) 
     portalsInit(data)
     addPortal(data, portalType, dimensionId, x, y, z)
     
-    // Iterate through all portal objects of desired type
+    
     var retVal = null
-    var minDist = Number.MAX_SAFE_INTEGER
+    var closestDist = Number.MAX_SAFE_INTEGER
+    var minDist = 128   // The minimum distance portals can be to link together
+    // Scale the minimum distance according to coordinate scale
+    switch (portalType) {
+        case 'depths':
+            // Minimum distance is now 32 when going from overworld -> the depths
+            if (targetDim == 'kubejs:the_depths') minDist = minDist / 4
+            break
+        case 'inbetween':
+            // Minimum distance is now 4 when going from overworld -> inbetween
+            if (targetDim == 'kubejs:the_inbetween') minDist = minDist / 32
+            break
+    }
+    
+    // Iterate through all portal objects of desired type
     data.get(portalType).forEach(element => {
         if (element["level"] == targetDim) {
                 
-            // Calculate the taxicab distance of the found portal
+            // Calculate the euclidean distance of the found portal
             let coords = scaleCoords(portalType, targetDim, x, z)
-            let distance = Math.abs(element["x"] - coords[0]) + Math.abs(element["z"] - coords[1])
-    
+            let distance = Math.sqrt((Math.pow(Math.abs(element["x"] - coords[0]), 2)) + (Math.pow(Math.abs(element["z"] - coords[1]), 2)))
+            
             // DEBUG
-            //event.player.tell(`curr coords (adjusted): ${coords[0]} ${coords[1]}\ndest coords: ${element["x"]} ${element["z"]}`)
-            //event.player.tell('distance (relative): ' + distance)
+            //console.log(`curr coords (adjusted): ${coords[0]} ${coords[1]}    dest coords: ${element["x"]} ${element["z"]}`)
+            //console.log('distance (relative): ' + distance)
     
-            // The portal is less than 25 blocks away and closer than the last found portal
-            if (distance <= 25 && distance < minDist) {
+            // The portal is less than 100 blocks away and closer than the last found portal
+            if (distance <= 100 && distance < closestDist) {
                 retVal = element
-                minDist = distance
+                closestDist = distance
             }  
         }
     })
@@ -262,13 +276,13 @@ function generatePortal(server, data, portalType, targetDim, destX, destY, destZ
             break
         case 'dragonrealm':
             portalId = 'kubejs:dragon_portal'
-            blockId = 'minecraft:stone_bricks'
-            lampId = 'architects_palette:tuff_lamp'
+            blockId = 'create:cut_limestone_bricks'
+            lampId = 'architects_palette:runic_glowstone'
             break
         case 'inbetween':
             portalId = 'kubejs:inbetween_portal'
-            blockId = 'architects_palette:twisted_planks'
-            lampId = 'minecraft:glowstone'
+            blockId = 'rubinated_nether:altar_stone_bricks'
+            lampId = 'supplementaries:blackstone_lamp[axis=y]'
             break
     }
 

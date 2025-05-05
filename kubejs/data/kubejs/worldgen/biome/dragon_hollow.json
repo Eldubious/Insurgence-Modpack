@@ -1,20 +1,30 @@
 {
-  "carvers": {
-    "air": "minecraft:nether_cave"
-  },
+  "has_precipitation": false,
+  "temperature": 2,
   "downfall": 0,
   "effects": {
     "fog_color": 7083012,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.001
+    },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.dripstone_caves"
+      "sound": "minecraft:music.overworld.deep_dark"
     },
     "sky_color": 5246723,
     "water_color": 9575173,
     "water_fog_color": 7083012
   },
+  "carvers": {},
   "features": [
     [],
     [],
@@ -38,13 +48,8 @@
       "kubejs:bone_pile"
     ]
   ],
-  "has_precipitation": false,
   "spawn_costs": {
     "minecraft:enderman": {
-      "charge": 0.7,
-      "energy_budget": 0.15
-    },
-    "quark:forgotten": {
       "charge": 0.7,
       "energy_budget": 0.15
     },
@@ -70,12 +75,6 @@
         "weight": 10
       },
       {
-        "type": "quark:forgotten",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 20
-      },
-      {
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 4,
@@ -92,6 +91,5 @@
     ],
     "water_ambient": [],
     "water_creature": []
-  },
-  "temperature": 2
+  }
 }

@@ -22,13 +22,14 @@ function removeElement(event, portalType) {
     var x = pos.getX(); var y = pos.getY(); var z = pos.getZ()
     var dimensionId = event.level.dimension.toString()
 
+    var i = null
     data.get(portalType).forEach(element => {
 
         if (element["level"] == dimensionId && element["x"] == x &&
             element["y"] == y && element["z"] == z) {
             
-            let i = data.get(portalType).indexOf(element)
-            data.get(portalType).remove(i)
+            i = data.get(portalType).indexOf(element)
         }
     })
+    data.get(portalType).remove(i)
 }
