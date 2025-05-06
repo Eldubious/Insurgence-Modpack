@@ -186,6 +186,8 @@ paperdoll-client.toml
 patchouli-client.toml
 paucal-common.toml
 polymorph-integrations.toml
+replaymod-rendersettings.json
+replaymod.json
 resourceful-config-web.json
 ribbits-forge-1_20_1.toml
 ribbits-options.json
