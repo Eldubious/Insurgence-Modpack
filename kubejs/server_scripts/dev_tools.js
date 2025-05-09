@@ -35,11 +35,12 @@ BlockEvents.rightClicked('minecraft:lodestone', event => {
             if (entity.getType() == 'minecraft:marker') {
                 let pos = entity.getPos()
                 let x = pos.x(); let y = pos.y(); let z = pos.z()
+                let dimension = entity.level.dimension.toString()
                 let data = entity.getNbt().data.toString()
 
                 str += 'MARKER:\n'
-                str += `Position:\nX: ${x}, Y: ${y}, Z: ${z}\n\n`
-                str += `NBT data:\n${data}\n\n`
+                str += `Position:\n    ${dimension}\n    X: ${x}, Y: ${y}, Z: ${z}\n\n`
+                str += `NBT data:\n    ${data}\n\n`
             }
         })
         event.server.tell(str)
@@ -50,21 +51,24 @@ BlockEvents.rightClicked('minecraft:lodestone', event => {
 // Summon a marker entity in the location of the Ender Pearl Block with the nbt in the debug stick
 BlockEvents.rightClicked('architects_palette:ender_pearl_block', event => {
     if (event.player.mainHandItem.id.toString() == 'minecraft:debug_stick') {
-
         var pos = event.block.getPos()
         var x = pos.getX(); var y = pos.getY(); var z = pos.getZ()
         var dimensionId = event.level.getDimension().toString()
         var data = event.player.mainHandItem.getNbt()
+        var cmd = ''
 
         if (data.type.toString() == 'block') {
-            event.server.runCommand(`execute in ${dimensionId} run summon minecraft:marker ${x} ${y} ${z} {data: {type: ${data.type}, block: ${data.block}}}`)
+            cmd = `execute in ${dimensionId} run summon minecraft:marker ${x} ${y} ${z} {data:{type:"${data.type}",block:"${data.block}"}}`
+            event.server.runCommand(cmd)
+            event.server.tell(cmd)
             event.block.set('minecraft:air')
-            event.player.tell(`Made marker entity at: ${x} ${y} ${z} with: {data: {type: ${data.type}, block: ${data.block}}}`)
+            event.player.tell(`Made marker entity at: ${x} ${y} ${z} with: {data: {type:"${data.type}", block:"${data.block}"}}`)
         }
         else if (data.type.toString() == 'summon') {
-            event.server.runCommand(`execute in ${dimensionId} run summon minecraft:marker ${x} ${y} ${z} {data: {type: ${data.type}, func: ${data.func}, enemy: ${data.enemy}}}`)
+            cmd = `execute in ${dimensionId} run summon minecraft:marker ${x} ${y} ${z} {data:{type:"${data.type}",func:"${data.func}",enemy:"${data.enemy}"}}`
+            event.server.runCommand(cmd)
             event.block.set('minecraft:air')
-            event.player.tell(`Made marker entity at: ${x} ${y} ${z} with: {data: {type: ${data.type}, func: ${data.func}, enemy: ${data.enemy}}}`)
+            event.player.tell(`Made marker entity at: ${x} ${y} ${z} with: {data: {type:"${data.type}", func:"${data.func}", enemy:"${data.enemy}"}}`)
         }
         event.cancel()
     } 
