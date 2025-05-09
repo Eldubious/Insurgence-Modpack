@@ -2,55 +2,10 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 4,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_fire_coral_centerpiece",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_brain_coral_centerpiece_1",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_brain_coral_centerpiece_2",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_brain_coral_centerpiece_3",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_brain_coral_centerpiece_4",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 4,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_horn_coral_centerpiece",
+                "location": "kubejs:inbetween/dead_fire_coral_extension_1",
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }
@@ -59,25 +14,88 @@
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_tube_coral_centerpiece_1",
+                "location": "kubejs:inbetween/dead_fire_coral_extension_2",
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }
         },
         {
-            "weight": 2,
+            "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_tube_coral_centerpiece_2",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_1",
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }
         },
         {
-            "weight": 4,
+            "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "kubejs:inbetween/dead_bubble_coral_centerpiece",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_2",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_3",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_4",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_5",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_6",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_7",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_8",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "kubejs:inbetween/dead_fire_coral_decoration_9",
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }
