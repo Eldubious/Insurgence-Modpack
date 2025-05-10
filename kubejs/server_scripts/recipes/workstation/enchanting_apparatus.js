@@ -86,4 +86,73 @@ ServerEvents.recipes(event => {
         ],
         'dimdungeons:block_gilded_portal', 'dimdungeons:block_portal_keyhole', 0, false
     )
+    // Fiery Equipment
+    event.remove([{id: 'twilightforest:equipment/fiery_fiery_helmet'}, {id: 'twilightforest:equipment/fiery_helmet'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot',
+            'twilightforest:fiery_ingot'
+        ], 
+        'minecraft:iron_helmet', 'twilightforest:fiery_helmet', 2000, true
+    )
+    event.remove([{id: 'twilightforest:equipment/fiery_fiery_chestplate'}, {id: 'twilightforest:equipment/fiery_chestplate'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot',
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot'
+        ], 
+        'minecraft:iron_chestplate', 'twilightforest:fiery_chestplate', 2000, true
+    )
+    event.remove([{id: 'twilightforest:equipment/fiery_fiery_leggings'}, {id: 'twilightforest:equipment/fiery_leggings'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot',
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot'
+        ], 
+        'minecraft:iron_leggings', 'twilightforest:fiery_leggings', 2000, true
+    )
+    event.remove([{id: 'twilightforest:equipment/fiery_fiery_boots'}, {id: 'twilightforest:equipment/fiery_boots'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot'
+        ],
+        'minecraft:iron_boots', 'twilightforest:fiery_boots', 2000, true
+    )
+    event.remove([{id: 'twilightforest:equipment/fiery_sword'}, {id: 'twilightforest:equipment/fiery_iron_sword'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'minecraft:blaze_rod'
+        ],
+        'minecraft:iron_sword', 'twilightforest:fiery_sword', 2000, true
+    )
+    event.remove([{id: 'twilightforest:equipment/fiery_pickaxe'}, {id: 'twilightforest:equipment/fiery_iron_pickaxe'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot', 'twilightforest:fiery_ingot',
+            'minecraft:blaze_rod', 'minecraft:blaze_rod'
+        ],
+        'minecraft:iron_pickaxe', 'twilightforest:fiery_pickaxe', 2000, true
+    )
+    event.remove([{id: 'twilightdelight:fiery_knife'}, {id: 'twilightdelight:fiery_knifealt'}])
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_ingot', 'minecraft:blaze_rod'
+        ],
+        'farmersdelight:iron_knife', 'twilightdelight:fiery_knife', 2000, true
+    )
+    // Teardrop Sword
+    apparatusRecipe(
+        [
+            'twilightforest:fiery_tears', 'twilightforest:fiery_tears', 'twilightforest:fiery_tears', 'twilightforest:fiery_tears'
+        ],
+        'twilightforest:fiery_sword', 'twilightdelight:teardrop_sword', 2000, true
+    )
+    // Infinity Wand
+    event.remove({id: 'constructionwand:infinity_wand'})
+    apparatusRecipe(
+        [
+            '#forge:nether_stars', 'minecraft:purple_dye', 'minecraft:purple_dye'
+        ],
+        'constructionwand:diamond_wand', 'constructionwand:infinity_wand', 2500, true
+    )
 })

@@ -134,4 +134,10 @@ ServerEvents.recipes(event => {
         'farmersdelight:rope',
         'supplementaries:rope'
     )
+
+    // Fix issue where ruby is only available trim material
+    event.replaceInput({type: "minecraft:smithing_trim"},
+        'rubinated_nether:ruby',
+        '#minecraft:trim_materials'
+    )
 })

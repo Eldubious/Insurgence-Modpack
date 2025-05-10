@@ -35,4 +35,7 @@ ServerEvents.recipes(event => {
     freezer('wan_ancient_beasts:frozen_straw_block', 'wan_ancient_beasts:straw_block', 200, 0.1, 'freezable_blocks')
     freezer('regions_unexplored:frozen_grass', 'minecraft:grass', 200, 0.1, 'freezable_blocks')
     freezer('realmrpg_skeletons:frozen_waterdrop_skeleton', 'realmrpg_skeletons:waterdrop_skeleton', 200, 0.1, 'freezable_blocks')
+    freezer('rubinated_nether:frosted_ice', 'minecraft:water_bucket', 200, 0.1, 'freezable_blocks')
+    freezer('rubinated_nether:frosted_ice', 'minecraft:snow_block', 200, 0.1, 'freezable_blocks')
+    freezer('rubinated_nether:dry_ice', 'minecraft:blue_ice', 200, 0.1, 'freezable_blocks')
 })

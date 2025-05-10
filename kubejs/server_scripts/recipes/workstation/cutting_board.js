@@ -9,13 +9,15 @@ ServerEvents.recipes(event => {
     }
 
     // Raw Catfish
-    cuttingBoard('6x aquaculture:fish_fillet_raw', 'alexsmobs:raw_catfish', '#forge:tools/knives')
+    cuttingBoard('6x aquaculture:fish_fillet_raw', 'alexsmobs:raw_catfish', '#forge:tools/knives', 'farmersdelight:block.cutting_board.knife')
     // Fresh Marlin
-    cuttingBoard('10x aquaculture:fish_fillet_raw', 'tropicraft:fresh_marlin', '#forge:tools/knives')
+    cuttingBoard('10x aquaculture:fish_fillet_raw', 'tropicraft:fresh_marlin', '#forge:tools/knives', 'farmersdelight:block.cutting_board.knife')
     // Pineapple Cubes
-    cuttingBoard('2x tropicraft:pineapple_cubes', 'pineapple_delight:pineapple_side', '#forge:tools/knives')
+    cuttingBoard('2x tropicraft:pineapple_cubes', 'pineapple_delight:pineapple_side', '#forge:tools/knives', 'farmersdelight:block.cutting_board.knife')
     // Coconut Chunks
-    cuttingBoard('4x tropicraft:coconut_chunk', 'tropicraft:coconut', '#forge:tools/knives')
+    cuttingBoard('4x tropicraft:coconut_chunk', 'tropicraft:coconut', '#forge:tools/knives', 'farmersdelight:block.cutting_board.knife')
+    // Strange Root
+    cuttingBoard('2x forbidden_arcanus:strange_root', 'forbidden_arcanus:petrified_root', '#forge:shears', 'minecraft:entity.sheep.shear')
 
     /*
         Equipment Salvaging using the Cutting Board
@@ -37,6 +39,7 @@ ServerEvents.recipes(event => {
                 input,
                 '#forge:shears',
                 outputs,
+                'minecraft:entity.sheep.shear'
             )
         }
     }

@@ -57,6 +57,9 @@ ServerEvents.tags('item', event => {
 	removeFromTag('supplementaries:ropes', 'quark:rope')
 	removeFromTag('forge:rope', 'farmersdelight:rope')
 	removeFromTag('supplementaries:ropes', 'farmersdelight:rope')
+	
+	// Remove Prismarite from trim materials tag
+	removeFromTag('minecraft:trim_materials', 'regions_unexplored:prismarite_cluster')
 
 	// Blacklist items from Eternal Stella
 	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:shattered_dimensional_carver')
