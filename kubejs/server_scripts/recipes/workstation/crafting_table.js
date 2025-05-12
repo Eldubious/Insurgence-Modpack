@@ -50,6 +50,71 @@ ServerEvents.recipes(event => {
             C: 'irons_spellbooks:blank_rune'
         }
     )
+    // Withered Nether Star
+    event.shaped('witherstormmod:withered_nether_star',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'create:chromatic_compound',
+            B: 'forbidden_arcanus:dark_nether_star_block'
+        }
+    )
+    // Samurai Dynasty Cloth
+    event.remove({id: 'samurai_dynasty:cloth'})
+    event.shaped('samurai_dynasty:cloth',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:string',
+            B: '#minecraft:wool'
+        }
+    )
+    // Spell Cloth
+    event.remove({id: 'mahoutsukai:spell_cloth'})
+    event.shaped('4x mahoutsukai:spell_cloth', 
+        [
+            'AA'
+        ],
+        {
+            A: 'irons_spellbooks:magic_cloth'
+        }
+    )
+    // Creative Blaze Cake
+    event.shaped('create:creative_blaze_cake',
+        [
+            'AAA',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: 'minecraft:blaze_powder',
+            B: 'minecraft:lava_bucket',
+            C: 'architects_palette:oracle_jelly',
+            D: 'create:chromatic_compound',
+            E: 'create:blaze_cake_base'
+        }
+    )
+    // Creative Motor
+    event.shaped('create:creative_motor',
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            A: 'create:chromatic_compound',
+            B: 'create:electron_tube',
+            C: 'create:sturdy_sheet',
+            D: 'create:gearbox',
+            E: 'create:rotation_speed_controller'
+        }
+    )
     
 
 
@@ -130,6 +195,48 @@ ServerEvents.recipes(event => {
             E: 'create:experience_nugget',
             C: 'experienceobelisk:cognitive_crystal',
             D: 'minecraft:polished_deepslate'
+        }
+    )
+    // Uncrafting Table
+    event.remove({id: 'twilightforest:uncrafting_table'})
+    event.shaped('twilightforest:uncrafting_table',
+        [
+            'ABA',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: 'minecraft:skeleton_skull',
+            B: 'create:chromatic_compound',
+            C: 'minecraft:crafting_table',
+            D: 'twilightforest:ironwood_ingot',
+            E: 'twilightforest:transformation_powder'
+        }
+    )
+    // Used Key Inscriber
+    event.shaped('dimdungeons:block_key_charger_used',
+        [
+            'A A',
+            'BCB',
+            'BBB'
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:stone_bricks',
+            C: 'experienceobelisk:cognitive_crystal'
+        }
+    )
+    // Key Inscriber
+    event.shaped('dimdungeons:block_key_charger',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'create:andesite_alloy',
+            B: 'create:shadow_steel',
+            C: 'dimdungeons:block_key_charger_used'
         }
     )
 
@@ -221,6 +328,110 @@ ServerEvents.recipes(event => {
             E: 'minecraft:soul_sand'
         }
     )
-
+    // Eye of Curse
+    event.remove({id: 'cataclysm:cursed_eye'})
+    event.shaped('cataclysm:cursed_eye',
+        [
+            'ABA',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: 'iceandfire:witherbone',
+            B: 'create:brass_ingot',
+            C: 'minecraft:ender_eye',
+            D: 'galosphere:silver_nugget',
+            E: 'iceandfire:ice_dragon_heart'
+        }
+    )
+    // Eye of Abyss
+    event.remove({id: 'cataclysm:abyss_eye'})
+    event.shaped('cataclysm:abyss_eye',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'forbidden_arcanus:ender_pearl_fragment',
+            B: 'minecraft:crying_obsidian',
+            C: 'minecraft:ender_eye',
+        }
+    )
+    // Abyssal Sacrifice
+    event.remove([{id: 'cataclysm:abyssal_sacrifice'}, {id: 'cataclysm:abyssal_sacrifice2'}])
+    event.shaped('cataclysm:abyssal_sacrifice',
+        [
+            'ABA',
+            'CDC',
+            'ECE'
+        ],
+        {
+            A: '#kubejs:abyssal_sacrifice_ingredients',
+            B: 'cataclysm:athame',
+            C: 'forbidden_arcanus:aquatic_dragon_scale',
+            D: 'minecraft:heart_of_the_sea',
+            E: '#forge:ender_pearls'
+        }
+    )
+    // Creative Spell Book
+    event.custom({
+        type: 'ars_nouveau:book_upgrade',
+        ingredients: [
+            {item: 'ars_nouveau:archmage_spell_book'},
+            {item: 'create:chromatic_compound'},
+            {item: 'create:chromatic_compound'},
+            {item: 'forbidden_arcanus:golden_dragon_scale'},
+            {item: 'forbidden_arcanus:golden_dragon_scale'},
+            {item: 'irons_spellbooks:legendary_ink'},
+            {item: 'traveloptics:celestial_shard'},
+            {item: 'cataclysm:abyssal_sacrifice'},
+            {item: 'cataclysm:void_core'}
+        ],
+        result: {item: 'ars_nouveau:creative_spell_book'}
+    })
+    // Apprentice Spell Book
+    event.remove({id: 'ars_nouveau:apprentice_spell_book_upgrade'})
+    event.custom({
+        type: 'ars_nouveau:book_upgrade',
+        ingredients: [
+            {item: 'ars_nouveau:novice_spell_book'},
+            {item: 'minecraft:crying_obsidian'},
+            {item: 'minecraft:diamond'},
+            {item: 'minecraft:diamond'},
+            {item: 'minecraft:diamond'},
+            {item: 'irons_spellbooks:rare_ink'},
+            {item: 'irons_spellbooks:lightning_bottle'},
+            {item: 'minecraft:blaze_powder'},
+            {item: 'minecraft:blaze_powder'}
+        ],
+        result: {item: 'ars_nouveau:apprentice_spell_book'}
+    })
+    // Archmage Spell Book
+    event.remove({id: 'ars_nouveau:archmage_spell_book_upgrade'})
+    event.custom({
+        type: 'ars_nouveau:book_upgrade',
+        ingredients: [
+            {item: 'ars_nouveau:apprentice_spell_book'},
+            {item: 'ars_nouveau:wilden_tribute'},
+            {item: 'ars_elemental:mark_of_mastery'},
+            {item: 'minecraft:totem_of_undying'},
+            {item: 'minecraft:emerald'},
+            {item: 'minecraft:emerald'},
+            {item: 'create:shadow_steel'},
+            {item: 'create:shadow_steel'},
+            {item: 'create:shadow_steel'}
+        ],
+        result: {item: 'ars_nouveau:archmage_spell_book'}
+    })
+    // Novice Spell Book
+    event.remove({id: 'ars_nouveau:novice_spell_book'})
+    event.shapeless(
+        'ars_nouveau:novice_spell_book',
+        [
+            'minecraft:enchanted_book', 'minecraft:gold_ingot', 'minecraft:gold_ingot', 'minecraft:purple_dye',
+            'iceandfire:silver_sword', 'iceandfire:silver_pickaxe', 'iceandfire:silver_axe', 'iceandfire:silver_shovel'
+        ]
+    )
 
 })

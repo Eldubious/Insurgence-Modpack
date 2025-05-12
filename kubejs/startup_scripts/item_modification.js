@@ -221,7 +221,7 @@ ItemEvents.modification(event => {
     ]
     uncommon_items.forEach(element => uncommon(element))
         
-    const rare_items = ['vinery:mead', 'vinery:apple_cider', 'vinery:apple_wine',
+    const rare_items = ['vinery:mead', 'vinery:apple_cider', 'vinery:apple_wine', 'create:shadow_steel', 'create:refined_radiance', 'create:shadow_steel_casing', 'create:refined_radiance_casing',
         'vinery:mellohi_wine', 'vinery:glowing_wine', 'vinery:solaris_wine', 'vinery:noir_wine', 'vinery:red_wine', 'vinery:strad_wine', 'vinery:cherry_wine', 'vinery:cristel_wine',
         'vinery:creepers_crush', 'vinery:kelp_cider', 'vinery:lilitu_wine', 'vinery:jo_special_mixture', 'vinery:eiswein', 'vinery:aegis_wine', 'vinery:bolvar_wine',
         'vinery:chorus_wine', 'vinery:villagers_fright', 'vinery:clark_wine', 'vinery:magnetic_wine', 'vinery:stal_wine', 'vinery:chenet_wine', 'tropicraft:white_pearl',
@@ -233,7 +233,7 @@ ItemEvents.modification(event => {
         'unusualend:pearlescent_pickaxe', 'unusualend:pearlescent_axe', 'unusualend:pearlescent_shovel', 'unusualend:pearlescent_hoe', 'unusualend:warped_chestplate',
         'unusualend:warped_boots', 'unusualend:warped_spear', 'unusualend:scale_horse_armor', 'unusualend:warped_anchor', 'unusualend:prismatic_mirror',
         'aquaculture:lockbox', 'aquaculture:neptunium_block', 'aquaculture:neptunium_ingot', 'aquaculture:neptunium_nugget', 'architects_palette:netherite_nub',
-        'aquaculture:nether_star_hook', 'kubejs:depths_portal', 'kubejs:dragon_portal', 'kubejs:inbetween_portal', 'supplementaries:safe',
+        'aquaculture:nether_star_hook', 'kubejs:depths_portal', 'kubejs:dragon_portal', 'kubejs:inbetween_portal', 'supplementaries:safe', 'galosphere:cured_membrane_block',
         'irons_spellbooks:oakskin_elixir', 'irons_spellbooks:greater_oakskin_elixir', 'irons_spellbooks:greater_healing_potion', 'irons_spellbooks:invisibility_elixir',
         'irons_spellbooks:greater_invisibility_elixir', 'irons_spellbooks:evasion_elixir', 'irons_spellbooks:greater_evasion_elixir', 'irons_spellbooks:fire_ale',
         'irons_spellbooks:netherward_tincture', 'irons_spellbooks:blood_staff', 'irons_spellbooks:netherite_mage_helmet', 'kubejs:enchant_catalyst',
@@ -292,7 +292,7 @@ ItemEvents.modification(event => {
     ]
     rare_items.forEach(element => rare(element))
 
-    const epic_items = ['vinery:winemaker_leggings', 'vinery:winemaker_boots', 'kubejs:hyper_enchant_catalyst', 'kubejs:obfuscated',
+    const epic_items = ['vinery:winemaker_leggings', 'vinery:winemaker_boots', 'kubejs:hyper_enchant_catalyst', 'kubejs:obfuscated', 'create:chromatic_compound',
         'vinery:jellie_wine', 'vinery:bottle_mojang_noir', 'tarotcards:tarot_deck', 'tarotcards:death', 'tarotcards:judgement', 'tarotcards:justice', 'tarotcards:strength',
         'tarotcards:temperance', 'tarotcards:the_chariot', 'tarotcards:the_devil', 'tarotcards:the_emperor', 'tarotcards:the_empress', 'tarotcards:the_fool', 'tarotcards:the_hanged_man',
         'tarotcards:the_hermit', 'tarotcards:the_hierophant', 'tarotcards:the_high_priestess', 'tarotcards:the_lovers', 'tarotcards:the_magician', 'tarotcards:the_moon',

@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "sophisticated_storage"
 	group: "3CFA5B714A0693A0"
-	icon: {
-		Count: 1
-		id: "sophisticatedstorage:barrel"
-		tag: {
-			woodType: "spruce"
-		}
-	}
+	icon: "quark:backpack"
 	id: "46B829E4AC095B35"
 	images: [
 		{
@@ -309,8 +303,8 @@
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			id: "75AAC5FA2662CAD0"
@@ -618,16 +612,6 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.0d
-		}
-		{
-			id: "3D7787AB2FB1131E"
-			tasks: [{
-				id: "76517FDAF498541D"
-				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
-				type: "item"
-			}]
-			x: 7.0d
 			y: -8.0d
 		}
 		{

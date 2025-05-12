@@ -3,28 +3,26 @@
 	default_quest_shape: ""
 	filename: "command_block"
 	group: "1CF0BF9967B6E091"
-	icon: "witherstormmod:command_block_book"
+	icon: "minecraft:command_block"
 	id: "5060EEC4ED6725AA"
-	order_index: 1
-	quest_links: [{
-		id: "00E0C1AF24468420"
-		linked_quest: "71F2AF85715C84CE"
-		shape: "pentagon"
-		size: 1.5d
-		x: 4.5d
-		y: 0.0d
-	}]
-	quests: [
+	order_index: 2
+	quest_links: [
 		{
-			id: "525D2A396FFFDAC2"
-			tasks: [{
-				id: "268531A7BC06A031"
-				title: "Command Block"
-				type: "checkmark"
-			}]
-			x: 0.0d
+			id: "00E0C1AF24468420"
+			linked_quest: "71F2AF85715C84CE"
+			shape: "pentagon"
+			size: 1.5d
+			x: 4.5d
 			y: 0.0d
 		}
+		{
+			id: "20B94099DE0681B5"
+			linked_quest: "29AF050547FA1FFF"
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	quests: [
 		{
 			dependencies: [
 				"2BB131B790A6A6AF"
@@ -51,6 +49,7 @@
 		}
 		{
 			dependencies: ["52BD91BCCE447C45"]
+			description: ["Check out its JEI recipe to see how to duplicate Unobtanium."]
 			disable_toast: true
 			icon: "architects_palette:unobtanium"
 			id: "225F1DADD3684C32"
@@ -205,7 +204,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "4C500D35E469B490"
-				item: "kubejs:dimension_gem_legendary"
+				item: "kubejs:obfuscated"
 				type: "item"
 			}]
 			x: 11.0d
@@ -273,5 +272,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Command Block"
+	title: "Chapter II: Command Block"
 }

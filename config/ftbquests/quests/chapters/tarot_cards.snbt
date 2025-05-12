@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "tarot_cards"
-	group: "3CFA5B714A0693A0"
+	group: "1CF0BF9967B6E091"
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -14,16 +14,27 @@
 		id: "tarotcards:tarot_deck"
 	}
 	id: "2644FFA6617C8E91"
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["33316CD70B2A1100"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 22
+					}
+				}
+				id: "tarotcards:tarot_deck"
+			}
 			icon_scale: 1.1d
 			id: "6DDE247EDB43863F"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "54BF6A94400E41BB"
+			rewards: [{
+				id: "72DA3B98AF8AF83B"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -36,13 +47,29 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5CC522197FCDEB99"
+				title: "Give it to me!"
+				type: "checkmark"
+			}]
+			title: "Tarot Deck"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["402C3F65692271AD"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:death"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "328267209E1C081A"
-			tasks: [{
-				id: "6042CD54463F2ABA"
+			rewards: [{
+				id: "66AD43797BB50E2B"
 				item: {
 					Count: 1
 					id: "tarotcards:death"
@@ -50,14 +77,23 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oFree The End"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "5E3B453CDA146190"
+				type: "advancement"
+			}]
 			title: "&6&lXIII: &r&fDeath"
 			x: 4.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["17863EADD917CD82"]
 			id: "78991565E3ABB634"
-			tasks: [{
-				id: "21DA5299FADC5FDF"
+			rewards: [{
+				id: "6A8A4644BFA51A01"
 				item: {
 					Count: 1
 					id: "tarotcards:judgement"
@@ -70,11 +106,11 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["7CF5B9CFE8EC597A"]
 			description: ["Obtained by"]
 			id: "3404A30B1FA15A22"
-			subtitle: "&o&8Reflect 25% Damage Taken"
-			tasks: [{
-				id: "2BE512CBE75FD4C1"
+			rewards: [{
+				id: "0D84E82E42BDC903"
 				item: {
 					Count: 1
 					id: "tarotcards:justice"
@@ -82,15 +118,16 @@
 				}
 				type: "item"
 			}]
+			subtitle: "&o&8Reflect 25% Damage Taken"
 			title: "&6&lXI: &r&fJustice"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["0108FAF3CBC4C51A"]
 			id: "7A748F652D1887DA"
-			subtitle: "&o&8Strength II"
-			tasks: [{
-				id: "3B228BC5F9B7F6E8"
+			rewards: [{
+				id: "10976B30B379DBD4"
 				item: {
 					Count: 1
 					id: "tarotcards:strength"
@@ -98,14 +135,16 @@
 				}
 				type: "item"
 			}]
+			subtitle: "&o&8Strength II"
 			title: "&6&lVIII: &r&fStrength"
 			x: -4.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["328267209E1C081A"]
 			id: "3E55996CACC61EA3"
-			tasks: [{
-				id: "3B1D5847D4AF053D"
+			rewards: [{
+				id: "4BDC9C6B1C5E4EFC"
 				item: {
 					Count: 1
 					id: "tarotcards:temperance"
@@ -118,11 +157,18 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["040F6AA8C874387F"]
 			description: ["Obtained by"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:the_chariot"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "0108FAF3CBC4C51A"
-			subtitle: "&o&8+20% Speed Boost"
-			tasks: [{
-				id: "4CB02689BBBE3F5A"
+			rewards: [{
+				id: "28B5FBD1BB45F59E"
 				item: {
 					Count: 1
 					id: "tarotcards:the_chariot"
@@ -130,14 +176,23 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oWe Need to Go Deeper"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "08B179951D3DC14D"
+				type: "advancement"
+			}]
 			title: "&6&lVII: &r&fThe Chariot"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["3E55996CACC61EA3"]
 			id: "21A6BE26C0E5016C"
-			tasks: [{
-				id: "267B403C918CDF71"
+			rewards: [{
+				id: "0973F25B24205ECE"
 				item: {
 					Count: 1
 					id: "tarotcards:the_devil"
@@ -150,10 +205,17 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["57F8EE2F5E5A55B5"]
 			description: ["Permanent Hero of the Village III"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_emperor"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "4FB3C77AEFC45D42"
-			tasks: [{
-				id: "58BB31B3DDD1221E"
+			rewards: [{
+				id: "3213E553D4D1C8C8"
 				item: {
 					Count: 1
 					id: "tarotcards:the_emperor"
@@ -161,15 +223,30 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oAcquire Hardware"
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "1B6930B046086AA8"
+				type: "advancement"
+			}]
 			title: "&6&lIV: &r&fThe Emperor"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
+			dependencies: ["1F96453B597ED80B"]
 			description: ["Nerby animals will breed automatically, and babies grow up faster"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_empress"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "57F8EE2F5E5A55B5"
-			tasks: [{
-				id: "6973198056270CB8"
+			rewards: [{
+				id: "3965E48F2910B667"
 				item: {
 					Count: 1
 					id: "tarotcards:the_empress"
@@ -177,15 +254,29 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oA Seedy Place"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "13AB100E48DB0275"
+				type: "advancement"
+			}]
 			title: "&6&lIII: &r&fThe Empress"
 			x: -1.0d
 			y: -1.5d
 		}
 		{
 			description: ["Gain permanent Jump Boost III"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_fool"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "33316CD70B2A1100"
-			tasks: [{
-				id: "52365D750A449AE1"
+			rewards: [{
+				id: "6F8AAD101DE56271"
 				item: {
 					Count: 1
 					id: "tarotcards:the_fool"
@@ -193,14 +284,29 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oGetting an Upgrade"
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				id: "338C18E4AF4C08AF"
+				type: "advancement"
+			}]
 			title: "&6&l0: &r&fThe Fool"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["3404A30B1FA15A22"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_hanged_man"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "402C3F65692271AD"
-			tasks: [{
-				id: "686AAA86ADD70D39"
+			rewards: [{
+				id: "2A8A433C0B367248"
 				item: {
 					Count: 1
 					id: "tarotcards:the_hanged_man"
@@ -208,16 +314,23 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "2F9EC0A1305A6268"
+				type: "advancement"
+			}]
 			title: "&6&lXII: &r&fThe Hanged Man"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["7A748F652D1887DA"]
 			description: ["Obtained by"]
 			id: "788285D8B562BAE9"
-			subtitle: "&o&8+10 Armor When Away From Allies"
-			tasks: [{
-				id: "13294F9EBB5419A6"
+			rewards: [{
+				id: "1765284A2ACDD2D6"
 				item: {
 					Count: 1
 					id: "tarotcards:the_hermit"
@@ -225,15 +338,17 @@
 				}
 				type: "item"
 			}]
+			subtitle: "&o&8+10 Armor When Away From Allies"
 			title: "&6&lIX: &r&fThe Hermit"
 			x: -2.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["4FB3C77AEFC45D42"]
 			description: ["+150% Experience gained"]
 			id: "62A2EC592851A424"
-			tasks: [{
-				id: "2CABBE8D27D91370"
+			rewards: [{
+				id: "35C99E37E386E2AA"
 				item: {
 					Count: 1
 					id: "tarotcards:the_hierophant"
@@ -241,15 +356,23 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
 			title: "&6&lV: &r&fThe Hierophant"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["1BCC7BD401FC8001"]
 			description: ["Can upgrade enchanted books using experience"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_high_priestess"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "1F96453B597ED80B"
-			tasks: [{
-				id: "5FC645697FBC9E90"
+			rewards: [{
+				id: "1DAF581052228BCE"
 				item: {
 					Count: 1
 					id: "tarotcards:the_high_priestess"
@@ -257,15 +380,30 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oSweet Dreams"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "07F16A840CBE95F7"
+				type: "advancement"
+			}]
 			title: "&6&lII: &r&fThe High Priestess"
 			x: -2.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["62A2EC592851A424"]
 			description: ["Allies gain Regeneration III"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_lovers"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "040F6AA8C874387F"
-			tasks: [{
-				id: "50441372283EABB4"
+			rewards: [{
+				id: "33FAFF44BFA8D735"
 				item: {
 					Count: 1
 					id: "tarotcards:the_lovers"
@@ -273,15 +411,30 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oDiamonds!"
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "2A45B9FF8DBE216A"
+				type: "advancement"
+			}]
 			title: "&6&lVI: &r&fThe Lovers"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
+			dependencies: ["33316CD70B2A1100"]
 			description: ["This card will prevent golden tools from breaking"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_magician"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "1BCC7BD401FC8001"
-			tasks: [{
-				id: "63A0DBD7458C64C9"
+			rewards: [{
+				id: "34F86C3CDCE30555"
 				item: {
 					Count: 1
 					id: "tarotcards:the_magician"
@@ -289,14 +442,23 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oMonster Hunter"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "06AFD75AF2782D6E"
+				type: "advancement"
+			}]
 			title: "&6&lI: &r&fThe Magician"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
+			dependencies: ["237F744E295CC1B4"]
 			id: "14464D481C0A3217"
-			tasks: [{
-				id: "72B10E3D1383A7F4"
+			rewards: [{
+				id: "55BC42D0D2338F39"
 				item: {
 					Count: 1
 					id: "tarotcards:the_moon"
@@ -309,9 +471,11 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["2D5059FFEFC4B9FA"]
+			hide_dependent_lines: true
 			id: "237F744E295CC1B4"
-			tasks: [{
-				id: "08E24A6D7D3C323F"
+			rewards: [{
+				id: "0CDC87DEAACEA596"
 				item: {
 					Count: 1
 					id: "tarotcards:the_star"
@@ -324,9 +488,11 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["14464D481C0A3217"]
+			hide_dependent_lines: true
 			id: "17863EADD917CD82"
-			tasks: [{
-				id: "7F49C3368F2C4238"
+			rewards: [{
+				id: "01AACCCA3F3B9F96"
 				item: {
 					Count: 1
 					id: "tarotcards:the_sun"
@@ -339,9 +505,10 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["21A6BE26C0E5016C"]
 			id: "2D5059FFEFC4B9FA"
-			tasks: [{
-				id: "4DE1EA8547AF0F1F"
+			rewards: [{
+				id: "5EFA41F2AFC81DED"
 				item: {
 					Count: 1
 					id: "tarotcards:the_tower"
@@ -354,10 +521,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["788285D8B562BAE9"]
 			id: "7CF5B9CFE8EC597A"
-			subtitle: "&o&8+3 Luck Permanently"
-			tasks: [{
-				id: "1EB173CAEDE308CC"
+			rewards: [{
+				id: "47A257D5585EDF4C"
 				item: {
 					Count: 1
 					id: "tarotcards:wheel_of_fortune"
@@ -365,14 +532,23 @@
 				}
 				type: "item"
 			}]
+			subtitle: "&o&8+3 Luck Permanently"
 			title: "&6&lX: &r&fWheel of Fortune"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["78991565E3ABB634"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tarotcards:the_world"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "13402DD2D1D33E94"
-			tasks: [{
-				id: "3EE7CD4B35D5133A"
+			rewards: [{
+				id: "02880EAD05EECE4A"
 				item: {
 					Count: 1
 					id: "tarotcards:the_world"
@@ -380,10 +556,17 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			tasks: [{
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "46337583AEEEDE88"
+				type: "advancement"
+			}]
 			title: "&6&lXXI: &r&fThe World"
 			x: 0.0d
 			y: -9.0d
 		}
 	]
-	title: "Tarot Cards"
+	title: "The Fool's Journey"
 }

@@ -287,6 +287,38 @@
 			x: 3.5d
 			y: 4.5d
 		}
+		{
+			id: "2FF72EBFF09AF0CB"
+			tasks: [{
+				id: "58ADC78977DE76E1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_materials"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "5D16FC038BFD2490"
+			tasks: [{
+				id: "58712A2BD8DD5329"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trimmable_armor"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
 	]
 	title: "Welcome"
 }

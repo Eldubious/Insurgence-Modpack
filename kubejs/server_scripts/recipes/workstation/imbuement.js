@@ -180,11 +180,19 @@ ServerEvents.recipes(event => {
         ],
         4000
     )
+    // Arcane Cloth
+    event.remove({id: 'irons_spellbooks:magic_cloth'})
+    imbuement('irons_spellbooks:magic_cloth', 'samurai_dynasty:cloth',
+        [
+            'irons_spellbooks:arcane_essence', 'irons_spellbooks:arcane_essence',
+            'irons_spellbooks:arcane_essence', 'irons_spellbooks:arcane_essence'
+        ],
+        800
+    )
 
     /*
         Architects Palette decoration blocks made originally from warping
     */
-    event.remove({type: 'architects_palette:warping'})
     // Hadaline
     imbuement('architects_palette:hadaline', 'architects_palette:abyssaline', ['minecraft:redstone', 'minecraft:redstone', 'minecraft:redstone'], 50)
     imbuement('architects_palette:hadaline_bricks', 'architects_palette:abyssaline_bricks', ['minecraft:redstone', 'minecraft:redstone', 'minecraft:redstone'], 50)

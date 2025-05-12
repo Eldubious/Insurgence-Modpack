@@ -331,7 +331,7 @@ ServerEvents.recipes(event => {
     createEnchantRecipe('domesticationinnovation:total_recall', 1, 'minecraft:lapis_lazuli', 'minecraft:echo_shard')
     createEnchantRecipe('domesticationinnovation:health_siphon', 1, 'rubinated_nether:ruby_shard', 'irons_spellbooks:blood_vial')
     createEnchantRecipe('domesticationinnovation:bubbling', 3, 'unusualend:citrine_chunk', 'irons_spellbooks:arcane_ingot', water_essence)
-    createEnchantRecipe('domesticationinnovation:herding', 3, 'minecraft:quartz', 'forbidden_arcanus:cloth', earth_essence)
+    createEnchantRecipe('domesticationinnovation:herding', 3, 'minecraft:quartz', 'samurai_dynasty:cloth', earth_essence)
     createEnchantRecipe('domesticationinnovation:amphibious', 1, 'samurai_dynasty:aquamarine', 'architects_palette:algal_blend')
     createEnchantRecipe('domesticationinnovation:vampire', 3, 'galosphere:pink_salt_shard', 'irons_spellbooks:blood_vial', anima_essence)
     createEnchantRecipe('domesticationinnovation:void_cloud', 1, 'unusualend:void_totem', 'aether:cold_aercloud')

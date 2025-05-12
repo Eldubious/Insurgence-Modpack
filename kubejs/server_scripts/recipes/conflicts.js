@@ -135,6 +135,13 @@ ServerEvents.recipes(event => {
         'supplementaries:rope'
     )
 
+    // Replace Forbidden & Arcanus' Cloth with Samurai Dynasty's Cloth
+    event.remove({id: 'forbidden_arcanus:cloth'})
+    event.replaceInput({input: 'forbidden_arcanus:cloth'},
+        'forbidden_arcanus:cloth',
+        'samurai_dynasty:cloth'
+    )
+
     // Fix issue where ruby is only available trim material
     event.replaceInput({type: "minecraft:smithing_trim"},
         'rubinated_nether:ruby',

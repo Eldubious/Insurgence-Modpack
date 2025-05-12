@@ -33,12 +33,25 @@ ServerEvents.tags('item', event => {
 	addToTag('mynethersdelight:curry_meats', 'alexsmobs:kangaroo_meat')
 	addToTag('mynethersdelight:curry_meats', 'wan_ancient_beasts:raw_ancient_meat')
 
+	// Add more shelves to the forge tag
+	const bookshelves = [
+		'twilightforest:canopy_bookshelf', 'thaumon:greatwood_grimoire_bookshelf', 'thaumon:alchemists_greatwood_bookshelf', 'thaumon:classic_greatwood_bookshelf',
+		'thaumon:greatwood_bookshelf', 'thaumon:silverwood_bookshelf', 'thaumon:classic_silverwood_bookshelf', 'thaumon:alchemists_silverwood_bookshelf',
+		'thaumon:silverwood_grimoire_bookshelf', 'aether_redux:fieldsproot_bookshelf', 'aether_redux:blightwillow_bookshelf', 'aether_redux:cloudcap_bookshelf',
+		'aether_redux:jellyshroom_bookshelf', 'aether_redux:crystal_bookshelf', 'aether_redux:glacia_bookshelf'
+	]
+	bookshelves.forEach(element => addToTag('forge:bookshelves', element))
+
     // Add new Items as an ingredient for Golden Apple Stew
     addToTag('witherstormmod:cure_base', 'experienceobelisk:experience_jelly')
     addToTag('witherstormmod:cure_base', 'aether:swet_ball')
     addToTag('witherstormmod:cure_base', 'aether_redux:golden_swet_ball')
     addToTag('witherstormmod:cure_base', 'aether_redux:vanilla_swet_ball')
     addToTag('witherstormmod:cure_base', 'unusualend:end_blob')
+
+	// Combine Abyssal Sacrifice recipes
+	addToTag('kubejs:abyssal_sacrifice_ingredients', 'cataclysm:crystallized_coral')
+	addToTag('kubejs:abyssal_sacrifice_ingredients', 'cataclysm:coral_chunk')
 
     // Remove unsused items from certain tags
     const silverOres = ['samurai_dynasty:silver_ore', 'samurai_dynasty:deepslate_silver_ore', 'iceandfire:silver_ore', 'iceandfire:deepslate_silver_ore']

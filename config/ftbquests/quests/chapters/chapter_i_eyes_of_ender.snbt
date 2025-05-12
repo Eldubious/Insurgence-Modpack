@@ -1,16 +1,41 @@
 {
+	autofocus_id: "52E373AA0B08B2E6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_i_eyes_of_ender"
 	group: "1CF0BF9967B6E091"
+	icon: "minecraft:ender_eye"
 	id: "7013B426C011FE04"
-	order_index: 0
+	images: [
+		{
+			height: 16.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/absolute.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 16.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner/invocation.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"4D8C1EE9AA5C71C3"
+				"667F7F3370EC7932"
+			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "0D84E48E84D4AB37"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "0CB53243A228BF42"
@@ -23,12 +48,18 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -12.0d
+			title: "&f&lCursed Eye"
+			x: -2.5d
+			y: -6.0d
 		}
 		{
+			dependencies: [
+				"15C9C7208C870228"
+				"32F557426B9BDA45"
+			]
+			hide_dependent_lines: true
 			id: "4E251B6663E4D15A"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "457E4A0010F2E8C4"
@@ -41,12 +72,18 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.0d
+			title: "&f&lRogue Eye"
+			x: 6.0d
+			y: 2.5d
 		}
 		{
+			dependencies: [
+				"09775904AAC3DA95"
+				"2A0DDD7EE0B629F3"
+			]
+			hide_dependent_lines: true
 			id: "77BC926446ABCB11"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "2CD6C8606D2DA67D"
@@ -59,14 +96,19 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -12.0d
+			title: "&f&lEvil Eye"
+			x: -2.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["41CF7655025B88E9"]
+			dependencies: [
+				"41CF7655025B88E9"
+				"4C795DBCF972E15B"
+			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "63575EE03B1455A4"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "0AA9C956B08F1507"
@@ -79,12 +121,18 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -12.0d
+			title: "&f&lGuardian Eye"
+			x: -6.0d
+			y: -2.5d
 		}
 		{
+			dependencies: [
+				"22A0586EB1EB1B32"
+				"3AF5D810F519E9D4"
+			]
+			hide_dependent_lines: true
 			id: "1B05B422B498B2E2"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "298B1233825D4F25"
@@ -97,12 +145,18 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -12.0d
+			title: "&f&lMagical Eye"
+			x: -4.5d
+			y: 4.5d
 		}
 		{
+			dependencies: [
+				"246721898A9A7FE6"
+				"60E8B4F9DFF8E7A4"
+			]
+			hide_dependent_lines: true
 			id: "59DDC7277CB358F1"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "2CF79983F60B753C"
@@ -115,14 +169,19 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -12.0d
+			title: "&f&lWither Eye"
+			x: 0.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["273A97292F172154"]
+			dependencies: [
+				"273A97292F172154"
+				"64AAA43FFA9FD7B5"
+			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "4F51D68031806B89"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "3C94E4740FF25380"
@@ -135,14 +194,19 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: -9.0d
+			title: "&f&lWitch Eye"
+			x: 4.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["3342E366D677026B"]
+			dependencies: [
+				"3342E366D677026B"
+				"0CE39B4DCB6BF667"
+			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "318E78A15B16C2A3"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "7AF2B60525CCDAF2"
@@ -155,14 +219,19 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -12.0d
+			title: "&f&lUndead Eye"
+			x: -7.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4D5676EBC209B585"]
+			dependencies: [
+				"4D5676EBC209B585"
+				"3CD1BEE9418055F3"
+			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "6E2BE194B9FA1348"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "4808A0F65F3E113F"
@@ -175,12 +244,18 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -9.0d
+			title: "&f&lExotic Eye"
+			x: 6.0d
+			y: -2.5d
 		}
 		{
+			dependencies: [
+				"6FD6A80D9DC2AD7B"
+				"430B1DE89FCF314E"
+			]
+			hide_dependent_lines: true
 			id: "244042B5A65D4E45"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "2180D36C344D55C0"
@@ -193,8 +268,9 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -9.0d
+			title: "&f&lCryptic Eye"
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -202,8 +278,9 @@
 				"41A41739C8CF6BC7"
 			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "4612DF45B7A0C5A4"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "3CDB950D754EBF1E"
@@ -216,8 +293,9 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -9.0d
+			title: "&f&lNether Eye"
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -225,8 +303,9 @@
 				"70CB4041AEFBE371"
 			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "0EDEBEEBAABD1CF1"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "59A255F4B632DE52"
@@ -239,14 +318,19 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -9.0d
+			title: "&f&lLost Eye"
+			x: 7.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["26807E6B797EA05E"]
+			dependencies: [
+				"26807E6B797EA05E"
+				"035BA8E59B1D620B"
+			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "254170FE6F37010E"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "29ED793613C2F0C4"
@@ -259,13 +343,18 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -12.0d
+			title: "&f&lBlack Eye"
+			x: -4.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["011AF9D111D31577"]
+			dependencies: [
+				"011AF9D111D31577"
+				"04CA6F79F60EC3FF"
+			]
+			hide_dependent_lines: true
 			id: "4346CA9CC61254AE"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "17E3BA80C0E88DC4"
@@ -278,12 +367,18 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			title: "&f&lCold Eye"
+			x: 4.5d
+			y: -4.5d
 		}
 		{
+			dependencies: [
+				"46486E608FE4CCE2"
+				"4459011DB0E24F7B"
+			]
+			hide_dependent_lines: true
 			id: "47249D2950480CBC"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "4636DA7DD1C5D3F5"
@@ -296,12 +391,18 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.0d
+			title: "&f&lCorrupted Eye"
+			x: 2.5d
+			y: 6.0d
 		}
 		{
+			dependencies: [
+				"340B8EE3C5C75600"
+				"69A33937551B9025"
+			]
+			hide_dependent_lines: true
 			id: "7E6F73345F5B2322"
-			shape: "diamond"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				id: "464BEDF8F5E57505"
@@ -314,13 +415,20 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: -12.0d
+			title: "&f&lOld Eye"
+			x: -6.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ars_nouveau:enchanting_apparatus"
 			id: "41CF7655025B88E9"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oEnchanting Apparatus Recipe"
 			tasks: [
 				{
 					id: "10A369AD7ACB6E7A"
@@ -346,14 +454,20 @@
 					type: "item"
 				}
 			]
-			title: "Guardian Eye Ingredients"
-			x: 9.0d
-			y: -11.0d
+			title: "&e&lGuardian Eye Ingredients #1"
+			x: -7.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
 			id: "273A97292F172154"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
 					id: "16D668C8948F64AE"
@@ -387,14 +501,19 @@
 					type: "item"
 				}
 			]
-			title: "Witch Eye Ingredients"
-			x: 18.0d
-			y: -8.0d
+			title: "&e&lWitch Eye Ingredients #2"
+			x: 5.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "26807E6B797EA05E"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
 					id: "20FE910DD83D59C0"
@@ -422,14 +541,20 @@
 					type: "item"
 				}
 			]
-			title: "Black Eye Ingredients"
-			x: 15.0d
-			y: -11.0d
+			title: "&e&lBlack Eye Ingredients #2"
+			x: -5.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
 			id: "3342E366D677026B"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
 					id: "57F070C03EFB9628"
@@ -454,14 +579,20 @@
 					type: "item"
 				}
 			]
-			title: "Undead Eye Ingredients"
-			x: 12.0d
-			y: -11.0d
+			title: "&e&lUndead Eye Ingredients #2"
+			x: -8.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
 			id: "07337E96BC786D06"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
 					id: "318DF28B3A9F0926"
@@ -490,14 +621,20 @@
 					type: "item"
 				}
 			]
-			title: "Lost Eye Ingredients"
-			x: 9.0d
-			y: -8.0d
+			title: "&e&lLost Eye Ingredients #2"
+			x: 8.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
 			id: "4D5676EBC209B585"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
 					id: "3244DB216118D560"
@@ -537,14 +674,20 @@
 					type: "item"
 				}
 			]
-			title: "Exotic Eye Ingredients"
-			x: 12.0d
-			y: -8.0d
+			title: "&e&lExotic Eye Ingredients #1"
+			x: 6.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:smithing_table"
 			id: "70CB4041AEFBE371"
-			shape: "diamond"
-			subtitle: "&8&oOption 2"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oSmithing Table Recipe"
 			tasks: [
 				{
 					id: "5DEBBDF68BEE97E1"
@@ -562,14 +705,20 @@
 					type: "item"
 				}
 			]
-			title: "Lost Eye Ingredients"
-			x: 11.0d
-			y: -8.0d
+			title: "&e&lLost Eye Ingredients #1"
+			x: 8.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
 			id: "41A41739C8CF6BC7"
-			shape: "diamond"
-			subtitle: "&8&oOption 1"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
 					id: "2510C0E811427770"
@@ -600,14 +749,20 @@
 					type: "item"
 				}
 			]
-			title: "Nether Eye Ingredients"
-			x: 15.0d
-			y: -8.0d
+			title: "&e&lNether Eye Ingredients #1"
+			x: 2.5d
+			y: -7.5d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ars_nouveau:enchanting_apparatus"
 			id: "3D35E639441259C8"
-			shape: "diamond"
-			subtitle: "&8&oOption 2"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oEnchanting Apparatus Recipe"
 			tasks: [
 				{
 					id: "7932EA5EC728FBB0"
@@ -633,13 +788,20 @@
 					type: "item"
 				}
 			]
-			title: "Nether Eye Ingredients"
-			x: 17.0d
-			y: -8.0d
+			title: "&e&lNether Eye Ingredients #2"
+			x: 4.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "aether:freezer"
 			id: "011AF9D111D31577"
-			shape: "diamond"
+			optional: true
+			shape: "circle"
+			subtitle: "&f&oFreezer Recipe"
 			tasks: [
 				{
 					id: "4DDA37AD73341B5B"
@@ -652,8 +814,486 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			title: "&e&lCold Eye Ingredients #2"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "experienceobelisk:molecular_metamorpher"
+				tag: { }
+			}
+			id: "6FD6A80D9DC2AD7B"
+			optional: true
+			subtitle: "&f&oMolecular Metamorpher Recipe"
+			tasks: [
+				{
+					id: "35E17A846F582D91"
+					item: {
+						Count: 1
+						id: "experienceobelisk:molecular_metamorpher"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2AD257534085D14A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0383CA899B701ECA"
+					item: { Count: 4, id: "create:experience_nugget" }
+					type: "item"
+				}
+			]
+			title: "&e&lCryptic Eye Ingredients #2"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:enchanting_table"
+			id: "430B1DE89FCF314E"
+			optional: true
+			subtitle: "&f&oEnchanting Table Recipe"
+			tasks: [
+				{
+					id: "010F20282D878931"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "1B658F94E52649B8"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "&e&lCryptic Eye Ingredients #1"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"254170FE6F37010E"
+				"4346CA9CC61254AE"
+				"47249D2950480CBC"
+				"244042B5A65D4E45"
+				"0D84E48E84D4AB37"
+				"77BC926446ABCB11"
+				"6E2BE194B9FA1348"
+				"63575EE03B1455A4"
+				"0EDEBEEBAABD1CF1"
+				"1B05B422B498B2E2"
+				"4612DF45B7A0C5A4"
+				"7E6F73345F5B2322"
+				"4E251B6663E4D15A"
+				"318E78A15B16C2A3"
+				"4F51D68031806B89"
+				"59DDC7277CB358F1"
+				"67EFD65213972590"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:end_portal_frame"
+			id: "52E373AA0B08B2E6"
+			min_required_dependencies: 13
+			shape: "octagon"
+			size: 3.5d
+			tasks: [{
+				icon: "minecraft:ender_eye"
+				id: "6C1495A548FAF797"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			title: "Find a Stronghold"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
+			id: "04CA6F79F60EC3FF"
+			optional: true
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [{
+				id: "521276AE49C90A63"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lCold Eye Ingredients #1"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Each eye has two different options on how to craft it. Each option will use different ingredients and a different workstation."
+				""
+				"Which recipe you want to use is up to you."
+			]
+			hide_dependent_lines: true
+			icon: "create:crafting_blueprint"
+			id: "67EFD65213972590"
+			size: 1.8d
+			tasks: [{
+				id: "155AEEB9A3B7A1D9"
+				title: "Crafting the Stronghold Eyes"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3CD1BEE9418055F3"
+			optional: true
+			subtitle: "&f&o__ recipe"
+			tasks: [{
+				id: "4A50B55A8DA6B2B9"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lExotic Eye Ingredients #2"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "15C9C7208C870228"
+			optional: true
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [{
+				id: "6E84CF860FE3BC63"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lRogue Eye Ingredients #1"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "32F557426B9BDA45"
+			optional: true
+			subtitle: "&f&oHephaestus Forge Recipe"
+			tasks: [{
+				id: "082715ECF08889F6"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lRogue Eye Ingredients #2"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "64AAA43FFA9FD7B5"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "69A5DA4D14406BC8"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lWitch Eye Ingredients #1"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "46486E608FE4CCE2"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "04322E4D596D505F"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lCorrupted Eye Ingredients #1"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4459011DB0E24F7B"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "7D72D03228E41C4B"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lCorrupted Eye Ingredients #2"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A0DDD7EE0B629F3"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "2A0353D35973D4D6"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lEvil Eye Ingredients #2"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "09775904AAC3DA95"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "792FCC3ACEEC9345"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lEvil Eye Ingredients #1"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "69A33937551B9025"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "262561B719D8D574"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lOld Eye Ingredients #2"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "340B8EE3C5C75600"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "24425BEC4D119323"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lOld Eye Ingredients #1"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3AF5D810F519E9D4"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "7EC9CF5B6778554E"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lMagical Eye Ingredients #2"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "22A0586EB1EB1B32"
+			optional: true
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [{
+				id: "6B8413797BF8969A"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lMagical Eye Ingredients #1"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0CE39B4DCB6BF667"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "6A93D7B5054419C5"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lUndead Eye Ingredients #1"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4C795DBCF972E15B"
+			optional: true
+			subtitle: "&f&oSmithing Table Recipe"
+			tasks: [{
+				id: "26CBC4D8DC9B9AB3"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lGuardian Eye Ingredients #2"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "035BA8E59B1D620B"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "2B1A9900E9614C4A"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lBlack Eye Ingredients #1"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4D8C1EE9AA5C71C3"
+			optional: true
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [{
+				id: "44E63BAC69B94D6C"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lCursed Eye Ingredients #1"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "667F7F3370EC7932"
+			optional: true
+			subtitle: "&f&oHephaestus Forge Recipe"
+			tasks: [{
+				id: "092A8E4D6EAF9C56"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lCursed Eye Ingredients #2"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "246721898A9A7FE6"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "06E30BCE7628D5A9"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lWither Eye Ingredients #1"
+			x: -1.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["67EFD65213972590"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "60E8B4F9DFF8E7A4"
+			optional: true
+			subtitle: "&f&o__ Recipe"
+			tasks: [{
+				id: "38434EE3919670F8"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&e&lWither Eye Ingredients #2"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["52E373AA0B08B2E6"]
+			hide_until_deps_complete: true
+			icon: "minecraft:dragon_head"
+			id: "29AF050547FA1FFF"
+			shape: "circle"
+			size: 1.8d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "54A3AF71B963C84D"
+				type: "dimension"
+			}]
+			title: "Enter The End Dimension"
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	title: "Chapter I: Eyes of Ender"

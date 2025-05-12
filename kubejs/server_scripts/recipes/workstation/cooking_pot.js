@@ -64,6 +64,7 @@ ServerEvents.recipes(event => {
         1, 200, 'minecraft:bowl'
     )
     // Bee Soup
+    event.remove({id: 'the_bumblezone:bee_soup'})
     cookingPot('the_bumblezone:bee_soup',
         [
             'the_bumblezone:bee_bread',
@@ -83,5 +84,75 @@ ServerEvents.recipes(event => {
             'alexsmobs:stink_bottle'
         ],
         1, 100, 'minecraft:bowl'
+    )
+    // Sopa de Macaco
+    cookingPot('alexsmobs:sopa_de_macaco',
+        [
+            'alexsmobs:banana_peel',
+            'minecraft:bone',
+            'minecraft:brown_mushroom'
+        ],
+        1, 100, 'minecraft:bowl'
+    )
+    // Oatmeal
+    event.remove({id: 'aether_redux:oatmeal'})
+    cookingPot('aether_redux:oatmeal',
+        [
+            'aether_redux:wynd_oats',
+            'aether_redux:wynd_oats',
+            'aether_redux:wynd_oats'
+        ],
+        1, 150, 'minecraft:bowl'
+    )
+    // Hot Chocolate
+    event.remove({id: 'alexscaves:hot_chocolate_bottle'})
+    cookingPot('alexscaves:hot_chocolate_bottle',
+        [
+            'alexscaves:block_of_chocolate',
+            'alexscaves:block_of_chocolate',
+            'minecraft:sugar'
+        ],
+        1, 50, 'minecraft:glass_bottle'
+    )
+    // Fire Lily Mixture
+    event.remove({id: 'iceandfire:fire_stew'})
+    cookingPot('iceandfire:fire_stew',
+        [
+            'iceandfire:fire_lily',
+            'minecraft:blaze_rod',
+            'mynethersdelight:bullet_pepper'
+        ],
+        10, 400, 'minecraft:bowl'
+    )
+    // Frost Lily Mixture
+    event.remove({id: 'iceandfire:frost_stew'})
+    cookingPot('iceandfire:frost_stew',
+        [
+            'iceandfire:frost_lily',
+            'minecraft:prismarine_crystals',
+            'minecraft:ice'
+        ],
+        10, 400, 'minecraft:bowl'
+    )
+    // Lightning Lily Mixture
+    event.remove({id: 'iceandfire:lightning_lily_mixture'})
+    cookingPot('iceandfire:lightning_stew',
+        [
+            'iceandfire:lightning_lily',
+            'minecraft:chorus_fruit',
+            'ends_delight:dried_chorus_flower'
+        ],
+        10, 400, 'minecraft:bowl'
+    )
+    // Media Cube
+    cookingPot('hexcasting:creative_unlocker',
+        [
+            'hexcasting:charged_amethyst',
+            'hexcasting:charged_amethyst',
+            'hexcasting:quenched_allay_shard',
+            'ends_delight:non_hatchable_dragon_egg',
+            'hexcasting:uuid_colorizer'
+        ],
+        128, 4800, 'create:chromatic_compound'
     )
 })

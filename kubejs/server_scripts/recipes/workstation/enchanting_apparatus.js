@@ -155,4 +155,12 @@ ServerEvents.recipes(event => {
         ],
         'constructionwand:diamond_wand', 'constructionwand:infinity_wand', 2500, true
     )
+    // Creative Source Jar
+    apparatusRecipe(
+        [
+            'create:chromatic_compound', 'create:chromatic_compound', 'create:chromatic_compound', 'create:chromatic_compound',
+            'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block', 'ars_elemental:mark_of_mastery', 'ars_elemental:mark_of_mastery'
+        ],
+        'ars_nouveau:source_jar', 'ars_nouveau:creative_source_jar', 10000, false
+    )
 })

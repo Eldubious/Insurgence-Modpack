@@ -1,6 +1,41 @@
 // Create and modify rituals for the Summoning Altar
 ServerEvents.recipes(event => {
 
+    // Register an item ritual
+    function itemRitual(output, catalyst, inputItems) {
+        if (inputItems.length == 5) {       // There are 5 item inputs
+            event.recipes.summoningrituals.altar(catalyst)
+                .recipeTime(120)
+                .input(inputItems[0])
+                .input(inputItems[1])
+                .input(inputItems[2])
+                .input(inputItems[3])
+                .input(inputItems[4])
+                .itemOutput(output)
+        }
+        else if (inputItems.length == 8) {  // There are 8 item inputs
+            event.recipes.summoningrituals.altar(catalyst)
+                .recipeTime(120)
+                .input(inputItems[0])
+                .input(inputItems[1])
+                .input(inputItems[2])
+                .input(inputItems[3])
+                .input(inputItems[4])
+                .input(inputItems[5])
+                .input(inputItems[6])
+                .input(inputItems[7])
+                .itemOutput(output)
+        }
+    }
+
+    itemRitual('summoningrituals:altar', 'minecraft:enchanting_table', ['2x minecraft:red_wool', '2x #forge:ingots/gold', 'minecraft:candle', 'minecraft:wither_skeleton_skull', '2x create:chromatic_compound'])
+    itemRitual('architects_palette:unobtanium_block', 'minecraft:amethyst_block',
+        [
+            '4x irons_spellbooks:arcane_ingot', '4x samurai_dynasty:amethyst_ingot', '4x traveloptics:void_spellweave_ingot', '4x experienceobelisk:cognitive_alloy',
+            '4x forbidden_arcanus:obsidian_ingot', '4x unusualend:pearlescent_ingot', '4x forbidden_arcanus:stellarite_piece', '4x minecraft:netherite_ingot'
+        ]
+    )
+
     // Register a mob sacrifice ritual
     function mobRitual(output, catalyst, inputItems) {
         if (inputItems.length == 5) {           // There are 5 item inputs

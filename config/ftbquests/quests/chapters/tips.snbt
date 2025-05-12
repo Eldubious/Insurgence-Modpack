@@ -11,38 +11,62 @@
 		}
 	}
 	id: "21808972CAB895B3"
+	images: [
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/info"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "supplementaries:item/tattered_book"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "7E78D0B79DB3549A"
+			optional: true
+			rewards: [{
+				id: "2048CB1218CBD61D"
+				item: {
+					Count: 1
+					id: "trofers:medium_plate"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "kubejs:brass_hand"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "7ABB380928FE83DE"
 				title: "Tips and tricks"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "estrogen:textures/mob_effect/estrogen.png"
-				}
-			}
-			id: "1DDB1FC83FF5457A"
-			tasks: [{
-				id: "46BAC963244DDB67"
-				title: "Dodging"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.5d
+			y: -1.5d
 		}
 		{
 			id: "264D5D92DF27B7D3"
+			optional: true
+			rewards: [{
+				id: "22F40B7213610B9A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "70566A1EEC6F7B61"
 				item: {
@@ -52,21 +76,29 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			id: "475793B8DA21F11A"
+			optional: true
+			rewards: [{
+				id: "518397A4EC786571"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "0AD2153FEAE0BAA2"
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			id: "045CFA75399D07B9"
+			optional: true
 			tasks: [{
 				id: "1478E65C86938327"
 				item: {
@@ -76,11 +108,12 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
 			id: "0D0AC8A0803A097E"
+			optional: true
 			tasks: [{
 				id: "4E6D82806ED95793"
 				item: {
@@ -95,7 +128,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			description: ["These aren't needed until the end-game, but they have some rituals which may be useful before then."]
@@ -104,15 +137,560 @@
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
+				icon: "summoningrituals:indestructible_altar"
 				id: "05777095C2CFC103"
 				observe_type: 0
 				timer: 25L
+				title: "&a&lObserve:&r Indestructible Summoning Altar"
 				to_observe: "summoningrituals:indestructible_altar"
 				type: "observation"
 			}]
 			title: "Find a Summoning Altar"
 			x: 0.0d
 			y: -4.5d
+		}
+		{
+			id: "5CC3FB98369FFE07"
+			optional: true
+			tasks: [{
+				id: "04850D090DAC7701"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Any Construction Wand"
+				type: "item"
+			}]
+			title: "Construction Wands"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "31AC3E3DEC054F66"
+			optional: true
+			tasks: [{
+				id: "73EA8E3D1CD30D9D"
+				item: "estrogen:thigh_highs"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: ["The effect these items give will allow you to dash very quickly and a pretty long distance. This is a very powerful mobility option."]
+			id: "1FCD37C3CEAF2FFD"
+			optional: true
+			tasks: [{
+				id: "3D1987EE079A04C5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "estrogen:estrogen_pill"
+							}
+							{
+								Count: 1b
+								id: "estrogen:crystal_estrogen_pill"
+							}
+							{
+								Count: 1b
+								id: "estrogen:estrogen_chip_cookie"
+							}
+						]
+					}
+				}
+				title: "Estrogen Pills"
+				type: "item"
+			}]
+			title: "Girl Power"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FCD37C3CEAF2FFD"]
+			description: ["This is a longer lasting and reusable form of the Girl Power effect."]
+			id: "19DA82CC46E3B766"
+			optional: true
+			tasks: [{
+				id: "021F950053593006"
+				item: {
+					Count: 1
+					id: "estrogen:estrogen_patches"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 1000L
+								Fluid: "estrogen:liquid_estrogen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"If you push your pet onto a Pet Bed and 'Z' particles appear, then your pet has set their respawn point."
+				""
+				"Now, if your pet ever dies, they will respawn the next day at that bed."
+			]
+			id: "4CF348BF490DCA75"
+			optional: true
+			rewards: [{
+				id: "09367C7AC0D0FA25"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "544990029C6301F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Any Pet Bed"
+				type: "item"
+			}]
+			title: "Pet Beds"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"This block is fueled by amethyst and it allows you to set the appearance of any item to match that of any other item."
+				""
+				"When used in the Transmogrification Table, the Void Fragment will make an item completely invisible."
+				""
+				"These changes are only visual and don't affect the appearance of an item in the inventory."
+			]
+			id: "52778E81DB628CA9"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "095B46B30A5BBFF8"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "3E6297E3A8AF2AEB"
+					item: "transmog:void_fragment"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "31FF817167A05F2F"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: ["These hammers will mine out multiple blocks at a time. You can craft upgraded versions of these hammers which mine more blocks at once for a much higher cost."]
+			id: "61C3F4C18D78A954"
+			optional: true
+			tasks: [{
+				id: "6A176C1DA816D9D1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justhammers:stone_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justhammers:iron_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justhammers:gold_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justhammers:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justhammers:netherite_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Hammer"
+				type: "item"
+			}]
+			title: "Hammers"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["These items will allow you to recolor certain dyeable blocks in-world."]
+			id: "36DC1AE54BBA3E0B"
+			tasks: [{
+				id: "54C237F09A4AF905"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "arts_and_crafts:paintbrushes"
+					}
+				}
+				title: "Any Paintbrush"
+				type: "item"
+			}]
+			title: "Paintbrushes"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["These blocks will match the appearance of any block you interact on them with."]
+			id: "15A47F55A29558B0"
+			rewards: [
+				{
+					count: 2
+					id: "3FD5D23EAA5EDC10"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+				{
+					id: "228BF87A523A3E97"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "3B4C37422EC1CA85"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "copycats:copycat_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_iron_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_sliding_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_folding_door"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_trapdoor"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_iron_trapdoor"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_fence_gate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_wooden_button"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_stone_button"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_wooden_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_stone_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_light_weighted_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_heavy_weighted_pressure_plate"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_ladder"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_shaft"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_cogwheel"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_large_cogwheel"
+							}
+						]
+					}
+				}
+				title: "Copycat Blocks: Functional"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			description: ["These blocks will match the appearance of any block you interact on them with."]
+			id: "48090587F0457F1C"
+			rewards: [
+				{
+					count: 2
+					id: "042040F73C31655C"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+				{
+					id: "05B667FEEED5FA56"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "28E84E3DE6BC02FB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "create:copycat_step"
+										}
+										{
+											Count: 1b
+											id: "create:copycat_panel"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_block"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_slab"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_stairs"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_stairs"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_fence"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_wall"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_step"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_beam"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_slice"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_slice"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_corner_slice"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_ghost_block"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_half_panel"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_pane"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_flat_pane"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_byte"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_byte_panel"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_board"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_catwalk"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_box"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_half_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_vertical_half_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_stacked_half_layer"
+										}
+										{
+											Count: 1b
+											id: "copycats:copycat_slope"
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_vertical_slope"
+							}
+							{
+								Count: 1b
+								id: "copycats:copycat_slope_layer"
+							}
+						]
+					}
+				}
+				title: "Copycat Blocks: Decorative"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "2A806A47B2A73CB8"
+			tasks: [{
+				id: "41867C2C7A534280"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "29C88FAFA0333230"
+			tasks: [{
+				id: "35FA8A4D5B234CB0"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
 		}
 	]
 	title: "Tips"

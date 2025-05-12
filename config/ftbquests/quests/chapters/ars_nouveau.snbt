@@ -418,15 +418,30 @@
 			y: -5.0d
 		}
 		{
+			description: [
+				"The Enchanting Table, in addition to its base functionality, can now craft new items! Items can be infused in the Enchanting Table if specific Eterna, Quanta, and Arcana requirements are met. You can check the specific requirements of an item by viewing its recipe in JEI."
+				""
+				""
+				"There are many different types of bookshelves which all provide different amounts of each stat. Infusing items is a process of deciding which shelves you need to use."
+			]
 			id: "68CD02D427506613"
-			rewards: [{
-				id: "0059C3605A6369F1"
-				table_id: 3175445853633275546L
-				title: "&fSmall Reward: &dMagical"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "0059C3605A6369F1"
+					table_id: 3175445853633275546L
+					title: "&fSmall Reward: &dMagical"
+					type: "random"
+				}
+				{
+					count: 9
+					id: "0733E1F3CC6ECF48"
+					item: "minecraft:book"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			shape: "rsquare"
-			size: 1.25d
+			size: 2.0d
 			tasks: [{
 				id: "459D9F8EF1358CC0"
 				item: "minecraft:enchanting_table"
@@ -695,37 +710,6 @@
 			y: -14.0d
 		}
 		{
-			id: "078452165202C2BB"
-			subtitle: "&a-15  &r&c+100%"
-			tasks: [{
-				id: "7B49F20FD1EB43B1"
-				item: "apotheosis:beeshelf"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -7.0d
-		}
-		{
-			id: "6E44A8E2D40B2864"
-			tasks: [{
-				id: "0350501062A9C50C"
-				item: "apotheosis:melonshelf"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -7.0d
-		}
-		{
-			id: "076AEF8CBE27361C"
-			tasks: [{
-				id: "4815BA442E3615F9"
-				item: "apotheosis:stoneshelf"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["167DA3C75CC9605A"]
 			id: "2463EADEB90BE144"
 			tasks: [{
@@ -849,7 +833,7 @@
 				type: "checkmark"
 			}]
 			x: -5.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:purple_candle"
@@ -861,7 +845,7 @@
 				type: "checkmark"
 			}]
 			x: -4.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			icon: "minecraft:red_candle"
@@ -873,7 +857,7 @@
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["399F5A95ED4A5ADA"]
@@ -1335,6 +1319,62 @@
 			x: -1.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["68CD02D427506613"]
+			description: ["These bookshelves function the same as vanilla bookshelves and only provide 1 Eterna (up to a max of 15)."]
+			icon: "minecraft:bookshelf"
+			id: "514747D32B868155"
+			size: 1.25d
+			tasks: [{
+				id: "6843CFA3453EF639"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+				title: "Any Wooden Bookshelf"
+				type: "item"
+			}]
+			title: "Wooden Bookshelves"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["68CD02D427506613"]
+			description: ["These shelves provide unique stat bonuses. They are useful when trying to reach very specific stats for infusion enchanting."]
+			id: "16A7CDB3FF498A08"
+			size: 1.25d
+			tasks: [{
+				id: "393B58993CDDBA17"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:melonshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:stoneshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:beeshelf"
+							}
+						]
+					}
+				}
+				title: "Any Specialty Bookshelf"
+				type: "item"
+			}]
+			title: "Specialty Bookshelves"
+			x: -7.0d
+			y: -6.5d
+		}
 	]
-	title: "Magic"
+	title: "Rituals"
 }

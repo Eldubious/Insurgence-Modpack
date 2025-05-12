@@ -7,31 +7,32 @@
 	disable_toast: true
 	filename: "trinkets"
 	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+		}
+	}
 	id: "4B994E5710E30F0C"
 	images: [
 		{
+			dependency: "23324F0768507D9C"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -3.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
+			dependency: "23324F0768507D9C"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			height: 2.0d
-			image: "hexcasting:item/colorizer/pride_gay"
-			rotation: 0.0d
-			width: 2.0d
-			x: 5.0d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			height: 1.25d
@@ -40,6 +41,222 @@
 			width: 6.0d
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.6d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.1d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.6d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.6d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -4.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.6d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.1d
+		}
+		{
+			height: 1.0d
+			hover: ["Material Goods"]
+			image: "ars_elemental:item/caster_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Consumable Goods"]
+			image: "aether:item/food/healing_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "vinery:textures/mob_effect/health_effect.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.7857142857142776d
+			y: -7.146933354391251d
+		}
+		{
+			height: 1.2d
+			image: "vinery:item/wine_box"
+			order: 3
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0357142857142847d
+			y: -7.146933354391251d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/cristel_wine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.4285714285714235d
+			y: -7.539790497248394d
+		}
+		{
+			height: 1.0d
+			image: "vinery:textures/mob_effect/experience_effect.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.6428571428571459d
+			y: -7.146933354391248d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/oakskin_elixir"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.2142857142857153d
+			y: -7.6826476401055395d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
 		}
 	]
 	order_index: 2
@@ -56,19 +273,30 @@
 			id: "26E3DBC51291AE48"
 			rewards: [{
 				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "estrogen:thigh_highs"
+					tag: {
+						specialStyle: "estrogen:pride"
+					}
+				}
 				id: "7450978772765039"
 				table_id: 7572901546421957302L
 				type: "choice"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "319AD8D9B7874E2D"
 				item: "estrogen:thigh_highs"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			title: "&f&lThigh High Exchange"
+			x: 1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["23324F0768507D9C"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 3
 				id: "dimdungeons:item_portal_key"
@@ -123,10 +351,12 @@
 				weak_nbt_match: true
 			}]
 			title: "&f&lRecycle Used Keys"
-			x: -0.5d
-			y: -4.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["23324F0768507D9C"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 3
 				id: "dimdungeons:item_portal_key"
@@ -181,59 +411,167 @@
 				weak_nbt_match: true
 			}]
 			title: "&f&lRecycle Used Keys"
-			x: 0.5d
-			y: -4.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
+			icon: "regions_unexplored:steppe_grass"
 			id: "4771B922A724EAC4"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "19188D96B0C549AD"
 				table_id: 6661071742813902340L
+				title: "&6&lRandom Wildlife Trophy"
 				type: "random"
 			}]
-			subtitle: "Wildlife Collection"
+			shape: "pentagon"
+			subtitle: "&2&oWildlife Collection"
 			tasks: [{
 				count: 3L
 				id: "1E815190477000F7"
 				item: { Count: 3, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			title: "Random Trophy"
+			title: "&f&lCollectable Trophies"
 			x: -1.5d
-			y: -1.0d
+			y: -4.5d
 		}
 		{
+			icon: "galosphere:lichen_roots"
 			id: "67B6B13414000FE7"
-			subtitle: "Monster Collection"
+			shape: "pentagon"
+			subtitle: "&4&oMonster Collection"
 			tasks: [{
 				count: 9L
 				id: "012501A1C2411B66"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "Random Trophy"
+			title: "&f&lCollectable Trophies"
 			x: 0.0d
-			y: -1.0d
+			y: -4.5d
 		}
 		{
+			icon: "quark:chorus_twist"
 			id: "7028554D78AEB997"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3138CC1345D46EFB"
 				table_id: 582863305946285195L
+				title: "&6&lRandom Boss Trophy"
 				type: "random"
 			}]
-			subtitle: "Boss Collection"
+			shape: "pentagon"
+			subtitle: "&9&oBoss Collection"
 			tasks: [{
 				count: 27L
 				id: "2359D89DD8226B72"
 				item: { Count: 27, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			title: "Random Trophy"
+			title: "&f&lCollectable Trophies"
 			x: 1.5d
-			y: -1.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:item/seed_pouch_items"
+				}
+			}
+			id: "5F37FFF3CB34099D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BBB19B4F0D673CA"
+				table_id: 1629461918254535953L
+				type: "choice"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 2L
+				id: "06C8067919E0BFD7"
+				item: { Count: 2, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lBuy a Sapling"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["This item will reset your insomnia and therefore reset phantom spawning."]
+			icon: "experienceobelisk:daydream_bottle"
+			id: "4C3304F8914D8E67"
+			rewards: [{
+				id: "4732BEA99C3D26C9"
+				item: "experienceobelisk:daydream_bottle"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 2L
+				id: "245E1F1C09C53B63"
+				item: { Count: 2, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lBottle o' Daydream"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "72F8E842CB03CCC7"
+			shape: "pentagon"
+			tasks: [{
+				count: 30L
+				id: "773E3243A8D922E9"
+				item: { Count: 30, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "044562CFF13A7BA9"
+			shape: "pentagon"
+			tasks: [{
+				id: "74C91F12F73711CB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "2FF549CFC50B6D5B"
+			shape: "pentagon"
+			tasks: [{
+				count: 5L
+				id: "4D6D65C3849CFD1B"
+				item: { Count: 5, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			hide_until_deps_complete: true
+			icon: "dimdungeons:block_key_charger_used"
+			id: "127ABD889FA84F18"
+			rewards: [{
+				id: "1B59B0D675010380"
+				item: "dimdungeons:block_key_charger_used"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 5L
+				id: "52AFF89A57B54E30"
+				item: { Count: 5, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lUsed Key Inscribing Station"
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 	title: "Shop"

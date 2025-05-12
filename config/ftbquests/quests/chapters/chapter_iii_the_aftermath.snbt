@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iii_the_aftermath"
+	group: "1CF0BF9967B6E091"
+	icon: "witherstormmod:withered_nether_star"
+	id: "18EDA809184D69D8"
+	images: [{
+		height: 12.0d
+		image: "witherstormmod:painting/amulet"
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46A09628FBF1AA0B"
+			invisible: true
+			tasks: [{
+				id: "4604294C215CE980"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46A09628FBF1AA0B"]
+			icon: "witherstormmod:super_beacon"
+			id: "50C092433ED97A8A"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3FEE59AD276BAA92"
+					item: "witherstormmod:super_beacon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B6618ED8A657917"
+					item: { Count: 4, id: "witherstormmod:super_support_beacon" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50C092433ED97A8A"]
+			id: "37FED10E63EB6471"
+			tasks: [{
+				id: "1D29E2C561ECCA60"
+				item: "galosphere:cured_membrane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50C092433ED97A8A"]
+			id: "12C992A4682DBF88"
+			tasks: [{
+				id: "4D7F08E09F843C91"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50C092433ED97A8A"]
+			id: "5296E3A72DDECB8F"
+			tasks: [{
+				id: "65B3F60D877394E4"
+				item: {
+					Count: 1
+					id: "create:chromatic_compound"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "5C784A0535D1331F"
+			tasks: [{
+				id: "540BA3D2391C0E9D"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "3D6FD122D4B57730"
+			tasks: [{
+				id: "6B4BC22AA4187AD8"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "69E4869CD9596F72"
+			tasks: [{
+				id: "02945CC76E1CA1CD"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "6FF3B3C243C072F5"
+			tasks: [{
+				id: "556EFB2C381F7B9C"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37FED10E63EB6471"]
+			id: "1EEF3931175A59C5"
+			tasks: [{
+				id: "20AB6252F1776F96"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37FED10E63EB6471"]
+			id: "7F7D6F7474789518"
+			tasks: [{
+				id: "2DE666D6FD98E1C0"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12C992A4682DBF88"]
+			id: "52C7B84D37E59417"
+			tasks: [{
+				id: "509186771DBFE730"
+				item: "witherstormmod:eye_of_the_storm"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12C992A4682DBF88"]
+			id: "0E69F12756DF3F77"
+			tasks: [{
+				id: "58887ADDC2D6115B"
+				item: "witherstormmod:formidi_blade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12C992A4682DBF88"]
+			id: "72EA68C7E8D90054"
+			tasks: [{
+				id: "047C216C454453E5"
+				item: "dreadsteel:dreadsteel_scythe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12C992A4682DBF88"]
+			id: "178604735A01EC48"
+			tasks: [{
+				id: "1A8081247B430AFD"
+				item: "dreadsteel:dreadsteel_shield"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12C992A4682DBF88"]
+			icon: "dreadsteel:dreadsteel_helmet"
+			id: "7043076624B7E200"
+			tasks: [
+				{
+					id: "1B3648B8F886319D"
+					item: "dreadsteel:dreadsteel_helmet"
+					type: "item"
+				}
+				{
+					id: "07BCC32D0F8A11EA"
+					item: "dreadsteel:dreadsteel_chestplate"
+					type: "item"
+				}
+				{
+					id: "62C08D53C55B6D67"
+					item: "dreadsteel:dreadsteel_leggings"
+					type: "item"
+				}
+				{
+					id: "3A8E21BCB64C8862"
+					item: "dreadsteel:dreadsteel_boots"
+					type: "item"
+				}
+			]
+			title: "Dreadsteel Armor"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37FED10E63EB6471"]
+			id: "02F5BFE7E227501E"
+			tasks: [{
+				id: "599D192F511593E5"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "galosphere:astral"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37FED10E63EB6471"]
+			id: "61FE7655B2F53A4C"
+			tasks: [{
+				id: "2FFE54F30C3A698A"
+				item: "galosphere:shadow_frame"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "3B2ED9F34B212510"
+			tasks: [{
+				id: "1E27136FD430FAEA"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "1F46B023E7E3AF6D"
+			tasks: [{
+				id: "361A409DE1E454B4"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "733EA105B9A9A588"
+			tasks: [{
+				id: "5E247B7E8B09952F"
+				item: "hexcasting:creative_unlocker"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"02F5BFE7E227501E"
+				"61FE7655B2F53A4C"
+				"7F7D6F7474789518"
+				"1EEF3931175A59C5"
+				"308D91058E1BDC64"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "galosphere:cured_membrane"
+			id: "337451434439F44A"
+			tasks: [{
+				id: "23720D59DA9C351A"
+				title: "Awesome!"
+				type: "checkmark"
+			}]
+			title: "Crafted All Cured Membrane Items!"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FF3B3C243C072F5"
+				"69E4869CD9596F72"
+				"3D6FD122D4B57730"
+				"5C784A0535D1331F"
+				"733EA105B9A9A588"
+				"3B2ED9F34B212510"
+				"1F46B023E7E3AF6D"
+				"31DBC79B73EBB8F9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "create:chromatic_compound"
+				tag: { }
+			}
+			id: "02DC92A0075876DD"
+			tasks: [{
+				id: "688E3D140349B14A"
+				title: "Awesome!"
+				type: "checkmark"
+			}]
+			title: "Crafted All Chromatic Compound Items!"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52C7B84D37E59417"
+				"0E69F12756DF3F77"
+				"7043076624B7E200"
+				"72EA68C7E8D90054"
+				"178604735A01EC48"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "dreadsteel:dreadsteel_ingot"
+			id: "6782A08AF67E9EBC"
+			tasks: [{
+				id: "339915FDBD0592AE"
+				title: "Awesome!"
+				type: "checkmark"
+			}]
+			title: "Crafted All Dreadsteel Items!"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5296E3A72DDECB8F"]
+			id: "31DBC79B73EBB8F9"
+			tasks: [{
+				id: "32F245ACD23C4960"
+				item: "dimdungeons:item_blank_teleporter_key"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["37FED10E63EB6471"]
+			id: "308D91058E1BDC64"
+			tasks: [{
+				id: "16E34B5AE9654203"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "Chapter III: The Aftermath"
+}

@@ -14,6 +14,9 @@ ServerEvents.recipes(event => {
         Remove recipes from unused methods
     */
     event.remove({type: 'rubinated_nether:freezing'})
+    event.remove({type: 'architects_palette:warping'})
+    event.remove({type: 'witherstormmod:item_craft_super_beacon'})
+    event.remove({type: 'witherstormmod:resummon_super_beacon'})
 
     /*
         Prevent log spam and remove recipes which are not parsed properly.
