@@ -115,6 +115,8 @@ const advanced_weapons = {0: 'minecraft:netherite_sword', 1: 'minecraft:netherit
 // Enchantments
 const basic_weapon_enchants = {0: ['5', 'minecraft:sharpness'], 1: ['1', 'minecraft:fire_aspect']}
 const advanced_weapon_enchants = {0: ['6', 'minecraft:sharpness'], 1: ['1', 'minecraft:fire_aspect']}
+const basic_bow_enchants = {0: ['4', 'minecraft:power'], 1: ['2', 'minecraft:punch']}
+const advanced_bow_enchants = {0: ['5', 'minecraft:power'], 1: ['3', 'minecraft:punch'], 2: ['1', 'minecraft:flame']}
 
 // Gets random enchantments for weapons. Has unique output for special weapons like bows
 function randomWeaponEnchants(weaponType, difficulty) {
@@ -126,11 +128,32 @@ function randomWeaponEnchants(weaponType, difficulty) {
 
     switch (weaponType) {
         case 'bow':
-
+            switch (difficulty) {
+                case 'basic':
+                    enchData = basic_bow_enchants[Math.round(Math.random())]
+                    enchantments = `{lvl:${enchData[0]}s,id:"${enchData[1]}"}`
+                    break
+                case 'adv':
+                    enchData = advanced_bow_enchants[Math.round(Math.random() * 2)]
+                    enchantments = `{lvl:${enchData[0]}s,id:"${enchData[1]}"}`
+                    enchData = advanced_bow_enchants[Math.round(Math.random() * 2)]
+                    enchantments += `{lvl:${enchData[0]}s,id:"${enchData[1]}"}`
+                    break
+            }
             break
+
         case 'crossbow':
+            switch (difficulty) {
+                case 'basic':
+                    enchData = basic_crossbow_enchants[Math.round(Math.random())]
+                    enchantments = `{lvl:${enchData[0]}s,id:"${enchData[1]}"}`
+                    break
+                case 'adv':
 
+                    break
+            }
             break
+
         default:
             switch (difficulty) {
                 case 'basic':

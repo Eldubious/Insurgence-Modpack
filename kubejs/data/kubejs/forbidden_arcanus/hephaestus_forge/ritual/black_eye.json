@@ -1,0 +1,68 @@
+{
+    "essences": {
+        "aureal": 600,
+        "blood": 600,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:algal_brick"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "mahoutsukai:powdered_ender"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "iceandfire:sapphire_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:algal_brick"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "mahoutsukai:powdered_ender"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:algal_brick"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "iceandfire:sapphire_gem"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "mahoutsukai:powdered_ender"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "minecraft:ender_eye"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "endrem:black_eye"
+        }
+    }
+}

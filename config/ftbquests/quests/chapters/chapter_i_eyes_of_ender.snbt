@@ -424,33 +424,37 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "ars_nouveau:enchanting_apparatus"
+			icon: "oceanic_delight:elder_guardian_eye"
 			id: "41CF7655025B88E9"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oEnchanting Apparatus Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "10A369AD7ACB6E7A"
 					item: "oceanic_delight:elder_guardian_eye"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "5B148B3F91F4B86E"
-					item: { Count: 2, id: "minecraft:ender_pearl" }
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "3E56DD30D4A894DE"
-					item: { Count: 2, id: "minecraft:prismarine_crystals" }
+					item: "minecraft:prismarine_crystals"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "09EAB525321244BB"
-					item: { Count: 4, id: "minecraft:prismarine_shard" }
+					item: "minecraft:prismarine_shard"
 					type: "item"
 				}
 			]
@@ -463,41 +467,47 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:crafting_table"
+			icon: "alexscaves:radiant_essence"
 			id: "273A97292F172154"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "16D668C8948F64AE"
 					item: "endrem:witch_pupil"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7D7B8356EFA61517"
 					item: "alexscaves:radiant_essence"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "235407D6FE2A6598"
 					item: "alexscaves:vanilla_ice_cream_scoop"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4771EFA17098A170"
 					item: "alexscaves:chocolate_ice_cream_scoop"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "33B2CD1EBCD4BA7D"
 					item: "alexscaves:sweetberry_ice_cream_scoop"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "3E1AE539309D63DA"
-					item: { Count: 4, id: "alexscaves:licoroot_vine" }
+					item: "alexscaves:licoroot_vine"
 					type: "item"
 				}
 			]
@@ -510,12 +520,14 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "alexscaves:gazing_pearl"
 			id: "26807E6B797EA05E"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "20FE910DD83D59C0"
 					item: {
 						Count: 1
@@ -530,14 +542,16 @@
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "7A00412FAB56D40F"
-					item: { Count: 3, id: "alexscaves:marine_snow" }
+					item: "alexscaves:marine_snow"
 					type: "item"
 				}
 				{
 					count: 5L
+					disable_toast: true
 					id: "5F50A6A2F4EF77BD"
-					item: { Count: 5, id: "minecraft:ink_sac" }
+					item: "minecraft:ink_sac"
 					type: "item"
 				}
 			]
@@ -550,32 +564,36 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:crafting_table"
+			icon: "twilightforest:lich_trophy"
 			id: "3342E366D677026B"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "57F070C03EFB9628"
 					item: "twilightforest:lich_trophy"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "5CBA2B366AA09457"
 					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "39E116806299D71F"
-					item: { Count: 3, id: "minecraft:bone" }
+					item: "minecraft:bone"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "7116B98CBE08CA44"
-					item: { Count: 4, id: "twilightforest:knightmetal_ingot" }
+					item: "twilightforest:knightmetal_ingot"
 					type: "item"
 				}
 			]
@@ -588,36 +606,41 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:crafting_table"
+			icon: "alexscaves:telecore"
 			id: "07337E96BC786D06"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "318DF28B3A9F0926"
 					item: "alexscaves:telecore"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1C2435BA92968859"
 					item: "alexscaves:tesla_bulb"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "482CF4C1C1AEB802"
 					item: "alexscaves:scarlet_neodymium_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "10F3A17429D36FB5"
 					item: "alexscaves:azure_neodymium_ingot"
 					type: "item"
 				}
 				{
 					count: 5L
+					disable_toast: true
 					id: "4C4624016C8AE201"
-					item: { Count: 5, id: "alexscaves:ferrouslime_ball" }
+					item: "alexscaves:ferrouslime_ball"
 					type: "item"
 				}
 			]
@@ -630,45 +653,52 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:crafting_table"
+			icon: "oceanic_delight:stuffed_pufferfish"
 			id: "4D5676EBC209B585"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "3244DB216118D560"
 					item: "minecraft:heart_of_the_sea"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "68DE633AF975CF8C"
 					item: "minecraft:fire_coral"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "780626117403AB28"
 					item: "minecraft:bubble_coral"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0AC3BD9E802B6B63"
 					item: "minecraft:tube_coral"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "57AF8030924B987E"
-					item: { Count: 2, id: "minecraft:horn_coral" }
+					item: "minecraft:horn_coral"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "44E4803F57423DDF"
-					item: { Count: 2, id: "ars_elemental:siren_shards" }
+					item: "ars_elemental:siren_shards"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2CD3613606889614"
 					item: "oceanic_delight:stuffed_pufferfish"
 					type: "item"
@@ -683,23 +713,26 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:smithing_table"
+			icon: "minecraft:netherite_ingot"
 			id: "70CB4041AEFBE371"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oSmithing Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5DEBBDF68BEE97E1"
 					item: "minecraft:netherite_upgrade_smithing_template"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7F8D48BED1AE6F7B"
 					item: "minecraft:ender_eye"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "5058193F6A90E3A5"
 					item: "minecraft:netherite_ingot"
 					type: "item"
@@ -714,38 +747,43 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:crafting_table"
+			icon: "architects_palette:sunmetal_brick"
 			id: "41A41739C8CF6BC7"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oCrafting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "2510C0E811427770"
 					item: "minecraft:ender_eye"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "5A3B4D9B7FC66FD5"
-					item: { Count: 2, id: "minecraft:blaze_powder" }
+					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "0FB7DEAB32D5DF0C"
-					item: { Count: 3, id: "architects_palette:sunmetal_brick" }
+					item: "architects_palette:sunmetal_brick"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0590389597F552CC"
 					item: "minecraft:magma_block"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "662511AA1F0A66B9"
-					item: { Count: 2, id: "minecraft:nether_bricks" }
+					item: "minecraft:nether_bricks"
 					type: "item"
 				}
 			]
@@ -758,33 +796,37 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "ars_nouveau:enchanting_apparatus"
+			icon: "rubinated_nether:molten_ruby_block"
 			id: "3D35E639441259C8"
 			optional: true
 			shape: "circle"
 			subtitle: "&f&oEnchanting Apparatus Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "7932EA5EC728FBB0"
 					item: "rubinated_nether:molten_ruby_block"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "7679CF452BDF9F55"
-					item: { Count: 2, id: "minecraft:lava_bucket" }
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "7A5FD6A393E7D156"
-					item: { Count: 3, id: "ars_nouveau:fire_essence" }
+					item: "ars_nouveau:fire_essence"
 					type: "item"
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "6BA5B3E92659E5E2"
-					item: { Count: 3, id: "minecraft:obsidian" }
+					item: "minecraft:obsidian"
 					type: "item"
 				}
 			]
@@ -804,11 +846,13 @@
 			subtitle: "&f&oFreezer Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "4DDA37AD73341B5B"
 					item: "aether:freezer"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "23EB24FA06EE17C7"
 					item: "minecraft:ender_eye"
 					type: "item"
@@ -823,33 +867,22 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "experienceobelisk:molecular_metamorpher"
-				tag: { }
-			}
+			icon: "create:experience_nugget"
 			id: "6FD6A80D9DC2AD7B"
 			optional: true
 			subtitle: "&f&oMolecular Metamorpher Recipe"
 			tasks: [
 				{
-					id: "35E17A846F582D91"
-					item: {
-						Count: 1
-						id: "experienceobelisk:molecular_metamorpher"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
+					disable_toast: true
 					id: "2AD257534085D14A"
 					item: "minecraft:ender_eye"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "0383CA899B701ECA"
-					item: { Count: 4, id: "create:experience_nugget" }
+					item: "create:experience_nugget"
 					type: "item"
 				}
 			]
@@ -868,11 +901,13 @@
 			subtitle: "&f&oEnchanting Table Recipe"
 			tasks: [
 				{
+					disable_toast: true
 					id: "010F20282D878931"
 					item: "minecraft:enchanting_table"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1B658F94E52649B8"
 					item: "minecraft:ender_eye"
 					type: "item"
@@ -925,15 +960,45 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "minecraft:crafting_table"
+			icon: "minecraft:blue_ice"
 			id: "04CA6F79F60EC3FF"
 			optional: true
 			subtitle: "&f&oCrafting Table Recipe"
-			tasks: [{
-				id: "521276AE49C90A63"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "521276AE49C90A63"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "5C97D51BF4F38EAB"
+					item: { Count: 3, id: "irons_spellbooks:frozen_bone" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "61D4C45976AE643F"
+					item: { Count: 2, id: "aether:cold_aercloud" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "06927077872FB995"
+					item: { Count: 2, id: "minecraft:snowball" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6D34B5971CB440BA"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
 			title: "&e&lCold Eye Ingredients #1"
 			x: 5.0d
 			y: -6.0d
@@ -945,7 +1010,13 @@
 				"Which recipe you want to use is up to you."
 			]
 			hide_dependent_lines: true
-			icon: "create:crafting_blueprint"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
 			id: "67EFD65213972590"
 			size: 1.8d
 			tasks: [{
@@ -978,14 +1049,51 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "minecraft:sticky_piston"
 			id: "15C9C7208C870228"
 			optional: true
 			subtitle: "&f&oCrafting Table Recipe"
-			tasks: [{
-				id: "6E84CF860FE3BC63"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "6E84CF860FE3BC63"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "2F51EBCE915ED101"
+					item: { Count: 2, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "250EABC44A844322"
+					item: { Count: 2, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "21A31CF0DB1841F3"
+					item: { Count: 2, id: "create:zinc_ingot" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3C0A9D5B3560C7DD"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4854EDCDB1F4E1F3"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
 			title: "&e&lRogue Eye Ingredients #1"
 			x: 7.5d
 			y: 2.5d
@@ -994,15 +1102,46 @@
 			dependencies: ["67EFD65213972590"]
 			disable_toast: true
 			hide_dependency_lines: true
+			hide_text_until_complete: false
 			hide_until_deps_complete: true
+			icon: "alexscaves:block_of_uranium"
 			id: "32F557426B9BDA45"
 			optional: true
-			subtitle: "&f&oHephaestus Forge Recipe"
-			tasks: [{
-				id: "082715ECF08889F6"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "082715ECF08889F6"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "5F1FB5E239F717CF"
+					item: { Count: 2, id: "alexscaves:sulfur_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "53109E2ADF508D97"
+					item: { Count: 2, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1B996CFFAD146FCE"
+					item: "alexscaves:block_of_uranium"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5BC7AD3C6F8F659E"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+			]
 			title: "&e&lRogue Eye Ingredients #2"
 			x: 6.5d
 			y: 4.0d
@@ -1029,14 +1168,39 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "forbidden_arcanus:deorum_ingot"
 			id: "46486E608FE4CCE2"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "04322E4D596D505F"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oHephaestus Forge Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "04322E4D596D505F"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "7A2709BD1A3F8ECE"
+					item: { Count: 4, id: "forbidden_arcanus:deorum_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "6E1043CAC8720665"
+					item: { Count: 2, id: "rubinated_nether:ruby" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "51EE6D5FFCB1C246"
+					item: { Count: 2, id: "experienceobelisk:forgotten_dust" }
+					type: "item"
+				}
+			]
 			title: "&e&lCorrupted Eye Ingredients #1"
 			x: 4.0d
 			y: 6.5d
@@ -1046,14 +1210,32 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "alexscaves:dark_tatters"
 			id: "4459011DB0E24F7B"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "7D72D03228E41C4B"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7D72D03228E41C4B"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "02CC83C3E9ADA1E3"
+					item: { Count: 4, id: "forbidden_arcanus:obsidian_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "2E4F35253C4415F9"
+					item: { Count: 4, id: "alexscaves:dark_tatters" }
+					type: "item"
+				}
+			]
 			title: "&e&lCorrupted Eye Ingredients #2"
 			x: 2.5d
 			y: 7.5d
@@ -1063,14 +1245,45 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "minecraft:echo_shard"
 			id: "2A0DDD7EE0B629F3"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "2A0353D35973D4D6"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2A0353D35973D4D6"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "281E6B48FAC7AE95"
+					item: { Count: 3, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "2E32D5B1B21A50F3"
+					item: { Count: 2, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "777958B408BEA800"
+					item: { Count: 2, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "46D6DE16702F6F08"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+			]
 			title: "&e&lEvil Eye Ingredients #2"
 			x: -4.0d
 			y: 6.5d
@@ -1080,14 +1293,45 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "forbidden_arcanus:purifying_soap"
 			id: "09775904AAC3DA95"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "792FCC3ACEEC9345"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "792FCC3ACEEC9345"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "10F18F7AF391B74C"
+					item: { Count: 3, id: "galosphere:lumiere_shard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "2A872E721B0DC0A5"
+					item: { Count: 2, id: "iceandfire:pixie_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "2B220751D07ED397"
+					item: { Count: 2, id: "forbidden_arcanus:rune" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "097F7BA9C51BE6D6"
+					item: "forbidden_arcanus:purifying_soap"
+					type: "item"
+				}
+			]
 			title: "&e&lEvil Eye Ingredients #1"
 			x: -2.5d
 			y: 7.5d
@@ -1097,14 +1341,32 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "alexscaves:amber"
 			id: "69A33937551B9025"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "262561B719D8D574"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "262561B719D8D574"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "20E22CB59C2A42BD"
+					item: { Count: 4, id: "alexscaves:amber" }
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "5D3EB641C9AF82B3"
+					item: { Count: 4, id: "alexscaves:pewen_sap" }
+					type: "item"
+				}
+			]
 			title: "&e&lOld Eye Ingredients #2"
 			x: -7.5d
 			y: 2.5d
@@ -1114,14 +1376,25 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "call_of_yucutan:ancient_gold_ingot"
 			id: "340B8EE3C5C75600"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "24425BEC4D119323"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "24425BEC4D119323"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 6L
+					disable_toast: true
+					id: "4FC18190D35DB7E9"
+					item: { Count: 6, id: "call_of_yucutan:ancient_gold_ingot" }
+					type: "item"
+				}
+			]
 			title: "&e&lOld Eye Ingredients #1"
 			x: -6.5d
 			y: 4.0d
@@ -1131,14 +1404,44 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "minecraft:totem_of_undying"
 			id: "3AF5D810F519E9D4"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "7EC9CF5B6778554E"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7EC9CF5B6778554E"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "70D6C5B725C441E9"
+					item: { Count: 4, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "4DF7A99F0FB9A643"
+					item: { Count: 2, id: "ars_nouveau:conjuration_essence" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "45B6DE98B4694188"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "267AB8092C4330EF"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
 			title: "&e&lMagical Eye Ingredients #2"
 			x: -6.0d
 			y: 5.0d
@@ -1148,14 +1451,32 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "irons_spellbooks:evocation_upgrade_orb"
 			id: "22A0586EB1EB1B32"
 			optional: true
-			subtitle: "&f&oEnchanting Apparatus Recipe"
-			tasks: [{
-				id: "6B8413797BF8969A"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6B8413797BF8969A"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "613CC39253EA5004"
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal_dust" }
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "1C6BB1659C9064C8"
+					item: { Count: 4, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
 			title: "&e&lMagical Eye Ingredients #1"
 			x: -5.0d
 			y: 6.0d
@@ -1199,14 +1520,39 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "iceandfire:sapphire_gem"
 			id: "035BA8E59B1D620B"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "2B1A9900E9614C4A"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oHephaestus Forge Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2B1A9900E9614C4A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "3AFA1DAD438C8DE3"
+					item: { Count: 3, id: "mahoutsukai:powdered_ender" }
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "4535A5D614028F3C"
+					item: { Count: 3, id: "architects_palette:algal_brick" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "662BE948CBE2AB55"
+					item: { Count: 2, id: "iceandfire:sapphire_gem" }
+					type: "item"
+				}
+			]
 			title: "&e&lBlack Eye Ingredients #1"
 			x: -6.0d
 			y: -5.0d
@@ -1216,14 +1562,46 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "witherstormmod:withered_spider_eye"
 			id: "4D8C1EE9AA5C71C3"
 			optional: true
 			subtitle: "&f&oCrafting Table Recipe"
-			tasks: [{
-				id: "44E63BAC69B94D6C"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "44E63BAC69B94D6C"
+					item: "witherstormmod:withered_spider_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "60F1587C90EC1B66"
+					item: { Count: 2, id: "witherstormmod:withered_flesh" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "4190FB9937C348A8"
+					item: { Count: 2, id: "witherstormmod:tainted_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "1DBEF94C05498F47"
+					item: { Count: 2, id: "forbidden_arcanus:corrupted_arcane_crystal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "2620D0107CFABD3D"
+					item: { Count: 2, id: "forbidden_arcanus:dark_rune" }
+					type: "item"
+				}
+			]
 			title: "&e&lCursed Eye Ingredients #1"
 			x: -4.0d
 			y: -6.5d
@@ -1250,14 +1628,44 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "ars_elemental:anima_essence"
 			id: "246721898A9A7FE6"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "06E30BCE7628D5A9"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "06E30BCE7628D5A9"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "437D4148ABAC3D5E"
+					item: { Count: 4, id: "experienceobelisk:forgotten_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "0FE2A3106FFE13B7"
+					item: { Count: 2, id: "ars_elemental:anima_essence" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0ECAC083CA7D24C7"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4E3FF5B6E91D6043"
+					item: "forbidden_arcanus:obsidian_ingot"
+					type: "item"
+				}
+			]
 			title: "&e&lWither Eye Ingredients #1"
 			x: -1.0d
 			y: -8.0d
@@ -1267,14 +1675,38 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "ars_nouveau:void_jar"
 			id: "60E8B4F9DFF8E7A4"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "38434EE3919670F8"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "38434EE3919670F8"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "723603C9BC8F62C9"
+					item: { Count: 4, id: "iceandfire:witherbone" }
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "36E70CC5725C9F0D"
+					item: { Count: 3, id: "forbidden_arcanus:dark_rune" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "585812187BDCCE0F"
+					item: "ars_nouveau:void_jar"
+					type: "item"
+				}
+			]
 			title: "&e&lWither Eye Ingredients #2"
 			x: 1.0d
 			y: -8.0d

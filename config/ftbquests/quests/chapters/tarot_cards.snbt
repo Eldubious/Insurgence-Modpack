@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["33316CD70B2A1100"]
+			dependencies: ["13402DD2D1D33E94"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -56,10 +56,11 @@
 			}]
 			title: "Tarot Deck"
 			x: 0.0d
-			y: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["402C3F65692271AD"]
+			description: ["Good luck."]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -91,6 +92,13 @@
 		}
 		{
 			dependencies: ["17863EADD917CD82"]
+			description: ["Summon the Wither Storm, a mutated wither capable of mass destruction."]
+			icon: {
+				Count: 1
+				id: "tarotcards:judgement"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "78991565E3ABB634"
 			rewards: [{
 				id: "6A8A4644BFA51A01"
@@ -101,13 +109,27 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oNothing Built Can Last Forever"
+			tasks: [{
+				advancement: "witherstormmod:main/summon_wither_storm"
+				criterion: ""
+				id: "2EB46E9BD785778C"
+				type: "advancement"
+			}]
 			title: "&6&lXX: &r&fJudgement"
 			x: 0.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["7CF5B9CFE8EC597A"]
-			description: ["Obtained by"]
+			description: ["Successfully defend a village from a raid."]
+			icon: {
+				Count: 1
+				id: "tarotcards:justice"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "3404A30B1FA15A22"
 			rewards: [{
 				id: "0D84E82E42BDC903"
@@ -118,13 +140,27 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&o&8Reflect 25% Damage Taken"
+			shape: "circle"
+			subtitle: "&7&oHero of the Village"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "34D309F79B068D36"
+				type: "advancement"
+			}]
 			title: "&6&lXI: &r&fJustice"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0108FAF3CBC4C51A"]
+			description: ["Enchant an item at an Enchantment Table."]
+			icon: {
+				Count: 1
+				id: "tarotcards:strength"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "7A748F652D1887DA"
 			rewards: [{
 				id: "10976B30B379DBD4"
@@ -135,13 +171,27 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&o&8Strength II"
+			shape: "circle"
+			subtitle: "&7&oEnchanter"
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "649643891085E5DA"
+				type: "advancement"
+			}]
 			title: "&6&lVIII: &r&fStrength"
 			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["328267209E1C081A"]
+			description: ["Find Elytra."]
+			icon: {
+				Count: 1
+				id: "tarotcards:temperance"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "3E55996CACC61EA3"
 			rewards: [{
 				id: "4BDC9C6B1C5E4EFC"
@@ -152,13 +202,21 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oSky's the Limit"
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "585BE8CAB285362D"
+				type: "advancement"
+			}]
 			title: "&6&lXIV: &r&fTemperance"
 			x: -2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["040F6AA8C874387F"]
-			description: ["Obtained by"]
+			description: ["Build, light, and enter a nether portal."]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -190,6 +248,13 @@
 		}
 		{
 			dependencies: ["3E55996CACC61EA3"]
+			description: ["Summon and defeat the Ignis."]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_devil"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "21A6BE26C0E5016C"
 			rewards: [{
 				id: "0973F25B24205ECE"
@@ -200,13 +265,21 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oThe Extinguished Flame"
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "4BE3FAB37A067A0C"
+				type: "advancement"
+			}]
 			title: "&6&lXV: &r&fThe Devil"
 			x: -1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["57F8EE2F5E5A55B5"]
-			description: ["Permanent Hero of the Village III"]
+			description: ["Successfully trade with a villager."]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_emperor"
@@ -224,9 +297,9 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "&7&oAcquire Hardware"
+			subtitle: "&7&oWhat a Deal!"
 			tasks: [{
-				advancement: "minecraft:story/smelt_iron"
+				advancement: "minecraft:adventure/trade"
 				criterion: ""
 				id: "1B6930B046086AA8"
 				type: "advancement"
@@ -237,7 +310,7 @@
 		}
 		{
 			dependencies: ["1F96453B597ED80B"]
-			description: ["Nerby animals will breed automatically, and babies grow up faster"]
+			description: ["Tame an animal."]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_empress"
@@ -255,11 +328,11 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "&7&oA Seedy Place"
+			subtitle: "&7&oBest Friends Forever"
 			tasks: [{
-				advancement: "minecraft:husbandry/plant_seed"
+				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
-				id: "13AB100E48DB0275"
+				id: "7BC3698051AAFFEB"
 				type: "advancement"
 			}]
 			title: "&6&lIII: &r&fThe Empress"
@@ -267,7 +340,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["Gain permanent Jump Boost III"]
+			description: ["Kill any hostile monster."]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_fool"
@@ -285,9 +358,9 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "&7&oGetting an Upgrade"
+			subtitle: "&7&oMonster Hunter"
 			tasks: [{
-				advancement: "minecraft:story/upgrade_tools"
+				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
 				id: "338C18E4AF4C08AF"
 				type: "advancement"
@@ -298,6 +371,7 @@
 		}
 		{
 			dependencies: ["3404A30B1FA15A22"]
+			description: ["Or the beginning?"]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_hanged_man"
@@ -315,6 +389,7 @@
 				type: "item"
 			}]
 			shape: "circle"
+			subtitle: "&7&oThe End?"
 			tasks: [{
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
@@ -327,7 +402,13 @@
 		}
 		{
 			dependencies: ["7A748F652D1887DA"]
-			description: ["Obtained by"]
+			description: ["Sneak near a Sculk Sensor or Warden to prevent it from detecting you."]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_hermit"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "788285D8B562BAE9"
 			rewards: [{
 				id: "1765284A2ACDD2D6"
@@ -338,14 +419,27 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&o&8+10 Armor When Away From Allies"
+			shape: "circle"
+			subtitle: "&7&oSneak 100"
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "22D9770DFFA3D70C"
+				type: "advancement"
+			}]
 			title: "&6&lIX: &r&fThe Hermit"
 			x: -2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4FB3C77AEFC45D42"]
-			description: ["+150% Experience gained"]
+			description: ["Put down a cooking pot and start preparing meals!"]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_hierophant"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "62A2EC592851A424"
 			rewards: [{
 				id: "35C99E37E386E2AA"
@@ -357,13 +451,20 @@
 				type: "item"
 			}]
 			shape: "circle"
+			subtitle: "&7&oDinner's Served!"
+			tasks: [{
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+				id: "6939206AE560D121"
+				type: "advancement"
+			}]
 			title: "&6&lV: &r&fThe Hierophant"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1BCC7BD401FC8001"]
-			description: ["Can upgrade enchanted books using experience"]
+			description: ["Sleep in a bed to change your respawn point."]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_high_priestess"
@@ -394,7 +495,7 @@
 		}
 		{
 			dependencies: ["62A2EC592851A424"]
-			description: ["Allies gain Regeneration III"]
+			description: ["Acquire diamonds."]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_lovers"
@@ -425,7 +526,7 @@
 		}
 		{
 			dependencies: ["33316CD70B2A1100"]
-			description: ["This card will prevent golden tools from breaking"]
+			description: ["Equip a spell book."]
 			icon: {
 				Count: 1
 				id: "tarotcards:the_magician"
@@ -443,9 +544,9 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "&7&oMonster Hunter"
+			subtitle: "&7&oMagery"
 			tasks: [{
-				advancement: "minecraft:adventure/kill_a_mob"
+				advancement: "irons_spellbooks:irons_spellbooks/spell_book_equip"
 				criterion: ""
 				id: "06AFD75AF2782D6E"
 				type: "advancement"
@@ -456,6 +557,13 @@
 		}
 		{
 			dependencies: ["237F744E295CC1B4"]
+			description: ["Create a dragon forge core."]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_moon"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "14464D481C0A3217"
 			rewards: [{
 				id: "55BC42D0D2338F39"
@@ -466,13 +574,28 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oThe Heart and the Flame"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+				id: "3F73DE602731809F"
+				type: "advancement"
+			}]
 			title: "&6&lXVIII: &r&fThe Moon"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2D5059FFEFC4B9FA"]
+			description: ["Find an advanced portal key in a dungeon."]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:the_star"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "237F744E295CC1B4"
 			rewards: [{
 				id: "0CDC87DEAACEA596"
@@ -483,13 +606,28 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oA Marvellous Key"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_advanced_key"
+				criterion: ""
+				id: "5B5A0EEEBA31CD95"
+				type: "advancement"
+			}]
 			title: "&6&lXVII: &r&fThe Star"
 			x: 2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["14464D481C0A3217"]
+			description: ["Create a weapon from dragonsteel."]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:the_sun"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "17863EADD917CD82"
 			rewards: [{
 				id: "01AACCCA3F3B9F96"
@@ -500,12 +638,27 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oDraconic Evolution"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+				criterion: ""
+				id: "12FB927D18370931"
+				type: "advancement"
+			}]
 			title: "&6&lXIX: &r&fThe Sun"
 			x: 1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["21A6BE26C0E5016C"]
+			description: ["Welcome to your first dimensional dungeon."]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_tower"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "2D5059FFEFC4B9FA"
 			rewards: [{
 				id: "5EFA41F2AFC81DED"
@@ -516,12 +669,27 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "&7&oInto the Dungeon"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+				criterion: ""
+				id: "606F7E4919F486EF"
+				type: "advancement"
+			}]
 			title: "&6&lXVI: &r&fThe Tower"
 			x: 1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["788285D8B562BAE9"]
+			description: ["Open 50 instanced, per-player loot containers and collect your rewards!"]
+			icon: {
+				Count: 1
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			icon_scale: 1.75d
 			id: "7CF5B9CFE8EC597A"
 			rewards: [{
 				id: "47A257D5585EDF4C"
@@ -532,13 +700,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&o&8+3 Luck Permanently"
+			shape: "circle"
+			subtitle: "&7&oPenteconter"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "686D8426726FCB0D"
+				type: "advancement"
+			}]
 			title: "&6&lX: &r&fWheel of Fortune"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["78991565E3ABB634"]
+			description: ["Defeat the Wither Storm, once and for all."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -557,6 +733,7 @@
 				type: "item"
 			}]
 			shape: "circle"
+			subtitle: "&7&oOne Story Ends, Another Begins"
 			tasks: [{
 				advancement: "witherstormmod:main/wither_storm_defeated"
 				criterion: ""
@@ -566,6 +743,25 @@
 			title: "&6&lXXI: &r&fThe World"
 			x: 0.0d
 			y: -9.0d
+		}
+		{
+			description: ["Complete these specific advancements in this order to get some very useful accessories."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "1869136EF31C8E6D"
+			tasks: [{
+				id: "1DFAF9C2F948DA1A"
+				title: "I Understand"
+				type: "checkmark"
+			}]
+			title: "The Fool's Journey"
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "The Fool's Journey"

@@ -11,29 +11,25 @@
 		}
 	}
 	id: "21808972CAB895B3"
-	images: [
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/info"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			height: 2.0d
-			image: "supplementaries:item/tattered_book"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -2.5d
-		}
-	]
+	images: [{
+		height: 2.0d
+		image: "supplementaries:item/tattered_book"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -2.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
 			id: "7E78D0B79DB3549A"
 			optional: true
 			rewards: [{
@@ -56,7 +52,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			id: "264D5D92DF27B7D3"
@@ -108,7 +104,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -127,7 +123,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -197,10 +193,11 @@
 				type: "item"
 			}]
 			title: "Construction Wands"
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
+			description: ["Wearing these will make you immune to fall damage!"]
 			id: "31AC3E3DEC054F66"
 			optional: true
 			tasks: [{
@@ -208,7 +205,7 @@
 				item: "estrogen:thigh_highs"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -241,7 +238,7 @@
 				type: "item"
 			}]
 			title: "Girl Power"
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -265,7 +262,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -383,7 +380,7 @@
 				type: "item"
 			}]
 			title: "Hammers"
-			x: 1.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -402,7 +399,7 @@
 				type: "item"
 			}]
 			title: "Paintbrushes"
-			x: 1.5d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -679,7 +676,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -689,7 +686,7 @@
 				item: "forbidden_arcanus:quantum_catcher"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -2.0d
 		}
 	]

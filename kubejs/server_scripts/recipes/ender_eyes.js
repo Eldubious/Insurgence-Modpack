@@ -85,8 +85,41 @@ ServerEvents.recipes(event => {
         4000
     )
 
+    // Cold Eye
+    event.shaped('endrem:cold_eye',
+        [
+            'ABA',
+            'CDC',
+            'BEB'
+        ],
+        {
+            A: 'minecraft:snowball',
+            B: 'irons_spellbooks:frozen_bone',
+            C: 'aether:cold_aercloud',
+            D: 'minecraft:ender_eye',
+            E: 'minecraft:blue_ice'
+        }
+    )
 
-
+    // Evil Eye
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'ars_nouveau:abjuration_essence', 'minecraft:lapis_lazuli', 'minecraft:lapis_lazuli', 'minecraft:gold_ingot',
+            'minecraft:gold_ingot', 'minecraft:gold_ingot', 'minecraft:echo_shard', 'minecraft:echo_shard'
+        ],
+        'minecraft:ender_eye',
+        'endrem:evil_eye',
+        4000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'forbidden_arcanus:purifying_soap', 'galosphere:lumiere_shard', 'galosphere:lumiere_shard', 'galosphere:lumiere_shard',
+            'iceandfire:pixie_dust', 'iceandfire:pixie_dust', 'forbidden_arcanus:rune', 'forbidden_arcanus:rune'
+        ],
+        'minecraft:ender_eye',
+        'endrem:evil_eye',
+        4000
+    )
 
     // Witch Eye
     event.shaped('endrem:witch_eye',
@@ -136,5 +169,134 @@ ServerEvents.recipes(event => {
             C: 'minecraft:horn_coral',
             P: 'oceanic_delight:stuffed_pufferfish'
         }
+    )
+
+    // Old Eye
+    event.shaped('endrem:old_eye',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'alexscaves:pewen_sap',
+            B: 'alexscaves:amber',
+            C: 'minecraft:ender_eye'
+        }
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'call_of_yucutan:ancient_gold_ingot', 'call_of_yucutan:ancient_gold_ingot', 'call_of_yucutan:ancient_gold_ingot',
+            'call_of_yucutan:ancient_gold_ingot', 'call_of_yucutan:ancient_gold_ingot', 'call_of_yucutan:ancient_gold_ingot'
+        ],
+        'minecraft:ender_eye',
+        'endrem:old_eye',
+        4000
+    )
+
+    // Wither Eye
+    event.shaped('endrem:wither_eye',
+        [
+            'FDF',
+            'ANA',
+            'FOF'
+        ],
+        {
+            F: 'experienceobelisk:forgotten_dust',
+            D: 'forbidden_arcanus:dark_matter',
+            A: 'ars_elemental:anima_essence',
+            N: 'minecraft:nether_star',
+            O: 'forbidden_arcanus:obsidian_ingot'
+        }
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'iceandfire:witherbone', 'iceandfire:witherbone', 'iceandfire:witherbone', 'iceandfire:witherbone',
+            'ars_nouveau:void_jar', 'forbidden_arcanus:dark_rune', 'forbidden_arcanus:dark_rune', 'forbidden_arcanus:dark_rune'
+        ],
+        'minecraft:nether_star',
+        'endrem:wither_eye',
+        4000
+    )
+
+    // Cursed Eye
+    event.shaped('endrem:cursed_eye',
+        [
+            'ABC',
+            'DED',
+            'CBA'
+        ],
+        {
+            A: 'forbidden_arcanus:corrupted_arcane_crystal',
+            B: 'witherstormmod:tainted_dust',
+            C: 'forbidden_arcanus:dark_rune',
+            D: 'witherstormmod:withered_flesh',
+            E: 'witherstormmod:withered_spider_eye'
+        }
+    )
+
+    // Magical Eye
+    event.shaped('endrem:magical_eye',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:lapis_lazuli',
+            B: 'forbidden_arcanus:arcane_crystal_dust',
+            C: 'irons_spellbooks:evocation_upgrade_orb'
+        }
+    )
+    event.shaped('endrem:magical_eye',
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            A: 'minecraft:emerald',
+            B: 'minecraft:totem_of_undying',
+            C: 'ars_nouveau:conjuration_essence',
+            D: 'minecraft:ender_eye',
+            E: 'forbidden_arcanus:arcane_crystal'
+        }
+    )
+
+    // Rogue Eye
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'alexscaves:block_of_uranium', 'alexscaves:acid_bucket', 'alexscaves:sulfur_dust', 'alexscaves:sulfur_dust',
+            'minecraft:redstone', 'minecraft:redstone'
+        ],
+        'minecraft:ender_eye',
+        'endrem:rogue_eye',
+        4000
+    )
+    event.shaped('endrem:rogue_eye',
+        [
+            'ABA',
+            'CDC',
+            'EFE'
+        ],
+        {
+            A: 'create:cogwheel',
+            B: 'minecraft:sticky_piston',
+            C: 'create:zinc_ingot',
+            D: 'minecraft:ender_eye',
+            E: 'minecraft:slime_ball',
+            F: 'create:large_cogwheel'
+        }
+    )
+
+    // Corrupted Eye
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'alexscaves:dark_tatters', 'alexscaves:dark_tatters', 'alexscaves:dark_tatters',
+            'forbidden_arcanus:obsidian_ingot', 'forbidden_arcanus:obsidian_ingot', 'forbidden_arcanus:obsidian_ingot'
+        ],
+        'minecraft:ender_eye',
+        'endrem:corrupted_eye',
+        4000
     )
 })

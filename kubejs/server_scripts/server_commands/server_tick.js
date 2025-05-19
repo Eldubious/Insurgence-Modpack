@@ -72,5 +72,20 @@ function summon(server, dimension, data, x, y, z) {
         case 'illager_melee':
             summonMeleeIllager(server, dimension, type, x, y, z)
             break
+        case 'insect':
+            summonInsect(server, dimension, type, x, y, z)
+            break
+        case 'wilden':
+            summonWilden(server, dimension, type, x, y, z)
+            break
+        case 'slime':
+            summonSlime(server, dimension, type, x, y, z)
+            break
+        case 'elemental':
+            summonElemental(server, dimension, type, x, y, z)
+            break
+        case 'mage':
+            summonMage(server, dimension, type, x, y, z)
+            break
     }
 }
