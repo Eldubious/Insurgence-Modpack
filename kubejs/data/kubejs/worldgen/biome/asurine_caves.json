@@ -29,13 +29,29 @@
     "carvers": {},
     "features": [
         [],
-        [],
-        [],
+        [
+            "minecraft:lake_lava_underground"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
         [],
         [],
         [],
         [
-
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_copper"
         ],
         [],
         [],
@@ -64,13 +80,13 @@
             {
                 "type": "ars_nouveau:wilden_hunter",
                 "maxCount": 4,
-                "minCount": 4,
+                "minCount": 1,
                 "weight": 100
             },
             {
                 "type": "ars_nouveau:wilden_stalker",
                 "maxCount": 4,
-                "minCount": 4,
+                "minCount": 1,
                 "weight": 100
             },
             {

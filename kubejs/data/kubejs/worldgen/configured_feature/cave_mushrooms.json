@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "data": {
+                        "Name": "minecraft:red_mushroom"
+                    },
+                    "weight": 80
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:brown_mushroom"
+                    },
+                    "weight": 40
+                },
+                {
+                    "data": {
+                        "Name": "twilightforest:mushgloom"
+                    },
+                    "weight": 40
+                },
+                {
+                    "data": {
+                        "Name": "farmersdelight:red_mushroom_colony",
+                        "Properties": {
+                            "age": "3"
+                        }
+                    },
+                    "weight": 4
+                },
+                {
+                    "data": {
+                        "Name": "farmersdelight:brown_mushroom_colony",
+                        "Properties": {
+                            "age": "3"
+                        }
+                    },
+                    "weight": 2
+                },
+                {
+                    "data": {
+                        "Name": "twilightdelight:mushgloom_colony",
+                        "Properties": {
+                            "age": "3"
+                        }
+                    },
+                    "weight": 2
+                }
+            ]
+        }
+    }
+}

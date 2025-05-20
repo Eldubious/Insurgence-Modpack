@@ -1,12 +1,14 @@
 {
     "has_precipitation": false,
-    "temperature": 0,
+    "temperature": 0.5,
     "downfall": 1,
     "effects": {
-        "fog_color": 5394013,
-        "sky_color": 5394013,
-        "water_color": 6565049,
-        "water_fog_color": 4595076,
+        "fog_color": 6234915,
+        "sky_color": 6234915,
+        "water_color": 14574155,
+        "water_fog_color": 12269858,
+        "grass_color": 12204088,
+        "foliage_color": 12204088,
         "music": {
             "sound": "music.overworld.deep_dark",
             "min_delay": 500,
@@ -15,8 +17,112 @@
         }
     },
     "carvers": {},
-    "features": [],
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_underground"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_copper"
+        ],
+        [],
+        [
+            "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "regions_unexplored:cave_grass",
+            "regions_unexplored:cave_tall_grass",
+            "kubejs:weeping_vines",
+            "kubejs:cave_mushroom_patch",
+            "kubejs:cave_carrots_patch"
+        ]
+    ],
     "creature_spawn_probability": 0.0,
-    "spawners": {},
+    "spawners": {
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "minCount": 8,
+                "maxCount": 8,
+                "weight": 10
+            }
+        ],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [
+            {
+                "type": "minecraft:spider",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 100
+            },
+            {
+                "type": "minecraft:zombie",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 95
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "minCount": 1,
+                "maxCount": 1,
+                "weight": 5
+            },
+            {
+                "type": "minecraft:skeleton",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 95
+            },
+            {
+                "type": "savage_and_ravage:skeleton_villager",
+                "minCount": 1,
+                "maxCount": 1,
+                "weight": 5
+            },
+            {
+                "type": "minecraft:creeper",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 100
+            },
+            {
+                "type": "minecraft:enderman",
+                "minCount": 1,
+                "maxCount": 4,
+                "weight": 10
+            }
+        ],
+        "underground_water_creature": [
+            {
+                "type": "minecraft:glow_squid",
+                "minCount": 4,
+                "maxCount": 6,
+                "weight": 10
+            }
+        ],
+        "water_ambient": [],
+        "water_creature": []
+    },
     "spawn_costs": {}
 }

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "data": {
+                        "Name": "miners_delight:wild_cave_carrots"
+                    },
+                    "weight": 4
+                },
+                {
+                    "data": {
+                        "Name": "miners_delight:gossypium"
+                    },
+                    "weight": 1
+                }
+            ]
+        }
+    }
+}

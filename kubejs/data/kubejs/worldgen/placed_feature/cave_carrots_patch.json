@@ -1,9 +1,9 @@
 {
-    "feature": "kubejs:ore_sapphire",
+    "feature": "kubejs:cave_carrots_patch",
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 25
+            "count": 5
         },
         {
             "type": "minecraft:in_square"
@@ -21,8 +21,21 @@
             }
         },
         {
-            "type": "minecraft:rarity_filter",
-            "chance": 2
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 16,
+            "allowed_search_condition": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+            },
+            "target_condition": {
+                "type": "minecraft:solid"
+            }
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": 1
         },
         {
             "type": "minecraft:biome"
