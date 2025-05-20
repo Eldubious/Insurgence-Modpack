@@ -49,6 +49,7 @@ inline
 jade
 jei/*
 !jei/blacklist.cfg
+!jei/recipe-category-sort-order.ini
 l2_configs
 NoChatReports
 not_enough_glyphs
