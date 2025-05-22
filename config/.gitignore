@@ -17,6 +17,7 @@ apotheosis/village.cfg
 ars_elemental
 ars_nouveau
 arsomega
+betterstrongholds
 cataclysm
 corgilib
 iceandfire/*
@@ -59,7 +60,12 @@ quark_emotes
 regions_unexplored/*
 !regions_unexplored/ru-common.toml
 the_bumblezone
-toomanyglyphs
+toomanyglyphs/glyph_amplify_three.toml
+toomanyglyphs/glyph_amplify_two.toml
+toomanyglyphs/glyph_chaining.toml
+toomanyglyphs/glyph_lay_on_hands.toml
+toomanyglyphs/glyph_ray.toml
+toomanyglyphs/glyph_reverse_direction.toml
 traveloptics
 
 # Individual configs to ignore
@@ -104,7 +110,6 @@ configured-client.toml
 constructionwand-client.toml
 copycats-client.toml
 copycats-common.toml
-crackerslib-client.toml
 craftingtweaks-common.toml
 create-client.toml
 create-common.toml
@@ -193,23 +198,19 @@ ribbits-forge-1_20_1.toml
 ribbits-options.json
 rubinated_nether.jsonc
 savage_and_ravage-client.toml
-savage_and_ravage-common.toml
 sawmill-common.toml
 sidebar_buttons.json
 smoothchunk.json
 solcarrot-client.toml
 sophisticatedbackpacks-common.toml
 sophisticatedcore-client.toml
-sophisticatedcore-common.toml
 sophisticatedstorage-client.toml
 sophisticatedstorage-common.toml
 storagenetwork.toml
 structureessentials.json
 supplementaries-client.toml
-supplementaries-common.toml
 tarotcards-common.toml
 terrablender.toml
-tips.json
 toastcontrol-common.toml
 toms_storage-common.toml
 toolbelt-client.toml
