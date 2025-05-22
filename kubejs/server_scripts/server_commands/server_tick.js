@@ -25,11 +25,13 @@ function checkEntity(server, entity) {
         let data = entity.getNbt().data
 
         // Summon an enemy
-        if (data.type == 'summon')
+        if (data.type == 'summon') {
             summon(server, dimension, data, x, y, z)
+        }
         // Place a block
-        else if (data.type == 'block')
+        else if (data.type == 'block') {
             block(server, dimension, data, Math.round(x)-1, Math.round(y), Math.round(z)-1)
+        }
         // Remove the marker entity
         entity.kill()
     }
@@ -66,10 +68,10 @@ function summon(server, dimension, data, x, y, z) {
         case 'skeleton':
             summonSkeleton(server, dimension, type, x, y, z)
             break
-        case 'illager_ranged':
+        case 'ranged_illager':
             summonRangedIllager(server, dimension, type, x, y, z)
             break
-        case 'illager_melee':
+        case 'melee_illager':
             summonMeleeIllager(server, dimension, type, x, y, z)
             break
         case 'insect':

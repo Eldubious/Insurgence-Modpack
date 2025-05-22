@@ -5,8 +5,8 @@ const zombie_types = {0: 'minecraft:zombie', 1: 'minecraft:husk', 2: 'minecraft:
 const skeleton_types = {0: 'minecraft:skeleton', 1: 'minecraft:stray', 2: 'minecraft:wither_skeleton'}
 const insect_types = {0: 'minecraft:spider', 1: 'minecraft:cave_spider', 2: 'twilightforest:hedge_spider', 3: 'tropicraft:tropi_spider'}
 const ranged_illager_types = {0: 'minecraft:pillager', 1: 'minecraft:evoker'}
-const melee_illager_types = {}
-const mage_types = {0: 'minecraft:evoker', 1: 'minecraft:witch'}
+const melee_illager_types = {0: 'minecraft:vindicator', 1: 'illagerinvasion:inquisitor', 2: 'illagerinvasion:marauder'}
+const mage_types = {0: 'minecraft:evoker', 1: 'minecraft:witch', 2: 'irons_spellbooks:archevoker', 3: 'irons_spellbooks:pyromancer', 4: 'illagerinvasion:alchemist'}
 const elemental_types = {0: 'minecraft:blaze', 1: 'call_of_yucutan:blowgun_huracan'}
 const slime_types = {0: 'minecraft:slime', 1: 'alexsmobs:mimicube'}
 const wilden_types = {0: 'ars_nouveau:wilden_guardian', 1: 'ars_nouveau:wilden_hunter', 2: 'ars_nouveau:wilden_stalker'}
@@ -75,6 +75,70 @@ function summonCreeper(server, dimension, difficulty, x, y, z) {
             server.runCommandSilent(cmd)
             break
     }
+}
+
+/*
+    Summons a Ranged Illager with buffed attributes
+*/
+function summonRangedIllager(server, dimension, difficulty, x, y, z) {
+    var illagerType = ranged_illager_types[Math.round(Math.random())]
+    var effect = randomPositiveEffect(difficulty)
+    var hp = Math.round((Math.random() + 1.4) * 10)
+
+    var cmd = `execute in ${dimension} run summon ${illagerType} ${x} ${y} ${z} ` +
+              `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
+              `Attributes:[{Name:"generic.armor",Base:4},{Name:"generic.max_health",Base:${hp}}]}`
+    server.runCommandSilent(cmd)
+}
+
+/*
+    Summons a Melee Illager with buffed attributes
+*/
+function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
+    var illagerType = melee_illager_types[Math.round(Math.random() * 2)]
+    var effect = randomPositiveEffect(difficulty)
+    var hp;
+    switch (difficulty) {
+        case 'basic':
+            hp = Math.round((Math.random() + 1.6) * 10)
+            break
+        case 'adv':
+            hp = Math.round((Math.random() + 2) * 10)
+            break
+    }
+
+    var cmd = `execute in ${dimension} run summon ${illagerType} ${x} ${y} ${z} ` +
+              `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
+              `Attributes:[{Name:"generic.armor",Base:3},{Name:"generic.max_health",Base:${hp}}]}`
+    server.runCommandSilent(cmd)
+}
+
+/*
+    Summons a Mage with buffed attributes
+*/
+function summonMage(server, dimension, difficulty, x, y, z) {
+    var mageType = mage_types[Math.round(Math.random() * 4)]
+    var effect = randomPositiveEffect(difficulty)
+    var hp = Math.round((Math.random() + 1.4) * 10)
+    var armorItems;
+    switch (mageType) {
+        case 'irons_spellbooks:archevoker':
+            armorItems = '{id:"irons_spellbooks:archevoker_boots",Count:1},{id:"irons_spellbooks:archevoker_leggings",Count:1},' +
+                         '{id:"irons_spellbooks:archevoker_chestplate",Count:1},{id:"irons_spellbooks:archevoker_helmet",Count:1}'
+            break
+        case 'irons_spellbooks:pyromancer':
+            armorItems = '{id:"irons_spellbooks:pyromancer_boots",Count:1},{id:"irons_spellbooks:pyromancer_leggings",Count:1},' +
+                         '{id:"irons_spellbooks:pyromancer_chestplate",Count:1},{id:"irons_spellbooks:pyromancer_helmet",Count:1}'
+            break
+        default:
+            armorItems = '{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}'
+    }
+
+    var cmd = `execute in ${dimension} run summon ${mageType} ${x} ${y} ${z} ` +
+              `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
+              `ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f],` +
+              `Attributes:[{Name:"generic.armor",Base:4},{Name:"generic.max_health",Base:${hp}}]}`
+    server.runCommandSilent(cmd)
 }
 
 /*

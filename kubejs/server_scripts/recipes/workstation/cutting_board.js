@@ -19,6 +19,13 @@ ServerEvents.recipes(event => {
     // Strange Root
     cuttingBoard('2x forbidden_arcanus:strange_root', 'forbidden_arcanus:petrified_root', '#forge:shears', 'minecraft:entity.sheep.shear')
 
+    // Dreadsteel Paint Kits
+    event.remove([{id: 'dreadsteel:kit_default'}, {id: 'dreadsteel:kit_white'}, {id: 'dreadsteel:kit_black'}, {id: 'dreadsteel:kit_bronze'}])
+    cuttingBoard('dreadsteel:kit_default', 'iceandfire:bestiary', 'arts_and_crafts:magenta_paintbrush', 'arts_and_crafts:item.paintbrush.paint')
+    cuttingBoard('dreadsteel:kit_white', 'iceandfire:bestiary', 'arts_and_crafts:light_blue_paintbrush', 'arts_and_crafts:item.paintbrush.paint')
+    cuttingBoard('dreadsteel:kit_black', 'iceandfire:bestiary', 'arts_and_crafts:lime_paintbrush', 'arts_and_crafts:item.paintbrush.paint')
+    cuttingBoard('dreadsteel:kit_bronze', 'iceandfire:bestiary', 'arts_and_crafts:red_paintbrush', 'arts_and_crafts:item.paintbrush.paint')
+
     /*
         Equipment Salvaging using the Cutting Board
     */

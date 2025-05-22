@@ -11,12 +11,20 @@ ServerEvents.recipes(event => {
     event.remove({id: 'vinery:straw_hat'})
 
     /*
-        Remove recipes from unused methods
+        Remove recipes from unused methods and items
     */
     event.remove({type: 'rubinated_nether:freezing'})
     event.remove({type: 'architects_palette:warping'})
     event.remove({type: 'witherstormmod:item_craft_super_beacon'})
     event.remove({type: 'witherstormmod:resummon_super_beacon'})
+
+    event.remove({id: 'sophisticatedstorage:backpack_auto_smelting_upgrade_from_storage_auto_smelting_upgrade'})
+    event.remove({id: 'sophisticatedstorage:backpack_auto_blasting_upgrade_from_storage_auto_blasting_upgrade'})
+    event.remove({id: 'sophisticatedstorage:backpack_auto_smoking_upgrade_from_storage_auto_smoking_upgrade'})
+    event.remove({id: 'sophisticatedstorage:backpack_feeding_upgrade_from_storage_feeding_upgrade'})
+    event.remove({id: 'sophisticatedstorage:backpack_advanced_feeding_upgrade_from_storage_advanced_feeding_upgrade'})
+    event.remove({id: 'sophisticatedstorage:backpack_magnet_upgrade_from_storage_magnet_upgrade'})
+    event.remove({id: 'sophisticatedstorage:backpack_advanced_magnet_upgrade_from_storage_advanced_magnet_upgrade'})
 
     /*
         Prevent log spam and remove recipes which are not parsed properly.

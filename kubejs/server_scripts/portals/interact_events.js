@@ -18,12 +18,22 @@ BlockEvents.rightClicked('kubejs:inbetween_portal', event => {
     event.cancel()
 })
 
+// Items which the player can hold in their off hand and still use the portal.
+const allowedOffhandItems = ['minecraft:air', 'minecraft:shield', 'minecraft:totem_of_undying', 'minecraft:arrow', 'minecraft:spectral_arrow', 'minecraft:tipped_arrow',
+    'forbidden_arcanus:obsidian_skull_shield', 'alexsmobs:shield_of_the_deep', 'alexscaves:resistor_shield', 'dreadsteel:dreadsteel_shield',
+    'the_bumblezone:honey_crystal_shield', 'call_of_yucutan:hematite_shield', 'unusualend:enderblob_shield', 'twilightforest:knightmetal_shield',
+    'wan_ancient_beasts:reinforced_shield', 'iceandfire:cyclops_eye', 'witherstormmod:amulet', 'witherstormmod:phasometer']
+
 /*
     Handle the interaction event for all three portal types
 */
 function interactEvent(event, portalType) {
+    // Do not teleport player if they are shifting
+    if (event.player.shiftKeyDown)
+        event.cancel()
+
     if (event.player.mainHandItem.id.toString() == 'minecraft:air' &&
-        event.player.offHandItem.id.toString() == 'minecraft:air') {
+        allowedOffhandItems.indexOf(event.player.offHandItem.id.toString()) != -1) {
 
         var server = event.getServer()
         var data = server.getPersistentData()
@@ -320,4 +330,11 @@ function placeLamps(server, targetDim, destX, destY, destZ, lampId) {
 
     cmd = `execute in ${targetDim} run setblock ${destX} ${destY-2} ${destZ+2} ${lampId}`
     server.runCommandSilent(cmd)
+}
+
+/*
+    Plays a teleport sound at the specified location.
+*/
+function playSound(server, targetDim, destX, destY, destZ) {
+    server.runCommandSilent(`execute in ${targetDim} run playSound minecraft:entity.enderman.teleport block @a ${destX} ${destY} ${destZ} 100`)
 }

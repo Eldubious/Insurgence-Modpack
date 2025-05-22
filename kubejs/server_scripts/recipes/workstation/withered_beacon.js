@@ -31,9 +31,23 @@ ServerEvents.recipes(event => {
             {item: 'galosphere:pink_salt_shard'},
             {item: 'galosphere:pink_salt_shard'},
             {item: 'galosphere:pink_salt_shard'},
-            {item: 'galosphere:pink_salt_shard'},
+            {item: 'create:refined_radiance'},
+            {item: 'create:refined_radiance'},
             {item: 'witherstormmod:golden_apple_stew'}
         ],
         'galosphere:cured_membrane'
+    )
+    // Dreadsteel
+    event.remove({id: 'dreadsteel:dreadsteel_ingot'})
+    superBeacon('main_activated',
+        [
+            {item: 'iceandfire:dragonsteel_fire_ingot'},
+            {item: 'iceandfire:dragonsteel_ice_ingot'},
+            {item: 'iceandfire:dragonsteel_lightning_ingot'},
+            {item: 'create:shadow_steel'},
+            {item: 'create:shadow_steel'},
+            {item: 'iceandfire:dread_shard'}
+        ],
+        'dreadsteel:dreadsteel_ingot'
     )
 })

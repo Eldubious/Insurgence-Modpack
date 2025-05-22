@@ -82,6 +82,7 @@ ServerEvents.recipes(event => {
         '#forge:gems/ruby',
         'rubinated_nether:ruby'
     )
+    event.remove({id: 'samurai_dynasty:ruby_block'})
 
     // Replace Ice and Fire's Copper Nugget with Create's Copper Nugget
     event.remove({id: 'iceandfire:copper_ingot_to_nuggets'})

@@ -11,18 +11,18 @@ ServerEvents.tags('item', event => {
         event.remove(tag, item)
     }
 
-	// Add more spicy ingredients to more cooking recipes
+	/*
+		Recipe modifications
+	*/
+	// Add more spicy ingredients to some cooking recipes
 	addToTag('mynethersdelight:hot_spice', 'call_of_yucutan:chili_pepper')
 	addToTag('mynethersdelight:hot_spice', 'twilightforest:fiery_blood')
 	addToTag('mynethersdelight:hot_spice', 'twilightforest:fiery_tears')
-
 	// Add Alex's Mobs Catfish to catfish tag
 	addToTag('forge:raw_fishes/catfish', 'alexsmobs:raw_catfish')
-
 	// Add more fish to fillet recipes
 	addToTag('aquaculturedelight:fillet_two', 'alexsmobs:blobfish')
 	addToTag('aquaculturedelight:fillet_three', 'alexsmobs:cosmic_cod')
-
 	// Add more meats to cooking recipes
 	addToTag('mynethersdelight:curry_meats', 'twilightdelight:raw_tomahawk_smeak')
 	addToTag('mynethersdelight:curry_meats', 'twilightforest:raw_meef')
@@ -32,28 +32,76 @@ ServerEvents.tags('item', event => {
 	addToTag('mynethersdelight:curry_meats', 'alexsmobs:moose_ribs')
 	addToTag('mynethersdelight:curry_meats', 'alexsmobs:kangaroo_meat')
 	addToTag('mynethersdelight:curry_meats', 'wan_ancient_beasts:raw_ancient_meat')
-
-	// Add more shelves to the forge tag
+	// Add more bookshelves to the forge tag
 	const bookshelves = [
 		'twilightforest:canopy_bookshelf', 'thaumon:greatwood_grimoire_bookshelf', 'thaumon:alchemists_greatwood_bookshelf', 'thaumon:classic_greatwood_bookshelf',
 		'thaumon:greatwood_bookshelf', 'thaumon:silverwood_bookshelf', 'thaumon:classic_silverwood_bookshelf', 'thaumon:alchemists_silverwood_bookshelf',
 		'thaumon:silverwood_grimoire_bookshelf', 'aether_redux:fieldsproot_bookshelf', 'aether_redux:blightwillow_bookshelf', 'aether_redux:cloudcap_bookshelf',
-		'aether_redux:jellyshroom_bookshelf', 'aether_redux:crystal_bookshelf', 'aether_redux:glacia_bookshelf'
-	]
+		'aether_redux:jellyshroom_bookshelf', 'aether_redux:crystal_bookshelf', 'aether_redux:glacia_bookshelf']
 	bookshelves.forEach(element => addToTag('forge:bookshelves', element))
-
     // Add new Items as an ingredient for Golden Apple Stew
     addToTag('witherstormmod:cure_base', 'experienceobelisk:experience_jelly')
     addToTag('witherstormmod:cure_base', 'aether:swet_ball')
     addToTag('witherstormmod:cure_base', 'aether_redux:golden_swet_ball')
     addToTag('witherstormmod:cure_base', 'aether_redux:vanilla_swet_ball')
     addToTag('witherstormmod:cure_base', 'unusualend:end_blob')
-
 	// Combine Abyssal Sacrifice recipes
 	addToTag('kubejs:abyssal_sacrifice_ingredients', 'cataclysm:crystallized_coral')
 	addToTag('kubejs:abyssal_sacrifice_ingredients', 'cataclysm:coral_chunk')
+	// Remove Prismarite from trim materials tag
+	removeFromTag('minecraft:trim_materials', 'regions_unexplored:prismarite_cluster')
+	// Create an aether grass tag for the aether grass bale recipe
+	addToTag('kubejs:aether_grass', 'aether_redux:short_aether_grass')
+	addToTag('kubejs:aether_grass', 'ancient_aether:sky_grass')
+	addToTag('kubejs:aether_grass', 'aether_redux:splitfern')
+	// Cutting Board tools for salvaging certain equipment
+    const can_salvage = ['justhammers:stone_hammer', 'justhammers:iron_hammer', 'justhammers:gold_hammer', 'justhammers:diamond_hammer', 'justhammers:netherite_hammer',
+        'justhammers:stone_impact_hammer', 'justhammers:iron_impact_hammer', 'justhammers:gold_impact_hammer', 'justhammers:diamond_impact_hammer', 'justhammers:netherite_impact_hammer',
+        'justhammers:stone_reinforced_hammer', 'justhammers:iron_reinforced_hammer', 'justhammers:gold_reinforced_hammer', 'justhammers:diamond_reinforced_hammer', 'justhammers:netherite_reinforced_hammer',
+        'justhammers:stone_reinforced_impact_hammer', 'justhammers:iron_reinforced_impact_hammer', 'justhammers:gold_reinforced_impact_hammer', 'justhammers:diamond_reinforced_impact_hammer',
+        'justhammers:netherite_reinforced_impact_hammer', 'justhammers:stone_destructor_hammer', 'justhammers:iron_destructor_hammer', 'justhammers:gold_destructor_hammer',
+        'justhammers:diamond_destructor_hammer', 'justhammers:netherite_destructor_hammer', 'alexscaves:primitive_club', 'mahoutsukai:hammer', 'forbidden_arcanus:wooden_blacksmith_gavel',
+        'forbidden_arcanus:stone_blacksmith_gavel', 'forbidden_arcanus:iron_blacksmith_gavel', 'forbidden_arcanus:golden_blacksmith_gavel', 'forbidden_arcanus:diamond_blacksmith_gavel',
+        'forbidden_arcanus:netherite_blacksmith_gavel', 'forbidden_arcanus:reinforced_deorum_blacksmith_gavel', 'mutantmonsters:hulk_hammer', 'samurai_dynasty:tetsubo', 'samurai_dynasty:tetsubo_netherite',
+        'unusualend:warped_anchor']
+    can_salvage.forEach(element => addToTag('kubejs:can_salvage_equipment', element))
 
-    // Remove unsused items from certain tags
+
+	/*
+		Blacklisting items
+	*/
+	// Blacklist items from Eternal Stella
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:shattered_dimensional_carver')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:dimensional_carver')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:pupfish_finder')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:leech')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:minnow')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:worm')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask_amplify')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask_extend_time')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'galosphere:preserved_flesh')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bubble_blower')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:rope_arrow')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bamboo_spikes_tipped')
+	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'traveloptics:celestial_shard')
+	const eyes = ['endrem:black_eye', 'endrem:cold_eye', 'endrem:corrupted_eye', 'endrem:lost_eye', 'endrem:nether_eye', 'endrem:old_eye', 'endrem:rogue_eye', 'endrem:cursed_eye',
+		'endrem:evil_eye', 'endrem:guardian_eye', 'endrem:magical_eye', 'endrem:wither_eye', 'endrem:witch_eye', 'endrem:undead_eye', 'endrem:exotic_eye', 'endrem:cryptic_eye']
+	eyes.forEach(element => addToTag('forbidden_arcanus:modifier/eternal_incompatible', element))
+	// Blacklist backpacks from the Curio Bag & Quark backpack and have them make you overencumbered
+	const backpacks = ['quark:backpack', 'sophisticatedbackpacks:backpack', 'sophisticatedbackpacks:copper_backpack', 'sophisticatedbackpacks:iron_backpack',
+		'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:diamond_backpack', 'sophisticatedbackpacks:netherite_backpack']
+	backpacks.forEach(element => {
+		addToTag('ars_elemental:blacklist_bag_item', element)
+		addToTag('supplementaries:overencumbering', element)
+		addToTag('quark:backpack_blocked', element)
+	})
+
+	
+	/*
+		Oraganizational
+    */
+   	// Remove unsused items from their tags
     const silverOres = ['samurai_dynasty:silver_ore', 'samurai_dynasty:deepslate_silver_ore', 'iceandfire:silver_ore', 'iceandfire:deepslate_silver_ore']
     silverOres.forEach(item => {removeFromTag('forge:ores/silver', item)})
     const rubyOres = ['samurai_dynasty:ruby_ore', 'samurai_dynasty:deepslate_ruby_ore']
@@ -70,53 +118,6 @@ ServerEvents.tags('item', event => {
 	removeFromTag('supplementaries:ropes', 'quark:rope')
 	removeFromTag('forge:rope', 'farmersdelight:rope')
 	removeFromTag('supplementaries:ropes', 'farmersdelight:rope')
-	
-	// Remove Prismarite from trim materials tag
-	removeFromTag('minecraft:trim_materials', 'regions_unexplored:prismarite_cluster')
-
-	// Blacklist items from Eternal Stella
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:shattered_dimensional_carver')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:dimensional_carver')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'alexsmobs:pupfish_finder')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:leech')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:minnow')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'aquaculture:worm')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask_amplify')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'ars_nouveau:potion_flask_extend_time')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'galosphere:preserved_flesh')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bubble_blower')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:rope_arrow')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'supplementaries:bamboo_spikes_tipped')
-	addToTag('forbidden_arcanus:modifier/eternal_incompatible', 'traveloptics:celestial_shard')
-
-	// Ender Eyes
-	const eyes = ['endrem:black_eye', 'endrem:cold_eye', 'endrem:corrupted_eye', 'endrem:lost_eye', 'endrem:nether_eye', 'endrem:old_eye', 'endrem:rogue_eye', 'endrem:cursed_eye',
-		'endrem:evil_eye', 'endrem:guardian_eye', 'endrem:magical_eye', 'endrem:wither_eye', 'endrem:witch_eye', 'endrem:undead_eye', 'endrem:exotic_eye', 'endrem:cryptic_eye']
-	eyes.forEach(element => addToTag('forbidden_arcanus:modifier/eternal_incompatible', element))
-
-	// Aether Grass
-	addToTag('kubejs:aether_grass', 'aether_redux:short_aether_grass')
-	addToTag('kubejs:aether_grass', 'ancient_aether:sky_grass')
-	addToTag('kubejs:aether_grass', 'aether_redux:splitfern')
-
-    // Dimensional Gems
-    const gems = ['kubejs:dimension_gem_common', 'kubejs:dimension_gem_uncommon', 'kubejs:dimension_gem_rare',
-        'kubejs:dimension_gem_epic', 'kubejs:dimension_gem_legendary']
-    gems.forEach(element => addToTag('kubejs:dimensional_gems', element))
-
-    // Cutting Board tools for salvaging certain equipment
-    const can_salvage = ['justhammers:stone_hammer', 'justhammers:iron_hammer', 'justhammers:gold_hammer', 'justhammers:diamond_hammer', 'justhammers:netherite_hammer',
-        'justhammers:stone_impact_hammer', 'justhammers:iron_impact_hammer', 'justhammers:gold_impact_hammer', 'justhammers:diamond_impact_hammer', 'justhammers:netherite_impact_hammer',
-        'justhammers:stone_reinforced_hammer', 'justhammers:iron_reinforced_hammer', 'justhammers:gold_reinforced_hammer', 'justhammers:diamond_reinforced_hammer', 'justhammers:netherite_reinforced_hammer',
-        'justhammers:stone_reinforced_impact_hammer', 'justhammers:iron_reinforced_impact_hammer', 'justhammers:gold_reinforced_impact_hammer', 'justhammers:diamond_reinforced_impact_hammer',
-        'justhammers:netherite_reinforced_impact_hammer', 'justhammers:stone_destructor_hammer', 'justhammers:iron_destructor_hammer', 'justhammers:gold_destructor_hammer',
-        'justhammers:diamond_destructor_hammer', 'justhammers:netherite_destructor_hammer', 'alexscaves:primitive_club', 'mahoutsukai:hammer', 'forbidden_arcanus:wooden_blacksmith_gavel',
-        'forbidden_arcanus:stone_blacksmith_gavel', 'forbidden_arcanus:iron_blacksmith_gavel', 'forbidden_arcanus:golden_blacksmith_gavel', 'forbidden_arcanus:diamond_blacksmith_gavel',
-        'forbidden_arcanus:netherite_blacksmith_gavel', 'forbidden_arcanus:reinforced_deorum_blacksmith_gavel', 'mutantmonsters:hulk_hammer', 'samurai_dynasty:tetsubo', 'samurai_dynasty:tetsubo_netherite',
-        'unusualend:warped_anchor']
-    can_salvage.forEach(element => addToTag('kubejs:can_salvage_equipment', element))
-
     // Relics
     const relics = ['relics:amphibian_boot', 'relics:aqua_walker', 'relics:arrow_quiver', 'relics:bastion_ring', 'relics:blazing_flask', 'relics:chorus_inhibitor',
         'relics:drowned_belt', 'relics:elytra_booster', 'relics:enders_hand', 'relics:holy_locket', 'relics:horse_flute', 'relics:hunter_belt', 'relics:ice_breaker',
@@ -124,7 +125,6 @@ ServerEvents.tags('item', event => {
         'relics:rage_glove', 'relics:reflection_necklace', 'relics:roller_skates', 'relics:shadow_glaive', 'relics:space_dissector', 'relics:spatial_sign', 'relics:spore_sack',
         'relics:wool_mitten']
     relics.forEach(element => addToTag('kubejs:relics', element))
-
     // Food which provides bonus hearts
     const qualityFoods = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple", "minecraft:golden_carrot", "quark:ancient_fruit",
 		"estrogen:estrogen_chip_cookie", "minecraft:pumpkin_pie", "minecraft:mushroom_stew", "minecraft:beetroot_soup", "minecraft:rabbit_stew",
