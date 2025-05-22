@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "kubejs:block/dragon_portal_bottom",
+        "side": "kubejs:block/dragon_portal_side",
+        "top": "kubejs:block/dragon_portal_top"
+    }
+}
