@@ -100,21 +100,7 @@ ServerEvents.recipes(event => {
             E: 'create:blaze_cake_base'
         }
     )
-    // Creative Motor
-    event.shaped('create:creative_motor',
-        [
-            'ABA',
-            'CDC',
-            'AEA'
-        ],
-        {
-            A: 'create:chromatic_compound',
-            B: 'create:electron_tube',
-            C: 'create:sturdy_sheet',
-            D: 'create:gearbox',
-            E: 'create:rotation_speed_controller'
-        }
-    )
+    
     
 
 
@@ -239,6 +225,22 @@ ServerEvents.recipes(event => {
             C: 'dimdungeons:block_key_charger_used'
         }
     )
+    // Creative Motor
+    event.shaped('create:creative_motor',
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            A: 'create:chromatic_compound',
+            B: 'create:electron_tube',
+            C: 'create:sturdy_sheet',
+            D: 'create:gearbox',
+            E: 'create:rotation_speed_controller'
+        }
+    )
+
 
     /*
         Tools and Equipment
@@ -310,7 +312,6 @@ ServerEvents.recipes(event => {
             C: 'minecraft:bell'
         }
     )
-    // Cataclysm Eyes
     // Eye of Flame
     event.remove({id: 'cataclysm:flame_eye'})
     event.shaped(
@@ -433,5 +434,147 @@ ServerEvents.recipes(event => {
             'iceandfire:silver_sword', 'iceandfire:silver_pickaxe', 'iceandfire:silver_axe', 'iceandfire:silver_shovel'
         ]
     )
-
+    // Draco Arcanus Armor
+    event.replaceInput([{input: 'forbidden_arcanus:obsidian_ingot', input: 'forbidden_arcanus:dragon_scale'}, {id: 'forbidden_arcanus:draco_arcanus_staff'}, {id: 'forbidden_arcanus:draco_arcanus_scepter'}],
+        'forbidden_arcanus:obsidian_ingot',
+        'create:shadow_steel'
+    )
+    // Tyr Armor
+    event.remove([{id: 'forbidden_arcanus:tyr_boots'}, {id: 'forbidden_arcanus:tyr_leggings'}, {id: 'forbidden_arcanus:tyr_chestplate'}, {id: 'forbidden_arcanus:tyr_helmet'}])
+    event.shaped('forbidden_arcanus:tyr_boots',
+        [
+            'ABA',
+            'C C'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale'
+        }
+    )
+    event.shaped('forbidden_arcanus:tyr_leggings',
+        [
+            'ACA',
+            'ABA',
+            'C C'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale'
+        }
+    )
+    event.shaped('forbidden_arcanus:tyr_chestplate',
+        [
+            'C C',
+            'ACA',
+            'ABA'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale'
+        }
+    )
+    event.shaped('forbidden_arcanus:tyr_helmet',
+        [
+            ' B ',
+            'CAC',
+            'A A'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale'
+        }
+    )
+    // Tyr Samurai Armor
+    event.remove([{id: 'samurai_dynasty:tyr_samurai_boots'}, {id: 'samurai_dynasty:tyr_samurai_leggings'}, {id: 'samurai_dynasty:tyr_samurai_chestplate'}, {id: 'samurai_dynasty:tyr_samurai_helmet'}])
+    event.shaped('samurai_dynasty:tyr_samurai_boots',
+        [
+            ' D ',
+            'ABA',
+            'C C'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale',
+            D: 'samurai_dynasty:aquamarine'
+        }
+    )
+    event.shaped('samurai_dynasty:tyr_samurai_leggings',
+        [
+            'BDB',
+            'A A',
+            'C C'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale',
+            D: 'samurai_dynasty:aquamarine'
+        }
+    )
+    event.shaped('samurai_dynasty:tyr_samurai_chestplate',
+        [
+            'C C',
+            'BCB',
+            'ADA'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale',
+            D: 'samurai_dynasty:aquamarine'
+        }
+    )
+    event.shaped('samurai_dynasty:tyr_samurai_helmet',
+        [
+            'C C',
+            'BDB',
+            'A A'
+        ],
+        {
+            A: 'forbidden_arcanus:aquatic_dragon_scale',
+            B: 'create:refined_radiance',
+            C: 'forbidden_arcanus:golden_dragon_scale',
+            D: 'samurai_dynasty:aquamarine'
+        }
+    )
+    // Formidi-Blade
+    event.shaped('witherstormmod:formidi_blade',
+        [
+            'A B',
+            'CB ',
+            'DCA'
+        ],
+        {
+            A: 'witherstormmod:tainted_dust',
+            B: 'architects_palette:unobtanium',
+            C: 'dreadsteel:dreadsteel_ingot',
+            D: 'iceandfire:witherbone'
+        }
+    )
+    // Eye of the Storm
+    event.shaped('witherstormmod:eye_of_the_storm',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'dreadsteel:dreadsteel_ingot',
+            B: 'architects_palette:unobtanium',
+            C: 'iceandfire:witherbone'
+        }
+    )
+    // Dimensional Carver
+    event.replaceInput({id: 'alexsmobs:dimensional_carver'},
+        'minecraft:netherite_ingot',
+        'create:shadow_steel'
+    )
+    // Enchantment Table <-> Matrix Enchantment Table
+    event.shapeless('minecraft:enchanting_table', ['quark:matrix_enchanter'])
+    event.shapeless('quark:matrix_enchanter', ['minecraft:enchanting_table'])
 })

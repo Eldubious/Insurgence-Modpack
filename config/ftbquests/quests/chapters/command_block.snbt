@@ -18,7 +18,9 @@
 		{
 			id: "20B94099DE0681B5"
 			linked_quest: "29AF050547FA1FFF"
-			x: 1.5d
+			shape: "pentagon"
+			size: 2.0d
+			x: 2.5d
 			y: -4.5d
 		}
 	]
@@ -41,28 +43,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "1441634DC7A0F18D"
-				item: "architects_palette:unobtanium_block"
+				item: "architects_palette:unobtanium"
 				type: "item"
 			}]
 			x: 11.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["52BD91BCCE447C45"]
-			description: ["Check out its JEI recipe to see how to duplicate Unobtanium."]
+			dependencies: ["71F2AF85715C84CE"]
 			disable_toast: true
-			icon: "architects_palette:unobtanium"
-			id: "225F1DADD3684C32"
-			optional: true
-			tasks: [{
-				id: "7C76A998C0BEDC87"
-				title: "Duplicating Unobtanium"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: -1.5d
-		}
-		{
+			hide_dependency_lines: true
 			id: "2BB131B790A6A6AF"
 			tasks: [{
 				id: "6169F4AAA3DD5D7B"
@@ -73,6 +63,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "4E6F2B9CB624394C"
 			tasks: [{
 				count: 4L
@@ -84,6 +77,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "767386982B084F5D"
 			tasks: [{
 				count: 4L
@@ -95,6 +91,9 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "745FC63E15FD4A49"
 			tasks: [{
 				count: 4L
@@ -106,6 +105,9 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "6DE14536CD3E0D8C"
 			tasks: [{
 				count: 4L
@@ -117,6 +119,9 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "6019838D64FC79D5"
 			tasks: [{
 				count: 4L
@@ -128,6 +133,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "77BBB0B271A4C8B4"
 			tasks: [{
 				count: 4L
@@ -139,6 +147,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "75EA51C75C4E6F91"
 			tasks: [{
 				count: 4L
@@ -150,6 +161,9 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["71F2AF85715C84CE"]
+			disable_toast: true
+			hide_dependency_lines: true
 			id: "2CAD77E4AF9C4220"
 			tasks: [{
 				count: 4L
@@ -161,6 +175,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["29AF050547FA1FFF"]
 			icon: "dimdungeons:item_portal_key"
 			id: "0BD15CC781F69834"
 			size: 1.2d
@@ -199,6 +214,7 @@
 		}
 		{
 			dependencies: ["499F11C723DB76E6"]
+			description: ["This item is needed to craft the Command Block, and you can only find it in advanced dimensional dungeons."]
 			id: "375F95F85CEB2F17"
 			shape: "rsquare"
 			size: 2.0d
@@ -212,15 +228,18 @@
 		}
 		{
 			dependencies: ["4EC3DFF09750A710"]
+			description: ["To summon the Wither Storm, you will need to use the Summoning Altar."]
+			disable_toast: true
+			icon: "minecraft:wither_skeleton_skull"
 			id: "565D06C38AD6EF80"
 			tasks: [{
-				dimension: "witherstormmod:bowels"
-				icon: "witherstormmod:tainted_flesh_block"
-				id: "02E4E062E84F86A6"
-				type: "dimension"
+				advancement: "witherstormmod:main/summon_wither_storm"
+				criterion: ""
+				id: "0F84877AAE3E192F"
+				type: "advancement"
 			}]
-			title: "Entering the Wither Storm"
-			x: 17.5d
+			title: "Summoning the Wither Storm"
+			x: 16.0d
 			y: -2.25d
 		}
 		{
@@ -229,6 +248,7 @@
 				"4907442471DEB3E2"
 			]
 			id: "23324F0768507D9C"
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				dimension: "dimdungeons:dungeon_dimension"
@@ -252,6 +272,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["29AF050547FA1FFF"]
 			id: "4907442471DEB3E2"
 			size: 1.2d
 			tasks: [

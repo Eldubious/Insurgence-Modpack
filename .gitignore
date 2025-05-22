@@ -6,6 +6,7 @@
 cache
 coremods
 crash-reports
+fancymenu_data
 local
 logs
 modernfix
@@ -29,3 +30,4 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 kubejs/probe
+hs_err_pid9180.log

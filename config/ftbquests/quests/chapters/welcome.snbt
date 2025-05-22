@@ -20,14 +20,58 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"I'm glad you decided to play my modpack!"
+				""
+				"&e&l&nSome useful things to know:&r"
+				""
+				"- Default keybinds for some mods have changed &7(&osee next page&r&7)&r"
+				""
+				"- The Spyglass you recieved upon joining can be equipped and used with the default keybind."
+				""
+				"{@pagebreak}"
+				""
+				"I decided to change &osome&r of the default keybinds to improve the out-of-the-box experience. Feel free to change them back or to whatever else you want."
+				""
+				"These are the changes I've made:"
+				""
+				"&e&lFTB Quests&r"
+				"- &7Open Quests:&r [ &o`&r ]"
+				""
+				"&e&lTom's Simple Storage&r"
+				"- &7Open Terminal:&r [ &oCTRL + E&r ]"
+				""
+				"&e&lArs Nouveau Spell Book&r"
+				"- &7Next Slot:&r [ &oU&r ]"
+				"- &7Previous Slot:&r [ &oY&r ]"
+				"- &7Open Book:&r [ &oC&r ]"
+				"- &7Toggle Selection HUD:&r [ &oR&r ]"
+				""
+				"&e&lCreate: Estrogen&r"
+				"- &7Activate Dash:&r [ &oLEFT ALT&r ]"
+				""
+				"&e&lCurios&r"
+				"- &7Open/Close Curios Inventory:&r [ &oN&r ]"
+				""
+				"&e&lIron's Spells and Spellbooks&r"
+				"- &7Cast Selected Spell:&r [ &oR&r ]"
+				"- &7Open Spell Wheel:&r [ &oT&r ]"
+				""
+				"&e&lMahou Tsukai&r"
+				"- &7Draw Mahoujin:&r [ &oSHIFT + C&r ]"
+				""
+				"&e&lQuark&r"
+				"- &7Hotbar Swapper:&r [ &oCTRL + R&r ]"
+			]
 			id: "11090A911B3D930A"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "7709DE08F6464A35"
-				title: "Welcome!"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "61B87783253A4F18"
+				type: "dimension"
 			}]
+			title: "Welcome to the Pack!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -137,155 +181,7 @@
 			}]
 			title: "Claiming Your Guidebooks"
 			x: 0.0d
-			y: 4.0d
-		}
-		{
-			description: [
-				"Here you can get some very useful items relatively easier than normal by submitting some items."
-				""
-				"Learn more about these items by checking their related quests in the \"Tips\" chapter."
-			]
-			id: "195AF921B74DCDE4"
-			rewards: [
-				{
-					id: "3DD3685957160041"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								maps: [I; ]
-							}
-						}
-						id: "map_atlases:atlas"
-					}
-					type: "item"
-				}
-				{
-					count: 9
-					id: "014103E2ABBD107A"
-					item: "minecraft:map"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "5E7DB69C5F827DAC"
-					item: "quark:backpack"
-					type: "item"
-				}
-				{
-					count: 24
-					id: "44156DA70F5EAF8A"
-					item: "minecraft:torch"
-					random_bonus: 6
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 5L
-					id: "3B1A204790A39502"
-					item: { Count: 10, id: "minecraft:iron_ingot" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "126920BC92824585"
-					item: { Count: 3, id: "minecraft:paper" }
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "35BE53F52C9F91D2"
-					item: { Count: 6, id: "minecraft:leather" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "3BA6C642E8887B60"
-					item: { Count: 4, id: "minecraft:coal" }
-					type: "item"
-				}
-			]
-			title: "Starter Kit"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			can_repeat: true
-			id: "2FD01DFC20B71311"
-			rewards: [
-				{
-					id: "50FCCF32DD08572D"
-					item: {
-						Count: 1
-						id: "vinery:straw_hat"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 30s
-							}]
-							RepairCost: 1
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "79F36205F5F028C1"
-					item: {
-						Count: 1
-						id: "vinery:winemaker_apron"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 30s
-							}]
-							RepairCost: 1
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1C31A9DE76975B03"
-					item: {
-						Count: 1
-						id: "vinery:winemaker_leggings"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 30s
-							}]
-							RepairCost: 1
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "777F6DF92ABA2A3B"
-					item: {
-						Count: 1
-						id: "vinery:winemaker_boots"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 30s
-							}]
-							RepairCost: 1
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "749A8AE977C43097"
-				title: "a"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "Welcome"

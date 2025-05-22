@@ -130,6 +130,7 @@
 			description: ["These aren't needed until the end-game, but they have some rituals which may be useful before then."]
 			icon: "summoningrituals:indestructible_altar"
 			id: "71F2AF85715C84CE"
+			invisible: true
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -146,6 +147,7 @@
 			y: -4.5d
 		}
 		{
+			description: ["This item is extremely useful for building because it allows you to extend the face of a group of blocks."]
 			id: "5CC3FB98369FFE07"
 			optional: true
 			tasks: [{
@@ -386,6 +388,7 @@
 		{
 			description: ["These items will allow you to recolor certain dyeable blocks in-world."]
 			id: "36DC1AE54BBA3E0B"
+			optional: true
 			tasks: [{
 				id: "54C237F09A4AF905"
 				item: {
@@ -405,6 +408,7 @@
 		{
 			description: ["These blocks will match the appearance of any block you interact on them with."]
 			id: "15A47F55A29558B0"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -509,6 +513,7 @@
 		{
 			description: ["These blocks will match the appearance of any block you interact on them with."]
 			id: "48090587F0457F1C"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -664,6 +669,7 @@
 		}
 		{
 			id: "2A806A47B2A73CB8"
+			optional: true
 			tasks: [{
 				id: "41867C2C7A534280"
 				item: {
@@ -681,6 +687,7 @@
 		}
 		{
 			id: "29C88FAFA0333230"
+			optional: true
 			tasks: [{
 				id: "35FA8A4D5B234CB0"
 				item: "forbidden_arcanus:quantum_catcher"

@@ -87,16 +87,6 @@
 	]
 	quests: [
 		{
-			id: "0444A557BAD3F79A"
-			tasks: [{
-				id: "5187D5EFA3395741"
-				title: "Storage and Backpacks"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			id: "22D945AF2B53ECF1"
 			shape: "rsquare"
 			size: 1.25d
@@ -183,8 +173,8 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			id: "3F7AA556B5770EB2"
@@ -193,8 +183,8 @@
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			id: "52DE26A4679A7858"
@@ -203,8 +193,8 @@
 				item: "sophisticatedbackpacks:filter_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 17.5d
+			y: -4.5d
 		}
 		{
 			id: "0667F90D11B927DF"
@@ -213,8 +203,8 @@
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 17.5d
+			y: -5.5d
 		}
 		{
 			id: "680E5B7D7226F3AD"
@@ -223,8 +213,8 @@
 				item: "sophisticatedbackpacks:magnet_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			id: "073FF549C429654A"
@@ -233,8 +223,8 @@
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			id: "42D233D96767A453"
@@ -243,8 +233,8 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.0d
+			x: 13.0d
+			y: -4.5d
 		}
 		{
 			id: "62C5903D0EE7D762"
@@ -253,8 +243,8 @@
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 13.0d
+			y: -5.5d
 		}
 		{
 			id: "1F29ED6ED7683CE2"
@@ -263,8 +253,8 @@
 				item: "sophisticatedbackpacks:void_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			id: "68253FF7C8AE64B4"
@@ -273,8 +263,8 @@
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			id: "22C47AB368E3F575"
@@ -283,8 +273,8 @@
 				item: "sophisticatedbackpacks:restock_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.5d
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			id: "2AB873C7A222733B"
@@ -293,8 +283,8 @@
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			id: "1D293B583E62CCAA"
@@ -303,8 +293,8 @@
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			id: "75AAC5FA2662CAD0"
@@ -350,8 +340,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.375d
-			y: -3.75d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			id: "4066F8541E577A60"
@@ -368,6 +358,7 @@
 				"2FD299C12D6A1C7A"
 				"7849131DC9CC049B"
 			]
+			description: ["If you, for some reason, cannot craft the tablet of awakening, there is an alternative recipe for the Bookwyrm Charm."]
 			id: "7DA8ECFB4A209869"
 			tasks: [{
 				id: "1932F4CC7AA90A39"
@@ -411,8 +402,8 @@
 				item: "sophisticatedbackpacks:refill_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			id: "31C0F6D206A2AF47"
@@ -421,8 +412,8 @@
 				item: "sophisticatedbackpacks:advanced_refill_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			id: "00C0D6F97B659AEA"
@@ -431,8 +422,8 @@
 				item: "sophisticatedbackpacks:deposit_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.5d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			id: "5BB90EF3BC7D61C2"
@@ -441,8 +432,8 @@
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			id: "6FE0DCE6B252CD8B"
@@ -451,8 +442,8 @@
 				item: "sophisticatedbackpacks:inception_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			id: "4E873EF4367BA89B"
@@ -461,8 +452,8 @@
 				item: "sophisticatedbackpacks:everlasting_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.5d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			id: "3C60EEC9048457FD"
@@ -471,7 +462,7 @@
 				item: "sophisticatedbackpacks:compacting_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -481,168 +472,194 @@
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			id: "495C9D356427BD0F"
+			shape: "hexagon"
 			tasks: [{
 				id: "40BEEB7255980EFD"
 				item: "sophisticatedbackpacks:smelting_upgrade"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["495C9D356427BD0F"]
 			id: "44D4A19F6F5CFECD"
+			shape: "hexagon"
 			tasks: [{
 				id: "7F171EF80AD5A94C"
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 3.5d
+			y: -6.5d
 		}
 		{
 			id: "132FE1C4E4EB1E97"
+			shape: "hexagon"
 			tasks: [{
 				id: "0BB34716D33BA8C3"
 				item: "sophisticatedbackpacks:smoking_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["132FE1C4E4EB1E97"]
 			id: "2956BE733C408D81"
+			shape: "hexagon"
 			tasks: [{
 				id: "6F8578A52C636DFA"
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -7.0d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			id: "23A1D608EB40473E"
+			shape: "hexagon"
 			tasks: [{
 				id: "7110409E46CE84AD"
 				item: "sophisticatedbackpacks:blasting_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -7.0d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["23A1D608EB40473E"]
 			id: "4F39E53DBF9177B2"
+			shape: "hexagon"
 			tasks: [{
 				id: "03CDCE767A5A5480"
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 9.5d
+			y: -6.5d
 		}
 		{
 			id: "499520B2D8FFF065"
+			shape: "hexagon"
 			tasks: [{
 				id: "6C4664A50CD7041F"
 				item: "sophisticatedbackpacks:crafting_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -7.0d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			id: "3831CFA7A9A0EFE1"
+			shape: "hexagon"
 			tasks: [{
 				id: "2F036EE9130EF889"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			id: "684C703F61448C80"
+			shape: "hexagon"
 			tasks: [{
 				id: "453FC5E577376B77"
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.0d
+			y: -11.0d
 		}
 		{
+			dependencies: ["684C703F61448C80"]
 			id: "135520601C28E992"
+			shape: "hexagon"
 			tasks: [{
 				id: "4E692C6212B24B24"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.0d
+			x: 3.5d
+			y: -11.0d
 		}
 		{
+			dependencies: ["135520601C28E992"]
 			id: "49EBD1BCB2864FC0"
+			shape: "hexagon"
 			tasks: [{
 				id: "16A87E96DD333EFA"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.0d
+			x: 5.0d
+			y: -11.0d
 		}
 		{
+			dependencies: ["49EBD1BCB2864FC0"]
 			id: "6BA6AF8A3D031051"
+			shape: "hexagon"
 			tasks: [{
 				id: "6F0DA11CC42B88F9"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: 6.5d
+			y: -11.0d
 		}
 		{
+			dependencies: ["6BA6AF8A3D031051"]
 			id: "64D38CAB244941FD"
+			shape: "hexagon"
 			tasks: [{
 				id: "66F788100302CAED"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.0d
+			x: 8.0d
+			y: -11.0d
 		}
 		{
+			dependencies: ["684C703F61448C80"]
 			id: "4B2566628557A9BB"
+			shape: "hexagon"
 			tasks: [{
 				id: "3E96924C543608BC"
 				item: "sophisticatedbackpacks:stack_downgrade_tier_1"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.0d
+			x: 3.5d
+			y: -12.0d
 		}
 		{
+			dependencies: ["4B2566628557A9BB"]
 			id: "06454C549EC75C72"
+			shape: "hexagon"
 			tasks: [{
 				id: "1E2F19C0F9DF9104"
 				item: "sophisticatedbackpacks:stack_downgrade_tier_2"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
+			dependencies: ["06454C549EC75C72"]
 			id: "24EC019A8852B5AB"
+			shape: "hexagon"
 			tasks: [{
 				id: "69925827C1F5B9E7"
 				item: "sophisticatedbackpacks:stack_downgrade_tier_3"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: 6.5d
+			y: -12.0d
 		}
 		{
 			id: "1D0898AAFE5E4BB3"
@@ -651,8 +668,8 @@
 				item: "sophisticatedbackpacks:jukebox_upgrade"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.0d
+			x: 15.5d
+			y: -6.5d
 		}
 		{
 			id: "30FEADE39B1ED629"
@@ -661,8 +678,8 @@
 				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -9.0d
+			x: 14.5d
+			y: -7.5d
 		}
 		{
 			id: "35D848266171F86A"
@@ -671,8 +688,8 @@
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 14.5d
+			y: -4.5d
 		}
 		{
 			id: "5DBFA72D66F1C6BE"
@@ -681,68 +698,76 @@
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -9.0d
+			x: 14.5d
+			y: -5.5d
 		}
 		{
 			id: "197A1BB1B53BF243"
+			shape: "hexagon"
 			tasks: [{
 				id: "47226B523264F1E2"
 				item: "sophisticatedbackpacks:tank_upgrade"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			id: "2F6D3AC01677B863"
+			shape: "hexagon"
 			tasks: [{
 				id: "78FBCF8E689A3F84"
 				item: "sophisticatedbackpacks:pump_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -10.0d
+			x: 5.0d
+			y: -9.5d
 		}
 		{
+			dependencies: ["2F6D3AC01677B863"]
 			id: "218A2E299FC713A5"
+			shape: "hexagon"
 			tasks: [{
 				id: "39DAA4B06D02722F"
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.0d
+			x: 6.5d
+			y: -9.5d
 		}
 		{
+			dependencies: ["218A2E299FC713A5"]
 			id: "0F5564BD9D3678D9"
+			shape: "hexagon"
 			tasks: [{
 				id: "4ED2647D2E2E320A"
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -10.0d
+			x: 8.0d
+			y: -9.5d
 		}
 		{
 			id: "569B41C7AFD6C14A"
+			shape: "hexagon"
 			tasks: [{
 				id: "6CD80D41EFA02EB8"
 				item: "sophisticatedbackpacks:anvil_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -10.0d
+			x: 3.5d
+			y: -8.0d
 		}
 		{
 			id: "3F8A073434DE3B6A"
+			shape: "hexagon"
 			tasks: [{
 				id: "35C47B261D1DB014"
 				item: "sophisticatedbackpacks:smithing_upgrade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 6.5d
+			y: -8.0d
 		}
 	]
 	title: "Storage"
