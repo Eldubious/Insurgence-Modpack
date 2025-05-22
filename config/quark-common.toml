@@ -1888,7 +1888,7 @@
 		#Set to false to disable the ability to create Enchanted Books
 		"Allow Books" = true
 		#Set this to true to allow treasure enchantments to be rolled as pieces
-		"Allow Treasures" = false
+		"Allow Treasures" = true
 		#Any treasure enchantment IDs here will be able to appear in books in matrix enchanting
 		"Treasure Whitelist" = []
 		#Set to false to disable the tooltip for items with pending enchantments
@@ -1916,7 +1916,7 @@
 		#How much each candle influences an enchantment. This works as a multiplier to its weight
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
-		"Automatically Convert" = true
+		"Automatically Convert" = false
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.

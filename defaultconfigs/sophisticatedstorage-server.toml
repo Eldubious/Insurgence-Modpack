@@ -2,7 +2,7 @@
 #Server Settings
 [server]
 	#Limit of maximum number of upgrades of type per storage in format of "StorageType|UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
-	maxUpgradesPerStorage = ["barrel|jukebox_upgrades|1", "barrel|stack_upgrades|2", "barrel|furnace_upgrades|1", "shulker_box|jukebox_upgrades|1", "shulker_box|stack_upgrades|2", "shulker_box|furnace_upgrades|1", "chest|jukebox_upgrades|1", "chest|stack_upgrades|2", "chest|furnace_upgrades|1", "limited_barrel|jukebox_upgrades|1", "limited_barrel|furnace_upgrades|1"]
+	maxUpgradesPerStorage = ["barrel|jukebox_upgrades|1", "barrel|stack_upgrades|2", "barrel|furnace_upgrades|1", "shulker_box|jukebox_upgrades|1", "shulker_box|stack_upgrades|1", "shulker_box|furnace_upgrades|1", "chest|jukebox_upgrades|1", "chest|stack_upgrades|2", "chest|furnace_upgrades|1", "limited_barrel|jukebox_upgrades|1", "limited_barrel|furnace_upgrades|1"]
 	#Threshold of number of item entities dropped from chest / barrel above which break is canceled (unless shift key is pressed) and message is displayed explaining to player many drops and packing tape use
 	#Range: 0 ~ 1000
 	tooManyItemEntityDrops = 200
@@ -14,13 +14,13 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Copper Barrel Settings
 	[server.CopperBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 45
+		inventorySlotCount = 36
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 1
@@ -29,7 +29,7 @@
 	[server.IronBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 54
+		inventorySlotCount = 45
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
@@ -38,7 +38,7 @@
 	[server.GoldBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 81
+		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
@@ -47,19 +47,19 @@
 	[server.DiamondBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 108
+		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 3
 
 	#Netherite Barrel Settings
 	[server.NetheriteBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 132
+		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 
 	#Limited Barrel I Settings
 	[server.LimitedBarrelI]
@@ -284,13 +284,13 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Copper Chest Settings
 	[server.CopperChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 45
+		inventorySlotCount = 36
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 1
@@ -299,7 +299,7 @@
 	[server.IronChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 54
+		inventorySlotCount = 45
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
@@ -308,7 +308,7 @@
 	[server.GoldChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 81
+		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
@@ -317,19 +317,19 @@
 	[server.DiamondChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 108
+		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 3
 
 	#Netherite Chest Settings
 	[server.NetheriteChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 132
+		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 
 	#Shulker Box Settings
 	[server.ShulkerBox]
@@ -338,13 +338,13 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Copper Shulker Box Settings
 	[server.CopperShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 45
+		inventorySlotCount = 36
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 1
@@ -353,7 +353,7 @@
 	[server.IronShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 54
+		inventorySlotCount = 45
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
@@ -362,7 +362,7 @@
 	[server.GoldShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 81
+		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
@@ -371,19 +371,19 @@
 	[server.DiamondShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 108
+		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 3
 
 	#Netherite Shulker Box Settings
 	[server.NetheriteShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 132
+		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 
 	[server.shulkerBoxDisallowedItems]
 		#List of items that are not allowed to be put in shulkerboxes - e.g. "minecraft:bundle"
@@ -394,7 +394,7 @@
 	#Stack Upgrade Settings
 	[server.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+		nonStackableItems = ["quark:backpack", "quark:seed_pouch", "ars_elemental:curio_bag", "ars_elemental:caster_bag", "supplementaries:sack", "minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]
