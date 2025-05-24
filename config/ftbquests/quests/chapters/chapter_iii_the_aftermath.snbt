@@ -31,6 +31,27 @@
 			dependencies: ["46A09628FBF1AA0B"]
 			icon: "witherstormmod:super_beacon"
 			id: "50C092433ED97A8A"
+			rewards: [
+				{
+					id: "76D2760C810BFA1E"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:command_block"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13E46DDC093BDA30"
+					table_id: 346162584000431563L
+					type: "choice"
+				}
+			]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [

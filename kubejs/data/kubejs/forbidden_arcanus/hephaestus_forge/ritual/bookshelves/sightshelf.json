@@ -1,0 +1,74 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 4
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 0,
+        "experience": 0,
+        "souls": 5
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "apotheosis:infused_hellshelf"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:gold_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:golden_carrot"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:gold_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "apotheosis:infused_hellshelf"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:gold_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:golden_carrot"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:gold_block"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "minecraft:ender_eye"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:sightshelf"
+        }
+    }
+}

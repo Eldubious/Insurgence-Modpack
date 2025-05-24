@@ -33,5 +33,5 @@ ServerEvents.recipes(event => {
     event.remove({id: 'architects_palette:oracle_jelly'})
     metamorphosis('architects_palette:oracle_jelly', 4, 'minecraft:sugar', 1, 'hexcasting:amethyst_dust', 2, 'unusualend:end_blob', 2, 55, 40)
     // Cryptic Eye
-    metamorphosis('endrem:cryptic_eye', 1, 'minecraft:ender_eye', 1, 'create:experience_nugget', 6, [], 0, 315, 600)
+    metamorphosis('endrem:cryptic_eye', 1, 'minecraft:ender_eye', 1, 'create:experience_nugget', 3, 'create:experience_nugget', 3, 315, 600)
 })

@@ -100,6 +100,14 @@ ServerEvents.recipes(event => {
             E: 'create:blaze_cake_base'
         }
     )
+    // Smithing Templates
+    event.replaceInput([{id: 'traveloptics:abyssal_upgrade_smithing_template'}, {id: 'traveloptics:abyssal_upgrade_smithing_template2'},
+                        {id: 'traveloptics:tectonic_upgrade_smithing_template'}, {id: 'traveloptics:darkness_upgrade_smithing_template'},
+                        {id: 'traveloptics:witherite_upgrade_smithing_template'}, {id: 'forbidden_arcanus:darkstone_upgrade_smithing_template'},
+                        {id: 'cataclysm:ignitium_upgrade_smithing_template'}, {id: 'cataclysm:cursium_upgrade_smithing_template'}],
+        'minecraft:netherite_upgrade_smithing_template',
+        'experienceobelisk:primordial_assembly'
+    )
     
     
 
@@ -238,6 +246,20 @@ ServerEvents.recipes(event => {
             C: 'create:sturdy_sheet',
             D: 'create:gearbox',
             E: 'create:rotation_speed_controller'
+        }
+    )
+    // Portal Crown Block
+    event.shaped('dimdungeons:block_portal_crown',
+        [
+            'AAA',
+            'ABA',
+            'CDC'
+        ],
+        {
+            A: 'forbidden_arcanus:deorum_ingot',
+            B: 'illagerinvasion:hallowed_gem',
+            C: 'create:shadow_steel',
+            D: 'minecraft:gold_block'
         }
     )
 

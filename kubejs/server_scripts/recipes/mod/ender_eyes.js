@@ -84,6 +84,19 @@ ServerEvents.recipes(event => {
         'endrem:guardian_eye',
         4000
     )
+    event.shaped('endrem:guardian_eye',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'oceanic_delight:ancient_fish_eggs',
+            C: 'minecraft:nautilus_shell',
+            D: 'minecraft:ender_eye'
+        }
+    )
 
     // Cold Eye
     event.shaped('endrem:cold_eye',
@@ -137,6 +150,15 @@ ServerEvents.recipes(event => {
             R: 'alexscaves:radiant_essence'
         }
     )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            'minecraft:sugar', 'minecraft:fermented_spider_eye', 'minecraft:glistering_melon_slice', 'minecraft:nether_wart',
+            'minecraft:enchanted_golden_apple', 'minecraft:phantom_membrane', 'minecraft:glowstone_dust', 'galosphere:golden_lichen_cordyceps'
+        ],
+        'endrem:witch_pupil',
+        'endrem:witch_eye',
+        4000
+    )
 
     // Undead Eye
     event.shaped('endrem:undead_eye',
@@ -150,6 +172,18 @@ ServerEvents.recipes(event => {
             B: 'minecraft:bone',
             L: 'twilightforest:lich_trophy',
             G: 'minecraft:gold_ingot'
+        }
+    )
+    event.shaped('endrem:undead_eye',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'iceandfire:ectoplasm',
+            B: 'galosphere:pink_salt_shard',
+            C: 'call_of_yucutan:mayan_calendar'
         }
     )
 
@@ -168,6 +202,21 @@ ServerEvents.recipes(event => {
             T: 'minecraft:tube_coral',
             C: 'minecraft:horn_coral',
             P: 'oceanic_delight:stuffed_pufferfish'
+        }
+    )
+    event.shaped('endrem:exotic_eye',
+        [
+            'ABC',
+            'DED',
+            'FFF'
+        ],
+        {
+            A: 'quark:violet_corundum_cluster',
+            B: 'quark:red_corundum_cluster',
+            C: 'quark:indigo_corundum_cluster',
+            D: 'galosphere:allurite_shard',
+            E: 'minecraft:ender_eye',
+            F: 'galosphere:lumiere_shard'
         }
     )
 
@@ -217,22 +266,6 @@ ServerEvents.recipes(event => {
         'minecraft:nether_star',
         'endrem:wither_eye',
         4000
-    )
-
-    // Cursed Eye
-    event.shaped('endrem:cursed_eye',
-        [
-            'ABC',
-            'DED',
-            'CBA'
-        ],
-        {
-            A: 'forbidden_arcanus:corrupted_arcane_crystal',
-            B: 'witherstormmod:tainted_dust',
-            C: 'forbidden_arcanus:dark_rune',
-            D: 'witherstormmod:withered_flesh',
-            E: 'witherstormmod:withered_spider_eye'
-        }
     )
 
     // Magical Eye

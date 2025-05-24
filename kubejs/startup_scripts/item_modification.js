@@ -192,7 +192,7 @@ ItemEvents.modification(event => {
         'savage_and_ravage:blast_proof_plating', 'endergetic:booflo_vest', 'minecraft:diamond_horse_armor', 'aether:diamond_gloves', 'minecraft:spectral_arrow',
         'savage_and_ravage:mischief_arrow', 'minecraft:tipped_arrow', 'quark:torch_arrow', 'minecraft:diamond_shovel', 'minecraft:diamond_pickaxe', 'minecraft:diamond_axe',
         'minecraft:diamond_hoe', 'quark:pickarang', 'minecraft:spyglass', 'quark:pathfinders_quill', 'constructionwand:diamond_wand', 'minecraft:saddle', 'quark:backpack',
-        'quark:forgotten_hat', 'map_atlases:atlas', 'solcarrot:food_book', 'toolbelt:belt', 'the_bumblezone:buzzing_briefcase', 'breezy:hot_air_balloon', 'minecraft:diamond_block',
+        'quark:forgotten_hat', 'map_atlases:atlas', 'solcarrot:food_book', 'the_bumblezone:buzzing_briefcase', 'breezy:hot_air_balloon', 'minecraft:diamond_block',
         'savage_and_ravage:blast_proof_plates', 'savage_and_ravage:blast_proof_stairs', 'savage_and_ravage:blast_proof_slab', 'minecraft:ender_chest', 'minecraft:respawn_anchor',
         'traveloptics:witherite_upgrade_smithing_template', 'traveloptics:tectonic_upgrade_smithing_template', 'traveloptics:abyssal_upgrade_smithing_template',
         'iceandfire:hydra_arrow', 'iceandfire:amphithere_arrow', 'iceandfire:sea_serpent_arrow', 'iceandfire:deathworm_egg', 'iceandfire:deathworm_egg_giant',

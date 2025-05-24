@@ -1032,14 +1032,50 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "quark:violet_corundum_cluster"
 			id: "3CD1BEE9418055F3"
 			optional: true
-			subtitle: "&f&o__ recipe"
-			tasks: [{
-				id: "4A50B55A8DA6B2B9"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "4A50B55A8DA6B2B9"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "78B12B128A2AC3A3"
+					item: "quark:violet_corundum_cluster"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7E3441B09C3758E3"
+					item: "quark:red_corundum_cluster"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "265ECBD5634CE2D9"
+					item: "quark:indigo_corundum_cluster"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "09E383D51FC0D452"
+					item: { Count: 3, id: "galosphere:lumiere_shard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "6EAA65A14061A4C5"
+					item: { Count: 2, id: "galosphere:allurite_shard" }
+					type: "item"
+				}
+			]
 			title: "&e&lExotic Eye Ingredients #2"
 			x: 7.5d
 			y: -2.5d
@@ -1151,14 +1187,66 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "galosphere:golden_lichen_cordyceps"
 			id: "64AAA43FFA9FD7B5"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "69A5DA4D14406BC8"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oEnchanting Apparatus Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "69A5DA4D14406BC8"
+					item: "endrem:witch_pupil"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6635626971109115"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "279B4E4FFDE8DB37"
+					item: "galosphere:golden_lichen_cordyceps"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "276AA417B9611710"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3BFA4B25BF3F87C7"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "379FEA5309EA35C4"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3157BDF7B719BCFF"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6BDE151E44605C77"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1168395C4BBF665C"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
 			title: "&e&lWitch Eye Ingredients #1"
 			x: 6.0d
 			y: 5.0d
@@ -1486,14 +1574,32 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "iceandfire:ectoplasm"
 			id: "0CE39B4DCB6BF667"
 			optional: true
-			subtitle: "&f&o__ Recipe"
-			tasks: [{
-				id: "6A93D7B5054419C5"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6A93D7B5054419C5"
+					item: "call_of_yucutan:mayan_calendar"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "76501BE2E81585E9"
+					item: { Count: 4, id: "galosphere:pink_salt_shard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "727E57726033F745"
+					item: { Count: 4, id: "iceandfire:ectoplasm" }
+					type: "item"
+				}
+			]
 			title: "&e&lUndead Eye Ingredients #1"
 			x: -8.0d
 			y: 1.0d
@@ -1503,14 +1609,39 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "oceanic_delight:ancient_fish_eggs"
 			id: "4C795DBCF972E15B"
 			optional: true
-			subtitle: "&f&oSmithing Table Recipe"
-			tasks: [{
-				id: "26CBC4D8DC9B9AB3"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			subtitle: "&f&oCrafting Table Recipe"
+			tasks: [
+				{
+					disable_toast: true
+					id: "26CBC4D8DC9B9AB3"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "034E2F01197F3B58"
+					item: { Count: 4, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "5D57F18F4FE3CF16"
+					item: { Count: 2, id: "oceanic_delight:ancient_fish_eggs" }
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "3CA1323B12D8C8DB"
+					item: { Count: 2, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
 			title: "&e&lGuardian Eye Ingredients #2"
 			x: -6.5d
 			y: -4.0d
@@ -1565,7 +1696,7 @@
 			icon: "witherstormmod:withered_spider_eye"
 			id: "4D8C1EE9AA5C71C3"
 			optional: true
-			subtitle: "&f&oCrafting Table Recipe"
+			subtitle: "&f&oHephaestus Forge Recipe"
 			tasks: [
 				{
 					disable_toast: true
@@ -1601,6 +1732,12 @@
 					item: { Count: 2, id: "forbidden_arcanus:dark_rune" }
 					type: "item"
 				}
+				{
+					disable_toast: true
+					id: "10A6CF53F58AAC06"
+					item: "forbidden_arcanus:maledictus_pact"
+					type: "item"
+				}
 			]
 			title: "&e&lCursed Eye Ingredients #1"
 			x: -4.0d
@@ -1611,14 +1748,45 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "rubinated_nether:molten_ruby"
 			id: "667F7F3370EC7932"
 			optional: true
 			subtitle: "&f&oHephaestus Forge Recipe"
-			tasks: [{
-				id: "092A8E4D6EAF9C56"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "092A8E4D6EAF9C56"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "5D7DCF40957DA621"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "159A7A52B7B3D2F5"
+					item: "iceandfire:witherbone"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "64B46B01D5735849"
+					item: "rubinated_nether:molten_ruby"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "127FD59A4737012D"
+					item: "forbidden_arcanus:maledictus_pact"
+					type: "item"
+				}
+			]
 			title: "&e&lCursed Eye Ingredients #2"
 			x: -2.5d
 			y: -7.5d

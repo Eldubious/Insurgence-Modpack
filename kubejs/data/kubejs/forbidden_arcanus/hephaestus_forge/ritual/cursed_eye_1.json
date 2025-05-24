@@ -1,0 +1,73 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:maledictus_pact"
+        ]
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 550,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "iceandfire:witherbone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:crying_obsidian"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "rubinated_nether:molten_ruby"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:crying_obsidian"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "iceandfire:witherbone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:crying_obsidian"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "rubinated_nether:molten_ruby"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:crying_obsidian"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "minecraft:ender_eye"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "endrem:cursed_eye"
+        }
+    }
+}

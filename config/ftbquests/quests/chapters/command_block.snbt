@@ -176,6 +176,7 @@
 		}
 		{
 			dependencies: ["29AF050547FA1FFF"]
+			description: ["You can either inscribe keys using the Key Inscribing Station block or an End Portal Frame block."]
 			icon: "dimdungeons:item_portal_key"
 			id: "0BD15CC781F69834"
 			size: 1.2d
@@ -187,7 +188,7 @@
 				}
 				{
 					id: "01281A6BDFCEA233"
-					item: "dimdungeons:block_key_charger"
+					item: "dimdungeons:block_key_charger_used"
 					optional_task: true
 					type: "item"
 				}
@@ -261,18 +262,60 @@
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
+			description: [
+				"To use advanced portal keys you will need to upgrade your portal. The pattern on the banners does not matter, as long as they are either purple or white banners (The Ominous Banner uses a white banner as its base)."
+				""
+				"{image:kubejs:textures/questbook/pictures/advanced_dim_dungeon_portal.png width:192 height:108 align:center}"
+			]
+			icon: "dimdungeons:item_blank_advanced_key"
 			id: "499F11C723DB76E6"
 			size: 1.2d
-			tasks: [{
-				id: "1D2593521547FFAA"
-				item: "dimdungeons:item_blank_advanced_key"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D2593521547FFAA"
+					item: "dimdungeons:item_blank_advanced_key"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BD499688250776B"
+					item: { Count: 2, id: "dimdungeons:block_portal_crown" }
+					type: "item"
+				}
+				{
+					id: "49F0370F89615EE9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:white_banner"
+								}
+								{
+									Count: 1b
+									id: "minecraft:purple_banner"
+								}
+							]
+						}
+					}
+					title: "A White or Purple Banner"
+					type: "item"
+				}
+			]
+			title: "Advanced Dimensional Dungeons"
 			x: 8.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["29AF050547FA1FFF"]
+			description: [
+				"The portal for the Dimensional Dungeons is made like this:"
+				""
+				"{image:kubejs:textures/questbook/pictures/basic_dim_dungeon_portal.png width:192 height:108 align:center}"
+			]
+			icon: "dimdungeons:block_portal_keyhole"
 			id: "4907442471DEB3E2"
 			size: 1.2d
 			tasks: [
@@ -285,6 +328,12 @@
 					count: 2L
 					id: "563FE1B400765590"
 					item: { Count: 2, id: "dimdungeons:block_gilded_portal" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "63EE99BD8E347329"
+					item: { Count: 9, id: "minecraft:stone_bricks" }
 					type: "item"
 				}
 			]

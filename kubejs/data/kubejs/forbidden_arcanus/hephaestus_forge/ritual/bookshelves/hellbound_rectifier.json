@@ -1,0 +1,44 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 4
+    },
+    "essences": {
+        "aureal": 250,
+        "blood": 200,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 4,
+            "ingredient": {
+                "item": "minecraft:amethyst_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "rubinated_nether:molten_ruby"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "rubinated_nether:rubinated_blackstone"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "apotheosis:rectifier"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:rectifier_t2"
+        }
+    }
+}

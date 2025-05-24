@@ -6,6 +6,7 @@
 	rewards: [
 		{ item: "irons_spellbooks:blood_vial", weight: 3.0f }
 		{ item: "twilightforest:fiery_blood" }
+		{ item: "twilightforest:fiery_tears" }
 	]
 	title: "Heph. Forge: &cBlood"
 }

@@ -1,0 +1,74 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 5
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 0,
+        "experience": 0,
+        "souls": 10
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:amethyst_shard"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:deepslate"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:glow_ink_sac"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:deepslate"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:amethyst_shard"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:deepslate"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:glow_ink_sac"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:deepslate"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "tag": "forge:bookshelves"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:dormant_deepshelf"
+        }
+    }
+}

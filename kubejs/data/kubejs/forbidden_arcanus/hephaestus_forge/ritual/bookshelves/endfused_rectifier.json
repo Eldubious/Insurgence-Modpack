@@ -1,0 +1,44 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 4
+    },
+    "essences": {
+        "aureal": 500,
+        "blood": 400,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 4,
+            "ingredient": {
+                "item": "minecraft:amethyst_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "unusualend:enderling_scrap"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "minecraft:purpur_block"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "apotheosis:rectifier_t2"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:rectifier_t3"
+        }
+    }
+}

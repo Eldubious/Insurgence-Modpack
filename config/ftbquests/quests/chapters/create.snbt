@@ -6,24 +6,14 @@
 	icon: "create:brass_hand"
 	id: "6B8ECE496184FF3A"
 	order_index: 2
-	quest_links: [
-		{
-			id: "3CACE2BC9F1A7B87"
-			linked_quest: "5222EFFB9C348B21"
-			shape: "rsquare"
-			size: 2.0d
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			id: "068394FF98D69FE5"
-			linked_quest: "71BE94EFA4ABD7FE"
-			shape: "rsquare"
-			size: 2.0d
-			x: 0.0d
-			y: 1.0d
-		}
-	]
+	quest_links: [{
+		id: "3CACE2BC9F1A7B87"
+		linked_quest: "5222EFFB9C348B21"
+		shape: "rsquare"
+		size: 2.0d
+		x: 0.0d
+		y: -3.0d
+	}]
 	quests: [
 		{
 			dependencies: ["026BF051B780DCB2"]

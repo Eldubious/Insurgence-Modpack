@@ -3,6 +3,6 @@
         "translate": "kubejs.title.insurgence_title"
     },
     "tip": {
-        "translate": "kubejs.tip.tarot_cards.json"
+        "translate": "kubejs.tip.tarot_cards"
     }
 }

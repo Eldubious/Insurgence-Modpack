@@ -1,0 +1,74 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 5
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 500,
+        "experience": 0,
+        "souls": 5
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "apotheosis:infused_breath"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:end_stone_bricks"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:oracle_jelly"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:end_stone_bricks"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:ender_pearl"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:end_stone_bricks"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "architects_palette:oracle_jelly"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:end_stone_bricks"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "tag": "forge:bookshelves"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:endshelf"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 4
+    },
+    "essences": {
+        "aureal": 100,
+        "blood": 0,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 4,
+            "ingredient": {
+                "item": "minecraft:amethyst_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "the_bumblezone:crystalline_flower"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "the_bumblezone:glistering_honey_crystal"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "apotheosis:infused_seashelf"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:rectifier"
+        }
+    }
+}
