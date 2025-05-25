@@ -52,19 +52,26 @@
 			id: "30B42A143CF6B40C"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "2007386D148C5B76"
-				item: {
-					Count: 1
-					id: "trofers:small_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "kubejs:mobs/tropibee"
+			rewards: [
+				{
+					id: "2007386D148C5B76"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:mobs/tropibee"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1AAECF9C8BADE711"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -80,19 +87,26 @@
 			id: "167D34994ED3A72E"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "7F87BC7E6EF7914D"
-				item: {
-					Count: 1
-					id: "trofers:small_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "kubejs:bee_essence"
+			rewards: [
+				{
+					id: "7F87BC7E6EF7914D"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:bee_essence"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "36A954A2645F8291"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -108,19 +122,26 @@
 			id: "75D2417D9813722B"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "4AA92A3E6A42B6C1"
-				item: {
-					Count: 1
-					id: "trofers:small_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "kubejs:wine"
+			rewards: [
+				{
+					id: "4AA92A3E6A42B6C1"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:wine"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6D64421EBD4FB705"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -138,19 +159,26 @@
 			id: "5786B561DB4C76AE"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "579DDAED949B8D7E"
-				item: {
-					Count: 1
-					id: "trofers:small_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "kubejs:music_disc"
+			rewards: [
+				{
+					id: "579DDAED949B8D7E"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:music_disc"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "047DA5B4AB7E12C8"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -206,19 +234,26 @@
 			id: "7F9C378AF7A97055"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "6C8032463B69D9A9"
-				item: {
-					Count: 1
-					id: "trofers:small_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "kubejs:worldshaper"
+			rewards: [
+				{
+					id: "6C8032463B69D9A9"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:worldshaper"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "50AE8CCAC79054F2"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -418,19 +453,26 @@
 			id: "414142FF4EAD719C"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "5E6508A3564AF8ED"
-				item: {
-					Count: 1
-					id: "trofers:small_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "kubejs:golden_feather"
+			rewards: [
+				{
+					id: "5E6508A3564AF8ED"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:golden_feather"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "59DF588F9F157888"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{

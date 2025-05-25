@@ -16,7 +16,7 @@
     "tooltip.kubejs.shadow_steel": "§7Found in loot chests in Dimensional Dungeons",
     "tooltip.kubejs.refined_radiance": "§7Found in loot chests in Advanced Dimensional Dungeons.",
     "tooltip.kubejs.unused_item": "§7§n§oShould not be obtainable.",
-    "tooltip.kubejs.unused_item_2": "§7§oIf you found this item in Survival, join the discord to report the oversight!",
+    "tooltip.kubejs.unused_item_2": "§7§oIf you found this item in Survival, there must have been an oversight.",
     
     "block.kubejs.depths_portal": "The Depths Portal",
     "block.kubejs.dragon_portal": "Dragonrealm Portal",

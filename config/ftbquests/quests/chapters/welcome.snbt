@@ -16,6 +16,14 @@
 		}
 	}
 	id: "442879CDC4F5BACB"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/questbook/titles/insurgence_modpack_title.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: -3.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -27,7 +35,7 @@
 				""
 				"- Default keybinds for some mods have changed &7(&osee next page&r&7)&r"
 				""
-				"- The Spyglass you recieved upon joining can be equipped and used with the default keybind."
+				"- The Spyglass you recieved upon joining can be equipped and used with the default keybind. &7&o(Z)"
 				""
 				"{@pagebreak}"
 				""
@@ -63,6 +71,7 @@
 				"&e&lQuark&r"
 				"- &7Hotbar Swapper:&r [ &oCTRL + R&r ]"
 			]
+			icon: "kubejs:enchant_catalyst"
 			id: "11090A911B3D930A"
 			shape: "hexagon"
 			size: 1.5d

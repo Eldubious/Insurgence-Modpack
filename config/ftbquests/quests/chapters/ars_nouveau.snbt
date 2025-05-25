@@ -166,12 +166,12 @@
 				{
 					count: 4L
 					id: "79C6A558889D47EB"
-					item: { Count: 4, id: "forbidden_arcanus:rune" }
+					item: "forbidden_arcanus:dragon_scale"
 					type: "item"
 				}
 				{
 					id: "73F20E0E18AC56A3"
-					item: "forbidden_arcanus:chiseled_polished_darkstone"
+					item: "forbidden_arcanus:rune_block"
 					type: "item"
 				}
 			]
@@ -197,7 +197,7 @@
 				{
 					count: 2L
 					id: "651B9E93FF0A7A97"
-					item: { Count: 2, id: "forbidden_arcanus:dragon_scale" }
+					item: "create:shadow_steel"
 					type: "item"
 				}
 				{

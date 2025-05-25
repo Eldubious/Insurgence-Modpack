@@ -112,30 +112,6 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -4.1d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -2.6d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -1.1d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
 			x: 4.5d
 			y: -2.6d
 		}
@@ -145,30 +121,6 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: -1.1d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: -4.1d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: -2.6d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
 			y: -1.1d
 		}
 		{
@@ -257,6 +209,47 @@
 			width: 1.0d
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -4.1d
+		}
+		{
+			dependency: "4EC3DFF09750A710"
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	order_index: 2
@@ -438,6 +431,12 @@
 		{
 			icon: "galosphere:lichen_roots"
 			id: "67B6B13414000FE7"
+			rewards: [{
+				id: "1BDD87DC6F4E1CFF"
+				table_id: 651223507179757921L
+				title: "&6&lRandom Monster Trophy"
+				type: "random"
+			}]
 			shape: "pentagon"
 			subtitle: "&4&oMonster Collection"
 			tasks: [{
@@ -472,6 +471,7 @@
 			y: -4.5d
 		}
 		{
+			description: ["Choose a sapling with a wood color you like!"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -518,30 +518,34 @@
 			y: -1.5d
 		}
 		{
+			icon: "wan_ancient_beasts:glider_egg"
 			id: "72F8E842CB03CCC7"
-			shape: "pentagon"
-			tasks: [{
-				count: 30L
-				id: "773E3243A8D922E9"
-				item: { Count: 30, id: "minecraft:emerald" }
-				type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428EFBE8F84E23B0"
+				table_id: 2473168950728354006L
+				type: "choice"
 			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			id: "044562CFF13A7BA9"
 			shape: "pentagon"
 			tasks: [{
-				id: "74C91F12F73711CB"
+				count: 15L
+				id: "773E3243A8D922E9"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.5d
+			title: "&f&lBuy a Hatchable Egg"
+			x: 4.5d
+			y: -3.0d
 		}
 		{
+			icon: "minecraft:wayfinder_armor_trim_smithing_template"
 			id: "2FF549CFC50B6D5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "259371A3962BC24D"
+				table_id: 2556713119507120198L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				count: 5L
@@ -549,6 +553,7 @@
 				item: { Count: 5, id: "minecraft:emerald" }
 				type: "item"
 			}]
+			title: "&f&lRandom Armor Trim Template"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -571,6 +576,221 @@
 			}]
 			title: "&f&lUsed Key Inscribing Station"
 			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			icon: "quark:backpack"
+			id: "2DC00A4D51EC2376"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59290FB8AC820878"
+					table_id: 5399428164997971097L
+					type: "choice"
+				}
+				{
+					id: "3CDEA33C5BA6A562"
+					item: "quark:backpack"
+					type: "item"
+				}
+				{
+					id: "5D4F6BCAED098635"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								maps: [I; ]
+							}
+						}
+						id: "map_atlases:atlas"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "048E86ECBA621339"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "&7&oLimited Stock!"
+			tasks: [
+				{
+					count: 5L
+					id: "6A8362D0676BD717"
+					item: { Count: 5, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "52BFD7791DABC70F"
+					item: { Count: 5, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "72A7B0E33C4E593A"
+					item: { Count: 5, id: "minecraft:string" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "536F4879F8038649"
+					item: { Count: 5, id: "minecraft:paper" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "423396A5A3B8A14A"
+					item: { Count: 10, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6900A2BA0CB2437F"
+					item: { Count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			title: "&f&lStarter Kit"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "34134F6609A07D82"
+			rewards: [{
+				id: "36E6973089F703BC"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 4L
+				id: "567A8EA5108A8A2A"
+				item: { Count: 4, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lFire Resistance Potion"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			description: ["Each of these items will contribute to earning bonus health."]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "5D71EF430AF4439A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5387B4D15EB31D68"
+				table_id: 346162584000431563L
+				type: "choice"
+			}]
+			shape: "pentagon"
+			subtitle: "&7&oLimited Stock!"
+			tasks: [{
+				count: 30L
+				id: "166A67A057847E97"
+				item: { Count: 30, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lChoose A Quality Food Item"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: { Count: 5, id: "create:tree_fertilizer" }
+			id: "37EDF15777776299"
+			rewards: [{
+				count: 5
+				id: "152F0CD121672A4F"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 5L
+				id: "0DE7B7961ECB9E0C"
+				item: { Count: 2, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lTree Fertilizer"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			description: ["90% Stop before they hit it big! Don't let that be you!"]
+			icon: "aquaculture:treasure_chest"
+			id: "7A39D16352162A0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "675F4D600625CF4A"
+				table_id: 2599701842084062137L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 2L
+				id: "25A6A991BC31BF88"
+				item: { Count: 2, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lLoot Boxes"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EC3DFF09750A710"]
+			description: ["Get some useful items, or some less-than-useful items."]
+			hide_until_deps_complete: true
+			id: "0409FCC8DF7DF534"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18DBBCD5EAAAA415"
+				table_id: 2858845350081559365L
+				title: "&6&lExchange Command Blocks"
+				type: "choice"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "0CC716B3064EC6B7"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			title: "&f&lTrade-in Command Blocks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:saddle"
+			id: "473F0281FF70566D"
+			rewards: [{
+				id: "476295D75DEEE40A"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "466030418A955EFF"
+				item: { Count: 5, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lSaddle"
+			x: 4.5d
 			y: -1.5d
 		}
 	]

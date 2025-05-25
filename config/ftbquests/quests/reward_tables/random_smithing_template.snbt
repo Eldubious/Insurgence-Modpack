@@ -4,24 +4,33 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: "minecraft:sentry_armor_trim_smithing_template", weight: 10.0f }
-		{ item: "minecraft:vex_armor_trim_smithing_template", weight: 2.5f }
-		{ item: "minecraft:wild_armor_trim_smithing_template", weight: 7.0f }
-		{ item: "minecraft:coast_armor_trim_smithing_template", weight: 10.0f }
-		{ item: "minecraft:dune_armor_trim_smithing_template", weight: 7.0f }
-		{ item: "minecraft:wayfinder_armor_trim_smithing_template", weight: 5.0f }
-		{ item: "minecraft:raiser_armor_trim_smithing_template", weight: 5.0f }
-		{ item: "minecraft:shaper_armor_trim_smithing_template", weight: 5.0f }
-		{ item: "minecraft:host_armor_trim_smithing_template", weight: 5.0f }
-		{ item: "minecraft:ward_armor_trim_smithing_template" }
-		{ item: "minecraft:silence_armor_trim_smithing_template" }
-		{ item: "minecraft:tide_armor_trim_smithing_template", weight: 7.0f }
-		{ item: "minecraft:snout_armor_trim_smithing_template", weight: 2.5f }
-		{ item: "minecraft:rib_armor_trim_smithing_template", weight: 2.5f }
-		{ item: "minecraft:eye_armor_trim_smithing_template", weight: 2.5f }
-		{ item: "minecraft:spire_armor_trim_smithing_template" }
-		{ item: "alexscaves:polarity_armor_trim_smithing_template" }
-		{ item: "unusualend:ancient_armor_trim_smithing_template" }
+		{ item: "minecraft:sentry_armor_trim_smithing_template", title: "Smithing Template (Sentry)", weight: 10.0f }
+		{ item: "minecraft:vex_armor_trim_smithing_template", title: "Smithing Template (Vex)", weight: 2.5f }
+		{ item: "minecraft:wild_armor_trim_smithing_template", title: "Smithing Template (Wild)", weight: 7.0f }
+		{ item: "minecraft:coast_armor_trim_smithing_template", title: "Smithing Template (Coast)", weight: 10.0f }
+		{ item: "minecraft:dune_armor_trim_smithing_template", title: "Smithing Template (Dune)", weight: 7.0f }
+		{ item: "minecraft:wayfinder_armor_trim_smithing_template", title: "Smithing Template (Wayfinder)", weight: 5.0f }
+		{ item: "minecraft:raiser_armor_trim_smithing_template", title: "Smithing Template (Raiser)", weight: 5.0f }
+		{ item: "minecraft:shaper_armor_trim_smithing_template", title: "Smithing Template (Shaper)", weight: 5.0f }
+		{ item: "minecraft:host_armor_trim_smithing_template", title: "Smithing Template (Host)", weight: 5.0f }
+		{ item: "minecraft:ward_armor_trim_smithing_template", title: "Smithing Template (Ward)" }
+		{ item: "minecraft:silence_armor_trim_smithing_template", title: "Smithing Template (Silence)" }
+		{ item: "minecraft:tide_armor_trim_smithing_template", title: "Smithing Template (Tide)", weight: 7.0f }
+		{ item: "minecraft:snout_armor_trim_smithing_template", title: "Smithing Template (Snout)", weight: 2.5f }
+		{ item: "minecraft:rib_armor_trim_smithing_template", title: "Smithing Template (Rib)", weight: 2.5f }
+		{ item: "minecraft:eye_armor_trim_smithing_template", title: "Smithing Template (Eye)", weight: 2.5f }
+		{ item: "minecraft:spire_armor_trim_smithing_template", title: "Smithing Template (Spire)" }
+		{ item: "alexscaves:polarity_armor_trim_smithing_template", title: "Smithing Template (Polarity)" }
+		{ item: "unusualend:ancient_armor_trim_smithing_template", title: "Smithing Template (Ancient) -Unusual End" }
+		{ item: "ancient_aether:wynd_armor_trim_smithing_template", title: "Smithing Template (Wynd)" }
+		{ item: "ancient_aether:whale_armor_trim_smithing_template", title: "Smithing Template (Whale)" }
+		{ item: "ancient_aether:ascended_armor_trim_smithing_template", title: "Smithing Template (Ascended)" }
+		{ item: "ancient_aether:mysterious_armor_trim_smithing_template", title: "Smithing Template (Mysterious)", weight: 0.25f }
+		{ item: "ancient_aether:mechanical_armor_trim_smithing_template", title: "Smithing Template (Mechanical)", weight: 0.25f }
+		{ item: "ancient_aether:mosaic_armor_trim_smithing_template", title: "Smithing Template (Mosaic)", weight: 0.25f }
+		{ item: "ancient_aether:royal_armor_trim_smithing_template", title: "Smithing Template (Royal)", weight: 0.25f }
+		{ item: "ancient_aether:solar_armor_trim_smithing_template", title: "Smithing Template (Solar)", weight: 0.25f }
+		{ item: "ancient_aether:ancient_armor_trim_smithing_template", title: "Smithing Template (Ancient) -Ancient Aether", weight: 0.25f }
 	]
 	title: "Random Smithing Template"
 }
