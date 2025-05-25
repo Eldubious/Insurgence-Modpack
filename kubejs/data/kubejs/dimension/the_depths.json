@@ -7,7 +7,7 @@
             "type": "minecraft:multi_noise",
             "biomes": [
                 {
-                "biome": "kubejs:dragon_hollow",
+                "biome": "kubejs:mossy_fields",
                 "parameters": {
                     "continentalness": 0,
                     "depth": 0,
