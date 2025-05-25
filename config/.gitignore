@@ -26,7 +26,7 @@ fancymenu/layout_editor/*
 fancymenu/panoramas/*
 fancymenu/ui_themes/*
 fancymenu/custom_gui_screens.txt
-fancymenu/customizablemenus.txt
+!fancymenu/customizablemenus.txt
 fancymenu/legacy_checklist.txt
 fancymenu/user_variables.db
 !fancymenu/options.txt
@@ -162,6 +162,12 @@ ftbxmodcompat.snbt
 galosphere-common.toml
 guardvillagers-client.toml
 guardvillagers-common.toml
+guardvillagers-common-1.toml.bak
+guardvillagers-common-2.toml.bak
+guardvillagers-common-3.toml.bak
+guardvillagers-common-4.toml.bak
+guardvillagers-common-5.toml.bak
+guardvillagers-common-6.toml.bak
 hexcasting-client.toml
 hexcasting-common.toml
 highlighter-common.toml

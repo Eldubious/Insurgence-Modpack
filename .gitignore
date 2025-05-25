@@ -31,3 +31,5 @@ usercache.json
 usernamecache.json
 kubejs/probe
 hs_err_pid9180.log
+.curseclient
+minecraftinstance.json
