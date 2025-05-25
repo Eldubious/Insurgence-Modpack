@@ -71,12 +71,7 @@ quark_emotes
 regions_unexplored/*
 !regions_unexplored/ru-common.toml
 the_bumblezone
-toomanyglyphs/glyph_amplify_three.toml
-toomanyglyphs/glyph_amplify_two.toml
-toomanyglyphs/glyph_chaining.toml
-toomanyglyphs/glyph_lay_on_hands.toml
-toomanyglyphs/glyph_ray.toml
-toomanyglyphs/glyph_reverse_direction.toml
+toomanyglyphs
 traveloptics
 
 # Individual configs to ignore
@@ -98,6 +93,7 @@ arts-and-crafts.toml
 attributefix.json
 attributeslib.cfg
 azurelib.json
+balm-client.toml
 balm-common.toml
 betteradvancements-client.toml
 betterchunkloading.json
@@ -129,6 +125,7 @@ cupboard.json
 curios-client.toml
 curios-common.toml
 debugkeybind.json
+defaultoptions-common.toml
 dimdungeons-client.toml
 domestication-innovation.toml
 dreadsteel-common.toml
