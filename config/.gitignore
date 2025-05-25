@@ -26,7 +26,7 @@ fancymenu/layout_editor/*
 fancymenu/panoramas/*
 fancymenu/ui_themes/*
 fancymenu/custom_gui_screens.txt
-fancymenu/customizablemenus.txt
+!fancymenu/customizablemenus.txt
 fancymenu/legacy_checklist.txt
 fancymenu/user_variables.db
 !fancymenu/options.txt
