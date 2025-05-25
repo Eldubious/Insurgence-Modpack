@@ -9,6 +9,12 @@ StartupEvents.modifyCreativeTab('create:base', event => {
     event.addAfter('create:copper_casing', 'create:refined_radiance_casing')
 })
 
+// Add the damaged forms of the Key Inscribing Station
 StartupEvents.modifyCreativeTab("dimdungeons:creative_tab", event => {
     event.add(['dimdungeons:block_key_charger_used', 'dimdungeons:block_key_charger_damaged'])
+})
+
+// Add the Bundle
+StartupEvents.modifyCreativeTab("minecraft:tools_and_utilities", event => {
+    event.add('minecraft:bundle')
 })

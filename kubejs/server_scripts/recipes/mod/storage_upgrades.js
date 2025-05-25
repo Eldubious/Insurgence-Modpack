@@ -456,6 +456,11 @@ ServerEvents.recipes(event => {
             C: 'sophisticatedbackpacks:upgrade_base'
         }
     )
+    // Inception Upgrade
+    event.replaceInput({id: 'sophisticatedbackpacks:inception_upgrade'},
+        'minecraft:ender_eye',
+        'galosphere:cured_membrane'
+    )
 
 
     /*

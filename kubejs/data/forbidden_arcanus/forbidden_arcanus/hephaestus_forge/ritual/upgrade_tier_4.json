@@ -15,7 +15,7 @@
     {
       "amount": 4,
       "ingredient": {
-        "item": "forbidden_arcanus:rune"
+        "item": "forbidden_arcanus:dragon_scale"
       }
     }
   ],
@@ -24,7 +24,7 @@
     "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pure.png"
   },
   "main_ingredient": {
-    "item": "forbidden_arcanus:chiseled_polished_darkstone"
+    "item": "forbidden_arcanus:rune_block"
   },
   "result": {
     "type": "forbidden_arcanus:upgrade_tier",

@@ -108,9 +108,17 @@ ServerEvents.recipes(event => {
         'minecraft:netherite_upgrade_smithing_template',
         'experienceobelisk:primordial_assembly'
     )
-    
-    
-
+    // Bundle
+    event.shaped('minecraft:bundle',
+        [
+            'A',
+            'B'
+        ],
+        {
+            A: 'minecraft:string',
+            B: '#forge:leather'
+        }
+    )
 
 
     /*
