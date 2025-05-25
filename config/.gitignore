@@ -28,8 +28,8 @@ fancymenu/ui_themes/*
 fancymenu/custom_gui_screens.txt
 fancymenu/customizablemenus.txt
 fancymenu/legacy_checklist.txt
-fancymenu/options.txt
 fancymenu/user_variables.db
+!fancymenu/options.txt
 iceandfire/*
 !iceandfire/ore_gen_biomes.json
 !iceandfire/sapphire_gen_biomes.json
