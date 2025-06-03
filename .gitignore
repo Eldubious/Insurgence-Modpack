@@ -33,3 +33,6 @@ kubejs/probe
 hs_err_pid9180.log
 .curseclient
 minecraftinstance.json
+fancymenu_data
+fancymenu_data/default_scale_set.fm
+fancymenu_data/last_world.fmdata
