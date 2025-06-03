@@ -17,6 +17,10 @@
     "tooltip.kubejs.refined_radiance": "§7Found in loot chests in Advanced Dimensional Dungeons.",
     "tooltip.kubejs.unused_item": "§7§n§oShould not be obtainable.",
     "tooltip.kubejs.unused_item_2": "§7§oIf you found this item in Survival, there must have been an oversight.",
+
+    "actionbar.kubejs.depths_portal_error": "You can only use this portal in the Overworld or the Depths; you also need to have an empty hand",
+    "actionbar.kubejs.dragonrealm_portal_error": "You can only use this portal in the Overworld or the Dragonrealm; you also need to have an empty hand",
+    "actionbar.kubejs.inbetween_portal_error": "You can only use this portal in the Overworld or the Inbetween; you also need to have an empty hand",
     
     "block.kubejs.depths_portal": "The Depths Portal",
     "block.kubejs.dragon_portal": "Dragonrealm Portal",

@@ -1,0 +1,29 @@
+Version 1.0.1
+    Additions:
+    - Added Command Blocks to the Redstone Blocks creative tab and thus JEI
+
+    Changes:
+    - Sophisticated backpacks can no longer be found in loot chests
+    - Tarot cards can no longer be found in loot chests
+    - Tarot cards must be equipped in a curio slot to function
+    - Nerfed some tarot card abilities:
+        - Emperor: Hero of the Village III -> I
+        - Fool: Jump Boost III -> I
+        - Chariot: Speed +20% -> +10%
+        - Strength: Strength II -> I
+        - Justice: Damage reflected 25% -> 5%
+        - Death: Bonus damage 20% -> 8%
+        - Judgement: Double damage chance 15% -> 3%
+        - Tower: Fall damage reduction 100% -> 25%
+        - Devil: Inflict Weakness III -> I
+        - Hierophant: XP boost 150% -> 100%
+        - Lovers: Regeneration III -> I
+        - Sun: Bonus health 25% -> 5%
+        - Wheel of Fortune: Luck 3 -> 2
+        - Temperance: Hunger reduction 25% -> 15%
+
+
+    Fixes:
+    - Improved the error message when the player fails to use a portal block correctly
+    - Summoning the Wither Storm now should properly grant the advancement "Nothing Built Can Last Forever" to nearby players
+    - Summoning the Wither Storm now should also give the darkness effect to nearby players for a few seconds

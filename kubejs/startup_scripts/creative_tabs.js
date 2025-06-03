@@ -18,3 +18,11 @@ StartupEvents.modifyCreativeTab("dimdungeons:creative_tab", event => {
 StartupEvents.modifyCreativeTab("minecraft:tools_and_utilities", event => {
     event.add('minecraft:bundle')
 })
+
+// Add Command Block items to Redstone Tab
+StartupEvents.modifyCreativeTab("minecraft:redstone_blocks", event => {
+    event.add('minecraft:command_block')
+    event.add('minecraft:chain_command_block')
+    event.add('minecraft:repeating_command_block')
+    event.add('minecraft:command_block_minecart')
+})
