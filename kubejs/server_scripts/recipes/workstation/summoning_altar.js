@@ -127,14 +127,15 @@ ServerEvents.recipes(event => {
 // Event handler for summoning the Wither Storm
 SummoningRituals.start(event => {
 
-    // Wither Storm
+    // If the current recipe is the one which summons the Wither Storm
     if (event.recipe.getId().toString() == 'kubejs:rituals/wither_storm') {
         var playerId = event.player.uuid.toString()
 
         // Prevent automatic summoning
         if (!event.player) event.cancel()
 
-        event.player.potionEffects.add('minecraft:darkness', 220, 0, false, false)
+        // Grant the darkness effect to all players withing 30 blocks of the summoner
+        event.server.runCommandSilent(`execute at ${playerId} run effect give @a[distance=..30] minecraft:darkness 11`)
 
         // Play sounds for all players within 50 blocks of the summoner
         // 1.5s -> 3s -> 4.5s -> 6s -> 7s -> 8s -> 9s -> 9.5s -> 10s
@@ -164,7 +165,9 @@ SummoningRituals.start(event => {
         }, 9500);
         setTimeout(() => {
             event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.wither.spawn hostile @a[distance=..50] ~ ~ ~ 100 0.75`)
-            event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/summon_wither_storm summoned_wither_storm`)
+            // Also grant the advancement for summoning the Wither Storm to all players within 50 blocks
+            event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/root`)
+            event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/summon_wither_storm`)
         }, 10000)
     }
 })
