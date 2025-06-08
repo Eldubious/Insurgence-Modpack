@@ -46,8 +46,10 @@ function interactEvent(event, portalType) {
 
         // Get the dimension the player will teleport to
         var targetDim = getTargetDim(portalType, dimensionId)
+        // There is no valid target because the portal is being used in an incompatible dimension
         if (targetDim == 'noTarget') {
-            event.player.tell('You can only use this portal in the Overworld and the Depths!')
+            let cmd = `execute as ${playerId} run title @s actionbar {"type":"translatable","translate":"actionbar.kubejs.${portalType}_portal_error"}`
+            server.runCommandSilent(cmd)
             event.cancel()
         }
 
@@ -334,6 +336,7 @@ function placeLamps(server, targetDim, destX, destY, destZ, lampId) {
 
 /*
     Plays a teleport sound at the specified location.
+    (Might not be audible for the player who is teleporting because of loading).
 */
 function playSound(server, targetDim, destX, destY, destZ) {
     server.runCommandSilent(`execute in ${targetDim} run playSound minecraft:entity.enderman.teleport block @a ${destX} ${destY} ${destZ} 100`)
