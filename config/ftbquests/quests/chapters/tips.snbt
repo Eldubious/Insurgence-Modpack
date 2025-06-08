@@ -131,6 +131,12 @@
 			icon: "summoningrituals:indestructible_altar"
 			id: "71F2AF85715C84CE"
 			invisible: true
+			rewards: [{
+				id: "44C0C64F8B1CCF48"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -138,7 +144,7 @@
 				id: "05777095C2CFC103"
 				observe_type: 0
 				timer: 25L
-				title: "&a&lObserve:&r Indestructible Summoning Altar"
+				title: "&a&lObserve:&r Summoning Altar"
 				to_observe: "summoningrituals:indestructible_altar"
 				type: "observation"
 			}]
@@ -150,6 +156,12 @@
 			description: ["This item is extremely useful for building because it allows you to extend the face of a group of blocks."]
 			id: "5CC3FB98369FFE07"
 			optional: true
+			rewards: [{
+				id: "7737CEE29DC533D3"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "04850D090DAC7701"
 				item: {
@@ -333,6 +345,12 @@
 			description: ["These hammers will mine out multiple blocks at a time. You can craft upgraded versions of these hammers which mine more blocks at once for a much higher cost."]
 			id: "61C3F4C18D78A954"
 			optional: true
+			rewards: [{
+				id: "28C81C640D7286BD"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "6A176C1DA816D9D1"
 				item: {
@@ -389,6 +407,12 @@
 			description: ["These items will allow you to recolor certain dyeable blocks in-world."]
 			id: "36DC1AE54BBA3E0B"
 			optional: true
+			rewards: [{
+				id: "4A733838E5079895"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "54C237F09A4AF905"
 				item: {
@@ -688,6 +712,12 @@
 		{
 			id: "29C88FAFA0333230"
 			optional: true
+			rewards: [{
+				id: "3C3CFD8DDDDD60BB"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "35FA8A4D5B234CB0"
 				item: "forbidden_arcanus:quantum_catcher"

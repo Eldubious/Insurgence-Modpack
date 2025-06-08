@@ -1,0 +1,44 @@
+{
+	id: "477DD920D553E871"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "unusualend:gloopstone_lands"
+					targetBiomeColor: 15277667
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Gloopstone Highlands"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "unusualend:warped_reef"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Warped Reef"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "endergetic:poise_forest"
+					targetBiomeColor: 9323693
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Poise Forest"
+		}
+	]
+	title: "&3Maps:&r End Biomes"
+}

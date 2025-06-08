@@ -39,6 +39,12 @@
 				"71F2AF85715C84CE"
 			]
 			id: "52BD91BCCE447C45"
+			rewards: [{
+				id: "1A40B08338846B88"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -179,6 +185,12 @@
 			description: ["You can either inscribe keys using the Key Inscribing Station block or an End Portal Frame block."]
 			icon: "dimdungeons:item_portal_key"
 			id: "0BD15CC781F69834"
+			rewards: [{
+				id: "2686BEE96EC63763"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			size: 1.2d
 			tasks: [
 				{
@@ -203,6 +215,12 @@
 				"375F95F85CEB2F17"
 			]
 			id: "4EC3DFF09750A710"
+			rewards: [{
+				id: "68B0FC8DF7B174A0"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
@@ -217,6 +235,12 @@
 			dependencies: ["499F11C723DB76E6"]
 			description: ["This item is needed to craft the Command Block, and you can only find it in advanced dimensional dungeons."]
 			id: "375F95F85CEB2F17"
+			rewards: [{
+				id: "79FC7B4E8890A80C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -269,6 +293,12 @@
 			]
 			icon: "dimdungeons:item_blank_advanced_key"
 			id: "499F11C723DB76E6"
+			rewards: [{
+				id: "29335A00772C4B0A"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			size: 1.2d
 			tasks: [
 				{
@@ -317,6 +347,12 @@
 			]
 			icon: "dimdungeons:block_portal_keyhole"
 			id: "4907442471DEB3E2"
+			rewards: [{
+				id: "5D0F428113B47EC2"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			size: 1.2d
 			tasks: [
 				{

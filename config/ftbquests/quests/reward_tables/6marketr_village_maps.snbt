@@ -1,0 +1,136 @@
+{
+	id: "3767FD531CEDFF5F"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.village_plains\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:village_plains"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.village_savanna\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:village_savanna"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.village_desert\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:village_desert"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.village_taiga\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:village_taiga"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.village_snowy\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:village_snowy"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ribbit_village\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ribbits:ribbit_village"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:igloo"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.igloo\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:igloo"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:ocean_ruin"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.trail_ruins\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:trail_ruins"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Overworld Villages"
+}

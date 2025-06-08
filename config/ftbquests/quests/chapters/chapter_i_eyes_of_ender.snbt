@@ -35,6 +35,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "0D84E48E84D4AB37"
+			rewards: [{
+				id: "7D01A1637C45B1A9"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -59,6 +65,12 @@
 			]
 			hide_dependent_lines: true
 			id: "4E251B6663E4D15A"
+			rewards: [{
+				id: "5ABCEFCF8B9B18EB"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -83,6 +95,12 @@
 			]
 			hide_dependent_lines: true
 			id: "77BC926446ABCB11"
+			rewards: [{
+				id: "3BD4C1A593C69B66"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -108,6 +126,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "63575EE03B1455A4"
+			rewards: [{
+				id: "48CB101646A4108A"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -132,6 +156,12 @@
 			]
 			hide_dependent_lines: true
 			id: "1B05B422B498B2E2"
+			rewards: [{
+				id: "0A96504B251CCCBF"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -156,6 +186,12 @@
 			]
 			hide_dependent_lines: true
 			id: "59DDC7277CB358F1"
+			rewards: [{
+				id: "04BCA23D9D1C852C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -181,6 +217,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "4F51D68031806B89"
+			rewards: [{
+				id: "4EB36927A732F6B1"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -206,6 +248,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "318E78A15B16C2A3"
+			rewards: [{
+				id: "532DC6276854989A"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -231,6 +279,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "6E2BE194B9FA1348"
+			rewards: [{
+				id: "53AEC14083FA5D46"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -255,6 +309,12 @@
 			]
 			hide_dependent_lines: true
 			id: "244042B5A65D4E45"
+			rewards: [{
+				id: "2CCF3F61544F3903"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -280,6 +340,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "4612DF45B7A0C5A4"
+			rewards: [{
+				id: "5ECA9247123BE254"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -305,6 +371,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "0EDEBEEBAABD1CF1"
+			rewards: [{
+				id: "0DCCF14F37059284"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -330,6 +402,12 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "254170FE6F37010E"
+			rewards: [{
+				id: "6FD18D81B3D69BEC"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -354,6 +432,12 @@
 			]
 			hide_dependent_lines: true
 			id: "4346CA9CC61254AE"
+			rewards: [{
+				id: "502A59FF7162CA6A"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -378,6 +462,12 @@
 			]
 			hide_dependent_lines: true
 			id: "47249D2950480CBC"
+			rewards: [{
+				id: "13BD0F0B60073DAF"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -402,6 +492,12 @@
 			]
 			hide_dependent_lines: true
 			id: "7E6F73345F5B2322"
+			rewards: [{
+				id: "01DC1D24ED92DC41"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -943,6 +1039,11 @@
 			icon: "minecraft:end_portal_frame"
 			id: "52E373AA0B08B2E6"
 			min_required_dependencies: 13
+			rewards: [{
+				id: "2E4B3C9740F69ED7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "octagon"
 			size: 3.5d
 			tasks: [{
@@ -1018,6 +1119,11 @@
 				}
 			}
 			id: "67EFD65213972590"
+			rewards: [{
+				id: "56F46434EB5365F0"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.8d
 			tasks: [{
 				id: "155AEEB9A3B7A1D9"
@@ -1884,6 +1990,11 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:dragon_head"
 			id: "29AF050547FA1FFF"
+			rewards: [{
+				id: "6BC68221EA476FB5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "circle"
 			size: 1.8d
 			tasks: [{

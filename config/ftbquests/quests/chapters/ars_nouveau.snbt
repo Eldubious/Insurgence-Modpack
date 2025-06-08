@@ -28,6 +28,12 @@
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "71BE94EFA4ABD7FE"
+			rewards: [{
+				id: "6D605E3390CB2A35"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -80,6 +86,12 @@
 				}
 			}
 			id: "75A8BAC7D360635B"
+			rewards: [{
+				id: "452DE1B35131471A"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -117,6 +129,12 @@
 				}
 			}
 			id: "26397AB6AB546E7B"
+			rewards: [{
+				id: "2A0D6E5610D96DDC"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -154,6 +172,12 @@
 				}
 			}
 			id: "167DA3C75CC9605A"
+			rewards: [{
+				id: "72093DB5E9642D44"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -191,6 +215,12 @@
 				}
 			}
 			id: "5222EFFB9C348B21"
+			rewards: [{
+				id: "48F29D6BED942344"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -434,7 +464,7 @@
 				{
 					id: "0059C3605A6369F1"
 					table_id: 3175445853633275546L
-					title: "&fSmall Reward: &dMagical"
+					title: "Small Random Reward"
 					type: "random"
 				}
 				{
@@ -730,6 +760,12 @@
 		{
 			dependencies: ["3C2C503B4BFDCA8D"]
 			id: "2FABABDA1C8B36D8"
+			rewards: [{
+				id: "030D7FDAC03B9D61"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "0D1A0B8CFBFB1CAD"
 				item: "apotheosis:treasure_shelf"
@@ -1166,28 +1202,31 @@
 				"Each relic is obtained in a different way:"
 				""
 				"&lArtisan Relic&r:"
-				"Found in"
+				"&7Crafted in the Hephaestus Forge.&r"
 				""
 				"&lCrescent Moon&r:"
-				"Found in"
+				"&7Crafted in the Crafting Table.&r"
 				""
 				"&lCrimson Stone&r:"
-				"Found in"
+				"&7Found occasionally in loot chests inside of Pillager Outposts.&r"
 				""
 				"&lSoul Crimson Stone&r:"
-				"Found in"
+				"&7Crafted in the Hephaestus Forge.&r"
+				""
+				"&lElementarium&r:"
+				"&7Crafted in the Enchanting Apparatus.&r"
 				""
 				"&lDivine Pact&r:"
 				"&7Found occasionally in loot chests inside of the dimensional dungeons.&r"
 				""
 				"&lMaledictus Pact&r:"
-				"Found in"
+				"&7Found occasionally in loot chests inside of Bastions.&r"
 			]
 			id: "2F9612E409C3E9A6"
 			rewards: [{
 				id: "7BEE2ABD3F12269A"
 				table_id: 8973588302294504714L
-				title: "&fMedium Reward: &dMagical&r"
+				title: "Medium Random Reward"
 				type: "random"
 			}]
 			tasks: [{
@@ -1305,6 +1344,12 @@
 		{
 			dependencies: ["556E6AF2B5F4B46C"]
 			id: "5E664F3A1AF334B8"
+			rewards: [{
+				id: "19B367BE0C5DC9FE"
+				table_id: 2169574488942153523L
+				title: "&fRandom &aExperience Essence&r Item"
+				type: "random"
+			}]
 			tasks: [{
 				id: "54F0489D7A0BC42E"
 				item: {

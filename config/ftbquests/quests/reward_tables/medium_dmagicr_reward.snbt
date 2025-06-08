@@ -32,5 +32,5 @@
 		{ count: 5, item: "kubejs:enchant_catalyst", weight: 2.5f }
 		{ count: 2, item: "kubejs:hyper_enchant_catalyst" }
 	]
-	title: "Medium &dMagic&r Reward"
+	title: "Medium Reward"
 }

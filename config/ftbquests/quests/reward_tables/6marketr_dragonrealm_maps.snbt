@@ -1,0 +1,56 @@
+{
+	id: "7EBEF789020E21C1"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.dragon_nest_fire\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:dragon_nest/fire"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.dragon_nest_ice\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:dragon_nest/ice"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.dragon_nest_lightning\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:dragon_nest/lightning"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Dragonrealm Structures"
+}

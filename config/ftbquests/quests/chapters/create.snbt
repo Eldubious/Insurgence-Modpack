@@ -436,6 +436,12 @@
 		{
 			dependencies: ["5222EFFB9C348B21"]
 			id: "30C8F470EF6EB3EB"
+			rewards: [{
+				id: "1449F7C65A340096"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -449,6 +455,12 @@
 		{
 			dependencies: ["5222EFFB9C348B21"]
 			id: "6E39CD54AC77B200"
+			rewards: [{
+				id: "13A9C241E9C56F8A"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -462,6 +474,12 @@
 		{
 			dependencies: ["5222EFFB9C348B21"]
 			id: "026BF051B780DCB2"
+			rewards: [{
+				id: "25481D7F9877E97A"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -475,6 +493,12 @@
 		{
 			dependencies: ["5222EFFB9C348B21"]
 			id: "55349995779E8419"
+			rewards: [{
+				id: "7D32DE971C3CA4BE"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{

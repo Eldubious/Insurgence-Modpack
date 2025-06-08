@@ -1,0 +1,68 @@
+{
+	id: "5B17D1874FE10D5B"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "tropicraft:bamboo_rainforest"
+					targetBiomeColor: 9159498
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Bamboo Rainforest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "tropicraft:mangroves"
+					targetBiomeColor: 6784615
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Mangroves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "tropicraft:overgrown_mangroves"
+					targetBiomeColor: 6784615
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Overgrown Mangroves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "tropicraft:osa_rainforest"
+					targetBiomeColor: 822560
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Osa Rainforest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "tropicraft:tropical_peaks"
+					targetBiomeColor: 8370780
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Tropical Peaks"
+		}
+	]
+	title: "&3Maps:&r Tropics Biomes"
+}

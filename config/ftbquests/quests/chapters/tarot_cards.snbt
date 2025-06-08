@@ -1,4 +1,5 @@
 {
+	autofocus_id: "1869136EF31C8E6D"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "tarot_cards"
@@ -14,6 +15,212 @@
 		id: "tarotcards:tarot_deck"
 	}
 	id: "2644FFA6617C8E91"
+	images: [
+		{
+			color: 11184810
+			height: 0.7d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			color: 11184810
+			height: 0.7d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			color: 11184810
+			height: 0.7d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			color: 11184810
+			height: 0.7d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: 1.25d
+			y: -9.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/iron_sword"
+			rotation: 0.0d
+			width: 0.6d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:item/copper_spell_book"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/lead"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "farmersdelight:item/cooking_pot"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 0.6d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/flint_and_steel"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/enchanted_book"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/echo_shard"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 0.6d
+			image: "aquaculture:item/treasure_chest"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:textures/mob_effect/bad_omen.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 0.6d
+			image: "forbidden_arcanus:item/dragon_scale"
+			rotation: 0.0d
+			width: 0.6d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			height: 0.6d
+			image: "arts_and_crafts:item/bleached_bed"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:item/elytra"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 0.6d
+			image: "cataclysm:item/ignitium_ingot"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			height: 0.6d
+			image: "dimdungeons:item/item_key_level1"
+			rotation: 0.0d
+			width: 0.6d
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			height: 0.6d
+			image: "dimdungeons:item/item_key_level2"
+			rotation: 0.0d
+			width: 0.6d
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/dragonsteel_fire_sword"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 0.6d
+			image: "iceandfire:block/dragonforge_fire_core"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			height: 0.6d
+			image: "witherstormmod:item/withered_nether_star"
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.25d
+			y: -12.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -55,8 +262,8 @@
 				type: "checkmark"
 			}]
 			title: "Tarot Deck"
-			x: 0.0d
-			y: -10.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["402C3F65692271AD"]
@@ -87,8 +294,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXIII: &r&fDeath"
-			x: 4.0d
-			y: -3.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["17863EADD917CD82"]
@@ -118,8 +325,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXX: &r&fJudgement"
-			x: 0.0d
-			y: -7.5d
+			x: 2.25d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7CF5B9CFE8EC597A"]
@@ -149,8 +356,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXI: &r&fJustice"
-			x: 1.0d
-			y: -3.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0108FAF3CBC4C51A"]
@@ -180,8 +387,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lVIII: &r&fStrength"
-			x: -4.0d
-			y: -3.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["328267209E1C081A"]
@@ -211,8 +418,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXIV: &r&fTemperance"
-			x: -2.5d
-			y: -4.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["040F6AA8C874387F"]
@@ -243,7 +450,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lVII: &r&fThe Chariot"
-			x: 5.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -274,8 +481,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXV: &r&fThe Devil"
-			x: -1.0d
-			y: -4.5d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["57F8EE2F5E5A55B5"]
@@ -305,7 +512,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lIV: &r&fThe Emperor"
-			x: 1.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -336,7 +543,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lIII: &r&fThe Empress"
-			x: -1.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -366,7 +573,7 @@
 				type: "advancement"
 			}]
 			title: "&6&l0: &r&fThe Fool"
-			x: -5.5d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
@@ -397,8 +604,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXII: &r&fThe Hanged Man"
-			x: 2.5d
-			y: -3.0d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7A748F652D1887DA"]
@@ -428,8 +635,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lIX: &r&fThe Hermit"
-			x: -2.5d
-			y: -3.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4FB3C77AEFC45D42"]
@@ -459,7 +666,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lV: &r&fThe Hierophant"
-			x: 2.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -490,7 +697,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lII: &r&fThe High Priestess"
-			x: -2.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -521,7 +728,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lVI: &r&fThe Lovers"
-			x: 4.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -552,7 +759,7 @@
 				type: "advancement"
 			}]
 			title: "&6&lI: &r&fThe Magician"
-			x: -4.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -583,8 +790,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXVIII: &r&fThe Moon"
-			x: -1.0d
-			y: -6.0d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2D5059FFEFC4B9FA"]
@@ -615,8 +822,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXVII: &r&fThe Star"
-			x: 2.5d
-			y: -4.5d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["14464D481C0A3217"]
@@ -647,8 +854,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXIX: &r&fThe Sun"
-			x: 1.0d
-			y: -6.0d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["21A6BE26C0E5016C"]
@@ -678,8 +885,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lXVI: &r&fThe Tower"
-			x: 1.0d
-			y: -4.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["788285D8B562BAE9"]
@@ -709,8 +916,8 @@
 				type: "advancement"
 			}]
 			title: "&6&lX: &r&fWheel of Fortune"
-			x: -1.0d
-			y: -3.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["78991565E3ABB634"]
@@ -741,11 +948,15 @@
 				type: "advancement"
 			}]
 			title: "&6&lXXI: &r&fThe World"
-			x: 0.0d
-			y: -9.0d
+			x: 2.25d
+			y: -11.0d
 		}
 		{
-			description: ["Complete these specific advancements in this order to get some very useful accessories."]
+			description: [
+				"Complete these specific advancements in this order to get some very useful accessories."
+				""
+				"Technically, you can complete these out of order, but you won't get any rewards until all quests before it are completed"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -760,8 +971,8 @@
 				type: "checkmark"
 			}]
 			title: "The Fool's Journey"
-			x: 0.0d
-			y: 0.0d
+			x: -4.5d
+			y: -1.5d
 		}
 	]
 	title: "The Fool's Journey"

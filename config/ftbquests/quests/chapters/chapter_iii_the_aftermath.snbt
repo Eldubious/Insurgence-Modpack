@@ -49,6 +49,7 @@
 					exclude_from_claim_all: true
 					id: "13E46DDC093BDA30"
 					table_id: 346162584000431563L
+					title: "Food Choice Reward"
 					type: "choice"
 				}
 			]
@@ -73,6 +74,12 @@
 		{
 			dependencies: ["50C092433ED97A8A"]
 			id: "37FED10E63EB6471"
+			rewards: [{
+				id: "05E724182E1DFDC3"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "1D29E2C561ECCA60"
 				item: "galosphere:cured_membrane"
@@ -84,6 +91,12 @@
 		{
 			dependencies: ["50C092433ED97A8A"]
 			id: "12C992A4682DBF88"
+			rewards: [{
+				id: "12D1508C4CD1C156"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D7F08E09F843C91"
 				item: "dreadsteel:dreadsteel_ingot"
@@ -95,6 +108,12 @@
 		{
 			dependencies: ["50C092433ED97A8A"]
 			id: "5296E3A72DDECB8F"
+			rewards: [{
+				id: "29AAB0E1E64A7F5C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "65B3F60D877394E4"
 				item: {

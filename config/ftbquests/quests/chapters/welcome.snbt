@@ -29,7 +29,7 @@
 	quests: [
 		{
 			description: [
-				"I'm glad you decided to play my modpack!"
+				"I'm glad you decided to play Insurgence!"
 				""
 				"&e&l&nSome useful things to know:&r"
 				""
@@ -39,7 +39,7 @@
 				""
 				"{@pagebreak}"
 				""
-				"I decided to change &osome&r of the default keybinds to improve the out-of-the-box experience. Feel free to change them back or to whatever else you want."
+				"I decided to change &osome&r of the default keybinds to improve the out-of-the-box experience. Of course, feel free to change them back or to whatever else you want."
 				""
 				"These are the changes I've made:"
 				""
@@ -73,6 +73,11 @@
 			]
 			icon: "kubejs:enchant_catalyst"
 			id: "11090A911B3D930A"
+			rewards: [{
+				id: "6853923DEC9DA623"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{

@@ -1,0 +1,88 @@
+{
+	id: "2BF8900ACD4A2E03"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.bronze_dungeon\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "aether:bronze_dungeon"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.silver_dungeon\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "aether:silver_dungeon"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.gold_dungeon\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "aether:gold_dungeon"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ancient_dungeon\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ancient_aether:ancient_dungeon"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:igloo"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.olympic_citadel\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "aether_villages:olympic_citadel"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Aether Structures"
+}

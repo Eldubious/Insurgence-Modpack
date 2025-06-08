@@ -84,7 +84,7 @@
 				{
 					id: "4F8BDC3F28424C7A"
 					table_id: 346162584000431563L
-					title: "&l&6One Random Quality Food"
+					title: "Food Random Reward"
 					type: "random"
 				}
 			]
@@ -1482,6 +1482,12 @@
 			description: ["The Cooking Pot is where you will make most foods. To use it, all you need to do is place a valid heat source underneath the pot."]
 			icon: "farmersdelight:cooking_pot"
 			id: "4574E4CAFCBCEE6E"
+			rewards: [{
+				id: "0A009AB649D78AFB"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [
@@ -1572,6 +1578,12 @@
 			description: ["The Cutting Board is where you'll prepare most of your ingredients. To use it, you just need to place the ingredient on the board and use the required tool on it (usually a knife)."]
 			icon: "farmersdelight:cutting_board"
 			id: "753B47DE5CBDBB0F"
+			rewards: [{
+				id: "3AF2CF94CC32FAE7"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [
@@ -2051,6 +2063,12 @@
 		{
 			description: ["The Skillet, with a heat source underneath, will allow you to cook items like on a campfire."]
 			id: "0E6757F7F06137FA"
+			rewards: [{
+				id: "670CF336BE041C4E"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [{
@@ -2079,6 +2097,12 @@
 				}
 			}
 			id: "57F424FBBE1C92A0"
+			rewards: [{
+				id: "48D5CB91A4833D0A"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "57F42599394F7381"
 				item: {
@@ -2147,6 +2171,12 @@
 				"Then, the juices can be used to 'fuel' the Fermentation Barrel and allow you to create different types of wine."
 			]
 			id: "48F7B300475512FE"
+			rewards: [{
+				id: "3F420000B1B3AF61"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			tasks: [
@@ -2178,7 +2208,7 @@
 			rewards: [{
 				id: "47AA74EF81229292"
 				table_id: 346162584000431563L
-				title: "&l&6One Random Quality Food"
+				title: "Food Random Reward"
 				type: "random"
 			}]
 			tasks: [{

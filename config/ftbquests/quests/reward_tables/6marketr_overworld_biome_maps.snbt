@@ -1,0 +1,524 @@
+{
+	id: "20BB8961A05322A4"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:dark_forest"
+					targetBiomeColor: 22794
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Dark Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:orchard"
+					targetBiomeColor: 16711680
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Orchard"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:cherry_grove"
+					targetBiomeColor: 15313384
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Cherry Grove"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:windswept_hills"
+					targetBiomeColor: 9079434
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Windswept Hills"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:flower_forest"
+					targetBiomeColor: 13518562
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Flower Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:magnolia_woodland"
+					targetBiomeColor: 15277667
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Magnolia Woodland"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:willow_forest"
+					targetBiomeColor: 11061461
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Willow Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "ars_nouveau:archwood_forest"
+					targetBiomeColor: 9323693
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Archwood Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:rocky_reef"
+					targetBiomeColor: 9159498
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Rocky Reef"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:mushroom_fields"
+					targetBiomeColor: 5063283
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Mushroom Fields"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:ashen_woodland"
+					targetBiomeColor: 5591374
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Ashen Woodland"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:alpha_grove"
+					targetBiomeColor: 65282
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Alpha Grove"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:warm_ocean"
+					targetBiomeColor: 4162979
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Warm Ocean"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:deep_ocean"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Deep Ocean"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:deep_cold_ocean"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Deep Cold Ocean"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:deep_frozen_ocean"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Deep Frozen Ocean"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:deep_lukewarm_ocean"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Deep Lukewarm Ocean"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:hyacinth_deeps"
+					targetBiomeColor: 10217448
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Hyacinth Deeps"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:tropics"
+					targetBiomeColor: 9159498
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Tropics"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:fen"
+					targetBiomeColor: 4214586
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Fen"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:fungal_fen"
+					targetBiomeColor: 15277667
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Fungal Fen"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:swamp"
+					targetBiomeColor: 2242319
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Swamp"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:mangrove_swamp"
+					targetBiomeColor: 2242319
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Mangrove Swamp"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:bayou"
+					targetBiomeColor: 4214586
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Bayou"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:old_growth_bayou"
+					targetBiomeColor: 4214586
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Old Growth Bayou"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:old_growth_birch_forest"
+					targetBiomeColor: 9159498
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Old Growth Birch Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:jungle"
+					targetBiomeColor: 2274816
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Jungle"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:bamboo_jungle"
+					targetBiomeColor: 4055575
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Bamboo Jungle"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:bamboo_forest"
+					targetBiomeColor: 65282
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Bamboo Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:savanna"
+					targetBiomeColor: 10200418
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Savanna"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:windswept_savanna"
+					targetBiomeColor: 11176514
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Windswept Savanna"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:baobab_savanna"
+					targetBiomeColor: 4205056
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Baobab Savanna"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:dry_bushland"
+					targetBiomeColor: 16767882
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Dry Bushland"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:desert"
+					targetBiomeColor: 13416782
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Desert"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:saguaro_desert"
+					targetBiomeColor: 6657570
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Saguaro Desert"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:joshua_desert"
+					targetBiomeColor: 16767882
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Joshua Desert"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:badlands"
+					targetBiomeColor: 13008674
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Badlands"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:boreal_taiga"
+					targetBiomeColor: 4214586
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Boreal Taiga"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:golden_boreal_taiga"
+					targetBiomeColor: 9011976
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Golden Boreal Taiga"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:deciduous_forest"
+					targetBiomeColor: 2575365
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Deciduous Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:cold_deciduous_forest"
+					targetBiomeColor: 14086102
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Cold Deciduous Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:blackwood_taiga"
+					targetBiomeColor: 594177
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Blackwood Taiga"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:redwoods"
+					targetBiomeColor: 7219736
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Redwoods"
+		}
+	]
+	title: "&3Maps:&r Overworld Biomes"
+}

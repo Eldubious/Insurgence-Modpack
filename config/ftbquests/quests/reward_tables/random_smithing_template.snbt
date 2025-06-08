@@ -32,5 +32,5 @@
 		{ item: "ancient_aether:solar_armor_trim_smithing_template", title: "Smithing Template (Solar)", weight: 0.25f }
 		{ item: "ancient_aether:ancient_armor_trim_smithing_template", title: "Smithing Template (Ancient) -Ancient Aether", weight: 0.25f }
 	]
-	title: "Random Smithing Template"
+	title: "&6Market:&r Armor Trim Templates"
 }
