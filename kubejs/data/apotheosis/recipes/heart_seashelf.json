@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "CDC",
+        "ABA"
+    ],
+    "key": {
+        "A": {
+            "item": "forbidden_arcanus:spawner_scrap"
+        },
+        "B": {
+            "item": "experienceobelisk:calcarine_matrix"
+        },
+        "C": {
+            "item": "forbidden_arcanus:corrupted_arcane_crystal"
+        },
+        "D": {
+            "item": "quark:diamond_heart"
+        }
+    },
+    "result": {
+        "item": "forbidden_arcanus:quantum_catcher",
+        "count": 1
+    }
+}

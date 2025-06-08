@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "CDC",
+        " A "
+    ],
+    "key": {
+        "A": {
+            "item": "alexscaves:heavy_bone"
+        },
+        "B": {
+            "item": "illagerinvasion:hallowed_gem"
+        },
+        "C": {
+            "tag": "iceandfire:scales/dragon"
+        },
+        "D": {
+            "item": "alexscaves:amber_curiosity"
+        }
+    },
+    "result": {
+        "item": "alexscaves:ominous_catalyst",
+        "count": 1
+    }
+}

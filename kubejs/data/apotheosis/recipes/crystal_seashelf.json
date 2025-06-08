@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AA ",
+        "ABC",
+        "AA "
+    ],
+    "key": {
+        "A": {
+            "item": "architects_palette:moonshale"
+        },
+        "B": {
+            "item": "architects_palette:moonstone"
+        },
+        "C": {
+            "item": "forbidden_arcanus:arcane_crystal_dust"
+        }
+    },
+    "result": {
+        "item": "forbidden_arcanus:crescent_moon",
+        "count": 1
+    }
+}

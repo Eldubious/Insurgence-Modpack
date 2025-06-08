@@ -35,8 +35,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ars_nouveau:jump_ring'})
     // Bookshelves
     event.remove([{id: 'experienceobelisk:enchanted_bookshelf'}, {id: 'experienceobelisk:archivers_bookshelf'}])
-    event.remove({output: 'apotheosis:seashelf'})
-    event.remove({output: 'apotheosis:hellshelf'})
     event.remove({id: 'apotheosis:dormant_deepshelf'})
     event.remove({id: 'apotheosis:endshelf'})
     event.remove([{id: 'apotheosis:rectifier'}, {id: 'apotheosis:rectifier_t2'}, {id: 'apotheosis:rectifier_t3'}])
@@ -53,4 +51,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ars_nouveau:spell_crossbow'})
     event.remove({id: 'arsdelight:enchanters_knife'})
     event.remove({id: 'ars_elemental:spell_horn'})
+    // Misc
+    event.remove({id: 'apotheosis:ender_lead'})
 })

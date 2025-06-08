@@ -1,38 +1,38 @@
 {
     "essences": {
-        "aureal": 500,
+        "aureal": 0,
         "blood": 0,
-        "experience": 0,
-        "souls": 0
+        "experience": 300,
+        "souls": 5
     },
     "inputs": [
         {
             "amount": 1,
             "ingredient": {
-                "item": "minecraft:ender_pearl"
+                "item": "ars_nouveau:fire_essence"
             }
         },
         {
             "amount": 2,
             "ingredient": {
-                "item": "architects_palette:algal_blend"
+                "item": "minecraft:blaze_powder"
             }
         },
         {
-            "amount": 1,
+            "amount": 3,
             "ingredient": {
-                "item": "forbidden_arcanus:spawner_scrap"
+                "item": "architects_palette:sunmetal_brick"
             }
         }
     ],
     "main_ingredient": {
-        "item": "minecraft:lead"
+        "item": "justhammers:iron_hammer"
     },
     "result": {
         "type": "forbidden_arcanus:create_item",
         "result_item": {
             "Count": 1,
-            "id": "apotheosis:ender_lead"
+            "id": "forbidden_arcanus:artisan_relic"
         }
     }
 }

@@ -91,4 +91,20 @@ ServerEvents.recipes(event => {
         Remove recipes for balance
     */
     event.remove({id: 'forbidden_arcanus:enchanted_golden_apple'})
+
+    /*
+        Recipes that override the ones for the Seashelf and Hellshelf items.
+        The id of each recipe that is overridden is given below.
+        I couldn't override them with their new recipes bc of how the Hephaestus Forge works.
+    */
+    // apotheosis:seashelf
+    event.remove({id: 'ars_nouveau:agronomic_sourcelink'})
+    // apotheosis:heart_seashelf
+    event.remove({id: 'forbidden_arcanus:quantum_catcher'})
+    // apotheosis:hellshelf
+    event.remove({id: 'experienceobelisk:metamorpher/transforming_focus'})
+    // apotheosis:glowing_hellshelf
+    event.remove({id: 'ars_nouveau:volcanic_sourcelink'})
+    // apotheosis:blazing_hellshelf
+    event.remove({id: 'alexscaves:ominous_catalyst'})
 })

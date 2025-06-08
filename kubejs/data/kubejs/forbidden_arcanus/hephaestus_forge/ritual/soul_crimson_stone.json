@@ -1,0 +1,44 @@
+{
+    "essences": {
+        "aureal": 0,
+        "blood": 3000,
+        "experience": 0,
+        "souls": 10
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_elemental:anima_essence"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "iceandfire:ghost_ingot"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "mahoutsukai:powdered_quartz"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "mahoutsukai:powdered_diamond"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "forbidden_arcanus:crimson_stone"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "forbidden_arcanus:soul_crimson_stone"
+        }
+    }
+}

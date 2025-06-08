@@ -175,6 +175,30 @@ ServerEvents.recipes(event => {
             C: '#forge:stone'
         }
     )
+    // Alchemy Upgrades
+    event.remove([{id: 'sophisticatedstorage:alchemy_upgrade'}, {id: 'sophisticatedstorage:storage_alchemy_upgrade_from_backpack_alchemy_upgrade'}])
+    event.shaped('sophisticatedstorage:alchemy_upgrade',
+        [
+            'ABA',
+            'CDC',
+            'ACA'
+        ],
+        {
+            A: 'minecraft:nether_wart',
+            B: 'minecraft:brewing_stand',
+            C: 'minecraft:glass_bottle',
+            D: 'sophisticatedstorage:upgrade_base'
+        }
+    )
+    event.remove([{id: 'sophisticatedstorage:advanced_alchemy_upgrade'}, {id: 'sophisticatedstorage:storage_advanced_alchemy_upgrade_from_backpack_advanced_alchemy_upgrade'}])
+    enchantApparatus('sophisticatedstorage:advanced_alchemy_upgrade',
+        [
+            'irons_spellbooks:alchemist_cauldron', 'ars_nouveau:fire_essence', 'ars_nouveau:fire_essence',
+            'ars_nouveau:manipulation_essence', 'ars_nouveau:manipulation_essence', 'minecraft:nether_wart', 'minecraft:nether_wart'
+        ],
+        'sophisticatedstorage:alchemy_upgrade'
+    )
+
 
 
     /*
@@ -461,6 +485,29 @@ ServerEvents.recipes(event => {
         'minecraft:ender_eye',
         'galosphere:cured_membrane'
     )
+    // Alchemy Upgrades
+    event.remove([{id: 'sophisticatedbackpacks:alchemy_upgrade'}, {id: 'sophisticatedstorage:backpack_alchemy_upgrade_from_storage_alchemy_upgrade'}])
+    event.shaped('sophisticatedbackpacks:alchemy_upgrade',
+        [
+            'ABA',
+            'CDC',
+            'ACA'
+        ],
+        {
+            A: 'minecraft:nether_wart',
+            B: 'minecraft:brewing_stand',
+            C: 'minecraft:glass_bottle',
+            D: 'sophisticatedbackpacks:upgrade_base'
+        }
+    )
+    event.remove([{id: 'sophisticatedbackpacks:advanced_alchemy_upgrade'}, {id: 'sophisticatedstorage:backpack_advanced_alchemy_upgrade_from_storage_advanced_alchemy_upgrade'}])
+    enchantApparatus('sophisticatedbackpacks:advanced_alchemy_upgrade',
+        [
+            'irons_spellbooks:alchemist_cauldron', 'ars_nouveau:fire_essence', 'ars_nouveau:fire_essence',
+            'ars_nouveau:manipulation_essence', 'ars_nouveau:manipulation_essence', 'minecraft:nether_wart', 'minecraft:nether_wart'
+        ],
+        'sophisticatedbackpacks:alchemy_upgrade'
+    )
 
 
     /*
@@ -523,7 +570,9 @@ ServerEvents.recipes(event => {
         ['sophisticatedstorage:stack_upgrade_omega_tier', 'sophisticatedbackpacks:stack_upgrade_omega_tier'],
         ['sophisticatedstorage:stack_downgrade_tier_1', 'sophisticatedbackpacks:stack_downgrade_tier_1'],
         ['sophisticatedstorage:stack_downgrade_tier_2', 'sophisticatedbackpacks:stack_downgrade_tier_2'],
-        ['sophisticatedstorage:stack_downgrade_tier_3', 'sophisticatedbackpacks:stack_downgrade_tier_3']
+        ['sophisticatedstorage:stack_downgrade_tier_3', 'sophisticatedbackpacks:stack_downgrade_tier_3'],
+        ['sophisticatedstorage:alchemy_upgrade', 'sophisticatedbackpacks:alchemy_upgrade'],
+        ['sophisticatedstorage:advanced_alchemy_upgrade', 'sophisticatedbackpacks:advanced_alchemy_upgrade']
     ]
     upgrades.forEach(element => swapUpgrades(element[0], element[1]))
 })

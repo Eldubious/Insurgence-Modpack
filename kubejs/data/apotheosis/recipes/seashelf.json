@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A A",
+        "DBD",
+        " C "
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "farmersdelight:horse_feed"
+        },
+        "C": {
+            "item": "ars_nouveau:sourcestone"
+        },
+        "D": {
+            "item": "ars_nouveau:source_gem"
+        }
+    },
+    "result": {
+        "item": "ars_nouveau:agronomic_sourcelink",
+        "count": 1
+    }
+}

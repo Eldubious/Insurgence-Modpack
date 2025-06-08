@@ -1,0 +1,74 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:artisan_relic"
+        ],
+        "forge_tier": 3
+    },
+    "essences": {
+        "aureal": 50,
+        "blood": 0,
+        "experience": 50,
+        "souls": 1
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:fire_charge"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:ghast_tear"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:fire_charge"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:fire_charge"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:ghast_tear"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:fire_charge"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "apotheosis:infused_hellshelf"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "apotheosis:blazing_hellshelf"
+        }
+    }
+}

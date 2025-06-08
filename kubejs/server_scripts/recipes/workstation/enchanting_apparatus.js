@@ -163,4 +163,12 @@ ServerEvents.recipes(event => {
         ],
         'ars_nouveau:source_jar', 'ars_nouveau:creative_source_jar', 10000, false
     )
+    // Elementarium
+    apparatusRecipe(
+        [
+            'ars_nouveau:earth_essence', 'ars_nouveau:air_essence', 'ars_nouveau:fire_essence',
+            'ars_nouveau:water_essence', 'ars_nouveau:manipulation_essence'
+        ],
+        'minecraft:iron_ingot', 'forbidden_arcanus:elementarium', 500, false
+    )
 })

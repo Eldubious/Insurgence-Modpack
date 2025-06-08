@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "BCB",
+        "DAD"
+    ],
+    "key": {
+        "A": {
+            "item": "ars_nouveau:sourcestone"
+        },
+        "B": {
+            "item": "ars_nouveau:source_gem"
+        },
+        "C": {
+            "item": "rubinated_nether:molten_ruby"
+        },
+        "D": {
+            "tag": "forge:ingots/gold"
+        }
+    },
+    "result": {
+        "item": "ars_nouveau:volcanic_sourcelink",
+        "count": 1
+    }
+}

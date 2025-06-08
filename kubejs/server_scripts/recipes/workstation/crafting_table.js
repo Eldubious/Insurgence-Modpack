@@ -384,7 +384,7 @@ ServerEvents.recipes(event => {
             'ABA'
         ],
         {
-            A: 'forbidden_arcanus:ender_pearl_fragment',
+            A: 'architects_palette:oracle_jelly',
             B: 'minecraft:crying_obsidian',
             C: 'minecraft:ender_eye',
         }

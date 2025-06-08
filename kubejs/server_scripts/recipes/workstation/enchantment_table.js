@@ -26,4 +26,10 @@ ServerEvents.recipes(event => {
 
     // Cryptic Eye
     enchantTable('endrem:cryptic_eye', 1, 'minecraft:ender_eye', 15, 15, 40, 50, 5, 10)
+
+    // Enchant Catalyst
+    enchantTable('kubejs:enchant_catalyst', 5, 'create:polished_rose_quartz', 20, 20, 0, 100, 0, 100)
+
+    // Hyper Enchant Catalyst
+    enchantTable('kubejs:hyper_enchant_catalyst', 1, 'minecraft:diamond', 40, 40, 0, 100, 0, 100)
 })
