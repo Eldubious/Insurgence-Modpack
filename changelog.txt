@@ -1,6 +1,7 @@
 Version 1.0.1
     Additions:
     - Added Command Blocks to the Redstone Blocks creative tab and thus JEI
+    - Added structure and biome maps to the shop
 
     Changes:
     - Sophisticated backpacks can no longer be found in loot chests
@@ -25,10 +26,12 @@ Version 1.0.1
     - Changed the recipes for alchemy upgrades for Sophisticated Storage & Backpacks
     - Changed the recipes for most seashelf and hellshelf items from Apotheosis
     - Added recipes for the Artisan Relic, Crescent Moon, Soul Crimson Stone, and Elementarium
+    - Lastly, the recipes for the Ominous Catalyst, Quantum Catcher, Ender Lead, Agronomic & Volcanic Sourcelinks, and more have changed
 
     Fixes:
     - Improved the error message when the player fails to use a portal block correctly
     - Replaced the placeholders left in Cataclysm's structures eyes' tooltips
     - Improved some quest descriptions & rewards
+    - Fixed the default options not applying
     - Summoning the Wither Storm now should properly grant the advancement "Nothing Built Can Last Forever" to nearby players
     - Summoning the Wither Storm now should also give the darkness effect to nearby players for a few seconds
