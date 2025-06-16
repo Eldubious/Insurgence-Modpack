@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#52504C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "minecraft:entity.vindicator.ambient"
+        }
+    },
+    "entity": {
+        "type": "savage_and_ravage:executioner"
+    },
+    "name": {
+        "color": "#52504C",
+        "translate": "trofers.trophy.composed",
+        "with": [
+            {
+                "translate": "entity.savage_and_ravage.executioner"
+            }
+        ]
+    }
+}

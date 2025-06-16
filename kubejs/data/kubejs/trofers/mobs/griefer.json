@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#174A24",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "savage_and_ravage:griefer"
+    },
+    "name": {
+        "color": "#174A24",
+        "translate": "trofers.trophy.composed",
+        "with": [
+            {
+                "translate": "entity.savage_and_ravage.griefer"
+            }
+        ]
+    }
+}

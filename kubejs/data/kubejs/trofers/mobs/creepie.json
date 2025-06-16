@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#32E34A",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "savage_and_ravage:entity.creepie.convert"
+        }
+    },
+    "entity": {
+        "type": "savage_and_ravage:creepie"
+    },
+    "name": {
+        "color": "#32E34A",
+        "translate": "trofers.trophy.composed",
+        "with": [
+            {
+                "translate": "entity.savage_and_ravage.creepie"
+            }
+        ]
+    }
+}

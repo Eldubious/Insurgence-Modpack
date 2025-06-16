@@ -30,6 +30,7 @@ icon.png
 options.txt
 patchouli_data.json
 rhino.local.properties
+user-prefs.json
 usercache.json
 usernamecache.json
 kubejs/probe
