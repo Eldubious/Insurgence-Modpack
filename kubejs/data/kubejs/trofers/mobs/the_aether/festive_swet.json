@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#5A6CAD",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.swet.squish"
+        }
+    },
+    "entity": {
+        "type": "ancient_aether:festive_swet"
+    },
+    "name": {
+        "color": "#5A6CAD",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ancient_aether.festive_swet"
+            }
+        ]
+    }
+}

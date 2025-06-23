@@ -1,0 +1,138 @@
+{
+	id: "204E060E69237868"
+	loot_crate: {
+		color: 16731994
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.strange_trophies"
+		string_id: "trophies_strange"
+	}
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mooshroom"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/bunfungus"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/mungus"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/farseer"
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/mutantmonsters/mutant_zombie"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/mutantmonsters/mutant_skeleton"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/mutantmonsters/mutant_creeper"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/mutantmonsters/mutant_enderman"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/mutantmonsters/mutant_snow_golem"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/mutantmonsters/spider_pig"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+	]
+	title: "&eTrophies:&r Strange"
+}

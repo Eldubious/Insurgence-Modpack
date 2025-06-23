@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#473F38",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:apothecarist",
+        "nbt": "{ArmorItems:[{id:\"minecraft:air\",Count:1},{id:\"minecraft:air\",Count:1},{id:\"irons_spellbooks:plagued_chestplate\",Count:1},{id:\"minecraft:air\",Count:1}]}"
+    },
+    "name": {
+        "color": "#473F38",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.apothecarist"
+            }
+        ]
+    }
+}

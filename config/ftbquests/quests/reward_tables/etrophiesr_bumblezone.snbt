@@ -1,0 +1,88 @@
+{
+	id: "35C3832CB3AF0B11"
+	loot_crate: {
+		color: 13879122
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.bumblezone_trophies"
+		string_id: "trophies_bumblezone"
+	}
+	loot_size: 1
+	order_index: 52
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/the_bumblezone/bee_queen"
+					}
+				}
+			}
+			weight: 0.18f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/the_bumblezone/beehemoth"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bee"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/the_bumblezone/honey_slime"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/the_bumblezone/sentry_watcher"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/the_bumblezone/rootmin"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+	]
+	title: "&eTrophies:&r Bumblezone"
+}

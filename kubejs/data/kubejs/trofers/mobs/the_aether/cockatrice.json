@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#8153A3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.cockatrice.ambient"
+        }
+    },
+    "entity": {
+        "type": "aether:cockatrice"
+    },
+    "name": {
+        "color": "#8153A3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.cockatrice"
+            }
+        ]
+    }
+}

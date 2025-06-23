@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#041A24",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:atprgangr_idle"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:atprgangr"
+    },
+    "name": {
+        "color": "#041A24",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.atprgangr"
+            }
+        ]
+    }
+}

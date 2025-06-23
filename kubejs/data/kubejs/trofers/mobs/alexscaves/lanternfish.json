@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#6CCFE6",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.85,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:lanternfish_flop"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:lanternfish"
+    },
+    "name": {
+        "color": "#6CCFE6",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.lanternfish"
+            }
+        ]
+    }
+}

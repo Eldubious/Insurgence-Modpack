@@ -1,0 +1,21 @@
+{
+    "colors": {
+      "accent": "#B3B0AB",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25
+    },
+    "entity": {
+      "type": "iceandfire:dread_horse"
+    },
+    "name": {
+      "color": "#B3B0AB",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.dread_horse"
+        }
+      ]
+    }
+}

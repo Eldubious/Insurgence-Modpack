@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#FFFFFF",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.yeti.growl"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:yeti"
+    },
+    "name": {
+        "color": "#FFFFFF",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.yeti"
+            }
+        ]
+    }
+}

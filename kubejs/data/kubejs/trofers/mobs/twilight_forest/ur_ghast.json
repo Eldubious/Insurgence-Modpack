@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#CC5E6D",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.05,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.ur_ghast.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:ur_ghast"
+    },
+    "name": {
+        "color": "#CC5E6D",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.ur_ghast"
+            }
+        ]
+    }
+}

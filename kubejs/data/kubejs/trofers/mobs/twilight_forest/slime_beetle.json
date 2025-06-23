@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#50D982",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.slime_beetle.squish"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:slime_beetle"
+    },
+    "name": {
+        "color": "#50D982",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.slime_beetle"
+            }
+        ]
+    }
+}

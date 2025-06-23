@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#B419BF",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.185
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "mutantmonsters:entity.mutant_enderman.teleport"
+        }
+    },
+    "entity": {
+        "type": "mutantmonsters:mutant_enderman"
+    },
+    "name": {
+        "color": "#B419BF",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.mutantmonsters.mutant_enderman"
+            }
+        ]
+    }
+}

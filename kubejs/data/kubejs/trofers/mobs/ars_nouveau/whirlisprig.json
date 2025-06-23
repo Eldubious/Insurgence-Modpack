@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#27D942",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "entity": {
+        "type": "ars_nouveau:whirlisprig"
+    },
+    "name": {
+        "color": "#27D942",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ars_nouveau.whirlisprig"
+            }
+        ]
+    }
+}

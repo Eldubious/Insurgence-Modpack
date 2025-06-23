@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#FA6E02",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.sun_spirit.interact"
+        }
+    },
+    "entity": {
+        "type": "aether:sun_spirit"
+    },
+    "name": {
+        "color": "#FA6E02",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.sun_spirit"
+            }
+        ]
+    }
+}

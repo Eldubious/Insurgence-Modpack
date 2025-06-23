@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#AAAAAA",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.slider.ambient"
+        }
+    },
+    "entity": {
+        "type": "aether:slider"
+    },
+    "name": {
+        "color": "#AAAAAA",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.slider"
+            }
+        ]
+    }
+}

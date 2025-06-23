@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#138029",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "call_of_yucutan:ah_puch_ambient"
+        }
+    },
+    "entity": {
+        "type": "call_of_yucutan:ah_puch"
+    },
+    "name": {
+        "color": "#138029",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.call_of_yucutan.ah_puch"
+            }
+        ]
+    }
+}

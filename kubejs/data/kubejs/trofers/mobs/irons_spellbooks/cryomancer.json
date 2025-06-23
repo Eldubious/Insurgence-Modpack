@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#B6D8DB",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:cryomancer",
+        "nbt": "{ArmorItems:[{id:\"irons_spellbooks:cryomancer_boots\",Count:1},{id:\"irons_spellbooks:cryomancer_leggings\",Count:1},{id:\"irons_spellbooks:cryomancer_chestplate\",Count:1},{id:\"irons_spellbooks:cryomancer_helmet\",Count:1}]}"
+    },
+    "name": {
+        "color": "#B6D8DB",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.cryomancer"
+            }
+        ]
+    }
+}

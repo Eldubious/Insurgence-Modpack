@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#40693F",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:gammaroach_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:gammaroach"
+    },
+    "name": {
+        "color": "#40693F",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.gammaroach"
+            }
+        ]
+    }
+}

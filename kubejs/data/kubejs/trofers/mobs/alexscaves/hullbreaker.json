@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#2C3063",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:hullbreaker_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:hullbreaker"
+    },
+    "name": {
+        "color": "#2C3063",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.hullbreaker"
+            }
+        ]
+    }
+}

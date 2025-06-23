@@ -2,7 +2,7 @@
 	icon: "forbidden_arcanus:arcane_crystal_dust"
 	id: "7C8897044EDD550A"
 	loot_size: 1
-	order_index: 7
+	order_index: 4
 	rewards: [
 		{ count: 3, item: "forbidden_arcanus:deorum_ingot", weight: 3.0f }
 		{ item: "forbidden_arcanus:golden_orchid_seeds" }
@@ -32,5 +32,5 @@
 		{ count: 5, item: "kubejs:enchant_catalyst", weight: 2.5f }
 		{ count: 2, item: "kubejs:hyper_enchant_catalyst" }
 	]
-	title: "Medium Reward"
+	title: "Quest Reward: Medium"
 }

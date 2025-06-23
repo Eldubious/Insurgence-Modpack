@@ -1,0 +1,241 @@
+{
+	id: "32C9B12F8B2232E6"
+	loot_crate: {
+		color: 4024848
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.jungle_trophies"
+		string_id: "trophies_jungle"
+	}
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/tiger"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ocelot"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/gorilla"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:panda"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/komodo_dragon"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/gelada_monkey"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/capuchin_monkey"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/anteater"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/undead_warrior"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/huracan"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/mitnal_monkey"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/golden_guard"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/ahaw"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/chaac"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/kukulkan"
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/call_of_yucatan/ah_puch"
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/cockatrice"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/amphithere"
+					}
+				}
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/gorgon"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+	]
+	title: "&eTrophies:&r Jungle"
+}

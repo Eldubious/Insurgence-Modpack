@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#C91E35",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.carminite_golem.hurt"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:carminite_golem"
+    },
+    "name": {
+        "color": "#C91E35",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.carminite_golem"
+            }
+        ]
+    }
+}

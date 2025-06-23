@@ -1,0 +1,42 @@
+{
+	id: "686F34516F40BD48"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.ignis_trophies"
+		string_id: "trophies_ignis"
+	}
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/ignis"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/ignited_revenant"
+					}
+				}
+			}
+			weight: 9.0f
+		}
+	]
+	title: "&eTrophies:&r Ignis"
+}

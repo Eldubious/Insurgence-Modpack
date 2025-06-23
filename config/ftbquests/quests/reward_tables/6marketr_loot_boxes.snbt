@@ -1,7 +1,7 @@
 {
 	id: "2413FF0D335963B9"
 	loot_size: 1
-	order_index: 15
+	order_index: 12
 	rewards: [
 		{ item: "aquaculture:box", weight: 50.0f }
 		{ item: "aquaculture:lockbox", weight: 30.25f }

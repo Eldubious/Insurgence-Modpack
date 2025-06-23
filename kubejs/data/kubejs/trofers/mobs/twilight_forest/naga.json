@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#2F4F29",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 0,
+            "y": -4,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.naga.hiss"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:naga"
+    },
+    "name": {
+        "color": "#2F4F29",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.naga"
+            }
+        ]
+    }
+}

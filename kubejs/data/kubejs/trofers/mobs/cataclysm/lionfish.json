@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#04465C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "cataclysm:lionfish"
+    },
+    "name": {
+        "color": "#04465C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.lionfish"
+            }
+        ]
+    }
+}

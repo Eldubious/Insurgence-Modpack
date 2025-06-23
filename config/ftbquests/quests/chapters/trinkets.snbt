@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -32,7 +32,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			height: 1.25d
@@ -47,7 +47,7 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -3.5d
 			y: -4.1d
 		}
 		{
@@ -55,7 +55,7 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -3.5d
 			y: -2.6d
 		}
 		{
@@ -63,39 +63,7 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
-			y: -1.1d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:item/item_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:item/item_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:item/item_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.5d
-			y: -2.5d
-		}
-		{
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
+			x: -6.5d
 			y: -4.1d
 		}
 		{
@@ -103,7 +71,15 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 3.5d
+			y: -4.1d
+		}
+		{
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
 			y: -2.6d
 		}
 		{
@@ -111,8 +87,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: -1.1d
+			x: 6.5d
+			y: -4.1d
 		}
 		{
 			height: 1.0d
@@ -172,7 +148,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			height: 1.0d
@@ -195,7 +171,7 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
+			x: -5.0d
 			y: -4.1d
 		}
 		{
@@ -203,7 +179,7 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
+			x: 5.0d
 			y: -4.1d
 		}
 		{
@@ -213,14 +189,14 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			height: 1.0d
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
+			x: 5.0d
 			y: -2.6d
 		}
 		{
@@ -228,7 +204,7 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
+			x: -5.0d
 			y: -2.6d
 		}
 		{
@@ -341,7 +317,7 @@
 			}]
 			title: "&f&lRecycle Used Keys"
 			x: -1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -401,69 +377,6 @@
 			}]
 			title: "&f&lRecycle Used Keys"
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			icon: "regions_unexplored:steppe_grass"
-			id: "4771B922A724EAC4"
-			rewards: [{
-				id: "19188D96B0C549AD"
-				table_id: 6661071742813902340L
-				title: "&6&lRandom Wildlife Trophy"
-				type: "random"
-			}]
-			shape: "pentagon"
-			subtitle: "&2&oWildlife Collection"
-			tasks: [{
-				count: 3L
-				id: "1E815190477000F7"
-				item: { Count: 3, id: "minecraft:emerald" }
-				type: "item"
-			}]
-			title: "&f&lCollectable Trophies"
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			icon: "galosphere:lichen_roots"
-			id: "67B6B13414000FE7"
-			rewards: [{
-				id: "1BDD87DC6F4E1CFF"
-				table_id: 651223507179757921L
-				title: "&6&lRandom Monster Trophy"
-				type: "random"
-			}]
-			shape: "pentagon"
-			subtitle: "&4&oMonster Collection"
-			tasks: [{
-				count: 9L
-				id: "012501A1C2411B66"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			title: "&f&lCollectable Trophies"
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			icon: "quark:chorus_twist"
-			id: "7028554D78AEB997"
-			rewards: [{
-				id: "3138CC1345D46EFB"
-				table_id: 582863305946285195L
-				title: "&6&lRandom Boss Trophy"
-				type: "random"
-			}]
-			shape: "pentagon"
-			subtitle: "&9&oBoss Collection"
-			tasks: [{
-				count: 27L
-				id: "2359D89DD8226B72"
-				item: { Count: 27, id: "minecraft:emerald" }
-				type: "item"
-			}]
-			title: "&f&lCollectable Trophies"
-			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -490,7 +403,7 @@
 				type: "item"
 			}]
 			title: "&f&lBuy a Sapling"
-			x: 4.5d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -510,8 +423,8 @@
 				type: "item"
 			}]
 			title: "&f&lBottle o' Daydream"
-			x: -4.5d
-			y: -1.5d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			icon: "wan_ancient_beasts:glider_egg"
@@ -530,7 +443,7 @@
 				type: "item"
 			}]
 			title: "&f&lBuy a Hatchable Egg"
-			x: 6.0d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -550,8 +463,8 @@
 				type: "item"
 			}]
 			title: "&f&lRandom Armor Trim Template"
-			x: 4.5d
-			y: -1.5d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -572,7 +485,7 @@
 			}]
 			title: "&f&lUsed Key Inscribing Station"
 			x: 1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: false
@@ -690,7 +603,7 @@
 				type: "item"
 			}]
 			title: "&f&lFire Resistance Potion"
-			x: -4.5d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -733,7 +646,7 @@
 				type: "item"
 			}]
 			title: "&f&lTree Fertilizer"
-			x: 4.5d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -754,8 +667,8 @@
 				type: "item"
 			}]
 			title: "&f&lLoot Boxes!"
-			x: -4.5d
-			y: -4.5d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4EC3DFF09750A710"]
@@ -777,7 +690,7 @@
 			}]
 			title: "&f&lTrade-in Command Blocks"
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			icon: "minecraft:saddle"
@@ -795,7 +708,7 @@
 				type: "item"
 			}]
 			title: "&f&lSaddle"
-			x: 6.0d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -1247,8 +1160,8 @@
 				type: "item"
 			}]
 			title: "&f&lExperience Gems"
-			x: -6.0d
-			y: -3.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			icon: {
@@ -1274,7 +1187,7 @@
 				type: "item"
 			}]
 			title: "&f&lTotem of the Void"
-			x: -6.0d
+			x: -5.0d
 			y: -4.5d
 		}
 	]

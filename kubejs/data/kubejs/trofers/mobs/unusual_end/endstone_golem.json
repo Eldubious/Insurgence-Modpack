@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#F0E8AF",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "unusualend:endstone_golem_death"
+        }
+    },
+    "entity": {
+        "type": "unusualend:endstone_golem"
+    },
+    "name": {
+        "color": "#F0E8AF",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.unusualend.endstone_golem"
+            }
+        ]
+    }
+}

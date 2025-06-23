@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#195919",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.hedge_spider.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:hedge_spider"
+    },
+    "name": {
+        "color": "#195919",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.hedge_spider"
+            }
+        ]
+    }
+}

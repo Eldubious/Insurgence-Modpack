@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#D1524D",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125,
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:coralssus_ambient"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:coralssus"
+    },
+    "name": {
+        "color": "#D1524D",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.coralssus"
+            }
+        ]
+    }
+}

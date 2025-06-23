@@ -2,7 +2,7 @@
 	icon: "forbidden_arcanus:arcane_crystal_dust_speck"
 	id: "2C11732DFD4C669A"
 	loot_size: 1
-	order_index: 8
+	order_index: 5
 	rewards: [
 		{ count: 4, item: "forbidden_arcanus:arcane_crystal", weight: 2.0f }
 		{ count: 4, item: "forbidden_arcanus:rune", weight: 1.25f }
@@ -24,5 +24,5 @@
 		{ count: 3, item: "kubejs:enchant_catalyst", weight: 1.25f }
 		{ item: "kubejs:hyper_enchant_catalyst", weight: 0.5f }
 	]
-	title: "Small Reward"
+	title: "Quest Reward: Small"
 }

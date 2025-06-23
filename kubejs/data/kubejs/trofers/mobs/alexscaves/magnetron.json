@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#FF0000",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:magnetron_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:magnetron"
+    },
+    "name": {
+        "color": "#FF0000",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.magnetron"
+            }
+        ]
+    }
+}

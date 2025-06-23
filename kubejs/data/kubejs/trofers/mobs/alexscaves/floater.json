@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#6CCFE6",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "entity": {
+        "type": "alexscaves:floater"
+    },
+    "name": {
+        "color": "#6CCFE6",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.floater"
+            }
+        ]
+    }
+}

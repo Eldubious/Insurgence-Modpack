@@ -2,7 +2,7 @@
 	icon: "forbidden_arcanus:soul"
 	id: "190FC2F0641A88BB"
 	loot_size: 1
-	order_index: 11
+	order_index: 8
 	rewards: [
 		{ item: "forbidden_arcanus:soul" }
 		{ item: "forbidden_arcanus:corrupt_soul" }

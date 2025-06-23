@@ -194,11 +194,13 @@
 			size: 1.2d
 			tasks: [
 				{
+					disable_toast: true
 					id: "461C4C8C49D03271"
 					item: "dimdungeons:item_portal_key"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "01281A6BDFCEA233"
 					item: "dimdungeons:block_key_charger_used"
 					optional_task: true
@@ -302,17 +304,20 @@
 			size: 1.2d
 			tasks: [
 				{
+					disable_toast: true
 					id: "1D2593521547FFAA"
 					item: "dimdungeons:item_blank_advanced_key"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "3BD499688250776B"
-					item: { Count: 2, id: "dimdungeons:block_portal_crown" }
+					item: "dimdungeons:block_portal_crown"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "49F0370F89615EE9"
 					item: {
 						Count: 1
@@ -356,20 +361,23 @@
 			size: 1.2d
 			tasks: [
 				{
+					disable_toast: true
 					id: "4D51574C696C4D13"
 					item: "dimdungeons:block_portal_keyhole"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "563FE1B400765590"
-					item: { Count: 2, id: "dimdungeons:block_gilded_portal" }
+					item: "dimdungeons:block_gilded_portal"
 					type: "item"
 				}
 				{
 					count: 9L
+					disable_toast: true
 					id: "63EE99BD8E347329"
-					item: { Count: 9, id: "minecraft:stone_bricks" }
+					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 			]

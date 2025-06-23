@@ -1,0 +1,26 @@
+{
+    "colors": {
+      "accent": "#444444",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "iceandfire:hippogryph_idle"
+      }
+    },
+    "entity": {
+      "type": "iceandfire:hippogryph"
+    },
+    "name": {
+      "color": "#444444",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.hippogryph"
+        }
+      ]
+    }
+}

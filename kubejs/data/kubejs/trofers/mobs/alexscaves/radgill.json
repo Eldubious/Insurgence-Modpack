@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#F8FC00",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:radgill_flop"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:radgill"
+    },
+    "name": {
+        "color": "#F8FC00",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.radgill"
+            }
+        ]
+    }
+}

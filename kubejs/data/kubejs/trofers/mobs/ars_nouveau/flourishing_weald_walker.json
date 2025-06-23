@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#27D942",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "ars_nouveau:flourishing_weald_walker"
+    },
+    "name": {
+        "color": "#27D942",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ars_nouveau.flourishing_weald_walker"
+            }
+        ]
+    }
+}

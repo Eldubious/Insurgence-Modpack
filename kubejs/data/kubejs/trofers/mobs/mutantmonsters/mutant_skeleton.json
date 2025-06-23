@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#A8A7A5",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.185
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "mutantmonsters:entity.mutant_skeleton.ambient"
+        }
+    },
+    "entity": {
+        "type": "mutantmonsters:mutant_skeleton"
+    },
+    "name": {
+        "color": "#A8A7A5",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.mutantmonsters.mutant_skeleton"
+            }
+        ]
+    }
+}

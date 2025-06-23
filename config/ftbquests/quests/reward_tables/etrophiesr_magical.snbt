@@ -1,0 +1,204 @@
+{
+	id: "414788D3FEDA05CC"
+	loot_crate: {
+		color: 15696383
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.magical_trophies"
+		string_id: "trophies_magical"
+	}
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/amethyst_golem"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/starbuncle"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/whirlisprig"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/drygmy"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/wixie"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/flashing_weald_walker"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/cascading_weald_walker"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/flourishing_weald_walker"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/blazing_weald_walker"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/vexing_weald_walker"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/wilden_boss"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ars_nouveau/wilden_guardian"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/hippogryph"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/fire_dragon"
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/ice_dragon"
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/lightning_dragon"
+					}
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "&eTrophies:&r Magical"
+}

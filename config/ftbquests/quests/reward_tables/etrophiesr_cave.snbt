@@ -1,0 +1,209 @@
+{
+	id: "01CC567463C84550"
+	loot_crate: {
+		color: 7763574
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.cave_trophies"
+		string_id: "trophies_cave"
+	}
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:cave_spider"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:quark/stoneling"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/rocky_roller"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:axolotl"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/flutter"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/amethyst_crab"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:quark/forgotten"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:warden"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/skreecher"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/galosphere/spectre"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/galosphere/specterpillar"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/galosphere/sparkle"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/underminer"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/galosphere/berserker"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/galosphere/preserved"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/cockroach"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+	]
+	title: "&eTrophies:&r Cave"
+}

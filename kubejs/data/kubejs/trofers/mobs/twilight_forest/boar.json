@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#C9C2A9",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.boar.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:boar"
+    },
+    "name": {
+        "color": "#C9C2A9",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.boar"
+            }
+        ]
+    }
+}

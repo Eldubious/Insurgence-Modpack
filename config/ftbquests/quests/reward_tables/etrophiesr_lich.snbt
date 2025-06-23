@@ -1,0 +1,54 @@
+{
+	id: "24C59B4DD6C795D9"
+	loot_crate: {
+		color: 16776261
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.lich_trophies"
+		string_id: "trophies_lich"
+	}
+	loot_size: 1
+	order_index: 55
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/lich"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/lich_minion"
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/death_tome"
+					}
+				}
+			}
+			weight: 4.0f
+		}
+	]
+	title: "&eTrophies:&r Lich"
+}

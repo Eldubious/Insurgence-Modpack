@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#555555",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:mine_guardian_scan"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:mine_guardian"
+    },
+    "name": {
+        "color": "#555555",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.mine_guardian"
+            }
+        ]
+    }
+}

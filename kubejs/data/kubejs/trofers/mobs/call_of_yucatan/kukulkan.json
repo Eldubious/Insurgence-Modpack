@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#C99C28",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.140
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "call_of_yucutan:kukulkan_ambient"
+        }
+    },
+    "entity": {
+        "type": "call_of_yucutan:kukulkan"
+    },
+    "name": {
+        "color": "#C99C28",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.call_of_yucutan.kukulkan"
+            }
+        ]
+    }
+}

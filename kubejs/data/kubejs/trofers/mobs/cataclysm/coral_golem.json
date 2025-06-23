@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#D1524D",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.135,
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:coral_golem_hurt"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:coral_golem"
+    },
+    "name": {
+        "color": "#D1524D",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.coral_golem"
+            }
+        ]
+    }
+}

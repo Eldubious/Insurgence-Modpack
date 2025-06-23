@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#E3B307",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "entity": {
+        "type": "ars_nouveau:starbuncle"
+    },
+    "name": {
+        "color": "#E3B307",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ars_nouveau.starbuncle"
+            }
+        ]
+    }
+}

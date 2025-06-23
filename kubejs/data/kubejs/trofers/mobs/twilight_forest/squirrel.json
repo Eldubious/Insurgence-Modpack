@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#87541C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.45
+    },
+    "entity": {
+        "type": "twilightforest:squirrel"
+    },
+    "name": {
+        "color": "#87541C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.squirrel"
+            }
+        ]
+    }
+}

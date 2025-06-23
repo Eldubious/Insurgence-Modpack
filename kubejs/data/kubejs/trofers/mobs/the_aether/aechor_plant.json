@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#7CD5F2",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.aechor_plant.shoot"
+        }
+    },
+    "entity": {
+        "type": "aether:aechor_plant"
+    },
+    "name": {
+        "color": "#7CD5F2",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.aechor_plant"
+            }
+        ]
+    }
+}

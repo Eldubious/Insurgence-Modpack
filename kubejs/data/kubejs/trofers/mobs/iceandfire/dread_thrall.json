@@ -1,0 +1,26 @@
+{
+    "colors": {
+      "accent": "#B3B0AB",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:entity.skeleton.ambient"
+      }
+    },
+    "entity": {
+      "type": "iceandfire:dread_thrall"
+    },
+    "name": {
+      "color": "#B3B0AB",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.dread_thrall"
+        }
+      ]
+    }
+}

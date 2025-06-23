@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#61421C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:gingerbread_man_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:gingerbread_man"
+    },
+    "name": {
+        "color": "#61421C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.gingerbread_man"
+            }
+        ]
+    }
+}

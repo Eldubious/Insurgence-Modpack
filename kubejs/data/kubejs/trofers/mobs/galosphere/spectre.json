@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#CCDFE3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "galosphere:entity.spectre.ambient"
+        }
+    },
+    "entity": {
+        "type": "galosphere:spectre"
+    },
+    "name": {
+        "color": "#CCDFE3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.galosphere.spectre"
+            }
+        ]
+    }
+}

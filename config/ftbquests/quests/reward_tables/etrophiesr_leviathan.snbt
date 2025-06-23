@@ -1,0 +1,136 @@
+{
+	id: "6C31F40FAA7E20EA"
+	loot_crate: {
+		color: 10490087
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.leviathan_trophies"
+		string_id: "trophies_leviathan"
+	}
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/the_leviathan"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/the_baby_leviathan"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/deepling"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/deepling_angler"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/deepling_brute"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/deepling_priest"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/deepling_warlock"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/lionfish"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/coral_golem"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/coralssus"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+	]
+	title: "&eTrophies:&r Leviathan"
+}

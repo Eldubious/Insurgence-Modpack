@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#D8DBC1",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125
+    },
+    "entity": {
+        "type": "twilightforest:armored_giant"
+    },
+    "name": {
+        "color": "#D8DBC1",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.armored_giant"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#AB2807",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "illagerinvasion:entity.archivist.ambient"
+        }
+    },
+    "entity": {
+        "type": "illagerinvasion:archivist"
+    },
+    "name": {
+        "color": "#AB2807",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.illagerinvasion.archivist"
+            }
+        ]
+    }
+}

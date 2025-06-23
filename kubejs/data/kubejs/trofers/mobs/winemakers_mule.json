@@ -1,0 +1,26 @@
+{
+    "colors": {
+      "accent": "#AA00AA",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:entity.mule.ambient"
+      }
+    },
+    "entity": {
+      "type": "vinery:mule"
+    },
+    "name": {
+      "color": "#AA00AA",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "trophy.kubejs.winemakers_mule"
+        }
+      ]
+    }
+}

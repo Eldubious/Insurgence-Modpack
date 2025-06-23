@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#07EB38",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.1
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:tremorzilla_roar"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:tremorzilla"
+    },
+    "name": {
+        "color": "#07EB38",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.tremorzilla"
+            }
+        ]
+    }
+}

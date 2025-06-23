@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#CFA67A",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "dummmmmmy:target_dummy"
+    },
+    "name": {
+        "color": "#CFA67A",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.dummmmmmy.target_dummy"
+            }
+        ]
+    }
+}

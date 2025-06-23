@@ -1,0 +1,398 @@
+{
+	id: "0A1D77E4FC4ED3C2"
+	loot_crate: {
+		color: 3114800
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.overworld_trophies"
+		string_id: "trophies_overworld"
+	}
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:pig"
+					}
+				}
+			}
+			weight: 3.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:sheep"
+					}
+				}
+			}
+			weight: 3.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:cow"
+					}
+				}
+			}
+			weight: 3.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:chicken"
+					}
+				}
+			}
+			weight: 3.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:horse"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:donkey"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mule"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:zombie"
+					}
+				}
+			}
+			weight: 2.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:skeleton"
+					}
+				}
+			}
+			weight: 2.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:creeper"
+					}
+				}
+			}
+			weight: 2.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/savage_and_ravage/creepie"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:spider"
+					}
+				}
+			}
+			weight: 2.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:skeleton_horse"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:goat"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/raccoon"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/skunk"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/grizzly_bear"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:wolf"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:fox"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/moth"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:phantom"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/platypus"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/bison"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/potoo"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/tasmanian_devil"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/bald_eagle"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/catfish"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ghost"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/cyclops"
+					}
+				}
+			}
+			weight: 0.55f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/troll"
+					}
+				}
+			}
+			weight: 0.55f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/stymphalian_bird"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/iceandfire/pixie"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+	]
+	title: "&eTrophies:&r Overworld"
+}

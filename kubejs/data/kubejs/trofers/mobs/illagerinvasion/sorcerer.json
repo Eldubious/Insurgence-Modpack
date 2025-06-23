@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#851362",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "illagerinvasion:entity.sorcerer.idle"
+        }
+    },
+    "entity": {
+        "type": "illagerinvasion:sorcerer"
+    },
+    "name": {
+        "color": "#851362",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.illagerinvasion.sorcerer"
+            }
+        ]
+    }
+}

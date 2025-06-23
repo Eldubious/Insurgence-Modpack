@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#EBB41C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "nethers_exoticism:moloch_ambient"
+        }
+    },
+    "entity": {
+        "type": "nethers_exoticism:moloch"
+    },
+    "name": {
+        "color": "#EBB41C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.nethers_exoticism.moloch"
+            }
+        ]
+    }
+}

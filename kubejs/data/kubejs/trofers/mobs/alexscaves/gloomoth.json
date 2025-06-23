@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#61421C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:gloomoth_flap"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:gloomoth"
+    },
+    "name": {
+        "color": "#61421C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.gloomoth"
+            }
+        ]
+    }
+}

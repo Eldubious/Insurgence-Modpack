@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#510CA6",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.swarm_spider.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:swarm_spider"
+    },
+    "name": {
+        "color": "#510CA6",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.swarm_spider"
+            }
+        ]
+    }
+}

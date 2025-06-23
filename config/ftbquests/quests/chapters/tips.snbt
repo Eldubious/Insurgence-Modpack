@@ -726,6 +726,90 @@
 			x: 3.0d
 			y: -2.0d
 		}
+		{
+			description: ["To use these portals, place them in the world. Then right-click on it with an empty hand."]
+			id: "482B907FF80D5181"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&7&oUsing Their Portals"
+			tasks: [{
+				id: "206673F52E34B4CC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:depths_portal"
+							}
+							{
+								Count: 1b
+								id: "kubejs:dragon_portal"
+							}
+							{
+								Count: 1b
+								id: "kubejs:inbetween_portal"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Custom Dimensions"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You can use the Enchanting Apparatus to enchant items manually using source and materials instead of xp levels."
+				""
+				"In this modpack, every enchantment has a recipe in the Enchanting Apparatus."
+				""
+				"Consult the Ars Nouveau guidebook (&oWorn Notebook&r) for more info."
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "16C61DD79A0F5478"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2215F60D663F6878"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F176BE53D8EBB19"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4EBBB0D48F28D6D6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "kubejs:enchant_catalyst"
+								}
+								{
+									Count: 1b
+									id: "kubejs:hyper_enchant_catalyst"
+								}
+							]
+						}
+					}
+					title: "Enchant Catalyst"
+					type: "item"
+				}
+			]
+			title: "Enchanting With Materials"
+			x: 1.5d
+			y: -5.5d
+		}
 	]
 	title: "Tips"
 }

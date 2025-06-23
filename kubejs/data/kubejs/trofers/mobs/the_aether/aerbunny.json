@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#BADCE3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.aerbunny.lift"
+        }
+    },
+    "entity": {
+        "type": "aether:aerbunny"
+    },
+    "name": {
+        "color": "#BADCE3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.aerbunny"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#3455C9",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.75
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.tiny_bird.chirp"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:tiny_bird"
+    },
+    "name": {
+        "color": "#3455C9",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.tiny_bird"
+            }
+        ]
+    }
+}

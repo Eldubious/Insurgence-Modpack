@@ -1,7 +1,7 @@
 {
 	id: "2252760EA9B068D6"
 	loot_size: 1
-	order_index: 14
+	order_index: 11
 	rewards: [
 		{ item: "minecraft:turtle_egg" }
 		{ item: "minecraft:sniffer_egg" }

@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#523B0B",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:necromancer",
+        "nbt": "{ArmorItems:[{id:\"minecraft:air\",Count:1},{id:\"minecraft:air\",Count:1},{id:\"minecraft:air\",Count:1},{id:\"irons_spellbooks:tarnished_helmet\",Count:1}]}"
+    },
+    "name": {
+        "color": "#523B0B",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.necromancer"
+            }
+        ]
+    }
+}

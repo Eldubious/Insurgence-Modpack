@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#824822",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "galosphere:entity.preserved.idle"
+        }
+    },
+    "entity": {
+        "type": "galosphere:preserved"
+    },
+    "name": {
+        "color": "#824822",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.galosphere.preserved"
+            }
+        ]
+    }
+}

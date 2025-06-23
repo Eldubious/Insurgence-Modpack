@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#DE528F",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.45,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:sweetish_fish_flop"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:sweetish_fish"
+    },
+    "name": {
+        "color": "#DE528F",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.sweetish_fish"
+            }
+        ]
+    }
+}

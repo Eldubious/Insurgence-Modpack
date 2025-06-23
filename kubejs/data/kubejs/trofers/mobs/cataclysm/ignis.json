@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#EBB626",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.175,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:ignis_ambient"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:ignis"
+    },
+    "name": {
+        "color": "#EBB626",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.ignis"
+            }
+        ]
+    }
+}

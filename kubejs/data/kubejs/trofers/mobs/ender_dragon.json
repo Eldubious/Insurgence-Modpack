@@ -4,7 +4,17 @@
         "base": "#606060"
     },
     "display": {
-        "scale": 0.25
+        "scale": 0.125,
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "offset": {
+            "x": 0,
+            "y": 3,
+            "z": 0
+        }
     },
     "effects": {
         "sound": {
@@ -16,7 +26,7 @@
     },
     "name": {
         "color": "#A14FB6",
-        "translate": "trofers.trophy.composed",
+        "translate": "trophy.trofers.composed",
         "with": [
             {
                 "translate": "entity.minecraft.ender_dragon"

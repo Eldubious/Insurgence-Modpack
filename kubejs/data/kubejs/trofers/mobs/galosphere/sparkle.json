@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#82D1E0",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "entity": {
+        "type": "galosphere:sparkle"
+    },
+    "name": {
+        "color": "#82D1E0",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.galosphere.sparkle"
+            }
+        ]
+    }
+}

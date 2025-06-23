@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#413B47",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:citadel_keeper"
+    },
+    "name": {
+        "color": "#413B47",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.citadel_keeper"
+            }
+        ]
+    }
+}

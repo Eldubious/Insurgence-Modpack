@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#A4B3BA",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "wan_ancient_beasts:entity.eater.idle"
+        }
+    },
+    "entity": {
+        "type": "wan_ancient_beasts:eater"
+    },
+    "name": {
+        "color": "#A4B3BA",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.wan_ancient_beasts.eater"
+            }
+        ]
+    }
+}

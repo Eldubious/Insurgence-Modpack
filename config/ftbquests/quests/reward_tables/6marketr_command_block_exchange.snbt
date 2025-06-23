@@ -2,7 +2,7 @@
 	icon: "minecraft:command_block"
 	id: "27ACA8B2F7637B45"
 	loot_size: 1
-	order_index: 16
+	order_index: 13
 	rewards: [
 		{ item: "minecraft:chain_command_block" }
 		{ item: "minecraft:repeating_command_block" }

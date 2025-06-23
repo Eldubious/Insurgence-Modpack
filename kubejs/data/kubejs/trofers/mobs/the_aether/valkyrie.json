@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#EEEEEE",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.valkyrie.interact"
+        }
+    },
+    "entity": {
+        "type": "aether:valkyrie"
+    },
+    "name": {
+        "color": "#EEEEEE",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.valkyrie"
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+	id: "7E9558A8AEFAF661"
+	loot_crate: {
+		color: 10984515
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.ancient_remnant_trophies"
+		string_id: "trophies_ancient_remnant"
+	}
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/ancient_remnant"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/modern_remnant"
+					}
+				}
+			}
+			weight: 2.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/koboloton"
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/kobolediator"
+					}
+				}
+			}
+			weight: 2.5f
+		}
+	]
+	title: "&eTrophies:&r Ancient Remnant"
+}

@@ -1,0 +1,31 @@
+{
+    "colors": {
+      "accent": "#094512",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25,
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": -2
+      }
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "iceandfire:gorgon_idle"
+      }
+    },
+    "entity": {
+      "type": "iceandfire:gorgon"
+    },
+    "name": {
+      "color": "#094512",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.gorgon"
+        }
+      ]
+    }
+}

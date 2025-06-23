@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#86CAD9",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:deepling_idle"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:deepling_priest"
+    },
+    "name": {
+        "color": "#86CAD9",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.deepling_priest"
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#DB8344",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 1
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:submarine_sonar"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:submarine"
+    },
+    "name": {
+        "color": "#DB8344",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.submarine"
+            }
+        ]
+    }
+}

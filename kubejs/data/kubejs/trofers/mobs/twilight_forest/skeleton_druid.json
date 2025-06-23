@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#2F4F29",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.skeleton_druid.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:skeleton_druid"
+    },
+    "name": {
+        "color": "#2F4F29",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.skeleton_druid"
+            }
+        ]
+    }
+}

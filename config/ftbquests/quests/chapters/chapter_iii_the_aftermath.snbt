@@ -57,14 +57,16 @@
 			size: 1.25d
 			tasks: [
 				{
+					disable_toast: true
 					id: "3FEE59AD276BAA92"
 					item: "witherstormmod:super_beacon"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "1B6618ED8A657917"
-					item: { Count: 4, id: "witherstormmod:super_support_beacon" }
+					item: "witherstormmod:super_support_beacon"
 					type: "item"
 				}
 			]

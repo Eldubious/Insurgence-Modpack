@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#0595FC",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.sentry.squish"
+        }
+    },
+    "entity": {
+        "type": "aether:sentry"
+    },
+    "name": {
+        "color": "#0595FC",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.sentry"
+            }
+        ]
+    }
+}

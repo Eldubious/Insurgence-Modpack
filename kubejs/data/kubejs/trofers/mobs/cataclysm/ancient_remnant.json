@@ -1,0 +1,36 @@
+{
+    "colors": {
+        "accent": "#E3B307",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125,
+        "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+        },
+        "offset": {
+            "x": -2,
+            "y": 0,
+            "z": 3
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:remnant_idle"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:ancient_remnant"
+    },
+    "name": {
+        "color": "#E3B307",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.ancient_remnant"
+            }
+        ]
+    }
+}

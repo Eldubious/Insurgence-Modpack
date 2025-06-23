@@ -1,0 +1,27 @@
+{
+    "colors": {
+      "accent": "#A31F08",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.085
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "iceandfire:firedragon_adult_idle"
+      }
+    },
+    "entity": {
+      "type": "iceandfire:fire_dragon",
+      "nbt": "{AgeTicks:1800000}"
+    },
+    "name": {
+      "color": "#A31F08",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.fire_dragon"
+        }
+      ]
+    }
+}

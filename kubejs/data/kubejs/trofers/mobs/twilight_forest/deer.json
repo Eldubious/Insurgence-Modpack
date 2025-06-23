@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#825C35",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.deer.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:deer"
+    },
+    "name": {
+        "color": "#825C35",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.deer"
+            }
+        ]
+    }
+}

@@ -1,0 +1,255 @@
+{
+	id: "431C51C1BAB06716"
+	loot_crate: {
+		color: 9460119
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.the_end_trophies"
+		string_id: "trophies_the_end"
+	}
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:enderman"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:shulker"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ender_dragon"
+					}
+				}
+			}
+			weight: 0.45f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/mimicube"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/cosmaw"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/endergetic_expansion/booflo"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/endergetic_expansion/puff_bug"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/enderiophage"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/endergrade"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/glub"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/bluk"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/bolok"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/spunkler"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/ender_firefly"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/undead_enderling"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/dragling"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/endstone_golem"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/enderbulb"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/small_enderbulb"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/unusual_end/ender_blob"
+					}
+				}
+			}
+		}
+	]
+	title: "&eTrophies:&r The End"
+}

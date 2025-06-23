@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#7E26A3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.165
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:relicheirus_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:relicheirus"
+    },
+    "name": {
+        "color": "#7E26A3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.relicheirus"
+            }
+        ]
+    }
+}

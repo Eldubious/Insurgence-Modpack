@@ -2,7 +2,7 @@
 	icon: "forbidden_arcanus:xpetrified_orb"
 	id: "1E1BE080B7258F33"
 	loot_size: 1
-	order_index: 10
+	order_index: 7
 	rewards: [
 		{ item: "minecraft:experience_bottle" }
 		{ item: "forbidden_arcanus:xpetrified_orb" }

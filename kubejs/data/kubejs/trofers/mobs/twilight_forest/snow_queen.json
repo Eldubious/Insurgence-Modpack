@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#2245E3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.snow_queen.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:snow_queen"
+    },
+    "name": {
+        "color": "#2245E3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.snow_queen"
+            }
+        ]
+    }
+}

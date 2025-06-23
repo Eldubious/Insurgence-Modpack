@@ -1,0 +1,26 @@
+{
+    "colors": {
+      "accent": "#A1D16B",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "iceandfire:siren_song"
+      }
+    },
+    "entity": {
+      "type": "iceandfire:siren"
+    },
+    "name": {
+      "color": "#A1D16B",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.siren"
+        }
+      ]
+    }
+}

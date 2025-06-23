@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#FFF959",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.2
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:candicorn_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:candicorn"
+    },
+    "name": {
+        "color": "#FFF959",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.candicorn"
+            }
+        ]
+    }
+}

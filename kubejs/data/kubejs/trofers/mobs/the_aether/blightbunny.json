@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#7CD5F2",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether_redux:entity.blightbunny.hurt"
+        }
+    },
+    "entity": {
+        "type": "aether_redux:blightbunny"
+    },
+    "name": {
+        "color": "#7CD5F2",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether_redux.blightbunny"
+            }
+        ]
+    }
+}

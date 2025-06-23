@@ -1,0 +1,90 @@
+{
+	id: "6DB8B51B2625BFCB"
+	loot_crate: {
+		color: 2096901
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.toxic_cave_trophies"
+		string_id: "trophies_toxic_caves"
+	}
+	loot_size: 1
+	order_index: 59
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/nucleeper"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/raycat"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/radgill"
+					}
+				}
+			}
+			weight: 2.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/brainiac"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/gamma_roach"
+					}
+				}
+			}
+			weight: 2.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/tremorzilla"
+					}
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "&eTrophies:&r Toxic Caves"
+}

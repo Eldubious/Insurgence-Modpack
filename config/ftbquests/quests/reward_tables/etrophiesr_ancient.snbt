@@ -1,0 +1,88 @@
+{
+	id: "7F4DDA6E0612FDEF"
+	loot_crate: {
+		color: 11498554
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.ancient_trophies"
+		string_id: "trophies_ancient"
+	}
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:sniffer"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/eater"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/walker"
+					}
+				}
+			}
+			weight: 0.85f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/crusher"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/glider"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/soarer"
+					}
+				}
+			}
+			weight: 0.85f
+		}
+	]
+	title: "&eTrophies:&r Ancient"
+}

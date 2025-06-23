@@ -1,0 +1,112 @@
+{
+	id: "2F07F147AAE29CF0"
+	loot_crate: {
+		color: 4541980
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.kubejs.swamp_trophies"
+		string_id: "trophies_swamp"
+	}
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:frog"
+					}
+				}
+			}
+			weight: 1.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/shoebill"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/crocodile"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/caiman"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alexsmobs/alligator_snapping_turtle"
+					}
+				}
+			}
+			weight: 1.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:witch"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:slime"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/ribbit"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "&eTrophies:&r Swamp"
+}

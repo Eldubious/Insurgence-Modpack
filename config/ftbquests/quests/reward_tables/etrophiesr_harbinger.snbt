@@ -1,0 +1,55 @@
+{
+	id: "008D6C32318D73EF"
+	loot_crate: {
+		color: 11141120
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.harbinger_trophies"
+		string_id: "trophies_harbinger"
+	}
+	loot_size: 1
+	order_index: 49
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/the_harbinger"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/the_prowler"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/the_watcher"
+					}
+				}
+			}
+			weight: 7.5f
+		}
+	]
+	title: "&eTrophies:&r Harbinger"
+}

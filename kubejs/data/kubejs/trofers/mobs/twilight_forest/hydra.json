@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#40A1C2",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.085
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.hydra.growl"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:hydra"
+    },
+    "name": {
+        "color": "#40A1C2",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.hydra"
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#E005F0",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "realmrpg_wyrms:wyrm_ambient"
+        }
+    },
+    "entity": {
+        "type": "realmrpg_wyrms:ender_wyrm"
+    },
+    "name": {
+        "color": "#E005F0",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.realmrpg_wyrms.ender_wyrm"
+            }
+        ]
+    }
+}

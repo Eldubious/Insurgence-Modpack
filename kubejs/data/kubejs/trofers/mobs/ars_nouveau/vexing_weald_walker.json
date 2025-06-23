@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#805B87",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "ars_nouveau:vexing_weald_walker"
+    },
+    "name": {
+        "color": "#805B87",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ars_nouveau.vexing_weald_walker"
+            }
+        ]
+    }
+}

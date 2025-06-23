@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#FFFFFF",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "ars_nouveau:wilden_guardian"
+    },
+    "name": {
+        "color": "#FFFFFF",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ars_nouveau.wilden_guardian"
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "colors": {
+      "accent": "#2C3291",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.125,
+      "offset": {
+        "x": 0,
+        "y": 3,
+        "z": 0
+      }
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "iceandfire:amphithere_idle"
+      }
+    },
+    "entity": {
+      "type": "iceandfire:amphithere"
+    },
+    "name": {
+      "color": "#2C3291",
+      "translate": "trophy.trofers.composed",
+      "with": [
+        {
+          "translate": "entity.iceandfire.amphithere"
+        }
+      ]
+    }
+}

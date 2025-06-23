@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#666666",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.maze_slime.squish"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:maze_slime"
+    },
+    "name": {
+        "color": "#666666",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.maze_slime"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#FFFFFF",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "mutantmonsters:entity.mutant_snow_golem.hurt"
+        }
+    },
+    "entity": {
+        "type": "mutantmonsters:mutant_snow_golem"
+    },
+    "name": {
+        "color": "#FFFFFF",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.mutantmonsters.mutant_snow_golem"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#6E2A2B",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:pyromancer",
+        "nbt": "{ArmorItems:[{id:\"irons_spellbooks:pyromancer_boots\",Count:1},{id:\"irons_spellbooks:pyromancer_leggings\",Count:1},{id:\"irons_spellbooks:pyromancer_chestplate\",Count:1},{id:\"irons_spellbooks:pyromancer_helmet\",Count:1}]}"
+    },
+    "name": {
+        "color": "#6E2A2B",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.pyromancer"
+            }
+        ]
+    }
+}

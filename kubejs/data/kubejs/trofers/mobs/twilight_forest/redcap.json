@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#140C59",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.redcap.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:redcap"
+    },
+    "name": {
+        "color": "#140C59",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.redcap"
+            }
+        ]
+    }
+}

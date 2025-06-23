@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#46633A",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.2
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "alexscaves:brainiac_idle"
+        }
+    },
+    "entity": {
+        "type": "alexscaves:brainiac"
+    },
+    "name": {
+        "color": "#46633A",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.alexscaves.brainiac"
+            }
+        ]
+    }
+}

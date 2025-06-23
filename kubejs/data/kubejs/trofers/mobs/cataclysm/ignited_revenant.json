@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#EBB626",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.2,
+        "offset": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:revenant_idle"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:ignited_revenant"
+    },
+    "name": {
+        "color": "#EBB626",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.ignited_revenant"
+            }
+        ]
+    }
+}

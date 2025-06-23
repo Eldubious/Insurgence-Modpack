@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#63C79F",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.quest_ram.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:quest_ram"
+    },
+    "name": {
+        "color": "#63C79F",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.quest_ram"
+            }
+        ]
+    }
+}

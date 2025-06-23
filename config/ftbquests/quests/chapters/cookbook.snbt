@@ -922,11 +922,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "4ED1A97FEABB30D2"
 					item: "farmersdelight:roast_chicken_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2C38587AA82319C0"
 					item: "farmersdelight:roast_chicken"
 					type: "item"
@@ -942,11 +944,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "0CBDC51C2896C1C9"
 					item: "farmersdelight:honey_glazed_ham_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "61AEF9663C913797"
 					item: "farmersdelight:honey_glazed_ham"
 					type: "item"
@@ -962,11 +966,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5D70A97D47488910"
 					item: "farmersdelight:shepherds_pie_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "473E6EEF9370275D"
 					item: "farmersdelight:shepherds_pie"
 					type: "item"
@@ -982,16 +988,19 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5CEDCB85E89059A5"
 					item: "mynethersdelight:striderloaf"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1CBCE331E9D1AD38"
 					item: "mynethersdelight:plate_of_striderloaf"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "50347DCDA4438A8B"
 					item: "mynethersdelight:plate_of_cold_striderloaf"
 					type: "item"
@@ -1007,11 +1016,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "30A2BFC0A48B1881"
 					item: "twilightdelight:lily_chicken_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4B50C1B40EEB63BF"
 					item: "twilightdelight:plate_of_lily_chicken"
 					type: "item"
@@ -1028,11 +1039,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "0DA7F07323935096"
 					item: "twilightdelight:fiery_snakes_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6136E66F44DED181"
 					item: "twilightdelight:plate_of_fiery_snakes"
 					type: "item"
@@ -1049,11 +1062,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "28E301AE92E26744"
 					item: "twilightdelight:meef_wellington_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0B88341A2EBF824C"
 					item: "twilightdelight:plate_of_meef_wellington"
 					type: "item"
@@ -1070,11 +1085,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "7916BDF326181DD5"
 					item: "arsdelight:honey_glazed_chimera"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "26738402AD3E0F1F"
 					item: "arsdelight:bowl_of_honey_glazed_chimera"
 					type: "item"
@@ -1090,16 +1107,19 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "234751184883500F"
 					item: "arsdelight:wilden_salad"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "68135E3040C9E712"
 					item: "arsdelight:bowl_of_wilden_salad"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "12B34449BA63C58D"
 					item: "arsdelight:horn_roll"
 					type: "item"
@@ -1115,11 +1135,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5F644DCBA154F7C1"
 					item: "ends_delight:grilled_shulker_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7D8F9FD2A464026E"
 					item: "ends_delight:grilled_shulker"
 					type: "item"
@@ -1135,21 +1157,25 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "1FC14FD6A3823DCB"
 					item: "mynethersdelight:roast_stuffed_hoglin"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4DEAA99B831B245F"
 					item: "mynethersdelight:plate_of_stuffed_hoglin_snout"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6C2B74F5103D92CF"
 					item: "mynethersdelight:plate_of_stuffed_hoglin_ham"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "22D9B59E5DA83BD5"
 					item: "mynethersdelight:plate_of_stuffed_hoglin"
 					type: "item"
@@ -1165,11 +1191,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "3D352A0693BA3E4B"
 					item: "mynethersdelight:ghasta_with_cream"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "32E9430E8FB75983"
 					item: "mynethersdelight:plate_of_ghasta_with_cream"
 					type: "item"
@@ -1185,11 +1213,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "63255453CFC8410D"
 					item: "farmersdelight:stuffed_pumpkin_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6FE33684E910CF16"
 					item: "farmersdelight:stuffed_pumpkin"
 					type: "item"
@@ -1205,11 +1235,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "44FAC7ED4246D5C8"
 					item: "trailandtales_delight:stuffed_sniffer_egg_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "779646F1EA44B9D2"
 					item: "trailandtales_delight:stuffed_sniffer_egg"
 					type: "item"
@@ -1225,11 +1257,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5E0E5C789BFB4ED9"
 					item: "miners_delight:stuffed_squid"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4C219C4AE5E2B4F9"
 					item: "miners_delight:bowl_of_stuffed_squid"
 					type: "item"
@@ -1245,11 +1279,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "4A379FEC7E44F689"
 					item: "ends_delight:dragon_meat_stew_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7D9B76064FA1E2F4"
 					item: "ends_delight:dragon_meat_stew"
 					type: "item"
@@ -1265,11 +1301,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "4E9CF0698F7D1820"
 					item: "ends_delight:steamed_dragon_egg_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6CE77C4D9625774D"
 					item: "ends_delight:steamed_dragon_egg"
 					type: "item"
@@ -1285,11 +1323,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "420B94020A04D6BB"
 					item: "ends_delight:dragon_leg_with_sauce_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "79779810764B63CB"
 					item: "ends_delight:dragon_leg_with_sauce"
 					type: "item"
@@ -1305,11 +1345,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "68326F01DBACC22F"
 					item: "oceanic_delight:stuffed_pufferfish"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2F7103C00A41CDA3"
 					item: "oceanic_delight:plate_of_stuffed_pufferfish"
 					type: "item"
@@ -1325,11 +1367,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "078906A14E395476"
 					item: "oceanic_delight:paella_plate"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "793B6A078664B0C2"
 					item: "oceanic_delight:bowl_of_paella"
 					type: "item"
@@ -1492,6 +1536,7 @@
 			size: 1.2d
 			tasks: [
 				{
+					disable_toast: true
 					id: "3E1D05B5D34673ED"
 					item: {
 						Count: 1
@@ -1521,6 +1566,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0E6A50C72208FB65"
 					item: {
 						Count: 1
@@ -1588,11 +1634,13 @@
 			size: 1.2d
 			tasks: [
 				{
+					disable_toast: true
 					id: "15A52CD1653FA148"
 					item: "farmersdelight:cutting_board"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7CEA405694499798"
 					item: {
 						Count: 1
@@ -2181,16 +2229,19 @@
 			size: 1.2d
 			tasks: [
 				{
+					disable_toast: true
 					id: "1920DE1820AD3350"
 					item: "vinery:grapevine_pot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "07D24BEF118427DD"
 					item: "vinery:apple_press"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1BB09048F62378AB"
 					item: "vinery:fermentation_barrel"
 					type: "item"

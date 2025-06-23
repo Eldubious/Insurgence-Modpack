@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#E3CF1B",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:archevoker",
+        "nbt": "{ArmorItems:[{id:\"irons_spellbooks:archevoker_boots\",Count:1},{id:\"irons_spellbooks:archevoker_leggings\",Count:1},{id:\"irons_spellbooks:archevoker_chestplate\",Count:1},{id:\"irons_spellbooks:archevoker_helmet\",Count:1}]}"
+    },
+    "name": {
+        "color": "#E3CF1B",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.archevoker"
+            }
+        ]
+    }
+}

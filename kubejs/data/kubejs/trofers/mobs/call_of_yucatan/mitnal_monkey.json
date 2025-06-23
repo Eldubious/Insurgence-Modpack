@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#C7AC65",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "call_of_yucutan:monkey_summoning"
+        }
+    },
+    "entity": {
+        "type": "call_of_yucutan:mitnal_monkey"
+    },
+    "name": {
+        "color": "#C7AC65",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.call_of_yucutan.mitnal_monkey"
+            }
+        ]
+    }
+}

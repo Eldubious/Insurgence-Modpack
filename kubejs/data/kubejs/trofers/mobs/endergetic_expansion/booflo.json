@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#42275C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "endergetic:entity.booflo.entity.croak"
+        }
+    },
+    "entity": {
+        "type": "endergetic:booflo"
+    },
+    "name": {
+        "color": "#42275C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.endergetic.booflo"
+            }
+        ]
+    }
+}

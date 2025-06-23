@@ -1,4 +1,6 @@
 {
+	autofocus_id: "2D1D7EBC3A9A9BA2"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "trophies"
@@ -11,6 +13,748 @@
 		}
 	}
 	id: "5630439797049014"
+	images: [
+		{
+			height: 2.5d
+			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			height: 0.8d
+			image: "cataclysm:item/lava_power_cell"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.973214285714299d
+			y: -0.4035455645010657d
+		}
+		{
+			height: 0.8d
+			image: "cataclysm:item/cursium_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.116071428571445d
+			y: -0.3678312787867881d
+		}
+		{
+			height: 2.5d
+			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 2.5d
+			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 2.5d
+			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			height: 2.5d
+			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			height: 2.5d
+			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			height: 0.8d
+			image: "traveloptics:item/last_glow"
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.544642857142875d
+			y: -0.7249741359296422d
+		}
+		{
+			height: 0.8d
+			image: "alexscaves:item/tree_star"
+			rotation: 0.0d
+			width: 0.8d
+			x: 12.50892857142859d
+			y: -0.7606884216439269d
+		}
+		{
+			height: 0.8d
+			image: "alexscaves:item/azure_neodymium_ingot"
+			rotation: 0.0d
+			width: 0.8d
+			x: 12.973214285714299d
+			y: -0.4035455645010657d
+		}
+		{
+			height: 0.8d
+			image: "alexscaves:item/occult_gem"
+			rotation: 0.0d
+			width: 0.8d
+			x: 12.080357142857153d
+			y: -0.3678312787867881d
+		}
+		{
+			height: 0.8d
+			image: "twilightforest:item/fortification_scepter"
+			rotation: 0.0d
+			width: 0.8d
+			x: 15.794642857142875d
+			y: -0.5821169930725034d
+		}
+		{
+			height: 0.8d
+			image: "twilightforest:item/carminite"
+			rotation: 0.0d
+			width: 0.8d
+			x: 15.187500000000021d
+			y: -0.5464027073582116d
+		}
+		{
+			height: 0.8d
+			image: "galosphere:item/cured_membrane"
+			rotation: 0.0d
+			width: 0.8d
+			x: 18.18750000000002d
+			y: -0.5821169930725034d
+		}
+		{
+			height: 0.8d
+			image: "dreadsteel:item/dreadsteel_ingot"
+			rotation: 0.0d
+			width: 0.8d
+			x: 18.901785714285737d
+			y: -0.6178312787867881d
+		}
+		{
+			height: 0.8d
+			image: "unusualend:item/wandering_pearl"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.080357142857146d
+			y: -0.4035455645010799d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/quartz"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.544642857142868d
+			y: -0.7249741359296422d
+		}
+		{
+			height: 0.8d
+			image: "irons_spellbooks:item/arcane_rune"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.937500000000007d
+			y: -0.4392598502153575d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/carrot"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.080357142857146d
+			y: -0.40354556450108703d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/amethyst_shard"
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.008928571428584d
+			y: -0.40354556450108703d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/nautilus_shell"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.6160714285714377d
+			y: -0.7249741359296564d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 8.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -23,7 +767,7 @@
 				"30B42A143CF6B40C"
 				"414142FF4EAD719C"
 			]
-			description: ["This chapter contains a few rewards for completing some optional hidden objectives."]
+			description: ["This chapter also contains a few hidden rewards for completing some specific optional objectives."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -43,9 +787,9 @@
 				title: "Okay!"
 				type: "checkmark"
 			}]
-			title: "About this Chapter"
-			x: 0.0d
-			y: -1.0d
+			title: "Hidden Achievements"
+			x: 0.4d
+			y: 2.6d
 		}
 		{
 			icon: "tropicraft:pina_colada"
@@ -80,8 +824,8 @@
 				type: "dimension"
 			}]
 			title: "Visit The Tropics!"
-			x: 0.0d
-			y: -3.0d
+			x: -0.5d
+			y: 3.85d
 		}
 		{
 			id: "167D34994ED3A72E"
@@ -115,8 +859,8 @@
 				type: "item"
 			}]
 			title: "Obtain The Essence of the Bees!"
-			x: 1.5d
-			y: -3.0d
+			x: -0.5d
+			y: 5.1d
 		}
 		{
 			id: "75D2417D9813722B"
@@ -151,8 +895,8 @@
 				type: "advancement"
 			}]
 			title: "Collect Every Type of Wine!"
-			x: -1.5d
-			y: -3.0d
+			x: 1.375d
+			y: 5.1d
 		}
 		{
 			icon: "minecraft:jukebox"
@@ -226,8 +970,8 @@
 				}
 			]
 			title: "Collect All of the Cataclysm Music Discs!"
-			x: -3.0d
-			y: -3.0d
+			x: 1.375d
+			y: 3.85d
 		}
 		{
 			icon: "create:handheld_worldshaper"
@@ -446,8 +1190,8 @@
 				}
 			]
 			title: "Become A Master Builder!"
-			x: 3.0d
-			y: -3.0d
+			x: 1.375d
+			y: 6.35d
 		}
 		{
 			id: "414142FF4EAD719C"
@@ -482,8 +1226,3450 @@
 				type: "advancement"
 			}]
 			title: "Sleep in the Aether Dimension!"
-			x: 0.0d
+			x: -0.5d
+			y: 6.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_overworld"
+				}
+			}
+			id: "1D301FFA582984AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27D2C7D037637FEC"
+				table_id: 728870540073161666L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oBasic Collection"
+			tasks: [{
+				count: 8L
+				id: "6F868970A4FDD95D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wheat"
+							}
+							{
+								Count: 1b
+								id: "supplementaries:flax"
+							}
+							{
+								Count: 1b
+								id: "quark:moss_paste"
+							}
+							{
+								Count: 1b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:potato"
+							}
+							{
+								Count: 1b
+								id: "minecraft:beetroot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 1b
+								id: "minecraft:melon"
+							}
+							{
+								Count: 1b
+								id: "minecraft:pumpkin"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cabbage"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:onion"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:rice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:straw"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:chili_pepper"
+							}
+							{
+								Count: 1b
+								id: "pineapple_delight:pineapple"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
 			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_overworld"
+				}
+			}
+			id: "2B8C925DA7AC46BC"
+			rewards: [{
+				count: 5
+				id: "7C8E6D78BA1BD515"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_overworld"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oBasic Collection"
+			tasks: [{
+				count: 40L
+				id: "3EDC0EDDF0BC26A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wheat"
+							}
+							{
+								Count: 1b
+								id: "supplementaries:flax"
+							}
+							{
+								Count: 1b
+								id: "quark:moss_paste"
+							}
+							{
+								Count: 1b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:potato"
+							}
+							{
+								Count: 1b
+								id: "minecraft:beetroot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:sweet_berries"
+							}
+							{
+								Count: 1b
+								id: "minecraft:melon"
+							}
+							{
+								Count: 1b
+								id: "minecraft:pumpkin"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cabbage"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:onion"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:rice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:straw"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:chili_pepper"
+							}
+							{
+								Count: 1b
+								id: "pineapple_delight:pineapple"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_cave"
+				}
+			}
+			id: "579B932B2C07FE67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "397E504EC73FB392"
+				table_id: 129573547177166160L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oCaverns Collection"
+			tasks: [{
+				count: 6L
+				id: "305BD16302B4EFF8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 1b
+								id: "galosphere:allurite_shard"
+							}
+							{
+								Count: 1b
+								id: "galosphere:lumiere_shard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:lapis_lazuli"
+							}
+							{
+								Count: 1b
+								id: "galosphere:pink_salt_shard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:redstone"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_village"
+				}
+			}
+			id: "2C37F39B705E7C9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49831317614C96BB"
+				table_id: 201086310559830010L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oVillage Collection"
+			tasks: [{
+				count: 4L
+				id: "2D4E54F031DF1202"
+				item: { Count: 4, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_desert"
+				}
+			}
+			id: "436A2540946B18F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C56E75761272EAD"
+				table_id: 4549003899156786426L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oDesert Collection"
+			tasks: [{
+				id: "3E80B2A6B44DCDD7"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_cold"
+				}
+			}
+			id: "30BA1F6535B945A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DBA3A19C7AD4CA9"
+				table_id: 8289941646902161948L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oIcy Collection"
+			tasks: [{
+				count: 4L
+				id: "4410CECBCF105EC4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:frozen_bone"
+							}
+							{
+								Count: 1b
+								id: "minecraft:packed_ice"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_swamp"
+				}
+			}
+			id: "02449128A3A9EBCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C573F5B8102C3CF"
+				table_id: 3388942534731537648L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oSwamp Collection"
+			tasks: [{
+				count: 2L
+				id: "44D3A415F9729774"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:fermented_spider_eye"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_cave"
+				}
+			}
+			id: "5DA2FB948063AE49"
+			rewards: [{
+				count: 5
+				id: "797D28D5EAB73CE0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_cave"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oCaverns Collection"
+			tasks: [{
+				count: 30L
+				id: "02E983502457159D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 1b
+								id: "galosphere:allurite_shard"
+							}
+							{
+								Count: 1b
+								id: "galosphere:lumiere_shard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:lapis_lazuli"
+							}
+							{
+								Count: 1b
+								id: "galosphere:pink_salt_shard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:redstone"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_village"
+				}
+			}
+			id: "591606381B2F8C59"
+			rewards: [{
+				count: 5
+				id: "0F1EAFDDAEB07014"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_village"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oVillage Collection"
+			tasks: [{
+				count: 20L
+				id: "568F5793BCB1AD3E"
+				item: { Count: 20, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_desert"
+				}
+			}
+			id: "32C11D7F0320DD17"
+			rewards: [{
+				count: 5
+				id: "6DDAE2ECF0B180E4"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_desert"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oDesert Collection"
+			tasks: [{
+				count: 5L
+				id: "751B761AE1B36F9C"
+				item: { Count: 5, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_cold"
+				}
+			}
+			id: "2CD4E70F2B53C8C2"
+			rewards: [{
+				count: 5
+				id: "2210B5C8DEC841BB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_cold"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oIcy Collection"
+			tasks: [{
+				count: 20L
+				id: "3E73A8FB8EE5AABA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:frozen_bone"
+							}
+							{
+								Count: 1b
+								id: "minecraft:packed_ice"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_swamp"
+				}
+			}
+			id: "2DAE9E4BEE14AE79"
+			rewards: [{
+				count: 5
+				id: "4E35AD7EAB5B1271"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_swamp"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oSwamp Collection"
+			tasks: [{
+				count: 10L
+				id: "0FA9557AF046235D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:fermented_spider_eye"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_jungle"
+				}
+			}
+			id: "0D1CCDC1D389438E"
+			rewards: [{
+				count: 5
+				id: "4BD582CCC131A12D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_jungle"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oJungle Collection"
+			tasks: [{
+				count: 15L
+				id: "0F200CD230D7F97F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "call_of_yucutan:elder_bone"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:jade"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:hematite"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:ancient_gold_ingot"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_strange"
+				}
+			}
+			id: "14FD1B3F2A0C5386"
+			rewards: [{
+				count: 5
+				id: "1B3EC66C27C06800"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_strange"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oMutated Collection"
+			tasks: [{
+				count: 5L
+				id: "46921615479AA802"
+				item: { Count: 5, id: "irons_spellbooks:lightning_bottle" }
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_magical"
+				}
+			}
+			id: "360A865B3E161C29"
+			rewards: [{
+				count: 5
+				id: "4E3090252610C75C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_magical"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oMystical Collection"
+			tasks: [{
+				count: 5L
+				id: "08D76E38A0BF5584"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:fire_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ender_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:holy_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blood_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:evocation_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:arcane_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:cooldown_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:protection_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:nature_rune"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:aqua_rune"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ancient"
+				}
+			}
+			id: "47305464D941162F"
+			rewards: [{
+				count: 5
+				id: "1A165DF816E398C3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_ancient"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oExtinct Collection"
+			tasks: [{
+				count: 5L
+				id: "5DF97D955285BCF7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:decorated_pot_sherds"
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_jungle"
+				}
+			}
+			id: "22ACD9561E092765"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BEAE9A4008C2F75"
+				table_id: 3659650989971092198L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oJungle Collection"
+			tasks: [{
+				count: 3L
+				id: "4DC3581006B1EB05"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "call_of_yucutan:elder_bone"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:jade"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:hematite"
+							}
+							{
+								Count: 1b
+								id: "call_of_yucutan:ancient_gold_ingot"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_strange"
+				}
+			}
+			id: "27E4C5E91BE7E73C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CFADFADEA851566"
+				table_id: 2327804716360366184L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oMutated Collection"
+			tasks: [{
+				id: "42E38E9A899A5305"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_magical"
+				}
+			}
+			id: "3FD42623C46DB7F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10074BCAE67EA601"
+				table_id: 4703878779906950604L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oMystical Collection"
+			tasks: [{
+				id: "349B0926D8C00C0B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:fire_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ender_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:holy_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blood_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:evocation_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:arcane_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:cooldown_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:protection_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:nature_rune"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:aqua_rune"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ancient"
+				}
+			}
+			id: "673ED5849CB57A94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E49B7C12465FE28"
+				table_id: 9173228182106734063L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oExtinct Collection"
+			tasks: [{
+				id: "7FAD13F52AAA56D6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:decorated_pot_sherds"
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_nether"
+				}
+			}
+			id: "41B5325780000910"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0749CBBE5AEEAA76"
+				table_id: 5204128213275844384L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oNether Collection"
+			tasks: [{
+				count: 3L
+				id: "6135BCBF3B3506A2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:blaze_rod"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "rubinated_nether:ruby"
+							}
+							{
+								Count: 1b
+								id: "rubinated_nether:molten_ruby"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_the_end"
+				}
+			}
+			id: "64115F01A2142DAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "158F86F738925B9D"
+				table_id: 4835829992391730966L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oEnder Collection"
+			tasks: [{
+				count: 3L
+				id: "13F1A130AD342989"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:shulker_shell"
+							}
+							{
+								Count: 1b
+								id: "endergetic:booflo_hide"
+							}
+							{
+								Count: 1b
+								id: "unusualend:wandering_pearl"
+							}
+							{
+								Count: 1b
+								id: "unusualend:end_blob"
+							}
+							{
+								Count: 1b
+								id: "unusualend:shiny_crystal"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_aether"
+				}
+			}
+			id: "653F9342BF1C33AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F0B40DD7AA534FE"
+				table_id: 6230024740143296217L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oAether Collection"
+			tasks: [{
+				id: "688977D9483E4218"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:zanite_gemstone"
+							}
+							{
+								Count: 1b
+								id: "aether_redux:veridium_ingot"
+							}
+							{
+								Count: 1b
+								id: "aether_redux:refined_sentrite"
+							}
+							{
+								Count: 1b
+								id: "ancient_aether:valkyrum"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_twilight_forest"
+				}
+			}
+			id: "406D761717396612"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E6CCAA0B78857B9"
+				table_id: 7139162256793086894L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oTwilight Collection"
+			tasks: [{
+				count: 3L
+				id: "0831B4094CBEF71A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:raven_feather"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:ironwood_ingot"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:steeleaf_ingot"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:naga_scale"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:firefly"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:cicada"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:moonworm"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_nether"
+				}
+			}
+			id: "4F0E195297DFA87F"
+			rewards: [{
+				count: 5
+				id: "1E1BCBDFDD2A0E45"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_nether"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oNether Collection"
+			tasks: [{
+				count: 15L
+				id: "38540ADE0D272AC7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:blaze_rod"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "rubinated_nether:ruby"
+							}
+							{
+								Count: 1b
+								id: "rubinated_nether:molten_ruby"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_the_end"
+				}
+			}
+			id: "6BD4A3B9ADDE88E7"
+			rewards: [{
+				count: 5
+				id: "0AD3B50488D64F85"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_the_end"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oEnder Collection"
+			tasks: [{
+				count: 15L
+				id: "2FDA571347B10BEF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:shulker_shell"
+							}
+							{
+								Count: 1b
+								id: "endergetic:booflo_hide"
+							}
+							{
+								Count: 1b
+								id: "unusualend:wandering_pearl"
+							}
+							{
+								Count: 1b
+								id: "unusualend:end_blob"
+							}
+							{
+								Count: 1b
+								id: "unusualend:shiny_crystal"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_aether"
+				}
+			}
+			id: "16D83FBB20E1F7BA"
+			rewards: [{
+				count: 5
+				id: "3DD9A0DB77903E18"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_aether"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oAether Collection"
+			tasks: [{
+				count: 5L
+				id: "2869F439DB6B24FF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:zanite_gemstone"
+							}
+							{
+								Count: 1b
+								id: "aether_redux:veridium_ingot"
+							}
+							{
+								Count: 1b
+								id: "aether_redux:refined_sentrite"
+							}
+							{
+								Count: 1b
+								id: "ancient_aether:valkyrum"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_twilight_forest"
+				}
+			}
+			id: "1AC11734CE8620CC"
+			rewards: [{
+				count: 5
+				id: "34DD4CAFB5C66839"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_twilight_forest"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oTwilight Collection"
+			tasks: [{
+				count: 15L
+				id: "42761F83F29186DE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:raven_feather"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:ironwood_ingot"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:steeleaf_ingot"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:naga_scale"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:firefly"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:cicada"
+							}
+							{
+								Count: 1b
+								id: "twilightforest:moonworm"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ocean"
+				}
+			}
+			id: "18D5D02366498BCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "035D3CBEC00C41C6"
+				table_id: 7233792146912621130L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oAquatic Collection"
+			tasks: [{
+				count: 5L
+				id: "250D710D8031C6E6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:ink_sac"
+							}
+							{
+								Count: 1b
+								id: "architects_palette:algal_brick"
+							}
+							{
+								Count: 1b
+								id: "minecraft:prismarine_shard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:prismarine_crystals"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nautilus_shell"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_bumblezone"
+				}
+			}
+			id: "112C8D174027B8CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6055078EF66A3E43"
+				table_id: 3874084332485151505L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oBumblezone Collection"
+			tasks: [{
+				count: 5L
+				id: "1A579E0D8FFC22A0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:honey_crystal_shards"
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:pollen_puff"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ocean"
+				}
+			}
+			id: "65C447B1791B28E7"
+			rewards: [{
+				count: 5
+				id: "60135576A82C0804"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_ocean"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oAquatic Collection"
+			tasks: [{
+				count: 25L
+				id: "2D17441AED7E3C2B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:ink_sac"
+							}
+							{
+								Count: 1b
+								id: "architects_palette:algal_brick"
+							}
+							{
+								Count: 1b
+								id: "minecraft:prismarine_shard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:prismarine_crystals"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nautilus_shell"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_bumblezone"
+				}
+			}
+			id: "4F45A9E538D7A484"
+			rewards: [{
+				count: 5
+				id: "6A9A0F7F30B03542"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_bumblezone"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oBumblezone Collection"
+			tasks: [{
+				count: 25L
+				id: "6BA973E1256FEF55"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:honey_crystal_shards"
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:pollen_puff"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_mages"
+				}
+			}
+			id: "109E6B62079D8D37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52E6A224688FBA67"
+				table_id: 8690607515596199066L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oArcane Collection"
+			tasks: [{
+				count: 3L
+				id: "5D56F8994459C9CD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "illagerinvasion:hallowed_gem"
+							}
+							{
+								Count: 1b
+								id: "create:shadow_steel"
+							}
+							{
+								Count: 1b
+								id: "create:refined_radiance"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Trophy Case"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_mages"
+				}
+			}
+			id: "54DA2E73850BD68C"
+			rewards: [{
+				count: 5
+				id: "396F3C5648287329"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_mages"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&e&oArcane Collection"
+			tasks: [{
+				count: 15L
+				id: "2298203EF12A13A0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "illagerinvasion:hallowed_gem"
+							}
+							{
+								Count: 1b
+								id: "create:shadow_steel"
+							}
+							{
+								Count: 1b
+								id: "create:refined_radiance"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Trophy Case"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_primordial_caves"
+				}
+			}
+			id: "2EAFE7D72482BE01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "492904BAEA029F88"
+				table_id: 8297453479550434941L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oPrimordial Collection"
+			tasks: [{
+				count: 8L
+				id: "485DDA60849A4188"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:tree_star"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:fiddlehead"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:pewen_branch"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_magnetic_caves"
+				}
+			}
+			id: "7F9785051E8D6D73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BD2722493CD99EC"
+				table_id: 2637988689553375443L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oMagnetic Collection"
+			tasks: [{
+				count: 4L
+				id: "67F0506B528D27D8"
+				item: {
+					Count: 2
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:scarlet_neodymium_ingot"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:azure_neodymium_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_toxic_caves"
+				}
+			}
+			id: "116FF5E28F7533EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29673F398D508087"
+				table_id: 7906268274057658315L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oToxic Collection"
+			tasks: [{
+				count: 4L
+				id: "0415DEAF4E35E15F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:uranium"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:sulfur_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_abyssal_chasm"
+				}
+			}
+			id: "67F6CE59042E46DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "128E94F2FEB75768"
+				table_id: 3111375032450842108L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oAbyssal Collection"
+			tasks: [{
+				count: 2L
+				id: "49475DDD2DA00795"
+				item: { Count: 2, id: "alexscaves:pearl" }
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_forlorn_hollow"
+				}
+			}
+			id: "4E1C436B3D98EFC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "117D0A399A393D1F"
+				table_id: 3613645503068880508L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oForlorn Collection"
+			tasks: [{
+				count: 2L
+				id: "5B963AEE547A7000"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:dark_tatters"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:occult_gem"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:vesper_wing"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:guano"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:moth_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_candy_cavity"
+				}
+			}
+			id: "2E6559AD72FB8B9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D89BC46F5C6241F"
+				table_id: 857684214088030585L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oCavity Collection"
+			tasks: [{
+				count: 2L
+				id: "383201179A5A6885"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_red"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_green"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_yellow"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_blue"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_pink"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_twilight_glacier"
+				}
+			}
+			id: "489E06F663129C90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "786706F86C508C79"
+				table_id: 3305543113365383052L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oAurora Collection"
+			tasks: [{
+				count: 2L
+				id: "31BC6A6E209AD073"
+				item: { Count: 2, id: "twilightforest:arctic_fur" }
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_lich"
+				}
+			}
+			id: "2BE0C4AD4F222E3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD28CF19EEB6ADC"
+				table_id: 2649694714395596249L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oLich Collection"
+			tasks: [{
+				id: "735C7D699F8B9B61"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:twilight_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:lifedrain_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:zombie_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:fortification_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ur_ghast"
+				}
+			}
+			id: "39B8053F7A5B298B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7107D8C0B6AC75E6"
+				table_id: 6269573970499726241L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oCarminite Collection"
+			tasks: [{
+				id: "58BBFBB44C72F851"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ender_guardian"
+				}
+			}
+			id: "2A77BAEF99306E37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EF2AC68735B1894"
+				table_id: 4291266000479817789L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oEnder Guardian Collection"
+			tasks: [{
+				id: "2EBE3DF052BE1306"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:void_core"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:void_spellweave_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_goblins"
+				}
+			}
+			id: "3CF15C4D65B15571"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "218426D512365931"
+				table_id: 9042203618133359801L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oGoblin Collection"
+			tasks: [{
+				count: 2L
+				id: "4BD17C68A4CEF7E7"
+				item: { Count: 2, id: "twilightforest:armor_shard" }
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_leviathan"
+				}
+			}
+			id: "546D3F650CD670F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03B1A792CCDA351D"
+				table_id: 7796280778077118698L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oLeviathan Collection"
+			tasks: [{
+				id: "3F6B40BF188C7CD6"
+				item: "traveloptics:abyssal_spellweave_ingot"
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ignis"
+				}
+			}
+			id: "342FCAF5BE06C89A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3927B46CE0D9343C"
+				table_id: 7525291026722897224L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oIgnis Collection"
+			tasks: [{
+				id: "2DBBB62A287CA75D"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_netherite_monstrosity"
+				}
+			}
+			id: "43AD05DEEB1C2FBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49EA85F789F7A1A3"
+				table_id: 5831201971387703049L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oNetherite Monstrosity Collection"
+			tasks: [{
+				count: 2L
+				id: "685A712FA6969D2E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:lava_power_cell"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:pyro_spellweave_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ancient_remnant"
+				}
+			}
+			id: "6D3B66A1899D3DB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "424F0CE9226C6D13"
+				table_id: 9121294101822240353L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oAncient Remnant Collection"
+			tasks: [{
+				id: "084BCED01F59659E"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_harbinger"
+				}
+			}
+			id: "7A76653C3C32D7E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66881F97178A866C"
+				table_id: 39806934551720943L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oHarbinger Collection"
+			tasks: [{
+				id: "2AB9411A41804AE4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:witherite_ingot"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:last_glow"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_goblins"
+				}
+			}
+			id: "2CA91A8A28A1038F"
+			rewards: [{
+				count: 5
+				id: "3D0CEDD7E5574AF6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_goblins"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oGoblin Collection"
+			tasks: [{
+				count: 10L
+				id: "7B57CA4952A7F67A"
+				item: { Count: 10, id: "twilightforest:armor_shard" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_twilight_glacier"
+				}
+			}
+			id: "64D12CE93804B25D"
+			rewards: [{
+				count: 5
+				id: "62DEAF42C6509E03"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_twilight_glacier"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oAurora Collection"
+			tasks: [{
+				count: 10L
+				id: "7E31EFE7CF558274"
+				item: { Count: 10, id: "twilightforest:arctic_fur" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_lich"
+				}
+			}
+			id: "3354907CD59E226D"
+			rewards: [{
+				count: 5
+				id: "0FC65762FEC30D7F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_lich"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oLich Collection"
+			tasks: [{
+				count: 5L
+				id: "27EF2F7DAE0931CF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:twilight_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:lifedrain_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:zombie_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:fortification_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ur_ghast"
+				}
+			}
+			id: "74B7AA5C170A7B46"
+			rewards: [{
+				count: 5
+				id: "2D6715AF2F6C5DCF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_ur_ghast"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oCarminite Collection"
+			tasks: [{
+				count: 5L
+				id: "70138FBC95B40F9E"
+				item: { Count: 5, id: "twilightforest:carminite" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ender_guardian"
+				}
+			}
+			id: "503AA8E3B2C5D6D1"
+			rewards: [{
+				count: 5
+				id: "089231DDDAF6D44C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_ender_guardian"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oEnder Guardian Collection"
+			tasks: [{
+				count: 5L
+				id: "6DAC095D5582117C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:void_core"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:void_spellweave_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_leviathan"
+				}
+			}
+			id: "286BDE99A4A4294B"
+			rewards: [{
+				count: 5
+				id: "13B109541402864C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_leviathan"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oLeviathan Collection"
+			tasks: [{
+				count: 5L
+				id: "2546473EB915A4E1"
+				item: { Count: 5, id: "traveloptics:abyssal_spellweave_ingot" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ignis"
+				}
+			}
+			id: "6B125CD38990F3CE"
+			rewards: [{
+				count: 5
+				id: "5B759FC5DEA8A1CE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_ignis"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oIgnis Collection"
+			tasks: [{
+				count: 5L
+				id: "42BE96D6DA5D74FF"
+				item: { Count: 5, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_netherite_monstrosity"
+				}
+			}
+			id: "032DE3B095F32538"
+			rewards: [{
+				count: 5
+				id: "05EDAA1A1F2419BB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_netherite_monstrosity"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oNetherite Monstrosity Collection"
+			tasks: [{
+				count: 10L
+				id: "3AE61E15729B189F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:lava_power_cell"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:pyro_spellweave_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_ancient_remnant"
+				}
+			}
+			id: "42A9BCA584B95BBA"
+			rewards: [{
+				count: 5
+				id: "3E5DC11D4352FF03"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_ancient_remnant"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oAncient Remnant Collection"
+			tasks: [{
+				count: 5L
+				id: "2C789DA92F7EA242"
+				item: { Count: 5, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_harbinger"
+				}
+			}
+			id: "1149823CC9F3F175"
+			rewards: [{
+				count: 5
+				id: "046E9B456625CCEB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_harbinger"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oHarbinger Collection"
+			tasks: [{
+				count: 5L
+				id: "2AE410066BD1AC06"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm:witherite_ingot"
+							}
+							{
+								Count: 1b
+								id: "traveloptics:last_glow"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_primordial_caves"
+				}
+			}
+			id: "12324D67CE1B5991"
+			rewards: [{
+				count: 5
+				id: "42B81D896A884E19"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oPrimordial Collection"
+			tasks: [{
+				count: 40L
+				id: "7FE0706D0D0719BE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:tree_star"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:fiddlehead"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:pewen_branch"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_magnetic_caves"
+				}
+			}
+			id: "7930F6E531554186"
+			rewards: [{
+				count: 5
+				id: "594BB505DA437739"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oMagnetic Collection"
+			tasks: [{
+				count: 20L
+				id: "3466550F600D7F56"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:scarlet_neodymium_ingot"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:azure_neodymium_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_toxic_caves"
+				}
+			}
+			id: "72D094A1324B6E91"
+			rewards: [{
+				count: 5
+				id: "3ABFE061FB624DFE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oToxic Collection"
+			tasks: [{
+				count: 20L
+				id: "189EB041313FA5FE"
+				item: {
+					Count: 20
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:uranium"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:sulfur_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_abyssal_chasm"
+				}
+			}
+			id: "23E51823D1B57E76"
+			rewards: [{
+				count: 5
+				id: "39A31C12C429C175"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oAbyssal Collection"
+			tasks: [{
+				count: 10L
+				id: "7524EFAE8E1B1471"
+				item: { Count: 10, id: "alexscaves:pearl" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_forlorn_hollow"
+				}
+			}
+			id: "24DE7C7EE2608117"
+			rewards: [{
+				count: 5
+				id: "6DD65395796BF8FF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_forlorn_hollow"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oForlorn Collection"
+			tasks: [{
+				count: 10L
+				id: "4E7E81AFC5407F86"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:dark_tatters"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:occult_gem"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:vesper_wing"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:guano"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:moth_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_candy_cavity"
+				}
+			}
+			id: "1EA6759D39A83242"
+			rewards: [{
+				count: 5
+				id: "64AE0AFE0F45905D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_candy_cavity"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oCavity Collection"
+			tasks: [{
+				count: 10L
+				id: "39FEAA1544915F43"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_red"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_green"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_yellow"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_blue"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:gelatin_pink"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_maledictus"
+				}
+			}
+			id: "0657FFBAB541CE38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43004FE641DE6753"
+				table_id: 5047938667906837492L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oMaledictus Collection"
+			tasks: [{
+				id: "6AC6E5DE331260A9"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_wither_storm"
+				}
+			}
+			id: "7D9D8208F93D33BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B6810AC633145F0"
+				table_id: 5154254125016463269L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oThe Storm Collection"
+			tasks: [{
+				id: "59CB5CEA72E51A1B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dreadsteel:dreadsteel_ingot"
+							}
+							{
+								Count: 1b
+								id: "galosphere:cured_membrane"
+							}
+							{
+								Count: 1b
+								id: "create:chromatic_compound"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_maledictus"
+				}
+			}
+			id: "2FDDDA96EB2D9C02"
+			rewards: [{
+				count: 5
+				id: "1355CE5D3F51B678"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_maledictus"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oMaledictus Collection"
+			tasks: [{
+				count: 5L
+				id: "382A7C61556CA4A1"
+				item: { Count: 5, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_wither_storm"
+				}
+			}
+			id: "0ECF25559D20DBF8"
+			rewards: [{
+				count: 5
+				id: "02C1D4B76887F55F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_wither_storm"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oThe Storm Collection"
+			tasks: [{
+				count: 5L
+				id: "42BD35D6E50739BA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dreadsteel:dreadsteel_ingot"
+							}
+							{
+								Count: 1b
+								id: "galosphere:cured_membrane"
+							}
+							{
+								Count: 1b
+								id: "create:chromatic_compound"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Trophies are decorative and collectible items which can be obtained from the questbook."
+				""
+				"Most trophies are found from loot crates which are purchased using various materials. The trophies are divided into various seperate &ocollections&r, each with their own trophies and odds."
+				""
+				"There are also some trophies which are given out as rewards for completing certain tasks. These are less common."
+				""
+				"By the way, there is no need to collect them &oall&r; there is no reward for doing that, so just grab as many as you want."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "2D1D7EBC3A9A9BA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29C11FCAB8ACE86D"
+				table_id: 2480134653658768814L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.8d
+			tasks: [{
+				id: "773EA94C5E791968"
+				title: "Alright!"
+				type: "checkmark"
+			}]
+			title: "Trophies"
+			x: 0.4d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: ["Submit any unwanted trophies here for a small compensation."]
+			icon: "create:experience_nugget"
+			id: "6858AD896689D928"
+			rewards: [{
+				id: "3912664DBBB8814B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F69B00EDFF222E6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trofers:small_plate"
+							}
+							{
+								Count: 1b
+								id: "trofers:medium_plate"
+							}
+							{
+								Count: 1b
+								id: "trofers:large_plate"
+							}
+							{
+								Count: 1b
+								id: "trofers:small_pillar"
+							}
+							{
+								Count: 1b
+								id: "trofers:medium_pillar"
+							}
+							{
+								Count: 1b
+								id: "trofers:large_pillar"
+							}
+						]
+					}
+				}
+				title: "Any Trophy"
+				type: "item"
+			}]
+			title: "Trophy Return"
+			x: 0.4d
+			y: -0.6d
 		}
 	]
 	title: "Trophies"

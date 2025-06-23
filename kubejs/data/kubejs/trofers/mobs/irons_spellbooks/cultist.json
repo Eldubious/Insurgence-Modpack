@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#70020F",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "irons_spellbooks:cultist",
+        "nbt": "{ArmorItems:[{id:\"irons_spellbooks:cultist_boots\",Count:1},{id:\"irons_spellbooks:cultist_leggings\",Count:1},{id:\"irons_spellbooks:cultist_chestplate\",Count:1},{id:\"irons_spellbooks:cultist_helmet\",Count:1}]}"
+    },
+    "name": {
+        "color": "#70020F",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.irons_spellbooks.cultist"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#C07ADE",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "ars_nouveau:amethyst_golem"
+    },
+    "name": {
+        "color": "#C07ADE",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.ars_nouveau.amethyst_golem"
+            }
+        ]
+    }
+}

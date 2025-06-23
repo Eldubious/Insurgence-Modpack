@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#C91E35",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.carminite_ghastguard.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:carminite_ghastguard"
+    },
+    "name": {
+        "color": "#C91E35",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.carminite_ghastguard"
+            }
+        ]
+    }
+}

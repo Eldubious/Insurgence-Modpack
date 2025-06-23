@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#BADCE3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.sheepuff.ambient"
+        }
+    },
+    "entity": {
+        "type": "aether:sheepuff"
+    },
+    "name": {
+        "color": "#BADCE3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.sheepuff"
+            }
+        ]
+    }
+}

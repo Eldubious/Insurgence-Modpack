@@ -39,28 +39,33 @@
 			tasks: [
 				{
 					count: 48L
+					disable_toast: true
 					id: "5D894DAABDA8DD9D"
 					item: "forbidden_arcanus:polished_darkstone"
 					type: "item"
 				}
 				{
 					count: 9L
+					disable_toast: true
 					id: "039AC52EE449D3DC"
-					item: { Count: 9, id: "forbidden_arcanus:arcane_chiseled_polished_darkstone" }
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "6E0A5F9F315A4AD9"
-					item: { Count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7CBC63CF06134016"
 					item: "minecraft:smithing_table"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "59F5EB6D3EA1EF7A"
 					item: "forbidden_arcanus:mundabitur_dust"
 					type: "item"
@@ -97,17 +102,20 @@
 			tasks: [
 				{
 					count: 4L
+					disable_toast: true
 					id: "12E76B97927EA014"
-					item: { Count: 4, id: "forbidden_arcanus:spawner_scrap" }
+					item: "forbidden_arcanus:spawner_scrap"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "045A4FE677482A98"
-					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					item: "forbidden_arcanus:arcane_crystal"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6306D6F4451495A7"
 					item: "forbidden_arcanus:edelwood_planks"
 					type: "item"
@@ -140,17 +148,20 @@
 			tasks: [
 				{
 					count: 4L
+					disable_toast: true
 					id: "270E2546603017B2"
-					item: { Count: 4, id: "forbidden_arcanus:deorum_ingot" }
+					item: "forbidden_arcanus:deorum_ingot"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "2C3D4254E578FB12"
-					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					item: "forbidden_arcanus:arcane_crystal"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "01300472145A0437"
 					item: "forbidden_arcanus:chiseled_polished_darkstone"
 					type: "item"
@@ -183,17 +194,20 @@
 			tasks: [
 				{
 					count: 4L
+					disable_toast: true
 					id: "6A8FE60AC880602B"
-					item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
+					item: "forbidden_arcanus:stellarite_piece"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "79C6A558889D47EB"
 					item: "forbidden_arcanus:dragon_scale"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "73F20E0E18AC56A3"
 					item: "forbidden_arcanus:rune_block"
 					type: "item"
@@ -226,23 +240,27 @@
 			tasks: [
 				{
 					count: 2L
+					disable_toast: true
 					id: "651B9E93FF0A7A97"
 					item: "create:shadow_steel"
 					type: "item"
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "08EBEC774667717D"
-					item: { Count: 2, id: "forbidden_arcanus:dark_nether_star" }
+					item: "forbidden_arcanus:dark_nether_star"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "00C941DDF8042D4B"
-					item: { Count: 4, id: "minecraft:sculk_catalyst" }
+					item: "minecraft:sculk_catalyst"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3336FD21E5B76076"
 					item: "forbidden_arcanus:stellarite_block"
 					type: "item"
@@ -512,14 +530,16 @@
 			size: 2.0d
 			tasks: [
 				{
+					disable_toast: true
 					id: "7F0ACE0C930A054E"
 					item: "ars_nouveau:imbuement_chamber"
 					type: "item"
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "04613430D51B2880"
-					item: { Count: 3, id: "ars_nouveau:arcane_pedestal" }
+					item: "ars_nouveau:arcane_pedestal"
 					type: "item"
 				}
 			]
@@ -860,11 +880,13 @@
 			id: "399F5A95ED4A5ADA"
 			tasks: [
 				{
+					disable_toast: true
 					id: "1E6AD9D3DA9F38D4"
 					item: "architects_palette:cerebral_plate"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2EECCC6726E9E5A7"
 					item: "experienceobelisk:forgotten_dust"
 					type: "item"
@@ -916,16 +938,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "45E2FCC9D62CFD00"
 					item: "irons_spellbooks:fire_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "002011D94F5387C2"
 					item: "rubinated_nether:molten_ruby"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4ACF8407F691B23C"
 					item: "architects_palette:nether_brass_ingot"
 					type: "item"
@@ -953,16 +978,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "5741066E6D8939D2"
 					item: "irons_spellbooks:holy_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "764ECAA1AF20365D"
 					item: "forbidden_arcanus:golden_feather"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "34A45AB3B14CF4C1"
 					item: "quark:bottled_cloud"
 					type: "item"
@@ -990,16 +1018,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "5DB64AD188F29481"
 					item: "irons_spellbooks:blood_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "33D398A313FF889B"
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4E9DB68DD198386A"
 					item: "iceandfire:dragonbone"
 					type: "item"
@@ -1027,16 +1058,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "65C4134437274201"
 					item: "irons_spellbooks:evocation_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6E88A9BA69C98FC2"
 					item: "quark:soul_bead"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4F7055774281EAB6"
 					item: "minecraft:emerald"
 					type: "item"
@@ -1064,16 +1098,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "08E127F8D86E8911"
 					item: "irons_spellbooks:arcane_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0C36A8B48438ECC3"
 					item: "minecraft:clock"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0B07FAF1970FB8B9"
 					item: "forbidden_arcanus:arcane_crystal"
 					type: "item"
@@ -1101,16 +1138,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "707C099FA6E69289"
 					item: "irons_spellbooks:cooldown_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2E7A06DBE2688179"
 					item: "minecraft:milk_bucket"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4CF8A09CD5731453"
 					item: "ars_nouveau:bastion_pod"
 					type: "item"
@@ -1138,16 +1178,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "3F34817A75708A7B"
 					item: "irons_spellbooks:protection_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "00315F5F561390C0"
 					item: "minecraft:heart_of_the_sea"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "5C7490C7FF59778C"
 					item: "architects_palette:algal_brick"
 					type: "item"
@@ -1175,16 +1218,19 @@
 			]
 			tasks: [
 				{
+					disable_toast: true
 					id: "78EA7ABDD7CD3397"
 					item: "irons_spellbooks:nature_rune"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6692EFEAD084400F"
 					item: "minecraft:raw_iron"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "500CB879BB56A9E3"
 					item: "ars_nouveau:mendosteen_pod"
 					type: "item"

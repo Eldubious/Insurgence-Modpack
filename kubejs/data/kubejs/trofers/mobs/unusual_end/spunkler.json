@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#3455C9",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "entity": {
+        "type": "unusualend:spunkler"
+    },
+    "name": {
+        "color": "#3455C9",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.unusualend.spunkler"
+            }
+        ]
+    }
+}

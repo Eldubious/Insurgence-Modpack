@@ -1,0 +1,79 @@
+{
+	id: "32263F706A9BBE7C"
+	loot_crate: {
+		color: 2623751
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.forlorn_cave_trophies"
+		string_id: "trophies_forlorn_hollow"
+	}
+	loot_size: 1
+	order_index: 64
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/gloomoth"
+					}
+				}
+			}
+			weight: 1.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/corrodent"
+					}
+				}
+			}
+			weight: 1.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/vesper"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/forsaken"
+					}
+				}
+			}
+			weight: 0.33f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/watcher"
+					}
+				}
+			}
+			weight: 0.8f
+		}
+	]
+	title: "&eTrophies:&r Forlorn Hollow"
+}

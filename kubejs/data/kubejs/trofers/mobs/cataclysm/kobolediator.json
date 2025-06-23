@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#E3B307",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:kobolediator_ambient"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:kobolediator"
+    },
+    "name": {
+        "color": "#E3B307",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.kobolediator"
+            }
+        ]
+    }
+}

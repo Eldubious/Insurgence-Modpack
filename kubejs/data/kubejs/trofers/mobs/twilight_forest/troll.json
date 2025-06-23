@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#BEE0AB",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.troll.throw_rock"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:troll"
+    },
+    "name": {
+        "color": "#BEE0AB",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.troll"
+            }
+        ]
+    }
+}

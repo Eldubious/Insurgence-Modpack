@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#87541C",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.35
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "twilightforest:entity.twilightforest.towerwood_borer.ambient"
+        }
+    },
+    "entity": {
+        "type": "twilightforest:towerwood_borer"
+    },
+    "name": {
+        "color": "#87541C",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.twilightforest.towerwood_borer"
+            }
+        ]
+    }
+}

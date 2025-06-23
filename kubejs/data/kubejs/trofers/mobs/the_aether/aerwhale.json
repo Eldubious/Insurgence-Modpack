@@ -1,0 +1,31 @@
+{
+    "colors": {
+        "accent": "#BADCE3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.125,
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": -1
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "aether:entity.aerwhale.ambient"
+        }
+    },
+    "entity": {
+        "type": "aether:aerwhale"
+    },
+    "name": {
+        "color": "#BADCE3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.aether.aerwhale"
+            }
+        ]
+    }
+}

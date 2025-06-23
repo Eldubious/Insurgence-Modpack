@@ -1,0 +1,115 @@
+{
+	id: "732679FA54EEBE7D"
+	loot_crate: {
+		color: 9568107
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.primordial_cave_trophies"
+		string_id: "trophies_primordial_caves"
+	}
+	loot_size: 1
+	order_index: 57
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/vallumraptor"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/trilocaris"
+					}
+				}
+			}
+			weight: 2.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/grottoceratops"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/subterranodon"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/relicheirus"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/tremorsaurus"
+					}
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/luxtructosaurus"
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/atlatitan"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "&eTrophies:&r Primordial Caves"
+}

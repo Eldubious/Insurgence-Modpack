@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#E0E322",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "the_bumblezone:entity.the_bumblezone.beehemoth.hurt"
+        }
+    },
+    "entity": {
+        "type": "the_bumblezone:beehemoth"
+    },
+    "name": {
+        "color": "#E0E322",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.the_bumblezone.beehemoth"
+            }
+        ]
+    }
+}

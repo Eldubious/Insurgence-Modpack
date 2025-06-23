@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#63C79F",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.2
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:maledictus_idle"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:maledictus"
+    },
+    "name": {
+        "color": "#63C79F",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.maledictus"
+            }
+        ]
+    }
+}
