@@ -2,9 +2,11 @@ Version 1.1.0 (WIP)
     Additions:
     - Added new mob trophies to the questbook shop
     - Added a new structure, the Deep Monster Room, to the Depths
+    - Added more enemy and equipment variety to the random enemies in the Dimensional Dungeons
 
     Changes:
-    - Changed the train casing recipe to no longer need sturdy sheets
+    - Updated various quest pages
+    - Altered some recipes
 
     Fixes:
     - 

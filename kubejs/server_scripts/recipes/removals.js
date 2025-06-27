@@ -91,6 +91,7 @@ ServerEvents.recipes(event => {
         Remove recipes for balance
     */
     event.remove({id: 'forbidden_arcanus:enchanted_golden_apple'})
+    event.remove({id: 'samurai_dynasty:steel_ingot_from_blasting_iron_ingot'})
 
     /*
         Recipes that override the ones for the Seashelf and Hellshelf items.

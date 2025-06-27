@@ -15,6 +15,11 @@ ServerEvents.recipes(event => {
         })
     }
     
+    event.remove({id: 'create:item_application/railway_casing'})
+    itemApplication('create:railway_casing', 'create:andesite_casing', 'forbidden_arcanus:obsidian_ingot')
+    itemApplication('create:railway_casing', 'create:copper_casing', 'forbidden_arcanus:obsidian_ingot')
+    itemApplication('create:railway_casing', 'create:brass_casing', 'forbidden_arcanus:obsidian_ingot')
+    
     itemApplication('forbidden_arcanus:dark_rune_block', 'forbidden_arcanus:rune_block', 'forbidden_arcanus:corrupti_dust')
     itemApplication('forbidden_arcanus:corrupted_arcane_crystal_block', 'forbidden_arcanus:arcane_crystal_block', 'forbidden_arcanus:corrupti_dust')
     itemApplication('create:shadow_steel_casing', 'create:andesite_casing', 'create:shadow_steel')

@@ -299,6 +299,7 @@
 		}
 		{
 			dependencies: ["5296E3A72DDECB8F"]
+			description: ["Now you can place your own at home!"]
 			id: "3B2ED9F34B212510"
 			tasks: [{
 				id: "1E27136FD430FAEA"
@@ -342,6 +343,13 @@
 			hide_until_deps_complete: true
 			icon: "galosphere:cured_membrane"
 			id: "337451434439F44A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022DB521AEAA9AC3"
+				table_id: 346162584000431563L
+				title: "Food Choice Reward"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "23720D59DA9C351A"
 				title: "Awesome!"
@@ -369,6 +377,13 @@
 				tag: { }
 			}
 			id: "02DC92A0075876DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2527AD8ACB6E29AF"
+				table_id: 346162584000431563L
+				title: "Food Choice Reward"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "688E3D140349B14A"
 				title: "Awesome!"
@@ -390,6 +405,13 @@
 			hide_until_deps_complete: true
 			icon: "dreadsteel:dreadsteel_ingot"
 			id: "6782A08AF67E9EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1317519CF8DAEC7A"
+				table_id: 346162584000431563L
+				title: "Food Choice Reward"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "339915FDBD0592AE"
 				title: "Awesome!"

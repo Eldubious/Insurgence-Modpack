@@ -36,4 +36,12 @@ ServerEvents.recipes(event => {
     metamorphosis('endrem:cryptic_eye', 1, 'minecraft:ender_eye', 1, 'create:experience_nugget', 3, 'create:experience_nugget', 3, 315, 600)
     // Blank Teleporter Key
     metamorphosis('dimdungeons:item_blank_teleporter_key', 1, 'minecraft:blaze_rod', 2, 'dimdungeons:block_portal_crown', 1, 'create:chromatic_compound', 3, 55, 200)
+    // Trident
+    metamorphosis('minecraft:trident', 1, 'minecraft:prismarine_shard', 3, 'apotheosis:inert_trident', 1, 'experienceobelisk:mending_neurogel', 1, 55, 80)
+    // Hammer Cores
+    event.remove([{id: 'justhammers:impact_core'}, {id: 'justhammers:reinforced_core'}, {id: 'justhammers:reinforced_impact_core'}, {id: 'justhammers:destructor_core'}])
+    metamorphosis('justhammers:impact_core', 1, 'minecraft:iron_block', 1, 'minecraft:netherite_ingot', 3, 'minecraft:gold_block', 1, 315, 900)
+    metamorphosis('justhammers:reinforced_core', 1, 'create:brass_ingot', 16, 'justhammers:impact_core', 1, 'samurai_dynasty:steel_ingot', 16, 1395, 900)
+    metamorphosis('justhammers:reinforced_impact_core', 1, 'minecraft:diamond', 10, 'justhammers:reinforced_core', 1, 'cataclysm:witherite_ingot', 8, 5345, 900)
+    metamorphosis('justhammers:destructor_core', 1, 'minecraft:diamond_block', 2, 'justhammers:reinforced_impact_core', 1, 'cataclysm:ignitium_ingot', 4, 8670, 900)
 })

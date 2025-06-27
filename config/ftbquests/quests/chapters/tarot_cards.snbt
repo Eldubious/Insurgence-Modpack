@@ -226,6 +226,7 @@
 	quests: [
 		{
 			dependencies: ["13402DD2D1D33E94"]
+			description: ["Now you can finally use all your cards at once!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {

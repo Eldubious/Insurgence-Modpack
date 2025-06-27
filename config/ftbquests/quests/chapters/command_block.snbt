@@ -38,6 +38,10 @@
 				"745FC63E15FD4A49"
 				"71F2AF85715C84CE"
 			]
+			description: [
+				"&e&l&nTip:&r"
+				"You can duplicate Unobtanium by crafting it into a block and back into an ingot. That way, you only need to use its more convoluted recipe once."
+			]
 			id: "52BD91BCCE447C45"
 			rewards: [{
 				id: "1A40B08338846B88"
@@ -216,6 +220,11 @@
 				"52BD91BCCE447C45"
 				"375F95F85CEB2F17"
 			]
+			description: [
+				"With the Command Block, you can now unleash its power and summon the Wither Storm."
+				""
+				"The Wither Storm is a long and destructive battle; you should prepare."
+			]
 			id: "4EC3DFF09750A710"
 			rewards: [{
 				id: "68B0FC8DF7B174A0"
@@ -225,6 +234,7 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
+			subtitle: "&8&oUltimate Power!"
 			tasks: [{
 				id: "136BAAF3646CD0F8"
 				item: "minecraft:command_block"
@@ -245,6 +255,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "&8&oWhat is This?"
 			tasks: [{
 				id: "4C500D35E469B490"
 				item: "kubejs:obfuscated"
@@ -255,10 +266,22 @@
 		}
 		{
 			dependencies: ["4EC3DFF09750A710"]
-			description: ["To summon the Wither Storm, you will need to use the Summoning Altar."]
+			description: [
+				"To summon the Wither Storm, you will need to use the Summoning Altar."
+				""
+				"I recommend using an altar that is not close to your base..."
+			]
 			disable_toast: true
 			icon: "minecraft:wither_skeleton_skull"
 			id: "565D06C38AD6EF80"
+			rewards: [{
+				id: "7EEA3A6ED9001985"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oNothing Built Can Last Forever"
 			tasks: [{
 				advancement: "witherstormmod:main/summon_wither_storm"
 				criterion: ""
@@ -289,7 +312,7 @@
 		{
 			dependencies: ["23324F0768507D9C"]
 			description: [
-				"To use advanced portal keys you will need to upgrade your portal. The pattern on the banners does not matter, as long as they are either purple or white banners (The Ominous Banner uses a white banner as its base)."
+				"To use advanced portal keys you will need to upgrade your portal. The pattern on the banners does not matter, as long as they are either purple or white banners (The Ominous Banner uses a white banner as its base, so it is also usable)."
 				""
 				"{image:kubejs:textures/questbook/pictures/advanced_dim_dungeon_portal.png width:192 height:108 align:center}"
 			]
@@ -383,6 +406,137 @@
 			]
 			title: "Creating the Dungeon Portal"
 			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["565D06C38AD6EF80"]
+			description: [
+				"After some time, the Wither Storm may summon a mini-boss called the &5Withered Symbiont&r. Defeat it to get a Command Block Book and craft the Formidi-Bomb."
+				""
+				"Use the Formidi-Bomb to blow up the Wither Storm!"
+				""
+				"&e&lDisclaimer!&r"
+				"&7&oThis will only work once the Storm has reached the appropriate phase, make sure to check using the Phasometer."
+			]
+			id: "284C09DDB1C08FEC"
+			rewards: [{
+				id: "079A7D0B3454C7FE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oThe Strong Grow Weak..."
+			tasks: [{
+				advancement: "witherstormmod:main/strong_grow_weak"
+				criterion: ""
+				id: "399ED622C6DDFAB8"
+				type: "advancement"
+			}]
+			title: "Destroy the Wither Storm!"
+			x: 17.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["284C09DDB1C08FEC"]
+			description: [
+				"&lIt came back!&r"
+				""
+				"You will need to craft some command block tools in order to kill it for good. This means you need to get &oanother&r Enchanted Command Block Book."
+			]
+			hide_until_deps_complete: true
+			id: "27D12B706D047CB2"
+			rewards: [{
+				id: "122109653B4710D4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oEvery Cloud Has a Silver Lining"
+			tasks: [{
+				advancement: "witherstormmod:main/silver_lining"
+				criterion: ""
+				id: "79BDB2616D842613"
+				type: "advancement"
+			}]
+			title: "Craft a Command Block Weapon"
+			x: 19.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["27D12B706D047CB2"]
+			description: [
+				"After some time has passed, you may notice a hole form on the Wither Storm's body. To enter the final phase, you will need to enter from that hole."
+				""
+				"You can use whatever method you like to get inside, but the mod includes the ability to launch ender pearls using a crossbow in case you cannot fly there."
+				""
+				"Once you're inside, use the weapon you just made to destroy the Command Block. Once and for all!"
+			]
+			id: "14A3F847EF549779"
+			rewards: [{
+				id: "06F24F4331FCCC81"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oThe Belly of the Beast"
+			tasks: [{
+				advancement: "witherstormmod:main/belly_of_the_beast"
+				criterion: ""
+				id: "592F5663A0658A34"
+				type: "advancement"
+			}]
+			title: "Enter the Wither Storm"
+			x: 20.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["4EC3DFF09750A710"]
+			description: [
+				"All three of these items would be very helpful when fighting the Wither Storm."
+				""
+				"&nThe Amulet&r will allow you to track the Storm's distance from you."
+				""
+				"&nThe Phasometer&r will let you see the current phase it is on."
+				""
+				"&nGolden Apple Stew&r cures wither sickness, a disease that lowers the max health of entities while the storm is still alive."
+			]
+			id: "4558E859197446A0"
+			rewards: [{
+				id: "6E2F1EA55AA7353C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3142209EB388DB1A"
+					item: {
+						Count: 1
+						id: "witherstormmod:amulet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2880176F93A5B80B"
+					item: {
+						Count: 1
+						id: "witherstormmod:phasometer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "252E6C64FDD41414"
+					item: "witherstormmod:golden_apple_stew"
+					type: "item"
+				}
+			]
+			title: "Preparing For the Storm"
+			x: 15.5d
 			y: -3.5d
 		}
 	]
