@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#92C9D1",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:cindaria_hurt"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:cindaria"
+    },
+    "name": {
+        "color": "#92C9D1",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.cindaria"
+            }
+        ]
+    }
+}

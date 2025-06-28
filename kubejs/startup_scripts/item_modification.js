@@ -102,8 +102,8 @@ ItemEvents.modification(event => {
         'aether_redux:golden_swet_jelly', 'aether_redux:ring_of_wisdom', 'aether:ice_ring', 'aether:ice_pendant', 'aether_redux:shroom_ring', 'aether:swet_cape',
         'aether_redux:cockatrice_feather', 'aether_redux:infused_veridium_sword', 'aether_redux:infused_veridium_shovel', 'aether_redux:infused_veridium_pickaxe',
         'aether_redux:infused_veridium_axe', 'aether_redux:infused_veridium_hoe', 'aether_redux:veridium_sword', 'aether_redux:veridium_shovel', 'aether_redux:veridium_pickaxe',
-        'aether_redux:veridium_axe', 'aether_redux:veridium_hoe', 'aether:candy_cane_sword', 'aether:cold_parachute',
-        'nethers_exoticism:ramboutan_helmet', 'nethers_exoticism:rambutan_shield', 'aether:sun_altar',
+        'aether_redux:veridium_axe', 'aether_redux:veridium_hoe', 'aether:candy_cane_sword', 'aether:cold_parachute', 'cataclysm:amethyst_crab_meat',
+        'nethers_exoticism:ramboutan_helmet', 'nethers_exoticism:rambutan_shield', 'aether:sun_altar', 'alexscaves:polarity_armor_trim_smithing_template',
         'illagerinvasion:illusionary_dust', 'illagerinvasion:unusual_dust', 'illagerinvasion:platinum_infused_hatchet', 'illagerinvasion:horn_of_sight',
         'forbidden_arcanus:deorum_ingot', 'forbidden_arcanus:deorum_nugget', 'forbidden_arcanus:mundabitur_dust', 'forbidden_arcanus:corrupti_dust', 'forbidden_arcanus:xpetrified_orb',
         'forbidden_arcanus:soul', 'forbidden_arcanus:dragon_scale', 'forbidden_arcanus:golden_feather', 'forbidden_arcanus:ferrognetic_mixture', 'forbidden_arcanus:aureal_bottle',
@@ -217,7 +217,14 @@ ItemEvents.modification(event => {
         'aether_redux:sentry_chip', 'aquaculture:diamond_fillet_knife', 'aquaculture:diamond_fishing_rod', 'traveloptics:darkness_upgrade_smithing_template',
         'aether_redux:refined_sentrite_block', 'ancient_aether:valkyrum_block', 'iceandfire:fire_lily', 'iceandfire:frost_lily', 'iceandfire:lightning_lily', 'iceandfire:lectern',
         'farmersdelight:diamond_knife', 'apotheosis:diamond_mining_arrow', 'aether:phoenix_gloves', 'aether:phoenix_helmet', 'aether:phoenix_chestplate', 'aether:phoenix_leggings',
-        'aether:phoenix_boots', 'aether:neptune_helmet', 'aether:neptune_chestplate', 'aether:neptune_leggings', 'aether:neptune_boots', 'aether:neptune_gloves'
+        'aether:phoenix_boots', 'aether:neptune_helmet', 'aether:neptune_chestplate', 'aether:neptune_leggings', 'aether:neptune_boots', 'aether:neptune_gloves',
+        'wan_ancient_beasts:spike_armor_trim_smithing_template', 'wan_ancient_beasts:sniff_armor_trim_smithing_template', 'wan_ancient_beasts:sniffer_skull', 'wan_ancient_beasts:eater_skull',
+        'wan_ancient_beasts:walker_skull', 'wan_ancient_beasts:crusher_skull', 'wan_ancient_beasts:glider_skull', 'wan_ancient_beasts:soarer_skull',
+        'wan_ancient_beasts:hang_glider', 'wan_ancient_beasts:white_hang_glider', 'wan_ancient_beasts:light_gray_hang_glider', 'wan_ancient_beasts:gray_hang_glider',
+        'wan_ancient_beasts:black_hang_glider', 'wan_ancient_beasts:brown_hang_glider', 'wan_ancient_beasts:red_hang_glider', 'wan_ancient_beasts:orange_hang_glider',
+        'wan_ancient_beasts:yellow_hang_glider', 'wan_ancient_beasts:lime_hang_glider', 'wan_ancient_beasts:green_hang_glider', 'wan_ancient_beasts:light_blue_hang_glider',
+        'wan_ancient_beasts:cyan_hang_glider', 'wan_ancient_beasts:blue_hang_glider', 'wan_ancient_beasts:purple_hang_glider', 'wan_ancient_beasts:magenta_hang_glider',
+        'wan_ancient_beasts:pink_hang_glider', 'wan_ancient_beasts:ancient_club', 'wan_ancient_beasts:reinforced_shield', 'experienceobelisk:transforming_focus'
     ]
     uncommon_items.forEach(element => uncommon(element))
         
@@ -288,7 +295,8 @@ ItemEvents.modification(event => {
         'ancient_aether:warrior_ring', 'ancient_aether:warrior_pendant', 'ancient_aether:growth_ring', 'ancient_aether:growth_pendant', 'ancient_aether:ancient_ring',
         'ancient_aether:ancient_pendant', 'ancient_aether:shield_of_inebriation', 'ancient_aether:shield_of_remediation', 'aether:valkyrie_cape', 'aether:iron_bubble',
         'aether:flaming_sword', 'aether:holy_sword', 'aether:lightning_sword', 'aether:phoenix_bow', 'ancient_aether:ancient_sword', 'ancient_aether:wynd_armor_trim_smithing_template',
-        'ancient_aether:whale_armor_trim_smithing_template', 'ancient_aether:ascended_armor_trim_smithing_template', 'traveloptics:music_disc_169', 'farmersdelight:netherite_knife'
+        'ancient_aether:whale_armor_trim_smithing_template', 'ancient_aether:ascended_armor_trim_smithing_template', 'traveloptics:music_disc_169', 'farmersdelight:netherite_knife',
+        'experienceobelisk:cognitive_bow', 'experienceobelisk:flint_and_cognitive_alloy', 'experienceobelisk:mending_neurogel_blob', 'cataclysm:lacrima', 'cataclysm:azure_sea_shield'
     ]
     rare_items.forEach(element => rare(element))
 
@@ -344,7 +352,8 @@ ItemEvents.modification(event => {
         'ancient_aether:mysterious_armor_trim_smithing_template', 'ancient_aether:mechanical_armor_trim_smithing_template', 'ancient_aether:mosaic_armor_trim_smithing_template',
         'ancient_aether:royal_armor_trim_smithing_template', 'ancient_aether:solar_armor_trim_smithing_template', 'ancient_aether:ancient_armor_trim_smithing_template',
         'iceandfire:dragonsteel_fire_block', 'iceandfire:dragonsteel_ice_block', 'iceandfire:dragonsteel_lightning_block', 'aether:obsidian_helmet', 'aether:obsidian_chestplate',
-        'aether:obsidian_leggings', 'aether:obsidian_boots', 'aether:obsidian_gloves'
+        'aether:obsidian_leggings', 'aether:obsidian_boots', 'aether:obsidian_gloves', 'experienceobelisk:fortuitous_amulet', 'experienceobelisk:memory_tablet',
+        'cataclysm:storm_eye'
     ]
     epic_items.forEach(element => epic(element))
     

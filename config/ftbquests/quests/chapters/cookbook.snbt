@@ -59,9 +59,9 @@
 	quests: [
 		{
 			description: [
-				"There are &l275&r different foods you can eat which contribute to adding bonus health, up to a total of 20 bonus hearts (aka. two extra rows of hearts!)."
+				"There are &l320&r different foods you can eat which contribute to adding bonus health. Every 16 unique foods you eat adds one permanent bonus heart, up to a total of 20 bonus hearts (&otwo extra rows of hearts!&r)."
 				""
-				"But to get the maximum amount of bonus hearts, you will have to eat &lall&r 275 of them. Most of the foods listed on this page contribute to this, but not all of them do. You are able to tell if a food will contribute to bonus health if it has the tooltip:"
+				"But to get the maximum amount of bonus hearts, you will have to eat &lall&r 320 of them. Most of the foods listed on this page contribute to this, but not all of them do. You are able to tell if a food will contribute to bonus health if it has the tooltip:"
 				"&3Not yet eaten! What does it taste like?"
 				""
 				"This is where the &eFood Book&r becomes useful because it will keep track of which foods you have eaten and which ones you are still missing."
@@ -1007,7 +1007,7 @@
 				}
 			]
 			x: 1.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1029,7 +1029,7 @@
 				}
 			]
 			title: "Lily Chicken"
-			x: 2.5d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -1052,8 +1052,8 @@
 				}
 			]
 			title: "Fiery Snakes"
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1075,8 +1075,8 @@
 				}
 			]
 			title: "Meef Wellington"
-			x: 3.5d
-			y: -2.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1097,8 +1097,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1125,8 +1125,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1147,8 +1147,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -2.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1181,7 +1181,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -1203,7 +1203,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -1247,7 +1247,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -1291,7 +1291,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -1314,7 +1314,7 @@
 				}
 			]
 			x: 4.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1335,8 +1335,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -3.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1357,8 +1357,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -2.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1420,11 +1420,12 @@
 		}
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
+			description: ["&7&oFound in buried treasure chests."]
 			id: "609EC74AD031613E"
 			shape: "diamond"
 			tasks: [{
 				id: "7C212A2E483775B2"
-				item: "oceanic_delight:sea_grape_juice"
+				item: "oceanic_delight:ancient_fish_eggs"
 				type: "item"
 			}]
 			x: 5.0d
@@ -2289,6 +2290,66 @@
 			title: "Feasts"
 			x: -2.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "farmersdelight:rice_roll_medley_block"
+			id: "51AD40E1854C9124"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "48C8AA3669757DCA"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "7812167EEC9E75A7"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+				{
+					id: "54834F59C87D7D49"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+				{
+					id: "3378CE6B17C3E240"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "aquaculturedelight:fish_roll_medley"
+			id: "49296978BB964601"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "42A2B565585734C9"
+					item: "aquaculturedelight:fish_roll_medley"
+					type: "item"
+				}
+				{
+					id: "106D02CBE406DD7E"
+					item: "aquaculture:sushi"
+					type: "item"
+				}
+				{
+					id: "16DA725DE46D2FC4"
+					item: "aquaculturedelight:fried_perch_roll"
+					type: "item"
+				}
+				{
+					id: "010CD05F2685C209"
+					item: "aquaculturedelight:raw_fish_fillet_roll"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
 		}
 	]
 	title: "Cookbook"

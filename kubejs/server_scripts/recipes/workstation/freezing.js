@@ -38,4 +38,5 @@ ServerEvents.recipes(event => {
     freezer('rubinated_nether:frosted_ice', 'minecraft:water_bucket', 200, 0.1, 'freezable_blocks')
     freezer('rubinated_nether:frosted_ice', 'minecraft:snow_block', 200, 0.1, 'freezable_blocks')
     freezer('rubinated_nether:dry_ice', 'minecraft:blue_ice', 200, 0.1, 'freezable_blocks')
+    freezer('mynethersdelight:cold_striderloaf', 'mynethersdelight:striderloaf', 200, 7.5, 'freezable_blocks')
 })

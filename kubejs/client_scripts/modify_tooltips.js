@@ -4,7 +4,7 @@ ItemEvents.tooltip(event => {
     // Add instructional tooltips to items
     event.add('kubejs:enchant_catalyst', Component.translate('tooltip.kubejs.enchant_catalyst'))
     event.add('kubejs:hyper_enchant_catalyst', Component.translate('tooltip.kubejs.hyper_enchant_catalyst'))
-    const cataclysm_eyes = ['cataclysm:mech_eye', 'cataclysm:flame_eye', 'cataclysm:void_eye', 'cataclysm:monstrous_eye', 'cataclysm:abyss_eye', 'cataclysm:desert_eye', 'cataclysm:cursed_eye']
+    const cataclysm_eyes = ['cataclysm:mech_eye', 'cataclysm:flame_eye', 'cataclysm:void_eye', 'cataclysm:monstrous_eye', 'cataclysm:abyss_eye', 'cataclysm:desert_eye', 'cataclysm:cursed_eye', 'cataclysm:storm_eye']
     cataclysm_eyes.forEach(element => {
         let name = element.slice(element.indexOf(':') + 1)
         event.add(element, Component.translate(`tooltip.kubejs.${name}`))
@@ -27,7 +27,7 @@ ItemEvents.tooltip(event => {
         'sophisticatedstorage:hopper_upgrade', 'sophisticatedstorage:advanced_hopper_upgrade', 'sophisticatedstorage:pump_upgrade', 'sophisticatedstorage:advanced_pump_upgrade',
         'sophisticatedstorage:xp_pump_upgrade', 'sophisticatedstorage:feeding_upgrade', 'sophisticatedstorage:advanced_feeding_upgrade', 'sophisticatedstorage:magnet_upgrade',
         'sophisticatedstorage:advanced_magnet_upgrade', 'sophisticatedstorage:auto_smelting_upgrade', 'sophisticatedstorage:auto_blasting_upgrade', 'sophisticatedstorage:auto_smoking_upgrade',
-        'sophisticatedstorage:compression_upgrade', 'aquaculture:sushi'
+        'sophisticatedstorage:compression_upgrade'
     ]
     unused_items.forEach(element => {
         event.add(element, Component.translate('tooltip.kubejs.unused_item'))

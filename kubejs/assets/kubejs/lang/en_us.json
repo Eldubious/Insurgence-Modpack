@@ -13,6 +13,7 @@
     "tooltip.kubejs.abyss_eye": "§7Used to find the Sunken City.",
     "tooltip.kubejs.desert_eye": "§7Used to find the Cursed Pyramid.",
     "tooltip.kubejs.cursed_eye": "§7Used to find the Frozen Prison.",
+    "tooltip.kubejs.storm_eye": "§7Used to find the Acropolis.",
     "tooltip.kubejs.shadow_steel": "§7Found in loot chests in Dimensional Dungeons",
     "tooltip.kubejs.refined_radiance": "§7Found in loot chests in Advanced Dimensional Dungeons.",
     "tooltip.kubejs.unused_item": "§7§n§oShould not be obtainable.",
@@ -80,6 +81,7 @@
     "loot_crate.kubejs.forlorn_cave_trophies": "§kO§r Special Trophy Case: §oForlorn Collection",
     "loot_crate.kubejs.toxic_cave_trophies": "§kO§r Special Trophy Case: §oToxic Collection",
     "loot_crate.kubejs.candy_cave_trophies": "§kO§r Special Trophy Case: §oCavity Collection",
+    "loot_crate.kubejs.scylla_trophies": "§kO§r Special Trophy Case: §oScylla Collection",
     
     "kubejs.title.insurgence_title": "§c§n§lInsurgence Tip:",
     "kubejs.tip.quests": "The questbook has lots of useful information on progression.",

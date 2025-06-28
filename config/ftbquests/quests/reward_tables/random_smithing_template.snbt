@@ -4,10 +4,10 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: "minecraft:sentry_armor_trim_smithing_template", title: "Smithing Template (Sentry)", weight: 10.0f }
+		{ item: "minecraft:sentry_armor_trim_smithing_template", title: "Smithing Template (Sentry)", weight: 8.0f }
 		{ item: "minecraft:vex_armor_trim_smithing_template", title: "Smithing Template (Vex)", weight: 2.5f }
 		{ item: "minecraft:wild_armor_trim_smithing_template", title: "Smithing Template (Wild)", weight: 7.0f }
-		{ item: "minecraft:coast_armor_trim_smithing_template", title: "Smithing Template (Coast)", weight: 10.0f }
+		{ item: "minecraft:coast_armor_trim_smithing_template", title: "Smithing Template (Coast)", weight: 8.0f }
 		{ item: "minecraft:dune_armor_trim_smithing_template", title: "Smithing Template (Dune)", weight: 7.0f }
 		{ item: "minecraft:wayfinder_armor_trim_smithing_template", title: "Smithing Template (Wayfinder)", weight: 5.0f }
 		{ item: "minecraft:raiser_armor_trim_smithing_template", title: "Smithing Template (Raiser)", weight: 5.0f }
@@ -31,6 +31,8 @@
 		{ item: "ancient_aether:royal_armor_trim_smithing_template", title: "Smithing Template (Royal)", weight: 0.25f }
 		{ item: "ancient_aether:solar_armor_trim_smithing_template", title: "Smithing Template (Solar)", weight: 0.25f }
 		{ item: "ancient_aether:ancient_armor_trim_smithing_template", title: "Smithing Template (Ancient) -Ancient Aether", weight: 0.25f }
+		{ item: "wan_ancient_beasts:spike_armor_trim_smithing_template", title: "Smithing Template (Spike)" }
+		{ item: "wan_ancient_beasts:sniff_armor_trim_smithing_template", title: "Smithing Template (Sniff)" }
 	]
 	title: "&6Market:&r Armor Trim Templates"
 }

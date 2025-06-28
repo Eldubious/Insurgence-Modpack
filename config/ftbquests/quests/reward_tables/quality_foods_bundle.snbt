@@ -316,7 +316,7 @@
 		{ item: "call_of_yucutan:xocolatl" }
 		{ item: "ancient_aether:festive_gummy_swet" }
 		{ item: "hexcasting:sub_sandwich" }
-		{ item: "oceanic_delight:sea_grape_juice" }
+		{ item: "oceanic_delight:ancient_fish_eggs" }
 		{ item: "oceanic_delight:squid_salad" }
 		{ item: "oceanic_delight:caesar_salad" }
 		{ item: "oceanic_delight:sea_salad" }
@@ -337,6 +337,51 @@
 		{ item: "pineapple_delight:pineapple_juice" }
 		{ item: "pineapple_delight:pineapple_milk_shake" }
 		{ item: "pineapple_delight:pineapple_ice_cream" }
+		{ item: "mynethersdelight:spicy_hoglin_stew" }
+		{ item: "mynethersdelight:spicy_skewer" }
+		{ item: "mynethersdelight:toasts" }
+		{ item: "mynethersdelight:giant_takoyaki" }
+		{ item: "mynethersdelight:sizzling_pudding" }
+		{ item: "mynethersdelight:ghast_salad" }
+		{ item: "mynethersdelight:twisted_ghasta" }
+		{ item: "mynethersdelight:tear_popsicle" }
+		{ item: "mynethersdelight:strider_stew" }
+		{ item: "mynethersdelight:rock_soup" }
+		{ item: "mynethersdelight:hot_cream_cone" }
+		{ item: "mynethersdelight:scotch_eggs" }
+		{ item: "mynethersdelight:deviled_egg" }
+		{ item: "mynethersdelight:enchanted_golden_egg" }
+		{ item: "mynethersdelight:golden_egg" }
+		{ item: "mynethersdelight:hotdog_with_nether_salad" }
+		{ item: "mynethersdelight:hotdog_with_mixed_salad" }
+		{ item: "mynethersdelight:nether_burger" }
+		{ item: "mynethersdelight:blue_tenderloin_steak" }
+		{ item: "mynethersdelight:bleeding_tartar" }
+		{ item: "farmersdelight:apple_cider" }
+		{ item: "ends_delight:dragon_breath_soda" }
+		{ item: "twilightdelight:thorn_rose_tea" }
+		{ item: "twilightdelight:torchberry_juice" }
+		{ item: "twilightdelight:twilight_spring" }
+		{ item: "aetherdelight:aetherflower_tea" }
+		{ item: "aetherdelight:swet_syrup" }
+		{ item: "arsdelight:mendosteen_hornbeer" }
+		{ item: "arsdelight:bastion_hornbeer" }
+		{ item: "arsdelight:bombegrante_hornbeer" }
+		{ item: "arsdelight:frostaya_hornbeer" }
+		{ item: "arsdelight:source_berry_hornbeer" }
+		{ item: "arsdelight:unstable_cocktail" }
+		{ item: "ends_delight:chorus_fruit_milk_tea" }
+		{ item: "ends_delight:chorus_fruit_wine" }
+		{ item: "ends_delight:chorus_flower_tea" }
+		{ item: "aquaculturedelight:fried_perch_roll" }
+		{ item: "aquaculture:sushi" }
+		{ item: "aquaculturedelight:trout_steak" }
+		{ item: "aquaculturedelight:fish_chorba" }
+		{ item: "aquaculturedelight:fish_and_chips" }
+		{ item: "aquaculturedelight:roasted_tambaqui" }
+		{ item: "arsdelight:grilled_chimera_meat" }
+		{ item: "oceanic_delight:fish_egg_noodle_soup" }
+		{ item: "oceanic_delight:potato_salad" }
 	]
 	title: "Quest Reward: Food"
 }

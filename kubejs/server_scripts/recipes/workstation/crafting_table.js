@@ -103,10 +103,36 @@ ServerEvents.recipes(event => {
     // Smithing Templates
     event.replaceInput([{id: 'traveloptics:abyssal_upgrade_smithing_template'}, {id: 'traveloptics:abyssal_upgrade_smithing_template2'},
                         {id: 'traveloptics:tectonic_upgrade_smithing_template'}, {id: 'traveloptics:darkness_upgrade_smithing_template'},
-                        {id: 'traveloptics:witherite_upgrade_smithing_template'}, {id: 'forbidden_arcanus:darkstone_upgrade_smithing_template'},
-                        {id: 'cataclysm:ignitium_upgrade_smithing_template'}, {id: 'cataclysm:cursium_upgrade_smithing_template'}],
+                        {id: 'traveloptics:witherite_upgrade_smithing_template'}, {id: 'forbidden_arcanus:darkstone_upgrade_smithing_template'}],
         'minecraft:netherite_upgrade_smithing_template',
         'experienceobelisk:primordial_assembly'
+    )
+    // Ignitium and Cursium Smithing Templates
+    event.remove([{id: 'cataclysm:ignitium_upgrade_smithing_template'}, {id: 'cataclysm:cursium_upgrade_smithing_template'}])
+    event.shaped('cataclysm:ignitium_upgrade_smithing_template',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'create:shadow_steel',
+            B: 'minecraft:blaze_powder',
+            C: 'experienceobelisk:primordial_assembly'
+        }
+    )
+    event.shaped('cataclysm:cursium_upgrade_smithing_template',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'create:shadow_steel',
+            C: 'cataclysm:black_steel_ingot',
+            D: 'experienceobelisk:primordial_assembly'
+        }
     )
     // Bundle
     event.shaped('minecraft:bundle',
@@ -119,8 +145,39 @@ ServerEvents.recipes(event => {
             B: '#forge:leather'
         }
     )
+    // Sanctified Spell Book Improvement
+    event.remove({id: 'traveloptics:sanctified_spell_slot_upgrade'})
+    event.shaped('traveloptics:sanctified_spell_slot_upgrade',
+        [
+            'ABA',
+            'CBC',
+            'CBC'
+        ],
+        {
+            A: 'call_of_yucutan:ancient_gold_ingot',
+            B: 'irons_spellbooks:magic_cloth',
+            C: 'create:refined_radiance'
+        }
+    )
+    // Spectral Spell Book Improvement
+    event.remove({id: 'traveloptics:spectral_spell_slot_upgrade'})
+    event.shaped('traveloptics:spectral_spell_slot_upgrade',
+        [
+            'ABA',
+            'CBC',
+            'CBC'
+        ],
+        {
+            A: 'call_of_yucutan:hematite',
+            B: 'unusualend:spectral_cloth',
+            C: 'create:refined_radiance'
+        }
+    )
+    // Sushi
+    event.remove({id: 'aquaculture:sushi'})
+    event.shapeless('aquaculture:sushi', ['minecraft:dried_kelp', 'farmersdelight:cooked_rice', 'aquaculture:fish_fillet_raw'])
 
-
+    
     /*
         Blocks
     */
@@ -270,6 +327,87 @@ ServerEvents.recipes(event => {
             D: 'minecraft:gold_block'
         }
     )
+    // Dragonforge Apertures
+    event.replaceInput([{id: 'iceandfire:dragonforge_fire_input'}, {id: 'iceandfire:dragonforge_ice_input'}, {id: 'iceandfire:dragonforge_lightning_input'}],
+        'minecraft:iron_ingot',
+        'samurai_dynasty:steel_ingot'
+    )
+    // Dragonforge Bricks
+    event.remove([{id: 'iceandfire:dragonforge_fire_brick'}, {id: 'iceandfire:dragonforge_ice_brick'}, {id: 'iceandfire:dragonforge_lightning_brick'}])
+    event.shaped('6x iceandfire:dragonforge_fire_brick',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: '#forge:storage_blocks/scales/dragon/fire',
+            B: 'create:shadow_steel',
+            C: 'minecraft:stone_bricks'
+        }
+    )
+    event.shaped('6x iceandfire:dragonforge_ice_brick',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: '#forge:storage_blocks/scales/dragon/ice',
+            B: 'create:shadow_steel',
+            C: 'minecraft:stone_bricks'
+        }
+    )
+    event.shaped('6x iceandfire:dragonforge_lightning_brick',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: '#forge:storage_blocks/scales/dragon/lightning',
+            B: 'create:shadow_steel',
+            C: 'minecraft:stone_bricks'
+        }
+    )
+    // Dragonforge Cores
+    event.remove([{id: 'iceandfire:dragonforge_fire_core_disabled'}, {id: 'iceandfire:dragonforge_ice_core_disabled'}, {id: 'iceandfire:dragonforge_lightning_core_disabled'}])
+    event.shaped('iceandfire:dragonforge_fire_core_disabled',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'iceandfire:dragonforge_fire_brick',
+            B: 'create:refined_radiance',
+            C: 'iceandfire:fire_dragon_heart'
+        }
+    )
+    event.shaped('iceandfire:dragonforge_ice_core_disabled',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'iceandfire:dragonforge_ice_brick',
+            B: 'create:refined_radiance',
+            C: 'iceandfire:ice_dragon_heart'
+        }
+    )
+    event.shaped('iceandfire:dragonforge_lightning_core_disabled',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'iceandfire:dragonforge_lightning_brick',
+            B: 'create:refined_radiance',
+            C: 'iceandfire:lightning_dragon_heart'
+        }
+    )
 
 
     /*
@@ -387,6 +525,51 @@ ServerEvents.recipes(event => {
             A: 'architects_palette:oracle_jelly',
             B: 'minecraft:crying_obsidian',
             C: 'minecraft:ender_eye',
+        }
+    )
+    // Eye of Storm
+    event.remove({id: 'cataclysm:storm_eye'})
+    event.shaped('cataclysm:storm_eye',
+        [
+            'ABA',
+            'CDC',
+            'ACA'
+        ],
+        {
+            A: 'architects_palette:cerebral_plate',
+            B: 'minecraft:lightning_rod',
+            C: 'minecraft:prismarine_shard',
+            D: 'iceandfire:lightning_dragon_heart'
+        }
+    )
+    // Eye of Desert
+    event.remove({id: 'cataclysm:desert_eye'})
+    event.shaped('cataclysm:desert_eye',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:bone',
+            B: 'minecraft:chiseled_sandstone',
+            C: 'minecraft:gold_ingot',
+            D: 'thaumon:amber'
+        }
+    )
+    // Eye of Mech
+    event.remove({id: 'cataclysm:mech_eye'})
+    event.shaped('cataclysm:mech_eye',
+        [
+            'ABA',
+            'BCB',
+            'ADA'
+        ],
+        {
+            A: 'samurai_dynasty:steel_ingot',
+            B: 'create:polished_rose_quartz',
+            C: 'minecraft:ender_eye',
+            D: 'minecraft:redstone_block'
         }
     )
     // Abyssal Sacrifice
@@ -597,6 +780,172 @@ ServerEvents.recipes(event => {
             A: 'dreadsteel:dreadsteel_ingot',
             B: 'architects_palette:unobtanium',
             C: 'iceandfire:witherbone'
+        }
+    )
+    // Astrape
+    event.remove({id: 'cataclysm:astrape'})
+    event.shaped('cataclysm:astrape',
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            A: 'cataclysm:essence_of_the_storm',
+            B: 'create:refined_radiance',
+            C: 'cataclysm:lacrima'
+        }
+    )
+    // Ceraunus
+    event.remove({id: 'cataclysm:ceraunus'})
+    event.shaped('cataclysm:ceraunus',
+        [
+            'ABA',
+            ' C ',
+            ' C '
+        ],
+        {
+            A: 'cataclysm:essence_of_the_storm',
+            B: 'create:refined_radiance',
+            C: 'cataclysm:lacrima'
+        }
+    )
+    // Wither Assault Shoulder Weapon
+    event.remove({id: 'cataclysm:wither_assault_shoulder_weapon'})
+    event.shaped('cataclysm:wither_assault_shoulder_weapon',
+        [
+            'AB ',
+            'BDC',
+            ' CB'
+        ],
+        {
+            A: 'supplementaries:cannon',
+            B: 'cataclysm:witherite_ingot',
+            C: 'minecraft:gunpowder',
+            D: 'minecraft:redstone_block'
+        }
+    )
+    // Laser Gatling
+    event.remove({id: 'cataclysm:laser_gatling'})
+    event.shaped('cataclysm:laser_gatling',
+        [
+            'AB ',
+            'BCD',
+            ' DD'
+        ],
+        {
+            A: 'rubinated_nether:ruby_laser',
+            B: 'samurai_dynasty:steel_ingot',
+            C: 'minecraft:redstone_block',
+            D: 'cataclysm:witherite_ingot'
+        }
+    )
+    // Meat Shredder
+    event.replaceInput({id: 'cataclysm:meat_shredder'},
+        'minecraft:iron_block',
+        'create:iron_sheet'
+    )
+    // Soul Render
+    event.remove({id: 'cataclysm:soul_render'})
+    event.shaped('cataclysm:soul_render',
+        [
+            'ABA',
+            'AC ',
+            ' C '
+        ],
+        {
+            A: 'cataclysm:cursium_ingot',
+            B: 'cataclysm:black_steel_ingot',
+            C: 'create:shadow_steel'
+        }
+    )
+    // The Annihilator
+    event.remove({id: 'cataclysm:the_annihilator'})
+    event.shaped('cataclysm:the_annihilator',
+        [
+            'A A',
+            'BCB',
+            ' C '
+        ],
+        {
+            A: 'cataclysm:cursium_ingot',
+            B: 'cataclysm:black_steel_nugget',
+            C: 'create:shadow_steel'
+        }
+    )
+    // Cursed Bow
+    event.remove({id: 'cataclysm:cursed_bow'})
+    event.shaped('cataclysm:cursed_bow',
+        [
+            'ABC',
+            'D C',
+            'ABC'
+        ],
+        {
+            A: 'cataclysm:black_steel_nugget',
+            B: 'cataclysm:cursium_ingot',
+            C: 'minecraft:string',
+            D: 'create:shadow_steel'
+        }
+    )
+    // Blazing Grips
+    event.remove({id: 'cataclysm:blazing_grips'})
+    event.shaped('cataclysm:blazing_grips',
+        [
+            'AAA',
+            'BCB',
+            'DDD'
+        ],
+        {
+            A: 'architects_palette:nether_brass_ingot',
+            B: 'create:shadow_steel',
+            C: 'cataclysm:ignitium_ingot',
+            D: 'minecraft:nether_brick'
+        }
+    )
+    // The Incinerator
+    event.remove({id: 'cataclysm:the_incinerator'})
+    event.shaped('cataclysm:the_incinerator',
+        [
+            ' AB',
+            'CBA',
+            'DC '
+        ],
+        {
+            A: 'minecraft:blaze_rod',
+            B: 'cataclysm:ignitium_ingot',
+            C: 'create:shadow_steel',
+            D: 'minecraft:netherite_sword'
+        }
+    )
+    // Bulwark of Flame
+    event.remove({id: 'cataclysm:bulwark_of_the_flame'})
+    event.shaped('cataclysm:bulwark_of_the_flame',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:nether_brick',
+            B: 'cataclysm:ignitium_ingot',
+            C: 'create:shadow_steel',
+            D: 'minecraft:shield'
+        }
+    )
+    // Trident of the Eternal Maelstrom
+    event.remove({id: 'traveloptics:trident_of_the_eternal_maelstrom'})
+    event.shaped('traveloptics:trident_of_the_eternal_maelstrom',
+        [
+            ' AB',
+            'CBA',
+            'DC '
+        ],
+        {
+            A: 'create:refined_radiance',
+            B: 'traveloptics:hullbreaker_steel',
+            C: 'irons_spellbooks:arcane_essence',
+            D: 'irons_spellbooks:weapon_parts'
         }
     )
     // Dimensional Carver

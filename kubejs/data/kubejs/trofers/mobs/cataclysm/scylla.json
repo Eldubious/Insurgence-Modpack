@@ -1,0 +1,36 @@
+{
+    "colors": {
+        "accent": "#92C9D1",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 2.5,
+            "y": 0,
+            "z": 4
+        },
+        "rotation": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "cataclysm:scylla_roar"
+        }
+    },
+    "entity": {
+        "type": "cataclysm:scylla"
+    },
+    "name": {
+        "color": "#92C9D1",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.cataclysm.scylla"
+            }
+        ]
+    }
+}

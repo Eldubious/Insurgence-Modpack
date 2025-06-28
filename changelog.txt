@@ -5,8 +5,13 @@ Version 1.1.0 (WIP)
     - Added more enemy and equipment variety to the random enemies in the Dimensional Dungeons
 
     Changes:
+    - Updated several mods
     - Updated various quest pages
-    - Altered some recipes
+    - Increased the amount of foods which offer bonus hearts (only applies on new worlds)
+    - Rebalanced recipes
+        - Changed the recipes of many Cataclysm weapons
+        - Train casing no longer requires sturdy sheets
+        - and more...
 
     Fixes:
     - 

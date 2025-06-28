@@ -754,6 +754,22 @@
 			x: 7.0d
 			y: 8.5d
 		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 8.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -767,6 +783,7 @@
 				"30B42A143CF6B40C"
 				"414142FF4EAD719C"
 			]
+			dependency_requirement: "one_completed"
 			description: ["This chapter also contains a few hidden rewards for completing some specific optional objectives."]
 			hide_until_deps_complete: true
 			icon: {
@@ -966,6 +983,11 @@
 					disable_toast: true
 					id: "4C0FAE2A35BEA723"
 					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+				{
+					id: "6F0910C25588D4A8"
+					item: "cataclysm:music_disc_scylla"
 					type: "item"
 				}
 			]
@@ -4670,6 +4692,67 @@
 			title: "Trophy Return"
 			x: 0.4d
 			y: -0.6d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_scylla"
+				}
+			}
+			id: "5AFF6AEC6BE31E9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A7E949DDBC02C79"
+				table_id: 6216080546564382995L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oScylla Collection"
+			tasks: [{
+				id: "40D27A0DD050FDB9"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			title: "&l&f1x Special Trophy Case"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 5
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "trophies_scylla"
+				}
+			}
+			id: "062F63B7CD3876A3"
+			rewards: [{
+				count: 5
+				id: "4D6A86CA017B2DB9"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "trophies_scylla"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&d&oScylla Collection"
+			tasks: [{
+				count: 5L
+				id: "2F1E798392D9244C"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			title: "&f&l5x Special Trophy Case"
+			x: 10.0d
+			y: 8.0d
 		}
 	]
 	title: "Trophies"

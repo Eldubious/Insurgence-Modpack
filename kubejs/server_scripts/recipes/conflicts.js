@@ -1,10 +1,6 @@
 // Remove and modify recipes of duplicate items
 ServerEvents.recipes(event => {
 
-    // Remove the recipe for Aquaculture's Sushi and the duplicate Rice Roll Medley recipe
-    event.remove({id: 'farmersdelight:rice_roll_medley_block'})
-    event.remove({id: 'aquaculture:sushi'})
-
     // Remove the Forbidden Arcanus Bat Soup recipe
     event.remove({output: 'forbidden_arcanus:bat_soup'})
     // Edelwood Bat Soup Bucket

@@ -480,4 +480,12 @@ ServerEvents.recipes(event => {
     createEnchantRecipe('alexscaves:humungous_hex', 3, 'hexcasting:charged_amethyst', 'irons_spellbooks:arcane_ingot', manip_essence)
     createEnchantRecipe('alexscaves:multiple_mint', 3, 'rubinated_nether:ruby_shard', 'alexscaves:large_peppermint', conj_essence)
     createEnchantRecipe('alexscaves:seekcandy', 1, 'minecraft:diamond', 'alexscaves:frostmint')
+
+    /*
+        Ancient Club Enchantments
+    */
+    // Wan's Ancient Beasts:
+    createEnchantRecipe('wan_ancient_beasts:life_steal', 1, 'samurai_dynasty:aquamarine', 'irons_spellbooks:blood_vial')
+    createEnchantRecipe('wan_ancient_beasts:hunter_mark', 6, 'iceandfire:sapphire_gem', 'wan_ancient_beasts:eater_tooth', earth_essence, 'iceandfire:sapphire_block', 'wan_ancient_beasts:crusher_spike')
+    createEnchantRecipe('wan_ancient_beasts:blood_thirst', 4, 'rubinated_nether:ruby', 'minecraft:leather', anima_essence, 'rubinated_nether:ruby_block', 'quark:bonded_leather')
 })
