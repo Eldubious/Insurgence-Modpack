@@ -130,6 +130,128 @@
                     "weight": 1
                 }
             ]
+        },
+        {
+            "rolls": 2,
+            "bonus_rolls": 0.25,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_balance_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_chaos_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_equilibrium_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_frigid_flame_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_oblivion_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_refreshment_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_riftcore_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_sacred_void_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_thunderbolt_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_volcana_epic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_lifedrain_epic",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0.25,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_balance_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_chaos_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_equilibrium_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_frigid_flame_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_oblivion_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_refreshment_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_riftcore_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_sacred_void_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_thunderbolt_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_volcana_mythic",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "traveloptics:augment_lifedrain_mythic",
+                    "weight": 1
+                }
+            ]
         }
     ]
 }
