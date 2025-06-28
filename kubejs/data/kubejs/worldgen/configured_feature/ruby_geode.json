@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:geode",
+    "config": {
+        "blocks": {
+            "filling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:air"
+                }
+            },
+            "inner_layer_provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                    {
+                        "data": {
+                            "Name": "rubinated_nether:molten_ruby_ore"
+                        },
+                        "weight": 50
+                    },
+                    {
+                        "data": {
+                            "Name": "minecraft:magma_block"
+                        },
+                        "weight": 50
+                    }
+                ]
+            },
+            "alternate_inner_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:magma_block"
+                }
+            },
+            "middle_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "quark:jasper"
+                }
+            },
+            "outer_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:smooth_basalt"
+                }
+            },
+            "inner_placements": [
+                {
+                    "Name": "minecraft:air"
+                }
+            ],
+            "cannot_replace": "#minecraft:features_cannot_replace",
+            "invalid_blocks": "#minecraft:geode_invalid_blocks"
+        },
+        "layers": {
+            "filling": 1.7,
+            "inner_layer": 2.2,
+            "middle_layer": 3.2,
+            "outer_layer": 4.2
+        },
+        "crack": {
+            "generate_crack_chance": 1,
+            "base_crack_size": 2,
+            "crack_point_offset": 2
+        },
+        "invalid_blocks_threshold": 1,
+        "distribution_points": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 3,
+            "max_inclusive": 4
+        }
+    }
+}

@@ -2,6 +2,7 @@ Version 1.1.0 (WIP)
     Additions:
     - Added mods:
         - Create Cobblestone
+        - Global Gamerules
     - Added new mob trophies to the questbook shop
     - Added a new structure, the Deep Monster Room, to the Depths
     - Added more enemy and equipment variety to the random enemies in the Dimensional Dungeons
@@ -16,7 +17,7 @@ Version 1.1.0 (WIP)
         - and more...
 
     Fixes:
-    - 
+    - The Twilight Forest gamerule EnforcedProgression now is false by default
 
 
 Version 1.0.1

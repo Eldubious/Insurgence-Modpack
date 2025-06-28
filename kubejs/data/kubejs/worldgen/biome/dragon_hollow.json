@@ -22,7 +22,9 @@
     },
     "sky_color": 5246723,
     "water_color": 9575173,
-    "water_fog_color": 7083012
+    "water_fog_color": 7083012,
+    "grass_color": 4145473,
+    "foliage_color": 4145473
   },
   "carvers": {},
   "features": [
@@ -31,7 +33,8 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "kubejs:ruby_geode"
     ],
     [],
     [],
@@ -55,8 +58,12 @@
     [],
     [
       "minecraft:glow_lichen",
+      "regions_unexplored:cave_grass",
+      "regions_unexplored:cave_tall_grass",
       "kubejs:cave_carrots_patch",
-      "kubejs:bone_pile"
+      "kubejs:bone_pile",
+      "kubejs:ash_vent",
+      "kubejs:patch_powdery_cane"
     ]
   ],
   "spawn_costs": {},

@@ -49,9 +49,9 @@
                     "weirdness": 0,
                     "depth": 1.1,
                     "erosion": 0.6,
-                    "humidity": 0,
+                    "humidity": -0.25,
                     "offset": 0,
-                    "temperature": 0
+                    "temperature": -0.5
                 }
                 },
                 {
@@ -115,10 +115,10 @@
                 }
                 },
                 {
-                  "biome": "kubejs:mossy_fields",
+                  "biome": "kubejs:dragon_hollow",
                   "parameters": {
-                    "temperature": 1,
-                    "humidity": -0.5,
+                    "temperature": 0.5,
+                    "humidity": 0,
                     "continentalness": 0,
                     "erosion": 0,
                     "weirdness": 0,

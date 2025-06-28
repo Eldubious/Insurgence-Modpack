@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+        "regions_unexplored:redstone_caves",
+        "regions_unexplored:prismachasm",
+        "kubejs:dragon_hollow",
+        "kubejs:asurine_caves",
+        "kubejs:crimson_caves",
+        "kubejs:mossy_fields"
+    ],
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "none",
+    "start_pool": "kubejs:deep_monster_room/room",
+    "size": 3,
+    "start_height": {
+        "absolute": -43
+    },
+    "max_distance_from_center": 1,
+    "use_expansion_hack": false
+}
