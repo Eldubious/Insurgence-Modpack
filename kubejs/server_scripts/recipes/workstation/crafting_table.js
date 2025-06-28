@@ -176,6 +176,19 @@ ServerEvents.recipes(event => {
     // Sushi
     event.remove({id: 'aquaculture:sushi'})
     event.shapeless('aquaculture:sushi', ['minecraft:dried_kelp', 'farmersdelight:cooked_rice', 'aquaculture:fish_fillet_raw'])
+    // Verdant Spellweave Ingot
+    event.shaped('traveloptics:verdant_spellweave_ingot',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'quark:moss_paste',
+            B: 'cataclysm:amethyst_crab_shell',
+            C: 'irons_spellbooks:arcane_ingot'
+        }
+    )
 
     
     /*
@@ -946,6 +959,141 @@ ServerEvents.recipes(event => {
             B: 'traveloptics:hullbreaker_steel',
             C: 'irons_spellbooks:arcane_essence',
             D: 'irons_spellbooks:weapon_parts'
+        }
+    )
+    // Shellbound
+    event.shaped('traveloptics:tome_of_abyssal_flora',
+        [
+            'AAA',
+            'BCB',
+            'AAA'
+        ],
+        {
+            A: 'cataclysm:amethyst_crab_shell',
+            B: 'traveloptics:verdant_spellweave_ingot',
+            C: 'irons_spellbooks:druidic_spell_book'
+        }
+    )
+    // Scourge of the Sands
+    event.shaped('traveloptics:scourge_of_the_sands',
+        [
+            ' AB',
+            ' CA',
+            'D  '
+        ],
+        {
+            A: 'cataclysm:ancient_metal_nugget',
+            B: 'traveloptics:desert_jewel_fragment',
+            C: 'create:refined_radiance',
+            D: 'cataclysm:ancient_metal_ingot'
+        }
+    )
+    // Flames of Eldritch
+    event.shaped('traveloptics:flames_of_eldritch',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'cataclysm:ignitium_ingot',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:flame_tempered_handguard'
+        }
+    )
+    // Harbinger's Wrath
+    event.shaped('traveloptics:harbingers_wrath',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'cataclysm:witherite_ingot',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:last_glow'
+        }
+    )
+    // Abyssal Tidecaller
+    event.shaped('traveloptics:abyssal_tidecaller',
+        [
+            'AAB',
+            ' C ',
+            'C  '
+        ],
+        {
+            A: 'traveloptics:abyssal_spellweave_ingot',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:abyssal_tentacle'
+        }
+    )
+    // Infernal Devastator
+    event.shaped('traveloptics:infernal_devastator',
+        [
+            ' AB',
+            'ABA',
+            'CA '
+        ],
+        {
+            A: 'minecraft:netherite_scrap',
+            B: 'traveloptics:pyro_spellweave_ingot',
+            C: 'create:refined_radiance'
+        }
+    )
+    // Gauntlet of Extinction
+    event.shaped('traveloptics:gauntlet_of_extinction',
+        [
+            ' DA',
+            'BCD',
+            'CB '
+        ],
+        {
+            A: 'alexscaves:ominous_catalyst',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:tectonic_ingot',
+            D: 'alexscaves:tectonic_shard'
+        }
+    )
+    // Cursed Wraithblade
+    event.shaped('traveloptics:cursed_wraithblade',
+        [
+            ' BA',
+            'CAB',
+            'DC '
+        ],
+        {
+            A: 'cataclysm:cursium_ingot',
+            B: 'traveloptics:echo_winglet',
+            C: 'create:refined_radiance',
+            D: 'cataclysm:black_steel_ingot'
+        }
+    )
+    // Voidstrike Reaper
+    event.shaped('traveloptics:voidstrike_reaper',
+        [
+            'AAB',
+            ' C ',
+            'C  '
+        ],
+        {
+            A: 'traveloptics:void_spellweave_ingot',
+            B: 'create:refined_radiance',
+            C: 'minecraft:netherite_ingot'
+        }
+    )
+    // Guide to Watery Whispers
+    event.shaped('traveloptics:guide_to_watery_whispers',
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            A: 'irons_spellbooks:magic_cloth',
+            B: 'minecraft:prismarine_crystals',
+            C: 'oceanic_delight:ancient_fish_eggs',
+            D: 'minecraft:book',
+            E: 'minecraft:heart_of_the_sea'
         }
     )
     // Dimensional Carver

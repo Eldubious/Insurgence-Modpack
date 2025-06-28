@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "name": "traveloptics:amulet_of_spectral_shift",
           "functions": [
             {
@@ -19,7 +19,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "name": "traveloptics:nightstalkers_band",
           "functions": [
             {
@@ -33,7 +33,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 5,
           "name": "traveloptics:eldritch_echo",
           "functions": [
             {
