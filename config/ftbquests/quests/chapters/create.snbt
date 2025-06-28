@@ -18,6 +18,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "3D290937A86894B4"
+			rewards: [{
+				id: "5754328B6D784F65"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "6588A48A8363E5FA"
 				item: "create:encased_fan"
@@ -29,6 +34,11 @@
 		{
 			dependencies: ["07875F00EE0DB11E"]
 			id: "679D9E44487D8FAB"
+			rewards: [{
+				id: "5225E119C292D9FA"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "1E3BE75A47DF0BE6"
 				item: "create:crushing_wheel"
@@ -40,6 +50,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "7D28DEE881BA7798"
+			rewards: [{
+				id: "5A16E0CE88A1B6ED"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "7811C683FD1855A6"
 				item: "create:smart_chute"
@@ -51,6 +66,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "09ABEA9679071C59"
+			rewards: [{
+				id: "6B324046075FDE99"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "1F9DE041E1F760C7"
 				item: "create:smart_fluid_pipe"
@@ -62,6 +82,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "704B45D9CA79DDA0"
+			rewards: [{
+				id: "73B8DDC37A49C332"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "30B246ED159F4BE9"
 				item: "create:steam_engine"
@@ -73,6 +98,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "77AA1D9BCE1A9313"
+			rewards: [{
+				id: "1A2E1CC738F3B168"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "3092B6B0285288AA"
 				item: "create:mechanical_piston"
@@ -84,6 +114,11 @@
 		{
 			dependencies: ["77AA1D9BCE1A9313"]
 			id: "3C597AD0470E777F"
+			rewards: [{
+				id: "0CBE76667DD0FAD5"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "3A746FE7DA4B931D"
 				item: "create:sticky_mechanical_piston"
@@ -95,6 +130,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "260AD35D0101AD79"
+			rewards: [{
+				id: "7C2577F6A84C6A9E"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "540CEB472668A83E"
 				item: "create:gantry_carriage"
@@ -106,6 +146,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "2801AE1056D4375F"
+			rewards: [{
+				id: "502E902B175D4FC2"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "75810E52C166B9BF"
 				item: "create:mechanical_bearing"
@@ -117,6 +162,11 @@
 		{
 			dependencies: ["2801AE1056D4375F"]
 			id: "30E7D2341B5F1886"
+			rewards: [{
+				id: "12FB6D24751BCBC3"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "3D10AE6EEB400417"
 				item: "create:clockwork_bearing"
@@ -128,6 +178,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "09E38D30288FB525"
+			rewards: [{
+				id: "2784A8990DD0B1AE"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "74F860B3AA3DACC6"
 				item: "create:rope_pulley"
@@ -139,6 +194,11 @@
 		{
 			dependencies: ["09E38D30288FB525"]
 			id: "7AE2B45CB1AA01CA"
+			rewards: [{
+				id: "36543BC6EADE370D"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "6B356B44253B58D1"
 				item: "create:elevator_pulley"
@@ -150,6 +210,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "3D0C6E40367CDDC5"
+			rewards: [{
+				id: "5C2C2F0F71A1FDD7"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "5CCB2568048AA7DA"
 				item: "create:cart_assembler"
@@ -161,6 +226,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "2127B55745D475B5"
+			rewards: [{
+				id: "2F8734D54EACD7B6"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "153F26E3D35DE7CF"
 				item: "create:mechanical_drill"
@@ -172,6 +242,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "372F2FACC168B69F"
+			rewards: [{
+				id: "768D84CE6D8C2367"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "4F3EEA2FACC213E9"
 				item: "create:mechanical_saw"
@@ -183,6 +258,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "5DB1E7426820D7D9"
+			rewards: [{
+				id: "4C7DB741167538B5"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "6A1FC2402044FE18"
 				item: "create:deployer"
@@ -194,6 +274,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "531A683F4EC4CEE8"
+			rewards: [{
+				id: "44A3C132352A9150"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "17EEF2EEDD187CFB"
 				item: "create:mechanical_harvester"
@@ -205,6 +290,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "72AD69E2AD8D0EBC"
+			rewards: [{
+				id: "35DAF78741F01C8F"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "562B094FBEA7EA7D"
 				item: "create:mechanical_plough"
@@ -216,6 +306,11 @@
 		{
 			dependencies: ["026BF051B780DCB2"]
 			id: "33C136FF7D3BDDF9"
+			rewards: [{
+				id: "55D3C3D154BD679D"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "6737F2EADE0EFC95"
 				item: "create:mechanical_roller"
@@ -227,6 +322,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "07875F00EE0DB11E"
+			rewards: [{
+				id: "660F2CF54E7FB732"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "2CFAE433C4D2AC47"
 				item: "create:mechanical_crafter"
@@ -238,6 +338,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "73448228F0EA3CA3"
+			rewards: [{
+				id: "73995A4C13FD3DBA"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "611B3338CA3D50A5"
 				item: "create:sequenced_gearshift"
@@ -249,6 +354,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "017C6576A89CE70C"
+			rewards: [{
+				id: "160CED5F52176397"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "0B621132A7D8C810"
 				item: "create:rotation_speed_controller"
@@ -260,6 +370,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "4B3B4EC2E2C52B00"
+			rewards: [{
+				id: "0880BECEFF476D7D"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "0A32A573E0D17081"
 				item: "create:mechanical_arm"
@@ -271,6 +386,11 @@
 		{
 			dependencies: ["30C8F470EF6EB3EB"]
 			id: "5E57D49951B0DA80"
+			rewards: [{
+				id: "42C71523BF7844E5"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "6544BAC78E86E1B8"
 				item: "create:controls"
@@ -282,6 +402,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "7F4F950F183CC2F9"
+			rewards: [{
+				id: "42335B20B665F9CF"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "2D37E42F5045885D"
 				item: "create:brass_funnel"
@@ -293,6 +418,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "48133F01988C18CE"
+			rewards: [{
+				id: "0EB19D44159A1EEE"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "6A3423B04AC9EE4C"
 				item: "create:brass_tunnel"
@@ -304,6 +434,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "12B0603C22514E3D"
+			rewards: [{
+				id: "3730934CF5CA724B"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "62991499214AF0DE"
 				item: "create:content_observer"
@@ -315,6 +450,11 @@
 		{
 			dependencies: ["6E39CD54AC77B200"]
 			id: "5FD9F4BBFCB1A539"
+			rewards: [{
+				id: "33328CD86749CDE8"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "47E3E5D2C7240217"
 				item: "create:stockpile_switch"
@@ -326,6 +466,11 @@
 		{
 			dependencies: ["55349995779E8419"]
 			id: "7410283144DC74D0"
+			rewards: [{
+				id: "0899E14D1B7584F7"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "2A52E1FFBE1D2F6F"
 				item: "ars_nouveau:drygmy_charm"
@@ -337,6 +482,11 @@
 		{
 			dependencies: ["269B299626B8B4FC"]
 			id: "2A9E2174159E2AE5"
+			rewards: [{
+				id: "10A63E9021057B7F"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "3AE6FAA5D1EFFDD5"
 				item: "ars_nouveau:spell_turret"
@@ -348,6 +498,11 @@
 		{
 			dependencies: ["55349995779E8419"]
 			id: "269B299626B8B4FC"
+			rewards: [{
+				id: "0438E975A7994E1B"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "5B98AEB4E8A69290"
 				item: "ars_nouveau:basic_spell_turret"
@@ -359,6 +514,11 @@
 		{
 			dependencies: ["269B299626B8B4FC"]
 			id: "2D36FCFA4C45DABB"
+			rewards: [{
+				id: "48A1E82DEF7831D2"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "7AFC6DCB113EFDC9"
 				item: "ars_nouveau:timer_spell_turret"
@@ -370,6 +530,11 @@
 		{
 			dependencies: ["269B299626B8B4FC"]
 			id: "3E9DD5C5F3136F38"
+			rewards: [{
+				id: "0B3168240CCE1AF7"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "7FF77F835135D19D"
 				item: "ars_nouveau:rotating_spell_turret"
@@ -381,6 +546,11 @@
 		{
 			dependencies: ["2A9E2174159E2AE5"]
 			id: "0F18E3C6DB2BC894"
+			rewards: [{
+				id: "7BE72860A4BE12B3"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "3D69FE769F153822"
 				item: "ars_elemental:fire_turret"
@@ -392,6 +562,11 @@
 		{
 			dependencies: ["2A9E2174159E2AE5"]
 			id: "1A7379617C2822B8"
+			rewards: [{
+				id: "66A03708A3F7F750"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "470B8636B2924CBA"
 				item: "ars_elemental:water_turret"
@@ -403,6 +578,11 @@
 		{
 			dependencies: ["2A9E2174159E2AE5"]
 			id: "51EFAE0C7AD0CF5E"
+			rewards: [{
+				id: "70763540C400EB7A"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "7DCA19504A524082"
 				item: "ars_elemental:air_turret"
@@ -414,6 +594,11 @@
 		{
 			dependencies: ["2A9E2174159E2AE5"]
 			id: "1211F098445687C6"
+			rewards: [{
+				id: "70A853E505D40404"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "25B4C2CA8E27CA4B"
 				item: "ars_elemental:earth_turret"
@@ -425,6 +610,11 @@
 		{
 			dependencies: ["2A9E2174159E2AE5"]
 			id: "7E6F905DA36B880A"
+			rewards: [{
+				id: "7E59B1A64132914D"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "5FB773BC36E54E79"
 				item: "ars_elemental:manipulation_turret"
@@ -512,6 +702,11 @@
 		{
 			dependencies: ["55349995779E8419"]
 			id: "121A63E07B0DEE72"
+			rewards: [{
+				id: "3331283312520047"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "797F5BC2C2A2C0BF"
 				item: "ars_elemental:siren_charm"

@@ -23,6 +23,29 @@
 		{ count: 10, item: "minecraft:experience_bottle", weight: 3.5f }
 		{ count: 3, item: "kubejs:enchant_catalyst", weight: 1.25f }
 		{ item: "kubejs:hyper_enchant_catalyst", weight: 0.5f }
+		{ count: 10, item: "farmersdelight:straw", weight: 2.0f }
+		{ count: 4, item: "call_of_yucutan:chili_pepper_seeds", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:rice", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:cabbage_seeds", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:tomato_seeds", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:onion", weight: 2.0f }
+		{ count: 4, item: "minecraft:pumpkin_seeds", weight: 2.0f }
+		{ count: 4, item: "minecraft:melon_seeds", weight: 2.0f }
+		{ count: 2, item: "farmersdelight:melon_juice", weight: 2.0f }
+		{ count: 4, item: "create:brass_ingot", weight: 2.5f }
+		{ item: "minecraft:ender_eye", weight: 2.0f }
+		{ count: 2, item: "minecraft:diamond" }
+		{ count: 10, item: "minecraft:redstone", weight: 3.5f }
+		{ count: 2, item: "sophisticatedstorage:basic_tier_upgrade" }
+		{ item: "sophisticatedstorage:upgrade_base", weight: 0.75f }
+		{ item: "sophisticatedbackpacks:upgrade_base", weight: 0.75f }
+		{ count: 2, item: "minecraft:phantom_membrane", weight: 1.5f }
+		{ count: 4, item: "minecraft:nether_wart", weight: 2.0f }
+		{ count: 3, item: "minecraft:ender_pearl", weight: 1.5f }
+		{ count: 12, item: "supplementaries:rope", weight: 3.5f }
+		{ count: 4, item: "minecraft:item_frame", weight: 3.0f }
+		{ count: 4, item: "labels:label", weight: 3.0f }
+		{ count: 2, item: "minecraft:lead", weight: 3.0f }
 	]
 	title: "Quest Reward: Small"
 }

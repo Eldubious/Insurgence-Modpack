@@ -23,6 +23,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Here you will find many useful blocks and items."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -95,6 +96,12 @@
 		{
 			id: "045CFA75399D07B9"
 			optional: true
+			rewards: [{
+				id: "65A23672F7CE30BC"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "1478E65C86938327"
 				item: {
@@ -110,6 +117,12 @@
 		{
 			id: "0D0AC8A0803A097E"
 			optional: true
+			rewards: [{
+				id: "344CECF47B6E369C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "4E6D82806ED95793"
 				item: {
@@ -214,6 +227,12 @@
 			description: ["Wearing these will make you immune to fall damage!"]
 			id: "31AC3E3DEC054F66"
 			optional: true
+			rewards: [{
+				id: "5F63FF1A25543D72"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "73EA8E3D1CD30D9D"
 				item: "estrogen:thigh_highs"
@@ -226,6 +245,12 @@
 			description: ["The effect these items give will allow you to dash very quickly and a pretty long distance. This is a very powerful mobility option."]
 			id: "1FCD37C3CEAF2FFD"
 			optional: true
+			rewards: [{
+				id: "4FDA8B97337280FB"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D1987EE079A04C5"
 				item: {
@@ -260,6 +285,11 @@
 			description: ["This is a longer lasting and reusable form of the Girl Power effect."]
 			id: "19DA82CC46E3B766"
 			optional: true
+			rewards: [{
+				id: "109453B317E8D3E6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "021F950053593006"
 				item: {
@@ -446,6 +476,7 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "3B4C37422EC1CA85"
 				item: {
@@ -551,6 +582,7 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "28E84E3DE6BC02FB"
 				item: {
@@ -694,6 +726,12 @@
 		{
 			id: "2A806A47B2A73CB8"
 			optional: true
+			rewards: [{
+				id: "4D2076CE10F9F371"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
 			tasks: [{
 				id: "41867C2C7A534280"
 				item: {
@@ -729,6 +767,12 @@
 		{
 			description: ["To use these portals, place them in the world. Then right-click on it with an empty hand."]
 			id: "482B907FF80D5181"
+			rewards: [{
+				id: "75EA5475B86F9E39"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "&7&oUsing Their Portals"
@@ -754,6 +798,7 @@
 						]
 					}
 				}
+				title: "Custom Portal Blocks"
 				type: "item"
 			}]
 			title: "Custom Dimensions"
@@ -770,6 +815,14 @@
 			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "16C61DD79A0F5478"
+			optional: true
+			rewards: [{
+				id: "4E1C7A0B78DD2CD2"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
 			tasks: [
 				{
 					disable_toast: true
@@ -808,6 +861,65 @@
 			]
 			title: "Enchanting With Materials"
 			x: 1.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"This block will automatically generate stone blocks if you give it some rotational force."
+				""
+				"Click on this block with any of the supported stone types to set the block that will be generated."
+				""
+				"The speed in which stone is generated depends on the strength of the supplied rotational force."
+			]
+			icon: {
+				Count: 1
+				id: "createcobblestone:mechanical_generator"
+				tag: {
+					BlockEntityTag: {
+						type: "none"
+					}
+				}
+			}
+			id: "6D9EBA6CADD5E54D"
+			optional: true
+			rewards: [{
+				id: "3C1854A1C15B6DE5"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6A2D6E20161E42A1"
+					item: {
+						Count: 1
+						id: "createcobblestone:mechanical_generator"
+						tag: {
+							BlockEntityTag: {
+								type: "none"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "098B491FAEE9882E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:create_cobblestone_generator_compatible"
+						}
+					}
+					title: "Compatible Stone Types"
+					type: "item"
+				}
+			]
+			title: "Automatic Stone Generator"
+			x: 2.5d
 			y: -5.5d
 		}
 	]

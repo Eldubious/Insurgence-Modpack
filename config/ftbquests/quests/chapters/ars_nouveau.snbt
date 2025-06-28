@@ -912,6 +912,11 @@
 		{
 			dependencies: ["6761A06F8CE5D5C6"]
 			id: "037A19F881B4E4C0"
+			rewards: [{
+				id: "1CA8337D66AD2E71"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3FCD57D0BFCF3D78"
 				item: "irons_spellbooks:blank_rune"

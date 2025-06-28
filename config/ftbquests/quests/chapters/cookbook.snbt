@@ -102,6 +102,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "71117622B61BB39B"
+			rewards: [{
+				id: "085FDF2C9C0DEF6A"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4135B83E2319C4FC"
@@ -115,6 +120,11 @@
 			dependencies: ["0CAA26789C5CC2A7"]
 			icon: "farmersdelight:chocolate_pie"
 			id: "6721D0778C2FA8A1"
+			rewards: [{
+				id: "5C98CCADD09810D7"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -135,6 +145,11 @@
 			dependencies: ["0CAA26789C5CC2A7"]
 			icon: "farmersdelight:sweet_berry_cheesecake"
 			id: "0175448B4958E1B2"
+			rewards: [{
+				id: "014A2BB986DB471E"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -155,6 +170,11 @@
 			dependencies: ["0CAA26789C5CC2A7"]
 			icon: "farmersdelight:apple_pie"
 			id: "38FED0CC4CD5886F"
+			rewards: [{
+				id: "12817CD024A581B7"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -174,6 +194,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "5BAA01D5CFC51F75"
+			rewards: [{
+				id: "3E969CF0152CAF81"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "708C5EEB76DE4B0D"
@@ -186,6 +211,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "122CCB2C75E7BD15"
+			rewards: [{
+				id: "398FF20342EF227A"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "12FFC70438C246EE"
@@ -198,6 +228,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "3C448E897FFBB0F8"
+			rewards: [{
+				id: "6F49BD0EC304C6CE"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "62A3CB0380118704"
@@ -210,6 +245,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "606805676F4BE0BB"
+			rewards: [{
+				id: "3383ECC2D3C36C36"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0EB9829268A28B63"
@@ -222,6 +262,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "7C9C48E35D1BDC04"
+			rewards: [{
+				id: "7331DB4CF294395C"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1C487575185695AD"
@@ -234,6 +279,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "4CE9C849750B748D"
+			rewards: [{
+				id: "021FFA4EE4EB9490"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "23F544CA7F3B3F4A"
@@ -246,6 +296,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "0759767EEE93786F"
+			rewards: [{
+				id: "3BB0CE6E3EACBF80"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "152BB03634921FF1"
@@ -258,6 +313,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6026171B56211F28"
+			rewards: [{
+				id: "721B24DD5FE85DB4"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "71FB495C3120B200"
@@ -270,6 +330,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "1913028669D90AB4"
+			rewards: [{
+				id: "5525807EEE8FD76F"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "33A02802BDEB12AD"
@@ -282,6 +347,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "49D736A20F1F9154"
+			rewards: [{
+				id: "6CA814C958B83843"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "318F136CBE1B1A12"
@@ -294,6 +364,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "4799F15856B6311B"
+			rewards: [{
+				id: "7C197EB14D520789"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3B7F58E422F6478D"
@@ -306,6 +381,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "4A10D34E659978CF"
+			rewards: [{
+				id: "2676245B7AB61AA0"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4FD371B5C9936884"
@@ -318,6 +398,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "233F1967CA029D5C"
+			rewards: [{
+				id: "01DCB8E9998467DB"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "574F96CE44A04F12"
@@ -330,6 +415,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6650044305534459"
+			rewards: [{
+				id: "079CB90013759CBD"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3C3EAEC59F222203"
@@ -342,6 +432,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "54A2D519FDC4F8C3"
+			rewards: [{
+				id: "4D8EC5FCFF8615A0"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "52F4CBA4F7EBAE0F"
@@ -354,6 +449,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "31A6B5ED6F6C7CB9"
+			rewards: [{
+				id: "720F4D4400468555"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "46F529D15CDCD8D3"
@@ -366,6 +466,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "3AA0FF54D5A11FEC"
+			rewards: [{
+				id: "08FF6468A3D8A4A0"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "422442F57C8FD5EB"
@@ -378,6 +483,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "65B109E9C46CE209"
+			rewards: [{
+				id: "59CDC335AD948622"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0CE3E3F362A24DA7"
@@ -390,6 +500,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6A6028FB7FFFA8D9"
+			rewards: [{
+				id: "78C321C88BC0A58D"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4DCD3F9FF2913E03"
@@ -402,6 +517,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "71F45FD00E3365CE"
+			rewards: [{
+				id: "062D8C4AAF3A515A"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5CBBF7087BEA6C4F"
@@ -414,6 +534,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "13C9339F325A059A"
+			rewards: [{
+				id: "453CC8DB987A143B"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6DA01D102DFF0539"
@@ -426,6 +551,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "7392B7F0E9710766"
+			rewards: [{
+				id: "630EC2006195DB88"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "59C562600B7390AD"
@@ -438,6 +568,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "3B7A08E235375429"
+			rewards: [{
+				id: "20079EEE4440E863"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "657F45F51B665BE4"
@@ -450,6 +585,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "032355DEC8BF6C7D"
+			rewards: [{
+				id: "1CB9B5170B62F3B1"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5C986C7E94056D00"
@@ -462,6 +602,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "1CC194A595D83066"
+			rewards: [{
+				id: "51BA03E58D6C6E1F"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "61DD8E716D1E9172"
@@ -474,6 +619,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "5043293B6F0F58A0"
+			rewards: [{
+				id: "6A077A5E3111056D"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "73B6087312FAE76A"
@@ -486,6 +636,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "2D0D20828931C39B"
+			rewards: [{
+				id: "6322B9B70C13F506"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0BA5F48264B22293"
@@ -498,6 +653,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "738FB8612510F560"
+			rewards: [{
+				id: "60E728D2598BB2E1"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2AC70AE78BEA1612"
@@ -510,6 +670,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "39F5BECCE8624969"
+			rewards: [{
+				id: "25F0B823B07CD2EE"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6A661F4C4A843243"
@@ -522,6 +687,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "376DB00753F40916"
+			rewards: [{
+				id: "777489B1737E54AA"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1D3733B68F33C2DA"
@@ -534,6 +704,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6ED1F965B40BD88C"
+			rewards: [{
+				id: "0410D769E84D62E3"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "016B35EEF1B5BEC7"
@@ -546,6 +721,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "574A295424238A47"
+			rewards: [{
+				id: "7C2F27D9372D7A80"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "58480F9577823DB0"
@@ -558,6 +738,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6E7D4AB76D18DC32"
+			rewards: [{
+				id: "0706AA8ADE447E04"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "129613FC7E452077"
@@ -570,6 +755,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6931D43D4622B2DA"
+			rewards: [{
+				id: "08E0F64EF9B54AEF"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "217981C68002F7C4"
@@ -582,6 +772,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "2168693F4141978C"
+			rewards: [{
+				id: "3B0831BC4391EF92"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6D83BC39FDC8A9E3"
@@ -594,6 +789,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "69B56EE5F722E1D5"
+			rewards: [{
+				id: "01548A3907C0F6E3"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2A1BFBF251723F14"
@@ -606,6 +806,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "0CEE4ABFFA771AC0"
+			rewards: [{
+				id: "79CDF6ED4122D714"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "01A6F045A40F68CD"
@@ -618,6 +823,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "1FBEB2B7CCAE5FC1"
+			rewards: [{
+				id: "383AF00B5A830914"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4DD97C56939558C4"
@@ -630,6 +840,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "5FCE525C7BDE2795"
+			rewards: [{
+				id: "146554C6EB98352C"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "54F1BBF86D6732E4"
@@ -642,6 +857,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "5881B3841B86304E"
+			rewards: [{
+				id: "7F91500B45862F2C"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4A7BA0532FA889E2"
@@ -654,6 +874,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "793E7E7346CEC1D7"
+			rewards: [{
+				id: "67DE9F71B815AECA"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3A47A3F90F2E85E7"
@@ -666,6 +891,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6343933E3E478155"
+			rewards: [{
+				id: "32E571630A18E7E4"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0CF8FCB32782CED2"
@@ -678,6 +908,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "2F5FA056D54E899B"
+			rewards: [{
+				id: "0345A533E6D0B430"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3C877441B88FE949"
@@ -690,6 +925,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "7D20EA1DE1B21D84"
+			rewards: [{
+				id: "4C0221C6DDA1C41B"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2276F6D8703BD061"
@@ -702,6 +942,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "7543F56FDBC41A7F"
+			rewards: [{
+				id: "3670F1669A48E364"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "190C1338907420CB"
@@ -714,6 +959,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "5EAA8EF8DD9B7B12"
+			rewards: [{
+				id: "2AF20A3321B9F83C"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "767CA8267224846D"
@@ -726,6 +976,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6E728E24B6FED84D"
+			rewards: [{
+				id: "01ED776EAFDEC81D"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "372E6F6FA11B1F4C"
@@ -738,6 +993,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "405B3BB3DFD324FD"
+			rewards: [{
+				id: "332FACFBDEC46DC0"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "264059847A2017D4"
@@ -750,6 +1010,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "56D401F072F4286B"
+			rewards: [{
+				id: "3F7A95F4AEBE7B9E"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7E40B74EE9434408"
@@ -762,6 +1027,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "46F46BF38064E93C"
+			rewards: [{
+				id: "66E9FA8DC7D25898"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6AFEDD320B4AC86C"
@@ -774,6 +1044,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "10FA296526F0F75C"
+			rewards: [{
+				id: "3F5F3243382053BA"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6B3302A044780965"
@@ -786,6 +1061,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "5DD01F1CE467E2FC"
+			rewards: [{
+				id: "50B3B5B134B4B4D5"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3BDF02E203F22311"
@@ -798,6 +1078,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "41E6389B73BC5595"
+			rewards: [{
+				id: "22D397355F408386"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "64F0573506FFD489"
@@ -810,6 +1095,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "1B06336EE337BE8A"
+			rewards: [{
+				id: "5CF6E7F9477DC968"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2AD54FBD8AE08F2E"
@@ -822,6 +1112,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "666697A5DF6F43D6"
+			rewards: [{
+				id: "3238E47CDF087C07"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "54A06D5FA2666F0C"
@@ -834,6 +1129,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "589EE58497205EF3"
+			rewards: [{
+				id: "7F23A5CF1C1D3FF3"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0BCD6FE2CD70460D"
@@ -846,6 +1146,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "126FB007694581F9"
+			rewards: [{
+				id: "22E37631B733C0F5"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5A237D49533871AD"
@@ -858,6 +1163,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "3A40B8DA4B6E7000"
+			rewards: [{
+				id: "3D0B7BEDAB5219F4"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2E88A3CFA3FED5F3"
@@ -870,6 +1180,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6463D7B5D93C96AA"
+			rewards: [{
+				id: "4A2E095844F6CE68"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "721C05D8463C69E8"
@@ -882,6 +1197,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "0799F707BDC32019"
+			rewards: [{
+				id: "6B0B9F25DFEA4873"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2ED6B3284DC33455"
@@ -894,6 +1214,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "472D84A9E1A01037"
+			rewards: [{
+				id: "6E0B0534E34FE1D2"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "258C575A1ED92C80"
@@ -906,6 +1231,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "7D6C82B532ABB3F6"
+			rewards: [{
+				id: "5997DB803E9332DB"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0DA733395C68ABC6"
@@ -919,6 +1249,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "farmersdelight:roast_chicken_block"
 			id: "3A832332C623912D"
+			rewards: [{
+				id: "6C4011F886537537"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -941,6 +1276,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "farmersdelight:honey_glazed_ham_block"
 			id: "1384019E079BC5F3"
+			rewards: [{
+				id: "3BF87E07C4C92D8F"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -963,6 +1303,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "farmersdelight:shepherds_pie_block"
 			id: "23F0F2FB8DD479F6"
+			rewards: [{
+				id: "22136240AC2DBBA3"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -985,6 +1330,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "mynethersdelight:striderloaf"
 			id: "26A1536D19F2DE4B"
+			rewards: [{
+				id: "2A6DCE05CBFC64D3"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1013,6 +1363,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "twilightdelight:lily_chicken_block"
 			id: "27617EF584EA5224"
+			rewards: [{
+				id: "1DB424BBECAD97E5"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1036,6 +1391,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "twilightdelight:fiery_snakes_block"
 			id: "4293654081731F38"
+			rewards: [{
+				id: "503C75E2F8F2571C"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1059,6 +1419,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "twilightdelight:meef_wellington_block"
 			id: "2ACE82D9B8BD6836"
+			rewards: [{
+				id: "278CE316B46717F7"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1082,6 +1447,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "arsdelight:honey_glazed_chimera"
 			id: "3FFD0B940B377F19"
+			rewards: [{
+				id: "2FBE4634E1D6D100"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1104,6 +1474,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "arsdelight:wilden_salad"
 			id: "6FEA4698ADDCEF87"
+			rewards: [{
+				id: "61ADFC2E91FFB1BD"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1132,6 +1507,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "ends_delight:grilled_shulker_block"
 			id: "1F7E0B956404F88D"
+			rewards: [{
+				id: "694B4CEB0D64A80B"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1154,6 +1534,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "mynethersdelight:roast_stuffed_hoglin"
 			id: "4488FDC9ADE74DDA"
+			rewards: [{
+				id: "1A5C5B3B21A34DA3"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1188,6 +1573,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "mynethersdelight:ghasta_with_cream"
 			id: "1BB638697E15B764"
+			rewards: [{
+				id: "28DB8D60CC451B58"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1210,6 +1600,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "farmersdelight:stuffed_pumpkin_block"
 			id: "1E15EEFBFD251F5A"
+			rewards: [{
+				id: "674A68D4193C5EF6"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1232,6 +1627,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "trailandtales_delight:stuffed_sniffer_egg_block"
 			id: "18204785A68DE138"
+			rewards: [{
+				id: "1F125BA0A29704DC"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1254,6 +1654,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "miners_delight:stuffed_squid"
 			id: "0F51A695FADD298F"
+			rewards: [{
+				id: "40798D097AFCACC9"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1276,6 +1681,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "ends_delight:dragon_meat_stew_block"
 			id: "6D9B9413A344E4AA"
+			rewards: [{
+				id: "78CE477F76E665C0"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1298,6 +1708,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "ends_delight:steamed_dragon_egg_block"
 			id: "43D0004813EB1BAD"
+			rewards: [{
+				id: "24B17DBB6E86E4E8"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1320,6 +1735,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "ends_delight:dragon_leg_with_sauce_block"
 			id: "619DB8C1C070B7D2"
+			rewards: [{
+				id: "7BE2F5AA8E469D8C"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1342,6 +1762,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "oceanic_delight:stuffed_pufferfish"
 			id: "08D5BF4955EE5F58"
+			rewards: [{
+				id: "1F477F58065202D0"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1364,6 +1789,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "oceanic_delight:paella_plate"
 			id: "2D3932576B562850"
+			rewards: [{
+				id: "73A1A3740B8DBAB9"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1385,6 +1815,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "1D9F52FA5CF922DB"
+			rewards: [{
+				id: "4A06BE61D6AE87B3"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "438C5C30DC93B692"
@@ -1397,6 +1832,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "0EA8D91D96D7D6AA"
+			rewards: [{
+				id: "5598B063D0CF3F21"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5A8DA4AC246DCAF5"
@@ -1409,6 +1849,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "3FA08C8CD8C48E17"
+			rewards: [{
+				id: "01C533A056BAC9A1"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5DB8686F3B934040"
@@ -1422,6 +1867,11 @@
 			dependencies: ["0CAA26789C5CC2A7"]
 			description: ["&7&oFound in buried treasure chests."]
 			id: "609EC74AD031613E"
+			rewards: [{
+				id: "5248ED6362E41EC5"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7C212A2E483775B2"
@@ -1434,6 +1884,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "340840D28DA35DFF"
+			rewards: [{
+				id: "1EB55E793068D4EB"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "074651700B65094D"
@@ -1446,6 +1901,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "3C1957FA65B0E2A0"
+			rewards: [{
+				id: "246B556546F76922"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "53F4BCBE5FD55C8E"
@@ -1458,6 +1918,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "719C94E430A5EF4D"
+			rewards: [{
+				id: "06D5D3BEDD2D7CDF"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "782A37A80A326B70"
@@ -1470,6 +1935,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "2C599F70AB77AB00"
+			rewards: [{
+				id: "3D0DF2C77B0C6AAD"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4C91BBEAD9AB9E26"
@@ -1482,6 +1952,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "0D83E69B7E32830A"
+			rewards: [{
+				id: "7B29D9661A0164BF"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "51AAC7F855125621"
@@ -1495,6 +1970,11 @@
 			dependencies: ["0CAA26789C5CC2A7"]
 			icon: "pineapple_delight:pineapple_pie"
 			id: "718A5BB4631E47A4"
+			rewards: [{
+				id: "325384C7BADC4D2E"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1514,6 +1994,11 @@
 		{
 			dependencies: ["0CAA26789C5CC2A7"]
 			id: "6B41E6A35E19AA9A"
+			rewards: [{
+				id: "444A01DD0A69F8EB"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3BBE3BCF6B38B4CD"
@@ -1847,6 +2332,11 @@
 		{
 			icon: { Count: 20, id: "aetherdelight:aether_grass_bale" }
 			id: "3A8D8B3511C10E5E"
+			rewards: [{
+				id: "0EC72A47A8BD4D28"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -1861,6 +2351,11 @@
 		{
 			icon: { Count: 20, id: "minecraft:hay_block" }
 			id: "6870E9DAC5CD89CF"
+			rewards: [{
+				id: "3695356C103AEC87"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -1875,6 +2370,11 @@
 		{
 			icon: { Count: 20, id: "farmersdelight:rice_bale" }
 			id: "5EB5AA6336E9B5C9"
+			rewards: [{
+				id: "3107EC3DBCF20E93"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -1889,6 +2389,11 @@
 		{
 			icon: { Count: 10, id: "farmersdelight:straw_bale" }
 			id: "74E51AAC0BF677A1"
+			rewards: [{
+				id: "0318729B9DD50D56"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -1903,6 +2408,11 @@
 		{
 			icon: { Count: 20, id: "supplementaries:flax_block" }
 			id: "36BB4B7DB9BC9830"
+			rewards: [{
+				id: "170BECDE396161B7"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -1917,6 +2427,11 @@
 		{
 			icon: { Count: 20, id: "farmersdelight:potato_crate" }
 			id: "781E82C16878320C"
+			rewards: [{
+				id: "4A1891120050265D"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 20L
 				id: "1DE6DF90A0B5D7F0"
@@ -1930,6 +2445,11 @@
 		{
 			icon: { Count: 20, id: "farmersdelight:carrot_crate" }
 			id: "6E6F74572A1B259D"
+			rewards: [{
+				id: "28A73CD0F70F20BD"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 20L
 				id: "7D8D013D2831371E"
@@ -1943,6 +2463,11 @@
 		{
 			icon: { Count: 5, id: "arsdelight:mendosteen_crate" }
 			id: "00FCED7374B92188"
+			rewards: [{
+				id: "478296BB1EFBFB35"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 5L
 				id: "59BE937B897AA974"
@@ -1956,6 +2481,11 @@
 		{
 			icon: { Count: 5, id: "arsdelight:bastion_crate" }
 			id: "3103C1C1E35A7E1B"
+			rewards: [{
+				id: "2B2B827DD098D707"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 5L
 				id: "5B8F126A95732E3C"
@@ -1969,6 +2499,11 @@
 		{
 			icon: { Count: 5, id: "arsdelight:bombegrante_crate" }
 			id: "4158F7EBDF4F6292"
+			rewards: [{
+				id: "2ABD0659681CBDAA"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 5L
 				id: "5EC3F6DF18CE9CF2"
@@ -1982,6 +2517,11 @@
 		{
 			icon: { Count: 5, id: "arsdelight:frostaya_crate" }
 			id: "120D497DE4B8B229"
+			rewards: [{
+				id: "771964E953F1EFF0"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 5L
 				id: "659141DDFAE3A3E7"
@@ -1995,6 +2535,11 @@
 		{
 			icon: { Count: 10, id: "vinery:apple_bag" }
 			id: "4915AE9043D9573A"
+			rewards: [{
+				id: "78C8E45CC625B4A4"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "5A0F5552AB572A80"
@@ -2008,6 +2553,11 @@
 		{
 			icon: { Count: 20, id: "farmersdelight:cabbage_crate" }
 			id: "6B4320DD7FF4FA58"
+			rewards: [{
+				id: "7E1FB867C19DACD5"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 20L
 				id: "4E20DCC95E3907C5"
@@ -2021,6 +2571,11 @@
 		{
 			icon: { Count: 20, id: "farmersdelight:tomato_crate" }
 			id: "2ABB8D0A2D10E61D"
+			rewards: [{
+				id: "5E522AAC24EBD862"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 20L
 				id: "7236B9898774615F"
@@ -2034,6 +2589,11 @@
 		{
 			icon: { Count: 10, id: "vinery:cherry_bag" }
 			id: "33A072E095DD9557"
+			rewards: [{
+				id: "65F9E7AED3C59EFB"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "0C56EE7EBCBE748F"
@@ -2047,6 +2607,11 @@
 		{
 			icon: { Count: 10, id: "vinery:white_grape_bag" }
 			id: "374D6D4A8F2B30CB"
+			rewards: [{
+				id: "259EFE21B5F6D055"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "1C8CF019FF5F723D"
@@ -2060,6 +2625,11 @@
 		{
 			icon: { Count: 10, id: "vinery:red_grape_bag" }
 			id: "37A7277E2AF662DC"
+			rewards: [{
+				id: "441715DF1D8DAE4B"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "52CB7189B45B77B0"
@@ -2073,6 +2643,11 @@
 		{
 			icon: { Count: 10, id: "ars_nouveau:sourceberry_sack" }
 			id: "560B73FD6DDE81B6"
+			rewards: [{
+				id: "203492EDE3BB5483"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "10F92244E8A753C0"
@@ -2086,6 +2661,11 @@
 		{
 			icon: { Count: 10, id: "mynethersdelight:bullet_pepper_crate" }
 			id: "114202425C96A318"
+			rewards: [{
+				id: "3A0844D0D8DA56E5"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "4D62C0C72866FAE8"
@@ -2099,6 +2679,11 @@
 		{
 			icon: { Count: 10, id: "miners_delight:cave_carrot_crate" }
 			id: "234A1DEC3BA3DD5C"
+			rewards: [{
+				id: "68051E275A07AD1D"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				count: 10L
 				id: "69DDE6B16EDE848B"
@@ -2295,6 +2880,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "farmersdelight:rice_roll_medley_block"
 			id: "51AD40E1854C9124"
+			rewards: [{
+				id: "39AB983E94DDBEB6"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -2325,6 +2915,11 @@
 			dependencies: ["0A8FA33882276472"]
 			icon: "aquaculturedelight:fish_roll_medley"
 			id: "49296978BB964601"
+			rewards: [{
+				id: "6E1D9664DCA7E30E"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "diamond"
 			tasks: [
 				{

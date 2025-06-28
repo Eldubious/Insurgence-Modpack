@@ -31,6 +31,21 @@
 		{ count: 20, item: "minecraft:experience_bottle", weight: 3.5f }
 		{ count: 5, item: "kubejs:enchant_catalyst", weight: 2.5f }
 		{ count: 2, item: "kubejs:hyper_enchant_catalyst" }
+		{ count: 5, item: "farmersdelight:melon_juice", weight: 2.0f }
+		{ item: "create:blaze_cake", weight: 2.0f }
+		{ count: 5, item: "minecraft:diamond", weight: 2.0f }
+		{ count: 2, item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ count: 3, item: "minecraft:ender_eye", weight: 2.5f }
+		{ count: 10, item: "create:brass_ingot", weight: 2.5f }
+		{ count: 20, item: "minecraft:redstone", weight: 3.5f }
+		{ count: 4, item: "sophisticatedstorage:basic_tier_upgrade", weight: 1.75f }
+		{ count: 2, item: "sophisticatedstorage:upgrade_base", weight: 1.75f }
+		{ count: 2, item: "sophisticatedbackpacks:upgrade_base", weight: 1.75f }
+		{ count: 5, item: "minecraft:phantom_membrane", weight: 2.0f }
+		{ item: "minecraft:chicken_spawn_egg", weight: 0.1f }
+		{ count: 8, item: "labels:label", weight: 2.0f }
+		{ count: 8, item: "minecraft:item_frame", weight: 2.0f }
 	]
 	title: "Quest Reward: Medium"
 }

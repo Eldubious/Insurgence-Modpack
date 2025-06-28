@@ -64,6 +64,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "2BB131B790A6A6AF"
+			rewards: [{
+				id: "31B863532E7BAA09"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6169F4AAA3DD5D7B"
 				item: "minecraft:amethyst_block"
@@ -77,6 +82,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "4E6F2B9CB624394C"
+			rewards: [{
+				id: "01460AFDD28F6E8F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "72E47CF719FD1AB1"
@@ -91,6 +101,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "767386982B084F5D"
+			rewards: [{
+				id: "41A540C416789E33"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "169F6E58234A8BA2"
@@ -105,6 +120,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "745FC63E15FD4A49"
+			rewards: [{
+				id: "404130275F6077F3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "31D1489571AFE4D2"
@@ -119,6 +139,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "6DE14536CD3E0D8C"
+			rewards: [{
+				id: "0B9BC1E8FBDFA07E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "086C23C631C0968B"
@@ -133,6 +158,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "6019838D64FC79D5"
+			rewards: [{
+				id: "71849F0979956EF9"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "304FB9344721ABDE"
@@ -147,6 +177,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "77BBB0B271A4C8B4"
+			rewards: [{
+				id: "3355D891F2BEE211"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "5CBA6B2EECDFE8AC"
@@ -161,6 +196,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "75EA51C75C4E6F91"
+			rewards: [{
+				id: "57CED885E6F662A4"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "7B11604FE446974D"
@@ -175,6 +215,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "2CAD77E4AF9C4220"
+			rewards: [{
+				id: "38D0CA872151E9D1"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "7FFB11F0923595AB"
@@ -189,12 +234,19 @@
 			description: ["You can either inscribe keys using the Key Inscribing Station block or an End Portal Frame block."]
 			icon: "dimdungeons:item_portal_key"
 			id: "0BD15CC781F69834"
-			rewards: [{
-				id: "2686BEE96EC63763"
-				table_id: 3175445853633275546L
-				title: "Small Random Reward"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2686BEE96EC63763"
+					table_id: 3175445853633275546L
+					title: "Small Random Reward"
+					type: "random"
+				}
+				{
+					id: "32C277EFBC4832CD"
+					type: "xp"
+					xp: 50
+				}
+			]
 			size: 1.2d
 			tasks: [
 				{
@@ -298,6 +350,11 @@
 				"4907442471DEB3E2"
 			]
 			id: "23324F0768507D9C"
+			rewards: [{
+				id: "0A6C428D613D39D1"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -375,12 +432,19 @@
 			]
 			icon: "dimdungeons:block_portal_keyhole"
 			id: "4907442471DEB3E2"
-			rewards: [{
-				id: "5D0F428113B47EC2"
-				table_id: 3175445853633275546L
-				title: "Small Random Reward"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5D0F428113B47EC2"
+					table_id: 3175445853633275546L
+					title: "Small Random Reward"
+					type: "random"
+				}
+				{
+					id: "654F984EBCA9509B"
+					type: "xp"
+					xp: 50
+				}
+			]
 			size: 1.2d
 			tasks: [
 				{

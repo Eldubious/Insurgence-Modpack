@@ -343,13 +343,20 @@
 			hide_until_deps_complete: true
 			icon: "galosphere:cured_membrane"
 			id: "337451434439F44A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "022DB521AEAA9AC3"
-				table_id: 346162584000431563L
-				title: "Food Choice Reward"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "022DB521AEAA9AC3"
+					table_id: 346162584000431563L
+					title: "Food Choice Reward"
+					type: "choice"
+				}
+				{
+					id: "6E48F2589CD18B55"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "23720D59DA9C351A"
 				title: "Awesome!"
@@ -377,13 +384,20 @@
 				tag: { }
 			}
 			id: "02DC92A0075876DD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2527AD8ACB6E29AF"
-				table_id: 346162584000431563L
-				title: "Food Choice Reward"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2527AD8ACB6E29AF"
+					table_id: 346162584000431563L
+					title: "Food Choice Reward"
+					type: "choice"
+				}
+				{
+					id: "21C2C8151B9C7906"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "688E3D140349B14A"
 				title: "Awesome!"
@@ -405,13 +419,20 @@
 			hide_until_deps_complete: true
 			icon: "dreadsteel:dreadsteel_ingot"
 			id: "6782A08AF67E9EBC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1317519CF8DAEC7A"
-				table_id: 346162584000431563L
-				title: "Food Choice Reward"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1317519CF8DAEC7A"
+					table_id: 346162584000431563L
+					title: "Food Choice Reward"
+					type: "choice"
+				}
+				{
+					id: "6EA6BCE70FF4C4E9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "339915FDBD0592AE"
 				title: "Awesome!"

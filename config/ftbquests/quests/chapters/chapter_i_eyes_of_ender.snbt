@@ -1039,11 +1039,19 @@
 			icon: "minecraft:end_portal_frame"
 			id: "52E373AA0B08B2E6"
 			min_required_dependencies: 13
-			rewards: [{
-				id: "2E4B3C9740F69ED7"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "2E4B3C9740F69ED7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1112E52C8EB6E9C4"
+					table_id: 8973588302294504714L
+					title: "Medium Random Reward"
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			size: 3.5d
 			tasks: [{
@@ -1119,11 +1127,19 @@
 				}
 			}
 			id: "67EFD65213972590"
-			rewards: [{
-				id: "56F46434EB5365F0"
-				type: "xp"
-				xp: 30
-			}]
+			rewards: [
+				{
+					id: "56F46434EB5365F0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "301D77618DBBFA3B"
+					table_id: 3175445853633275546L
+					title: "Small Random Reward"
+					type: "random"
+				}
+			]
 			size: 1.8d
 			tasks: [{
 				id: "155AEEB9A3B7A1D9"

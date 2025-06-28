@@ -1,4 +1,4 @@
-/*
+
 // Some development tools
 
 // Prints a list of all item ids in container to console only if player is holding a Debug Stick
@@ -285,4 +285,3 @@ BlockEvents.rightClicked('minecraft:soul_campfire', event => {
         })
     }
 })
-    */

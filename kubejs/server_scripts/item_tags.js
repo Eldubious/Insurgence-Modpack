@@ -193,5 +193,26 @@ ServerEvents.tags('item', event => {
 		"pineapple_delight:pineapple_fried_rice", "pineapple_delight:pineapple_juice", "pineapple_delight:pineapple_milk_shake", "pineapple_delight:pineapple_ice_cream"]
     qualityFoods.forEach(element => addToTag('kubejs:quality_foods', element)) 
     // DEV: store length of list in global variable
-    global.qualityFoodsLen = qualityFoods.length 
+    global.qualityFoodsLen = qualityFoods.length
+	// All stone blocks which can be used in the Create Cobblestone Generator
+	const generatorStoneTypes = [
+		'minecraft:cobblestone', 'minecraft:stone', 'minecraft:basalt', 'create:limestone', 'create:scoria', 'minecraft:deepslate', 'minecraft:cobbled_deepslate',
+		'minecraft:granite', 'minecraft:diorite', 'minecraft:andesite', 'minecraft:calcite', 'minecraft:tuff', 'minecraft:dripstone_block', 'minecraft:sandstone',
+		'minecraft:red_sandstone', 'quark:jasper', 'quark:shale', 'quark:myalite', 'minecraft:netherrack', 'minecraft:blackstone', 'minecraft:end_stone', 'endergetic:eumus',
+		'minecraft:terracotta', 'arts_and_crafts:gypsum', 'arts_and_crafts:soapstone', 'arts_and_crafts:beige_pietraforte', 'arts_and_crafts:cobbled_beige_pietraforte',
+		'arts_and_crafts:hazel_pietraforte', 'arts_and_crafts:cobbled_hazel_pietraforte', 'arts_and_crafts:ivory_pietraforte', 'arts_and_crafts:cobbled_ivory_pietraforte',
+		'arts_and_crafts:jet_pietraforte', 'arts_and_crafts:cobbled_jet_pietraforte', 'arts_and_crafts:marlot_pietraforte', 'arts_and_crafts:cobbled_marlot_pietraforte',
+		'arts_and_crafts:ochre_pietraforte', 'arts_and_crafts:cobbled_ochre_pietraforte', 'arts_and_crafts:umber_pietraforte', 'arts_and_crafts:cobbled_umber_pietraforte',
+		'arts_and_crafts:verdant_pietraforte', 'arts_and_crafts:cobbled_verdant_pietraforte', 'create:asurine', 'create:crimsite', 'create:ochrum', 'create:scorchia',
+		'create:veridium', 'alexscaves:limestone', 'alexscaves:guanostone', 'alexscaves:coprolith', 'alexscaves:abyssmarine', 'alexscaves:radrock', 'alexscaves:galena',
+		'the_bumblezone:sugar_infused_stone', 'the_bumblezone:sugar_infused_cobblestone', 'forbidden_arcanus:darkstone', 'aether:holystone', 'aether_redux:divinite',
+		'aether_redux:driftshale', 'regions_unexplored:chalk', 'regions_unexplored:argillite', 'samurai_dynasty:spirit_stone_base', 'unusualend:warped_stone', 'unusualend:gloopslate',
+		'unusualend:gloopstone', 'unusualend:raw_purpur_block', 'architects_palette:myonite', 'architects_palette:moonshale', 'architects_palette:craterstone',
+		'architects_palette:nebulite', 'architects_palette:onyx', 'architects_palette:esoterrack', 'architects_palette:sunstone', 'architects_palette:heliodor_rod',
+		'architects_palette:ekanite_rod', 'architects_palette:monazite_rod', 'architects_palette:wardstone', 'architects_palette:abyssaline', 'minecraft:packed_mud',
+		'quark:soul_sandstone', 'minecraft:smooth_basalt', 'quark:dusky_myalite', 'architects_palette:warpstone', 'supplementaries:daub', 'minecraft:ice', 'iceandfire:dread_stone',
+		'iceandfire:chared_stone', 'iceandfire:chared_cobblestone', 'iceandfire:frozen_stone', 'iceandfire:frozen_cobblestone', 'iceandfire:crackled_stone',
+		'iceandfire:crackled_cobblestone', 'twilightforest:mazestone', 'twilightforest:nagastone', 'twilightforest:aurora_block', 'twilightforest:deadrock',
+		'twilightforest:giant_cobblestone']
+	generatorStoneTypes.forEach(element => addToTag('kubejs:create_cobblestone_generator_compatible', element))
 })
