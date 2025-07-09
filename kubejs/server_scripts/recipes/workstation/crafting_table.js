@@ -189,6 +189,8 @@ ServerEvents.recipes(event => {
             C: 'irons_spellbooks:arcane_ingot'
         }
     )
+    // Dragon Scale conversion
+    event.shapeless('forbidden_arcanus:dragon_scale', ['quark:dragon_scale', 'quark:dragon_scale', 'quark:dragon_scale'])
 
     
     /*

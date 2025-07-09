@@ -1,0 +1,35 @@
+{
+	id: "1D51637EFCF2254F"
+	loot_size: 1
+	order_index: 66
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:basic/blaze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:basic/enderman"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:basic/slime"
+				}
+			}
+		}
+	]
+	title: "Quest Reward: Gate Pearl"
+}

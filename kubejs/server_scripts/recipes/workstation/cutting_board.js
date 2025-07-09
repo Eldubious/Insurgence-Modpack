@@ -107,4 +107,5 @@ ServerEvents.recipes(event => {
     // Resources
     salvage(0, 'cataclysm:remnant_skull', [Item.of('cataclysm:koboleton_bone', 2), Item.of('cataclysm:ancient_metal_nugget', 2).withChance(0.33)])
     salvage(0, 'cataclysm:crystallized_coral', [Item.of('minecraft:fire_coral'), Item.of('minecraft:tube_coral'), Item.of('minecraft:brain_coral'), Item.of('minecraft:diamond').withChance(0.33)])
+    salvage(0, 'forbidden_arcanus:dragon_scale', ['3x quark:dragon_scale'])
 })

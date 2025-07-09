@@ -1,9 +1,35 @@
 // Create and modify rituals for the Summoning Altar
 ServerEvents.recipes(event => {
 
-    // Register an item ritual
+    /*
+        Rituals for crafting items
+    */
     function itemRitual(output, catalyst, inputItems) {
-        if (inputItems.length == 5) {       // There are 5 item inputs
+        if (inputItems.length == 2) {       // There are 2 item inputs
+            event.recipes.summoningrituals.altar(catalyst)
+                .recipeTime(120)
+                .input(inputItems[0])
+                .input(inputItems[1])
+                .itemOutput(output)
+        }
+        if (inputItems.length == 3) {       // There are 3 item inputs
+            event.recipes.summoningrituals.altar(catalyst)
+                .recipeTime(120)
+                .input(inputItems[0])
+                .input(inputItems[1])
+                .input(inputItems[2])
+                .itemOutput(output)
+        }
+        if (inputItems.length == 4) {       // There are 4 item inputs
+            event.recipes.summoningrituals.altar(catalyst)
+                .recipeTime(120)
+                .input(inputItems[0])
+                .input(inputItems[1])
+                .input(inputItems[2])
+                .input(inputItems[3])
+                .itemOutput(output)
+        }
+        else if (inputItems.length == 5) {       // There are 5 item inputs
             event.recipes.summoningrituals.altar(catalyst)
                 .recipeTime(120)
                 .input(inputItems[0])
@@ -35,8 +61,21 @@ ServerEvents.recipes(event => {
             '4x forbidden_arcanus:obsidian_ingot', '4x unusualend:pearlescent_ingot', '4x forbidden_arcanus:stellarite_piece', '4x minecraft:netherite_ingot'
         ]
     )
+    // Recipes for creating Gate Pearls
+    event.remove({output: 'gateways:gate_pearl'})
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:basic/blaze"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:blaze_rod', '2x minecraft:blaze_powder'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:basic/enderman"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:ender_pearl', '2x forbidden_arcanus:ender_pearl_fragment'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:basic/slime"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:slime_ball', '2x create:dough'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:endless/blaze"}'), 'irons_spellbooks:divine_pearl', [ '4x minecraft:blaze_rod', '8x minecraft:blaze_powder', 'irons_spellbooks:fire_upgrade_orb', 'ars_nouveau:manipulation_essence'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:emerald_grove"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:rotten_flesh', '6x minecraft:wheat_seeds'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:overworldian_nights"}'), 'irons_spellbooks:divine_pearl', ['3x minecraft:rotten_flesh', '3x minecraft:bone', '3x minecraft:string', '3x minecraft:gunpowder', 'minecraft:spider_eye'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:hellish_fortress"}'), 'irons_spellbooks:divine_pearl', ['minecraft:wither_skeleton_skull', '2x minecraft:gold_block', '3x minecraft:blaze_rod'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/ender_dragon"}'), 'irons_spellbooks:divine_pearl', ['2x quark:dragon_scale', '2x minecraft:diamond', '2x minecraft:chorus_fruit'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/warden"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:echo_shard', 'apotheosis:warden_tendril'])
 
-    // Register a mob sacrifice ritual
+    /*
+        Rituals for summoning entities
+    */
     function mobRitual(output, catalyst, inputItems) {
         if (inputItems.length == 5) {           // There are 5 item inputs
             event.recipes.summoningrituals.altar(catalyst)
@@ -124,7 +163,9 @@ ServerEvents.recipes(event => {
     mobSacrifice('minecraft:zombie_horse', 'minecraft:wither_rose', ['4x minecraft:rotten_flesh', '2x forbidden_arcanus:rotten_leather', 'ars_elemental:anima_essence'], 'minecraft:horse')
 })
 
-// Event handler for summoning the Wither Storm
+/*
+    Event handler for summoning the Wither Storm
+*/
 SummoningRituals.start(event => {
 
     // If the current recipe is the one which summons the Wither Storm

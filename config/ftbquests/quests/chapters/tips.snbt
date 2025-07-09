@@ -922,6 +922,37 @@
 			x: 2.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["71F2AF85715C84CE"]
+			description: [
+				"The Gate Pearls will allow you to recieve lots of loot for killing waves of enemies."
+				""
+				"You can see which enemies they summon, the loot you can recieve, and more by reading the tooltip of each pearl."
+				""
+				"All of the pearls are crafted at the Summoning Altar."
+			]
+			id: "3F37B35D4596485C"
+			rewards: [{
+				id: "6099229285684E39"
+				table_id: 2112579097274230095L
+				title: "Random Gate Pearl Reward"
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F9463DFAE0F0BC7"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/blaze"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gate Pearls"
+			x: 0.0d
+			y: -6.0d
+		}
 	]
 	title: "Tips"
 }

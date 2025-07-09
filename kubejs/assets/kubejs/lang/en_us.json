@@ -18,6 +18,7 @@
     "tooltip.kubejs.refined_radiance": "§7Found in loot chests in Advanced Dimensional Dungeons.",
     "tooltip.kubejs.unused_item": "§7§n§oShould not be obtainable.",
     "tooltip.kubejs.unused_item_2": "§7§oIf you found this item in Survival, there must have been an oversight.",
+    "tooltip.kubejs.indestructible_altar": "Found occasionally in the Overworld.",
 
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",
@@ -167,5 +168,21 @@
     "structure_map.kubejs.altar_forest": "§rForest Summoning Altar Map",
     "structure_map.kubejs.altar_jungle": "§rJungle Summoning Altar Map",
     "structure_map.kubejs.altar_savanna": "§rSavanna Summoning Altar Map",
-    "structure_map.kubejs.altar_snowy": "§rSnowy Summoning Altar Map"
+    "structure_map.kubejs.altar_snowy": "§rSnowy Summoning Altar Map",
+
+    "kubejs.basic/ender_dragon": "Ender Dragon Gateway",
+    "kubejs.basic/warden": "Warden Gateway",
+    "kubejs.basic/wilden": "Wilden Gateway",
+    "kubejs.basic/shulker": "Shulker Gateway",
+    "kubejs.raid_hideout": "Gateway of the Raider's Hideout",
+    "kubejs.enchanted_library": "Gateway of the Enchanted Library",
+    "kubejs.treasure_vault": "Gateway of the Treasure Vault",
+    "kubejs.endless_blood": "Gateway of the Endless Blood",
+    "kubejs.tainted_village": "Gateway of the Tainted Village",
+
+    "rewards.kubejs.loot_table.ingots_and_gems": "Ingots & Gems Loot",
+    "rewards.kubejs.loot_table.abandoned_library": "Abandoned Library Loot",
+    "rewards.kubejs.loot_table.pillager_outpost": "Pillager Outpost Loot",
+    "rewards.kubejs.loot_table.woodland_mansion": "Woodland Mansion Loot",
+    "rewards.kubejs.loot_table.hephaestus_forge": "Hephaestus Forge Essence Loot"
 }
