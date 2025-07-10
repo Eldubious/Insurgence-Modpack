@@ -6,24 +6,14 @@
 	icon: "minecraft:command_block"
 	id: "5060EEC4ED6725AA"
 	order_index: 2
-	quest_links: [
-		{
-			id: "00E0C1AF24468420"
-			linked_quest: "71F2AF85715C84CE"
-			shape: "pentagon"
-			size: 1.5d
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			id: "20B94099DE0681B5"
-			linked_quest: "29AF050547FA1FFF"
-			shape: "pentagon"
-			size: 2.0d
-			x: 2.5d
-			y: -4.5d
-		}
-	]
+	quest_links: [{
+		id: "20B94099DE0681B5"
+		linked_quest: "29AF050547FA1FFF"
+		shape: "pentagon"
+		size: 2.0d
+		x: 2.5d
+		y: -4.5d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -36,7 +26,7 @@
 				"6019838D64FC79D5"
 				"4E6F2B9CB624394C"
 				"745FC63E15FD4A49"
-				"71F2AF85715C84CE"
+				"68EB589E7A45F716"
 			]
 			description: [
 				"&e&l&nTip:&r"
@@ -60,7 +50,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "2BB131B790A6A6AF"
@@ -78,7 +68,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "4E6F2B9CB624394C"
@@ -97,7 +87,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "767386982B084F5D"
@@ -116,7 +106,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "745FC63E15FD4A49"
@@ -135,7 +125,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "6DE14536CD3E0D8C"
@@ -154,7 +144,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "6019838D64FC79D5"
@@ -173,7 +163,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "77BBB0B271A4C8B4"
@@ -192,7 +182,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "75EA51C75C4E6F91"
@@ -211,7 +201,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["71F2AF85715C84CE"]
+			dependencies: ["68EB589E7A45F716"]
 			disable_toast: true
 			hide_dependency_lines: true
 			id: "2CAD77E4AF9C4220"
@@ -602,6 +592,27 @@
 			title: "Preparing For the Storm"
 			x: 15.5d
 			y: -3.5d
+		}
+		{
+			description: ["These aren't needed until the end-game, but they have some rituals which may be useful before then."]
+			disable_toast: true
+			icon: "summoningrituals:indestructible_altar"
+			id: "68EB589E7A45F716"
+			invisible: true
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				icon: "summoningrituals:indestructible_altar"
+				id: "4B43F26F29D80FE7"
+				observe_type: 0
+				timer: 25L
+				title: "&a&lObserve:&r Summoning Altar"
+				to_observe: "summoningrituals:indestructible_altar"
+				type: "observation"
+			}]
+			title: "Find a Summoning Altar"
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 	title: "Chapter II: Command Block"

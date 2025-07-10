@@ -1,4 +1,5 @@
 {
+	autofocus_id: "11090A911B3D930A"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "welcome"
@@ -186,8 +187,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7852105B8E933751"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "psi:encyclopaedia_psionica"
+						}
+					}
+					type: "item"
+				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "3F6461E20D2A10EB"
 				title: "Give me my books."
@@ -195,6 +207,53 @@
 			}]
 			title: "Claiming Your Guidebooks"
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["This will allow you to run a command to disable the Twilight Forest's progression system. If you did not do so during world creation."]
+			disable_toast: true
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "411894669BB67692"
+			rewards: [{
+				auto: "disabled"
+				command: "/gamerule tfEnforcedProgression false"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "30F1FC616195D76E"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D9ECA208F17B2F9"
+				title: "Remove Enforced Progression"
+				type: "checkmark"
+			}]
+			title: "Disable the Twilight Forest Progression"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: ["Here you can choose to enable or disable the dynamic lights implemented by Ars Nouveau."]
+			disable_toast: true
+			icon: "minecraft:lantern"
+			id: "5B1C74B7E065FBB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C007005B0F4F0CE"
+				table_id: 4980880054309537148L
+				title: "Ars Nouveau Dynamic Lights Toggle"
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F72BB40695FF5CD"
+				title: "Toggle Dynamic Lights"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau Dynamic Lights"
+			x: 1.0d
 			y: 1.5d
 		}
 	]

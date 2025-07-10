@@ -1,0 +1,26 @@
+{
+    "name": {
+        "color": "#909090",
+        "translate": "trophy.kubejs.exposure"
+    },
+    "display": {
+        "scale": 0.45,
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "offset": {
+            "x": -1,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "item": {
+        "item": "exposure:camera"
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#909090"
+    }
+}

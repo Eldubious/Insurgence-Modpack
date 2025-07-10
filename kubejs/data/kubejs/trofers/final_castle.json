@@ -1,0 +1,21 @@
+{
+    "name": {
+        "color": "#E1EB88",
+        "translate": "trophy.kubejs.final_castle"
+    },
+    "display": {
+        "offset": {
+            "x": -2,
+            "y": 3,
+            "z": 0
+        },
+        "scale": 0.75
+    },
+    "item": {
+        "item": "twilightforest:lich_tower_miniature_structure"
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#E1EB88"
+    }
+}

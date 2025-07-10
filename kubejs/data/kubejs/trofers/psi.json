@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "#76AADE",
+        "translate": "trophy.kubejs.psi"
+    },
+    "item": {
+        "item": "psi:cad_core_radiative"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#FFFFFF",
+        "accent": "#76AADE"
+    }
+}

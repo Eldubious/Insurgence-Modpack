@@ -1,0 +1,27 @@
+{
+    "name": {
+        "color": "#76C45E",
+        "translate": "trophy.kubejs.gambler"
+    },
+    "item": {
+        "item": "regions_unexplored:clover"
+    },
+    "effects": {
+        "rewards": {
+            "statusEffect": {
+                "effect": "minecraft:luck",
+                "duration": 600,
+                "amplifier": 4
+            },
+            "cooldown": 2400
+        }
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#76C45E"
+    }
+}

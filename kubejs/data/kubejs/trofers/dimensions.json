@@ -1,0 +1,21 @@
+{
+    "name": {
+        "color": "#3D8544",
+        "translate": "trophy.kubejs.dimensions"
+    },
+    "display": {
+        "scale": 1.25,
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        }
+    },
+    "item": {
+        "item": "twilightforest:twilight_portal_miniature_structure"
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#3D8544"
+    }
+}

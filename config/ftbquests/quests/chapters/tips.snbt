@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7E78D0B79DB3549A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips"
@@ -34,10 +35,10 @@
 			id: "7E78D0B79DB3549A"
 			optional: true
 			rewards: [{
-				id: "2048CB1218CBD61D"
+				id: "6B4E80199DCABE30"
 				item: {
 					Count: 1
-					id: "trofers:medium_plate"
+					id: "trofers:small_pillar"
 					tag: {
 						BlockEntityTag: {
 							Trophy: "kubejs:brass_hand"
@@ -63,7 +64,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "70566A1EEC6F7B61"
 				item: {
@@ -73,10 +74,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
+			description: ["With this, you can store all of your enchanted books in one place for convinient access."]
 			id: "475793B8DA21F11A"
 			optional: true
 			rewards: [{
@@ -84,14 +86,14 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "0AD2153FEAE0BAA2"
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			id: "045CFA75399D07B9"
@@ -102,6 +104,7 @@
 				title: "Medium Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "1478E65C86938327"
 				item: {
@@ -111,8 +114,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			id: "0D0AC8A0803A097E"
@@ -123,6 +126,7 @@
 				title: "Medium Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "4E6D82806ED95793"
 				item: {
@@ -136,14 +140,13 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			description: ["These aren't needed until the end-game, but they have some rituals which may be useful before then."]
 			icon: "summoningrituals:indestructible_altar"
 			id: "71F2AF85715C84CE"
-			invisible: true
 			rewards: [{
 				id: "44C0C64F8B1CCF48"
 				table_id: 3175445853633275546L
@@ -162,8 +165,8 @@
 				type: "observation"
 			}]
 			title: "Find a Summoning Altar"
-			x: 0.0d
-			y: -4.5d
+			x: 0.75d
+			y: -3.75d
 		}
 		{
 			description: ["This item is extremely useful for building because it allows you to extend the face of a group of blocks."]
@@ -175,6 +178,7 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "04850D090DAC7701"
 				item: {
@@ -220,7 +224,7 @@
 				type: "item"
 			}]
 			title: "Construction Wands"
-			x: 2.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -233,13 +237,14 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "73EA8E3D1CD30D9D"
 				item: "estrogen:thigh_highs"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			description: ["The effect these items give will allow you to dash very quickly and a pretty long distance. This is a very powerful mobility option."]
@@ -251,6 +256,7 @@
 				title: "Medium Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3D1987EE079A04C5"
 				item: {
@@ -277,8 +283,8 @@
 				type: "item"
 			}]
 			title: "Girl Power"
-			x: -3.0d
-			y: -1.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1FCD37C3CEAF2FFD"]
@@ -290,6 +296,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "021F950053593006"
 				item: {
@@ -306,8 +313,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -322,7 +329,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "544990029C6301F0"
 				item: {
@@ -335,9 +342,9 @@
 				title: "Any Pet Bed"
 				type: "item"
 			}]
-			title: "Pet Beds"
-			x: -1.5d
-			y: -4.5d
+			title: "Pet Respawning"
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -362,14 +369,15 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "31FF817167A05F2F"
 				item: "transmog:transmogrification_table"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			title: "Changing Item's Appearances"
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			description: ["These hammers will mine out multiple blocks at a time. You can craft upgraded versions of these hammers which mine more blocks at once for a much higher cost."]
@@ -381,6 +389,7 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "6A176C1DA816D9D1"
 				item: {
@@ -430,8 +439,8 @@
 				type: "item"
 			}]
 			title: "Hammers"
-			x: 2.0d
-			y: -1.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			description: ["These items will allow you to recolor certain dyeable blocks in-world."]
@@ -443,6 +452,7 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "54C237F09A4AF905"
 				item: {
@@ -456,8 +466,8 @@
 				type: "item"
 			}]
 			title: "Paintbrushes"
-			x: 2.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			description: ["These blocks will match the appearance of any block you interact on them with."]
@@ -476,7 +486,7 @@
 					xp: 10
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "3B4C37422EC1CA85"
 				item: {
@@ -562,8 +572,8 @@
 				title: "Copycat Blocks: Functional"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			description: ["These blocks will match the appearance of any block you interact on them with."]
@@ -582,7 +592,7 @@
 					xp: 10
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "28E84E3DE6BC02FB"
 				item: {
@@ -720,8 +730,8 @@
 				title: "Copycat Blocks: Decorative"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			id: "2A806A47B2A73CB8"
@@ -732,6 +742,7 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "41867C2C7A534280"
 				item: {
@@ -744,8 +755,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			id: "29C88FAFA0333230"
@@ -756,13 +767,14 @@
 				title: "Medium Random Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "35FA8A4D5B234CB0"
 				item: "forbidden_arcanus:quantum_catcher"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			description: ["To use these portals, place them in the world. Then right-click on it with an empty hand."]
@@ -802,8 +814,8 @@
 				type: "item"
 			}]
 			title: "Custom Dimensions"
-			x: 0.0d
-			y: 0.0d
+			x: -0.75d
+			y: -3.75d
 		}
 		{
 			description: [
@@ -822,7 +834,7 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					disable_toast: true
@@ -860,8 +872,8 @@
 				}
 			]
 			title: "Enchanting With Materials"
-			x: 1.5d
-			y: -5.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -888,7 +900,7 @@
 				title: "Small Random Reward"
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [
 				{
 					disable_toast: true
@@ -919,8 +931,8 @@
 				}
 			]
 			title: "Automatic Stone Generator"
-			x: 2.5d
-			y: -5.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["71F2AF85715C84CE"]
@@ -932,12 +944,14 @@
 				"All of the pearls are crafted at the Summoning Altar."
 			]
 			id: "3F37B35D4596485C"
+			optional: true
 			rewards: [{
 				id: "6099229285684E39"
 				table_id: 2112579097274230095L
 				title: "Random Gate Pearl Reward"
 				type: "random"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "5F9463DFAE0F0BC7"
 				item: {
@@ -950,8 +964,56 @@
 				type: "item"
 			}]
 			title: "Gate Pearls"
-			x: 0.0d
-			y: -6.0d
+			x: 0.75d
+			y: -5.0d
+		}
+		{
+			description: [
+				"This flower can create any enchanted book you want if it is fed experience and/or honey items."
+				""
+				"It can only be placed on top of other crystal blocks."
+				""
+				"It is only found in the Hanging Garden structure in the Bumblezone."
+			]
+			id: "6FB4E2E99FE377A6"
+			optional: true
+			rewards: [{
+				id: "13929934F1FF8F0A"
+				table_id: 8973588302294504714L
+				title: "Random Medium Reward"
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B88971615125A49"
+				item: {
+					Count: 1
+					id: "the_bumblezone:crystalline_flower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Create Any Enchanted Book"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["An early game inventory management tool."]
+			id: "105A0ED101FA81A7"
+			optional: true
+			rewards: [{
+				id: "619F4EBBA99F4260"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64B99D889CE852C1"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	title: "Tips"

@@ -1,0 +1,17 @@
+{
+    "name": {
+        "color": "#AF76DE",
+        "translate": "trophy.kubejs.hex_casting"
+    },
+    "item": {
+        "item": "hexcasting:quenched_allay_shard"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#FFFFFF",
+        "accent": "#AF76DE"
+    }
+}

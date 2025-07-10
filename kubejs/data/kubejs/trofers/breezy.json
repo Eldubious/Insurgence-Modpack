@@ -1,0 +1,16 @@
+{
+    "name": {
+        "color": "#CC8108",
+        "translate": "trophy.kubejs.breezy"
+    },
+    "display": {
+        "scale": 0.185
+    },
+    "entity": {
+        "type": "breezy:hot_air_balloon"
+    },
+    "colors": {
+        "base": "#FFFFFF",
+        "accent": "#CC8108"
+    }
+}
