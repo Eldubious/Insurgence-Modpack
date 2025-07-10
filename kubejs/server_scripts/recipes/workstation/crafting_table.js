@@ -423,6 +423,11 @@ ServerEvents.recipes(event => {
             C: 'iceandfire:lightning_dragon_heart'
         }
     )
+    // CAD Assembler & Spell Programmer
+    event.replaceInput([{id: 'psi:assembler'}, {id: 'psi:programmer'}],
+        'minecraft:iron_ingot',
+        'forbidden_arcanus:obsidian_ingot'
+    )
 
 
     /*

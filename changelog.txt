@@ -2,10 +2,13 @@ Version 1.1.0 (WIP)
     Additions:
     - Added mods:
         - Create Cobblestone
-        - Global Gamerules
-    - Added new mob trophies to the questbook shop
+        - Psi
+    - More mob & achievement trophies to the questbook
     - Added a new structure, the Deep Monster Room, to the Depths
-    - Added more enemy and equipment variety to the random enemies in the Dimensional Dungeons
+    - Added a new biome, the Dragon's Hollow, to the Depths
+    - New "ore geodes" can spawn occasionally in the Depths
+    - More enemy and equipment variety to the random enemies in the Dimensional Dungeons
+    - New Gate Pearls for the Gateways to Eternity mod
 
     Changes:
     - Updated several mods
@@ -15,9 +18,11 @@ Version 1.1.0 (WIP)
         - Changed the recipes of many Cataclysm weapons
         - Train casing no longer requires sturdy sheets
         - and more...
+    - Reduced loot given from the default Gate Pearls
+    - Tweaked the features and surface rules of the Depths slightly
 
     Fixes:
-    - The Twilight Forest gamerule EnforcedProgression now is false by default
+    - The Twilight Forest gamerule EnforcedProgression can now be set to false in the questbook
 
 
 Version 1.0.1

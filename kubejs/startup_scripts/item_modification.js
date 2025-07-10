@@ -224,7 +224,9 @@ ItemEvents.modification(event => {
         'wan_ancient_beasts:black_hang_glider', 'wan_ancient_beasts:brown_hang_glider', 'wan_ancient_beasts:red_hang_glider', 'wan_ancient_beasts:orange_hang_glider',
         'wan_ancient_beasts:yellow_hang_glider', 'wan_ancient_beasts:lime_hang_glider', 'wan_ancient_beasts:green_hang_glider', 'wan_ancient_beasts:light_blue_hang_glider',
         'wan_ancient_beasts:cyan_hang_glider', 'wan_ancient_beasts:blue_hang_glider', 'wan_ancient_beasts:purple_hang_glider', 'wan_ancient_beasts:magenta_hang_glider',
-        'wan_ancient_beasts:pink_hang_glider', 'wan_ancient_beasts:ancient_club', 'wan_ancient_beasts:reinforced_shield', 'experienceobelisk:transforming_focus'
+        'wan_ancient_beasts:pink_hang_glider', 'wan_ancient_beasts:ancient_club', 'wan_ancient_beasts:reinforced_shield', 'experienceobelisk:transforming_focus',
+        'psi:cad_assembly_iron', 'psi:cad_assembly_gold', 'psi:cad_battery_extended', 'psi:exosuit_controller', 'psi:cad_core_overclocked', 'psi:cad_core_conductive',
+        'psi:cad_socket_signaling', 'psi:cad_socket_large', 'psi:ebony_substance', 'psi:ivory_substance'
     ]
     uncommon_items.forEach(element => uncommon(element))
         
@@ -296,7 +298,13 @@ ItemEvents.modification(event => {
         'ancient_aether:ancient_pendant', 'ancient_aether:shield_of_inebriation', 'ancient_aether:shield_of_remediation', 'aether:valkyrie_cape', 'aether:iron_bubble',
         'aether:flaming_sword', 'aether:holy_sword', 'aether:lightning_sword', 'aether:phoenix_bow', 'ancient_aether:ancient_sword', 'ancient_aether:wynd_armor_trim_smithing_template',
         'ancient_aether:whale_armor_trim_smithing_template', 'ancient_aether:ascended_armor_trim_smithing_template', 'traveloptics:music_disc_169', 'farmersdelight:netherite_knife',
-        'experienceobelisk:cognitive_bow', 'experienceobelisk:flint_and_cognitive_alloy', 'experienceobelisk:mending_neurogel_blob', 'cataclysm:lacrima', 'cataclysm:azure_sea_shield'
+        'experienceobelisk:cognitive_bow', 'experienceobelisk:flint_and_cognitive_alloy', 'experienceobelisk:mending_neurogel_blob', 'cataclysm:lacrima', 'cataclysm:azure_sea_shield',
+        'psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal', 'psi:psimetal_exosuit_helmet', 'psi:psimetal_exosuit_chestplate',
+        'psi:psimetal_exosuit_leggings', 'psi:psimetal_exosuit_boots', 'psi:cad_battery_ultradense', 'psi:cad_core_hyperclocked', 'psi:cad_core_radiative', 'psi:cad_socket_transmissive',
+        'psi:cad_socket_huge', 'psi:psidust', 'psi:psidust_block', 'psi:psigem', 'psi:psigem_block', 'psi:psimetal', 'psi:psimetal_block', 'psi:ebony_psimetal',
+        'psi:ebony_psimetal_block', 'psi:ivory_psimetal', 'psi:ivory_psimetal_block', 'psi:white_psimetal_plate', 'psi:lit_white_psimetal_plate',
+        'psi:black_psimetal_plate', 'psi:lit_black_psimetal_plate', 'psi:vector_ruler', 'psi:psimetal_sword', 'psi:psimetal_shovel', 'psi:psimetal_pickaxe',
+        'psi:psimetal_axe'
     ]
     rare_items.forEach(element => rare(element))
 
@@ -353,7 +361,7 @@ ItemEvents.modification(event => {
         'ancient_aether:royal_armor_trim_smithing_template', 'ancient_aether:solar_armor_trim_smithing_template', 'ancient_aether:ancient_armor_trim_smithing_template',
         'iceandfire:dragonsteel_fire_block', 'iceandfire:dragonsteel_ice_block', 'iceandfire:dragonsteel_lightning_block', 'aether:obsidian_helmet', 'aether:obsidian_chestplate',
         'aether:obsidian_leggings', 'aether:obsidian_boots', 'aether:obsidian_gloves', 'experienceobelisk:fortuitous_amulet', 'experienceobelisk:memory_tablet',
-        'cataclysm:storm_eye'
+        'cataclysm:storm_eye', 'psi:cad_assembly_creative'
     ]
     epic_items.forEach(element => epic(element))
     

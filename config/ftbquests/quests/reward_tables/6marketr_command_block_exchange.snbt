@@ -17,6 +17,7 @@
 		{ item: "cataclysm:ancient_metal_block" }
 		{ item: "cataclysm:cursium_block" }
 		{ item: "alexscaves:tremorzilla_egg" }
+		{ item: "psi:cad_assembly_creative" }
 	]
 	title: "&6Market:&r Command Block Exchange"
 }
