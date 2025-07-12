@@ -1,0 +1,147 @@
+{
+    "size": "medium",
+    "color": "#733852",
+    "waves": [{
+            "entities": [
+                {
+                    "entity": "twilightforest:boar",
+                    "count": 2
+                },
+                {
+                    "entity": "twilightforest:bighorn_sheep",
+                    "count": 2
+                },
+                {
+                    "entity": "quark:wraith",
+                    "count": 1
+                },
+                {
+                    "entity": "savage_and_ravage:executioner",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "twilightforest:boar",
+                    "rolls": 1
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "twilightforest:bighorn_sheep",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 600,
+            "setup_time": 60
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:boar",
+                    "count": 3
+                },
+                {
+                    "entity": "twilightforest:bighorn_sheep",
+                    "count": 3
+                },
+                {
+                    "entity": "savage_and_ravage:executioner",
+                    "count": 4
+                },
+                {
+                    "entity": "samurai_dynasty:oni",
+                    "count": 1
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "twilightforest:boar",
+                    "rolls": 1
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "twilightforest:bighorn_sheep",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 900,
+            "setup_time": 60
+        },
+        {
+            "entities": [
+                {
+                    "entity": "quark:wraith",
+                    "count": 4
+                },
+                {
+                    "entity": "savage_and_ravage:executioner",
+                    "count": 4
+                },
+                {
+                    "entity": "mutantmonsters:spider_pig",
+                    "count": 2
+                },
+                {
+                    "entity": "samurai_dynasty:oni",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "mutantmonsters:spider_pig",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "samurai_dynasty:oni",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 1100,
+            "setup_time": 60
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "kubejs:gateways/hephaestus_forge",
+            "rolls": 2,
+            "desc": "rewards.kubejs.loot_table.hephaestus_forge"
+        }
+    ],
+    "failures": []
+}

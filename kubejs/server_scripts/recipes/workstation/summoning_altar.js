@@ -72,6 +72,9 @@ ServerEvents.recipes(event => {
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:hellish_fortress"}'), 'irons_spellbooks:divine_pearl', ['minecraft:wither_skeleton_skull', '2x minecraft:gold_block', '3x minecraft:blaze_rod'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/ender_dragon"}'), 'irons_spellbooks:divine_pearl', ['2x quark:dragon_scale', '2x minecraft:diamond', '2x minecraft:chorus_fruit'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/warden"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:echo_shard', 'apotheosis:warden_tendril'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:endless_blood"}'), 'irons_spellbooks:divine_pearl', ['3x forbidden_arcanus:aureal_bottle', '3x irons_spellbooks:blood_vial', '2x samurai_dynasty:oni_horn', '3x forbidden_arcanus:soul'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:raid_hideout"}'), 'irons_spellbooks:divine_pearl', ['minecraft:totem_of_undying', '2x illagerinvasion:platinum_sheet', '2x minecraft:emerald', 'ars_nouveau:conjuration_essence'])
+
 
     /*
         Rituals for summoning entities

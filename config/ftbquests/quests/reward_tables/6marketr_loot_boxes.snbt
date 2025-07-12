@@ -7,6 +7,18 @@
 		{ item: "aquaculture:lockbox", weight: 30.25f }
 		{ item: "aquaculture:treasure_chest", weight: 19.5f }
 		{ item: "aquaculture:neptunium_block", weight: 0.25f }
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:gambler"
+					}
+				}
+			}
+			weight: 0.025f
+		}
 	]
 	title: "&6Market:&r Loot Boxes"
 }

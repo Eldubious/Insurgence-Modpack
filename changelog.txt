@@ -3,6 +3,10 @@ Version 1.1.0 (WIP)
     - Added mods:
         - Create Cobblestone
         - Psi
+        - Dice
+        - Chimes
+        - Game Discs
+        - Macaw's Paintings
     - More mob & achievement trophies to the questbook
     - Added a new structure, the Deep Monster Room, to the Depths
     - Added a new biome, the Dragon's Hollow, to the Depths
@@ -23,6 +27,7 @@ Version 1.1.0 (WIP)
 
     Fixes:
     - The Twilight Forest gamerule EnforcedProgression can now be set to false in the questbook
+    - The Oni no longer drops the incorrect ruby item
 
 
 Version 1.0.1

@@ -107,6 +107,8 @@ breezy-client.toml
 breezy-common.toml
 cataclysm.toml
 charmofundying-server.toml
+chimes-client.toml
+chimes-common.toml
 chunksending.json
 citadel-common.toml
 clickadv.json
@@ -124,6 +126,7 @@ cumulus_menus-client.toml
 cupboard.json
 curios-client.toml
 curios-common.toml
+dice-common.toml
 debugkeybind.json
 defaultoptions-common.toml
 dimdungeons-client.toml
