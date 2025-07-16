@@ -874,12 +874,28 @@
 			x: 1.5d
 			y: 4.0d
 		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 9.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This chapter also contains a few hidden rewards for completing some specific secret optional objectives."]
+			description: ["This chapter also contains a few hidden rewards for engaging with some optional content."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -5265,6 +5281,11 @@
 					}
 					id: "psi:cad"
 					tag: {
+						CapabilityData: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
 						componentASSEMBLY: {
 							Count: 1b
 							id: "psi:cad_assembly_iron"
@@ -5295,6 +5316,213 @@
 			title: "Get Into Psi!"
 			x: 1.0d
 			y: 5.0d
+		}
+		{
+			id: "6EF7D8A6AF070D0D"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "7601B002B05BDB17"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:gamer"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399912EE284453BF"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "06C4DF9A5F70B8AE"
+					item: "gamediscs:game_disc_flappy_bird"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "1716B42198EBA40E"
+					item: "gamediscs:game_disc_slime"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "3A6186E226D6E89F"
+					item: "gamediscs:game_disc_blocktris"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "634EE6FB17A07F1D"
+					item: "gamediscs:game_disc_tnt_sweeper"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "1B75B5BC03AA02EB"
+					item: "gamediscs:game_disc_pong"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "262C3562FA65166A"
+					item: "gamediscs:game_disc_froggie"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "34A8C44C1C517BD7"
+					item: "gamediscs:game_disc_rabbit"
+					type: "item"
+				}
+			]
+			title: "Find Every Game Disc!"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			icon: "alexscaves:spelunkery_table"
+			id: "3367D641EE70DF0F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "13A05CAAAF04667B"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:alexs_caves"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30770EA26E3D2609"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+					criterion: ""
+					disable_toast: true
+					id: "247AACAD614CCE88"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_primordial_caves"
+					criterion: ""
+					disable_toast: true
+					id: "232D1D3FAC00AEA8"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+					criterion: ""
+					disable_toast: true
+					id: "403963EAC5F2CE02"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_toxic_caves"
+					criterion: ""
+					disable_toast: true
+					id: "5440CC5982E54779"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+					criterion: ""
+					disable_toast: true
+					id: "60D13B693AA5EE35"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_candy_cavity"
+					criterion: ""
+					disable_toast: true
+					id: "0E8DC0777564EB9C"
+					type: "advancement"
+				}
+			]
+			title: "Find all of Alex's Caves!"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2535B780D2D10CC3"
+				"24572A9C8076F165"
+				"7F9C378AF7A97055"
+				"713256611D67200A"
+				"153F7691DB798BEC"
+				"75D2417D9813722B"
+				"30B42A143CF6B40C"
+				"3B50335CE82C687F"
+				"167D34994ED3A72E"
+				"414142FF4EAD719C"
+				"5786B561DB4C76AE"
+				"347C2C81E1219219"
+				"4298E1EBFB72EDF8"
+				"3367D641EE70DF0F"
+				"6EF7D8A6AF070D0D"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:hyper_enchant_catalyst"
+			id: "3FC74D291FAA6095"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "16D001B73F8504E0"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "kubejs:completionist"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17CF7FC494D0C937"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A6A0D0499F2377C"
+				title: "Okay!"
+				type: "checkmark"
+			}]
+			title: "Completed Every Secret Achievement!"
+			x: 0.5d
+			y: 10.0d
 		}
 	]
 	title: "Trophies"

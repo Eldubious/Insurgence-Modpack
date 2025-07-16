@@ -13,6 +13,8 @@ ItemEvents.tooltip(event => {
     event.add('create:shadow_steel', Component.translate('tooltip.kubejs.shadow_steel'))
     event.add('create:refined_radiance', Component.translate('tooltip.kubejs.refined_radiance'))
     event.add('summoningrituals:indestructible_altar', Component.translate('tooltip.kubejs.indestructible_altar'))
+    event.add('kubejs:withered_smithing_template', Component.translate('tooltip.kubejs.withered_smithing_template'))
+    event.add('witherstormmod:command_block_book', Component.translate('tooltip.kubejs.command_block_book'))
     
     // Mark unused items
     const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'samurai_dynasty:ruby_ore', 'samurai_dynasty:deepslate_ruby_ore',

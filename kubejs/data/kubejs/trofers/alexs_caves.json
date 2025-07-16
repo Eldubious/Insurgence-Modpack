@@ -1,0 +1,27 @@
+{
+    "name": {
+        "color": "#9C8640",
+        "translate": "trophy.kubejs.alexs_caves"
+    },
+    "display": {
+        "offset": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "item": {
+        "item": "alexscaves:cave_codex",
+        "nbt": {
+            "CaveBiome": "alexscaves:magnetic_caves"
+        }
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#9C8640"
+    }
+}

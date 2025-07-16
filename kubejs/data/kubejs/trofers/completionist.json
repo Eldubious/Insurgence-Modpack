@@ -1,0 +1,20 @@
+{
+    "name": {
+        "color": "#15D1E6",
+        "translate": "trophy.kubejs.completionist"
+    },
+    "display": {
+        "scale": 1.25
+    },
+    "item": {
+        "item": "kubejs:hyper_enchant_catalyst"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#15D1E6"
+    }
+}
