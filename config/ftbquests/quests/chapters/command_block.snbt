@@ -29,8 +29,9 @@
 				"68EB589E7A45F716"
 			]
 			description: [
-				"&e&l&nTip:&r"
-				"You can duplicate Unobtanium by crafting it into a block and back into an ingot. That way, you only need to use its more convoluted recipe once."
+				"One of two items needed for crafting a Command Block."
+				""
+				"&7&oYou can duplicate Unobtanium by crafting it into a block and back into an ingot. That way, you only need to use its more convoluted recipe once.&r"
 			]
 			id: "52BD91BCCE447C45"
 			rewards: [{
@@ -492,11 +493,16 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["284C09DDB1C08FEC"]
+			dependencies: [
+				"284C09DDB1C08FEC"
+				"54FEE8C7293079CB"
+			]
 			description: [
 				"&lIt came back!&r"
 				""
-				"You will need to craft some command block tools in order to kill it for good. This means you need to get &oanother&r Enchanted Command Block Book."
+				"You will need to craft some command block tools in a Smithing Table in order to kill it for good. This means you need to get &oanother&r Enchanted Command Block Book along with a Withered Smithing Template."
+				""
+				"&7&oThe Gateway of the Tainted Village summons a Withered Symbiont for its final wave, meaning you can get another Enchanted Command Block Book by also getting the needed smithing template.&r"
 			]
 			hide_until_deps_complete: true
 			id: "27D12B706D047CB2"
@@ -602,10 +608,11 @@
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
+				disable_toast: true
 				icon: "summoningrituals:indestructible_altar"
 				id: "4B43F26F29D80FE7"
 				observe_type: 0
-				timer: 25L
+				timer: 1L
 				title: "&a&lObserve:&r Summoning Altar"
 				to_observe: "summoningrituals:indestructible_altar"
 				type: "observation"
@@ -613,6 +620,45 @@
 			title: "Find a Summoning Altar"
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["284C09DDB1C08FEC"]
+			description: [
+				"To craft the weapon you need, you will need the Withered Smithing Template, which can only be obtained by defeating all of the summoned mobs from the Gate Pearl - "
+				"&5&oGateway of the Tainted Village&r."
+				""
+				"This Gate Pearl is crafted at the Summoning Altar as well, so you will need to go back to it."
+				""
+				"&7&o(You cannot prepare for this beforehand, as you cannot craft the Gate Pearl until you have summoned the Wither Storm)&r"
+			]
+			id: "54FEE8C7293079CB"
+			rewards: [{
+				id: "23D8DC1F3D5A30E1"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "64CCE0B698CE6D5C"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "kubejs:tainted_village"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08144A01E9262038"
+					item: "kubejs:withered_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Obtaining Necessary Materials"
+			x: 18.25d
+			y: -3.5d
 		}
 	]
 	title: "Chapter II: Command Block"

@@ -18,8 +18,8 @@
 	}
 	id: "442879CDC4F5BACB"
 	images: [{
-		height: 2.0d
-		image: "kubejs:textures/questbook/titles/insurgence_modpack_title.png"
+		height: 3.0d
+		image: "kubejs:textures/menu/insurgence_title.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 0.0d
@@ -80,7 +80,7 @@
 				xp: 10
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "61B87783253A4F18"
@@ -206,8 +206,8 @@
 				type: "checkmark"
 			}]
 			title: "Claiming Your Guidebooks"
-			x: 0.0d
-			y: 1.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			description: ["This will allow you to run a command to disable the Twilight Forest's progression system. If you did not do so during world creation."]
@@ -230,8 +230,8 @@
 				type: "checkmark"
 			}]
 			title: "Disable the Twilight Forest Progression"
-			x: -1.0d
-			y: 1.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -253,8 +253,8 @@
 				type: "checkmark"
 			}]
 			title: "Ars Nouveau Dynamic Lights"
-			x: 1.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Welcome"

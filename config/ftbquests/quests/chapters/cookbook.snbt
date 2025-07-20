@@ -2946,6 +2946,29 @@
 			x: 0.5d
 			y: -2.0d
 		}
+		{
+			description: [
+				"To make cheese, you first need to craft a curd block with some milk buckets and sugar/honey."
+				""
+				"If you place it in a low-light environment, it will turn into a cheese wheel eventually."
+			]
+			icon: "trailandtales_delight:cheese_wheel"
+			id: "4890910E10C6E212"
+			rewards: [{
+				id: "2671EBFB63AA9E50"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			tasks: [{
+				id: "65D9FE67F036C892"
+				item: "trailandtales_delight:curd_block"
+				type: "item"
+			}]
+			title: "Making Cheese"
+			x: -5.3999999999999995d
+			y: 0.5d
+		}
 	]
 	title: "Cookbook"
 }

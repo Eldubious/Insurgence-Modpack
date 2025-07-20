@@ -57,6 +57,12 @@
 			y: -2.5d
 		}
 		{
+			description: ["Stores experience levels safely. Also used to power other machines from the Cognition mod. To connect it to other machines, use the staff of attunement."]
+			icon: {
+				Count: 1
+				id: "experienceobelisk:experience_obelisk"
+				tag: { }
+			}
 			id: "264D5D92DF27B7D3"
 			optional: true
 			rewards: [{
@@ -65,15 +71,31 @@
 				xp_levels: 2
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "70566A1EEC6F7B61"
-				item: {
-					Count: 1
-					id: "experienceobelisk:experience_obelisk"
-					tag: { }
+			tasks: [
+				{
+					id: "70566A1EEC6F7B61"
+					item: {
+						Count: 1
+						id: "experienceobelisk:experience_obelisk"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "24F126CC2CC9DD29"
+					item: {
+						Count: 1
+						id: "experienceobelisk:attunement_staff"
+						tag: {
+							boundX: -83
+							boundY: -60
+							boundZ: 60
+							type: "obelisk"
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -1.0d
 		}
@@ -96,6 +118,11 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"This item allows you to search your world for basically anything you would need."
+				""
+				"It is very useful, but also very expensive."
+			]
 			id: "045CFA75399D07B9"
 			optional: true
 			rewards: [{
@@ -1014,6 +1041,88 @@
 			}]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"You can display items on the label by shift + right-clicking on them with an item."
+				""
+				"You can also open chests, barrels, etc. by clicking through them! "
+			]
+			id: "227A393C91E5ED04"
+			optional: true
+			rewards: [{
+				id: "5410D92D000A45CF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "717D3ADA63C7AF87"
+				item: "labels:label"
+				type: "item"
+			}]
+			title: "Labels"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			description: ["By using this block, you can control which painting you will get when you place one down."]
+			icon: "easel_does_it:easel"
+			id: "10688E98322E6F65"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7C5F3010FDC9B108"
+					item: "easel_does_it:easel"
+					type: "item"
+				}
+				{
+					id: "1C4661D722ACA9FD"
+					item: "minecraft:painting"
+					type: "item"
+				}
+			]
+			title: "Choosing Paintings"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			description: ["This block is the wood equivalent of a stonecutter."]
+			id: "4DDE3DE813271380"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "20D690389177384F"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"By placing down compost on the ground outside, it will eventually turn into rich soil. This will take a while, so I recommend doing other things while it decomposes."
+				""
+				"Rich soil is very useful because it accelerates crop growth. Rich soil farmland also cannot be trampled."
+			]
+			id: "0FA3536F581466D3"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "2CFEF4212378F3E1"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B0F4E73DAD1C354"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Composting"
+			x: 3.5d
+			y: -6.0d
 		}
 	]
 	title: "Tips"

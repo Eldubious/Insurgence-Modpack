@@ -1,0 +1,326 @@
+{
+	"size": "small",
+	"color": "#D4D4D4",
+	"waves": [{
+			"entities": [
+                {
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "count": 1
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "count": 1
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "count": 1
+			    }
+            ],
+			"rewards": [
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "rolls": 1
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "rolls": 1
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "rolls": 1
+			    }
+            ],
+			"max_wave_time": 800,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "count": 1
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "count": 2
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "count": 2
+			    }
+            ],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 2
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				}
+			],
+			"rewards": [
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "rolls": 2
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "rolls": 2
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "rolls": 2
+			    }
+            ],
+			"max_wave_time": 800,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+                {
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "count": 2
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "count": 3
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "count": 3
+			    }
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.10
+				}
+			],
+			"rewards": [
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "rolls": 2
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "rolls": 2
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "rolls": 2
+			    }
+            ],
+			"max_wave_time": 800,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "count": 3
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "count": 3
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "count": 3
+			    }
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.25
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.30
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "rolls": 3
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "rolls": 3
+			    },
+                {
+				    "type": "gateways:entity_loot",
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "rolls": 3
+			    }
+            ],
+			"max_wave_time": 1000,
+			"setup_time": 280
+		},
+		{
+			"entities": [
+                {
+				    "entity": "ars_nouveau:wilden_hunter",
+				    "count": 3
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_guardian",
+				    "count": 4
+			    },
+                {
+				    "entity": "ars_nouveau:wilden_stalker",
+				    "count": 4
+			    }
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.35
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+        {
+			"type": "gateways:entity_loot",
+			"entity": "ars_nouveau:wilden_guardian",
+			"rolls": 4
+		},
+        {
+			"type": "gateways:entity_loot",
+			"entity": "ars_nouveau:wilden_hunter",
+			"rolls": 4
+		},
+        {
+			"type": "gateways:entity_loot",
+			"entity": "ars_nouveau:wilden_stalker",
+			"rolls": 4
+		},
+		{
+			"type": "gateways:chanced",
+			"chance": 0.02,
+			"reward": {
+				"type": "gateways:stack",
+				"stack": {
+					"item": "ars_nouveau:wilden_guardian_se",
+					"count": 1
+				}
+			}
+		},
+        {
+			"type": "gateways:chanced",
+			"chance": 0.02,
+			"reward": {
+				"type": "gateways:stack",
+				"stack": {
+					"item": "ars_nouveau:wilden_hunter_se",
+					"count": 1
+				}
+			}
+		},
+        {
+			"type": "gateways:chanced",
+			"chance": 0.02,
+			"reward": {
+				"type": "gateways:stack",
+				"stack": {
+					"item": "ars_nouveau:wilden_stalker_se",
+					"count": 1
+				}
+			}
+		}
+    ],
+    "failures": [
+    ]
+}
