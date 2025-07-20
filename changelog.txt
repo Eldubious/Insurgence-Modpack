@@ -7,27 +7,44 @@ Version 1.1.0 (WIP)
         - Chimes
         - Game Discs
         - Macaw's Paintings
+    - Added a new item for crafting Command Block tools: the Withered Smithing Template
     - More mob & achievement trophies to the questbook
-    - Added a new structure, the Deep Monster Room, to the Depths
-    - Added a new biome, the Dragon's Hollow, to the Depths
-    - New "ore geodes" can spawn occasionally in the Depths
+    - New hidden achievements and new tips to help guide you to them
+    - World Generation additions to the custom Depths dimension:
+        - Two new structures: the Deep Monster Room, and the Dragon's Grave
+        - Added a new biome, Dragon's Hollow
+        - New "ore geodes" which contain lots of a specific ore.
+            - Added ruby and sapphire ore geodes
     - More enemy and equipment variety to the random enemies in the Dimensional Dungeons
-    - New Gate Pearls for the Gateways to Eternity mod
+    - New Gate Pearls for the Gateways to Eternity mod:
+        - Basic Gate Pearls for farming Warden, Shulker, Ender Dragon, and Wilden mob drops
+        - Gate Pearl for collecting lots of ingots and gemstones
+        - Gate Pearl for collecting lots of Hephaestus Forge essence items
+        - Gate Pearl for summoning raid mobs
+        - Gate Pearl for enchanted books and similar items
+        - Gate Pearl for obtaining the new smithing template item (which can only be crafted if the player has summoned the Wither Storm)
 
     Changes:
-    - Updated several mods
+    - Updated several mods (no Create 6.0 yet, it is not currently compatible)
     - Updated various quest pages
     - Increased the amount of foods which offer bonus hearts (only applies on new worlds)
+        - Consequentially, the amount of foods needed for bonus hearts has also increased (also only applies to new worlds)
+        - If you want to implement these changes to an old world, replace the "solcarrot-server.toml" config file in your world's folder
+          with the file of the same name found in the "defualtconfigs" folder
     - Rebalanced recipes
         - Changed the recipes of many Cataclysm weapons
+        - Command Block tools have new recipes
+        - Gate Pearls are crafted using the Summoning Altar now
         - Train casing no longer requires sturdy sheets
+        - Generic stone-type blocks do not give ores when crushed in Crushing Wheels
+        - Vanilla bundles can now be crafted
         - and more...
-    - Reduced loot given from the default Gate Pearls
-    - Tweaked the features and surface rules of the Depths slightly
+    - Reduced amount of loot given from the default Gate Pearls
+    - Tweaked the features and surface rules (world generation) of the Depths slightly
 
     Fixes:
     - The Twilight Forest gamerule EnforcedProgression can now be set to false in the questbook
-    - The Oni no longer drops the incorrect ruby item
+    - The Oni from Samurai Dynasty no longer drops the incorrect ruby item
 
 
 Version 1.0.1

@@ -17,6 +17,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'architects_palette:warping'})
     event.remove({type: 'witherstormmod:item_craft_super_beacon'})
     event.remove({type: 'witherstormmod:resummon_super_beacon'})
+    event.remove({type: 'witherstormmod:anvil'})
 
     event.remove({id: 'sophisticatedstorage:backpack_auto_smelting_upgrade_from_storage_auto_smelting_upgrade'})
     event.remove({id: 'sophisticatedstorage:backpack_auto_blasting_upgrade_from_storage_auto_blasting_upgrade'})
@@ -92,6 +93,13 @@ ServerEvents.recipes(event => {
     */
     event.remove({id: 'forbidden_arcanus:enchanted_golden_apple'})
     event.remove({id: 'samurai_dynasty:steel_ingot_from_blasting_iron_ingot'})
+    
+    // Stone crushing recipes
+    event.remove([{id: 'create:crushing/veridium'}, {id: 'create:crushing/veridium_recycling'}])
+    event.remove([{id: 'create:crushing/asurine'}, {id: 'create:crushing/asurine_recycling'}])
+    event.remove([{id: 'create:crushing/crimsite'}, {id: 'create:crushing/crimsite_recycling'}])
+    event.remove([{id: 'create:crushing/ochrum'}, {id: 'create:crushing/ochrum_recycling'}])
+    event.remove([{id: 'create:crushing/tuff'}, {id: 'create:crushing/tuff_recycling'}])
 
     /*
         Recipes that override the ones for the Seashelf and Hellshelf items.
