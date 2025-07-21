@@ -1,0 +1,470 @@
+{
+    "size": "large",
+    "color": "#A24DE3",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "witherstormmod:sickened_chicken",
+                    "count": 3
+                },
+                {
+                    "entity": "witherstormmod:sickened_cow",
+                    "count": 3
+                },
+                {
+                    "entity": "witherstormmod:sickened_pig",
+                    "count": 3
+                },
+                {
+                    "entity": "witherstormmod:sickened_bee",
+                    "count": 4
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_chicken",
+                    "rolls": 2
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_cow",
+                    "rolls": 2
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_pig",
+                    "rolls": 2
+                }
+            ],
+            "max_wave_time": 1200,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "witherstormmod:sickened_villager",
+                    "count": 8
+                },
+                {
+                    "entity": "witherstormmod:sickened_cow",
+                    "count": 5
+                },
+                {
+                    "entity": "witherstormmod:sickened_zombie",
+                    "count": 3
+                },
+                {
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_zombie",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 2400,
+            "setup_time": 200
+        },
+        {
+            "entities": [
+                {
+                    "entity": "witherstormmod:sickened_villager",
+                    "count": 8
+                },
+                {
+                    "entity": "witherstormmod:sickened_pillager",
+                    "count": 5
+                },
+                {
+                    "entity": "witherstormmod:sickened_villager",
+                    "desc": "name.kubejs.sickened_blacksmith",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"name.kubejs.sickened_blacksmith\",\"color\":\"light_purple\"}"
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "kubejs:netherite_armor"
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "operation": "ADDITION",
+                            "value": 30
+                        }
+                    ],
+                    "count": 3,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "count": 3
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_villager",
+                    "rolls": 4
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_zombie",
+                    "rolls": 2
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "rolls": 2
+                }
+            ],
+            "max_wave_time": 3200,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                {
+                    "entity": "witherstormmod:sickened_vindicator",
+                    "desc": "name.kubejs.sickened_butcher",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"name.kubejs.sickened_butcher\",\"color\":\"light_purple\"}"
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "kubejs:netherite_weapon"
+                        },
+                        {
+                            "attribute": "generic.max_health",
+                            "operation": "ADDITION",
+                            "value": 30
+                        },
+                        {
+                            "attribute": "attributeslib:armor_shred",
+                            "operation": "ADDITION",
+                            "value": 0.5
+                        },
+                        {
+                            "attribute": "attributeslib:prot_shred",
+                            "operation": "ADDITION",
+                            "value": 0.25
+                        },
+                        {
+                            "attribute": "generic.attack_knockback",
+                            "operation": "ADDITION",
+                            "value": 2.5
+                        },
+                        {
+                            "attribute": "generic.knockback_resistance",
+                            "operation": "ADDITION",
+                            "value": 0.25
+                        },
+                        {
+                            "attribute": "attributeslib:life_steal",
+                            "operation": "ADDITION",
+                            "value": 0.10
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "witherstormmod:sickened_zombie",
+                    "desc": "name.kubejs.sickened_soldier",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"name.kubejs.sickened_soldier\",\"color\":\"light_purple\"}"
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "kubejs:netherite_complete"
+                        },
+                        {
+                            "attribute": "minecraft:generic.attack_damage",
+                            "operation": "multiply_base",
+                            "value": 0.2
+                        }
+                    ],
+                    "count": 5,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "witherstormmod:sickened_phantom",
+                    "count": 4
+                },
+                {
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "count": 4
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_vindicator",
+                    "rolls": 4
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_zombie",
+                    "rolls": 4
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:phantom",
+                    "rolls": 4
+                }
+            ],
+            "max_wave_time": 4800,
+            "setup_time": 400
+        },
+        {
+            "entities": [
+                {
+                    "entity": "witherstormmod:withered_symbiont",
+                    "count": 1
+                },
+                {
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "count": 3
+                },
+                {
+                    "entity": "witherstormmod:sickened_zombie",
+                    "desc": "name.kubejs.sickened_soldier",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"name.kubejs.sickened_soldier\",\"color\":\"light_purple\"}"
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "kubejs:netherite_complete"
+                        },
+                        {
+                            "attribute": "minecraft:generic.attack_damage",
+                            "operation": "multiply_base",
+                            "value": 0.2
+                        }
+                    ],
+                    "count": 5,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.50
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_iron_golem",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "witherstormmod:sickened_vindicator",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 6000,
+            "setup_time": 500
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "kubejs:gateways/tainted_village",
+            "rolls": 8,
+            "desc": "rewards.kubejs.loot_table.tainted_village"
+        },
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "item": "witherstormmod:command_block_book",
+                "count": 1
+            }
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 6,
+            "fire": false,
+            "block_damage": false
+        },
+        {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "witherstormmod:sickened_pillager",
+                "count": 2
+            }
+        }
+    ]
+}

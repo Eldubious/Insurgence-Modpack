@@ -17,4 +17,8 @@ StartupEvents.registry('item', event => {
     event.create('obfuscated')
         .unstackable()
         .translationKey('item.kubejs.obfuscated')
+
+    // Withered Smithing Template
+    event.create('withered_smithing_template')
+        .translationKey('item.kubejs.withered_smithing_template')
 })

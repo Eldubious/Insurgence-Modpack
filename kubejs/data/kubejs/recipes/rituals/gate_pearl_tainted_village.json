@@ -1,0 +1,52 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": {
+        "item": "irons_spellbooks:divine_pearl"
+    },
+    "outputs": [
+        {
+            "item": "gateways:gate_pearl",
+            "count": 1,
+            "nbt": "{gateway:\"kubejs:tainted_village\"}"
+        }
+    ],
+    "inputs": [
+        {
+            "ingredient": {
+                "item": "witherstormmod:withered_flesh"
+            },
+            "count": 4
+        },
+        {
+            "ingredient": {
+                "item": "witherstormmod:withered_bone"
+            },
+            "count": 4
+        },
+        {
+            "ingredient": {
+                "item": "minecraft:wither_rose"
+            },
+            "count": 4
+        },
+        {
+            "ingredient": {
+                "item": "minecraft:golden_apple"
+            },
+            "count": 2
+        },
+        {
+            "ingredient": {
+                "item": "minecraft:emerald"
+            },
+            "count": 8
+        },
+        {
+            "ingredient": {
+                "item": "ars_elemental:anima_essence"
+            },
+            "count": 1
+        }
+    ],
+    "recipe_time": 120
+}

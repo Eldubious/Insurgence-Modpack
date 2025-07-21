@@ -39,6 +39,17 @@ ServerEvents.recipes(event => {
                 .input(inputItems[4])
                 .itemOutput(output)
         }
+        else if (inputItems.length == 6) {       // There are 6 item inputs
+            event.recipes.summoningrituals.altar(catalyst)
+                .recipeTime(120)
+                .input(inputItems[0])
+                .input(inputItems[1])
+                .input(inputItems[2])
+                .input(inputItems[3])
+                .input(inputItems[4])
+                .input(inputItems[5])
+                .itemOutput(output)
+        }
         else if (inputItems.length == 8) {  // There are 8 item inputs
             event.recipes.summoningrituals.altar(catalyst)
                 .recipeTime(120)
@@ -67,13 +78,17 @@ ServerEvents.recipes(event => {
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:basic/enderman"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:ender_pearl', '2x forbidden_arcanus:ender_pearl_fragment'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:basic/slime"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:slime_ball', '2x create:dough'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:endless/blaze"}'), 'irons_spellbooks:divine_pearl', [ '4x minecraft:blaze_rod', '8x minecraft:blaze_powder', 'irons_spellbooks:fire_upgrade_orb', 'ars_nouveau:manipulation_essence'])
-    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:emerald_grove"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:rotten_flesh', '6x minecraft:wheat_seeds'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:emerald_grove"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:rotten_flesh', '6x minecraft:wheat_seeds', '6x minecraft:carrot', '4x #minecraft:saplings'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:overworldian_nights"}'), 'irons_spellbooks:divine_pearl', ['3x minecraft:rotten_flesh', '3x minecraft:bone', '3x minecraft:string', '3x minecraft:gunpowder', 'minecraft:spider_eye'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:hellish_fortress"}'), 'irons_spellbooks:divine_pearl', ['minecraft:wither_skeleton_skull', '2x minecraft:gold_block', '3x minecraft:blaze_rod'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/ender_dragon"}'), 'irons_spellbooks:divine_pearl', ['2x quark:dragon_scale', '2x minecraft:diamond', '2x minecraft:chorus_fruit'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/warden"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:echo_shard', 'apotheosis:warden_tendril'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:endless_blood"}'), 'irons_spellbooks:divine_pearl', ['3x forbidden_arcanus:aureal_bottle', '3x irons_spellbooks:blood_vial', '2x samurai_dynasty:oni_horn', '3x forbidden_arcanus:soul'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:raid_hideout"}'), 'irons_spellbooks:divine_pearl', ['minecraft:totem_of_undying', '2x illagerinvasion:platinum_sheet', '2x minecraft:emerald', 'ars_nouveau:conjuration_essence'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:treasure_vault"}'), 'irons_spellbooks:divine_pearl', ['4x minecraft:diamond', '4x #forge:ingots/gold', '4x rubinated_nether:ruby', '4x call_of_yucutan:jade', '4x samurai_dynasty:aquamarine', '4x samurai_dynasty:onyx'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/shulker"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:shulker_shell', '4x minecraft:popped_chorus_fruit'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/wilden"}'), 'irons_spellbooks:divine_pearl', ['ars_nouveau:wilden_horn', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_wing', '2x ars_nouveau:source_gem'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:enchanted_library"}'), 'irons_spellbooks:divine_pearl', ['kubejs:hyper_enchant_catalyst', '4x ars_nouveau:source_gem', 'ars_nouveau:conjuration_essence', 'irons_spellbooks:arcane_rune', '4x irons_spellbooks:arcane_essence'])
 
 
     /*
@@ -167,14 +182,14 @@ ServerEvents.recipes(event => {
 })
 
 /*
-    Event handler for summoning the Wither Storm
+    Event handler for summoning the Wither Storm and the Tainted Village Gateway
 */
 SummoningRituals.start(event => {
+    var playerId = event.player.uuid.toString()
 
     // If the current recipe is the one which summons the Wither Storm
     if (event.recipe.getId().toString() == 'kubejs:rituals/wither_storm') {
-        var playerId = event.player.uuid.toString()
-
+        
         // Prevent automatic summoning
         if (!event.player) event.cancel()
 
@@ -213,5 +228,12 @@ SummoningRituals.start(event => {
             event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/root`)
             event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/summon_wither_storm`)
         }, 10000)
+    }
+
+    // If the current recipe is for the Gate Pearl
+    if (event.recipe.getId().toString() == 'kubejs:rituals/wither_storm') {
+
+        // Prevent automatic summoning
+        if (!event.player) event.cancel()
     }
 })

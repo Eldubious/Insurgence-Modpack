@@ -361,7 +361,7 @@ ItemEvents.modification(event => {
         'ancient_aether:royal_armor_trim_smithing_template', 'ancient_aether:solar_armor_trim_smithing_template', 'ancient_aether:ancient_armor_trim_smithing_template',
         'iceandfire:dragonsteel_fire_block', 'iceandfire:dragonsteel_ice_block', 'iceandfire:dragonsteel_lightning_block', 'aether:obsidian_helmet', 'aether:obsidian_chestplate',
         'aether:obsidian_leggings', 'aether:obsidian_boots', 'aether:obsidian_gloves', 'experienceobelisk:fortuitous_amulet', 'experienceobelisk:memory_tablet',
-        'cataclysm:storm_eye', 'psi:cad_assembly_creative'
+        'cataclysm:storm_eye', 'psi:cad_assembly_creative', 'kubejs:withered_smithing_template'
     ]
     epic_items.forEach(element => epic(element))
     
