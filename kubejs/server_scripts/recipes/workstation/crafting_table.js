@@ -191,6 +191,21 @@ ServerEvents.recipes(event => {
     )
     // Dragon Scale conversion
     event.shapeless('forbidden_arcanus:dragon_scale', ['quark:dragon_scale', 'quark:dragon_scale', 'quark:dragon_scale'])
+    // Ancient Metal Weapon Parts
+    event.remove({id: 'traveloptics:ancient_metal_weapon_parts'})
+    event.shaped('traveloptics:ancient_metal_weapon_parts',
+        [
+            'ABA',
+            'BCB',
+            'DBA'
+        ],
+        {
+            A: 'cataclysm:ancient_metal_ingot',
+            B: 'create:shadow_steel',
+            C: 'irons_spellbooks:weapon_parts',
+            D: 'cataclysm:ancient_metal_nugget'
+        }
+    )
 
     
     /*
@@ -1111,4 +1126,36 @@ ServerEvents.recipes(event => {
     // Enchantment Table <-> Matrix Enchantment Table
     event.shapeless('minecraft:enchanting_table', ['quark:matrix_enchanter'])
     event.shapeless('quark:matrix_enchanter', ['minecraft:enchanting_table'])
+    // Wand of the Final Light
+    event.remove({id: 'traveloptics:wand_of_final_light'})
+    event.shaped('traveloptics:wand_of_final_light',
+        [
+            ' AB',
+            ' CD',
+            'ED '
+        ],
+        {
+            A: 'traveloptics:withered_excrucis',
+            B: 'traveloptics:pocket_black_hole',
+            C: 'minecraft:crying_obsidian',
+            D: 'create:refined_radiance',
+            E: 'traveloptics:ancient_metal_weapon_parts'
+        }
+    )
+    // Eye of Nothingness
+    event.remove({id: 'traveloptics:eye_of_nothingness'})
+    event.shaped('traveloptics:eye_of_nothingness',
+        [
+            'ABA',
+            'CDC',
+            'ECE'
+        ],
+        {
+            A: 'forbidden_arcanus:dark_matter',
+            B: 'irons_spellbooks:ancient_knowledge_fragment',
+            C: 'create:shadow_steel',
+            D: 'minecraft:ender_eye',
+            E: 'forbidden_arcanus:dark_rune'
+        }
+    )
 })

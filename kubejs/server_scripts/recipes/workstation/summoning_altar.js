@@ -185,13 +185,13 @@ ServerEvents.recipes(event => {
     Event handler for summoning the Wither Storm and the Tainted Village Gateway
 */
 SummoningRituals.start(event => {
-    var playerId = event.player.uuid.toString()
+    
 
     // If the current recipe is the one which summons the Wither Storm
     if (event.recipe.getId().toString() == 'kubejs:rituals/wither_storm') {
+        if (!event.player) event.cancel()   // Prevent automatic summoning
         
-        // Prevent automatic summoning
-        if (!event.player) event.cancel()
+        var playerId = event.player.uuid.toString()
 
         // Grant the darkness effect to all players withing 30 blocks of the summoner
         event.server.runCommandSilent(`execute at ${playerId} run effect give @a[distance=..30] minecraft:darkness 11`)
@@ -231,9 +231,17 @@ SummoningRituals.start(event => {
     }
 
     // If the current recipe is for the Gate Pearl
-    if (event.recipe.getId().toString() == 'kubejs:rituals/wither_storm') {
+    else if (event.recipe.getId().toString() == 'kubejs:rituals/gate_pearl_tainted_village') {
+        if (!event.player) event.cancel()   // Prevent automatic summoning
+        
+        // Only craft item if player has advancement for summoning the Wither Storm
+        if (!event.player.isAdvancementDone('witherstormmod:main/summon_wither_storm')) {
+            // Explain the requirements to the player
+            var playerId = event.player.uuid.toString()
+            let cmd = `execute as ${playerId} run title @s actionbar {"type":"translatable","translate":"actionbar.kubejs.wither_storm_gate_pearl_recipe_error"}`
+            event.server.runCommandSilent(cmd)
 
-        // Prevent automatic summoning
-        if (!event.player) event.cancel()
+            event.cancel()
+        }
     }
 })

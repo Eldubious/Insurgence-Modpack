@@ -26,6 +26,7 @@
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",
     "actionbar.kubejs.inbetween_portal_error": "§eYou can only use this portal in the Overworld or the Inbetween!",
+    "actionbar.kubejs.wither_storm_gate_pearl_recipe_error": "§eThis recipe can only be crafted after you have summoned the Wither Storm!",
     
     "block.kubejs.depths_portal": "The Depths Portal",
     "block.kubejs.dragon_portal": "Dragonrealm Portal",

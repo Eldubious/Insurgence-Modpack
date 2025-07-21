@@ -73,6 +73,7 @@ regions_unexplored/*
 the_bumblezone
 toomanyglyphs
 traveloptics
+!defaultoptions/extra/options.txt
 
 # Individual configs to ignore
 aeroblender-common.toml

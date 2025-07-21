@@ -41,10 +41,12 @@ Version 1.1.0 (WIP)
         - and more...
     - Reduced amount of loot given from the default Gate Pearls
     - Tweaked the features and surface rules (world generation) of the Depths slightly
+    - Sickened Mobs no longer spawn in the Inbetween
 
     Fixes:
     - The Twilight Forest gamerule EnforcedProgression can now be set to false in the questbook
     - The Oni from Samurai Dynasty no longer drops the incorrect ruby item
+    - EclecticTrove Resource Pack should now be enabled by default
 
 
 Version 1.0.1

@@ -1107,6 +1107,13 @@
 					item: "cataclysm:music_disc_scylla"
 					type: "item"
 				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "6A5689BD3031D961"
+					item: "traveloptics:music_disc_nightwarden"
+					type: "item"
+				}
 			]
 			title: "Collect All of the Cataclysm Music Discs!"
 			x: -0.5d
