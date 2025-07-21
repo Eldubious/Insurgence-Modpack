@@ -1,0 +1,22 @@
+{
+    "colors": {
+      "accent": "#A14FB6",
+      "base": "#606060"
+    },
+    "display": {
+      "scale": 0.25
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "witherstormmod:wither_storm_ambient"
+      }
+    },
+    "entity": {
+      "type": "witherstormmod:wither_storm",
+      "nbt": "{Phase:1}"
+    },
+    "name": {
+      "color": "#A14FB6",
+      "translate": "trophy.kubejs.wither_storm_1"
+    }
+  }

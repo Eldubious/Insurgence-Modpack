@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#A585AB",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25,
+        "offset": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+        }
+    },
+    "entity": {
+        "type": "traveloptics:void_tome"
+    },
+    "name": {
+        "color": "#A585AB",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.traveloptics.void_tome"
+            }
+        ]
+    }
+}

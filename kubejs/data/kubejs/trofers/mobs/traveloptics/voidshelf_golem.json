@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#93599E",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "traveloptics:voidshelf_golem"
+    },
+    "name": {
+        "color": "#93599E",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.traveloptics.voidshelf_golem"
+            }
+        ]
+    }
+}

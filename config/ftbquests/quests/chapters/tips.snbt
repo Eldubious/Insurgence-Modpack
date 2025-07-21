@@ -980,14 +980,121 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5F9463DFAE0F0BC7"
+				id: "157CF696B94CB1B1"
 				item: {
 					Count: 1
-					id: "gateways:gate_pearl"
+					id: "itemfilters:or"
 					tag: {
-						gateway: "gateways:basic/blaze"
+						items: [
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/blaze"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:endless/blaze"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:basic/ender_dragon"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/enderman"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:basic/shulker"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/slime"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:basic/warden"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:basic/wilden"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:emerald_grove"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:endless_blood"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:overworldian_nights"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:treasure_vault"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:hellish_fortress"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:raid_hideout"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "kubejs:enchanted_library"
+								}
+							}
+						]
 					}
 				}
+				title: "Any Gate Pearl"
 				type: "item"
 			}]
 			title: "Gate Pearls"

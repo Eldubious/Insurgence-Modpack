@@ -1,0 +1,21 @@
+{
+    "colors": {
+        "accent": "#E82E3E",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "traveloptics:enraged_dead_king"
+    },
+    "name": {
+        "color": "#E82E3E",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.traveloptics.enraged_dead_king"
+            }
+        ]
+    }
+}

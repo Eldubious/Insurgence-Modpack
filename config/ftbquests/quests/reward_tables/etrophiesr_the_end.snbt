@@ -250,6 +250,28 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/traveloptics/void_tome"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/traveloptics/voidshelf_golem"
+					}
+				}
+			}
+		}
 	]
 	title: "&eTrophies:&r The End"
 }

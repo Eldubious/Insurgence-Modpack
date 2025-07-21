@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "accent": "#61CFE8",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "entity": {
+        "type": "traveloptics:aqua_grandmaster",
+        "nbt": "{ArmorItems:[{id:\"traveloptics:deepling_mage_armor_boots\",Count:1},{id:\"traveloptics:deepling_mage_armor_leggings\",Count:1},{id:\"traveloptics:deepling_mage_armor_robe\",Count:1},{id:\"minecraft:air\",Count:1}]}"
+    },
+    "name": {
+        "color": "#61CFE8",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.traveloptics.aqua_grandmaster"
+            }
+        ]
+    }
+}
