@@ -89,6 +89,7 @@ ServerEvents.recipes(event => {
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/shulker"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:shulker_shell', '4x minecraft:popped_chorus_fruit'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/wilden"}'), 'irons_spellbooks:divine_pearl', ['ars_nouveau:wilden_horn', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_wing', '2x ars_nouveau:source_gem'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:enchanted_library"}'), 'irons_spellbooks:divine_pearl', ['kubejs:hyper_enchant_catalyst', '4x ars_nouveau:source_gem', 'ars_nouveau:conjuration_essence', 'irons_spellbooks:arcane_rune', '4x irons_spellbooks:arcane_essence'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:edge_of_the_world"}'), 'irons_spellbooks:divine_pearl', ['forbidden_arcanus:stellarite_piece', '2x minecraft:echo_shard', '2x forbidden_arcanus:ender_pearl_fragment'])
 
 
     /*

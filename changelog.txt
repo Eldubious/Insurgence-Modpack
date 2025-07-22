@@ -1,4 +1,4 @@
-Version 1.1.0 (WIP)
+Version 1.1.0
     Additions:
     - Added mods:
         - Create Cobblestone
@@ -23,6 +23,7 @@ Version 1.1.0 (WIP)
         - Gate Pearl for collecting lots of Hephaestus Forge essence items
         - Gate Pearl for summoning raid mobs
         - Gate Pearl for enchanted books and similar items
+        - Gate Pearl for summoning the Farseer
         - Gate Pearl for obtaining the new smithing template item (which can only be crafted if the player has summoned the Wither Storm)
 
     Changes:

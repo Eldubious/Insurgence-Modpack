@@ -761,6 +761,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Can only capture animal entities inside."]
 			id: "2A806A47B2A73CB8"
 			optional: true
 			rewards: [{
