@@ -1,0 +1,11 @@
+{
+    "block": "supplementaries:fire_pit",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": -2.5,
+        "quanta": 15,
+        "arcana": 0,
+        "rectification": 0,
+        "clues": -1
+    }
+}

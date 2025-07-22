@@ -1,0 +1,11 @@
+{
+    "block": "lootr:trophy",
+    "stats": {
+        "maxEterna": 30,
+        "eterna": 15,
+        "quanta": 15,
+        "arcana": 15,
+        "rectification": -15,
+        "clues": -2
+    }
+}

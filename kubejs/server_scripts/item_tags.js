@@ -65,10 +65,7 @@ ServerEvents.tags('item', event => {
         'forbidden_arcanus:netherite_blacksmith_gavel', 'forbidden_arcanus:reinforced_deorum_blacksmith_gavel', 'mutantmonsters:hulk_hammer', 'samurai_dynasty:tetsubo', 'samurai_dynasty:tetsubo_netherite',
         'unusualend:warped_anchor']
     can_salvage.forEach(element => addToTag('kubejs:can_salvage_equipment', element))
-	// A tag for game cartridges which are found in loot chests
-	const game_discs = ['gamediscs:game_disc_blocktris', 'gamediscs:game_disc_tnt_sweeper', 'gamediscs:game_disc_pong']
-	game_discs.forEach(element => addToTag('kubejs:chest_loot_game_discs', element))
-
+	
 
 	/*
 		Blacklisting items
@@ -218,4 +215,36 @@ ServerEvents.tags('item', event => {
 		'iceandfire:crackled_cobblestone', 'twilightforest:mazestone', 'twilightforest:nagastone', 'twilightforest:aurora_block', 'twilightforest:deadrock',
 		'twilightforest:giant_cobblestone']
 	generatorStoneTypes.forEach(element => addToTag('kubejs:create_cobblestone_generator_compatible', element))
+	// Enchanting decoration items
+	const ench_decor =['minecraft:candle', 'minecraft:white_candle', 'minecraft:light_gray_candle', 'minecraft:gray_candle', 'minecraft:black_candle', 'minecraft:brown_candle',
+		'minecraft:red_candle', 'minecraft:orange_candle', 'minecraft:yellow_candle', 'minecraft:lime_candle', 'minecraft:green_candle', 'minecraft:cyan_candle',
+		'minecraft:light_blue_candle', 'minecraft:blue_candle', 'minecraft:purple_candle', 'minecraft:magenta_candle', 'minecraft:pink_candle', 'the_bumblezone:luminescent_wax_node_red',
+		'the_bumblezone:luminescent_wax_node_purple', 'the_bumblezone:luminescent_wax_node_blue', 'the_bumblezone:luminescent_wax_node_green', 'the_bumblezone:luminescent_wax_node_yellow',
+		'the_bumblezone:luminescent_wax_node_white', 'the_bumblezone:luminescent_wax_channel_red', 'the_bumblezone:luminescent_wax_channel_purple', 'the_bumblezone:luminescent_wax_channel_blue',
+		'the_bumblezone:luminescent_wax_channel_green', 'the_bumblezone:luminescent_wax_channel_yellow', 'the_bumblezone:luminescent_wax_channel_white', 'the_bumblezone:luminescent_wax_corner_red',
+		'the_bumblezone:luminescent_wax_corner_purple', 'the_bumblezone:luminescent_wax_corner_blue', 'the_bumblezone:luminescent_wax_corner_green', 'the_bumblezone:luminescent_wax_corner_yellow',
+		'the_bumblezone:luminescent_wax_corner_white', 'unusualend:citrine_candle', 'unusualend:condensed_citrine_block', 'create:experience_block', 'minecraft:lectern', 'witherstormmod:tainted_carved_pumpkin',
+		'minecraft:jack_o_lantern', 'minecraft:carved_pumpkin', 'minecraft:amethyst_cluster', 'galosphere:allurite_cluster', 'galosphere:lumiere_cluster', 'galosphere:glinted_amethyst_cluster',
+		'galosphere:glinted_allurite_cluster', 'galosphere:glinted_lumiere_cluster', 'quark:tiny_potato', 'supplementaries:globe', 'supplementaries:globe_sepia', 'minecraft:dragon_egg',
+		'forbidden_arcanus:arcane_dragon_egg', 'wan_ancient_beasts:sniffer_skull', 'wan_ancient_beasts:eater_skull', 'wan_ancient_beasts:walker_skull', 'wan_ancient_beasts:crusher_skull',
+		'wan_ancient_beasts:glider_skull', 'wan_ancient_beasts:soarer_skull', 'minecraft:skeleton_skull', 'minecraft:zombie_head', 'minecraft:creeper_head', 'supplementaries:enderman_head',
+		'minecraft:wither_skeleton_skull', 'minecraft:dragon_head', 'minecraft:piglin_head', 'minecraft:player_head', 'mutantmonsters:mutant_skeleton_skull', 'forbidden_arcanus:obsidian_skull',
+		'twilightforest:zombie_skull_candle', 'twilightforest:skeleton_skull_candle', 'twilightforest:wither_skeleton_skull_candle', 'twilightforest:creeper_skull_candle',
+		'twilightforest:player_skull_candle', 'twilightforest:piglin_skull_candle', 'twilightforest:naga_trophy', 'twilightforest:lich_trophy', 'twilightforest:minoshroom_trophy',
+		'twilightforest:hydra_trophy', 'twilightforest:knight_phantom_trophy', 'twilightforest:ur_ghast_trophy', 'twilightforest:alpha_yeti_trophy', 'twilightforest:snow_queen_trophy',
+		'twilightforest:quest_ram_trophy', 'cataclysm:kobolediator_skull', 'cataclysm:draugr_head', 'cataclysm:aptrgangr_head', 'forbidden_arcanus:eternal_obsidian_skull',
+		'experienceobelisk:cognitive_crystal_block', 'forbidden_arcanus:arcane_crystal_obelisk', 'forbidden_arcanus:corrupted_arcane_crystal_obelisk', 'samurai_dynasty:tanuki_statue',
+		'samurai_dynasty:komainu_statue', 'samurai_dynasty:kawauso_statue', 'supplementaries:fire_pit', 'rubinated_nether:ruby_brazier', 'rubinated_nether:ruby_lava_lamp', 'supplementaries:statue',
+		'lootr:trophy', 'chimes:bamboo_chimes', 'chimes:iron_chimes', 'chimes:carved_bamboo_chimes', 'chimes:copper_chimes', 'chimes:amethyst_chimes', 'chimes:glass_bells', 'supplementaries:goblet',
+		'supplementaries:urn', 'endergetic:acidian_lantern', 'minecraft:sculk_shrieker', 'twilightforest:firefly', 'twilightforest:cicada', 'twilightforest:moonworm', 'irons_spellbooks:firefly_jar',
+		'twilightforest:firefly_jar', 'twilightforest:cicada_jar', 'twilightforest:firefly_particle_spawner', 'create:peculiar_bell', 'create:haunted_bell', 'create:nixie_tube', 'alexscaves:beholder',
+		'regions_unexplored:prismarite_cluster', 'regions_unexplored:large_prismarite_cluster', 'regions_unexplored:hanging_prismarite', 'hexcasting:amethyst_sconce', 'galosphere:pink_salt_lamp',
+		'ars_nouveau:arcane_core', 'iceandfire:pixie_house_mushroom_red', 'iceandfire:pixie_house_mushroom_brown', 'iceandfire:pixie_house_oak', 'iceandfire:pixie_house_birch', 'iceandfire:pixie_house_spruce',
+		'iceandfire:pixie_house_dark_oak', 'thaumon:grimoire', 'thaumon:grimoire_stack', 'thaumon:vial_rack', 'thaumon:research_notes', 'thaumon:crystal_lamp', 'thaumon:crystal_stand',
+		'thaumon:retort', 'iceandfire:lectern', 'call_of_yucutan:ah_puch_idol', 'call_of_yucutan:kukulkan_idol', 'alexsmobs:void_worm_effigy', 'iceandfire:pixie_jar_0', 'iceandfire:pixie_jar_1',
+		'iceandfire:pixie_jar_2', 'iceandfire:pixie_jar_3', 'iceandfire:pixie_jar_4']
+	ench_decor.forEach(element => addToTag('kubejs:enchantment_decor', element))
+	// A tag for game cartridges which are found in loot chests
+	const game_discs = ['gamediscs:game_disc_blocktris', 'gamediscs:game_disc_tnt_sweeper', 'gamediscs:game_disc_pong']
+	game_discs.forEach(element => addToTag('kubejs:chest_loot_game_discs', element))
 })

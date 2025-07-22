@@ -1,0 +1,11 @@
+{
+    "block": "forbidden_arcanus:arcane_dragon_egg",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": 0,
+        "quanta": 0,
+        "arcana": -15,
+        "rectification": 30,
+        "clues": 0
+    }
+}

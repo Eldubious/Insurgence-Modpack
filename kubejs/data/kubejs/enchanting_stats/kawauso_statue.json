@@ -1,0 +1,11 @@
+{
+    "block": "samurai_dynasty:kawauso_statue",
+    "stats": {
+        "maxEterna": 20,
+        "eterna": 1,
+        "quanta": 0,
+        "arcana": 1.5,
+        "rectification": 0,
+        "clues": 0
+    }
+}

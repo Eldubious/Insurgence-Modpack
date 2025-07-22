@@ -1,0 +1,11 @@
+{
+    "block": "minecraft:lectern",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": -10,
+        "quanta": -10,
+        "arcana": -10,
+        "rectification": 0,
+        "clues": 3
+    }
+}

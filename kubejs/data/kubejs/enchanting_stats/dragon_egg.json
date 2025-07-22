@@ -1,0 +1,11 @@
+{
+    "block": "minecraft:dragon_egg",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": 0,
+        "quanta": 0,
+        "arcana": -10,
+        "rectification": 20,
+        "clues": 0
+    }
+}

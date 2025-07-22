@@ -1,0 +1,11 @@
+{
+    "block": "rubinated_nether:ruby_lava_lamp",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": 0,
+        "quanta": 20,
+        "arcana": -10,
+        "rectification": 5,
+        "clues": 0
+    }
+}

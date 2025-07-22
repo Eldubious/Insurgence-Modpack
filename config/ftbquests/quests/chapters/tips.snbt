@@ -145,6 +145,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["A more immersive minimap option for those who want it."]
 			id: "0D0AC8A0803A097E"
 			optional: true
 			rewards: [{

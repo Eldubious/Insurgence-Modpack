@@ -1,0 +1,11 @@
+{
+    "block": "samurai_dynasty:tanuki_statue",
+    "stats": {
+        "maxEterna": 20,
+        "eterna": 1,
+        "quanta": 1.5,
+        "arcana": 0,
+        "rectification": 0,
+        "clues": 0
+    }
+}

@@ -203,8 +203,6 @@ lithostitched.json
 lodestone-client.toml
 lootr-client.toml
 mahoutsukai-client.toml
-malum-client.toml
-malum-common.toml
 map_atlases-client.toml
 map_atlases-common.toml
 modelfix-client.toml
@@ -214,7 +212,6 @@ modonomicon-client.toml
 moonlight-client.toml
 moonlight-common.toml
 MouseTweaks.cfg
-mutantmonsters-common.toml
 mutantmonsters-server.toml
 nbt_ac.txt
 necronomicon.json5

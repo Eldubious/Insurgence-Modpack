@@ -1356,6 +1356,7 @@
 		{
 			dependencies: ["68CD02D427506613"]
 			description: ["These shelves provide unique stat bonuses. They are useful when trying to reach very specific stats for infusion enchanting."]
+			icon: "apotheosis:melonshelf"
 			id: "16A7CDB3FF498A08"
 			rewards: [{
 				count: 10
@@ -1365,7 +1366,7 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				id: "393B58993CDDBA17"
+				id: "2E020C98416B8500"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -1377,19 +1378,47 @@
 							}
 							{
 								Count: 1b
+								id: "apotheosis:beeshelf"
+							}
+							{
+								Count: 1b
 								id: "apotheosis:stoneshelf"
 							}
 							{
 								Count: 1b
-								id: "apotheosis:beeshelf"
+								id: "traveloptics:obsidian_bookshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier_t2"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier_t3"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:sightshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:sightshelf_t2"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:treasure_shelf"
 							}
 						]
 					}
 				}
-				title: "Any Specialty Bookshelf"
+				title: "Any Special Bookshelf"
 				type: "item"
 			}]
-			title: "Specialty Bookshelves"
+			title: "Special Bookshelves"
 			x: -7.0d
 			y: -6.5d
 		}
@@ -1413,6 +1442,33 @@
 			}]
 			x: -6.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["68CD02D427506613"]
+			description: ["You can place these decoration items around you Enchanting Table to also get stat bonuses (&oThese are just some examples&r)."]
+			icon: "minecraft:amethyst_cluster"
+			id: "4287D45D00D2E3E9"
+			rewards: [{
+				id: "61AD9EC64CB0EFCA"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6F8C2DAC1EEFD6BC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:enchantment_decor"
+					}
+				}
+				title: "Any Enchantment Decoration"
+				type: "item"
+			}]
+			title: "Decoration Items"
+			x: -5.5d
+			y: -6.75d
 		}
 	]
 	title: "Rituals"

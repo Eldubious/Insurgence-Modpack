@@ -1,0 +1,11 @@
+{
+    "block": "create:nixie_tube",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": -1,
+        "quanta": 5,
+        "arcana": 0,
+        "rectification": 1.5,
+        "clues": 0
+    }
+}

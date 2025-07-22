@@ -1,0 +1,11 @@
+{
+    "block": "samurai_dynasty:komainu_statue",
+    "stats": {
+        "maxEterna": 20,
+        "eterna": 1,
+        "quanta": 0,
+        "arcana": 0,
+        "rectification": 1.5,
+        "clues": 0
+    }
+}

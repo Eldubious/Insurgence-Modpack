@@ -1,0 +1,11 @@
+{
+    "block": "minecraft:jack_o_lantern",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": 0,
+        "quanta": -2.5,
+        "arcana": -2.5,
+        "rectification": 0,
+        "clues": 0
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "block": "thaumon:research_notes",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 0.5,
+        "quanta": 0,
+        "arcana": 0,
+        "rectification": 0,
+        "clues": 0
+    }
+}

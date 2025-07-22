@@ -204,3 +204,5 @@ key.irons_spellbooks.spell_quick_cast_13
 key.irons_spellbooks.spell_quick_cast_14
 key.irons_spellbooks.spell_quick_cast_15
 key.entityculling.toggle
+key.apotheosis.world_tiers_arent_real
+psimisc.keybind

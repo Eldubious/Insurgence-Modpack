@@ -1,0 +1,11 @@
+{
+    "block": "traveloptics:duskwood_bookshelf",
+    "stats": {
+        "maxEterna": 30,
+        "eterna": 1.5,
+        "quanta": 2,
+        "arcana": 0,
+        "rectification": 0,
+        "clues": 0
+    }
+}

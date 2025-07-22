@@ -1,0 +1,11 @@
+{
+    "block": "minecraft:sculk_shrieker",
+    "stats": {
+        "maxEterna": 0,
+        "eterna": -10,
+        "quanta": 100,
+        "arcana": 0,
+        "rectification": -100,
+        "clues": 0
+    }
+}

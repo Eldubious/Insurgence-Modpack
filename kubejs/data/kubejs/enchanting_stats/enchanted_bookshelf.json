@@ -1,0 +1,11 @@
+{
+    "block": "experienceobelisk:enchanted_bookshelf",
+    "stats": {
+        "maxEterna": 20,
+        "eterna": 2,
+        "quanta": 0,
+        "arcana": 0,
+        "rectification": 1.5,
+        "clues": 0
+    }
+}

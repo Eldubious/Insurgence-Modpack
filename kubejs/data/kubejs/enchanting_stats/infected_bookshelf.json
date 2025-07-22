@@ -1,0 +1,11 @@
+{
+    "block": "experienceobelisk:infected_bookshelf",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 2,
+        "quanta": 7.5,
+        "arcana": 0,
+        "rectification": 0,
+        "clues": 0
+    }
+}

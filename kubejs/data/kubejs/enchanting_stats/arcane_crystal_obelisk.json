@@ -1,0 +1,11 @@
+{
+    "block": "forbidden_arcanus:arcane_crystal_obelisk",
+    "stats": {
+        "maxEterna": 30,
+        "eterna": 1,
+        "quanta": 0,
+        "arcana": 2,
+        "rectification": 0,
+        "clues": 0
+    }
+}
