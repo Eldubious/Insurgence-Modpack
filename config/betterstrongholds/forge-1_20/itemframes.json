@@ -1,33 +1,51 @@
 {
   "armouryItems": {
     "entries": {
-      "shield": 0.1,
-      "iron_axe": 0.1,
+      "shield": 0.05,
+      "iron_axe": 0.05,
       "stone_axe": 0.05,
       "arrow": 0.05,
       "name_tag": 0.05,
       "stone_sword": 0.05,
       "golden_sword": 0.05,
       "golden_axe": 0.05,
-      "bow": 0.1,
-      "iron_sword": 0.1
+      "bow": 0.05,
+      "iron_sword": 0.05,
+      "irons_spellbooks:weapon_parts": 0.05,
+      "ars_nouveau:mundane_belt": 0.05,
+      "aether:leather_gloves": 0.05,
+      "aether:chainmail_gloves": 0.05,
+      "aether:iron_gloves": 0.05,
+      "aether:golden_gloves": 0.05,
+      "supplementaries:altimeter": 0.05,
+      "farmersdelight:flint_knife": 0.05,
+      "farmersdelight:iron_knife": 0.05,
+      "farmersdelight:golden_knife": 0.05
     },
     "defaultItem": "air"
   },
   "storageItems": {
     "entries": {
-      "map": 0.25,
-      "melon_seeds": 0.025,
-      "pumpkin_seeds": 0.025,
-      "rabbit_foot": 0.01,
-      "beetroot_seeds": 0.025,
+      "map": 0.05,
+      "melon_seeds": 0.05,
+      "pumpkin_seeds": 0.05,
+      "rabbit_foot": 0.05,
+      "beetroot_seeds": 0.05,
       "compass": 0.05,
       "cake": 0.05,
       "flint": 0.05,
       "slime_ball": 0.05,
-      "wheat_seeds": 0.025,
-      "paper": 0.25,
-      "lead": 0.05
+      "wheat_seeds": 0.05,
+      "paper": 0.05,
+      "lead": 0.05,
+      "create:super_glue": 0.05,
+      "create:clipboard": 0.05,
+      "create:brass_hand": 0.05,
+      "create:goggles": 0.05,
+      "rubinated_nether:ruby_lens": 0.05,
+      "dice:white_d6": 0.05,
+      "irons_spellbooks:shriving_stone": 0.05,
+      "irons_spellbooks:blank_rune": 0.05
     },
     "defaultItem": "air"
   }

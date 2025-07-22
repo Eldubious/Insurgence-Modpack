@@ -5531,6 +5531,22 @@
 			x: 0.5d
 			y: 10.0d
 		}
+		{
+			id: "2B9BAB4D262ADB72"
+			tasks: [{
+				id: "6BBF772E4E43743B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gamediscs:game_discs"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
 	]
 	title: "Trophies"
 }

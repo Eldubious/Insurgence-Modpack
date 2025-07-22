@@ -443,6 +443,17 @@ ServerEvents.recipes(event => {
         'minecraft:iron_ingot',
         'forbidden_arcanus:obsidian_ingot'
     )
+    // Vanilla Chest
+    event.shaped('minecraft:chest',
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: '#minecraft:planks'
+        }
+    )
 
 
     /*

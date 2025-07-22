@@ -1,10 +1,18 @@
 {
   "blockChances": {
     "entries": {
-      "minecraft:quartz_block": 0.3,
-      "minecraft:gold_block": 0.3,
-      "minecraft:iron_block": 0.3,
-      "minecraft:diamond_block": 0.1
+      "minecraft:quartz_block": 0.1,
+      "minecraft:gold_block": 0.1,
+      "minecraft:iron_block": 0.1,
+      "minecraft:diamond_block": 0.05,
+      "forbidden_arcanus:arcane_crystal_block": 0.1,
+      "forbidden_arcanus:deorum_block": 0.05,
+      "forbidden_arcanus:processed_obsidian_block": 0.05,
+      "call_of_yucutan:ancient_gold": 0.05,
+      "call_of_yucutan:jade_block": 0.1,
+      "rubinated_nether:ruby_block": 0.1,
+      "samurai_dynasty:aquamarine_block": 0.1,
+      "samurai_dynasty:onyx_block": 0.1
     },
     "defaultBlock": "minecraft:iron_block"
   }

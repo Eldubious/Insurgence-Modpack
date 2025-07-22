@@ -18,7 +18,7 @@ ServerEvents.tags('worldgen/biome', event => {
         "regions_unexplored:rainforest", "regions_unexplored:silver_birch_forest", "regions_unexplored:sparse_rainforest", "regions_unexplored:spires", "regions_unexplored:temperate_grove"]
 
     // Biomes found in the Depths
-    const depths_biomes = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves", "minecraft:deep_dark", "kubejs:dragon_hollow", "kubejs:asurine_caves", "kubejs:crimson_caves", "kubejs:mossy_fields"]
+    const depths_biomes = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves", "minecraft:deep_dark", "kubejs:dragon_hollow", "kubejs:asurine_caves", "kubejs:crimson_caves", "kubejs:mossy_fields", "kubejs:dragon_hollow"]
     
     /*
         Add/Remove biome tags for biomes found only in the Dragonrealm
@@ -119,9 +119,13 @@ ServerEvents.tags('worldgen/biome', event => {
         // Add tags
         addToTag('kubejs:has_structure/deep_monster_room', biome)
         addToTag('alexsmobs:spawns_murmurs_ignore_height', biome)
+        addToTag('minecraft:mineshaft_blocking', biome)
 
         // Remove tags
         removeFromTag('alexscaves:has_no_underground_cabins', biome)
+        removeFromTag('minecraft:has_structure/mineshaft', biome)
+        removeFromTag('minecraft:is_overworld', biome)
+        removeFromTag('forge:is_cave', biome)
     })
 
     // Add tags to Reality Marble

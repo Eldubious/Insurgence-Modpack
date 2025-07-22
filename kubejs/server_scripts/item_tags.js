@@ -65,6 +65,9 @@ ServerEvents.tags('item', event => {
         'forbidden_arcanus:netherite_blacksmith_gavel', 'forbidden_arcanus:reinforced_deorum_blacksmith_gavel', 'mutantmonsters:hulk_hammer', 'samurai_dynasty:tetsubo', 'samurai_dynasty:tetsubo_netherite',
         'unusualend:warped_anchor']
     can_salvage.forEach(element => addToTag('kubejs:can_salvage_equipment', element))
+	// A tag for game cartridges which are found in loot chests
+	const game_discs = ['gamediscs:game_disc_blocktris', 'gamediscs:game_disc_tnt_sweeper', 'gamediscs:game_disc_pong']
+	game_discs.forEach(element => addToTag('kubejs:chest_loot_game_discs', element))
 
 
 	/*

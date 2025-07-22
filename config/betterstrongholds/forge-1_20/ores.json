@@ -1,13 +1,19 @@
 {
   "oreChances": {
     "entries": {
-      "minecraft:gold_ore": 0.2,
-      "minecraft:redstone_ore[lit=false]": 0.15,
-      "minecraft:emerald_ore": 0.05,
-      "minecraft:diamond_ore": 0.05,
-      "minecraft:lapis_ore": 0.15,
-      "minecraft:coal_ore": 0.2,
-      "minecraft:iron_ore": 0.2
+      "minecraft:gold_ore": 0.1,
+      "minecraft:redstone_ore[lit=false]": 0.1,
+      "minecraft:emerald_ore": 0.025,
+      "minecraft:diamond_ore": 0.025,
+      "minecraft:lapis_ore": 0.1,
+      "minecraft:coal_ore": 0.1,
+      "minecraft:iron_ore": 0.1,
+      "iceandfire:sapphire_ore": 0.1,
+      "call_of_yucutan:jade_ore": 0.1,
+      "samurai_dynasty:aquamarine_ore": 0.1,
+      "samurai_dynasty:onyx_ore": 0.1,
+      "forbidden_arcanus:arcane_crystal_ore": 0.025,
+      "forbidden_arcanus:runic_stone": 0.025
     },
     "defaultBlock": "minecraft:coal_ore"
   }

@@ -3,6 +3,10 @@
         {
             "structure": "kubejs:deep_monster_room",
             "weight": 1
+        },
+        {
+            "structure": "kubejs:dragon_cave",
+            "weight": 1
         }
     ],
     "placement": {
