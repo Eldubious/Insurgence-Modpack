@@ -62,4 +62,13 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.025
+        minecraft:chests/bastion_bridge: 0.025
+        minecraft:chests/bastion_hoglin_stable: 0.025
+        minecraft:chests/bastion_other: 0.025
+        minecraft:chests/bastion_treasure: 0.025
+        the_bumblezone:structures/spider_infested_bee_dungeon: 0.025
+        the_bumblezone:structures/bee_dungeon: 0.025
+        the_bumblezone:structures/bee_house: 0.025
+        the_bumblezone:structures/hive_temple: 0.025
+        alexscaves:chests/caveman_house: 0.025
+        irons_spellbooks:chests/battleground/piglin_camp: 0.025

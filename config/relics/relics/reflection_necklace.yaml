@@ -72,6 +72,14 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        minecraft:chests/ruined_portal: 0.025
-        '[\w]+:chests\/[\w_\/]*(nether|hell|lava|magma|fire|burn|fortress)[\w_\/]*': 0.025
-        '[\w]+:chests\/[\w_\/]*(bastion|piglin)[\w_\/]*': 0.025
+        twilightforest:chests/aurora_room: 0.025
+        twilightforest:chests/labyrinth_dead_end: 0.025
+        twilightforest:chests/labyrinth_room: 0.025
+        twilightforest:chests/labyrinth_vault: 0.025
+        twilightforest:chests/labyrinth_vault_jackpot: 0.05
+        twilightforest:chests/well: 0.025
+        alexscaves:chests/abyssal_ruins: 0.025
+        alexscaves:chests/magnetic_ruins: 0.025
+        irons_spellbooks:chests/catacombs/coffin_loot: 0.025
+        irons_spellbooks:chests/catacombs/crypt_loot: 0.025
+        irons_spellbooks:chests/catacombs/hidden_through_treasure: 0.025

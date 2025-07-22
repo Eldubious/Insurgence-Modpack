@@ -37,3 +37,20 @@ lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
         '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.025
+        minecraft:chests/spawn_bonus_chest: 0.025
+        domesticationinnovation:chests/petshop_chest: 0.25
+        minecraft:chests/stronghold_corridor: 0.025
+        minecraft:chests/stronghold_crossing: 0.025
+        minecraft:chests/stronghold_library: 0.025
+        wan_ancient_beasts:chests/abandoned_village: 0.025
+        wan_ancient_beasts:chests/digsite_badlands: 0.025
+        wan_ancient_beasts:chests/digsite_desert: 0.025
+        wan_ancient_beasts:chests/digsite_icespikes: 0.025
+        wan_ancient_beasts:chests/digsite_jungle: 0.025
+        wan_ancient_beasts:chests/digsite_oldgrowthtaiga: 0.025
+        wan_ancient_beasts:chests/digsite_peaks: 0.025
+        wan_ancient_beasts:chests/digsite_plains: 0.025
+        wan_ancient_beasts:chests/digsite_savanna: 0.025
+        wan_ancient_beasts:chests/digsite_taiga: 0.025
+        irons_spellbooks:chests/catacombs/armory_loot: 0.025
+        irons_spellbooks:chests/priest_house: 0.025

@@ -80,6 +80,8 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(frosz?|taiga|cold|winter|snow|icey?|glac)[\w_\/]*': 0.025
-        minecraft:chests/village/village_fletcher: 0.025
         minecraft:chests/igloo_chest: 0.025
+        minecraft:chests/ancient_city_ice_box: 0.025
+        minecraft:chests/village/village_snowy_house: 0.025
+        minecraft:chests/village/village_taiga_house: 0.025
+        wan_ancient_beasts:chests/ice_castle: 0.025

@@ -36,5 +36,7 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(water|ocean|river|(?<!air)ship|aqua)[\w_\/]*': 0.025
-        minecraft:chests/buried_treasure: 0.025
+        minecraft:chests/shipwreck_supply: 0.025
+        minecraft:chests/shipwreck_treasure: 0.025
+        minecraft:chests/underwater_ruin_big: 0.025
+        minecraft:chests/underwater_ruin_small: 0.025

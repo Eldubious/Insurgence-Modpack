@@ -72,6 +72,11 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        minecraft:chests/ruined_portal: 0.025
-        '[\w]+:chests\/[\w_\/]*(nether|hell|lava|magma|fire|burn|fortress)[\w_\/]*': 0.025
-        '[\w]+:chests\/[\w_\/]*(bastion|piglin)[\w_\/]*': 0.025
+        kubejs:chests/dungeon/equipment_loot_advanced: 0.025
+        kubejs:chests/dungeon/equipment_loot_basic: 0.01
+        kubejs:chests/dungeon/rare_loot_advanced: 0.025
+        kubejs:chests/dungeon/rare_loot_basic: 0.01
+        kubejs:chests/dungeon/simple_loot_advanced: 0.025
+        kubejs:chests/dungeon/simple_loot_basic: 0.01
+        irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage: 0.025
+        irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies: 0.025

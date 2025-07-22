@@ -3,6 +3,31 @@
     "pools": [
         {
             "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "gamediscs:game_disc_blocktris",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gamediscs:game_disc_pong",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gamediscs:game_disc_tnt_sweeper",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 97
+                }
+            ]
+        },
+        {
+            "rolls": 1,
             "bonus_rolls": 0.25,
             "entries": [
                 {

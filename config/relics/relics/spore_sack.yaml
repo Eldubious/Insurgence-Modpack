@@ -222,4 +222,13 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(jungle|temple)[\w_\/]*': 0.025
+        minecraft:chests/jungle_temple: 0.025
+        the_bumblezone:structures/tree_dungeon: 0.025
+        the_bumblezone:structures/bee_house: 0.025
+        the_bumblezone:structures/floaters: 0.025
+        the_bumblezone:structures/flowers: 0.025
+        the_bumblezone:structures/candle_parkour: 0.025
+        the_bumblezone:structures/candle_parkour_top: 0.025
+        alexscaves:chests/toxic_ruins: 0.025
+        alexscaves:chests/licowitch_tower: 0.025
+        alexscaves:chests/licowitch_tower_secret: 0.025

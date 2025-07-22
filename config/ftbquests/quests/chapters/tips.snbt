@@ -1231,6 +1231,41 @@
 			x: 3.5d
 			y: -6.0d
 		}
+		{
+			description: ["These accessories can only be found in chests and have powerful skills which can be leveled up."]
+			id: "6649E989BC999D09"
+			optional: true
+			rewards: [
+				{
+					id: "50D4865AD489C212"
+					table_id: 8973588302294504714L
+					title: "Random Medium Reward"
+					type: "random"
+				}
+				{
+					id: "708E0105073C995B"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "29231A3BBC90B451"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:relics"
+					}
+				}
+				title: "Any Relic"
+				type: "item"
+			}]
+			title: "Relics"
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 	title: "Tips"
 }

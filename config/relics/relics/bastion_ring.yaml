@@ -45,4 +45,8 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(bastion|piglin)[\w_\/]*': 0.025
+        minecraft:chests/bastion_bridge: 0.025
+        minecraft:chests/bastion_hoglin_stable: 0.025
+        minecraft:chests/bastion_other: 0.025
+        minecraft:chests/bastion_treasure: 0.025
+        minecraft:chests/ruined_portal: 0.025

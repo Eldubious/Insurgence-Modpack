@@ -98,6 +98,12 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.025
-        minecraft:chests/woodland_mansion: 0.025
-        '[\w]+:chests\/[\w_\/]*(pillag|outpost)[\w_\/]*': 0.025
+        minecraft:chests/ancient_city: 0.025
+        alexscaves:chests/licowitch_tower: 0.025
+        alexscaves:chests/licowitch_tower_secret: 0.025
+        traveloptics:chests/void_cathedral/hidden_sculk_room: 0.025
+        traveloptics:chests/void_cathedral/hidden_treasure_place: 0.025
+        traveloptics:chests/void_cathedral/library_higher_basic: 0.025
+        traveloptics:chests/void_cathedral/library_higher_treasure: 0.025
+        traveloptics:chests/void_cathedral/library_lower_basic: 0.025
+        traveloptics:chests/void_cathedral/library_lower_treasure: 0.025

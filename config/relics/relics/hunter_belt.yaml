@@ -62,4 +62,15 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.025
+        minecraft:chests/woodland_mansion: 0.025
+        minecraft:chests/pillager_outpost: 0.025
+        illagerinvasion:chests/illager_fort_ground: 0.025
+        illagerinvasion:chests/illager_fort_tower: 0.025
+        illagerinvasion:chests/sorcerer_hut: 0.025
+        illagerinvasion:chests/illusioner_tower_entrance: 0.025
+        illagerinvasion:chests/illusioner_tower_stairs: 0.25
+        domesticationinnovation:chests/petshop_chest: 0.25
+        irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage: 0.025
+        irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies: 0.025
+        irons_spellbooks:chests/evoker_fort: 0.025
+        irons_spellbooks:chests/evoker_fort/guard_tower: 0.25

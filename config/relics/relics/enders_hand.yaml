@@ -45,4 +45,13 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(end|warp)[\w_\/]*': 0.025
+        minecraft:chests/end_city_treasure: 0.025
+        minecraft:chests/end_house_library: 0.025
+        minecraft:chests/ancient_end_city: 0.025
+        kubejs:chests/lightning_dragon_nest: 0.05
+        the_bumblezone:structures/battle_cubes: 0.025
+        the_bumblezone:structures/ancient_hoops: 0.025
+        the_bumblezone:structures/hive_temple: 0.025
+        the_bumblezone:structures/cell_maze/common: 0.025
+        the_bumblezone:structures/cell_maze/rare: 0.025
+        the_bumblezone:structures/cell_maze/throne: 0.025

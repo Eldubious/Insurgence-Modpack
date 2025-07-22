@@ -134,7 +134,12 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        minecraft:chests/ancient_city: 0.025
-        '[\w]+:chests\/[\w_\/]*(end|warp)[\w_\/]*': 0.025
-        minecraft:chests/ancient_city_ice_box: 0.025
-        '[\w]+:chests\/[\w_\/]*(warden|sculk|echo)[\w_\/]*': 0.025
+        minecraft:chests/end_city_treasure: 0.025
+        minecraft:chests/end_house_library: 0.025
+        minecraft:chests/ancient_end_city: 0.025
+        traveloptics:chests/void_cathedral/hidden_sculk_room: 0.025
+        traveloptics:chests/void_cathedral/hidden_treasure_place: 0.025
+        traveloptics:chests/void_cathedral/library_higher_basic: 0.025
+        traveloptics:chests/void_cathedral/library_higher_treasure: 0.025
+        traveloptics:chests/void_cathedral/library_lower_basic: 0.025
+        traveloptics:chests/void_cathedral/library_lower_treasure: 0.025
