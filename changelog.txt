@@ -9,6 +9,7 @@ Version 1.1.0 (WIP)
         - Macaw's Paintings
     - Added a new item for crafting Command Block tools: the Withered Smithing Template
     - More mob & achievement trophies to the questbook
+    - Wrote more tips for loading/pause screens
     - New hidden achievements and new tips to help guide you to them
     - World Generation additions to the custom Depths dimension:
         - Two new structures: the Deep Monster Room, and the Dragon's Grave
