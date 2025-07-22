@@ -1,0 +1,33 @@
+{
+    "size": "medium",
+    "color": "#7BADC9",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "alexsmobs:farseer",
+                    "count": 1
+                }
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                {
+					"type": "gateways:experience",
+					"experience": 100,
+                    "orb_size": 10
+				}
+            ],
+            "max_wave_time": 2400,
+            "setup_time": 60
+        }
+    ],
+    "rewards": [
+        {
+			"type": "gateways:entity_loot",
+			"entity": "alexsmobs:farseer",
+			"rolls": 1
+		}
+    ],
+    "failures": []
+}

@@ -786,6 +786,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["Can capture entities inside."]
 			id: "29C88FAFA0333230"
 			optional: true
 			rewards: [{
