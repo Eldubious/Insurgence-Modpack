@@ -1,3 +1,15 @@
+Version 1.2.0 (WIP)
+    Additions:
+    - Added mods:
+        - Better Compatibility Checker
+        - Enchantment descriptions
+        - Crafting Tweaks
+
+    Changes:
+
+    Fixes:
+    - 
+
 Version 1.1.0
     Additions:
     - Added mods:
