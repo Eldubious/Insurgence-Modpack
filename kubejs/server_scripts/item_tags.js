@@ -97,6 +97,77 @@ ServerEvents.tags('item', event => {
 		addToTag('quark:backpack_blocked', element)
 	})
 
+	/*
+		Curios
+	*/
+	// Add Tarot Cards to their own slot
+	const tarot_cards = ['tarotcards:tarot_deck', 'tarotcards:death', 'tarotcards:judgement', 'tarotcards:justice', 'tarotcards:strength',
+		'tarotcards:temperance', 'tarotcards:the_chariot', 'tarotcards:the_devil', 'tarotcards:the_emperor', 'tarotcards:the_empress',
+		'tarotcards:the_fool', 'tarotcards:the_hanged_man', 'tarotcards:the_hermit', 'tarotcards:the_hierophant', 'tarotcards:the_high_priestess',
+		'tarotcards:the_lovers', 'tarotcards:the_magician', 'tarotcards:the_moon', 'tarotcards:the_star', 'tarotcards:the_sun',
+		'tarotcards:the_tower', 'tarotcards:the_world', 'tarotcards:wheel_of_fortune']
+	tarot_cards.forEach(element => {
+		removeFromTag('curios:curio', element)
+		addToTag('curios:tarotcard', element)
+	})
+	// Add the Spyglass to its own slot
+	removeFromTag('curios:belt', 'minecraft:spyglass')
+	addToTag('curios:spyglass', 'minecraft:spyglass')
+	// Move Thigh slot items to new slots
+	removeFromTag('curios:thighs', 'estrogen:thigh_highs')
+	removeFromTag('curios:thighs', 'estrogen:estrogen_patches')
+	addToTag('curios:feet', 'estrogen:thigh_highs')
+	addToTag('curios:augment_slot', 'estrogen:estrogen_patches')
+	// Remove talent slot from items
+	const talent_items = ['traveloptics:aetherial_despair_ring', 'traveloptics:firestorm_ring', 'traveloptics:azure_ignition_bracelet',
+		'traveloptics:nightstalkers_band', 'traveloptics:energy_unbound_necklace', 'traveloptics:sigil_of_the_spider_sorcerer',
+		'traveloptics:amulet_of_spectral_shift', 'traveloptics:bottled_raincloud']
+	talent_items.forEach(element => removeFromTag('curios:talent', element))
+	// Relics quiver
+	removeFromTag('curios:back', 'relics:arrow_quiver')
+	addToTag('curios:belt', 'relics:arrow_quiver')
+	// Elytra Booster
+	removeFromTag('curios:back', 'relics:elytra_booster')
+	addToTag('curios:augment_slot', 'relics:elytra_booster')
+	// Move key to charm slot
+	addToTag('curios:charm', 'supplementaries:key')
+	// Allow terminal to be equipped anywhere
+	removeFromTag('curios:belt', 'toms_storage:ts.adv_wireless_terminal')
+	addToTag('curios:curio', 'toms_storage:ts.adv_wireless_terminal')
+	// Add items to bundle slot
+	const bundle_items = ['minecraft:shulker_box', 'minecraft:white_shulker_box', 'minecraft:light_gray_shulker_box', 'minecraft:gray_shulker_box',
+		'minecraft:black_shulker_box', 'minecraft:brown_shulker_box', 'minecraft:red_shulker_box', 'minecraft:orange_shulker_box',
+		'minecraft:yellow_shulker_box', 'minecraft:lime_shulker_box', 'minecraft:green_shulker_box', 'minecraft:cyan_shulker_box',
+		'minecraft:light_blue_shulker_box', 'minecraft:blue_shulker_box', 'minecraft:purple_shulker_box', 'minecraft:magenta_shulker_box',
+		'minecraft:pink_shulker_box', 'sophisticatedstorage:shulker_box', 'sophisticatedstorage:copper_shulker_box', 'sophisticatedstorage:iron_shulker_box',
+		'sophisticatedstorage:gold_shulker_box', 'sophisticatedstorage:diamond_shulker_box', 'sophisticatedstorage:netherite_shulker_box', 'supplementaries:sack',
+		'quark:seed_pouch', 'the_bumblezone:buzzing_briefcase', 'create:light_gray_toolbox', 'create:cyan_toolbox', 'create:purple_toolbox',
+		'create:blue_toolbox', 'create:green_toolbox', 'create:red_toolbox', 'create:black_toolbox', 'create:brown_toolbox', 'create:white_toolbox',
+		'create:orange_toolbox', 'create:magenta_toolbox', 'create:light_blue_toolbox', 'create:yellow_toolbox', 'create:lime_toolbox',
+		'create:pink_toolbox', 'create:gray_toolbox']
+	bundle_items.forEach(element => addToTag('curios:bundle', element))
+	// Add items for the compass slot
+	removeFromTag('curios:hands', 'map_atlases:atlas')
+	const compass_items = ['minecraft:compass', 'minecraft:clock', 'minecraft:recovery_compass', 'supplementaries:altimeter', 'galosphere:barometer',
+		'map_atlases:atlas', 'breezy:gust_gauge', 'irons_spellbooks:wayward_compass', 'travelerscompass:travelerscompass', 'the_bumblezone:honey_compass']
+	compass_items.forEach(element => addToTag('curios:compass', element))
+
+
+	/*
+		Functionality Changes
+	*/
+	// Add more golden items to be unbreakable with the tarot card
+	const golden_items = ['aquaculture:gold_fishing_rod', 'aquaculture:gold_fillet_knife', 'farmersdelight:golden_knife',
+		'forbidden_arcanus:golden_blacksmith_gavel', 'samurai_dynasty:gold_samurai_helmet', 'samurai_dynasty:gold_samurai_chestplate',
+		'samurai_dynasty:gold_samurai_leggings', 'samurai_dynasty:gold_samurai_boots', 'samurai_dynasty:gold_samurai_helmet_light',
+		'samurai_dynasty:gold_samurai_chestplate_light', 'samurai_dynasty:gold_samurai_leggings_light', 'samurai_dynasty:gold_samurai_boots_light',
+		'samurai_dynasty:gold_samurai_helmet_master', 'samurai_dynasty:gold_samurai_chestplate_master', 'samurai_dynasty:gold_samurai_leggings_master',
+		'samurai_dynasty:gold_samurai_boots_master', 'samurai_dynasty:gold_ninja_helmet', 'samurai_dynasty:gold_ninja_chestplate',
+		'samurai_dynasty:gold_ninja_boots', 'aether:golden_ring', 'aether:golden_pendant', 'twilightforest:gold_minotaur_axe', 'aether:golden_gloves',
+		'cataclysm:khopesh', 'immersive_armors:divine_helmet', 'immersive_armors:divine_chestplate', 'immersive_armors:divine_leggings',
+		'immersive_armors:divine_boots', 'immersive_armors:steampunk_helmet', 'immersive_armors:steampunk_chestplate', 'immersive_armors:steampunk_leggings',
+		'immersive_armors:steampunk_boots']
+	golden_items.forEach(element => addToTag('tarotcards:golden'))
 	
 	/*
 		Oraganizational

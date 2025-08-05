@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "order": -83,
+    "size": 1,
+    "icon": "kubejs:slot/compass_slot",
+    "render_toggle": true,
+    "validators": ["curios:tag"]
+}

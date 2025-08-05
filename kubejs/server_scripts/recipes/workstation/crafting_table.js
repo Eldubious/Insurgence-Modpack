@@ -454,6 +454,30 @@ ServerEvents.recipes(event => {
             A: '#minecraft:planks'
         }
     )
+    // Supplementaries Sack
+    event.remove({id: 'supplementaries:sack'})
+    event.shaped('supplementaries:sack',
+        [
+            ' A ',
+            'B B',
+            ' B '
+        ],
+        {
+            A: 'minecraft:string',
+            B: 'supplementaries:flax'
+        }
+    )
+    event.shaped('supplementaries:sack',
+        [
+            ' A ',
+            'B B',
+            ' B '
+        ],
+        {
+            A: 'minecraft:string',
+            B: 'farmersdelight:canvas'
+        }
+    )
 
 
     /*

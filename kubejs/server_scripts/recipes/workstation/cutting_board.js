@@ -115,4 +115,18 @@ ServerEvents.recipes(event => {
     salvage(0, 'cataclysm:crystallized_coral', [Item.of('minecraft:fire_coral'), Item.of('minecraft:tube_coral'), Item.of('minecraft:brain_coral'), Item.of('minecraft:diamond').withChance(0.33)])
     salvage(0, 'forbidden_arcanus:dragon_scale', ['3x quark:dragon_scale'])
     salvage(0, '#gamediscs:game_discs', ['minecraft:redstone', Item.of('create:brass_nugget', 2).withChance(0.50), Item.of('create:experience_nugget').withChance(0.10)])
+    const augments = ['traveloptics:augment_volcana_epic', 'traveloptics:augment_volcana_legendary', 'traveloptics:augment_volcana_mythic', 'traveloptics:augment_volcana_blessed',
+        'traveloptics:augment_volcana_wild', 'traveloptics:augment_thunderbolt_epic', 'traveloptics:augment_thunderbolt_legendary', 'traveloptics:augment_thunderbolt_mythic',
+        'traveloptics:augment_thunderbolt_blessed', 'traveloptics:augment_thunderbolt_wild', 'traveloptics:augment_sacred_void_epic', 'traveloptics:augment_sacred_void_legendary',
+        'traveloptics:augment_sacred_void_mythic', 'traveloptics:augment_sacred_void_blessed', 'traveloptics:augment_sacred_void_wild', 'traveloptics:augment_riftcore_epic',
+        'traveloptics:augment_riftcore_legendary', 'traveloptics:augment_riftcore_mythic', 'traveloptics:augment_riftcore_blessed', 'traveloptics:augment_riftcore_wild',
+        'traveloptics:augment_refreshment_epic', 'traveloptics:augment_refreshment_legendary', 'traveloptics:augment_refreshment_mythic', 'traveloptics:augment_refreshment_blessed',
+        'traveloptics:augment_oblivion_epic', 'traveloptics:augment_oblivion_legendary', 'traveloptics:augment_oblivion_mythic', 'traveloptics:augment_oblivion_blessed',
+        'traveloptics:augment_oblivion_wild', 'traveloptics:augment_lifedrain_epic', 'traveloptics:augment_lifedrain_legendary', 'traveloptics:augment_lifedrain_mythic',
+        'traveloptics:augment_lifedrain_blessed', 'traveloptics:augment_lifedrain_wild', 'traveloptics:augment_frigid_flame_epic', 'traveloptics:augment_frigid_flame_legendary',
+        'traveloptics:augment_frigid_flame_mythic', 'traveloptics:augment_frigid_flame_blessed', 'traveloptics:augment_frigid_flame_wild', 'traveloptics:augment_equilibrium_epic',
+        'traveloptics:augment_equilibrium_legendary', 'traveloptics:augment_equilibrium_mythic', 'traveloptics:augment_equilibrium_blessed', 'traveloptics:augment_equilibrium_wild',
+        'traveloptics:augment_chaos_epic', 'traveloptics:augment_chaos_legendary', 'traveloptics:augment_chaos_mythic', 'traveloptics:augment_chaos_blessed', 'traveloptics:augment_chaos_wild',
+        'traveloptics:augment_balance_epic', 'traveloptics:augment_balance_legendary', 'traveloptics:augment_balance_mythic', 'traveloptics:augment_balance_blessed', 'traveloptics:augment_balance_wild']
+    augments.forEach(element => salvage(0, element, [Item.of('ars_nouveau:experience_gem', 2), Item.of('ars_nouveau:greater_experience_gem', 1).withChance(0.5), Item.of('traveloptics:celestial_fragment', 1).withChance(0.1)]))
 })
