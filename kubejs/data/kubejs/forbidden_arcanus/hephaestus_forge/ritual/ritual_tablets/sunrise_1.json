@@ -1,6 +1,11 @@
 {
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
     "essences": {
-        "aureal": 500,
+        "aureal": 800,
         "blood": 0,
         "experience": 0,
         "souls": 0
@@ -9,30 +14,24 @@
         {
             "amount": 1,
             "ingredient": {
-                "item": "minecraft:ender_pearl"
+                "item": "minecraft:clock"
             }
         },
         {
-            "amount": 2,
+            "amount": 3,
             "ingredient": {
-                "item": "architects_palette:algal_blend"
-            }
-        },
-        {
-            "amount": 1,
-            "ingredient": {
-                "item": "forbidden_arcanus:spawner_scrap"
+                "item": "minecraft:dandelion"
             }
         }
     ],
     "main_ingredient": {
-        "item": "minecraft:lead"
+        "item": "ars_nouveau:red_archwood_log"
     },
     "result": {
         "type": "forbidden_arcanus:create_item",
         "result_item": {
             "Count": 1,
-            "id": "apotheosis:ender_lead"
+            "id": "ars_nouveau:ritual_sunrise"
         }
     }
 }

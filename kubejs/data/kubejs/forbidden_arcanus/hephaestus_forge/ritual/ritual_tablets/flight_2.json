@@ -1,0 +1,49 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 750,
+        "blood": 2000,
+        "experience": 0,
+        "souls": 8
+    },
+    "inputs": [
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "ars_nouveau:wilden_wing"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:ender_pearl"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "unusualend:shiny_crystal"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_elemental:yellow_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:ritual_flight"
+        }
+    }
+}

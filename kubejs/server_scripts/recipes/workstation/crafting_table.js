@@ -478,6 +478,23 @@ ServerEvents.recipes(event => {
             B: 'farmersdelight:canvas'
         }
     )
+    // Mechanical Generator
+    event.remove({id: 'createcobblestone:crafting/mechanical_generator'})
+    event.shaped('createcobblestone:mechanical_generator',
+        [
+            'ABA',
+            'CDE',
+            'FFF'
+        ],
+        {
+            A: 'create:brass_ingot',
+            B: 'minecraft:iron_pickaxe',
+            C: 'minecraft:water_bucket',
+            D: 'quark:diamond_heart',
+            E: 'minecraft:lava_bucket',
+            F: 'create:brass_casing'
+        }
+    )
 
 
     /*

@@ -1,0 +1,49 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 0,
+        "experience": 200,
+        "souls": 5
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:coal_block"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "iceandfire:silver_pickaxe"
+            }
+        },
+        {
+            "amount": 4,
+            "ingredient": {
+                "item": "minecraft:cobbled_deepslate"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "supplementaries:altimeter"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:green_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:ritual_burrowing"
+        }
+    }
+}

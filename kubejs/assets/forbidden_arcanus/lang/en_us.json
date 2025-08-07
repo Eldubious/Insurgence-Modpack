@@ -3,7 +3,7 @@
 
     "item.forbidden_arcanus.enhancer.crescent_moon.hephaestus_forge": "Allows the creation of magical charms, and reduces the required Aureal depending on the time of day.",
 
-    "item.forbidden_arcanus.enhancer.crimson_stone.hephaestus_forge": "Allows the creation of ___, and heavily decreases the amount of required souls",
+    "item.forbidden_arcanus.enhancer.crimson_stone.hephaestus_forge": "Allows the creation of ritual tablets, and heavily decreases the amount of required souls",
 
     "item.forbidden_arcanus.enhancer.elementarium.hephaestus_forge": "Allows the creation of elemental items.",
 
@@ -11,5 +11,5 @@
 
     "item.forbidden_arcanus.enhancer.maledictus_pact.hephaestus_forge": "Allows the creation of the Cursed Eye.",
 
-    "item.forbidden_arcanus.enhancer.soul_crimson_stone.hephaestus_forge": "Completely removes the essence requirement for one ritual"
+    "item.forbidden_arcanus.enhancer.soul_crimson_stone.hephaestus_forge": "Completely removes the essence requirement for a ritual"
 }

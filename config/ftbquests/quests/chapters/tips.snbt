@@ -64,7 +64,6 @@
 				tag: { }
 			}
 			id: "264D5D92DF27B7D3"
-			optional: true
 			rewards: [{
 				id: "22F40B7213610B9A"
 				type: "xp_levels"
@@ -102,7 +101,6 @@
 		{
 			description: ["With this, you can store all of your enchanted books in one place for convinient access."]
 			id: "475793B8DA21F11A"
-			optional: true
 			rewards: [{
 				id: "518397A4EC786571"
 				type: "xp_levels"
@@ -124,7 +122,6 @@
 				"It is very useful, but also very expensive."
 			]
 			id: "045CFA75399D07B9"
-			optional: true
 			rewards: [{
 				id: "65A23672F7CE30BC"
 				table_id: 8973588302294504714L
@@ -147,7 +144,6 @@
 		{
 			description: ["A more immersive minimap option for those who want it."]
 			id: "0D0AC8A0803A097E"
-			optional: true
 			rewards: [{
 				id: "344CECF47B6E369C"
 				table_id: 8973588302294504714L
@@ -199,7 +195,6 @@
 		{
 			description: ["This item is extremely useful for building because it allows you to extend the face of a group of blocks."]
 			id: "5CC3FB98369FFE07"
-			optional: true
 			rewards: [{
 				id: "7737CEE29DC533D3"
 				table_id: 3175445853633275546L
@@ -258,7 +253,6 @@
 		{
 			description: ["Wearing these will make you immune to fall damage!"]
 			id: "31AC3E3DEC054F66"
-			optional: true
 			rewards: [{
 				id: "5F63FF1A25543D72"
 				table_id: 3175445853633275546L
@@ -277,7 +271,6 @@
 		{
 			description: ["The effect these items give will allow you to dash very quickly and a pretty long distance. This is a very powerful mobility option."]
 			id: "1FCD37C3CEAF2FFD"
-			optional: true
 			rewards: [{
 				id: "4FDA8B97337280FB"
 				table_id: 8973588302294504714L
@@ -318,7 +311,6 @@
 			dependencies: ["1FCD37C3CEAF2FFD"]
 			description: ["This is a longer lasting and reusable form of the Girl Power effect."]
 			id: "19DA82CC46E3B766"
-			optional: true
 			rewards: [{
 				id: "109453B317E8D3E6"
 				type: "xp_levels"
@@ -351,7 +343,6 @@
 				"Now, if your pet ever dies, they will respawn the next day at that bed."
 			]
 			id: "4CF348BF490DCA75"
-			optional: true
 			rewards: [{
 				id: "09367C7AC0D0FA25"
 				type: "xp"
@@ -383,7 +374,6 @@
 				"These changes are only visual and don't affect the appearance of an item in the inventory."
 			]
 			id: "52778E81DB628CA9"
-			optional: true
 			rewards: [
 				{
 					count: 5
@@ -410,7 +400,6 @@
 		{
 			description: ["These hammers will mine out multiple blocks at a time. You can craft upgraded versions of these hammers which mine more blocks at once for a much higher cost."]
 			id: "61C3F4C18D78A954"
-			optional: true
 			rewards: [{
 				id: "28C81C640D7286BD"
 				table_id: 3175445853633275546L
@@ -473,7 +462,6 @@
 		{
 			description: ["These items will allow you to recolor certain dyeable blocks in-world."]
 			id: "36DC1AE54BBA3E0B"
-			optional: true
 			rewards: [{
 				id: "4A733838E5079895"
 				table_id: 3175445853633275546L
@@ -500,7 +488,6 @@
 		{
 			description: ["These blocks will match the appearance of any block you interact on them with."]
 			id: "15A47F55A29558B0"
-			optional: true
 			rewards: [
 				{
 					count: 2
@@ -606,7 +593,6 @@
 		{
 			description: ["These blocks will match the appearance of any block you interact on them with."]
 			id: "48090587F0457F1C"
-			optional: true
 			rewards: [
 				{
 					count: 2
@@ -764,7 +750,6 @@
 		{
 			description: ["Can only capture animal entities inside."]
 			id: "2A806A47B2A73CB8"
-			optional: true
 			rewards: [{
 				id: "4D2076CE10F9F371"
 				table_id: 3175445853633275546L
@@ -790,7 +775,6 @@
 		{
 			description: ["Can capture entities inside."]
 			id: "29C88FAFA0333230"
-			optional: true
 			rewards: [{
 				id: "3C3CFD8DDDDD60BB"
 				table_id: 8973588302294504714L
@@ -857,7 +841,6 @@
 			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "16C61DD79A0F5478"
-			optional: true
 			rewards: [{
 				id: "4E1C7A0B78DD2CD2"
 				table_id: 3175445853633275546L
@@ -923,7 +906,6 @@
 				}
 			}
 			id: "6D9EBA6CADD5E54D"
-			optional: true
 			rewards: [{
 				id: "3C1854A1C15B6DE5"
 				table_id: 3175445853633275546L
@@ -1113,7 +1095,6 @@
 				"It is only found in the Hanging Garden structure in the Bumblezone."
 			]
 			id: "6FB4E2E99FE377A6"
-			optional: true
 			rewards: [{
 				id: "13929934F1FF8F0A"
 				table_id: 8973588302294504714L
@@ -1137,7 +1118,6 @@
 		{
 			description: ["An early game inventory management tool."]
 			id: "105A0ED101FA81A7"
-			optional: true
 			rewards: [{
 				id: "619F4EBBA99F4260"
 				type: "xp"
@@ -1159,7 +1139,6 @@
 				"You can also open chests, barrels, etc. by clicking through them! "
 			]
 			id: "227A393C91E5ED04"
-			optional: true
 			rewards: [{
 				id: "5410D92D000A45CF"
 				type: "xp"
@@ -1179,7 +1158,6 @@
 			description: ["By using this block, you can control which painting you will get when you place one down."]
 			icon: "easel_does_it:easel"
 			id: "10688E98322E6F65"
-			optional: true
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1200,7 +1178,6 @@
 		{
 			description: ["This block is the wood equivalent of a stonecutter."]
 			id: "4DDE3DE813271380"
-			optional: true
 			shape: "hexagon"
 			tasks: [{
 				id: "20D690389177384F"
@@ -1217,7 +1194,6 @@
 				"Rich soil is very useful because it accelerates crop growth. Rich soil farmland also cannot be trampled."
 			]
 			id: "0FA3536F581466D3"
-			optional: true
 			rewards: [{
 				count: 4
 				id: "2CFEF4212378F3E1"
@@ -1237,7 +1213,6 @@
 		{
 			description: ["These accessories can only be found in chests and have powerful skills which can be leveled up."]
 			id: "6649E989BC999D09"
-			optional: true
 			rewards: [
 				{
 					id: "50D4865AD489C212"

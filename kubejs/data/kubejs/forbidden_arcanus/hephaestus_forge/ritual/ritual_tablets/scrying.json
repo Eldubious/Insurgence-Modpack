@@ -1,0 +1,43 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 750,
+        "blood": 500,
+        "experience": 0,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "minecraft:spider_eye"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:glowstone"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:source_gem_block"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:purple_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:ritual_scrying"
+        }
+    }
+}

@@ -37,6 +37,7 @@ ars_nouveau
 arsomega
 cataclysm
 corgilib
+!defaultoptions/extra/local/ftbchunks/client-config.snbt
 fancymenu/assets/*
 fancymenu/custom_locals/*
 fancymenu/layout_editor/*

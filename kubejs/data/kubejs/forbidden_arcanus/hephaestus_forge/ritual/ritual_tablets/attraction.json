@@ -1,0 +1,49 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 350,
+        "blood": 0,
+        "experience": 350,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "ars_nouveau:earth_essence"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "iceandfire:silver_axe"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "quark:magnet"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "galosphere:silver_ingot"
+            }
+        } 
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:green_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_elemental:ritual_attraction"
+        }
+    }
+}

@@ -1,4 +1,4 @@
-Version 1.2.0 (WIP)
+Version 1.1.1 (WIP)
     Additions:
     - Added mods:
         - Better Compatibility Checker
@@ -6,9 +6,13 @@ Version 1.2.0 (WIP)
         - Crafting Tweaks
 
     Changes:
+    - Updated mods
+    - Changed some recipes:
+        - Sack is cheaper
+        - Augments can be salvaged on a cutting board
+        - Ritual tablets are made in the Hephaestus Forge now
 
     Fixes:
-    - 
 
 Version 1.1.0
     Additions:

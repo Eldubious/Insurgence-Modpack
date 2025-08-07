@@ -1,0 +1,49 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 600,
+        "blood": 0,
+        "experience": 300,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "quark:feeding_trough"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "item": "minecraft:wheat"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:golden_apple"
+            }
+        },
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "minecraft:blaze_powder"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:green_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:ritual_fertility"
+        }
+    }
+}

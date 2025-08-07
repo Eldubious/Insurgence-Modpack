@@ -1,0 +1,37 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 250,
+        "blood": 0,
+        "experience": 0,
+        "souls": 8
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:lapis_block"
+            }
+        },
+        {
+            "amount": 3,
+            "ingredient": {
+                "tag": "ars_nouveau:wilden_drop"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:purple_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_nouveau:ritual_wilden_summon"
+        }
+    }
+}

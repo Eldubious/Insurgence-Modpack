@@ -1,0 +1,37 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crimson_stone"
+        ]
+    },
+    "essences": {
+        "aureal": 250,
+        "blood": 0,
+        "experience": 0,
+        "souls": 3
+    },
+    "inputs": [
+        {
+            "amount": 2,
+            "ingredient": {
+                "item": "ars_nouveau:air_essence"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "minecraft:piston"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_elemental:yellow_archwood_log"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "ars_elemental:ritual_repulsion"
+        }
+    }
+}
