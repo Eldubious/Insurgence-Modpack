@@ -45,10 +45,10 @@
 		the_emperpor_heroofvillagebonus = 0
 		#How close animals need to be to set lovemode
 		#Range: 0.0 ~ 256.0
-		the_empress_range = 3.0
+		the_empress_range = 0.75
 		#Amplifier for effect (2 = III)
 		#Range: 0 ~ 100
-		the_fool_jumpboost = 0
+		the_fool_jumpboost = 1
 		#How much of the damage is converted to experience
 		#Range: 0.0 ~ 1.0
 		the_hanged_man_xpratio = 0.5
@@ -71,7 +71,7 @@
 		the_highpriestess_upgrademultiplier = 3
 		#How close allies need to be to apply regeneration
 		#Range: 0.0 ~ 256.0
-		the_lovers_range = 5.0
+		the_lovers_range = 25.0
 		#Amplifier for effect (1 = II)
 		#Range: 0 ~ 20
 		the_lovers_regenamplifier = 0
@@ -89,5 +89,5 @@
 		the_world_slownessamplifier = 3
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
-		wheel_of_fortune_luckbonus = 2.0
+		wheel_of_fortune_luckbonus = 5.0
 

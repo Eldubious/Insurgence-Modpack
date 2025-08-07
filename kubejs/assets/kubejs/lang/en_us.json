@@ -22,6 +22,7 @@
     "tooltip.kubejs.indestructible_altar": "§7§oFound occasionally in the Overworld.",
     "tooltip.kubejs.withered_smithing_template": "§7§oObtained by defeating the Tainted Village Gate Pearl.",
     "tooltip.kubejs.command_block_book": "§7§oA reward for defeating the Withered Symbiont.",
+    "tooltip.kubejs.increase_carrying_capacity": "§7§oWhen equipped, this item will allow you to carry +1 backpack.",
 
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",

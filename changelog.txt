@@ -6,11 +6,26 @@ Version 1.1.1 (WIP)
         - Crafting Tweaks
 
     Changes:
-    - Updated mods
+    - Updated several mods
     - Changed some recipes:
         - Sack is cheaper
         - Augments can be salvaged on a cutting board
         - Ritual tablets are made in the Hephaestus Forge now
+    - Config changes:
+        - Tarot Cards:
+            - The Fool: Jump Boost I -> II
+            - Wheel of Fortune: 2 luck -> 5 luck
+            - The Lovers: range 5 -> 25
+            - The Empress: range 3 -> 0.75
+        - Iron's Spells (Should only apply to new worlds):
+            - Some spells can no longer be crafted (They must be found)
+            - Disabled the following spells:
+                - Invisibility
+                - Angel Wing
+            - Spell cooldowns changed:
+                - Blink: 1.5s -> 3s
+                - Recall: 5m -> 20m
+            - Imbued weapon spell cooldown +50% -> +80%
 
     Fixes:
 
