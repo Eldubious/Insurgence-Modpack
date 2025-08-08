@@ -129,4 +129,6 @@ ServerEvents.recipes(event => {
         'traveloptics:augment_chaos_epic', 'traveloptics:augment_chaos_legendary', 'traveloptics:augment_chaos_mythic', 'traveloptics:augment_chaos_blessed', 'traveloptics:augment_chaos_wild',
         'traveloptics:augment_balance_epic', 'traveloptics:augment_balance_legendary', 'traveloptics:augment_balance_mythic', 'traveloptics:augment_balance_blessed', 'traveloptics:augment_balance_wild']
     augments.forEach(element => salvage(0, element, [Item.of('ars_nouveau:experience_gem', 2), Item.of('ars_nouveau:greater_experience_gem', 1).withChance(0.5), Item.of('traveloptics:celestial_fragment', 1).withChance(0.1)]))
+    salvage(1, 'hexcasting:scroll', [Item.of('forbidden_arcanus:arcane_crystal_dust_speck', 2), Item.of('ars_nouveau:blank_parchment').withChance(0.50), Item.of('ars_nouveau:magebloom_fiber').withChance(0.05)])
+    salvage(1, 'hexcasting:lore_fragment', [Item.of('minecraft:leather'), Item.of('minecraft:paper').withChance(0.50), Item.of('ars_nouveau:magebloom_fiber').withChance(0.05)])
 })

@@ -1244,6 +1244,108 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			description: ["You can only carry 2 backpacks at a time normally, but if you equip one of these items, you are able to carry 1 more. You can equip multiple of these to increase the effect."]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "4A5B1187AD1542B5"
+			rewards: [{
+				id: "2C4E4EB47E8460A8"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44DBE0BB6F1B77EB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ancient_aether:warrior_ring"
+							}
+							{
+								Count: 1b
+								id: "ancient_aether:warrior_pendant"
+							}
+							{
+								Count: 1b
+								id: "ancient_aether:strength_stone"
+							}
+							{
+								Count: 1b
+								id: "aether_redux:ring_of_construction"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:heavy_chain_necklace"
+							}
+							{
+								Count: 1b
+								id: "aether:iron_bubble"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:concentration_amulet"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:belt_of_levitation"
+							}
+							{
+								Count: 1b
+								id: "tarotcards:strength"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Strength Item"
+				type: "item"
+			}]
+			title: "Carrying More Backpacks"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"If you have lots of different types of food you want to eat, you can put them all in a Lunch Basket to carry around with you!"
+				""
+				"Left-click with the Lunch Basket to open or close it."
+				""
+				"When &eopen&r, right-click to eat the currently selected food."
+				""
+				"When &eclosed&r, right-click and scroll to select a food inside the basket."
+			]
+			id: "6C771AE8DAD964EB"
+			rewards: [{
+				id: "47A1B245D7D82F6F"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76B23BD417A362A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
 	]
 	title: "Tips"
 }

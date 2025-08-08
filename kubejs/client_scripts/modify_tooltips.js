@@ -15,6 +15,12 @@ ItemEvents.tooltip(event => {
     event.add('summoningrituals:indestructible_altar', Component.translate('tooltip.kubejs.indestructible_altar'))
     event.add('kubejs:withered_smithing_template', Component.translate('tooltip.kubejs.withered_smithing_template'))
     event.add('witherstormmod:command_block_book', Component.translate('tooltip.kubejs.command_block_book'))
+    const strength_items = ['ars_nouveau:belt_of_levitation', 'ancient_aether:strength_stone', 'aether_redux:ring_of_construction',
+    'ancient_aether:warrior_ring', 'ancient_aether:warrior_pendant', 'aether:iron_bubble', 'tarotcards:strength',
+    'irons_spellbooks:concentration_amulet', 'irons_spellbooks:heavy_chain_necklace']
+    strength_items.forEach(element => {
+        event.add(element, Component.translate('tooltip.kubejs.increase_carrying_capacity'))
+    })
     
     // Mark unused items
     const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'samurai_dynasty:ruby_ore', 'samurai_dynasty:deepslate_ruby_ore',

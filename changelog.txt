@@ -4,12 +4,20 @@ Version 1.1.1 (WIP)
         - Better Compatibility Checker
         - Enchantment descriptions
         - Crafting Tweaks
+        - Simply Swords
+    - The talent and thighs curio slots have been removed and their items can
+        be equipped in other slots now
+    - There are now dedicated curio slots for these items:
+        - Spyglass
+        - Tarot Cards
+        - Bundles, Sacks, Shulker Boxes and other similar items
+        - Compass, Clock, and other similar items
 
     Changes:
     - Updated several mods
     - Changed some recipes:
         - Sack is cheaper
-        - Augments can be salvaged on a cutting board
+        - Augments, Lore Fragments, and Hex Casting scrolls can be salvaged on a cutting board
         - Ritual tablets are made in the Hephaestus Forge now
     - Config changes:
         - Tarot Cards:
@@ -28,6 +36,8 @@ Version 1.1.1 (WIP)
             - Imbued weapon spell cooldown +50% -> +80%
 
     Fixes:
+    - Replaced the Ice & Fire silver ingot in some loot tables with the Galosphere silver ingot
+    - Removed Xocolatl as a reward from the quality foods questbook reward
 
 Version 1.1.0
     Additions:

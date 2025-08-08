@@ -2969,6 +2969,42 @@
 			x: -5.3999999999999995d
 			y: 0.5d
 		}
+		{
+			description: [
+				"If you have lots of different types of food you want to eat, you can put them all in a Lunch Basket to carry around with you!"
+				""
+				"Left-click with the Lunch Basket to open or close it."
+				""
+				"When &eopen&r, right-click to eat the currently selected food."
+				""
+				"When &eclosed&r, right-click and scroll to select a food inside the basket."
+			]
+			id: "12FBD08FF9E2B815"
+			rewards: [{
+				id: "0A42DAF7953D9955"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C0D414DEA31754E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+				}
+				type: "item"
+			}]
+			x: -6.6d
+			y: 0.5d
+		}
 	]
 	title: "Cookbook"
 }

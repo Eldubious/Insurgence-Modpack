@@ -144,7 +144,7 @@ ServerEvents.tags('item', event => {
 		'quark:seed_pouch', 'the_bumblezone:buzzing_briefcase', 'create:light_gray_toolbox', 'create:cyan_toolbox', 'create:purple_toolbox',
 		'create:blue_toolbox', 'create:green_toolbox', 'create:red_toolbox', 'create:black_toolbox', 'create:brown_toolbox', 'create:white_toolbox',
 		'create:orange_toolbox', 'create:magenta_toolbox', 'create:light_blue_toolbox', 'create:yellow_toolbox', 'create:lime_toolbox',
-		'create:pink_toolbox', 'create:gray_toolbox']
+		'create:pink_toolbox', 'create:gray_toolbox', 'supplementaries:lunch_basket']
 	bundle_items.forEach(element => addToTag('curios:bundle', element))
 	// Add items for the compass slot
 	removeFromTag('curios:hands', 'map_atlases:atlas')
