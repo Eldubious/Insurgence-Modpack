@@ -166,7 +166,10 @@ ServerEvents.tags('item', event => {
 		'samurai_dynasty:gold_ninja_boots', 'aether:golden_ring', 'aether:golden_pendant', 'twilightforest:gold_minotaur_axe', 'aether:golden_gloves',
 		'cataclysm:khopesh', 'immersive_armors:divine_helmet', 'immersive_armors:divine_chestplate', 'immersive_armors:divine_leggings',
 		'immersive_armors:divine_boots', 'immersive_armors:steampunk_helmet', 'immersive_armors:steampunk_chestplate', 'immersive_armors:steampunk_leggings',
-		'immersive_armors:steampunk_boots']
+		'immersive_armors:steampunk_boots', 'simplyswords:gold_longsword', 'simplyswords:gold_twinblade', 'simplyswords:gold_rapier', 'simplyswords:gold_katana',
+		'simplyswords:gold_sai', 'simplyswords:gold_spear', 'simplyswords:gold_cutlass', 'simplyswords:gold_glaive', 'simplyswords:gold_warglaive',
+		'simplyswords:gold_claymore', 'simplyswords:gold_greathammer', 'simplyswords:gold_greataxe', 'simplyswords:gold_chakram', 'simplyswords:gold_scythe',
+		'simplyswords:gold_halberd']
 	golden_items.forEach(element => addToTag('tarotcards:golden'))
 	
 	/*

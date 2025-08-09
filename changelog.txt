@@ -38,6 +38,7 @@ Version 1.1.1 (WIP)
     Fixes:
     - Replaced the Ice & Fire silver ingot in some loot tables with the Galosphere silver ingot
     - Removed Xocolatl as a reward from the quality foods questbook reward
+    - The Magician should now prevent all golden items from breaking
 
 Version 1.1.0
     Additions:

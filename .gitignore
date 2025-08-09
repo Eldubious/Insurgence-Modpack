@@ -6,6 +6,7 @@
 cache
 coremods
 crash-reports
+!config/defaultoptions/extra/local/ftbchunks/client-config.snbt
 downloads
 fancymenu_data
 knownkeys.txt

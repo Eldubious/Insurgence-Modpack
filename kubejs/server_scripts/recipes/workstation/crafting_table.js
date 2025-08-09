@@ -1210,4 +1210,288 @@ ServerEvents.recipes(event => {
             E: 'forbidden_arcanus:dark_rune'
         }
     )
+    // Ribboncleaver
+    event.shaped('simplyswords:ribboncleaver',
+        [
+            ' AB',
+            'ABA',
+            'CA '
+        ],
+        {
+            A: 'ars_nouveau:magebloom_fiber',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:ancient_metal_weapon_parts'
+        }
+    )
+    // Hiveheart
+    event.shaped('simplyswords:hiveheart',
+        [
+            ' AB',
+            ' CA',
+            'D  '
+        ],
+        {
+            A: 'create:refined_radiance',
+            B: 'minecraft:bee_nest',
+            C: 'traveloptics:verdant_spellweave_ingot',
+            D: 'minecraft:stick'
+        }
+    )
+    // Wickpiercer
+    event.shaped('simplyswords:wickpiercer',
+        [
+            ' AB',
+            ' DA',
+            'D  '
+        ],
+        {
+            A: 'the_bumblezone:potion_candle',
+            B: 'create:refined_radiance',
+            D: 'cataclysm:ignitium_ingot'
+        }
+    )
+    // Waxweaver
+    event.shaped('simplyswords:waxweaver',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'create:refined_radiance',
+            B: 'the_bumblezone:potion_candle',
+            C: 'cataclysm:ignitium_ingot'
+        }
+    )
+    // Soulpyre
+    event.shaped('simplyswords:soulpyre',
+        [
+            ' AB',
+            ' CD',
+            'E  '
+        ],
+        {
+            A: 'cataclysm:ignitium_ingot',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:flame_tempered_handguard',
+            D: 'cataclysm:cursium_ingot',
+            E: 'minecraft:stick'
+        }
+    )
+    // Hearthflame
+    event.shaped('simplyswords:hearthflame',
+        [
+            ' AB',
+            ' CA',
+            'D  '
+        ],
+        {
+            A: 'create:refined_radiance',
+            B: 'traveloptics:pyro_spellweave_ingot',
+            C: 'cataclysm:lava_power_cell',
+            D: 'minecraft:stick'
+        }
+    )
+    // Soulkeeper
+    event.shaped('simplyswords:soulkeeper',
+        [
+            ' AB',
+            ' CA',
+            'D  '
+        ],
+        {
+            A: 'create:refined_radiance',
+            B: 'cataclysm:cursium_ingot',
+            C: 'aether_redux:sentry_chip',
+            D: 'aether:skyroot_stick'
+        }
+    )
+    // Icewhisper
+    event.shaped('simplyswords:icewhisper',
+        [
+            ' AB',
+            ' C ',
+            'D  '
+        ],
+        {
+            A: 'irons_spellbooks:permafrost_shard',
+            B: 'create:refined_radiance',
+            C: 'minecraft:stick',
+            D: 'cataclysm:black_steel_ingot'
+        }
+    )
+    // Arcanethyst
+    event.shaped('simplyswords:arcanethyst',
+        [
+            ' AB',
+            ' C ',
+            'D  '
+        ],
+        {
+            A: 'traveloptics:void_spellweave_ingot',
+            B: 'create:refined_radiance',
+            C: 'minecraft:stick',
+            D: 'hexcasting:charged_amethyst'
+        }
+    )
+    // Thunderbrand
+    event.shaped('simplyswords:thunderbrand',
+        [
+            ' AB',
+            ' C ',
+            'D  '
+        ],
+        {
+            A: 'cataclysm:essence_of_the_storm',
+            B: 'create:refined_radiance',
+            C: 'minecraft:stick',
+            D: 'cataclysm:lacrima'
+        }
+    )
+    // Slumbering Lichblade
+    event.shaped('simplyswords:slumbering_lichblade',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'iceandfire:ghost_ingot',
+            B: 'create:shadow_steel',
+            C: 'iceandfire:dread_shard'
+        }
+    )
+    // Star's Edge
+    event.shaped('simplyswords:stars_edge',
+        [
+            ' AB',
+            ' C ',
+            'BA '
+        ],
+        {
+            A: 'cataclysm:lacrima',
+            B: 'traveloptics:abyssal_tentacle',
+            C: 'create:shadow_steel'
+        }
+    )
+    // Dormant Relic
+    event.shaped('simplyswords:dormant_relic',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'call_of_yucutan:ancient_gold_ingot',
+            B: 'call_of_yucutan:hematite',
+            C: 'irons_spellbooks:weapon_parts'
+        }
+    )
+    // Bramblethorn
+    event.shaped('simplyswords:bramblethorn',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'twilightforest:ironwood_ingot',
+            B: 'traveloptics:verdant_spellweave_ingot',
+            C: 'irons_spellbooks:weapon_parts'
+        }
+    )
+    // Twisted Blade
+    event.shaped('simplyswords:twisted_blade',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'samurai_dynasty:steel_ingot',
+            B: 'create:shadow_steel',
+            C: 'minecraft:stick'
+        }
+    )
+    // Magiscythe
+    event.shaped('simplyswords:magiscythe',
+        [
+            'AAB',
+            'AC ',
+            'D  '
+        ],
+        {
+            A: 'forbidden_arcanus:deorum_ingot',
+            B: 'irons_spellbooks:evocation_upgrade_orb',
+            C: 'minecraft:diamond',
+            D: 'forbidden_arcanus:draco_arcanus_staff'
+        }
+    )
+    // Magispear
+    event.shaped('simplyswords:magispear',
+        [
+            ' AB',
+            ' CA',
+            'D  '
+        ],
+        {
+            A: 'forbidden_arcanus:deorum_ingot',
+            B: 'irons_spellbooks:evocation_upgrade_orb',
+            C: 'minecraft:diamond',
+            D: 'forbidden_arcanus:draco_arcanus_staff'
+        }
+    )
+    // Magiblade
+    event.shaped('simplyswords:magiblade',
+        [
+            ' AB',
+            'ACA',
+            'DA '
+        ],
+        {
+            A: 'forbidden_arcanus:deorum_ingot',
+            B: 'irons_spellbooks:evocation_upgrade_orb',
+            D: 'minecraft:diamond',
+            C: 'forbidden_arcanus:draco_arcanus_staff'
+        }
+    )
+    // Livyatan
+    event.shaped('simplyswords:livyatan',
+        [
+            'AB ',
+            'AC ',
+            ' C '
+        ],
+        {
+            A: 'cataclysm:black_steel_ingot',
+            B: 'irons_spellbooks:ice_rune',
+            C: 'create:shadow_steel'
+        }
+    )
+    // Frostfall
+    event.shaped('simplyswords:frostfall',
+        [
+            'ABA',
+            'ACA',
+            ' C '
+        ],
+        {
+            A: 'cataclysm:black_steel_ingot',
+            B: 'irons_spellbooks:ice_rune',
+            C: 'create:shadow_steel'
+        }
+    )
+    // Shadowsting
+    event.shaped('simplyswords:shadowsting',
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'traveloptics:hullbreaker_steel',
+            B: 'cataclysm:ancient_metal_nugget',
+            C: 'irons_spellbooks:weapon_parts'
+        }
+    )
 })
