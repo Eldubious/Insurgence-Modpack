@@ -34,7 +34,8 @@ apotheosis/spawner.cfg
 apotheosis/village.cfg
 ars_elemental
 ars_nouveau
-arsomega
+bettercombat/fallback_compatibility.json
+bettercombat/server.json5
 cataclysm
 corgilib
 !defaultoptions/extra/local/ftbchunks/client-config.snbt

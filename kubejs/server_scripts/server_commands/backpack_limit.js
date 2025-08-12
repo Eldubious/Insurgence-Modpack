@@ -2,8 +2,7 @@
 
 // All items which count as backpacks
 const backpacks = ['sophisticatedbackpacks:backpack', 'sophisticatedbackpacks:copper_backpack', 'sophisticatedbackpacks:iron_backpack',
-    'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:diamond_backpack', 'sophisticatedbackpacks:netherite_backpack'
-]
+    'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:diamond_backpack', 'sophisticatedbackpacks:netherite_backpack']
 
 // All items which increase the carrying capacity by 1
 const strength_items = ['ars_nouveau:belt_of_levitation', 'ancient_aether:strength_stone', 'aether_redux:ring_of_construction',
@@ -36,7 +35,6 @@ PlayerEvents.tick(event => {
             slotTypeItems.forEach(element => {  // Iterate on each item in that slot type
                 let id = element.get("id")
 
-                
                 if (backpacks.indexOf(id) != -1) {      // Increase the backpack count
                     count++
                 }
@@ -49,7 +47,7 @@ PlayerEvents.tick(event => {
         // Apply Slowness and eventually Weakness if the player is carrying too much
         if (count > max) {
             let amp = Math.floor(count / max) - 1
-            player.tell("You are carrying too many backpacks. Your limit is " + max)
+            //player.tell("You are carrying too many backpacks. Your limit is " + max)
             
             let cmd = `effect give ${player.uuid.toString()} minecraft:slowness 4 ${amp} true`
             event.server.runCommandSilent(cmd)

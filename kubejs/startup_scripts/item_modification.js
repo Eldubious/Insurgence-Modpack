@@ -226,7 +226,8 @@ ItemEvents.modification(event => {
         'wan_ancient_beasts:cyan_hang_glider', 'wan_ancient_beasts:blue_hang_glider', 'wan_ancient_beasts:purple_hang_glider', 'wan_ancient_beasts:magenta_hang_glider',
         'wan_ancient_beasts:pink_hang_glider', 'wan_ancient_beasts:ancient_club', 'wan_ancient_beasts:reinforced_shield', 'experienceobelisk:transforming_focus',
         'psi:cad_assembly_iron', 'psi:cad_assembly_gold', 'psi:cad_battery_extended', 'psi:exosuit_controller', 'psi:cad_core_overclocked', 'psi:cad_core_conductive',
-        'psi:cad_socket_signaling', 'psi:cad_socket_large', 'psi:ebony_substance', 'psi:ivory_substance', 'ars_elemental:base_bangle'
+        'psi:cad_socket_signaling', 'psi:cad_socket_large', 'psi:ebony_substance', 'psi:ivory_substance', 'ars_elemental:base_bangle', 'wan_ancient_beasts:surfer_skull',
+        'wan_ancient_beasts:surfer_armor'
     ]
     uncommon_items.forEach(element => uncommon(element))
         

@@ -1313,11 +1313,13 @@
 			description: [
 				"If you have lots of different types of food you want to eat, you can put them all in a Lunch Basket to carry around with you!"
 				""
-				"Left-click with the Lunch Basket to open or close it."
+				"Left-click/punch with the Lunch Basket to open or close it."
 				""
 				"When &eopen&r, right-click to eat the currently selected food."
 				""
 				"When &eclosed&r, right-click and scroll to select a food inside the basket."
+				""
+				"&7&oIt should be noted that foods eaten from the lunch basket do not count towards your bonus health."
 			]
 			id: "6C771AE8DAD964EB"
 			rewards: [{

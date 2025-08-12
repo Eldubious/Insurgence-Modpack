@@ -128,11 +128,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "405EA7F6111B05C3"
 					item: "farmersdelight:chocolate_pie"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "50668109682E815D"
 					item: "farmersdelight:chocolate_pie_slice"
 					type: "item"
@@ -153,11 +155,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "334DA07C6B7B2B8E"
 					item: "farmersdelight:sweet_berry_cheesecake"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "5998C27E1BE73578"
 					item: "farmersdelight:sweet_berry_cheesecake_slice"
 					type: "item"
@@ -178,11 +182,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "41B8509383C5D75C"
 					item: "farmersdelight:apple_pie"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "718E508E1B3D6687"
 					item: "farmersdelight:apple_pie_slice"
 					type: "item"
@@ -1978,11 +1984,13 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "71E878BE6DBCB505"
 					item: "pineapple_delight:pineapple_pie"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "44696902A05A0B6B"
 					item: "pineapple_delight:pineapple_pie_side"
 					type: "item"
@@ -2888,21 +2896,25 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "48C8AA3669757DCA"
 					item: "farmersdelight:rice_roll_medley_block"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7812167EEC9E75A7"
 					item: "farmersdelight:kelp_roll_slice"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "54834F59C87D7D49"
 					item: "farmersdelight:salmon_roll"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3378CE6B17C3E240"
 					item: "farmersdelight:cod_roll"
 					type: "item"
@@ -2923,21 +2935,25 @@
 			shape: "diamond"
 			tasks: [
 				{
+					disable_toast: true
 					id: "42A2B565585734C9"
 					item: "aquaculturedelight:fish_roll_medley"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "106D02CBE406DD7E"
 					item: "aquaculture:sushi"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "16DA725DE46D2FC4"
 					item: "aquaculturedelight:fried_perch_roll"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "010CD05F2685C209"
 					item: "aquaculturedelight:raw_fish_fillet_roll"
 					type: "item"
@@ -2970,38 +2986,34 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"If you have lots of different types of food you want to eat, you can put them all in a Lunch Basket to carry around with you!"
-				""
-				"Left-click with the Lunch Basket to open or close it."
-				""
-				"When &eopen&r, right-click to eat the currently selected food."
-				""
-				"When &eclosed&r, right-click and scroll to select a food inside the basket."
+			description: ["Use the fishing net on kelp and seagrass for a chance to find shrimp."]
+			id: "2B609F63AC44E145"
+			rewards: [
+				{
+					count: 3
+					id: "54C9BD532DEB0FC2"
+					item: "oceanic_delight:shrimp"
+					type: "item"
+				}
+				{
+					id: "76C38B2B02FF3F90"
+					table_id: 3175445853633275546L
+					title: "Small Random Reward"
+					type: "random"
+				}
 			]
-			id: "12FBD08FF9E2B815"
-			rewards: [{
-				id: "0A42DAF7953D9955"
-				table_id: 3175445853633275546L
-				title: "Small Random Reward"
-				type: "random"
-			}]
 			tasks: [{
-				id: "6C0D414DEA31754E"
+				id: "12B1346771903389"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Open: 0b
-							SelectedSlot: 0b
-							Size: 6
-						}
+					id: "oceanic_delight:fishing_net"
+					tag: {
+						Damage: 0
 					}
-					id: "supplementaries:lunch_basket"
 				}
 				type: "item"
 			}]
+			title: "Catching Shrimp"
 			x: -6.6d
 			y: 0.5d
 		}

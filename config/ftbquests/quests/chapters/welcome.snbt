@@ -198,6 +198,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2EC2D0CA5A3B1A0A"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CF9F71DA624E252"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "samurai_dynasty:samurai_guide"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{

@@ -1,0 +1,26 @@
+{
+    "colors": {
+        "accent": "#68A6A3",
+        "base": "#606060"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "effects": {
+        "sound": {
+            "soundEvent": "wan_ancient_beasts:entity.surfer.idle"
+        }
+    },
+    "entity": {
+        "type": "wan_ancient_beasts:surfer"
+    },
+    "name": {
+        "color": "#68A6A3",
+        "translate": "trophy.trofers.composed",
+        "with": [
+            {
+                "translate": "entity.wan_ancient_beasts.surfer"
+            }
+        ]
+    }
+}

@@ -4403,6 +4403,17 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/surfer"
+					}
+				}
+			}
+		}
 	]
 	title: "&eTrophies:&r All"
 }

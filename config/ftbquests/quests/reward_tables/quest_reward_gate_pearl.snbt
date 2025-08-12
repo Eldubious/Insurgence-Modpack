@@ -11,6 +11,7 @@
 					gateway: "gateways:basic/blaze"
 				}
 			}
+			weight: 3.0f
 		}
 		{
 			item: {
@@ -20,6 +21,7 @@
 					gateway: "gateways:basic/enderman"
 				}
 			}
+			weight: 3.0f
 		}
 		{
 			item: {
@@ -29,6 +31,77 @@
 					gateway: "gateways:basic/slime"
 				}
 			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "kubejs:basic/warden"
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "kubejs:basic/wilden"
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "kubejs:edge_of_the_world"
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:emerald_grove"
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "kubejs:endless_blood"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:overworldian_nights"
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "kubejs:treasure_vault"
+				}
+			}
+			weight: 0.25f
 		}
 	]
 	title: "Quest Reward: Gate Pearl"

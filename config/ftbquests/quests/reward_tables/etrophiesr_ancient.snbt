@@ -83,6 +83,18 @@
 			}
 			weight: 0.85f
 		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/wan_ancient_beasts/surfer"
+					}
+				}
+			}
+			weight: 0.85f
+		}
 	]
 	title: "&eTrophies:&r Ancient"
 }

@@ -206,6 +206,63 @@ ServerEvents.recipes(event => {
             D: 'cataclysm:ancient_metal_nugget'
         }
     )
+    // Netherite Smithing Template
+    event.shaped('2x minecraft:netherite_upgrade_smithing_template',
+        [
+            'ABA',
+            'ACA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:netherite_upgrade_smithing_template',
+            C: 'minecraft:netherrack'
+        }
+    )
+    event.replaceInput({id: 'minecraft:netherite_upgrade_smithing_template'},
+        'minecraft:obsidian',
+        'minecraft:netherrack'
+    )
+    event.shaped('minecraft:netherite_upgrade_smithing_template',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:netherrack',
+            B: 'minecraft:diamond',
+            C: 'minecraft:netherite_scrap',
+            D: 'experienceobelisk:primordial_assembly'
+        }
+    )
+    // Runic Tablet
+    event.shaped('simplyswords:runic_tablet',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'thaumon:arcane_stone',
+            B: 'ars_nouveau:conjuration_essence',
+            C: 'minecraft:echo_shard',
+            D: 'experienceobelisk:primordial_assembly'
+        }
+    )
+    event.shaped('2x simplyswords:runic_tablet',
+        [
+            'ABA',
+            'ACA',
+            'AAA'
+        ],
+        {
+            A: 'samurai_dynasty:aquamarine',
+            B: 'simplyswords:runic_tablet',
+            C: 'thaumon:runic_arcane_stone'
+        }
+    )
+
 
     
     /*

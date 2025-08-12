@@ -1,4 +1,19 @@
-Version 1.1.1 (WIP)
+Version 1.1.2
+    Additions:
+    - Added Mods:
+        - Better Compat
+    
+    Changes:
+    - Updated a few mods
+    - Netherite Smithing Template has 2 new recipes
+    - Some minor questbook changes
+
+    Fixes:
+    - Runic Tablet has a recipe now
+    - Debug messages when carrying too many backpacks should no longer appear
+
+
+Version 1.1.1
     Additions:
     - Added mods:
         - Better Compatibility Checker
@@ -39,6 +54,7 @@ Version 1.1.1 (WIP)
     - Replaced the Ice & Fire silver ingot in some loot tables with the Galosphere silver ingot
     - Removed Xocolatl as a reward from the quality foods questbook reward
     - The Magician should now prevent all golden items from breaking
+
 
 Version 1.1.0
     Additions:
