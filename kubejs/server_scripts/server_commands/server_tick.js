@@ -1,13 +1,14 @@
 // Handle objectives every 40 server ticks
 const dimensions = [['dimdungeons', 'dungeon_dimension'], ['kubejs', 'the_depths'], ['kubejs', 'dragonrealm']]
-var tick = 0
+var serverTick = 0
 ServerEvents.tick(event => {
     
     // Only iterate through entities once every 2 seconds and one dimension at a time
-    tick = (tick + 1) % (dimensions.length * 40)
-    if (tick % 40 == 0) {
-        let i = tick / 40
+    serverTick = (serverTick + 1) % (dimensions.length * 40)
+    if (serverTick % 40 == 0) {
+        let i = serverTick / 40
         let level = event.server.getLevel(new ResourceLocation(dimensions[i][0], dimensions[i][1]))
+        console.log('checking ' + level.dimension.toString() + ' - current tick: ' + serverTick)
         level.getAllEntities().forEach(entity => checkEntity(event.getServer(), entity))
     }
     

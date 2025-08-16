@@ -9,10 +9,10 @@ const strength_items = ['ars_nouveau:belt_of_levitation', 'ancient_aether:streng
     'ancient_aether:warrior_ring', 'ancient_aether:warrior_pendant', 'aether:iron_bubble', 'tarotcards:strength',
     'irons_spellbooks:concentration_amulet', 'irons_spellbooks:heavy_chain_necklace']
 
-var tick = 0
+var playerTick = 0
 PlayerEvents.tick(event => {
 
-    if (tick >= 100) {
+    if (playerTick >= 100) {
         let player = event.getPlayer()
         let count = 0; let max = 2
 
@@ -53,7 +53,7 @@ PlayerEvents.tick(event => {
             event.server.runCommandSilent(cmd)
         }
 
-        tick = 0
+        playerTick = 0
     }
-    tick++
+    playerTick++
 })

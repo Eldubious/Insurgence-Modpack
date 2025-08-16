@@ -10,7 +10,7 @@ const ranged_illager_types = {0: 'minecraft:pillager', 1: 'minecraft:illusioner'
     4: 'minecraft:pillager', 5: 'minecraft:pillager', 6: 'illagerinvasion:provoker', 7: 'illagerinvasion:marauder'}
 const melee_illager_types = {0: 'minecraft:vindicator', 1: 'illagerinvasion:inquisitor', 2: 'illagerinvasion:basher',
     3: 'illagerinvasion:basher', 4: 'savage_and_ravage:executioner', 5: 'minecraft:vindicator'}
-const mage_types = {0: 'minecraft:evoker', 1: 'minecraft:witch', 2: 'irons_spellbooks:archevoker', 3: 'irons_spellbooks:pyromancer',
+const mage_types = {0: 'minecraft:evoker', 1: 'minecraft:witch', 2: 'irons_spellbooks:archevoker', 3: 'irons_spellbooks:necromancer',
     4: 'irons_spellbooks:cryomancer', 5: 'illagerinvasion:alchemist', 6: 'illagerinvasion:archivist', 7: 'illagerinvasion:firecaller',
     8: 'illagerinvasion:sorcerer', 9: 'illagerinvasion:necromancer', 10: 'savage_and_ravage:trickster'}
 const elemental_types = {0: 'minecraft:blaze', 1: 'call_of_yucutan:blowgun_huracan', 2: 'minecraft:blaze', 3: 'twilightforest:death_tome',
@@ -25,13 +25,14 @@ const wilden_types = {0: 'ars_nouveau:wilden_guardian', 1: 'ars_nouveau:wilden_h
 function summonZombie(server, dimension, difficulty, x, y, z) {
     var zombieType = zombie_types[Math.round(Math.random() * 2)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 1.6) * 10)
+    var hp = Math.round((Math.random() + 3) * 10)
     var handItems = randomHandItems('generic', difficulty)
     var armorItems = randomArmorItems('zombie', difficulty)
     
     var cmd = `execute in ${dimension} run summon ${zombieType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}}],` +
+              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f]}`
     server.runCommandSilent(cmd)
 }
@@ -56,7 +57,9 @@ function summonSkeleton(server, dimension, difficulty, x, y, z) {
 
     var cmd = `execute in ${dimension} run summon ${skeletonType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}}],` +
+              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"attributeslib:arrow_damage",Base:1.25},{Name:"attributeslib:arrow_velocity",Base:1.5},` +
+              `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f]}`
     server.runCommandSilent(cmd)
 }
@@ -93,7 +96,7 @@ function summonCreeper(server, dimension, difficulty, x, y, z) {
 function summonRangedIllager(server, dimension, difficulty, x, y, z) {
     var illagerType = ranged_illager_types[Math.round(Math.random() * 7)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 1.4) * 10)
+    var hp = Math.round((Math.random() + 1.8) * 10)
     var handItems
 
     switch (illagerType) {
@@ -118,7 +121,8 @@ function summonRangedIllager(server, dimension, difficulty, x, y, z) {
     var cmd = `execute in ${dimension} run summon ${illagerType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],` +
-              `Attributes:[{Name:"generic.armor",Base:4},{Name:"generic.max_health",Base:${hp}}]}`
+              `Attributes:[{Name:"generic.armor",Base:4},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"attributeslib:arrow_damage",Base:1.25},{Name:"attributeslib:arrow_velocity",Base:1.5}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -131,10 +135,10 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
     var hp; var handItems
     switch (difficulty) {
         case 'basic':
-            hp = Math.round((Math.random() + 1.6) * 10)
+            hp = Math.round((Math.random() + 2) * 10)
             break
         case 'adv':
-            hp = Math.round((Math.random() + 2) * 10)
+            hp = Math.round((Math.random() + 3.5) * 10)
             break
     }
     switch (illagerType) {
@@ -158,7 +162,9 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
     var cmd = `execute in ${dimension} run summon ${illagerType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],` +
-              `Attributes:[{Name:"generic.armor",Base:3},{Name:"generic.max_health",Base:${hp}}]}`
+              `Attributes:[{Name:"generic.armor",Base:3},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5},` +
+              `{Name:"generic.attack_knockback",Base:1.25},{Name:"generic.knockback_resistance",Base:0.4}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -168,23 +174,23 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
 function summonMage(server, dimension, difficulty, x, y, z) {
     var mageType = mage_types[Math.round(Math.random() * 10)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 1.4) * 10)
+    var hp = Math.round((Math.random() + 10) * 10)
     var armorItems; var armorAttribute = 4;
     switch (mageType) {
         case 'irons_spellbooks:archevoker':
             armorItems = '{id:"irons_spellbooks:archevoker_boots",Count:1},{id:"irons_spellbooks:archevoker_leggings",Count:1},' +
                          '{id:"irons_spellbooks:archevoker_chestplate",Count:1},{id:"irons_spellbooks:archevoker_helmet",Count:1}'
-            armorAttribute = 2
+            armorAttribute = 20
             break
-        case 'irons_spellbooks:pyromancer':
-            armorItems = '{id:"irons_spellbooks:pyromancer_boots",Count:1},{id:"irons_spellbooks:pyromancer_leggings",Count:1},' +
-                         '{id:"irons_spellbooks:pyromancer_chestplate",Count:1},{id:"irons_spellbooks:pyromancer_helmet",Count:1}'
-            armorAttribute = 2
+        case 'irons_spellbooks:necromancer':
+            armorItems = '{id:"irons_spellbooks:cultist_boots",Count:1},{id:"irons_spellbooks:cultist_leggings",Count:1},' +
+                         '{id:"irons_spellbooks:cultist_chestplate",Count:1},{id:"irons_spellbooks:cultist_helmet",Count:1}'
+            armorAttribute = 20
             break
         case 'irons_spellbooks:cryomancer':
             armorItems = '{id:"irons_spellbooks:cryomancer_boots",Count:1},{id:"irons_spellbooks:cryomancer_leggings",Count:1},' +
                          '{id:"irons_spellbooks:cryomancer_chestplate",Count:1},{id:"irons_spellbooks:cryomancer_helmet",Count:1}'
-            armorAttribute = 2
+            armorAttribute = 20
             break
         default:
             armorItems = '{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}'
@@ -203,11 +209,12 @@ function summonMage(server, dimension, difficulty, x, y, z) {
 function summonInsect(server, dimension, difficulty, x, y, z) {
     var insectType = insect_types[Math.round(Math.random() * 8)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 1) * 10)
+    var hp = Math.round((Math.random() + 2) * 10)
 
     var cmd = `execute in ${dimension} run summon ${insectType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:6},{Name:"generic.max_health",Base:${hp}}]}`
+              `Attributes:[{Name:"generic.armor",Base:6},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -219,7 +226,8 @@ function summonSlime(server, dimension, difficulty, x, y, z) {
     var effect = randomPositiveEffect(difficulty)
     
     var cmd = `execute in ${dimension} run summon ${slimeType} ${x} ${y} ${z} ` +
-              `{PersistenceRequired:1,ActiveEffects:[${effect}],Attributes:[{Name:"generic.armor",Base:8}]}`
+              `{PersistenceRequired:1,ActiveEffects:[${effect}],Attributes:[{Name:"generic.armor",Base:8},` +
+              `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -229,7 +237,7 @@ function summonSlime(server, dimension, difficulty, x, y, z) {
 function summonElemental(server, dimension, difficulty, x, y, z) {
     var elementalType = elemental_types[Math.round(Math.random() * 4)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 1.5) * 10)
+    var hp = Math.round((Math.random() + 2) * 10)
 
     var cmd = `execute in ${dimension} run summon ${elementalType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
@@ -243,10 +251,11 @@ function summonElemental(server, dimension, difficulty, x, y, z) {
 function summonWilden(server, dimension, difficulty, x, y, z) {
     var wildenType = wilden_types[Math.round(Math.random() * 2)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 1.5) * 10)
+    var hp = Math.round((Math.random() + 2) * 10)
 
     var cmd = `execute in ${dimension} run summon ${wildenType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}}]}`
+              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}]}`
     server.runCommandSilent(cmd)
 }

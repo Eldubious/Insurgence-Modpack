@@ -24,14 +24,14 @@ function randomNegativeEffect(difficulty) {
 // Gets a random positive potion effect. Used with most enemies.
 function randomPositiveEffect(difficulty) {
     let effectId = 0
-    let level = 0
+    let level = 1
 
     if (difficulty == 'basic') {
         // Excludes resistance, and resilience on basic difficulty
         effectId = positive_effects[Math.round(Math.random() * 3)]
     } else {
         effectId = positive_effects[Math.round(Math.random() * 5)]
-        level = Math.round(Math.random() * 2)
+        level += Math.round(Math.random() * 2)
     }
     return `{Id:${effectId},Duration:-1,Amplifier:${level}}`
 }
@@ -217,15 +217,19 @@ function randomWeaponEnchants(weaponType, difficulty) {
     return enchantments
 }
 
+const tipped_arrow_effects = {0: "minecraft:poison", 1: "minecraft:weakness", 2: "minecraft:slowness", 3: "witherstormmod:wither",
+    4: "the_bumblezone:neurotoxin", 5: "miners_delight:mining_fatigue", 6: "alexscaves:strong_hunger"}
+
 // Gets the random items for both hands. Has different ouput for certain unique enemies
 function randomHandItems(enemy, difficulty) {
-    var mainHandItem = ''; var offHandItem = ''; var enchantments = ''
+    var mainHandItem = ''; var offHandItem = ''; var enchantments = ''; var potion = '';
 
     switch (enemy) {
         case 'bow':
             // Bows and arrows
             mainHandItem = 'minecraft:bow'
-            offHandItem = 'minecraft:arrow'
+            offHandItem = 'minecraft:tipped_arrow'
+            potion = `Potion:"${tipped_arrow_effects[Math.round(Math.random() * 6)]}"`
             enchantments = randomWeaponEnchants('bow', difficulty)
             break
 
@@ -305,5 +309,5 @@ function randomHandItems(enemy, difficulty) {
             }
     }
     return `{id:"${mainHandItem}",tag:{Enchantments:[${enchantments}]},Count:1},` +
-           `{id:"${offHandItem}",Count:1}`
+           `{id:"${offHandItem}",tag:{${potion}},Count:1}`
 }
