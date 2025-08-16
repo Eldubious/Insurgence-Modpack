@@ -163,7 +163,6 @@ endergetic-common.toml
 ends_delight-common.toml
 enhanced_boss_bars-common.toml
 entityculling.json
-estrogen-client.toml
 estrogen-common.toml
 estrogen-server.toml
 experienceobelisk-common.toml
@@ -177,7 +176,6 @@ fastpaintings-common.toml
 fastsuite.cfg
 ferritecore-mixin.toml
 flib.toml
-fml.toml
 forbidden_arcanus-client.toml
 forbidden_arcanus-common.toml
 forge-client.toml
@@ -252,7 +250,6 @@ toolbelt-client.toml
 toolbelt-common.toml
 trade_cycling-client.toml
 transmog.json
-travelerscompass-common.toml
 twilightdelight-client.toml
 twilightdelight-common.toml
 twilightforest-client.toml

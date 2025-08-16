@@ -1383,6 +1383,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1482,6 +1483,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1587,6 +1589,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1646,6 +1649,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1674,6 +1678,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1701,6 +1706,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1744,6 +1750,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1787,6 +1794,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1852,6 +1860,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1886,6 +1895,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1920,6 +1930,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1969,6 +1980,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2018,6 +2030,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2079,6 +2092,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2113,6 +2127,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2202,6 +2217,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2242,6 +2258,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2297,6 +2314,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2324,6 +2342,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2406,6 +2425,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2439,6 +2459,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2494,6 +2515,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2549,6 +2571,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2599,6 +2622,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2662,6 +2686,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2723,6 +2748,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2784,6 +2810,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2841,6 +2868,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2910,6 +2938,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2965,6 +2994,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3012,6 +3042,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3073,6 +3104,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3126,6 +3158,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3173,6 +3206,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3226,6 +3260,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3273,6 +3308,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3316,6 +3352,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3359,6 +3396,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3387,6 +3425,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3442,6 +3481,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3497,6 +3537,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3525,6 +3566,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3587,6 +3629,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3614,6 +3657,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3656,6 +3700,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3684,6 +3729,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3711,6 +3757,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3738,6 +3785,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3781,6 +3829,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3808,6 +3857,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3850,6 +3900,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3884,6 +3935,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3918,6 +3970,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3987,6 +4040,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4021,6 +4075,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4070,6 +4125,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4104,6 +4160,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4138,6 +4195,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4187,6 +4245,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4221,6 +4280,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4270,6 +4330,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4323,6 +4384,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4372,6 +4434,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4421,6 +4484,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4455,6 +4519,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4516,6 +4581,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4577,6 +4643,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -4604,6 +4671,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -4651,6 +4719,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4685,6 +4754,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4775,6 +4845,7 @@
 		{
 			can_repeat: true
 			description: ["Submit any unwanted trophies here for a small compensation."]
+			disable_toast: true
 			icon: "create:experience_nugget"
 			id: "6858AD896689D928"
 			rewards: [{
@@ -4825,6 +4896,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -4852,6 +4924,7 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"

@@ -155,4 +155,118 @@ ServerEvents.recipes(event => {
         ],
         128, 4800, 'create:chromatic_compound'
     )
+    // Adding Pink Salt to recipes
+    // Sausage and Potatoes
+    event.remove({id: 'mynethersdelight:cooking/sausage_and_potatoes'})
+    cookingPot('mynethersdelight:sausage_and_potatoes',
+        [
+            'minecraft:potato',
+            'mynethersdelight:hoglin_sausage',
+            'mynethersdelight:hoglin_sausage',
+            'galosphere:pink_salt_shard'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Roasted Tambaqui
+    event.remove({id: 'aquaculturedelight:cooking/roasted_tambaqui'})
+    cookingPot('aquaculturedelight:roasted_tambaqui',
+        [
+            'aquaculture:tambaqui',
+            'farmersdelight:onion',
+            'minecraft:potato',
+            'galosphere:pink_salt_shard'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Trout Steak
+    event.remove({id: 'aquaculturedelight:cooking/trout_steak'})
+    cookingPot('aquaculturedelight:trout_steak',
+        [
+            '#forge:raw_fishes/trout',
+            'farmersdelight:tomato',
+            'minecraft:glow_berries',
+            'galosphere:pink_salt_shard'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Twisted Ghasta
+    event.remove({id: 'mynethersdelight:cooking/twisted_ghasta'})
+    cookingPot('mynethersdelight:twisted_ghasta',
+        [
+            'mynethersdelight:ghasta',
+            'galosphere:pink_salt_shard',
+            'minecraft:twisting_vines',
+            'minecraft:warped_fungus'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Tuna Spaghetti
+    event.remove({id: 'aquaculturedelight:cooking/tuna_spaghetti'})
+    cookingPot('aquaculturedelight:tuna_spaghetti',
+        [
+            'aquaculture:tuna',
+            '#forge:pasta',
+            'galosphere:pink_salt_shard',
+            'farmersdelight:tomato_sauce',
+            '#forge:mushrooms'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Glow Ink Pasta
+    event.remove({id: 'miners_delight:cooking/glow_ink_pasta'})
+    cookingPot('miners_delight:glow_ink_pasta',
+        [
+            '#forge:raw_fishes',
+            '#forge:pasta',
+            'galosphere:pink_salt_shard',
+            'minecraft:glow_berries',
+            'minecraft:glow_ink_sac'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Squid Ink Pasta
+    event.remove({id: 'farmersdelight:cooking/squid_ink_pasta'})
+    cookingPot('farmersdelight:squid_ink_pasta',
+        [
+            '#forge:raw_fishes',
+            '#forge:pasta',
+            'galosphere:pink_salt_shard',
+            'farmersdelight:tomato',
+            'minecraft:ink_sac'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Pasta with Veggieballs
+    event.remove({id: 'miners_delight:cooking/pasta_with_veggieballs'})
+    cookingPot('miners_delight:pasta_with_veggieballs',
+        [
+            '#miners_delight:baked_cave_carrot',
+            '#forge:pasta',
+            'farmersdelight:tomato_sauce',
+            'galosphere:pink_salt_shard'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Pasta with Mutton Chop
+    event.remove({id: 'farmersdelight:cooking/pasta_with_mutton_chop'})
+    cookingPot('farmersdelight:pasta_with_mutton_chop',
+        [
+            '#forge:raw_mutton',
+            '#forge:pasta',
+            'farmersdelight:tomato_sauce',
+            'galosphere:pink_salt_shard'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
+    // Pasta with Meatballs
+    event.remove({id: 'farmersdelight:cooking/pasta_with_meatballs'})
+    cookingPot('farmersdelight:pasta_with_meatballs',
+        [
+            'farmersdelight:minced_beef',
+            '#forge:pasta',
+            'farmersdelight:tomato_sauce',
+            'galosphere:pink_salt_shard'
+        ],
+        1, 200, 'minecraft:bowl'
+    )
 })

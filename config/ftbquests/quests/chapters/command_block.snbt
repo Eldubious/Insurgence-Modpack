@@ -631,6 +631,7 @@
 				""
 				"&7&o(You cannot prepare for this beforehand, as you cannot craft the Gate Pearl until you have summoned the Wither Storm)&r"
 			]
+			hide_until_deps_complete: true
 			id: "54FEE8C7293079CB"
 			rewards: [{
 				id: "23D8DC1F3D5A30E1"

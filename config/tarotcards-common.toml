@@ -21,10 +21,10 @@
 		death_damagebonus = 0.08
 		#Percentage chance of dealing double damage (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
-		judgement_damagechance = 0.03
+		judgement_damagechance = 0.1
 		#Percentage of fall damage negated (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
-		the_tower_damagenegation = 0.25
+		the_tower_damagenegation = 0.6
 		#Percentage of damage returned to the attacker (1.0 = 100%)
 		#Range: 0.0 ~ 100.0
 		justice_damagemultiplier = 0.05
@@ -83,10 +83,10 @@
 		the_sun_healthboost = 0.05
 		#How close non-allies need to be to apply slowness
 		#Range: 0.0 ~ 256.0
-		the_world_range = 3.0
+		the_world_range = 8.0
 		#Amplifier for effect (9 = X)
 		#Range: 0 ~ 20
-		the_world_slownessamplifier = 3
+		the_world_slownessamplifier = 5
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
 		wheel_of_fortune_luckbonus = 5.0

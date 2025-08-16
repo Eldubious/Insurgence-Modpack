@@ -18,6 +18,16 @@ ServerEvents.recipes(event => {
     cuttingBoard('4x tropicraft:coconut_chunk', 'tropicraft:coconut', '#forge:tools/knives', 'farmersdelight:block.cutting_board.knife')
     // Strange Root
     cuttingBoard('2x forbidden_arcanus:strange_root', 'forbidden_arcanus:petrified_root', '#forge:shears', 'minecraft:entity.sheep.shear')
+    // Cinder Flour
+    cuttingBoard(Item.of('create:cinder_flour').withChance(0.75), 'minecraft:netherrack', '#minecraft:pickaxes', 'minecraft:block.netherrack.break')
+    // Allurite Shard
+    cuttingBoard('4x galosphere:allurite_shard', 'galosphere:allurite_block', '#minecraft:pickaxes', 'galosphere:block.allurite.break')
+    // Lumiere Shard
+    cuttingBoard('4x galosphere:lumiere_shard', 'galosphere:lumiere_block', '#minecraft:pickaxes', 'galosphere:block.lumiere.break')
+    // Pink Salt Shard
+    cuttingBoard('4x galosphere:pink_salt_shard', 'galosphere:pink_salt', '#minecraft:pickaxes', 'galosphere:block.pink_salt.break')
+    cuttingBoard('4x galosphere:pink_salt_shard', 'galosphere:rose_pink_salt', '#minecraft:pickaxes', 'galosphere:block.pink_salt.break')
+    cuttingBoard('4x galosphere:pink_salt_shard', 'galosphere:pastel_pink_salt', '#minecraft:pickaxes', 'galosphere:block.pink_salt.break')
 
     // Dreadsteel Paint Kits
     event.remove([{id: 'dreadsteel:kit_default'}, {id: 'dreadsteel:kit_white'}, {id: 'dreadsteel:kit_black'}, {id: 'dreadsteel:kit_bronze'}])
@@ -113,7 +123,7 @@ ServerEvents.recipes(event => {
     // Resources
     salvage(0, 'cataclysm:remnant_skull', [Item.of('cataclysm:koboleton_bone', 2), Item.of('cataclysm:ancient_metal_nugget', 2).withChance(0.33)])
     salvage(0, 'cataclysm:crystallized_coral', [Item.of('minecraft:fire_coral'), Item.of('minecraft:tube_coral'), Item.of('minecraft:brain_coral'), Item.of('minecraft:diamond').withChance(0.33)])
-    salvage(0, 'forbidden_arcanus:dragon_scale', ['3x quark:dragon_scale'])
+    salvage(1, 'irons_spellbooks:dragonskin', [Item.of('forbidden_arcanus:dragon_scale', 2), Item.of('forbidden_arcanus:dragon_scale').withChance(0.60)])
     salvage(0, '#gamediscs:game_discs', ['minecraft:redstone', Item.of('create:brass_nugget', 2).withChance(0.50), Item.of('create:experience_nugget').withChance(0.10)])
     const augments = ['traveloptics:augment_volcana_epic', 'traveloptics:augment_volcana_legendary', 'traveloptics:augment_volcana_mythic', 'traveloptics:augment_volcana_blessed',
         'traveloptics:augment_volcana_wild', 'traveloptics:augment_thunderbolt_epic', 'traveloptics:augment_thunderbolt_legendary', 'traveloptics:augment_thunderbolt_mythic',

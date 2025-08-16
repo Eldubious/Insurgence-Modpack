@@ -26,6 +26,31 @@ ServerEvents.recipes(event => {
         })
     }
 
+    // Register a recipe (the first input is a tag)
+    function metamorphosisWithTag(output, outputCount, input1Tag, count1, input2, count2, input3, count3, xpCost, time) {
+        event.custom({
+            type: 'experienceobelisk:molecular_metamorphosis',
+            ingredient1: {
+                tag: input1Tag
+            },
+            count1: count1,
+            ingredient2: {
+                item: input2
+            },
+            count2: count2,
+            ingredient3: {
+                item: input3
+            },
+            count3: count3,
+            result: {
+                item: output,
+                count: outputCount
+            },
+            cost: xpCost,
+            processTime: time
+        })
+    }
+
     // Entwine Rod
     event.remove({id: 'architects_palette:entwine_rod'})
     metamorphosis('architects_palette:entwine_rod', 4, 'minecraft:ender_pearl', 1, 'galosphere:silver_nugget', 2, 'unusualend:warped_moss', 5, 55, 40)
@@ -44,4 +69,23 @@ ServerEvents.recipes(event => {
     metamorphosis('justhammers:reinforced_core', 1, 'create:brass_ingot', 16, 'justhammers:impact_core', 1, 'samurai_dynasty:steel_ingot', 16, 1395, 900)
     metamorphosis('justhammers:reinforced_impact_core', 1, 'minecraft:diamond', 10, 'justhammers:reinforced_core', 1, 'cataclysm:witherite_ingot', 8, 5345, 900)
     metamorphosis('justhammers:destructor_core', 1, 'minecraft:diamond_block', 2, 'justhammers:reinforced_impact_core', 1, 'cataclysm:ignitium_ingot', 4, 8670, 900)
+    // Corundum
+    metamorphosisWithTag('quark:red_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:red_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:orange_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:orange_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:yellow_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:yellow_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:green_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:lime_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:blue_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:light_blue_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:indigo_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:blue_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:violet_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:magenta_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:white_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:white_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:black_corundum', 1, 'quark:corundum', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:black_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:red_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:red_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:orange_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:orange_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:yellow_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:yellow_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:green_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:lime_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:blue_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:light_blue_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:indigo_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:blue_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:violet_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:magenta_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:white_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:white_dye', 1, 55, 40)
+    metamorphosisWithTag('quark:black_corundum_cluster', 1, 'kubejs:corundum_cluster', 1, 'experienceobelisk:transforming_focus', 1, 'minecraft:black_dye', 1, 55, 40)
 })

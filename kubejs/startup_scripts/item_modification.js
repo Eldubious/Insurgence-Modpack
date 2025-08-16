@@ -14,7 +14,7 @@ ItemEvents.modification(event => {
     const potion_items= ['minecraft:potion', 'minecraft:splash_potion', 'minecraft:lingering_potion', 'estrogen:gender_change_potion', 'unusualend:warped_potion',
         'irons_spellbooks:oakskin_elixir', 'irons_spellbooks:greater_oakskin_elixir', 'irons_spellbooks:greater_healing_potion', 'irons_spellbooks:invisibility_elixir',
         'irons_spellbooks:greater_invisibility_elixir', 'irons_spellbooks:evasion_elixir', 'irons_spellbooks:greater_evasion_elixir', 'irons_spellbooks:fire_ale',
-        'irons_spellbooks:netherward_tincture']
+        'irons_spellbooks:netherward_tincture', 'alexsmobs:lava_bottle']
     potion_items.forEach(element => increaseStackSize(element, 16))
     
     /*

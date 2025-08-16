@@ -93,12 +93,41 @@ ServerEvents.recipes(event => {
             'DED'
         ],
         {
-            A: 'minecraft:blaze_powder',
-            B: 'minecraft:lava_bucket',
+            A: '#mynethersdelight:hot_spice',
+            B: '#kubejs:lava_ingredient',
             C: 'architects_palette:oracle_jelly',
             D: 'create:chromatic_compound',
             E: 'create:blaze_cake_base'
         }
+    )
+    // Blaze Cake
+    event.shaped('create:blaze_cake',
+        [
+            'AAA',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: '#mynethersdelight:hot_spice',
+            B: '#kubejs:lava_ingredient',
+            C: '#forge:eggs',
+            D: 'create:cinder_flour',
+            E: 'create:blaze_cake_base'
+        }
+    )
+    // Add pink salt to cooking recipes
+    event.remove([{id: 'farmersdelight:steak_and_potatoes'}, {id: 'miners_delight:vegan_steak_and_potatoes'}])
+    event.shapeless('farmersdelight:steak_and_potatoes',
+        [
+            'minecraft:baked_potato', 'minecraft:cooked_beef', 'galosphere:pink_salt_shard', 'farmersdelight:onion', 'farmersdelight:cooked_rice',
+            'minecraft:bowl'
+        ]
+    )
+    event.shapeless('miners_delight:vegan_steak_and_potatoes',
+        [
+            'minecraft:baked_potato', '#miners_delight:baked_cave_carrot', 'galosphere:pink_salt_shard', 'farmersdelight:onion', 'farmersdelight:cooked_rice',
+            'minecraft:bowl'
+        ]
     )
     // Smithing Templates
     event.replaceInput([{id: 'traveloptics:abyssal_upgrade_smithing_template'}, {id: 'traveloptics:abyssal_upgrade_smithing_template2'},
@@ -191,6 +220,7 @@ ServerEvents.recipes(event => {
     )
     // Dragon Scale conversion
     event.shapeless('forbidden_arcanus:dragon_scale', ['quark:dragon_scale', 'quark:dragon_scale', 'quark:dragon_scale'])
+    event.shapeless('3x quark:dragon_scale', ['forbidden_arcanus:dragon_scale'])
     // Ancient Metal Weapon Parts
     event.remove({id: 'traveloptics:ancient_metal_weapon_parts'})
     event.shaped('traveloptics:ancient_metal_weapon_parts',
@@ -552,6 +582,9 @@ ServerEvents.recipes(event => {
             F: 'create:brass_casing'
         }
     )
+    // Lava Bucket <-> Lava Bottle
+    event.shapeless('4x alexsmobs:lava_bottle', ['minecraft:lava_bucket', '4x minecraft:glass_bottle'])
+    event.shapeless('minecraft:lava_bucket', ['minecraft:bucket', '4x alexsmobs:lava_bottle'])
 
 
     /*

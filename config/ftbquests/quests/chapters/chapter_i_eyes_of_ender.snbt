@@ -32,7 +32,7 @@
 				"4D8C1EE9AA5C71C3"
 				"667F7F3370EC7932"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "0D84E48E84D4AB37"
 			rewards: [{
@@ -63,6 +63,7 @@
 				"15C9C7208C870228"
 				"32F557426B9BDA45"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "4E251B6663E4D15A"
 			rewards: [{
@@ -93,6 +94,7 @@
 				"09775904AAC3DA95"
 				"2A0DDD7EE0B629F3"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "77BC926446ABCB11"
 			rewards: [{
@@ -123,7 +125,7 @@
 				"41CF7655025B88E9"
 				"4C795DBCF972E15B"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "63575EE03B1455A4"
 			rewards: [{
@@ -154,6 +156,7 @@
 				"22A0586EB1EB1B32"
 				"3AF5D810F519E9D4"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "1B05B422B498B2E2"
 			rewards: [{
@@ -184,6 +187,7 @@
 				"246721898A9A7FE6"
 				"60E8B4F9DFF8E7A4"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "59DDC7277CB358F1"
 			rewards: [{
@@ -214,7 +218,7 @@
 				"273A97292F172154"
 				"64AAA43FFA9FD7B5"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "4F51D68031806B89"
 			rewards: [{
@@ -245,7 +249,7 @@
 				"3342E366D677026B"
 				"0CE39B4DCB6BF667"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "318E78A15B16C2A3"
 			rewards: [{
@@ -276,7 +280,7 @@
 				"4D5676EBC209B585"
 				"3CD1BEE9418055F3"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "6E2BE194B9FA1348"
 			rewards: [{
@@ -307,6 +311,7 @@
 				"6FD6A80D9DC2AD7B"
 				"430B1DE89FCF314E"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "244042B5A65D4E45"
 			rewards: [{
@@ -337,7 +342,7 @@
 				"3D35E639441259C8"
 				"41A41739C8CF6BC7"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "4612DF45B7A0C5A4"
 			rewards: [{
@@ -368,7 +373,7 @@
 				"07337E96BC786D06"
 				"70CB4041AEFBE371"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "0EDEBEEBAABD1CF1"
 			rewards: [{
@@ -399,7 +404,7 @@
 				"26807E6B797EA05E"
 				"035BA8E59B1D620B"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "254170FE6F37010E"
 			rewards: [{
@@ -430,6 +435,7 @@
 				"011AF9D111D31577"
 				"04CA6F79F60EC3FF"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "4346CA9CC61254AE"
 			rewards: [{
@@ -460,6 +466,7 @@
 				"46486E608FE4CCE2"
 				"4459011DB0E24F7B"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "47249D2950480CBC"
 			rewards: [{
@@ -490,6 +497,7 @@
 				"340B8EE3C5C75600"
 				"69A33937551B9025"
 			]
+			dependency_requirement: "one_started"
 			hide_dependent_lines: true
 			id: "7E6F73345F5B2322"
 			rewards: [{
@@ -806,6 +814,7 @@
 		}
 		{
 			dependencies: ["67EFD65213972590"]
+			dependency_requirement: "one_started"
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1038,7 +1047,7 @@
 			hide_until_deps_visible: false
 			icon: "minecraft:end_portal_frame"
 			id: "52E373AA0B08B2E6"
-			min_required_dependencies: 13
+			min_required_dependencies: 2
 			rewards: [
 				{
 					id: "2E4B3C9740F69ED7"

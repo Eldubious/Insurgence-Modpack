@@ -343,4 +343,12 @@ ServerEvents.recipes(event => {
         ],
         'simplyswords:netherite_greathammer', 'simplyswords:mjolnir', 2000, true
     )
+    // Bibliophage
+    apparatusRecipe(
+        [
+            'minecraft:quartz', 'minecraft:quartz', 'minecraft:quartz', 'experienceobelisk:cognitive_amalgam', 'experienceobelisk:cognitive_amalgam',
+            'mahoutsukai:powdered_eye', 'forbidden_arcanus:xpetrified_orb'
+        ],
+        'experienceobelisk:cognitive_crystal', 'experienceobelisk:bibliophage', 1000, true
+    )
 })

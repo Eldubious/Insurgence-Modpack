@@ -223,11 +223,84 @@
 			x: -4.5d
 			y: -6.5d
 		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.6d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.6d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "estrogen:thigh_highs"
@@ -261,6 +334,7 @@
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 3
@@ -321,6 +395,7 @@
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 3
@@ -381,6 +456,7 @@
 		}
 		{
 			description: ["Choose a sapling with a wood color you like!"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -408,6 +484,7 @@
 		}
 		{
 			description: ["This item will reset your insomnia and therefore reset phantom spawning."]
+			disable_toast: true
 			icon: "experienceobelisk:daydream_bottle"
 			id: "4C3304F8914D8E67"
 			rewards: [{
@@ -427,6 +504,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: "wan_ancient_beasts:glider_egg"
 			id: "72F8E842CB03CCC7"
 			rewards: [{
@@ -447,6 +525,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:wayfinder_armor_trim_smithing_template"
 			id: "2FF549CFC50B6D5B"
 			rewards: [{
@@ -468,6 +547,7 @@
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "dimdungeons:block_key_charger_used"
 			id: "127ABD889FA84F18"
@@ -490,6 +570,7 @@
 		{
 			can_repeat: false
 			description: ["Some very useful items to get you going"]
+			disable_toast: true
 			icon: "quark:backpack"
 			id: "2DC00A4D51EC2376"
 			rewards: [
@@ -576,6 +657,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -609,6 +691,7 @@
 		{
 			can_repeat: false
 			description: ["Each of these items will contribute to earning bonus health."]
+			disable_toast: true
 			icon: "farmersdelight:roast_chicken_block"
 			id: "5D71EF430AF4439A"
 			rewards: [{
@@ -630,6 +713,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 5, id: "create:tree_fertilizer" }
 			id: "37EDF15777776299"
 			rewards: [{
@@ -651,6 +735,7 @@
 		}
 		{
 			description: ["90% Stop before they hit it big! Don't let that be you!"]
+			disable_toast: true
 			icon: "aquaculture:treasure_chest"
 			id: "7A39D16352162A0A"
 			rewards: [{
@@ -673,10 +758,12 @@
 		{
 			dependencies: ["4EC3DFF09750A710"]
 			description: ["Get some useful items, or some less-than-useful items."]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "0409FCC8DF7DF534"
 			rewards: [{
 				exclude_from_claim_all: true
+				icon: "minecraft:command_block_minecart"
 				id: "18DBBCD5EAAAA415"
 				table_id: 2858845350081559365L
 				title: "&6&lExchange Command Blocks"
@@ -693,6 +780,7 @@
 			y: -1.5d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:saddle"
 			id: "473F0281FF70566D"
 			rewards: [{
@@ -712,6 +800,7 @@
 			y: -3.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -745,6 +834,7 @@
 		}
 		{
 			description: ["All of these maps will work only in the Overworld."]
+			disable_toast: true
 			icon: "summoningrituals:altar"
 			id: "3EA25DEC7986AD06"
 			rewards: [{
@@ -771,6 +861,7 @@
 			y: -8.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -803,6 +894,7 @@
 			y: -6.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -835,6 +927,7 @@
 			y: -7.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -867,6 +960,7 @@
 			y: -7.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -899,6 +993,7 @@
 			y: -8.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -931,6 +1026,7 @@
 			y: -6.0d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:cherry_sapling"
 			id: "2B95427A7CDB8F63"
 			rewards: [{
@@ -957,6 +1053,7 @@
 			y: -8.0d
 		}
 		{
+			disable_toast: true
 			icon: "minecraft:crimson_fungus"
 			id: "7704933DF209214F"
 			rewards: [{
@@ -983,6 +1080,7 @@
 			y: -8.0d
 		}
 		{
+			disable_toast: true
 			icon: "twilightforest:darkwood_sapling"
 			id: "1042B513148831B4"
 			rewards: [{
@@ -1014,6 +1112,7 @@
 				""
 				"&7&o(Except for the Deep Dark, which also generates in the Depths)"
 			]
+			disable_toast: true
 			icon: "minecraft:glow_berries"
 			id: "00157F92BA1D596B"
 			rewards: [{
@@ -1040,6 +1139,7 @@
 			y: -8.0d
 		}
 		{
+			disable_toast: true
 			icon: "endergetic:tall_poise_bush"
 			id: "39C7D1D64979DC76"
 			rewards: [{
@@ -1066,6 +1166,7 @@
 			y: -6.0d
 		}
 		{
+			disable_toast: true
 			icon: "tropicraft:red_mangrove_propagule"
 			id: "4CFC2BE80A9F3079"
 			rewards: [{
@@ -1092,6 +1193,7 @@
 			y: -7.0d
 		}
 		{
+			disable_toast: true
 			icon: "regions_unexplored:large_prismarite_cluster"
 			id: "0886FE5ACF315950"
 			rewards: [{
@@ -1118,6 +1220,7 @@
 			y: -7.0d
 		}
 		{
+			disable_toast: true
 			icon: "regions_unexplored:red_maple_sapling"
 			id: "240EFD49BC9C8658"
 			rewards: [{
@@ -1144,6 +1247,7 @@
 			y: -6.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 3, id: "ars_nouveau:experience_gem" }
 			id: "2E8695E3ECFAAED6"
 			rewards: [{
@@ -1164,6 +1268,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "unusualend:void_totem"
@@ -1189,6 +1294,177 @@
 			title: "&f&lTotem of the Void"
 			x: -5.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "68D96248B9E40D63"
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 64L
+					id: "605C2504E5791470"
+					item: { Count: 50, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "3DFAC454835EE46D"
+					item: { Count: 20, id: "create:shadow_steel" }
+					type: "item"
+				}
+			]
+			title: "&f&lAncient Tomes"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "60ACE994080EF7B0"
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 10L
+					id: "5CBD92803EBD49C5"
+					item: { Count: 10, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5836182D96B561FC"
+					item: { Count: 10, id: "create:shadow_steel" }
+					type: "item"
+				}
+			]
+			title: "&f&lTipped Arrows"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: { Count: 25, id: "forbidden_arcanus:soul" }
+			id: "02BC0E824CB824F3"
+			rewards: [{
+				count: 25
+				id: "2AB9B4C71377BB73"
+				item: "forbidden_arcanus:soul"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 2L
+					id: "5D06433A77BCBB40"
+					item: { Count: 2, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3C24464454374A27"
+					item: { Count: 5, id: "create:shadow_steel" }
+					type: "item"
+				}
+			]
+			title: "&f&lSouls"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:legendary_ink"
+			id: "062450FBE16E8AF3"
+			rewards: [{
+				id: "21E5AC0FFE579F2D"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 24L
+					id: "77F31B236514685E"
+					item: { Count: 20, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "3DA5BC0119DBF0F3"
+					item: "create:refined_radiance"
+					type: "item"
+				}
+			]
+			title: "&f&lLegendary Ink"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: { Count: 2, id: "irons_spellbooks:epic_ink" }
+			id: "7AE777E250538152"
+			rewards: [{
+				count: 2
+				id: "68305E45A6FA0152"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 12L
+					id: "61A56352742243EE"
+					item: { Count: 12, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "17C95744B0D2DEB2"
+					item: { Count: 16, id: "create:refined_radiance" }
+					type: "item"
+				}
+			]
+			title: "&f&lEpic Ink"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: { Count: 3, id: "relics:relic_experience_bottle" }
+			id: "6884B629FDA8F23B"
+			rewards: [{
+				count: 3
+				id: "11B4276325935175"
+				item: "relics:relic_experience_bottle"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 6L
+					id: "6B389286EBC386DA"
+					item: { Count: 4, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2A414791325EB68C"
+					item: { Count: 4, id: "create:shadow_steel" }
+					type: "item"
+				}
+			]
+			title: "&f&lRelic Experience Bottles"
+			x: 6.5d
+			y: -1.5d
 		}
 	]
 	title: "Shop"

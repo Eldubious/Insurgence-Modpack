@@ -21,6 +21,7 @@
 		{ item: "alexsmobs:terrapin_egg" }
 		{ item: "iceandfire:myrmex_desert_egg" }
 		{ item: "iceandfire:myrmex_jungle_egg" }
+		{ item: "wan_ancient_beasts:surfer_egg" }
 	]
 	title: "&6Market:&r Buy an Egg"
 }

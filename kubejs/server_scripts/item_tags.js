@@ -16,8 +16,6 @@ ServerEvents.tags('item', event => {
 	*/
 	// Add more spicy ingredients to some cooking recipes
 	addToTag('mynethersdelight:hot_spice', 'call_of_yucutan:chili_pepper')
-	addToTag('mynethersdelight:hot_spice', 'twilightforest:fiery_blood')
-	addToTag('mynethersdelight:hot_spice', 'twilightforest:fiery_tears')
 	// Add Alex's Mobs Catfish to catfish tag
 	addToTag('forge:raw_fishes/catfish', 'alexsmobs:raw_catfish')
 	// Add more fish to fillet recipes
@@ -65,7 +63,14 @@ ServerEvents.tags('item', event => {
         'forbidden_arcanus:netherite_blacksmith_gavel', 'forbidden_arcanus:reinforced_deorum_blacksmith_gavel', 'mutantmonsters:hulk_hammer', 'samurai_dynasty:tetsubo', 'samurai_dynasty:tetsubo_netherite',
         'unusualend:warped_anchor']
     can_salvage.forEach(element => addToTag('kubejs:can_salvage_equipment', element))
-	
+	// Items which can be used as lava in recipes
+	addToTag('kubejs:lava_ingredient', 'minecraft:lava_bucket')
+	addToTag('kubejs:lava_ingredient', 'alexsmobs:lava_bottle')
+	// Corundum Clusters
+	const corundum_clusters = ['quark:red_corundum_cluster', 'quark:orange_corundum_cluster', 'quark:yellow_corundum_cluster', 'quark:green_corundum_cluster',
+		'quark:blue_corundum_cluster', 'quark:indigo_corundum_cluster', 'quark:violet_corundum_cluster', 'quark:white_corundum_cluster', 'quark:black_corundum_cluster']
+	corundum_clusters.forEach(element => addToTag('kubejs:corundum_cluster', element))
+
 
 	/*
 		Blacklisting items
