@@ -147,6 +147,7 @@ cumulus_menus-client.toml
 cupboard.json
 curios-client.toml
 curios-common.toml
+darkmodeeverywhereshaders.json
 dice-common.toml
 debugkeybind.json
 defaultoptions-common.toml
@@ -247,7 +248,6 @@ terrablender.toml
 toastcontrol-common.toml
 toms_storage-common.toml
 toolbelt-client.toml
-toolbelt-common.toml
 trade_cycling-client.toml
 transmog.json
 twilightdelight-client.toml

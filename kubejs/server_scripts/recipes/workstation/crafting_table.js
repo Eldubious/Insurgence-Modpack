@@ -292,6 +292,16 @@ ServerEvents.recipes(event => {
             C: 'thaumon:runic_arcane_stone'
         }
     )
+    // Pouch
+    event.replaceInput({id: 'toolbelt:pouch'},
+        'minecraft:gold_ingot',
+        'create:brass_ingot'
+    )
+    // Toolbelt
+    event.replaceInput({id: 'toolbelt:belt'},
+        'minecraft:iron_ingot',
+        'samurai_dynasty:steel_ingot'
+    )
 
 
     

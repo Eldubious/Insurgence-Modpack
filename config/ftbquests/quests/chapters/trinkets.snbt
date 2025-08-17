@@ -238,8 +238,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
-			y: -1.1d
+			x: 8.0d
+			y: -4.1d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -247,8 +247,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: -1.1d
+			x: 8.0d
+			y: -2.6d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -256,8 +256,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.5d
-			y: -1.1d
+			x: -8.0d
+			y: -2.6d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -265,26 +265,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.5d
-			y: -1.1d
-		}
-		{
-			dependency: "23324F0768507D9C"
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -1.1d
-		}
-		{
-			dependency: "23324F0768507D9C"
-			height: 1.0d
-			image: "vinery:item/dark_cherry_shelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.5d
-			y: -1.1d
+			x: -8.0d
+			y: -4.1d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -1299,31 +1281,20 @@
 			dependencies: ["23324F0768507D9C"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "68D96248B9E40D63"
-			shape: "pentagon"
-			tasks: [
-				{
-					count: 64L
-					id: "605C2504E5791470"
-					item: { Count: 50, id: "minecraft:emerald" }
-					type: "item"
+			icon: {
+				Count: 24
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:strong_harming"
 				}
-				{
-					count: 48L
-					id: "3DFAC454835EE46D"
-					item: { Count: 20, id: "create:shadow_steel" }
-					type: "item"
-				}
-			]
-			title: "&f&lAncient Tomes"
-			x: -6.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["23324F0768507D9C"]
-			disable_toast: true
-			hide_until_deps_complete: true
+			}
 			id: "60ACE994080EF7B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3086B5E72C7FB306"
+				table_id: 1539610368305393560L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -1339,7 +1310,7 @@
 					type: "item"
 				}
 			]
-			title: "&f&lTipped Arrows"
+			title: "&f&lRandom Tipped Arrows"
 			x: -6.5d
 			y: -3.0d
 		}
@@ -1401,39 +1372,8 @@
 				}
 			]
 			title: "&f&lLegendary Ink"
-			x: -3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["23324F0768507D9C"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			icon: { Count: 2, id: "irons_spellbooks:epic_ink" }
-			id: "7AE777E250538152"
-			rewards: [{
-				count: 2
-				id: "68305E45A6FA0152"
-				item: "irons_spellbooks:epic_ink"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [
-				{
-					count: 12L
-					id: "61A56352742243EE"
-					item: { Count: 12, id: "minecraft:emerald" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "17C95744B0D2DEB2"
-					item: { Count: 16, id: "create:refined_radiance" }
-					type: "item"
-				}
-			]
-			title: "&f&lEpic Ink"
-			x: -5.0d
-			y: -1.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -1456,15 +1396,96 @@
 					type: "item"
 				}
 				{
-					count: 6L
+					count: 12L
 					id: "2A414791325EB68C"
-					item: { Count: 4, id: "create:shadow_steel" }
+					item: "create:shadow_steel"
 					type: "item"
 				}
 			]
 			title: "&f&lRelic Experience Bottles"
-			x: 6.5d
-			y: -1.5d
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "apotheosis:other_tome"
+			id: "405FF519D1FF8661"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52169C8936A98BC8"
+				table_id: 5961942961853001410L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 6L
+					id: "01B0E0D2D3C391CE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E5FBC7624CDC165"
+					item: "create:shadow_steel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1A49CF2636F9FA1F"
+					item: { Count: 3, id: "create:refined_radiance" }
+					type: "item"
+				}
+			]
+			title: "&f&lRandom Enchanting Tomes"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "apotheosis:ender_lead"
+				tag: {
+					Damage: 0
+					entity_data: { }
+				}
+			}
+			id: "6CE265B3F5CBF15F"
+			rewards: [{
+				id: "1E62CD3F8B1806C8"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 35L
+					id: "1DB837DAF52C9446"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4F791EC32056AFED"
+					item: "create:shadow_steel"
+					type: "item"
+				}
+			]
+			title: "&f&lEnder Lead"
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 	title: "Shop"

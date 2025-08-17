@@ -8,7 +8,7 @@ ServerEvents.tick(event => {
     if (serverTick % 40 == 0) {
         let i = serverTick / 40
         let level = event.server.getLevel(new ResourceLocation(dimensions[i][0], dimensions[i][1]))
-        console.log('checking ' + level.dimension.toString() + ' - current tick: ' + serverTick)
+        //console.log('checking ' + level.dimension.toString() + ' - current tick: ' + serverTick)
         level.getAllEntities().forEach(entity => checkEntity(event.getServer(), entity))
     }
     

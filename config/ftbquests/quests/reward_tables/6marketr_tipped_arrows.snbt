@@ -1,0 +1,78 @@
+{
+	id: "155DCB790759EF98"
+	loot_size: 1
+	order_index: 68
+	rewards: [
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+		}
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:long_slowness"
+				}
+			}
+		}
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:long_poison"
+				}
+			}
+		}
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:long_weakness"
+				}
+			}
+		}
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "unusualend:levitation"
+				}
+			}
+		}
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "the_bumblezone:neurotoxin"
+				}
+			}
+		}
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "witherstormmod:long_wither"
+				}
+			}
+		}
+	]
+	title: "&6Market:&r Tipped Arrows"
+}
