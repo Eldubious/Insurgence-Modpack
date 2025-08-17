@@ -12,7 +12,6 @@ Version 1.1.3
         - Tool Belt Retextured
     - The questbook shop has new inventory added after the player enters the
         dimensional dungeons for the first time
-    - Added "mysterious conversion" recipes to JEI to show that some items are converted in-world
     - There are more tips for loading screens
 
     Changes:
