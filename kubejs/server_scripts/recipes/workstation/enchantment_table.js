@@ -32,4 +32,7 @@ ServerEvents.recipes(event => {
 
     // Hyper Enchant Catalyst
     enchantTable('kubejs:hyper_enchant_catalyst', 1, 'minecraft:diamond', 40, 40, 0, 100, 0, 100)
+
+    // Bibliophage duping
+    enchantTable('experienceobelisk:bibliophage', 2, 'experienceobelisk:bibliophage', 0, 50, 70, 100, 0, 100)
 })

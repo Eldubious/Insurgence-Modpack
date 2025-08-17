@@ -52,7 +52,15 @@
       "minecraft:ore_diamond",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
-      "minecraft:ore_copper"
+      "minecraft:ore_copper",
+      "kubejs:ore_xpetrified",
+      "kubejs:ore_darkstone",
+      "kubejs:ore_arcane_crystal",
+      "kubejs:ore_rune",
+      "kubejs:ore_ruby",
+      "kubejs:ore_silver_small",
+      "kubejs:ore_silver_large",
+      "kubejs:ore_zinc"
     ],
     [],
     [],
@@ -63,7 +71,8 @@
       "kubejs:cave_carrots_patch",
       "kubejs:bone_pile",
       "kubejs:ash_vent",
-      "kubejs:patch_powdery_cane"
+      "kubejs:patch_powdery_cane",
+      "kubejs:petrified_root"
     ]
   ],
   "spawn_costs": {},

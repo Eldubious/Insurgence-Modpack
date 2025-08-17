@@ -6,11 +6,22 @@ ServerEvents.tags('block', event => {
         event.add(tag, item)
     }
 
+    function removeFromTag(tag, item) {
+        event.remove(tag, item)
+    }
+
     // Add Ambrosium Campfire as a heat source
     addToTag('minecraft:campfires', 'ancient_aether:ambrosium_campfire')
 
     // Add Altar of Fire as a heat source (because why not)
     addToTag('farmersdelight:heat_sources', 'cataclysm:altar_of_fire')
+
+    // Configure Vein Mining
+    removeFromTag('forge:ores', 'regions_unexplored:raw_redstone_block')
+    removeFromTag('forge:ores/redstone', 'regions_unexplored:raw_redstone_block')
+    const add_ores = ['forbidden_arcanus:runic_deepslate', 'forbidden_arcanus:runic_darkstone', 'forbidden_arcanus:runic_stone',
+		'forbidden_arcanus:deepslate_arcane_crystal_ore']
+	add_ores.forEach(element => addToTag('forge:ores', element))
 
     const portals = ['kubejs:depths_portal', 'kubejs:dragon_portal', 'kubejs:inbetween_portal']
     portals.forEach(element => {

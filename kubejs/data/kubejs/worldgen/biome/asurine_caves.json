@@ -52,7 +52,15 @@
             "minecraft:ore_diamond",
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
-            "minecraft:ore_copper"
+            "minecraft:ore_copper",
+            "kubejs:ore_xpetrified",
+            "kubejs:ore_darkstone",
+            "kubejs:ore_arcane_crystal",
+            "kubejs:ore_rune",
+            "kubejs:ore_aquamarine",
+            "kubejs:ore_silver_small",
+            "kubejs:ore_silver_large",
+            "kubejs:ore_zinc"
         ],
         [],
         [],
@@ -61,7 +69,8 @@
             "regions_unexplored:giant_blue_bioshroom",
             "regions_unexplored:cave_grass",
             "regions_unexplored:cave_tall_grass",
-            "regions_unexplored:blue_bioshroom"
+            "regions_unexplored:blue_bioshroom",
+            "kubejs:petrified_root"
         ]
     ],
     "creature_spawn_probability": 0.0,

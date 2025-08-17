@@ -21,9 +21,10 @@ ItemEvents.tooltip(event => {
     strength_items.forEach(element => {
         event.add(element, Component.translate('tooltip.kubejs.increase_carrying_capacity'))
     })
+    event.add('forbidden_arcanus:stella_arcanum', Component.translate('tooltip.kubejs.stellarite'))
     
     // Mark unused items
-    const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'samurai_dynasty:ruby_ore', 'samurai_dynasty:deepslate_ruby_ore',
+    const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'simplyswords:decaying_relic',
         'samurai_dynasty:jade', 'samurai_dynasty:jade_ore', 'samurai_dynasty:deepslate_jade_ore', 'samurai_dynasty:raw_silver', 'samurai_dynasty:silver_ingot', 'samurai_dynasty:silver_nugget',
         'samurai_dynasty:silver_ore', 'samurai_dynasty:deepslate_silver_ore', 'samurai_dynasty:ruby_block', 'samurai_dynasty:jade_block', 'samurai_dynasty:silver_block', 'miners_delight:tentacles',
         'miners_delight:baked_tentacles', 'forbidden_arcanus:tentacle', 'forbidden_arcanus:cooked_tentacle', 'tropicraft:pineapple', 'forbidden_arcanus:bat_soup', 'architects_palette:withered_bone',

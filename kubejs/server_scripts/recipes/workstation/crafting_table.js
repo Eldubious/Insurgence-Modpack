@@ -595,6 +595,31 @@ ServerEvents.recipes(event => {
     // Lava Bucket <-> Lava Bottle
     event.shapeless('4x alexsmobs:lava_bottle', ['minecraft:lava_bucket', '4x minecraft:glass_bottle'])
     event.shapeless('minecraft:lava_bucket', ['minecraft:bucket', '4x alexsmobs:lava_bottle'])
+    // Arcane Crystal Obelisks
+    event.shaped('forbidden_arcanus:arcane_crystal_obelisk',
+        [
+            'A ',
+            'A ',
+            'BC'
+        ],
+        {
+            A: 'forbidden_arcanus:arcane_crystal_block',
+            B: 'forbidden_arcanus:arcane_polished_darkstone',
+            C: 'forbidden_arcanus:mundabitur_dust'
+        }
+    )
+    event.shaped('forbidden_arcanus:corrupted_arcane_crystal_obelisk',
+        [
+            'A ',
+            'A ',
+            'BC'
+        ],
+        {
+            A: 'forbidden_arcanus:corrupted_arcane_crystal_block',
+            B: 'forbidden_arcanus:arcane_polished_darkstone',
+            C: 'forbidden_arcanus:mundabitur_dust'
+        }
+    )
 
 
     /*

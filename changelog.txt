@@ -12,15 +12,18 @@ Version 1.1.3
         - Tool Belt Retextured
     - The questbook shop has new inventory added after the player enters the
         dimensional dungeons for the first time
+    - Added "mysterious conversion" recipes to JEI to show that some items are converted in-world
 
     Changes:
     - The game window will now launch maximized
     - Some recipes changed:
         - The Bibliophage is now crafted in the enchanting apparatus
+        - The Bibliophage can also be duplicated with infusion enchanting
         - Various alloys are now made in the basin with a mechanical mixer
         - You can change the color of corundum in the molecular metamorpher
         - Dragonskin can now be made into dragon scales
         - Various cooking recipes have been changed
+        - Crystal obelisks can be crafted for those who do not know how to make them normally
     - Some tarot cards' abilities have changed:
         - The World: Slowness IV -> VI
         - The World: range: 3 -> 8
@@ -35,6 +38,12 @@ Version 1.1.3
         - Melee enemies have 40% life steal and shred through 50% of protection
         - Melee Illagers deal increased knockback, and have +40% knockback resistance
         - Skeletons carry tipped arrows
+    - World gen changes:
+        - Corundum will now also spawn in The Depths
+        - Modded ores should now also spawn in The Depths
+        - You can find pink salt geodes in The Depths
+        - Stella Arcanum generates exclusively in the Dragonrealm
+        - Aurum Trees and yellow orchids can now generate in the Dragonrealm
 
     Fixes:
     - The stronghold eye quests in the questbook should now complete properly
@@ -43,6 +52,8 @@ Version 1.1.3
     - Backpack enemies will no longer play music discs if they spawn with a jukebox upgrade
         (Hopefully this prevents the pancake disc from playing randomly)
     - Added more effect and enchantment descriptions
+    - The vein mining enchantment does not work on raw redstone blocks anymore,
+        but it does work on runic ores and deepslate arcane crystal ore now
 
 
 Version 1.1.2

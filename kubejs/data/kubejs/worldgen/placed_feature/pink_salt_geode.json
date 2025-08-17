@@ -1,5 +1,5 @@
 {
-    "feature": "kubejs:ruby_geode",
+    "feature": "kubejs:pink_salt_geode",
     "placement": [
         {
             "type": "minecraft:rarity_filter",
@@ -13,10 +13,10 @@
             "height": {
                 "type": "minecraft:uniform",
                 "max_inclusive": {
-                    "absolute": 20
+                    "absolute": 128
                 },
                 "min_inclusive": {
-                    "above_bottom": 6
+                    "absolute": -20
                 }
             }
         },

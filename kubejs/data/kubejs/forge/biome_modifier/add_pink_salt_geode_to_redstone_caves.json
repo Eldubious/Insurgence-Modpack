@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "regions_unexplored:redstone_caves",
+  "features": "kubejs:pink_salt_geode",
+  "step": "vegetal_decoration"
+}

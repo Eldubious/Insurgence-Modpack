@@ -23,6 +23,7 @@
     "tooltip.kubejs.withered_smithing_template": "§7§oObtained by defeating the Tainted Village Gate Pearl.",
     "tooltip.kubejs.command_block_book": "§7§oA reward for defeating the Withered Symbiont.",
     "tooltip.kubejs.increase_carrying_capacity": "§9When equipped, this item will allow you to carry +1 backpack.",
+    "tooltip.kubejs.stellarite": "§7§oFound in the Dragonrealm",
 
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",
@@ -170,6 +171,13 @@
     "kubejs.tip.soul_bead": "A Soul Bead can be used to locate a Nether Fortress much like an Eye of Ender.",
     "kubejs.tip.straw": "You can get straw by breaking grass with a knife.",
     "kubejs.tip.knife_ingredients": "There are a lot of ingredients which can only be obtained by killing a mob with a knife.",
+    "kubejs.tip.toolbelt": "The Tool Belt can hold unstackable items, such as tools, and allow you to switch between them easily.",
+    "kubejs.tip.stella_arcanum": "Stellarite can only be found in the Dragonrealm.",
+    "kubejs.tip.ruby_ore": "In The Depths, ruby ore can be found in the Dragon's Hollow biome.",
+    "kubejs.tip.onyx_ore": "In The Depths, onyx ore can be found in the Crimson Caves biome.",
+    "kubejs.tip.jade_ore": "In The Depths, jade ore can be found in the Mossy Fields biome.",
+    "kubejs.tip.aquamarine_ore": "In The Depths, aquamarine ore can be found in the Asurine Caves biome.",
+    "kubejs.tip.ruby_ore_nether": "In the Nether, you can find ruby ore near the bedrock roof.",
 
     "questbook.kubejs.hovertext.cooking_pot": "These foods are made using a Cooking Pot.",
     "questbook.kubejs.hovertext.crafting_table": "These foods are made using a Crafting Table.",

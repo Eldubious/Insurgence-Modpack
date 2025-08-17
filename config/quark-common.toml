@@ -1104,7 +1104,7 @@
 
 			[world.corundum.generation_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "kubejs:the_depths"]
 
 			[world.corundum.generation_settings.biomes]
 

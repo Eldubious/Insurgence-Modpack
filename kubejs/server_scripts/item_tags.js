@@ -101,6 +101,14 @@ ServerEvents.tags('item', event => {
 		addToTag('supplementaries:overencumbering', element)
 		addToTag('quark:backpack_blocked', element)
 	})
+	// Vein Mining config
+	removeFromTag('forge:ores', 'regions_unexplored:raw_redstone_block')
+	removeFromTag('forge:ores/redstone', 'regions_unexplored:raw_redstone_block')
+	removeFromTag('minecraft:redstone_ores', 'regions_unexplored:raw_redstone_block')
+	removeFromTag('balm:ores', 'regions_unexplored:raw_redstone_block')
+	const add_ores = ['forbidden_arcanus:runic_deepslate', 'forbidden_arcanus:runic_darkstone', 'forbidden_arcanus:runic_stone',
+		'forbidden_arcanus:deepslate_arcane_crystal_ore']
+	add_ores.forEach(element => addToTag('forge:ores', element))
 
 	/*
 		Curios

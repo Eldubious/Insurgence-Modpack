@@ -39,7 +39,15 @@
             "minecraft:ore_diamond",
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
-            "minecraft:ore_copper"
+            "minecraft:ore_copper",
+            "kubejs:ore_xpetrified",
+            "kubejs:ore_darkstone",
+            "kubejs:ore_arcane_crystal",
+            "kubejs:ore_rune",
+            "kubejs:ore_jade",
+            "kubejs:ore_silver_small",
+            "kubejs:ore_silver_large",
+            "kubejs:ore_zinc"
         ],
         [],
         [],
@@ -50,7 +58,8 @@
             "minecraft:spore_blossom",
             "kubejs:azalea_tree",
             "kubejs:mining_tree",
-            "kubejs:cave_carrots_patch"
+            "kubejs:cave_carrots_patch",
+            "kubejs:petrified_root"
         ]
     ],
     "creature_spawn_probability": 0.0,

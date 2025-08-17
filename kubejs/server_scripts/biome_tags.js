@@ -86,6 +86,13 @@ ServerEvents.tags('worldgen/biome', event => {
     addToTag('savage_and_ravage:has_monster/iceologer', 'regions_unexplored:frozen_tundra')
     addToTag('savage_and_ravage:has_monster/iceologer', 'regions_unexplored:icy_heights')
     addToTag('savage_and_ravage:has_monster/iceologer', 'regions_unexplored:spires')
+    // Add aurum trees and yellow orchid to these biomes
+    addToTag('kubejs:allow_forbidden_arcanus_features', 'regions_unexplored:silver_birch_forest')
+    addToTag('kubejs:allow_forbidden_arcanus_features', 'regions_unexplored:autumnal_maple_forest')
+    addToTag('kubejs:allow_forbidden_arcanus_features', 'regions_unexplored:maple_forest')
+    addToTag('kubejs:allow_forbidden_arcanus_features', 'regions_unexplored:grassland')
+    addToTag('kubejs:allow_forbidden_arcanus_features', 'regions_unexplored:barley_fields')
+    addToTag('kubejs:allow_forbidden_arcanus_features', 'regions_unexplored:poppy_fields')
 
     // Allow custom dragon nests to spawn
     // Fire Dragons

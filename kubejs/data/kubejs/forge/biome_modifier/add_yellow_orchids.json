@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#kubejs:allow_forbidden_arcanus_features",
+  "features": "kubejs:flower_yellow_orchid",
+  "step": "vegetal_decoration"
+}

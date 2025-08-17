@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#kubejs:allow_forbidden_arcanus_features",
+  "features": "kubejs:aurum_tree",
+  "step": "vegetal_decoration"
+}
