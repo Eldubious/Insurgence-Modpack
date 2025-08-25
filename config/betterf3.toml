@@ -150,10 +150,10 @@
 		"endergetic:end_creature" = false
 		cave_creature = false
 		deep_sea_creature = false
-		aether_surface_monster = false
-		aether_darkness_monster = false
-		aether_sky_monster = false
-		aether_aerwhale = false
+		aether_surface_monster = true
+		aether_darkness_monster = true
+		aether_sky_monster = true
+		aether_aerwhale = true
 
 [[modules_left]]
 	name = "sound"

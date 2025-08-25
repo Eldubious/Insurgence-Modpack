@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:paletted_permutations",
+      "textures": [
+        "alexscaves:textures/trims/models/elytra/polarity",
+        "ancient_aether:trims/models/elytra/whale",
+        "ancient_aether:trims/models/elytra/solar",
+        "ancient_aether:trims/models/elytra/wynd",
+        "ancient_aether:trims/models/elytra/royal",
+        "ancient_aether:trims/models/elytra/mysterious",
+        "ancient_aether:trims/models/elytra/mosaic",
+        "ancient_aether:trims/models/elytra/mechanical",
+        "ancient_aether:trims/models/elytra/ancient",
+        "ancient_aether:trims/models/elytra/ascended"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+                "quartz": "trims/color_palettes/quartz",
+                "iron": "trims/color_palettes/iron",
+                "gold": "trims/color_palettes/gold",
+                "diamond": "trims/color_palettes/diamond",
+                "netherite": "trims/color_palettes/netherite",
+                "redstone": "trims/color_palettes/redstone",
+                "copper": "trims/color_palettes/copper",
+                "emerald": "trims/color_palettes/emerald",
+                "lapis": "trims/color_palettes/lapis",
+                "amethyst": "trims/color_palettes/amethyst",
+                "iron_darker": "trims/color_palettes/iron_darker",
+                "gold_darker": "trims/color_palettes/gold_darker",
+                "diamond_darker": "trims/color_palettes/diamond_darker",
+                "netherite_darker": "trims/color_palettes/netherite_darker",
+                "ancient_gold_trim": "trims/color_palettes/ancient_gold_trim",
+                "ancient_metal": "cataclysm:trims/color_palettes/ancient_metal",
+                "atmosine": "ancient_aether:trims/color_palettes/atmosine",
+                "carminite": "twilightforest:trims/color_palettes/carminite",
+                "citrine_material": "trims/color_palettes/citrine_material",
+                "cursium": "cataclysm:trims/color_palettes/cursium",
+                "fiery": "twilightforest:trims/color_palettes/fiery",
+                "golden_amber": "aether:trims/color_palettes/golden_amber",
+                "gravitite": "aether:trims/color_palettes/gravitite",
+                "hematite_trim": "trims/color_palettes/hematite_trim",
+                "ignitium": "cataclysm:trims/color_palettes/ignitium",
+                "ironwood": "twilightforest:trims/color_palettes/ironwood",
+                "jade_trim": "trims/color_palettes/jade_trim",
+                "knightmetal": "twilightforest:trims/color_palettes/knightmetal",
+                "naga_scale": "twilightforest:trims/color_palettes/naga_scale",
+                "pearlescent_material": "trims/color_palettes/pearlescent_material",
+                "platinum": "illagerinvasion:trims/color_palettes/platinum",
+                "prismatic_material": "trims/color_palettes/prismatic_material",
+                "ruby": "trims/color_palettes/ruby",
+                "shiny_material": "trims/color_palettes/shiny_material",
+                "steelleaf": "twilightforest:trims/color_palettes/steelleaf",
+                "valkyrum": "ancient_aether:trims/color_palettes/valkyrum",
+                "witherite": "cataclysm:trims/color_palettes/witherite",
+                "zanite": "aether:trims/color_palettes/zanite"
+      }
+    }
+  ]
+}

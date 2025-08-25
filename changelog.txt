@@ -22,6 +22,7 @@ Version 1.2.0
 
     - Fixes:
         - The quest to locate the stronghold now check for the correct structure
+        - Removed the recipe book
 
 Version 1.1.3
     Additions:
