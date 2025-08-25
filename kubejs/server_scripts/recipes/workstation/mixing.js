@@ -46,4 +46,25 @@ ServerEvents.recipes(event => {
     // Hullbreaker Steel
     event.remove({id: 'traveloptics:hullbreaker_steel'})
     mixing('traveloptics:hullbreaker_steel', ['4x irons_spellbooks:arcane_ingot', 'traveloptics:hullbreaker_scales', Fluid.water(1000)], 2)
+    // Certus Quartz
+    mixing('2x ae2:certus_quartz_crystal', [Fluid.water(250), 'ae2:certus_quartz_dust', 'ae2:charged_certus_quartz_crystal'], 0)
+    // Pearlescent Ingot
+    event.remove({id: 'unusualend:pearly_ingot_recipe'})
+    mixing('unusualend:pearlescent_ingot', [Fluid.lava(500), 'samurai_dynasty:amethyst_ingot', 'unusualend:shiny_crystal', 'unusualend:citrine_chunk', 'unusualend:prismalite_gem', 'unusualend:enderling_scrap'], 2)
+    // Budding Certus Quartz
+    mixing('ae2:damaged_budding_quartz', [Fluid.water(1000), 'ae2:quartz_block', '2x ae2:charged_certus_quartz_crystal'], 1)
+    mixing('ae2:chipped_budding_quartz', [Fluid.water(1000), 'ae2:damaged_budding_quartz', '2x ae2:charged_certus_quartz_crystal'], 1)
+    mixing('ae2:flawed_budding_quartz', [Fluid.water(1000), 'ae2:chipped_budding_quartz', '2x ae2:charged_certus_quartz_crystal'], 1)
+
+
+    // Paint Balls
+    const colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown',
+        'green', 'red', 'black']
+    colors.forEach(color => {
+        event.remove({id: `ae2:tools/paintballs_${color}`})
+        event.remove({id: `ae2:tools/paintballs_lumen_${color}`})
+
+        mixing(`ae2:${color}_paint_ball`, [Fluid.water(250), `minecraft:${color}_dye`, 'ae2:matter_ball'], 0)
+        mixing(`ae2:${color}_lumen_paint_ball`, [Fluid.water(250), `minecraft:${color}_dye`, 'minecraft:glowstone_dust', 'ae2:matter_ball'], 0)
+    })
 })

@@ -1,3 +1,26 @@
+Version 1.2.0
+    Additions:
+    - Added mods:
+        - Applied Energistics 2
+        - Create: Applied Kinetics
+        - AE InfinityBooster
+        - AE2 Things
+    - Added Resource packs:
+        - Updated Aquaculture
+        - Applied Energistics 2 - Textures Backport
+    - Added 3 new hidden achievements
+
+    - Changes:
+        - Rebalanced several recipes:
+            - Almost every recipe from AE2 was changed
+            - Made several recipes from Cognition cheaper
+            - Slightly tweaked one of the Rogue Eye recipes
+        - Mobs in the Dimensional Dungeons do 3x more damage and have their resistance lowered by 2 levels
+        - Swapped the questbook shop items for the Void Totem and Tipped Arrows
+
+    - Fixes:
+        - The quest to locate the stronghold now check for the correct structure
+
 Version 1.1.3
     Additions:
     - Added mods:

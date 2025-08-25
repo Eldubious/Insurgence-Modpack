@@ -189,6 +189,21 @@ ServerEvents.recipes(event => {
         ],
         800
     )
+    // Charged Certus Quartz
+    imbuement('ae2:charged_certus_quartz_crystal', 'ae2:certus_quartz_crystal',
+        [
+            'create:electron_tube', 'ae2:sky_dust', 'irons_spellbooks:lightning_rune'
+        ],
+        3000
+    )
+    // Fluix Pearl
+    event.remove({id: 'ae2:misc/fluixpearl'})
+    imbuement('ae2:fluix_pearl', '#forge:ender_pearls',
+        [
+            '#ae2:all_fluix', '#ae2:all_fluix', '#ae2:all_fluix', '#ae2:all_fluix'
+        ],
+        3000
+    )
 
     /*
         Architects Palette decoration blocks made originally from warping

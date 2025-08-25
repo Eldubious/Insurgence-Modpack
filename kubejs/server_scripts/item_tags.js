@@ -70,6 +70,11 @@ ServerEvents.tags('item', event => {
 	const corundum_clusters = ['quark:red_corundum_cluster', 'quark:orange_corundum_cluster', 'quark:yellow_corundum_cluster', 'quark:green_corundum_cluster',
 		'quark:blue_corundum_cluster', 'quark:indigo_corundum_cluster', 'quark:violet_corundum_cluster', 'quark:white_corundum_cluster', 'quark:black_corundum_cluster']
 	corundum_clusters.forEach(element => addToTag('kubejs:corundum_cluster', element))
+	// Add AE2's cutting knives as knife tools
+	addToTag('forge:tools/knives', 'ae2:certus_quartz_cutting_knife')
+	addToTag('forge:tools/knives', 'ae2:quatz_cutting_knife')
+	addToTag('farmersdelight:tools/knives', 'ae2:certus_quartz_cutting_knife')
+	addToTag('farmersdelight:tools/knives', 'ae2:quatz_cutting_knife')
 
 
 	/*
@@ -134,7 +139,7 @@ ServerEvents.tags('item', event => {
 	// Remove talent slot from items
 	const talent_items = ['traveloptics:aetherial_despair_ring', 'traveloptics:firestorm_ring', 'traveloptics:azure_ignition_bracelet',
 		'traveloptics:nightstalkers_band', 'traveloptics:energy_unbound_necklace', 'traveloptics:sigil_of_the_spider_sorcerer',
-		'traveloptics:amulet_of_spectral_shift', 'traveloptics:bottled_raincloud']
+		'traveloptics:amulet_of_spectral_shift', 'traveloptics:bottled_raincloud', 'traveloptics:hydrocharge_bracelet', 'traveloptics:cryostorm_bracelet']
 	talent_items.forEach(element => removeFromTag('curios:talent', element))
 	// Relics quiver
 	removeFromTag('curios:back', 'relics:arrow_quiver')
@@ -157,12 +162,17 @@ ServerEvents.tags('item', event => {
 		'quark:seed_pouch', 'the_bumblezone:buzzing_briefcase', 'create:light_gray_toolbox', 'create:cyan_toolbox', 'create:purple_toolbox',
 		'create:blue_toolbox', 'create:green_toolbox', 'create:red_toolbox', 'create:black_toolbox', 'create:brown_toolbox', 'create:white_toolbox',
 		'create:orange_toolbox', 'create:magenta_toolbox', 'create:light_blue_toolbox', 'create:yellow_toolbox', 'create:lime_toolbox',
-		'create:pink_toolbox', 'create:gray_toolbox', 'supplementaries:lunch_basket']
+		'create:pink_toolbox', 'create:gray_toolbox', 'supplementaries:lunch_basket', 'ae2:portable_item_cell_1k', 'ae2:portable_fluid_cell_1k',
+		'ae2:portable_item_cell_4k', 'ae2:portable_fluid_cell_4k', 'ae2:portable_item_cell_16k', 'ae2:portable_fluid_cell_16k', 'ae2:portable_item_cell_64k', 'ae2:portable_fluid_cell_64k',
+		'ae2:portable_item_cell_256k', 'ae2:portable_fluid_cell_256k'
+	]
 	bundle_items.forEach(element => addToTag('curios:bundle', element))
 	// Add items for the compass slot
 	removeFromTag('curios:hands', 'map_atlases:atlas')
 	const compass_items = ['minecraft:compass', 'minecraft:clock', 'minecraft:recovery_compass', 'supplementaries:altimeter', 'galosphere:barometer',
-		'map_atlases:atlas', 'breezy:gust_gauge', 'irons_spellbooks:wayward_compass', 'travelerscompass:travelerscompass', 'the_bumblezone:honey_compass']
+		'map_atlases:atlas', 'breezy:gust_gauge', 'irons_spellbooks:wayward_compass', 'travelerscompass:travelerscompass', 'the_bumblezone:honey_compass',
+		'ae2:meteorite_compass'
+	]
 	compass_items.forEach(element => addToTag('curios:compass', element))
 
 

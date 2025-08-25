@@ -351,4 +351,28 @@ ServerEvents.recipes(event => {
         ],
         'experienceobelisk:cognitive_crystal', 'experienceobelisk:bibliophage', 1000, true
     )
+    // Network Tool
+    event.remove({id: 'ae2:tools/network_tool'})
+    apparatusRecipe(
+        [
+            '#forge:chests/wooden', '#ae2:illuminated_panel', 'ae2:calculation_processor'
+        ],
+        '#ae2:quartz_wrench', 'ae2:network_tool', 500, true
+    )
+    // Hydrocharge Bracelet
+    event.remove({id: 'traveloptics:smithing/hydrocharge_bracelet'})
+    apparatusRecipe(
+        [
+            'cataclysm:lacrima', 'cataclysm:lacrima', 'alexscaves:pearl', 'alexscaves:pearl', 'alexscaves:pearl'
+        ],
+        'traveloptics:shattered_hydrocharge_bracelet', 'traveloptics:hydrocharge_bracelet', 4000, false
+    )
+    // Cryostorm Bracelet
+    event.remove({id: 'traveloptics:smithing/cryostorm_bracelet'})
+    apparatusRecipe(
+        [
+            'irons_spellbooks:permafrost_shard', 'irons_spellbooks:permafrost_shard', 'alexscaves:pearl', 'alexscaves:pearl', 'alexscaves:pearl'
+        ],
+        'traveloptics:frosted_cryostorm_bracelet', 'traveloptics:cryostorm_bracelet', 4000, false
+    )
 })

@@ -1065,8 +1065,8 @@
 			size: 3.5d
 			tasks: [{
 				icon: "minecraft:ender_eye"
-				id: "6C1495A548FAF797"
-				structure: "minecraft:stronghold"
+				id: "06C05F9E086101DE"
+				structure: "betterstrongholds:stronghold"
 				type: "structure"
 			}]
 			title: "Find a Stronghold"
@@ -1238,14 +1238,14 @@
 					count: 2L
 					disable_toast: true
 					id: "250EABC44A844322"
-					item: { Count: 2, id: "create:cogwheel" }
+					item: "create:large_cogwheel"
 					type: "item"
 				}
 				{
 					count: 2L
 					disable_toast: true
 					id: "21A31CF0DB1841F3"
-					item: { Count: 2, id: "create:zinc_ingot" }
+					item: "create:brass_ingot"
 					type: "item"
 				}
 				{
@@ -1257,7 +1257,7 @@
 				{
 					disable_toast: true
 					id: "4854EDCDB1F4E1F3"
-					item: "create:large_cogwheel"
+					item: "create:experience_block"
 					type: "item"
 				}
 			]

@@ -220,6 +220,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "216103656576EEAC"
+					item: "ae2:guide"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{

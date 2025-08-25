@@ -27,6 +27,7 @@
 				"4E6F2B9CB624394C"
 				"745FC63E15FD4A49"
 				"68EB589E7A45F716"
+				"4690C38844E97910"
 			]
 			description: [
 				"One of two items needed for crafting a Command Block."
@@ -85,7 +86,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -103,8 +104,8 @@
 				item: { Count: 4, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 6.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -123,7 +124,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -142,7 +143,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -161,7 +162,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -180,7 +181,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -199,7 +200,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -218,7 +219,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["29AF050547FA1FFF"]
@@ -660,6 +661,19 @@
 			title: "Obtaining Necessary Materials"
 			x: 18.25d
 			y: -3.5d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			hide_dependency_lines: true
+			id: "4690C38844E97910"
+			tasks: [{
+				count: 4L
+				id: "0BA544792BC78EF8"
+				item: { Count: 4, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
 		}
 	]
 	title: "Chapter II: Command Block"

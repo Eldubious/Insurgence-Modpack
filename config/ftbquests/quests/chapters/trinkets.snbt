@@ -1252,19 +1252,18 @@
 		{
 			disable_toast: true
 			icon: {
-				Count: 1
-				id: "unusualend:void_totem"
-				tag: { }
+				Count: 24
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:poison"
+				}
 			}
 			id: "05A64DEB6760A3E8"
 			rewards: [{
-				id: "6256E32DAB9F31D0"
-				item: {
-					Count: 1
-					id: "unusualend:void_totem"
-					tag: { }
-				}
-				type: "item"
+				id: "14BDA2CAE9C76090"
+				table_id: 1539610368305393560L
+				title: "Random Tipped Arrows"
+				type: "random"
 			}]
 			shape: "pentagon"
 			tasks: [{
@@ -1273,7 +1272,7 @@
 				item: { Count: 25, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			title: "&f&lTotem of the Void"
+			title: "&f&lRandom Tipped Arrow"
 			x: -5.0d
 			y: -4.5d
 		}
@@ -1282,18 +1281,19 @@
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: {
-				Count: 24
-				id: "minecraft:tipped_arrow"
-				tag: {
-					Potion: "minecraft:strong_harming"
-				}
+				Count: 1
+				id: "unusualend:void_totem"
+				tag: { }
 			}
 			id: "60ACE994080EF7B0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3086B5E72C7FB306"
-				table_id: 1539610368305393560L
-				type: "random"
+				id: "2A5B00697E3B5507"
+				item: {
+					Count: 1
+					id: "unusualend:void_totem"
+					tag: { }
+				}
+				type: "item"
 			}]
 			shape: "pentagon"
 			tasks: [
@@ -1310,7 +1310,7 @@
 					type: "item"
 				}
 			]
-			title: "&f&lRandom Tipped Arrows"
+			title: "&f&lTotem of the Void"
 			x: -6.5d
 			y: -3.0d
 		}

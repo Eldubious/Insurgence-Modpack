@@ -1,0 +1,26 @@
+{
+    "name": {
+        "color": "#F2EBE4",
+        "translate": "trophy.kubejs.command_block_hoe"
+    },
+    "display": {
+        "scale": 1.75,
+        "rotation": {
+            "x": 180,
+            "y": 35,
+            "z": 0
+        },
+        "offset": {
+            "x": 0,
+            "y": 13,
+            "z": 0
+        }
+    },
+    "item": {
+        "item": "witherstormmod:iron_command_block_hoe"
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#F2EBE4"
+    }
+}

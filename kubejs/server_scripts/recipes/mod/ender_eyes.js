@@ -313,12 +313,12 @@ ServerEvents.recipes(event => {
             'EFE'
         ],
         {
-            A: 'create:cogwheel',
+            A: 'create:large_cogwheel',
             B: 'minecraft:sticky_piston',
-            C: 'create:zinc_ingot',
+            C: 'create:brass_ingot',
             D: 'minecraft:ender_eye',
             E: 'minecraft:slime_ball',
-            F: 'create:large_cogwheel'
+            F: 'create:experience_block'
         }
     )
 

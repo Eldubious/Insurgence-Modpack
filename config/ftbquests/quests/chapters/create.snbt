@@ -6,6 +6,48 @@
 	group: "3CFA5B714A0693A0"
 	icon: "create:brass_hand"
 	id: "6B8ECE496184FF3A"
+	images: [
+		{
+			height: 1.5d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "ae2:block/crafting/1k_storage_light"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 2.5d
+			image: "ae2:block/crafting/4k_storage_light"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 2.5d
+			image: "ae2:block/crafting/64k_storage_light"
+			rotation: 0.0d
+			width: 2.5d
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			height: 2.5d
+			image: "ae2:block/crafting/256k_storage_light"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.0d
+			y: -1.5d
+		}
+	]
 	order_index: 2
 	quest_links: [{
 		id: "3CACE2BC9F1A7B87"
@@ -742,6 +784,492 @@
 			title: "Learn How to Use Create Machines"
 			x: 0.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6E39CD54AC77B200"]
+			hide_dependency_lines: true
+			id: "14590D7B95A4A893"
+			rewards: [{
+				id: "2C6FF0EC40AA4A23"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "0FDEEBBFF9FD072E"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["026BF051B780DCB2"]
+			description: [
+				"Item and Fluid cells both store a large amount of their respective items, but have a limit on how many different types of items they can hold."
+				""
+				"DISK cells do not have a type limit."
+			]
+			hide_dependency_lines: true
+			id: "761C201C511AB55F"
+			rewards: [{
+				id: "36494BEB7296592E"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4E5F3CAE3C72D0D3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_cell_housing"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_cell_housing"
+							}
+							{
+								Count: 1b
+								id: "ae2things:disk_housing"
+							}
+						]
+					}
+				}
+				title: "Any Cell Housing"
+				type: "item"
+			}]
+			title: "Cell Housing"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55349995779E8419"]
+			hide_dependency_lines: true
+			id: "3CEAA10FF1B7CBF2"
+			rewards: [{
+				id: "5CD825B48779C5D5"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3FA1BF97F4910164"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CEAA10FF1B7CBF2"]
+			description: ["Made by condensing any 64 items in a Matter Condenser."]
+			id: "1620CA6E084710ED"
+			rewards: [{
+				id: "2AF4EA640B03916A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "419F5EE01D523347"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CEAA10FF1B7CBF2"]
+			description: ["Made by condensing any 256 items in a Matter Condenser."]
+			id: "79AFCCF55640B998"
+			rewards: [{
+				id: "454F256FC7F3C3DB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "77DD74D27CC0413C"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30C8F470EF6EB3EB"]
+			description: ["You are only able to power your ME network with rotational power using the Energy Provider."]
+			hide_dependency_lines: true
+			id: "12283EE59ADD53C9"
+			rewards: [{
+				id: "29D419223CBFC244"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "131BE10F19F74CA3"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "6EFE61D28D3E3BAA"
+					item: "createappliedkinetics:energy_provider"
+					type: "item"
+				}
+			]
+			title: "Power Generation"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14590D7B95A4A893"]
+			id: "271B9EBD12C9A002"
+			rewards: [{
+				id: "38A23769410CEB03"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4ABAE6DCA06E8C87"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["271B9EBD12C9A002"]
+			id: "056283EB3D64BDFB"
+			rewards: [{
+				id: "1AFD02C9765FB9E1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "67396E995DA423F2"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["271B9EBD12C9A002"]
+			id: "0ECB6F99070568B6"
+			rewards: [{
+				id: "5482DD19CFD4DD94"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5FA8A1AEA2A2B60C"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["271B9EBD12C9A002"]
+			id: "25EAAEEC0EB1C8D8"
+			rewards: [{
+				id: "725677E45DECB2EA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "78B37D8FFD7E117B"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "6E6E411CF4D77DDB"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "Formation \\& Annihilation Core"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["761C201C511AB55F"]
+			id: "707A21A16EA76BB1"
+			rewards: [{
+				id: "17DB7C9E2BFAB8E9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2A0EDF2E03C1FEB6"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["707A21A16EA76BB1"]
+			id: "557CC7E35C16B20E"
+			rewards: [{
+				id: "71AE5423BE3C104A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "43CB871A7AF5B290"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["557CC7E35C16B20E"]
+			id: "48D3C1D6E85D2E1B"
+			rewards: [{
+				id: "675E37E8796BA548"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "415D207CFFABEE85"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48D3C1D6E85D2E1B"]
+			id: "0E00E369B1271EB1"
+			rewards: [{
+				id: "280AC555C5E71A53"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "36140B97E0CB157A"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E00E369B1271EB1"]
+			id: "11525398D5FF46C6"
+			rewards: [{
+				id: "1E283D3FE7BEED09"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0CBFDAA991824407"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12283EE59ADD53C9"]
+			id: "50FE3369B8CDF01F"
+			rewards: [{
+				id: "5E99DCAD106AF6DD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6ABF462CAB39C59E"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "38C87D61C65F9466"
+			rewards: [{
+				id: "25F2C25CB403E8FE"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "58831FC897856181"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.5d
+		}
+		{
+			id: "795F51BA9A2F7430"
+			rewards: [{
+				id: "24358B7CE63341D2"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "41387B8D3A05AB40"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			id: "74E7A03C8CE021A8"
+			rewards: [{
+				id: "2C5BF0908AB6C7DD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "70FFA0DC86EBCBE6"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.25d
+		}
+		{
+			id: "22DE146F7052613C"
+			rewards: [{
+				id: "5262EAA652097344"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3DB80589E9C4FAC5"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50FE3369B8CDF01F"]
+			id: "111312ECCB57A31F"
+			rewards: [{
+				id: "57B8245CAA514AA7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3C593B6CC86328C9"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["761C201C511AB55F"]
+			id: "7B089725F069D132"
+			rewards: [{
+				id: "16835BDC5FB3E982"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "66DA777A7759CAFF"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B089725F069D132"]
+			id: "257BB74BAF1784DA"
+			rewards: [{
+				id: "69218C73B2F232B6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "580E945F1D5EA239"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["257BB74BAF1784DA"]
+			id: "76459537D9DE8743"
+			rewards: [{
+				id: "457BB9DA4247F163"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7DCCD08A3C06A315"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79AFCCF55640B998"]
+			id: "20E2EB7EC329D048"
+			tasks: [{
+				id: "3E4788801DFBF845"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79AFCCF55640B998"]
+			id: "69061F9DA016CDBF"
+			tasks: [{
+				id: "2262FCC1DF54C5C1"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69061F9DA016CDBF"]
+			id: "3F83C462FF0EECE7"
+			tasks: [{
+				id: "74427B807A664A32"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
 		}
 	]
 	title: "Machines"

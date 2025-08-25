@@ -1,0 +1,16 @@
+{
+    "name": {
+        "color": "#6A33A1",
+        "translate": "trophy.kubejs.dimension_card"
+    },
+    "display": {
+        "scale": 1
+    },
+    "item": {
+        "item": "ae2:quantum_entangled_singularity"
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#6A33A1"
+    }
+}

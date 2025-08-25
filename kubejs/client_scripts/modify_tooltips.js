@@ -37,7 +37,11 @@ ItemEvents.tooltip(event => {
         'sophisticatedstorage:hopper_upgrade', 'sophisticatedstorage:advanced_hopper_upgrade', 'sophisticatedstorage:pump_upgrade', 'sophisticatedstorage:advanced_pump_upgrade',
         'sophisticatedstorage:xp_pump_upgrade', 'sophisticatedstorage:feeding_upgrade', 'sophisticatedstorage:advanced_feeding_upgrade', 'sophisticatedstorage:magnet_upgrade',
         'sophisticatedstorage:advanced_magnet_upgrade', 'sophisticatedstorage:auto_smelting_upgrade', 'sophisticatedstorage:auto_blasting_upgrade', 'sophisticatedstorage:auto_smoking_upgrade',
-        'sophisticatedstorage:compression_upgrade'
+        'sophisticatedstorage:compression_upgrade', 'ae2:entropy_manipulator', 'ae2:charged_staff', 'ae2:crafting_unit', 'ae2:crafting_accelerator', 'ae2:1k_crafting_storage',
+        'ae2:4k_crafting_storage', 'ae2:16k_crafting_storage', 'ae2:64k_crafting_storage', 'ae2:256k_crafting_storage', 'ae2:crafting_monitor', 'ae2:name_press', 'ae2:blank_pattern',
+        'ae2:molecular_assembler', 'ae2:pattern_provider', 'ae2:cable_pattern_provider', 'ae2:ender_dust', 'ae2:formation_plane', 'ae2:annihilation_plane', 'ae2:pattern_access_terminal',
+        'ae2:pattern_encoding_terminal', 'ae2:vibration_chamber', 'ae2:export_bus', 'ae2:import_bus', 'ae2:crystal_resonance_generator', 'ae2:quantum_entangled_singularity',
+        'ae2:creative_item_cell', 'ae2:creative_fluid_cell', 'ae2:quantum_ring', 'ae2:quantum_link', 'ae2:inscriber'
     ]
     unused_items.forEach(element => {
         event.add(element, Component.translate('tooltip.kubejs.unused_item'))

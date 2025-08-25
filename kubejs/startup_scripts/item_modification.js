@@ -227,7 +227,14 @@ ItemEvents.modification(event => {
         'wan_ancient_beasts:pink_hang_glider', 'wan_ancient_beasts:ancient_club', 'wan_ancient_beasts:reinforced_shield', 'experienceobelisk:transforming_focus',
         'psi:cad_assembly_iron', 'psi:cad_assembly_gold', 'psi:cad_battery_extended', 'psi:exosuit_controller', 'psi:cad_core_overclocked', 'psi:cad_core_conductive',
         'psi:cad_socket_signaling', 'psi:cad_socket_large', 'psi:ebony_substance', 'psi:ivory_substance', 'ars_elemental:base_bangle', 'wan_ancient_beasts:surfer_skull',
-        'wan_ancient_beasts:surfer_armor'
+        'wan_ancient_beasts:surfer_armor', 'ae2:spatial_cell_component_2', 'ae2:spatial_cell_component_16', 'ae2:spatial_cell_component_128', 'ae2:cell_component_1k',
+        'ae2:cell_component_4k', 'ae2:cell_component_16k', 'ae2:cell_component_64k', 'ae2:cell_component_256k', 'ae2:item_cell_housing', 'ae2:fluid_cell_housing',
+        'ae2:network_tool', 'ae2:damaged_budding_quartz', 'ae2:chipped_budding_quartz', 'ae2:flawed_budding_quartz', 'ae2:engineering_processor', 'ae2:logic_processor',
+        'ae2:calculation_processor', 'ae2:charged_certus_quartz_crystal', 'ae2:matter_ball', 'ae2:silicon_press', 'ae2:calculation_processor_press', 'ae2:logic_processor_press',
+        'ae2:engineering_processor_press', 'ae2:redstone_card', 'ae2:capacity_card', 'ae2:void_card', 'ae2:fuzzy_card', 'ae2:speed_card', 'ae2:inverter_card', 'ae2:crafting_card',
+        'ae2:equal_distribution_card', 'ae2:energy_card', 'ae2:matter_cannon', 'ae2:color_applicator', 'ae2:controller', 'ae2:meteorite_compass', 'ae2:wireless_crafting_terminal',
+        'ae2:wireless_terminal', 'ae2:certus_quartz_wrench', 'ae2:certus_quartz_cutting_knife', 'ae2:certus_quartz_hoe', 'ae2:certus_quartz_axe', 'ae2:certus_quartz_pickaxe',
+        'ae2:certus_quartz_shovel', 'ae2:certus_quartz_sword', 'ae2:fluix_upgrade_smithing_template', 'ae2:wireless_access_point'
     ]
     uncommon_items.forEach(element => uncommon(element))
         
@@ -305,7 +312,13 @@ ItemEvents.modification(event => {
         'psi:cad_socket_huge', 'psi:psidust', 'psi:psidust_block', 'psi:psigem', 'psi:psigem_block', 'psi:psimetal', 'psi:psimetal_block', 'psi:ebony_psimetal',
         'psi:ebony_psimetal_block', 'psi:ivory_psimetal', 'psi:ivory_psimetal_block', 'psi:white_psimetal_plate', 'psi:lit_white_psimetal_plate',
         'psi:black_psimetal_plate', 'psi:lit_black_psimetal_plate', 'psi:vector_ruler', 'psi:psimetal_sword', 'psi:psimetal_shovel', 'psi:psimetal_pickaxe',
-        'psi:psimetal_axe'
+        'psi:psimetal_axe', 'ae2:fluix_crystal', 'ae2:fluix_dust', 'ae2:fluix_pearl', 'ae2:singularity', 'ae2:flawless_budding_quartz', 'ae2:spatial_storage_cell_2',
+        'ae2:spatial_storage_cell_16', 'ae2:spatial_storage_cell_128', 'ae2:portable_item_cell_1k', 'ae2:portable_fluid_cell_1k', 'ae2:item_storage_cell_1k', 'ae2:fluid_storage_cell_1k',
+        'ae2:portable_item_cell_4k', 'ae2:portable_fluid_cell_4k', 'ae2:item_storage_cell_4k', 'ae2:fluid_storage_cell_4k', 'ae2:portable_item_cell_16k', 'ae2:portable_fluid_cell_16k',
+        'ae2:item_storage_cell_16k', 'ae2:fluid_storage_cell_16k', 'ae2:portable_item_cell_64k', 'ae2:portable_fluid_cell_64k', 'ae2:item_storage_cell_64k', 'ae2:fluid_storage_cell_64k',
+        'ae2:portable_item_cell_256k', 'ae2:portable_fluid_cell_256k', 'ae2:item_storage_cell_256k', 'ae2:fluid_storage_cell_256k', 'ae2:fluix_axe', 'ae2:fluix_pickaxe',
+        'ae2:fluix_shovel', 'ae2:fluix_hoe', 'ae2:fluix_sword', 'ae2:fluix_block', 'ae2:fluix_slab', 'ae2:fluix_stairs', 'ae2:fluix_wall', 'ae2things:disk_drive_1k',
+        'ae2things:disk_drive_4k', 'ae2things:disk_drive_16k', 'ae2things:disk_drive_64k', 'ae2things:disk_drive_256k', 'aeinfinitybooster:infinity_card'
     ]
     rare_items.forEach(element => rare(element))
 
@@ -362,7 +375,8 @@ ItemEvents.modification(event => {
         'ancient_aether:royal_armor_trim_smithing_template', 'ancient_aether:solar_armor_trim_smithing_template', 'ancient_aether:ancient_armor_trim_smithing_template',
         'iceandfire:dragonsteel_fire_block', 'iceandfire:dragonsteel_ice_block', 'iceandfire:dragonsteel_lightning_block', 'aether:obsidian_helmet', 'aether:obsidian_chestplate',
         'aether:obsidian_leggings', 'aether:obsidian_boots', 'aether:obsidian_gloves', 'experienceobelisk:fortuitous_amulet', 'experienceobelisk:memory_tablet',
-        'cataclysm:storm_eye', 'psi:cad_assembly_creative', 'kubejs:withered_smithing_template', 'traveloptics:eye_of_nothingness'
+        'cataclysm:storm_eye', 'psi:cad_assembly_creative', 'kubejs:withered_smithing_template', 'traveloptics:eye_of_nothingness', 'ae2:creative_energy_cell',
+        'aeinfinitybooster:dimension_card'
     ]
     epic_items.forEach(element => epic(element))
     

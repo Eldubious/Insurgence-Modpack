@@ -67,6 +67,9 @@
     "trophy.kubejs.wither_storm_5": "Wither Storm Trophy (Phase 5)",
     "trophy.kubejs.wither_storm_6": "Wither Storm Trophy (Phase 6)",
     "trophy.kubejs.wither_storm_final": "Wither Storm Trophy (Final Phase)",
+    "trophy.kubejs.singularity": "Foolish Trophy",
+    "trophy.kubejs.command_block_hoe": "Dedication Trophy",
+    "trophy.kubejs.dimension_card": "Quantum Tunneling Trophy",
 
     "loot_crate.kubejs.all_trophies": "§kO§r Special Trophy Case: §oAny Collection",
     "loot_crate.kubejs.overworld_trophies": "Trophy Case: §oBasic Collection",
@@ -106,6 +109,7 @@
     "loot_crate.kubejs.toxic_cave_trophies": "§kO§r Special Trophy Case: §oToxic Collection",
     "loot_crate.kubejs.candy_cave_trophies": "§kO§r Special Trophy Case: §oCavity Collection",
     "loot_crate.kubejs.scylla_trophies": "§kO§r Special Trophy Case: §oScylla Collection",
+    "loot_crate.kubejs.fishing_trophies": "Trophy Case: §oFishing Collection",
     
     "kubejs.title.insurgence_title": "§c§n§lInsurgence Tip:",
     "kubejs.tip.quests": "The questbook has lots of useful information on progression.",

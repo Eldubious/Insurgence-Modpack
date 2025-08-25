@@ -1,0 +1,20 @@
+{
+    "name": {
+        "color": "#6A33A1",
+        "translate": "trophy.kubejs.singularity"
+    },
+    "display": {
+        "scale": 1
+    },
+    "item": {
+        "item": "ae2:singularity"
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.25
+    },
+    "colors": {
+        "base": "#606060",
+        "accent": "#6A33A1"
+    }
+}

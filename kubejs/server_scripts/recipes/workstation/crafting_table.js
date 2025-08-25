@@ -302,6 +302,142 @@ ServerEvents.recipes(event => {
         'minecraft:iron_ingot',
         'samurai_dynasty:steel_ingot'
     )
+    // Item & Fluid Cell Housing
+    event.remove([{id: 'ae2:network/cells/fluid_cell_housing'}, {id: 'ae2:network/cells/item_cell_housing'}])
+    event.shaped('ae2:item_cell_housing',
+        [
+           'ABA',
+           'B B',
+           'CDC' 
+        ],
+        {
+            A: 'ae2:quartz_glass',
+            B: 'minecraft:redstone',
+            C: 'create:iron_sheet',
+            D: 'create:sturdy_sheet'
+        }
+    )
+    event.shaped('ae2:fluid_cell_housing',
+        [
+           'ABA',
+           'B B',
+           'CDC' 
+        ],
+        {
+            A: 'ae2:quartz_glass',
+            B: 'minecraft:redstone',
+            C: 'create:copper_sheet',
+            D: 'create:sturdy_sheet'
+        }
+    )
+    // Memory Card
+    event.remove({id: 'ae2:tools/network_memory_card'})
+    event.shaped('ae2:memory_card',
+        [
+            'AB ',
+            'CC '
+        ],
+        {
+            A: 'ae2:calculation_processor',
+            B: 'create:iron_sheet',
+            C: 'minecraft:gold_nugget'
+        }
+    )
+    // Wireless Booster
+    event.replaceInput({id: 'ae2:network/wireless_booster'},
+        'ae2:ender_dust',
+        'mahoutsukai:powdered_ender'
+    )
+    event.replaceInput({id: 'ae2:network/wireless_booster'},
+        'minecraft:iron_ingot',
+        'create:iron_sheet'
+    )
+    // Wireless Reciever
+    event.remove({id: 'ae2:network/wireless_part'})
+    event.shaped('ae2:wireless_receiver',
+        [
+            ' A ',
+            ' B ',
+            'DCD'
+        ],
+        {
+            A: 'ae2:fluix_pearl',
+            B: 'ae2:quartz_fiber',
+            C: 'create:iron_sheet',
+            D: 'minecraft:iron_nugget'
+        }
+    )
+    // Fluix ME Glass Cable
+    event.remove({id: 'ae2:network/cables/glass_fluix'})
+    event.shapeless('4x ae2:fluix_glass_cable', ['ae2:quartz_fiber', 'ae2:fluix_crystal'])
+    // ME DISK Housing
+    event.replaceInput({id: 'ae2things:cells/disk_housing'},
+        'minecraft:amethyst_shard',
+        'create:sturdy_sheet'
+    ),
+    event.replaceInput({id: 'ae2things:cells/disk_housing'},
+        'minecraft:netherite_ingot',
+        'create:shadow_steel'
+    )
+    // Cognitive Amalgam Duplication
+    event.shaped('8x experienceobelisk:cognitive_amalgam',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:lapis_lazuli',
+            B: 'experienceobelisk:cognitive_amalgam',
+            C: 'galosphere:cured_membrane'
+        }
+    )
+    // Formation & Annihilation Cores
+    event.remove([{id: 'ae2:materials/formationcore'}, {id: 'ae2:materials/annihilationcore'}])
+    event.shapeless('4x ae2:formation_core', ['ae2:logic_processor', 'ae2:fluix_dust', '#forge:gems/certus_quartz'])
+    event.shapeless('4x ae2:annihilation_core', ['ae2:logic_processor', 'ae2:fluix_dust', 'minecraft:quartz'])
+    // Infinity Range Card
+    event.remove({id: 'aeinfinitybooster:infinity_card'})
+    event.shaped('aeinfinitybooster:infinity_card',
+        [
+            'ABA',
+            'BCB',
+            'ADA'
+        ],
+        {
+            A: 'ae2:singularity',
+            B: 'ae2:wireless_booster',
+            C: 'minecraft:echo_shard',
+            D: 'minecraft:netherite_ingot'
+        }
+    )
+    // Dimension Card
+    event.remove({id: 'aeinfinitybooster:dimension_card'})
+    event.shaped('aeinfinitybooster:dimension_card',
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'create:shadow_steel',
+            B: 'minecraft:echo_shard',
+            C: 'aeinfinitybooster:infinity_card',
+            D: 'forbidden_arcanus:dark_nether_star'
+        }
+    )
+    // Meteorite Compass Alt
+    event.shaped('ae2:meteorite_compass',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:quartz',
+            B: 'minecraft:compass'
+        }
+    )
 
 
     
@@ -620,6 +756,220 @@ ServerEvents.recipes(event => {
             C: 'forbidden_arcanus:mundabitur_dust'
         }
     )
+    // Energy Provider
+    event.remove({id: 'createappliedkinetics:energy_provider'})
+    event.shaped('createappliedkinetics:energy_provider',
+        [
+            ' A ',
+            'BCB',
+            'DED'
+        ],
+        {
+            A: 'create:shaft',
+            B: 'create:brass_sheet',
+            C: 'create:brass_casing',
+            D: 'create:brass_ingot',
+            E: 'create:precision_mechanism'
+        }
+    )
+    // Quartz Glass
+    event.replaceInput({id: 'ae2:decorative/quartz_glass'},
+        'ae2:certus_quartz_dust',
+        'mahoutsukai:powdered_quartz'
+    )
+    // Vibrant Quartz Glass
+    event.remove({id: 'ae2:decorative/quartz_vibrant_glass'})
+    event.shaped('4x ae2:quartz_vibrant_glass',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'ae2:quartz_glass',
+            B: 'minecraft:glowstone_dust'
+        }
+    )
+    // Energy Cell
+    event.replaceInput({id: 'ae2:network/blocks/energy_energy_cell'},
+        'ae2:fluix_dust',
+        'create:copper_sheet'
+    )
+    event.replaceInput({id: 'ae2:network/blocks/energy_energy_cell'},
+        'ae2:quartz_glass',
+        'ae2:quartz_vibrant_glass'
+    )
+    // Dense Energy Cell
+    event.remove({id: 'ae2:network/blocks/energy_dense_energy_cell'})
+    event.shaped('ae2:dense_energy_cell',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'ae2:fluix_crystal',
+            B: 'create:refined_radiance',
+            C: 'ae2:energy_cell'
+        }
+    )
+    // Creative Energy Cell
+    event.shaped('ae2:creative_energy_cell',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'architects_palette:unobtanium',
+            B: 'create:chromatic_compound',
+            C: 'ae2:dense_energy_cell'
+        }
+    )
+    // P2P Tunnel
+    event.replaceInput({id: 'ae2:network/parts/tunnels_me'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_nugget'
+    )
+    event.replaceInput({id: 'ae2:network/parts/tunnels_me'},
+        'ae2:fluix_crystal',
+        'ae2:fluix_dust'
+    )
+    // Matter Condenser
+    event.shaped('ae2:condenser',
+        [
+            'ABA',
+            'BCB',
+            'DBD'
+        ],
+        {
+            A: 'ae2:smooth_sky_stone_block',
+            B: 'minecraft:iron_ingot',
+            C: 'ars_elemental:mark_of_mastery',
+            D: 'ae2:fluix_crystal'
+        }
+    )
+    // ME Drive
+    event.remove({id: 'ae2:network/blocks/storage_drive'})
+    event.shaped('ae2:drive',
+        [
+            ' A ',
+            'ABA',
+            'CDC'
+        ],
+        {
+            A: 'create:iron_sheet',
+            B: '#farmersdelight:cabinets/wooden',
+            C: 'minecraft:copper_ingot',
+            D: 'ae2:engineering_processor'
+        }
+    )
+    // ME Chest
+    event.remove({id: 'ae2:network/blocks/storage_chest'})
+    event.shaped('ae2:chest',
+        [
+            ' D ',
+            'ABA',
+            'CAC'
+        ],
+        {
+            A: 'create:iron_sheet',
+            B: '#forge:chests/wooden',
+            C: 'minecraft:copper_ingot',
+            D: 'ae2:terminal'
+        }
+    )
+    // Spatial Pylon
+    event.remove({id: 'ae2:network/blocks/spatial_io_pylon'})
+    event.shaped('ae2:spatial_pylon',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'ae2:quartz_glass',
+            B: 'forbidden_arcanus:ender_pearl_fragment',
+            C: 'ae2:fluix_crystal'
+        }
+    )
+    // Cell Workbench
+    event.remove({id: 'ae2:network/blocks/cell_workbench'})
+    event.shaped('ae2:cell_workbench',
+        [
+            ' A ',
+            'BCB',
+            'DBD'
+        ],
+        {
+            A: 'ae2:calculation_processor',
+            B: 'create:iron_sheet',
+            C: 'minecraft:crafting_table',
+            D: 'minecraft:copper_ingot'
+        }
+    )
+    // Wireless Access Point
+    event.remove({id: 'ae2:network/wireless_access_point'})
+    event.shaped('ae2:wireless_access_point',
+        [
+            'A',
+            'B',
+            'C'
+        ],
+        {
+            A: 'ae2:singularity',
+            B: 'ae2:wireless_receiver',
+            C: 'ae2:calculation_processor'
+        }
+    )
+    // Accelerator
+    event.remove({id: 'experienceobelisk:accelerator'})
+    event.shaped('6x experienceobelisk:accelerator',
+        [
+            'AAA',
+            'BCB',
+            'BBB'
+        ],
+        {
+            A: 'samurai_dynasty:steel_ingot',
+            B: 'minecraft:polished_deepslate',
+            C: 'experienceobelisk:cognitive_crystal'
+        }
+    )
+    // Molecular Metamorpher
+    event.remove({id: 'experienceobelisk:molecular_metamorpher'})
+    event.shaped('experienceobelisk:molecular_metamorpher',
+        [
+            'ABA',
+            ' A ',
+            'CDC'
+        ],
+        {
+            A: 'create:experience_nugget',
+            B: 'experienceobelisk:cognitive_amalgam',
+            C: 'experienceobelisk:astute_assembly',
+            D: 'galosphere:warped_anchor'
+        }
+    )
+    // Warped Anchor
+    event.remove({id: 'galosphere:warped_anchor'})
+    event.shaped('galosphere:warped_anchor',
+        [
+            'AAA',
+            'CBC'
+        ],
+        {
+            A: 'galosphere:allurite_block',
+            B: 'galosphere:silver_ingot',
+            C: 'galosphere:silver_block'
+        }
+    )
+    // Experience Fountain
+    event.replaceInput({id: 'experienceobelisk:experience_fountain'},
+        'experienceobelisk:cognitive_alloy',
+        'minecraft:polished_deepslate'
+    )
+
 
 
     /*
@@ -1617,6 +1967,33 @@ ServerEvents.recipes(event => {
             A: 'traveloptics:hullbreaker_steel',
             B: 'cataclysm:ancient_metal_nugget',
             C: 'irons_spellbooks:weapon_parts'
+        }
+    )
+    // Matter Cannon
+    event.shaped('ae2:matter_cannon',
+        [
+            'ABB',
+            'CD '
+        ],
+        {
+            A: 'ae2:smooth_sky_stone_block',
+            B: 'ae2:silicon',
+            C: 'ae2:energy_cell',
+            D: 'ae2:charged_certus_quartz_crystal'
+        }
+    )
+    // Color Applicator
+    event.shaped('ae2:color_applicator',
+        [
+            '  A',
+            'BC ',
+            'D A'
+        ],
+        {
+            A: 'ae2:silicon',
+            B: 'ae2:smooth_sky_stone_block',
+            C: 'ae2:charged_certus_quartz_crystal',
+            D: 'ae2:energy_cell'
         }
     )
 })
