@@ -8,6 +8,7 @@ Version 1.2.0
     - Added Resource packs:
         - Updated Aquaculture
         - Applied Energistics 2 - Textures Backport
+    - Added new rooms to the Dimensional Dungeons
     - Added 3 new hidden achievements
 
     - Changes:
@@ -15,7 +16,8 @@ Version 1.2.0
             - Almost every recipe from AE2 was changed
             - Made several recipes from Cognition cheaper
             - Slightly tweaked one of the Rogue Eye recipes
-        - Mobs in the Dimensional Dungeons do 3x more damage and have their resistance lowered by 2 levels
+        - Mobs in the Dimensional Dungeons do significantly more damage,
+            and have their resistance capped at level 1 and regeneration capped at level 2
         - Swapped the questbook shop items for the Void Totem and Tipped Arrows
 
     - Fixes:

@@ -31,7 +31,8 @@ function summonZombie(server, dimension, difficulty, x, y, z) {
     
     var cmd = `execute in ${dimension} run summon ${zombieType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}},` +
+              `Attributes:[{Name:"generic.armor",Base:2},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:12},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f]}`
     server.runCommandSilent(cmd)
@@ -57,8 +58,9 @@ function summonSkeleton(server, dimension, difficulty, x, y, z) {
 
     var cmd = `execute in ${dimension} run summon ${skeletonType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}},` +
-              `{Name:"attributeslib:arrow_damage",Base:1.25},{Name:"attributeslib:arrow_velocity",Base:1.5},` +
+              `Attributes:[{Name:"generic.armor",Base:2},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:12},` +
+              `{Name:"attributeslib:arrow_damage",Base:2.75},{Name:"attributeslib:arrow_velocity",Base:1.5},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f]}`
     server.runCommandSilent(cmd)
@@ -121,8 +123,9 @@ function summonRangedIllager(server, dimension, difficulty, x, y, z) {
     var cmd = `execute in ${dimension} run summon ${illagerType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],` +
-              `Attributes:[{Name:"generic.armor",Base:4},{Name:"generic.max_health",Base:${hp}},` +
-              `{Name:"attributeslib:arrow_damage",Base:1.25},{Name:"attributeslib:arrow_velocity",Base:1.5}]}`
+              `Attributes:[{Name:"generic.armor",Base:20},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:12},` +
+              `{Name:"attributeslib:arrow_damage",Base:2.75},{Name:"attributeslib:arrow_velocity",Base:1.5}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -162,7 +165,8 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
     var cmd = `execute in ${dimension} run summon ${illagerType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],` +
-              `Attributes:[{Name:"generic.armor",Base:3},{Name:"generic.max_health",Base:${hp}},` +
+              `Attributes:[{Name:"generic.armor",Base:24},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:8},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5},` +
               `{Name:"generic.attack_knockback",Base:1.25},{Name:"generic.knockback_resistance",Base:0.4}]}`
     server.runCommandSilent(cmd)
@@ -174,23 +178,23 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
 function summonMage(server, dimension, difficulty, x, y, z) {
     var mageType = mage_types[Math.round(Math.random() * 10)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 10) * 10)
-    var armorItems; var armorAttribute = 4;
+    var hp = Math.round((Math.random() + 9.5) * 10)
+    var armorItems; var armorAttribute = 2;
     switch (mageType) {
         case 'irons_spellbooks:archevoker':
             armorItems = '{id:"irons_spellbooks:archevoker_boots",Count:1},{id:"irons_spellbooks:archevoker_leggings",Count:1},' +
                          '{id:"irons_spellbooks:archevoker_chestplate",Count:1},{id:"irons_spellbooks:archevoker_helmet",Count:1}'
-            armorAttribute = 20
+            armorAttribute = 10
             break
         case 'irons_spellbooks:necromancer':
             armorItems = '{id:"irons_spellbooks:cultist_boots",Count:1},{id:"irons_spellbooks:cultist_leggings",Count:1},' +
                          '{id:"irons_spellbooks:cultist_chestplate",Count:1},{id:"irons_spellbooks:cultist_helmet",Count:1}'
-            armorAttribute = 20
+            armorAttribute = 10
             break
         case 'irons_spellbooks:cryomancer':
             armorItems = '{id:"irons_spellbooks:cryomancer_boots",Count:1},{id:"irons_spellbooks:cryomancer_leggings",Count:1},' +
                          '{id:"irons_spellbooks:cryomancer_chestplate",Count:1},{id:"irons_spellbooks:cryomancer_helmet",Count:1}'
-            armorAttribute = 20
+            armorAttribute = 10
             break
         default:
             armorItems = '{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}'
@@ -199,7 +203,8 @@ function summonMage(server, dimension, difficulty, x, y, z) {
     var cmd = `execute in ${dimension} run summon ${mageType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f],` +
-              `Attributes:[{Name:"generic.armor",Base:${armorAttribute}},{Name:"generic.max_health",Base:${hp}}]}`
+              `Attributes:[{Name:"generic.armor",Base:${armorAttribute}},{Name:"generic.max_health",Base:${hp}}` +
+              `{Name:"irons_spellbooks:spell_power",Base:2.25},{Name:"irons_spellbooks:spell_resist",Base:1.5}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -213,7 +218,8 @@ function summonInsect(server, dimension, difficulty, x, y, z) {
 
     var cmd = `execute in ${dimension} run summon ${insectType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:6},{Name:"generic.max_health",Base:${hp}},` +
+              `Attributes:[{Name:"generic.armor",Base:16},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:8},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}]}`
     server.runCommandSilent(cmd)
 }
@@ -227,6 +233,7 @@ function summonSlime(server, dimension, difficulty, x, y, z) {
     
     var cmd = `execute in ${dimension} run summon ${slimeType} ${x} ${y} ${z} ` +
               `{PersistenceRequired:1,ActiveEffects:[${effect}],Attributes:[{Name:"generic.armor",Base:8},` +
+              `{Name:"generic.attack_damage",Base:12},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}]}`
     server.runCommandSilent(cmd)
 }
@@ -241,7 +248,8 @@ function summonElemental(server, dimension, difficulty, x, y, z) {
 
     var cmd = `execute in ${dimension} run summon ${elementalType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}}]}`
+              `Attributes:[{Name:"generic.armor",Base:16},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:12}]}`
     server.runCommandSilent(cmd)
 }
 
@@ -255,7 +263,8 @@ function summonWilden(server, dimension, difficulty, x, y, z) {
 
     var cmd = `execute in ${dimension} run summon ${wildenType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
-              `Attributes:[{Name:"generic.armor",Base:8},{Name:"generic.max_health",Base:${hp}},` +
+              `Attributes:[{Name:"generic.armor",Base:12},{Name:"generic.max_health",Base:${hp}},` +
+              `{Name:"generic.attack_damage",Base:12},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5}]}`
     server.runCommandSilent(cmd)
 }
