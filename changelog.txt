@@ -8,21 +8,22 @@ Version 1.2.0
     - Added Resource packs:
         - Updated Aquaculture
         - Applied Energistics 2 - Textures Backport
-    - Added new rooms to the Dimensional Dungeons
+    - Added several new rooms to the Dimensional Dungeons
     - Added 3 new hidden achievements
 
     - Changes:
         - Rebalanced several recipes:
             - Almost every recipe from AE2 was changed
-            - Made several recipes from Cognition cheaper
+            - Made many recipes from Cognition cheaper
             - Slightly tweaked one of the Rogue Eye recipes
         - Mobs in the Dimensional Dungeons do significantly more damage,
-            and have their resistance capped at level 1 and regeneration capped at level 2
+            and have their resistance or regeneration capped at level 1
         - Swapped the questbook shop items for the Void Totem and Tipped Arrows
 
     - Fixes:
         - The quest to locate the stronghold now check for the correct structure
-        - Removed the recipe book
+        - Removed the recipe book button from the inventory
+        - Fixed the rarity of some Simply Swords items
 
 Version 1.1.3
     Additions:

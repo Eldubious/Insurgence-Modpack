@@ -31,7 +31,7 @@ function randomPositiveEffect(difficulty) {
         effectId = positive_effects[Math.round(Math.random() * 3)]
     } else {
         effectId = positive_effects[Math.round(Math.random() * 5)]
-        if (effectId == 11) {   // Force resistance to always be level 1
+        if (effectId == 11 || effectId == 10) {   // Force resistance & regen to always be level 1
             level = 0
         } else {
             level += Math.round(Math.random() * 2)

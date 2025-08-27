@@ -234,7 +234,11 @@ ItemEvents.modification(event => {
         'ae2:engineering_processor_press', 'ae2:redstone_card', 'ae2:capacity_card', 'ae2:void_card', 'ae2:fuzzy_card', 'ae2:speed_card', 'ae2:inverter_card', 'ae2:crafting_card',
         'ae2:equal_distribution_card', 'ae2:energy_card', 'ae2:matter_cannon', 'ae2:color_applicator', 'ae2:controller', 'ae2:meteorite_compass', 'ae2:wireless_crafting_terminal',
         'ae2:wireless_terminal', 'ae2:certus_quartz_wrench', 'ae2:certus_quartz_cutting_knife', 'ae2:certus_quartz_hoe', 'ae2:certus_quartz_axe', 'ae2:certus_quartz_pickaxe',
-        'ae2:certus_quartz_shovel', 'ae2:certus_quartz_sword', 'ae2:fluix_upgrade_smithing_template', 'ae2:wireless_access_point'
+        'ae2:certus_quartz_shovel', 'ae2:certus_quartz_sword', 'ae2:fluix_upgrade_smithing_template', 'ae2:wireless_access_point', 'ae2things:disk_housing', 'minecraft:spawner',
+        'quark:monster_box', 'mutantmonsters:creeper_minion_tracker', 'simplyswords:diamond_longsword', 'simplyswords:diamond_twinblade', 'simplyswords:diamond_rapier',
+        'simplyswords:diamond_katana', 'simplyswords:diamond_sai', 'simplyswords:diamond_spear', 'simplyswords:diamond_glaive', 'simplyswords:diamond_warglaive',
+        'simplyswords:diamond_cutlass', 'simplyswords:diamond_claymore', 'simplyswords:diamond_greathammer', 'simplyswords:diamond_greataxe', 'simplyswords:diamond_chakram',
+        'simplyswords:diamond_scythe', 'simplyswords:diamond_halberd'
     ]
     uncommon_items.forEach(element => uncommon(element))
         
@@ -318,7 +322,11 @@ ItemEvents.modification(event => {
         'ae2:item_storage_cell_16k', 'ae2:fluid_storage_cell_16k', 'ae2:portable_item_cell_64k', 'ae2:portable_fluid_cell_64k', 'ae2:item_storage_cell_64k', 'ae2:fluid_storage_cell_64k',
         'ae2:portable_item_cell_256k', 'ae2:portable_fluid_cell_256k', 'ae2:item_storage_cell_256k', 'ae2:fluid_storage_cell_256k', 'ae2:fluix_axe', 'ae2:fluix_pickaxe',
         'ae2:fluix_shovel', 'ae2:fluix_hoe', 'ae2:fluix_sword', 'ae2:fluix_block', 'ae2:fluix_slab', 'ae2:fluix_stairs', 'ae2:fluix_wall', 'ae2things:disk_drive_1k',
-        'ae2things:disk_drive_4k', 'ae2things:disk_drive_16k', 'ae2things:disk_drive_64k', 'ae2things:disk_drive_256k', 'aeinfinitybooster:infinity_card'
+        'ae2things:disk_drive_4k', 'ae2things:disk_drive_16k', 'ae2things:disk_drive_64k', 'ae2things:disk_drive_256k', 'aeinfinitybooster:infinity_card',
+        'alexscaves:nuclear_bomb', 'iceandfire:dread_spawner', 'simplyswords:netherite_longsword', 'simplyswords:netherite_twinblade', 'simplyswords:netherite_rapier',
+        'simplyswords:netherite_katana', 'simplyswords:netherite_sai', 'simplyswords:netherite_spear', 'simplyswords:netherite_glaive', 'simplyswords:netherite_warglaive',
+        'simplyswords:netherite_cutlass', 'simplyswords:netherite_claymore', 'simplyswords:netherite_greathammer', 'simplyswords:netherite_greataxe', 'simplyswords:netherite_chakram',
+        'simplyswords:netherite_scythe', 'simplyswords:netherite_halberd'
     ]
     rare_items.forEach(element => rare(element))
 

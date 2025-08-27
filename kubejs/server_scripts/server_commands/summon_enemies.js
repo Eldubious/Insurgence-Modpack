@@ -135,13 +135,15 @@ function summonRangedIllager(server, dimension, difficulty, x, y, z) {
 function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
     var illagerType = melee_illager_types[Math.round(Math.random() * 5)]
     var effect = randomPositiveEffect(difficulty)
-    var hp; var handItems
+    var hp; var handItems; var attack_dmg
     switch (difficulty) {
         case 'basic':
             hp = Math.round((Math.random() + 2) * 10)
+            attack_dmg = 16
             break
         case 'adv':
             hp = Math.round((Math.random() + 3.5) * 10)
+            attack_dmg = 28
             break
     }
     switch (illagerType) {
@@ -166,7 +168,7 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `HandItems:[${handItems}],HandDropChances:[0f,0f],` +
               `Attributes:[{Name:"generic.armor",Base:24},{Name:"generic.max_health",Base:${hp}},` +
-              `{Name:"generic.attack_damage",Base:8},` +
+              `{Name:"generic.attack_damage",Base:${attack_dmg}},` +
               `{Name:"attributeslib:life_steal",Base:0.4},{Name:"attributeslib:prot_shred",Base:0.5},` +
               `{Name:"generic.attack_knockback",Base:1.25},{Name:"generic.knockback_resistance",Base:0.4}]}`
     server.runCommandSilent(cmd)
@@ -178,32 +180,42 @@ function summonMeleeIllager(server, dimension, difficulty, x, y, z) {
 function summonMage(server, dimension, difficulty, x, y, z) {
     var mageType = mage_types[Math.round(Math.random() * 10)]
     var effect = randomPositiveEffect(difficulty)
-    var hp = Math.round((Math.random() + 9.5) * 10)
-    var armorItems; var armorAttribute = 2;
+    var hp; var armorItems; var armorAttribute = 2;
     switch (mageType) {
         case 'irons_spellbooks:archevoker':
             armorItems = '{id:"irons_spellbooks:archevoker_boots",Count:1},{id:"irons_spellbooks:archevoker_leggings",Count:1},' +
                          '{id:"irons_spellbooks:archevoker_chestplate",Count:1},{id:"irons_spellbooks:archevoker_helmet",Count:1}'
             armorAttribute = 10
+            hp = Math.round((Math.random() + 9.5) * 10)
             break
         case 'irons_spellbooks:necromancer':
             armorItems = '{id:"irons_spellbooks:cultist_boots",Count:1},{id:"irons_spellbooks:cultist_leggings",Count:1},' +
                          '{id:"irons_spellbooks:cultist_chestplate",Count:1},{id:"irons_spellbooks:cultist_helmet",Count:1}'
             armorAttribute = 10
+            hp = Math.round((Math.random() + 9.5) * 10)
             break
         case 'irons_spellbooks:cryomancer':
             armorItems = '{id:"irons_spellbooks:cryomancer_boots",Count:1},{id:"irons_spellbooks:cryomancer_leggings",Count:1},' +
                          '{id:"irons_spellbooks:cryomancer_chestplate",Count:1},{id:"irons_spellbooks:cryomancer_helmet",Count:1}'
             armorAttribute = 10
+            hp = Math.round((Math.random() + 9.5) * 10)
             break
         default:
             armorItems = '{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}'
+            switch (difficulty) {
+                case 'basic':
+                    hp = Math.round((Math.random() + 2) * 10)
+                    break
+                case 'adv':
+                    hp = Math.round((Math.random() + 3.5) * 10)
+                    break
+            }
     }
 
     var cmd = `execute in ${dimension} run summon ${mageType} ${x} ${y} ${z} ` +
               `{Health:${hp},PersistenceRequired:1,ActiveEffects:[${effect}],` +
               `ArmorItems:[${armorItems}],ArmorDropChances:[0f,0f,0f,0f],` +
-              `Attributes:[{Name:"generic.armor",Base:${armorAttribute}},{Name:"generic.max_health",Base:${hp}}` +
+              `Attributes:[{Name:"generic.armor",Base:${armorAttribute}},{Name:"generic.max_health",Base:${hp}},` +
               `{Name:"irons_spellbooks:spell_power",Base:2.25},{Name:"irons_spellbooks:spell_resist",Base:1.5}]}`
     server.runCommandSilent(cmd)
 }
