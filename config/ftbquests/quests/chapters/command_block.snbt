@@ -573,6 +573,7 @@
 			}]
 			tasks: [
 				{
+					disable_toast: true
 					id: "3142209EB388DB1A"
 					item: {
 						Count: 1
@@ -582,6 +583,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2880176F93A5B80B"
 					item: {
 						Count: 1
@@ -591,6 +593,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "252E6C64FDD41414"
 					item: "witherstormmod:golden_apple_stew"
 					type: "item"
@@ -642,6 +645,7 @@
 			}]
 			tasks: [
 				{
+					disable_toast: true
 					id: "64CCE0B698CE6D5C"
 					item: {
 						Count: 1
@@ -653,6 +657,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "08144A01E9262038"
 					item: "kubejs:withered_smithing_template"
 					type: "item"
@@ -664,6 +669,7 @@
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
 			hide_dependency_lines: true
 			id: "4690C38844E97910"
 			tasks: [{

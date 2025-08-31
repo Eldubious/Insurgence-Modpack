@@ -149,7 +149,7 @@ ServerEvents.tags('item', event => {
 	addToTag('curios:augment_slot', 'relics:elytra_booster')
 	// Move key to charm slot
 	addToTag('curios:charm', 'supplementaries:key')
-	// Allow terminal to be equipped anywhere
+	// Allow terminal from TSS to be equipped anywhere
 	removeFromTag('curios:belt', 'toms_storage:ts.adv_wireless_terminal')
 	addToTag('curios:curio', 'toms_storage:ts.adv_wireless_terminal')
 	// Add items to bundle slot
@@ -171,7 +171,7 @@ ServerEvents.tags('item', event => {
 	removeFromTag('curios:hands', 'map_atlases:atlas')
 	const compass_items = ['minecraft:compass', 'minecraft:clock', 'minecraft:recovery_compass', 'supplementaries:altimeter', 'galosphere:barometer',
 		'map_atlases:atlas', 'breezy:gust_gauge', 'irons_spellbooks:wayward_compass', 'travelerscompass:travelerscompass', 'the_bumblezone:honey_compass',
-		'ae2:meteorite_compass'
+		'ae2:meteorite_compass', 'alexsmobs:pupfish_locator', 'alexsmobs:endolocator', 'alexsmobs:echolocator'
 	]
 	compass_items.forEach(element => addToTag('curios:compass', element))
 

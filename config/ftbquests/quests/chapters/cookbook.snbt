@@ -2338,6 +2338,7 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "aetherdelight:aether_grass_bale" }
 			id: "3A8D8B3511C10E5E"
 			rewards: [{
@@ -2348,8 +2349,9 @@
 			tasks: [{
 				consume_items: true
 				count: 20L
+				disable_toast: true
 				id: "327371D45286D7BC"
-				item: { Count: 20, id: "aetherdelight:aether_grass_bale" }
+				item: "aetherdelight:aether_grass_bale"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fAether Grass Bales"
@@ -2357,6 +2359,7 @@
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "minecraft:hay_block" }
 			id: "6870E9DAC5CD89CF"
 			rewards: [{
@@ -2367,8 +2370,9 @@
 			tasks: [{
 				consume_items: true
 				count: 20L
+				disable_toast: true
 				id: "332A965D065EDF9A"
-				item: { Count: 20, id: "minecraft:hay_block" }
+				item: "minecraft:hay_block"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fHay Bales"
@@ -2376,6 +2380,7 @@
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "farmersdelight:rice_bale" }
 			id: "5EB5AA6336E9B5C9"
 			rewards: [{
@@ -2386,8 +2391,9 @@
 			tasks: [{
 				consume_items: true
 				count: 20L
+				disable_toast: true
 				id: "54F5A34AA89E70B3"
-				item: { Count: 20, id: "farmersdelight:rice_bale" }
+				item: "farmersdelight:rice_bale"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fRice Bales"
@@ -2395,6 +2401,7 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "farmersdelight:straw_bale" }
 			id: "74E51AAC0BF677A1"
 			rewards: [{
@@ -2405,8 +2412,9 @@
 			tasks: [{
 				consume_items: true
 				count: 10L
+				disable_toast: true
 				id: "4129E944A7E4BC3C"
-				item: { Count: 20, id: "farmersdelight:straw_bale" }
+				item: "farmersdelight:straw_bale"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fStraw Bales"
@@ -2414,6 +2422,7 @@
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "supplementaries:flax_block" }
 			id: "36BB4B7DB9BC9830"
 			rewards: [{
@@ -2424,8 +2433,9 @@
 			tasks: [{
 				consume_items: true
 				count: 20L
+				disable_toast: true
 				id: "7778B259F954DC48"
-				item: { Count: 20, id: "supplementaries:flax_block" }
+				item: "supplementaries:flax_block"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fFlax Bales"
@@ -2433,6 +2443,7 @@
 			y: -5.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "farmersdelight:potato_crate" }
 			id: "781E82C16878320C"
 			rewards: [{
@@ -2442,8 +2453,9 @@
 			}]
 			tasks: [{
 				count: 20L
+				disable_toast: true
 				id: "1DE6DF90A0B5D7F0"
-				item: { Count: 20, id: "farmersdelight:potato_crate" }
+				item: "farmersdelight:potato_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fPotato Crates"
@@ -2451,6 +2463,7 @@
 			y: -1.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "farmersdelight:carrot_crate" }
 			id: "6E6F74572A1B259D"
 			rewards: [{
@@ -2460,8 +2473,9 @@
 			}]
 			tasks: [{
 				count: 20L
+				disable_toast: true
 				id: "7D8D013D2831371E"
-				item: { Count: 20, id: "farmersdelight:carrot_crate" }
+				item: "farmersdelight:carrot_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fCarrot Crates"
@@ -2469,6 +2483,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 5, id: "arsdelight:mendosteen_crate" }
 			id: "00FCED7374B92188"
 			rewards: [{
@@ -2478,8 +2493,9 @@
 			}]
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "59BE937B897AA974"
-				item: { Count: 5, id: "arsdelight:mendosteen_crate" }
+				item: "arsdelight:mendosteen_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fMendosteen Crates"
@@ -2487,6 +2503,7 @@
 			y: -8.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 5, id: "arsdelight:bastion_crate" }
 			id: "3103C1C1E35A7E1B"
 			rewards: [{
@@ -2496,8 +2513,9 @@
 			}]
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "5B8F126A95732E3C"
-				item: { Count: 5, id: "arsdelight:bastion_crate" }
+				item: "arsdelight:bastion_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fBastion Crates"
@@ -2505,6 +2523,7 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 5, id: "arsdelight:bombegrante_crate" }
 			id: "4158F7EBDF4F6292"
 			rewards: [{
@@ -2514,8 +2533,9 @@
 			}]
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "5EC3F6DF18CE9CF2"
-				item: { Count: 5, id: "arsdelight:bombegrante_crate" }
+				item: "arsdelight:bombegrante_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fBombegranate Crates"
@@ -2523,6 +2543,7 @@
 			y: -5.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 5, id: "arsdelight:frostaya_crate" }
 			id: "120D497DE4B8B229"
 			rewards: [{
@@ -2532,8 +2553,9 @@
 			}]
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "659141DDFAE3A3E7"
-				item: { Count: 5, id: "arsdelight:frostaya_crate" }
+				item: "arsdelight:frostaya_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fFrostaya Crates"
@@ -2541,6 +2563,7 @@
 			y: -3.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "vinery:apple_bag" }
 			id: "4915AE9043D9573A"
 			rewards: [{
@@ -2550,8 +2573,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "5A0F5552AB572A80"
-				item: { Count: 10, id: "vinery:apple_bag" }
+				item: "vinery:apple_bag"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fApple Bags"
@@ -2559,6 +2583,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "farmersdelight:cabbage_crate" }
 			id: "6B4320DD7FF4FA58"
 			rewards: [{
@@ -2568,8 +2593,9 @@
 			}]
 			tasks: [{
 				count: 20L
+				disable_toast: true
 				id: "4E20DCC95E3907C5"
-				item: { Count: 20, id: "farmersdelight:cabbage_crate" }
+				item: "farmersdelight:cabbage_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fCabbage Crates"
@@ -2577,6 +2603,7 @@
 			y: -6.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 20, id: "farmersdelight:tomato_crate" }
 			id: "2ABB8D0A2D10E61D"
 			rewards: [{
@@ -2586,8 +2613,9 @@
 			}]
 			tasks: [{
 				count: 20L
+				disable_toast: true
 				id: "7236B9898774615F"
-				item: { Count: 20, id: "farmersdelight:tomato_crate" }
+				item: "farmersdelight:tomato_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fTomato Crates"
@@ -2595,6 +2623,7 @@
 			y: -8.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "vinery:cherry_bag" }
 			id: "33A072E095DD9557"
 			rewards: [{
@@ -2604,8 +2633,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "0C56EE7EBCBE748F"
-				item: { Count: 10, id: "vinery:cherry_bag" }
+				item: "vinery:cherry_bag"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fCherry Bags"
@@ -2613,6 +2643,7 @@
 			y: -1.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "vinery:white_grape_bag" }
 			id: "374D6D4A8F2B30CB"
 			rewards: [{
@@ -2622,8 +2653,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "1C8CF019FF5F723D"
-				item: { Count: 10, id: "vinery:white_grape_bag" }
+				item: "vinery:white_grape_bag"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fWhite Grape Bags"
@@ -2631,6 +2663,7 @@
 			y: -8.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "vinery:red_grape_bag" }
 			id: "37A7277E2AF662DC"
 			rewards: [{
@@ -2640,8 +2673,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "52CB7189B45B77B0"
-				item: { Count: 10, id: "vinery:red_grape_bag" }
+				item: "vinery:red_grape_bag"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fRed Grape Bags"
@@ -2649,6 +2683,7 @@
 			y: -6.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "ars_nouveau:sourceberry_sack" }
 			id: "560B73FD6DDE81B6"
 			rewards: [{
@@ -2658,8 +2693,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "10F92244E8A753C0"
-				item: { Count: 10, id: "ars_nouveau:sourceberry_sack" }
+				item: "ars_nouveau:sourceberry_sack"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fSourceberry Sacks"
@@ -2667,6 +2703,7 @@
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "mynethersdelight:bullet_pepper_crate" }
 			id: "114202425C96A318"
 			rewards: [{
@@ -2676,8 +2713,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "4D62C0C72866FAE8"
-				item: { Count: 10, id: "mynethersdelight:bullet_pepper_crate" }
+				item: "mynethersdelight:bullet_pepper_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fBullet Pepper Crates"
@@ -2685,6 +2723,7 @@
 			y: -5.0d
 		}
 		{
+			disable_toast: true
 			icon: { Count: 10, id: "miners_delight:cave_carrot_crate" }
 			id: "234A1DEC3BA3DD5C"
 			rewards: [{
@@ -2694,8 +2733,9 @@
 			}]
 			tasks: [{
 				count: 10L
+				disable_toast: true
 				id: "69DDE6B16EDE848B"
-				item: { Count: 10, id: "miners_delight:cave_carrot_crate" }
+				item: "miners_delight:cave_carrot_crate"
 				type: "item"
 			}]
 			title: "&l&eDELIVER: &r&fCave Carrot Crates"

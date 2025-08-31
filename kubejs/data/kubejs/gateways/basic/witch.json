@@ -1,40 +1,24 @@
 {
 	"size": "small",
-	"color": "#463A4D",
+	"color": "#5B477D",
 	"waves": [{
-			"entities": [
-				{
-					"entity": "realmrpg_wyrms:ender_wyrm",
-					"count": 1
-				},
-				{
-					"entity": "minecraft:endermite",
-					"count": 3
-				}
-			],
-			"rewards": [
-				{
-					"type": "gateways:stack",
-					"stack": {
-						"item": "quark:dragon_scale",
-						"count": 1
-					}
-				}
-			],
+			"entities": [{
+				"entity": "minecraft:witch",
+				"count": 3
+			}],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:witch",
+				"rolls": 1
+			}],
 			"max_wave_time": 800,
 			"setup_time": 100
 		},
 		{
-			"entities": [
-				{
-					"entity": "realmrpg_wyrms:ender_wyrm",
-					"count": 2
-				},
-				{
-					"entity": "minecraft:endermite",
-					"count": 3
-				}
-			],
+			"entities": [{
+				"entity": "minecraft:witch",
+				"count": 4
+			}],
 			"modifiers": [{
 					"attribute": "generic.max_health",
 					"operation": "MULTIPLY_TOTAL",
@@ -61,27 +45,18 @@
 					"value": 0.05
 				}
 			],
-			"rewards": [
-				{
-					"type": "gateways:stack",
-					"stack": {
-						"item": "quark:dragon_scale",
-						"count": 2
-					}
-				}
-			],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:witch",
+				"rolls": 2
+			}],
 			"max_wave_time": 800,
 			"setup_time": 150
 		},
 		{
-			"entities": [
-				{
-					"entity": "realmrpg_wyrms:ender_wyrm",
-					"count": 2
-				},
-				{
-					"entity": "minecraft:endermite",
-					"count": 4
+			"entities": [{
+					"entity": "minecraft:witch",
+                    "count": 5
 				}
 			],
 			"modifiers": [{
@@ -110,27 +85,18 @@
 					"value": 0.10
 				}
 			],
-			"rewards": [
-				{
-					"type": "gateways:stack",
-					"stack": {
-						"item": "quark:dragon_scale",
-						"count": 3
-					}
-				}
-			],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:witch",
+				"rolls": 4
+			}],
 			"max_wave_time": 800,
 			"setup_time": 200
 		},
 		{
-			"entities": [
-				{
-					"entity": "realmrpg_wyrms:ender_wyrm",
-					"count": 3
-				},
-				{
-					"entity": "minecraft:endermite",
-					"count": 4
+			"entities": [{
+					"entity": "minecraft:witch",
+                    "count": 6
 				}
 			],
 			"modifiers": [{
@@ -159,27 +125,18 @@
 					"value": 0.15
 				}
 			],
-			"rewards": [
-				{
-					"type": "gateways:stack",
-					"stack": {
-						"item": "quark:dragon_scale",
-						"count": 3
-					}
-				}
-			],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:witch",
+				"rolls": 6
+			}],
 			"max_wave_time": 1000,
 			"setup_time": 280
 		},
 		{
-			"entities": [
-				{
-					"entity": "realmrpg_wyrms:ender_wyrm",
-					"count": 4
-				},
-				{
-					"entity": "minecraft:endermite",
-					"count": 5
+			"entities": [{
+					"entity": "minecraft:witch",
+                    "count": 7
 				}
 			],
 			"modifiers": [{
@@ -211,7 +168,7 @@
 			"rewards": [
 				{
 					"type": "gateways:experience",
-					"experience": 800,
+					"experience": 500,
                     "orb_size": 25
 				}
 			],
@@ -219,28 +176,18 @@
 			"setup_time": 340
 		}
 	],
-    "rewards": [
-		{
-			"type": "gateways:stack",
-			"stack": {
-				"item": "forbidden_arcanus:dragon_scale",
-				"count": 6
-			}
-		},
-		{
-			"type": "gateways:stack",
-			"stack": {
-				"item": "minecraft:dragon_egg",
-				"count": 1
-			}
-		},
+    "rewards": [{
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:witch",
+            "rolls": 12
+        },
 		{
 			"type": "gateways:chanced",
 			"chance": 0.05,
 			"reward": {
 				"type": "gateways:stack",
 				"stack": {
-					"item": "realmrpg_wyrms:ender_wyrm_spawn_egg",
+					"item": "minecraft:witch_spawn_egg",
 					"count": 1
 				}
 			}

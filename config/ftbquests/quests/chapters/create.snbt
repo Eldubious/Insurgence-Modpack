@@ -764,6 +764,7 @@
 				"You can use the command &7/create ponder&r to view the ponder index anytime."
 				"This works in survival without cheats enabled too."
 			]
+			disable_toast: true
 			icon: "create:brass_hand"
 			id: "559744A5A9A74B1C"
 			rewards: [{
@@ -920,11 +921,13 @@
 			size: 1.25d
 			tasks: [
 				{
+					disable_toast: true
 					id: "131BE10F19F74CA3"
 					item: "ae2:energy_acceptor"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6EFE61D28D3E3BAA"
 					item: "createappliedkinetics:energy_provider"
 					type: "item"
@@ -992,11 +995,13 @@
 			}]
 			tasks: [
 				{
+					disable_toast: true
 					id: "78B37D8FFD7E117B"
 					item: "ae2:formation_core"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6E6E411CF4D77DDB"
 					item: "ae2:annihilation_core"
 					type: "item"

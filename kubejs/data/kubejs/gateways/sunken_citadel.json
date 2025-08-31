@@ -1,0 +1,49 @@
+{
+    "size": "medium",
+    "color": "#3C517A",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_priest",
+                    "count": 1
+                },
+                {
+                    "entity": "cataclysm:coralssus",
+                    "count": 2
+                }
+            ],
+            "modifiers": [
+            ],
+            "rewards": [
+                {
+					"type": "gateways:experience",
+					"experience": 100,
+                    "orb_size": 10
+				}
+            ],
+            "max_wave_time": 2400,
+            "setup_time": 60
+        }
+    ],
+    "rewards": [
+        {
+			"type": "gateways:entity_loot",
+			"entity": "cataclysm:deepling_priest",
+			"rolls": 1
+		},
+        {
+            "type": "gateways:entity_loot",
+            "entity": "cataclysm:coralssus",
+            "rolls": 2
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 6,
+            "fire": false,
+            "block_damage": false
+        }
+    ]
+}

@@ -969,6 +969,19 @@ ServerEvents.recipes(event => {
         'experienceobelisk:cognitive_alloy',
         'minecraft:polished_deepslate'
     )
+    // Dragon Egg
+    event.shaped('minecraft:dragon_egg',
+        [
+            ' A ',
+            'ABA',
+            'ACA'
+        ],
+        {
+            A: 'forbidden_arcanus:dragon_scale',
+            B: 'alexscaves:immortal_embryo',
+            C: 'irons_spellbooks:dragonskin'
+        }
+    )
 
 
 

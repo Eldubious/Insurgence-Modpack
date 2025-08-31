@@ -76,6 +76,8 @@ ServerEvents.recipes(event => {
     salvage(0, 'minecraft:diamond_horse_armor', [Item.of('minecraft:diamond', 2), Item.of('minecraft:leather', 1), Item.of('minecraft:diamond', 2).withChance(0.30)])
     // Weapons & Armor
     salvage(0, 'the_bumblezone:bee_cannon', [Item.of('the_bumblezone:sugar_infused_cobblestone', 5), Item.of('minecraft:gunpowder').withChance(0.80)])
+    salvage(0, 'the_bumblezone:crystal_cannon', [Item.of('the_bumblezone:sugar_infused_cobblestone', 5), Item.of('the_bumblezone:honey_crystal_shards'), Item.of('minecraft:gunpowder').withChance(0.80)])
+    salvage(0, 'the_bumblezone:honey_crystal_shield', [Item.of('the_bumblezone:honey_crystal_shards', 5)])
     salvage(0, 'minecraft:bow', [Item.of('minecraft:stick', 2), Item.of('minecraft:string'), Item.of('minecraft:string').withChance(0.75)])
     salvage(0, 'minecraft:crossbow', [Item.of('minecraft:stick', 2), Item.of('minecraft:string'), Item.of('minecraft:iron_ingot').withChance(0.75), Item.of('minecraft:tripwire_hook').withChance(0.40)])
     salvage(0, 'minecraft:elytra', [Item.of('minecraft:phantom_membrane', 2), Item.of('minecraft:phantom_membrane').withChance(0.50)])
@@ -111,6 +113,7 @@ ServerEvents.recipes(event => {
     salvage(0, 'alexscaves:disc_fragment_tasty', [Item.of('alexscaves:peppermint_powder').withChance(0.45)])
     salvage(0, 'alexscaves:disc_fragment_fusion', [Item.of('alexscaves:sulfur_dust').withChance(0.45)])
     salvage(0, 'unusualend:disc_fragment_flying_ships', [Item.of('ends_delight:chorus_fruit_grain').withChance(0.60)])
+    salvage(0, '#minecraft:creeper_drop_music_discs', [Item.of('ars_nouveau:experience_gem'), Item.of('ars_nouveau:greater_experience_gem').withChance(0.05)])
     // Accessories
     const relics = ['relics:amphibian_boot', 'relics:aqua_walker', 'relics:arrow_quiver', 'relics:bastion_ring', 'relics:blazing_flask', 'relics:chorus_inhibitor',
         'relics:drowned_belt', 'relics:elytra_booster', 'relics:enders_hand', 'relics:holy_locket', 'relics:horse_flute', 'relics:hunter_belt', 'relics:ice_breaker',
@@ -141,4 +144,8 @@ ServerEvents.recipes(event => {
     augments.forEach(element => salvage(0, element, [Item.of('ars_nouveau:experience_gem', 2), Item.of('ars_nouveau:greater_experience_gem', 1).withChance(0.5), Item.of('traveloptics:celestial_fragment', 1).withChance(0.1)]))
     salvage(1, 'hexcasting:scroll', [Item.of('forbidden_arcanus:arcane_crystal_dust_speck', 2), Item.of('ars_nouveau:blank_parchment').withChance(0.50), Item.of('ars_nouveau:magebloom_fiber').withChance(0.05)])
     salvage(1, 'hexcasting:lore_fragment', [Item.of('minecraft:leather'), Item.of('minecraft:paper').withChance(0.50), Item.of('ars_nouveau:magebloom_fiber').withChance(0.05)])
+    salvage(1, 'iceandfire:manuscript', [Item.of('minecraft:paper'), Item.of('minecraft:ink_sac').withChance(0.75)])
+    salvage(0, 'dimdungeons:item_portal_key', [Item.of('architects_palette:entwine_rod').withChance(0.33)])
+    salvage(0, '#minecraft:decorated_pot_sherds', [Item.of('minecraft:brick'), Item.of('minecraft:brick').withChance(0.40), Item.of('experienceobelisk:forgotten_dust').withChance(0.08)])
+    salvage(0, 'minecraft:damaged_anvil', [Item.of('minecraft:iron_ingot', 4), Item.of('minecraft:iron_block').withChance(0.33)])
 })

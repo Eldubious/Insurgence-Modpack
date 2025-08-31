@@ -98,6 +98,7 @@
 				""
 				"They will be here until then."
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -228,6 +229,7 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				disable_toast: true
 				id: "3F6461E20D2A10EB"
 				title: "Give me my books."
 				type: "checkmark"
@@ -252,6 +254,7 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				disable_toast: true
 				id: "2D9ECA208F17B2F9"
 				title: "Remove Enforced Progression"
 				type: "checkmark"
@@ -275,6 +278,7 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				disable_toast: true
 				id: "0F72BB40695FF5CD"
 				title: "Toggle Dynamic Lights"
 				type: "checkmark"

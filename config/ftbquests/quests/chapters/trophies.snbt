@@ -5237,7 +5237,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Visit Every Dimension!"
+			title: "Visit (almost) Every Dimension!"
 			x: 1.5d
 			y: 8.0d
 		}
@@ -5686,6 +5686,7 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				consume_items: false
 				id: "1DAA59F8FDC29FBC"
 				item: "aeinfinitybooster:dimension_card"
 				type: "item"
@@ -5720,6 +5721,7 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				consume_items: false
 				id: "23537194707AA417"
 				item: {
 					Count: 1

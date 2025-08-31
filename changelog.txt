@@ -1,3 +1,24 @@
+Version 1.2.1
+    Additions:
+    - Added new Gate Pearls for the following mobs:
+        - Wither Skeletons
+        - Piglin Brutes
+        - Vindicators
+        - Witches
+        - Ghasts
+        - Ghosts
+        - Deepling Priests & Coralssus
+    - Added a recipe for the Dragon Egg, the Heart of the Sea
+    - You can salvage more items at a Cuttin Board
+    - Added two new items to the shop which unlock after entering the Dimensional Dungeons
+    
+    Changes:
+    - The Ender Dragon Gate Pearl also gives a dragon egg as its final reward
+
+    Fixes:
+    - The Charger is no longer hidden in JEI
+
+
 Version 1.2.0
     Additions:
     - Added mods:

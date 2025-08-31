@@ -35,4 +35,7 @@ ServerEvents.recipes(event => {
 
     // Bibliophage duping
     enchantTable('experienceobelisk:bibliophage', 2, 'experienceobelisk:bibliophage', 0, 50, 70, 100, 0, 100)
+    
+    // Heart of the Sea
+    enchantTable('minecraft:heart_of_the_sea', 1, 'alexscaves:pearl', 20, 50, 25, 50, 25, 50)
 })

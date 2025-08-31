@@ -238,8 +238,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: -4.1d
+			x: 6.5d
+			y: -1.1d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -247,8 +247,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: -2.6d
+			x: 5.0d
+			y: -1.1d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -256,8 +256,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
-			y: -2.6d
+			x: -3.5d
+			y: -1.1d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -265,8 +265,8 @@
 			image: "vinery:item/dark_cherry_shelf"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
-			y: -4.1d
+			x: -6.5d
+			y: -1.1d
 		}
 		{
 			dependency: "23324F0768507D9C"
@@ -276,6 +276,24 @@
 			width: 1.0d
 			x: -6.5d
 			y: -2.6d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.1d
+		}
+		{
+			dependency: "23324F0768507D9C"
+			height: 1.0d
+			image: "vinery:item/dark_cherry_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.1d
 		}
 	]
 	order_index: 2
@@ -306,6 +324,7 @@
 			}]
 			shape: "pentagon"
 			tasks: [{
+				disable_toast: true
 				id: "319AD8D9B7874E2D"
 				item: "estrogen:thigh_highs"
 				type: "item"
@@ -343,6 +362,7 @@
 			tasks: [{
 				consume_items: true
 				count: 3L
+				disable_toast: true
 				icon: {
 					Count: 1
 					id: "dimdungeons:item_portal_key"
@@ -404,6 +424,7 @@
 			tasks: [{
 				consume_items: true
 				count: 3L
+				disable_toast: true
 				icon: {
 					Count: 1
 					id: "dimdungeons:item_portal_key"
@@ -456,8 +477,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 2L
+				disable_toast: true
 				id: "06C8067919E0BFD7"
-				item: { Count: 2, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lBuy a Sapling"
@@ -477,8 +499,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 2L
+				disable_toast: true
 				id: "245E1F1C09C53B63"
-				item: { Count: 2, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lBottle o' Daydream"
@@ -498,6 +521,7 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 15L
+				disable_toast: true
 				id: "773E3243A8D922E9"
 				item: "minecraft:emerald"
 				type: "item"
@@ -519,8 +543,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "4D6D65C3849CFD1B"
-				item: { Count: 5, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lRandom Armor Trim Template"
@@ -541,8 +566,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "52AFF89A57B54E30"
-				item: { Count: 5, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lUsed Key Inscribing Station"
@@ -599,38 +625,44 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "6A8362D0676BD717"
-					item: { Count: 5, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
 					count: 5L
+					disable_toast: true
 					id: "52BFD7791DABC70F"
-					item: { Count: 5, id: "minecraft:leather" }
+					item: "minecraft:leather"
 					type: "item"
 				}
 				{
 					count: 5L
+					disable_toast: true
 					id: "72A7B0E33C4E593A"
-					item: { Count: 5, id: "minecraft:string" }
+					item: "minecraft:string"
 					type: "item"
 				}
 				{
 					count: 5L
+					disable_toast: true
 					id: "536F4879F8038649"
-					item: { Count: 5, id: "minecraft:paper" }
+					item: "minecraft:paper"
 					type: "item"
 				}
 				{
 					count: 10L
+					disable_toast: true
 					id: "423396A5A3B8A14A"
-					item: { Count: 10, id: "minecraft:copper_ingot" }
+					item: "minecraft:copper_ingot"
 					type: "item"
 				}
 				{
 					count: 5L
+					disable_toast: true
 					id: "6900A2BA0CB2437F"
-					item: { Count: 5, id: "minecraft:bread" }
+					item: "minecraft:bread"
 					type: "item"
 				}
 			]
@@ -662,8 +694,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 4L
+				disable_toast: true
 				id: "567A8EA5108A8A2A"
-				item: { Count: 4, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lFire Resistance Potion"
@@ -686,8 +719,9 @@
 			subtitle: "&7&oLimited Stock!"
 			tasks: [{
 				count: 30L
+				disable_toast: true
 				id: "166A67A057847E97"
-				item: { Count: 30, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lChoose A Quality Food Item"
@@ -707,8 +741,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "0DE7B7961ECB9E0C"
-				item: { Count: 2, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lTree Fertilizer"
@@ -729,6 +764,7 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 3L
+				disable_toast: true
 				id: "25A6A991BC31BF88"
 				item: "minecraft:emerald"
 				type: "item"
@@ -753,6 +789,7 @@
 			}]
 			shape: "pentagon"
 			tasks: [{
+				disable_toast: true
 				id: "0CC716B3064EC6B7"
 				item: "minecraft:command_block"
 				type: "item"
@@ -773,8 +810,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 5L
+				disable_toast: true
 				id: "466030418A955EFF"
-				item: { Count: 5, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lSaddle"
@@ -800,11 +838,13 @@
 			tasks: [
 				{
 					count: 7L
+					disable_toast: true
 					id: "40DBEB591203BD11"
-					item: { Count: 7, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "1405ECE4C7EACDF6"
 					item: "minecraft:compass"
 					type: "item"
@@ -828,11 +868,13 @@
 			tasks: [
 				{
 					count: 7L
+					disable_toast: true
 					id: "1FDBBF9A24EB707C"
-					item: { Count: 7, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "511140F8D2C48D3A"
 					item: "minecraft:compass"
 					type: "item"
@@ -861,11 +903,13 @@
 			tasks: [
 				{
 					count: 16L
+					disable_toast: true
 					id: "620F1EAE07137332"
-					item: { Count: 14, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "47C0D4500A9D0C10"
 					item: "minecraft:compass"
 					type: "item"
@@ -894,11 +938,13 @@
 			tasks: [
 				{
 					count: 16L
+					disable_toast: true
 					id: "08E6400718A5442D"
-					item: { Count: 14, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0F06455F7F55E0ED"
 					item: "minecraft:compass"
 					type: "item"
@@ -927,11 +973,13 @@
 			tasks: [
 				{
 					count: 16L
+					disable_toast: true
 					id: "3596AC77C11C291B"
-					item: { Count: 14, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "4B099D9193EA0EB1"
 					item: "minecraft:compass"
 					type: "item"
@@ -960,11 +1008,13 @@
 			tasks: [
 				{
 					count: 16L
+					disable_toast: true
 					id: "465763B6CC3415C9"
-					item: { Count: 15, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7662371453365410"
 					item: "minecraft:compass"
 					type: "item"
@@ -993,11 +1043,13 @@
 			tasks: [
 				{
 					count: 10L
+					disable_toast: true
 					id: "51D7F7081A676EAD"
-					item: { Count: 7, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3A3704D1251AA986"
 					item: "minecraft:compass"
 					type: "item"
@@ -1020,11 +1072,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "70E691070F6208EB"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0CF3880CBE46AD1D"
 					item: "minecraft:compass"
 					type: "item"
@@ -1047,11 +1101,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "3600132BE2F8F138"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "5AE5C0CF0CBEF1DF"
 					item: "minecraft:compass"
 					type: "item"
@@ -1074,11 +1130,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "6F7439207DC82B80"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3FA62C9D8DE851E2"
 					item: "minecraft:compass"
 					type: "item"
@@ -1106,11 +1164,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "30C496976671D763"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "35B0AFC1F4E5E910"
 					item: "minecraft:compass"
 					type: "item"
@@ -1133,11 +1193,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "14F920E7AFD7218C"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "35C41A2F947124B7"
 					item: "minecraft:compass"
 					type: "item"
@@ -1160,11 +1222,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "79494338E0074173"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "62670838FAAEEB63"
 					item: "minecraft:compass"
 					type: "item"
@@ -1187,11 +1251,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "2721CBDA9189C169"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "22A7E7435EA58881"
 					item: "minecraft:compass"
 					type: "item"
@@ -1214,11 +1280,13 @@
 			tasks: [
 				{
 					count: 5L
+					disable_toast: true
 					id: "2F160AEA214B24D6"
-					item: { Count: 5, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "507DA75A83A2BE2A"
 					item: "minecraft:compass"
 					type: "item"
@@ -1241,8 +1309,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 6L
+				disable_toast: true
 				id: "6DB9F108EEA2FFC7"
-				item: { Count: 5, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lExperience Gems"
@@ -1268,8 +1337,9 @@
 			shape: "pentagon"
 			tasks: [{
 				count: 25L
+				disable_toast: true
 				id: "210775F72FADAC8B"
-				item: { Count: 25, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "&f&lRandom Tipped Arrow"
@@ -1299,20 +1369,22 @@
 			tasks: [
 				{
 					count: 10L
+					disable_toast: true
 					id: "5CBD92803EBD49C5"
-					item: { Count: 10, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
 					count: 10L
+					disable_toast: true
 					id: "5836182D96B561FC"
-					item: { Count: 10, id: "create:shadow_steel" }
+					item: "create:shadow_steel"
 					type: "item"
 				}
 			]
 			title: "&f&lTotem of the Void"
-			x: -6.5d
-			y: -3.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -1330,20 +1402,22 @@
 			tasks: [
 				{
 					count: 2L
+					disable_toast: true
 					id: "5D06433A77BCBB40"
-					item: { Count: 2, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
 					count: 6L
+					disable_toast: true
 					id: "3C24464454374A27"
-					item: { Count: 5, id: "create:shadow_steel" }
+					item: "create:shadow_steel"
 					type: "item"
 				}
 			]
 			title: "&f&lSouls"
-			x: 6.5d
-			y: -3.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -1360,20 +1434,22 @@
 			tasks: [
 				{
 					count: 24L
+					disable_toast: true
 					id: "77F31B236514685E"
-					item: { Count: 20, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
 					count: 32L
+					disable_toast: true
 					id: "3DA5BC0119DBF0F3"
 					item: "create:refined_radiance"
 					type: "item"
 				}
 			]
 			title: "&f&lLegendary Ink"
-			x: -8.0d
-			y: -3.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -1391,20 +1467,22 @@
 			tasks: [
 				{
 					count: 6L
+					disable_toast: true
 					id: "6B389286EBC386DA"
-					item: { Count: 4, id: "minecraft:emerald" }
+					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
 					count: 12L
+					disable_toast: true
 					id: "2A414791325EB68C"
 					item: "create:shadow_steel"
 					type: "item"
 				}
 			]
 			title: "&f&lRelic Experience Bottles"
-			x: -8.0d
-			y: -4.5d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -1422,26 +1500,29 @@
 			tasks: [
 				{
 					count: 6L
+					disable_toast: true
 					id: "01B0E0D2D3C391CE"
 					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "0E5FBC7624CDC165"
 					item: "create:shadow_steel"
 					type: "item"
 				}
 				{
 					count: 3L
+					disable_toast: true
 					id: "1A49CF2636F9FA1F"
-					item: { Count: 3, id: "create:refined_radiance" }
+					item: "create:refined_radiance"
 					type: "item"
 				}
 			]
 			title: "&f&lRandom Enchanting Tomes"
-			x: 8.0d
-			y: -4.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -1472,19 +1553,95 @@
 			tasks: [
 				{
 					count: 35L
+					disable_toast: true
 					id: "1DB837DAF52C9446"
 					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
 					count: 15L
+					disable_toast: true
 					id: "4F791EC32056AFED"
 					item: "create:shadow_steel"
 					type: "item"
 				}
 			]
 			title: "&f&lEnder Lead"
-			x: 8.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "unusualend:prismatic_mirror"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C7CBD11C7065F59"
+			rewards: [{
+				id: "64635CB9F9FA3651"
+				item: {
+					Count: 1
+					id: "unusualend:prismatic_mirror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 32L
+					disable_toast: true
+					id: "623DC4326D85D80D"
+					item: { Count: 32, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 16L
+					disable_toast: true
+					id: "68207B283271C1A3"
+					item: { Count: 16, id: "create:shadow_steel" }
+					type: "item"
+				}
+			]
+			title: "&f&lPrismatic Mirror"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "tropicraft:pina_colada"
+			id: "37EA5543512E6565"
+			rewards: [
+				{
+					id: "02A471A5A2C75345"
+					item: "tropicraft:white_chair"
+					type: "item"
+				}
+				{
+					id: "2C8B10D606640752"
+					item: "tropicraft:pina_colada"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 5L
+				disable_toast: true
+				id: "0AB9DBC1D76C1297"
+				item: { Count: 5, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "&f&lVacation Bundle"
+			x: 6.5d
 			y: -3.0d
 		}
 	]

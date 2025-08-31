@@ -105,6 +105,13 @@ ServerEvents.recipes(event => {
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/wilden"}'), 'irons_spellbooks:divine_pearl', ['ars_nouveau:wilden_horn', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_wing', '2x ars_nouveau:source_gem'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:enchanted_library"}'), 'irons_spellbooks:divine_pearl', ['kubejs:hyper_enchant_catalyst', '4x ars_nouveau:source_gem', 'ars_nouveau:conjuration_essence', 'irons_spellbooks:arcane_rune', '4x irons_spellbooks:arcane_essence'])
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:edge_of_the_world"}'), 'irons_spellbooks:divine_pearl', ['forbidden_arcanus:stellarite_piece', '2x minecraft:echo_shard', '2x forbidden_arcanus:ender_pearl_fragment'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/piglin_brute"}'), 'irons_spellbooks:divine_pearl', ['4x minecraft:gold_ingot', '4x minecraft:blackstone'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/wither_skeleton"}'), 'irons_spellbooks:divine_pearl', ['minecraft:wither_skeleton_skull', '2x iceandfire:witherbone', '4x minecraft:coal'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/vindicator"}'), 'irons_spellbooks:divine_pearl', ['16x minecraft:emerald', '2x illagerinvasion:platinum_sheet'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/witch"}'), 'irons_spellbooks:divine_pearl', ['4x minecraft:redstone', '4x minecraft:gunpowder', '4x minecraft:sugar', '4x minecraft:glowstone_dust'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/ghast"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:ghast_tear', '2x minecraft:gunpowder'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:basic/ghost"}'), 'irons_spellbooks:divine_pearl', ['3x iceandfire:ectoplasm', '3x minecraft:rotten_flesh'])
+    itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"kubejs:sunken_citadel"}'), 'irons_spellbooks:divine_pearl', ['4x minecraft:tropical_fish', '2x minecraft:ender_pearl', 'minecraft:nautilus_shell'])
 
 
     /*
