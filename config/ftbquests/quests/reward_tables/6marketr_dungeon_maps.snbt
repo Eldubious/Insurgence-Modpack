@@ -56,22 +56,6 @@
 				Count: 1
 				id: "supplementaries:cartographers_quill"
 				tag: {
-					decoration: "supplementaries:swamp_hut"
-					display: {
-						Name: "{\"translate\":\"structure_map.kubejs.swamp_hut\"}"
-					}
-					maxSearchRadius: 100
-					skinKnown: 1b
-					targetStructure: "minecraft:swamp_hut"
-					zoomLevel: 2
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "supplementaries:cartographers_quill"
-				tag: {
 					decoration: "minecraft:monument"
 					display: {
 						Name: "{\"translate\":\"structure_map.kubejs.ocean_monument\"}"
@@ -287,6 +271,102 @@
 					maxSearchRadius: 100
 					skinKnown: 1b
 					targetStructure: "minecraft:buried_treasure"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:pillager_outpost"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.aqua_mage_tower\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "traveloptics:aqua_mage_tower"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:pillager_outpost"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.echo_shrine\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "traveloptics:echo_shrine"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.guardian_wilden_den\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_nouveau:guardian_wilden_den"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.hunter_wilden_den\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_nouveau:hunter_wilden_den"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.stalker_wilden_den\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_nouveau:stalker_wilden_den"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.meteorite\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ae2:meteorite"
 					zoomLevel: 2
 				}
 			}

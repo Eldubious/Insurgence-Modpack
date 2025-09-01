@@ -17,14 +17,192 @@
 		}
 	}
 	id: "442879CDC4F5BACB"
-	images: [{
-		height: 3.0d
-		image: "kubejs:textures/menu/insurgence_title.png"
-		rotation: 0.0d
-		width: 10.0d
-		x: 0.0d
-		y: -3.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/menu/insurgence_title.png"
+			order: 100
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/landscapes/prismachasm.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/evoker_fort.png"
+			order: 4
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/landscapes/the_aether.png"
+			order: 2
+			rotation: 0.0d
+			width: 4.25d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/structures/fire_dragon_nest.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/landscapes/twilight_forest.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.25d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			height: 4.1d
+			image: "kubejs:textures/photos/landscapes/the_nether.png"
+			order: 5
+			rotation: 0.0d
+			width: 4.1d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/landscapes/the_tropics.png"
+			order: 11
+			rotation: 0.0d
+			width: 2.5d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/plains_village_2.png"
+			order: 5
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/plains_village.png"
+			order: 22
+			rotation: 0.0d
+			width: 2.5d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/landscapes/bumblezone.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 10
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.5d
+			y: 1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

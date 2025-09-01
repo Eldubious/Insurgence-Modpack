@@ -951,7 +951,7 @@
 				}
 			]
 			title: "&f&lNether Structure Maps"
-			x: 4.5d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
@@ -986,7 +986,7 @@
 				}
 			]
 			title: "&f&lAether Structure Maps"
-			x: 5.5d
+			x: 6.0d
 			y: -7.0d
 		}
 		{
@@ -1021,8 +1021,8 @@
 				}
 			]
 			title: "&f&lOverworld Dungeon Maps"
-			x: 5.0d
-			y: -8.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			disable_toast: true
@@ -1643,6 +1643,57 @@
 			title: "&f&lVacation Bundle"
 			x: 6.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"These are acheology structures, so bring your brush!"
+				""
+				"All of these structures can be found in the Overworld."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/ocean_ruin.png"
+				}
+			}
+			id: "5FEB2786E9ABE74B"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "supplementaries:village"
+						display: {
+							Name: "{\"translate\":\"structure_map.kubejs.abandoned_village\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "wan_ancient_beasts:abandoned_village"
+						zoomLevel: 2
+					}
+				}
+				id: "7AA35F5223E3BC36"
+				table_id: 6137001473761063641L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "346BDC9E2A7854B2"
+					item: { Count: 3, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					id: "5213B58481D73316"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			title: "&f&lRuins Structure Maps"
+			x: 5.0d
+			y: -8.0d
 		}
 	]
 	title: "Shop"

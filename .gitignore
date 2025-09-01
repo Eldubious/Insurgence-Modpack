@@ -8,6 +8,7 @@ coremods
 crash-reports
 !config/defaultoptions/extra/local/ftbchunks/client-config.snbt
 downloads
+exposures
 fancymenu_data
 knownkeys.txt
 kubejs/jsconfig.json

@@ -49,7 +49,7 @@ PlayerEvents.tick(event => {
             let amp = Math.floor(count / max) - 1
             //player.tell("You are carrying too many backpacks. Your limit is " + max)
             
-            let cmd = `effect give ${player.uuid.toString()} minecraft:slowness 4 ${amp} true`
+            let cmd = `effect give ${player.uuid.toString()} minecraft:slowness 8 ${amp} true`
             event.server.runCommandSilent(cmd)
         }
 

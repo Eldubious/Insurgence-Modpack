@@ -1,23 +1,209 @@
 {
+	autofocus_id: "77BBB0B271A4C8B4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "command_block"
 	group: "1CF0BF9967B6E091"
 	icon: "minecraft:command_block"
 	id: "5060EEC4ED6725AA"
+	images: [
+		{
+			height: 2.75d
+			image: "forbidden_arcanus:block/runic_stone/rune_layer"
+			rotation: 0.0d
+			width: 2.75d
+			x: 3.6624999999999943d
+			y: -5.050000000000008d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign0.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign11.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign2.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign5.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign6.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign9.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 2
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/landscapes/gloopstone_lands.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/landscapes/poise_forest.png"
+			order: 3
+			rotation: 0.0d
+			width: 4.25d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/structures/command_room.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.25d
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/mysterious_item.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/structures/destroyed_command_room.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:block/black_hole_aura_2"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 3.5d
+			image: "forbidden_arcanus:textures/mob_effect/darkened.png"
+			rotation: 180.0d
+			width: 3.5d
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "forbidden_arcanus:item/dark_matter"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.5d
+			y: -2.25d
+		}
+	]
 	order_index: 2
 	quest_links: [{
 		id: "20B94099DE0681B5"
 		linked_quest: "29AF050547FA1FFF"
 		shape: "pentagon"
 		size: 2.0d
-		x: 2.5d
-		y: -4.5d
+		x: 3.75d
+		y: -2.0d
 	}]
 	quests: [
 		{
 			dependencies: [
-				"2BB131B790A6A6AF"
 				"6DE14536CD3E0D8C"
 				"75EA51C75C4E6F91"
 				"2CAD77E4AF9C4220"
@@ -48,25 +234,7 @@
 				item: "architects_palette:unobtanium"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["68EB589E7A45F716"]
-			disable_toast: true
-			hide_dependency_lines: true
-			id: "2BB131B790A6A6AF"
-			rewards: [{
-				id: "31B863532E7BAA09"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6169F4AAA3DD5D7B"
-				item: "minecraft:amethyst_block"
-				type: "item"
-			}]
-			x: 8.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -85,8 +253,8 @@
 				item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -104,7 +272,7 @@
 				item: { Count: 4, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: 6.25d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -123,8 +291,8 @@
 				item: { Count: 4, id: "traveloptics:void_spellweave_ingot" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -142,8 +310,8 @@
 				item: { Count: 4, id: "samurai_dynasty:amethyst_ingot" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -161,8 +329,8 @@
 				item: { Count: 4, id: "unusualend:pearlescent_ingot" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -180,8 +348,8 @@
 				item: { Count: 4, id: "forbidden_arcanus:obsidian_ingot" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.5d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -199,8 +367,8 @@
 				item: { Count: 4, id: "irons_spellbooks:arcane_ingot" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68EB589E7A45F716"]
@@ -218,8 +386,8 @@
 				item: { Count: 4, id: "experienceobelisk:cognitive_alloy" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29AF050547FA1FFF"]
@@ -256,8 +424,8 @@
 				}
 			]
 			title: "Creating Portal Keys"
-			x: 5.0d
-			y: -5.5d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -305,8 +473,8 @@
 				item: "kubejs:obfuscated"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.5d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4EC3DFF09750A710"]
@@ -355,8 +523,8 @@
 				type: "dimension"
 			}]
 			title: "Enter the Dimensional Dungeons"
-			x: 6.5d
-			y: -4.5d
+			x: 3.75d
+			y: -5.0d
 		}
 		{
 			dependencies: ["23324F0768507D9C"]
@@ -412,8 +580,8 @@
 				}
 			]
 			title: "Advanced Dimensional Dungeons"
-			x: 8.5d
-			y: -4.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["29AF050547FA1FFF"]
@@ -622,7 +790,7 @@
 				type: "observation"
 			}]
 			title: "Find a Summoning Altar"
-			x: 4.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -678,8 +846,8 @@
 				item: { Count: 4, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 11.0d
+			y: 1.0d
 		}
 	]
 	title: "Chapter II: Command Block"

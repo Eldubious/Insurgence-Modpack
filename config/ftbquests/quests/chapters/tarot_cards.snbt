@@ -54,38 +54,43 @@
 		{
 			height: 0.6d
 			image: "minecraft:item/iron_sword"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: -3.0d
-			y: -2.5d
+			x: -2.9821428571428754d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "irons_spellbooks:item/copper_spell_book"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: -1.5d
-			y: -2.5d
+			x: -1.4821428571428754d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/lead"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 1.5d
-			y: -2.5d
+			x: 1.5178571428571246d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/emerald"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 3.0d
-			y: -2.5d
+			x: 3.0178571428571246d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "farmersdelight:item/cooking_pot"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
 			x: 4.5d
@@ -94,110 +99,124 @@
 		{
 			height: 0.6d
 			image: "minecraft:item/diamond"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 6.0d
-			y: -2.5d
+			x: 6.017857142857125d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/flint_and_steel"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 7.5d
-			y: -2.5d
+			x: 7.517857142857125d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/enchanted_book"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: -1.5d
-			y: -4.5d
+			x: -1.4821428571428754d
+			y: -4.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/echo_shard"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 0.0d
-			y: -4.5d
+			x: 0.017857142857124586d
+			y: -4.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "aquaculture:item/treasure_chest"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 1.5d
-			y: -4.5d
+			x: 1.5178571428571246d
+			y: -4.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:textures/mob_effect/bad_omen.png"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 3.0d
-			y: -4.5d
+			x: 3.0178571428571246d
+			y: -4.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/ender_eye"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 4.5d
-			y: -4.5d
+			x: 4.517857142857125d
+			y: -4.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "forbidden_arcanus:item/dragon_scale"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 6.0d
-			y: -4.5d
+			x: 6.017857142857125d
+			y: -4.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "arts_and_crafts:item/bleached_bed"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 0.0d
-			y: -2.5d
+			x: 0.017857142857124586d
+			y: -2.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "minecraft:item/elytra"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 0.0d
-			y: -6.5d
+			x: 0.017857142857124586d
+			y: -6.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "cataclysm:item/ignitium_ingot"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 1.5d
-			y: -6.5d
+			x: 1.5178571428571246d
+			y: -6.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "dimdungeons:item/item_key_level1"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 3.0d
-			y: -6.5d
+			x: 3.0178571428571246d
+			y: -6.482116993072495d
 		}
 		{
 			height: 0.6d
 			image: "dimdungeons:item/item_key_level2"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
-			x: 4.5d
-			y: -6.5d
+			x: 4.517857142857125d
+			y: -6.482116993072495d
 		}
 		{
 			height: 1.0d
 			image: "iceandfire:item/dragonsteel_fire_sword"
+			order: 2
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
@@ -206,18 +225,199 @@
 		{
 			height: 0.6d
 			image: "iceandfire:block/dragonforge_fire_core"
+			order: 2
 			rotation: 0.0d
 			width: 0.6d
+			x: 1.5178571428571246d
+			y: -8.482116993072495d
+		}
+		{
+			dependency: "78991565E3ABB634"
+			height: 0.6d
+			image: "witherstormmod:item/withered_nether_star"
+			order: 2
+			rotation: 0.0d
+			width: 0.6d
+			x: 2.2678571428571246d
+			y: -11.982116993072495d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependency: "78991565E3ABB634"
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.25d
+			y: -12.0d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
 			x: 1.5d
 			y: -8.5d
 		}
 		{
-			height: 0.6d
-			image: "witherstormmod:item/withered_nether_star"
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
 			rotation: 0.0d
-			width: 0.6d
+			width: 0.75d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 0.75d
+			image: "ftbquests:textures/shapes/rsquare/background.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependency: "78991565E3ABB634"
+			height: 2.0d
+			image: "forbidden_arcanus:textures/mob_effect/darkened.png"
+			rotation: 0.0d
+			width: 2.0d
 			x: 2.25d
-			y: -12.0d
+			y: -11.089259850215353d
 		}
 	]
 	order_index: 0

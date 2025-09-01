@@ -12,14 +12,522 @@
 		}
 	}
 	id: "21808972CAB895B3"
-	images: [{
-		height: 2.0d
-		image: "supplementaries:item/tattered_book"
-		rotation: 0.0d
-		width: 2.0d
-		x: 0.0d
-		y: -2.0d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "supplementaries:item/tattered_book"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/music_disc_blocks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.3214285714285836d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/music_disc_pigstep"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -6.3214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/music_disc_13"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.964285714285722d
+			y: -6.3214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/music_disc_otherside"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.3214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/paintingsanddiscsbackport/music_disc_relic"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.3214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/paintingsanddiscsbackport/music_disc_precipice"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.3214285714285765d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			color: 2763306
+			height: 11.5d
+			image: "ftbquests:textures/shapes/square/background.png"
+			order: -5
+			rotation: 0.0d
+			width: 11.5d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log"
+			order: -1
+			rotation: 90.0d
+			width: 1.25d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "architects_palette:block/stripped_twisted_log_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/quark/music_disc_drips"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.999999999999986d
+			y: -2.3214285714285836d
+		}
+		{
+			height: 1.0d
+			image: "amendments:block/music_discs/music_disc_mall"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.999999999999986d
+			y: -0.3214285714285765d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

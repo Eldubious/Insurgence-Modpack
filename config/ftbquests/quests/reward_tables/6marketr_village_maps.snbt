@@ -120,13 +120,29 @@
 				Count: 1
 				id: "supplementaries:cartographers_quill"
 				tag: {
-					decoration: "supplementaries:ocean_ruin"
+					decoration: "supplementaries:swamp_hut"
 					display: {
-						Name: "{\"translate\":\"structure_map.kubejs.trail_ruins\"}"
+						Name: "{\"translate\":\"structure_map.kubejs.swamp_hut\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
-					targetStructure: "minecraft:trail_ruins"
+					targetStructure: "minecraft:swamp_hut"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.starbuncle_shrine\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_elemental:starbuncle_shrine"
 					zoomLevel: 2
 				}
 			}
