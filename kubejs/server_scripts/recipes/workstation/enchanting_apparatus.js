@@ -375,4 +375,29 @@ ServerEvents.recipes(event => {
         ],
         'traveloptics:frosted_cryostorm_bracelet', 'traveloptics:cryostorm_bracelet', 4000, false
     )
+    // Flandre's Wings
+    apparatusRecipe(
+        [
+            'icarus:red_feathered_wings', 'icarus:red_dragon_wings', 'galosphere:cured_membrane', 'galosphere:cured_membrane',
+            'alexsmobs:mimicream', 'alexsmobs:mimicream'
+        ],
+        'forbidden_arcanus:eternal_stella', 'icarus:flandres_wings', 2500, false
+    )
+
+    // Zanza's Wings
+    apparatusRecipe(
+        [
+            'icarus:white_feathered_wings', 'icarus:yellow_light_wings', 'galosphere:cured_membrane', 'galosphere:cured_membrane',
+            'alexsmobs:mimicream', 'alexsmobs:mimicream'
+        ],
+        'forbidden_arcanus:eternal_stella', 'icarus:zanzas_wings', 2500, false
+    )
+    // Discord's Wings
+    apparatusRecipe(
+        [
+            'icarus:purple_dragon_wings', 'icarus:cyan_feathered_wings', 'galosphere:cured_membrane', 'galosphere:cured_membrane',
+            'alexsmobs:mimicream', 'alexsmobs:mimicream'
+        ],
+        'forbidden_arcanus:eternal_stella', 'icarus:discords_wings', 2500, false
+    )
 })

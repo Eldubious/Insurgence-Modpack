@@ -2009,4 +2009,86 @@ ServerEvents.recipes(event => {
             D: 'ae2:energy_cell'
         }
     )
+    // Wings
+    event.remove([{id: 'icarus:feathered_wings'}, {id: 'icarus:mechanical_feathered_wings'}, {id: 'icarus:dragon_wings'},
+        {id: 'icarus:mechanical_leather_wings'}, {id: 'icarus:light_wings'}, {id: 'icarus:flandres_wings'},
+        {id: 'icarus:discords_wings'}, {id: 'icarus:zanzas_wings'}
+    ])
+    let dye_colors = ['white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow',
+        'lime', 'green', 'light_blue', 'cyan', 'blue', 'purple', 'magenta', 'pink']
+    dye_colors.forEach(color => {
+        // Feathered Wings
+        event.shaped(`icarus:${color}_feathered_wings`,
+            [
+                'ABA',
+                'CDC',
+                'C C'
+            ],
+            {
+                A: 'galosphere:cured_membrane',
+                B: `minecraft:${color}_dye`,
+                C: 'forbidden_arcanus:golden_feather',
+                D: '#kubejs:elytra'
+            }
+        )
+        // Mechanical Feathered Wings
+        event.shaped(`icarus:${color}_mechanical_feathered_wings`,
+            [
+                'ABA',
+                'CDC',
+                'E E'
+            ],
+            {
+                A: 'galosphere:cured_membrane',
+                B: `minecraft:${color}_dye`,
+                C: 'create:brass_sheet',
+                D: '#kubejs:elytra',
+                E: 'forbidden_arcanus:golden_feather'
+            }
+        )
+        // Mechanical Leather Wings
+        event.shaped(`icarus:${color}_mechanical_leather_wings`,
+            [
+                'ABA',
+                'CDC',
+                'E E'
+            ],
+            {
+                A: 'galosphere:cured_membrane',
+                B: `minecraft:${color}_dye`,
+                C: 'create:brass_sheet',
+                D: '#kubejs:elytra',
+                E: '#kubejs:tough_leather'
+            }
+        )
+        // Dragon Wings
+        event.shaped(`icarus:${color}_dragon_wings`,
+            [
+                'ABA',
+                'CDC',
+                'C C'
+            ],
+            {
+                A: 'galosphere:cured_membrane',
+                B: `minecraft:${color}_dye`,
+                C: 'forbidden_arcanus:golden_dragon_scale',
+                D: '#kubejs:elytra'
+            }
+        )
+        // Light Wings
+        event.shaped(`icarus:${color}_light_wings`,
+            [
+                'ABA',
+                'CDC',
+                'E E'
+            ],
+            {
+                A: 'galosphere:cured_membrane',
+                B: `minecraft:${color}_dye`,
+                C: 'aether:ambrosium_shard',
+                D: '#kubejs:elytra',
+                E: 'minecraft:glowstone_dust'
+            }
+        )
+    })
 })
