@@ -1,3 +1,22 @@
+Version 1.2.2
+    Additions:
+    - Added Mods:
+        - Icarus
+        - FTB Quest Localizer
+    - Added informational tooltips to some items
+
+    Changes:
+    - Updated some mods
+    - The KubeJS Creative Tab has a new icon
+
+    - Changed several recipes:
+        - The recipe for unobtanium now outputs 4x ingots instead of one block
+
+    Fixes:
+    - Sophisticated Storage items appear in JEI again
+    - Mob heads can give their enchanting stats when placed on walls
+
+
 Version 1.2.1
     Additions:
     - Added new Gate Pearls for the following mobs:

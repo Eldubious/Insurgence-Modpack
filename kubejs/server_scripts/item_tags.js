@@ -75,6 +75,16 @@ ServerEvents.tags('item', event => {
 	addToTag('forge:tools/knives', 'ae2:quatz_cutting_knife')
 	addToTag('farmersdelight:tools/knives', 'ae2:certus_quartz_cutting_knife')
 	addToTag('farmersdelight:tools/knives', 'ae2:quatz_cutting_knife')
+	// Elytras
+	addToTag('kubejs:elytra', 'minecraft:elytra')
+	addToTag('kubejs:elytra', 'estrogen:moth_elytra')
+	addToTag('kubejs:elytra', 'alexsmobs:tarantula_hawk_elytra')
+	// Tough Leathers
+	addToTag('kubejs:tough_leather', 'quark:ravager_hide')
+	addToTag('kubejs:tough_leather', 'alexscaves:tough_hide')
+	addToTag('kubejs:tough_leather', 'iceandfire:troll_leather_forest')
+	addToTag('kubejs:tough_leather', 'iceandfire:troll_leather_mountain')
+	addToTag('kubejs:tough_leather', 'iceandfire:troll_leather_frost')
 
 
 	/*

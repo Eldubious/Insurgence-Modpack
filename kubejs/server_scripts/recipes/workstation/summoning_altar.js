@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
     }
 
     itemRitual('summoningrituals:altar', 'minecraft:enchanting_table', ['2x minecraft:red_wool', '2x #forge:ingots/gold', 'minecraft:candle', 'minecraft:wither_skeleton_skull', '2x create:chromatic_compound'])
-    itemRitual('architects_palette:unobtanium_block', 'minecraft:amethyst_block',
+    itemRitual('4x architects_palette:unobtanium', 'minecraft:amethyst_block',
         [
             '4x irons_spellbooks:arcane_ingot', '4x samurai_dynasty:amethyst_ingot', '4x traveloptics:void_spellweave_ingot', '4x experienceobelisk:cognitive_alloy',
             '4x forbidden_arcanus:obsidian_ingot', '4x unusualend:pearlescent_ingot', '4x forbidden_arcanus:stellarite_piece', '4x minecraft:netherite_ingot',
