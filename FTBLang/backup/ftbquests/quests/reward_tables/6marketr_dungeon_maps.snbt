@@ -1,0 +1,376 @@
+{
+	id: "27AB2BDED45F9F4C"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:desert_pyramid"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.desert_pyramid\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:desert_pyramid"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:jungle_temple"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.jungle_temple\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:jungle_pyramid"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:mineshaft"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.mineshaft\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "minecraft:monument"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ocean_monument\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "betteroceanmonuments:ocean_monument"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:jungle_temple"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.overgrown_temple\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "call_of_yucutan:overgrown_temple"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:ocean_ruin"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.deadly_crypt\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "call_of_yucutan:deadly_crypt"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:ocean_ruin"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.pink_salt_shrine\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "galosphere:pink_salt_shrine"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "minecraft:mansion"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.underground_cabin\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "alexscaves:underground_cabin"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:jungle_temple"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.gorgon_temple\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "iceandfire:gorgon_temple"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:ancient_city"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ancient_city\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:ancient_city"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:pillager_outpost"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.pillager_outpost\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:pillager_outpost"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "minecraft:mansion"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.woodland_mansion\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:mansion"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:generic_structure"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.evoker_fort\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "irons_spellbooks:evoker_fort"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:generic_structure"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.illager_fort\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "illagerinvasion:illager_fort"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:generic_structure"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.illusioner_tower\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "illagerinvasion:illusioner_tower"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.labyrinth\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "illagerinvasion:labyrinth"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.buried_treasure\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:buried_treasure"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:pillager_outpost"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.aqua_mage_tower\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "traveloptics:aqua_mage_tower"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:pillager_outpost"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.echo_shrine\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "traveloptics:echo_shrine"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.guardian_wilden_den\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_nouveau:guardian_wilden_den"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.hunter_wilden_den\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_nouveau:hunter_wilden_den"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.stalker_wilden_den\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ars_nouveau:stalker_wilden_den"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.meteorite\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "ae2:meteorite"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Overworld Structures"
+}

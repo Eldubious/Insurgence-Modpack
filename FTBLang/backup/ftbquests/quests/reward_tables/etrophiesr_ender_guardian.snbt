@@ -1,0 +1,55 @@
+{
+	id: "3B8DA3B0FB4F903D"
+	loot_crate: {
+		color: 16741593
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.ender_guardian_trophies"
+		string_id: "trophies_ender_guardian"
+	}
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/ender_guardian"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/ender_golem"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/endermaptera"
+					}
+				}
+			}
+			weight: 7.5f
+		}
+	]
+	title: "&eTrophies:&r Ender Guardian"
+}

@@ -1,0 +1,470 @@
+{
+	autofocus_id: "11090A911B3D930A"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "welcome"
+	group: ""
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:diamond_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 10
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "442879CDC4F5BACB"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/menu/insurgence_title.png"
+			order: 100
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/landscapes/prismachasm.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/evoker_fort.png"
+			order: 4
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/landscapes/the_aether.png"
+			order: 2
+			rotation: 0.0d
+			width: 4.25d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/structures/fire_dragon_nest.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/landscapes/twilight_forest.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.25d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			height: 4.1d
+			image: "kubejs:textures/photos/landscapes/the_nether.png"
+			order: 5
+			rotation: 0.0d
+			width: 4.1d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/landscapes/the_tropics.png"
+			order: 11
+			rotation: 0.0d
+			width: 2.5d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/plains_village_2.png"
+			order: 5
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/plains_village.png"
+			order: 22
+			rotation: 0.0d
+			width: 2.5d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/landscapes/bumblezone.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 10
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.5d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I'm glad you decided to play Insurgence!"
+				""
+				"&e&l&nSome useful things to know:&r"
+				""
+				"- Default keybinds for some mods have changed &7(&osee next page&r&7)&r"
+				""
+				"- The Spyglass you recieved upon joining can be equipped and used with the default keybind. &7&o(Z)"
+				""
+				"{@pagebreak}"
+				""
+				"I decided to change &osome&r of the default keybinds to improve the out-of-the-box experience. Of course, feel free to change them back or to whatever else you want."
+				""
+				"These are the changes I've made:"
+				""
+				"&e&lFTB Quests&r"
+				"- &7Open Quests:&r [ &o`&r ]"
+				""
+				"&e&lTom's Simple Storage&r"
+				"- &7Open Terminal:&r [ &oCTRL + E&r ]"
+				""
+				"&e&lArs Nouveau Spell Book&r"
+				"- &7Next Slot:&r [ &oU&r ]"
+				"- &7Previous Slot:&r [ &oY&r ]"
+				"- &7Open Book:&r [ &oC&r ]"
+				"- &7Toggle Selection HUD:&r [ &oV&r ]"
+				""
+				"&e&lCreate: Estrogen&r"
+				"- &7Activate Dash:&r [ &oLEFT ALT&r ]"
+				""
+				"&e&lCurios&r"
+				"- &7Open/Close Curios Inventory:&r [ &oN&r ]"
+				""
+				"&e&lIron's Spells and Spellbooks&r"
+				"- &7Cast Selected Spell:&r [ &oR&r ]"
+				"- &7Open Spell Wheel:&r [ &oCTRL + F&r ]"
+				""
+				"&e&lMahou Tsukai&r"
+				"- &7Draw Mahoujin:&r [ &oSHIFT + C&r ]"
+				""
+				"&e&lQuark&r"
+				"- &7Hotbar Swapper:&r [ &oCTRL + Z&r ]"
+			]
+			icon: "kubejs:enchant_catalyst"
+			id: "11090A911B3D930A"
+			rewards: [{
+				id: "6853923DEC9DA623"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "61B87783253A4F18"
+				type: "dimension"
+			}]
+			title: "Welcome to the Pack!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Plenty of mods offer in-game documentation in the form of guidebooks."
+				""
+				"I'm keeping them here so that they don't clutter up your inventory until you're ready to recieve them."
+				""
+				"They will be here until then."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "twilightdelight:twilight_guide"
+				}
+			}
+			id: "01DFE8A392E2D25A"
+			rewards: [
+				{
+					id: "58D7EBEAD5915F32"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "42AF321A4B95AC40"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "hexcasting:thehexbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D1CC711EBCA3A0A"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FB04775DAD33A9F"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+				{
+					id: "3EE24735ED7B32A5"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "2E5EF1B213A844C3"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+				{
+					id: "56977B6D2F8A4186"
+					item: "mahoutsukai:guidebook"
+					type: "item"
+				}
+				{
+					id: "38BFA8881627128D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "692A57509E399E0D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "twilightdelight:twilight_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50ABF97D3CE5A19D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "irons_spellbooks:iss_guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7852105B8E933751"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "psi:encyclopaedia_psionica"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EC2D0CA5A3B1A0A"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CF9F71DA624E252"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "samurai_dynasty:samurai_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "216103656576EEAC"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				disable_toast: true
+				id: "3F6461E20D2A10EB"
+				title: "Give me my books."
+				type: "checkmark"
+			}]
+			title: "Claiming Your Guidebooks"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["This will allow you to run a command to disable the Twilight Forest's progression system. If you did not do so during world creation."]
+			disable_toast: true
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "411894669BB67692"
+			rewards: [{
+				auto: "disabled"
+				command: "/gamerule tfEnforcedProgression false"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "30F1FC616195D76E"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				disable_toast: true
+				id: "2D9ECA208F17B2F9"
+				title: "Remove Enforced Progression"
+				type: "checkmark"
+			}]
+			title: "Disable the Twilight Forest Progression"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["Here you can choose to enable or disable the dynamic lights implemented by Ars Nouveau."]
+			disable_toast: true
+			icon: "minecraft:lantern"
+			id: "5B1C74B7E065FBB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C007005B0F4F0CE"
+				table_id: 4980880054309537148L
+				title: "Ars Nouveau Dynamic Lights Toggle"
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				disable_toast: true
+				id: "0F72BB40695FF5CD"
+				title: "Toggle Dynamic Lights"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau Dynamic Lights"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Welcome"
+}

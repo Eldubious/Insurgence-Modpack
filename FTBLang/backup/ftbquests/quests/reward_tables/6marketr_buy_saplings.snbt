@@ -1,0 +1,41 @@
+{
+	id: "169D02FB3C969511"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "minecraft:oak_sapling" }
+		{ item: "minecraft:spruce_sapling" }
+		{ item: "minecraft:birch_sapling" }
+		{ item: "minecraft:jungle_sapling" }
+		{ item: "minecraft:acacia_sapling" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ item: "minecraft:cherry_sapling" }
+		{ item: "minecraft:mangrove_propagule" }
+		{ item: "arts_and_crafts:cork_sapling" }
+		{ item: "quark:blue_blossom_sapling" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "quark:orange_blossom_sapling" }
+		{ item: "quark:yellow_blossom_sapling" }
+		{ item: "quark:red_blossom_sapling" }
+		{ item: "vinery:dark_cherry_sapling" }
+		{ item: "vinery:apple_tree_sapling" }
+		{ item: "regions_unexplored:apple_oak_sapling" }
+		{ item: "regions_unexplored:bamboo_sapling" }
+		{ item: "regions_unexplored:baobab_sapling" }
+		{ item: "regions_unexplored:blackwood_sapling" }
+		{ item: "regions_unexplored:cypress_sapling" }
+		{ item: "regions_unexplored:flowering_sapling" }
+		{ item: "regions_unexplored:joshua_sapling" }
+		{ item: "regions_unexplored:larch_sapling" }
+		{ item: "regions_unexplored:golden_larch_sapling" }
+		{ item: "regions_unexplored:magnolia_sapling" }
+		{ item: "regions_unexplored:blue_magnolia_sapling" }
+		{ item: "regions_unexplored:pink_magnolia_sapling" }
+		{ item: "regions_unexplored:white_magnolia_sapling" }
+		{ item: "regions_unexplored:palm_sapling" }
+		{ item: "regions_unexplored:redwood_sapling" }
+		{ item: "regions_unexplored:socotra_sapling" }
+		{ item: "regions_unexplored:willow_sapling" }
+	]
+	title: "&6Market:&r Buy Saplings"
+}

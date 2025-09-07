@@ -1,0 +1,23 @@
+{
+	icon: "minecraft:command_block"
+	id: "27ACA8B2F7637B45"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "minecraft:chain_command_block" }
+		{ item: "minecraft:repeating_command_block" }
+		{ item: "minecraft:command_block_minecart" }
+		{ item: "witherstormmod:command_block_book" }
+		{ count: 5, item: "apotheosis:extraction_tome" }
+		{ item: "forbidden_arcanus:dark_nether_star_block" }
+		{ item: "minecraft:netherite_block" }
+		{ item: "cataclysm:enderite_block" }
+		{ item: "cataclysm:witherite_block" }
+		{ item: "cataclysm:ignitium_block" }
+		{ item: "cataclysm:ancient_metal_block" }
+		{ item: "cataclysm:cursium_block" }
+		{ item: "alexscaves:tremorzilla_egg" }
+		{ item: "psi:cad_assembly_creative" }
+	]
+	title: "&6Market:&r Command Block Exchange"
+}

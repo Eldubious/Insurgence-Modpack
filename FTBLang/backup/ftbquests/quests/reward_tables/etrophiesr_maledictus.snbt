@@ -1,0 +1,66 @@
+{
+	id: "460DE1792C8BABF4"
+	loot_crate: {
+		color: 3389840
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.maledictus_trophies"
+		string_id: "trophies_maledictus"
+	}
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/maledictus"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/draugr"
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/elite_draugr"
+					}
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/cataclysm/royal_draugr"
+					}
+				}
+			}
+			weight: 2.0f
+		}
+	]
+	title: "&eTrophies:&r Maledictus"
+}

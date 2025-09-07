@@ -1,0 +1,92 @@
+{
+	id: "497CC6706981492E"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:dense_mushroom_forest"
+					targetBiomeColor: 10901618
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Dense Mushroom Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:enchanted_forest"
+					targetBiomeColor: 8243481
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Enchanted Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:dark_forest"
+					targetBiomeColor: 3490331
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Dark Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:spooky_forest"
+					targetBiomeColor: 5778300
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Spooky Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:fire_swamp"
+					targetBiomeColor: 6160640
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Fire Swamp"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:glacier"
+					targetBiomeColor: 8947929
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Twilight Glacier"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "twilightforest:final_plateau"
+					targetBiomeColor: 9934743
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Final Plateau"
+		}
+	]
+	title: "&3Maps:&r Twilight Forest Biomes"
+}

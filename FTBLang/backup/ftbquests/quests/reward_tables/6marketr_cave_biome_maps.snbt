@@ -1,0 +1,128 @@
+{
+	id: "7CD1C717ADB092B2"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:lush_caves"
+					targetBiomeColor: 9159498
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Lush Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:dripstone_caves"
+					targetBiomeColor: 11175797
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Dripstone Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:scorching_caves"
+					targetBiomeColor: 5196090
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Scorching Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "galosphere:lichen_caves"
+					targetBiomeColor: 1075011
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Lichen Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "galosphere:crystal_canyons"
+					targetBiomeColor: 4168420
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Crystal Canyons"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "galosphere:pink_salt_caves"
+					targetBiomeColor: 16764370
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Pink Salt Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:bioshroom_caves"
+					targetBiomeColor: 65282
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Bioshroom Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:ancient_delta"
+					targetBiomeColor: 3635834
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Ancient Delta"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "quark:glimmering_weald"
+					targetBiomeColor: 3241286
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Glimmering Weald"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:deep_dark"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Deep Dark"
+		}
+	]
+	title: "&3Maps:&r Cave Biomes"
+}

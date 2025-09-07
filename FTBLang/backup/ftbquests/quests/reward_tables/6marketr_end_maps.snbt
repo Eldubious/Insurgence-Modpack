@@ -1,0 +1,136 @@
+{
+	id: "0A9B44C7170B8A78"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:end_city"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.end_city\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:end_city"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:end_city"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ancient_end_tower\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:ancient_end_tower"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.wanderer_island\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:wanderer_island"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:end_city"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.end_house\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:end_house"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:shipwreck"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.flying_end_ship\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:flying_end_ship"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:shipwreck"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.warped_flying_end_ship\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:warped_flying_end_ship"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.warped_station\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:warped_station"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.gloopy_nest\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "unusualend:gloopy_nest"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r End Structures"
+}

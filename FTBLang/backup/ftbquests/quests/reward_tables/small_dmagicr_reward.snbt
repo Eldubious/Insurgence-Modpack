@@ -1,0 +1,55 @@
+{
+	icon: "forbidden_arcanus:arcane_crystal_dust_speck"
+	id: "2C11732DFD4C669A"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 4, item: "forbidden_arcanus:arcane_crystal", weight: 2.0f }
+		{ count: 4, item: "forbidden_arcanus:rune", weight: 1.25f }
+		{ count: 2, item: "forbidden_arcanus:soul", weight: 1.75f }
+		{ count: 6, item: "ars_nouveau:sourceberry_bush", weight: 2.75f }
+		{ count: 6, item: "ars_nouveau:source_gem", weight: 3.0f }
+		{ count: 3, item: "irons_spellbooks:common_ink", weight: 2.0f }
+		{ item: "irons_spellbooks:uncommon_ink" }
+		{ count: 5, item: "irons_spellbooks:divine_pearl" }
+		{ count: 10, item: "irons_spellbooks:arcane_essence", weight: 3.0f }
+		{ count: 5, item: "irons_spellbooks:arcane_ingot", weight: 2.0f }
+		{ count: 4, item: "mahoutsukai:powdered_iron", weight: 2.5f }
+		{ count: 3, item: "mahoutsukai:powdered_gold", weight: 2.5f }
+		{ count: 3, item: "mahoutsukai:powdered_emerald", weight: 2.5f }
+		{ count: 8, item: "minecraft:amethyst_shard", weight: 3.5f }
+		{ count: 8, item: "minecraft:lapis_lazuli", weight: 3.5f }
+		{ count: 4, item: "forbidden_arcanus:arcane_crystal_dust", weight: 3.0f }
+		{ count: 10, item: "minecraft:experience_bottle", weight: 3.5f }
+		{ count: 3, item: "kubejs:enchant_catalyst", weight: 1.25f }
+		{ item: "kubejs:hyper_enchant_catalyst", weight: 0.5f }
+		{ count: 10, item: "farmersdelight:straw", weight: 2.0f }
+		{ count: 4, item: "call_of_yucutan:chili_pepper_seeds", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:rice", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:cabbage_seeds", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:tomato_seeds", weight: 2.0f }
+		{ count: 4, item: "farmersdelight:onion", weight: 2.0f }
+		{ count: 4, item: "minecraft:pumpkin_seeds", weight: 2.0f }
+		{ count: 4, item: "minecraft:melon_seeds", weight: 2.0f }
+		{ count: 2, item: "farmersdelight:melon_juice", weight: 2.0f }
+		{ count: 4, item: "create:brass_ingot", weight: 2.5f }
+		{ item: "minecraft:ender_eye", weight: 2.0f }
+		{ count: 2, item: "minecraft:diamond" }
+		{ count: 10, item: "minecraft:redstone", weight: 3.5f }
+		{ count: 2, item: "sophisticatedstorage:basic_tier_upgrade" }
+		{ item: "sophisticatedstorage:upgrade_base", weight: 0.75f }
+		{ item: "sophisticatedbackpacks:upgrade_base", weight: 0.75f }
+		{ count: 2, item: "minecraft:phantom_membrane", weight: 1.5f }
+		{ count: 4, item: "minecraft:nether_wart", weight: 2.0f }
+		{ count: 3, item: "minecraft:ender_pearl", weight: 1.5f }
+		{ count: 12, item: "supplementaries:rope", weight: 3.5f }
+		{ count: 4, item: "minecraft:item_frame", weight: 3.0f }
+		{ count: 4, item: "labels:label", weight: 3.0f }
+		{ count: 2, item: "minecraft:lead", weight: 3.0f }
+		{ count: 6, item: "minecraft:iron_ingot", weight: 3.5f }
+		{ count: 6, item: "minecraft:copper_ingot", weight: 3.5f }
+		{ count: 6, item: "minecraft:gold_ingot", weight: 2.5f }
+		{ count: 6, item: "galosphere:silver_ingot", weight: 2.5f }
+	]
+	title: "Quest Reward: Small"
+}

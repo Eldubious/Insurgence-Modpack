@@ -1,0 +1,31 @@
+{
+	icon: "minecraft:lantern"
+	id: "451FA40501F2C57C"
+	loot_size: 1
+	order_index: 67
+	rewards: [
+		{
+			command: "/ars-light on"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create:block/rose_quartz_lamp_powered"
+				}
+			}
+			type: "command"
+		}
+		{
+			command: "/ars-light off"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create:block/rose_quartz_lamp"
+				}
+			}
+			type: "command"
+		}
+	]
+	title: "&cCommand:&r Dynamic Light Toggle"
+}

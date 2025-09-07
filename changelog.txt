@@ -15,6 +15,13 @@ Version 1.2.2
     Fixes:
     - Sophisticated Storage items appear in JEI again
     - Mob heads can give their enchanting stats when placed on walls
+    - Blacklisted bosses and other similar entities from being picked up by
+        the Quantum Catcher and Containment Jar
+    - Replaced the Uncrafting Table in Twilight Forest loot tables
+    - I cannot figure out how to fix Enhancer Relics not showing in the JEI
+        recipes for the Hephaestus Forge when connected to a server.
+        To fix this I added a written book as a quest reward which documents
+        all of the recipes each relic is used for.
 
 
 Version 1.2.1
@@ -33,8 +40,8 @@ Version 1.2.1
         - Wilden Dens
         - Meteorites
         - and more...
-    - Added a recipe for the Dragon Egg, the Heart of the Sea
-    - You can salvage more items at a Cuttin Board
+    - Added a recipe for the Dragon Egg and the Heart of the Sea
+    - You can salvage more items at a Cutting Board
     - Added two new items to the shop which unlock after entering the Dimensional Dungeons
     
     Changes:

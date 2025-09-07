@@ -1,0 +1,120 @@
+{
+	id: "552B02533D93B2D9"
+	loot_size: 1
+	order_index: 70
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:ocean_ruin"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.trail_ruins\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:trail_ruins"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:village"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.abandoned_village\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "wan_ancient_beasts:abandoned_village"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ancient_nest\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "wan_ancient_beasts:ancient_nest"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.dead_coral\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "wan_ancient_beasts:dead_coral"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ice_spike_castle\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "wan_ancient_beasts:ice_spike_castle"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:desert_pyramid"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.desert_ruins\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "wan_ancient_beasts:desert_ruins"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:desert_pyramid"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.mesa_temple\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "wan_ancient_beasts:mesa_temple"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Ruins Structures"
+}

@@ -1,0 +1,854 @@
+{
+	autofocus_id: "77BBB0B271A4C8B4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "command_block"
+	group: "1CF0BF9967B6E091"
+	icon: "minecraft:command_block"
+	id: "5060EEC4ED6725AA"
+	images: [
+		{
+			height: 2.75d
+			image: "forbidden_arcanus:block/runic_stone/rune_layer"
+			rotation: 0.0d
+			width: 2.75d
+			x: 3.6624999999999943d
+			y: -5.050000000000008d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign0.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign11.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign2.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign5.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign6.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			height: 0.5d
+			image: "psi:textures/gui/signs/sign9.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 2
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/landscapes/gloopstone_lands.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/landscapes/poise_forest.png"
+			order: 3
+			rotation: 0.0d
+			width: 4.25d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 4.25d
+			image: "kubejs:textures/photos/structures/command_room.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.25d
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/photos/structures/mysterious_item.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/photos/structures/destroyed_command_room.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			height: 5.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			height: 6.0d
+			image: "exposure:textures/photograph/aged_photograph.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:block/black_hole_aura_2"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 3.5d
+			image: "forbidden_arcanus:textures/mob_effect/darkened.png"
+			rotation: 180.0d
+			width: 3.5d
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "forbidden_arcanus:item/dark_matter"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.5d
+			y: -2.25d
+		}
+	]
+	order_index: 2
+	quest_links: [{
+		id: "20B94099DE0681B5"
+		linked_quest: "29AF050547FA1FFF"
+		shape: "pentagon"
+		size: 2.0d
+		x: 3.75d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"6DE14536CD3E0D8C"
+				"75EA51C75C4E6F91"
+				"2CAD77E4AF9C4220"
+				"767386982B084F5D"
+				"77BBB0B271A4C8B4"
+				"6019838D64FC79D5"
+				"4E6F2B9CB624394C"
+				"745FC63E15FD4A49"
+				"68EB589E7A45F716"
+				"4690C38844E97910"
+			]
+			description: [
+				"One of two items needed for crafting a Command Block."
+				""
+				"&7&oYou can duplicate Unobtanium by crafting it into a block and back into an ingot. That way, you only need to use its more convoluted recipe once.&r"
+			]
+			id: "52BD91BCCE447C45"
+			rewards: [{
+				id: "1A40B08338846B88"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1441634DC7A0F18D"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "4E6F2B9CB624394C"
+			rewards: [{
+				id: "01460AFDD28F6E8F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "72E47CF719FD1AB1"
+				item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "767386982B084F5D"
+			rewards: [{
+				id: "41A540C416789E33"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "169F6E58234A8BA2"
+				item: { Count: 4, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "745FC63E15FD4A49"
+			rewards: [{
+				id: "404130275F6077F3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "31D1489571AFE4D2"
+				item: { Count: 4, id: "traveloptics:void_spellweave_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "6DE14536CD3E0D8C"
+			rewards: [{
+				id: "0B9BC1E8FBDFA07E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "086C23C631C0968B"
+				item: { Count: 4, id: "samurai_dynasty:amethyst_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "6019838D64FC79D5"
+			rewards: [{
+				id: "71849F0979956EF9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "304FB9344721ABDE"
+				item: { Count: 4, id: "unusualend:pearlescent_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "77BBB0B271A4C8B4"
+			rewards: [{
+				id: "3355D891F2BEE211"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "5CBA6B2EECDFE8AC"
+				item: { Count: 4, id: "forbidden_arcanus:obsidian_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "75EA51C75C4E6F91"
+			rewards: [{
+				id: "57CED885E6F662A4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "7B11604FE446974D"
+				item: { Count: 4, id: "irons_spellbooks:arcane_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "2CAD77E4AF9C4220"
+			rewards: [{
+				id: "38D0CA872151E9D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "7FFB11F0923595AB"
+				item: { Count: 4, id: "experienceobelisk:cognitive_alloy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29AF050547FA1FFF"]
+			description: ["You can either inscribe keys using the Key Inscribing Station block or an End Portal Frame block."]
+			icon: "dimdungeons:item_portal_key"
+			id: "0BD15CC781F69834"
+			rewards: [
+				{
+					id: "2686BEE96EC63763"
+					table_id: 3175445853633275546L
+					title: "Small Random Reward"
+					type: "random"
+				}
+				{
+					id: "32C277EFBC4832CD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.2d
+			tasks: [
+				{
+					disable_toast: true
+					id: "461C4C8C49D03271"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "01281A6BDFCEA233"
+					item: "dimdungeons:block_key_charger_used"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Creating Portal Keys"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"52BD91BCCE447C45"
+				"375F95F85CEB2F17"
+			]
+			description: [
+				"With the Command Block, you can now unleash its power and summon the Wither Storm."
+				""
+				"The Wither Storm is a long and destructive battle; you should prepare."
+			]
+			id: "4EC3DFF09750A710"
+			rewards: [{
+				id: "68B0FC8DF7B174A0"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "&8&oUltimate Power!"
+			tasks: [{
+				id: "136BAAF3646CD0F8"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["499F11C723DB76E6"]
+			description: ["This item is needed to craft the Command Block, and you can only find it in advanced dimensional dungeons."]
+			id: "375F95F85CEB2F17"
+			rewards: [{
+				id: "79FC7B4E8890A80C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&8&oWhat is This?"
+			tasks: [{
+				id: "4C500D35E469B490"
+				item: "kubejs:obfuscated"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EC3DFF09750A710"]
+			description: [
+				"To summon the Wither Storm, you will need to use the Summoning Altar."
+				""
+				"I recommend using an altar that is not close to your base..."
+			]
+			disable_toast: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "565D06C38AD6EF80"
+			rewards: [{
+				id: "7EEA3A6ED9001985"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oNothing Built Can Last Forever"
+			tasks: [{
+				advancement: "witherstormmod:main/summon_wither_storm"
+				criterion: ""
+				id: "0F84877AAE3E192F"
+				type: "advancement"
+			}]
+			title: "Summoning the Wither Storm"
+			x: 16.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"0BD15CC781F69834"
+				"4907442471DEB3E2"
+			]
+			id: "23324F0768507D9C"
+			rewards: [{
+				id: "0A6C428D613D39D1"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "dimdungeons:dungeon_dimension"
+				id: "4E65CA9AA51DCE0B"
+				type: "dimension"
+			}]
+			title: "Enter the Dimensional Dungeons"
+			x: 3.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["23324F0768507D9C"]
+			description: [
+				"To use advanced portal keys you will need to upgrade your portal. The pattern on the banners does not matter, as long as they are either purple or white banners (The Ominous Banner uses a white banner as its base, so it is also usable)."
+				""
+				"{image:kubejs:textures/questbook/pictures/advanced_dim_dungeon_portal.png width:192 height:108 align:center}"
+			]
+			icon: "dimdungeons:item_blank_advanced_key"
+			id: "499F11C723DB76E6"
+			rewards: [{
+				id: "29335A00772C4B0A"
+				table_id: 3175445853633275546L
+				title: "Small Random Reward"
+				type: "random"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					disable_toast: true
+					id: "1D2593521547FFAA"
+					item: "dimdungeons:item_blank_advanced_key"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "3BD499688250776B"
+					item: "dimdungeons:block_portal_crown"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "49F0370F89615EE9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:white_banner"
+								}
+								{
+									Count: 1b
+									id: "minecraft:purple_banner"
+								}
+							]
+						}
+					}
+					title: "A White or Purple Banner"
+					type: "item"
+				}
+			]
+			title: "Advanced Dimensional Dungeons"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["29AF050547FA1FFF"]
+			description: [
+				"The portal for the Dimensional Dungeons is made like this:"
+				""
+				"{image:kubejs:textures/questbook/pictures/basic_dim_dungeon_portal.png width:192 height:108 align:center}"
+			]
+			icon: "dimdungeons:block_portal_keyhole"
+			id: "4907442471DEB3E2"
+			rewards: [
+				{
+					id: "5D0F428113B47EC2"
+					table_id: 3175445853633275546L
+					title: "Small Random Reward"
+					type: "random"
+				}
+				{
+					id: "654F984EBCA9509B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.2d
+			tasks: [
+				{
+					disable_toast: true
+					id: "4D51574C696C4D13"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "563FE1B400765590"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+				{
+					count: 9L
+					disable_toast: true
+					id: "63EE99BD8E347329"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			title: "Creating the Dungeon Portal"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["565D06C38AD6EF80"]
+			description: [
+				"After some time, the Wither Storm may summon a mini-boss called the &5Withered Symbiont&r. Defeat it to get a Command Block Book and craft the Formidi-Bomb."
+				""
+				"Use the Formidi-Bomb to blow up the Wither Storm!"
+				""
+				"&e&lDisclaimer!&r"
+				"&7&oThis will only work once the Storm has reached the appropriate phase, make sure to check using the Phasometer."
+			]
+			id: "284C09DDB1C08FEC"
+			rewards: [{
+				id: "079A7D0B3454C7FE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oThe Strong Grow Weak..."
+			tasks: [{
+				advancement: "witherstormmod:main/strong_grow_weak"
+				criterion: ""
+				id: "399ED622C6DDFAB8"
+				type: "advancement"
+			}]
+			title: "Destroy the Wither Storm!"
+			x: 17.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"284C09DDB1C08FEC"
+				"54FEE8C7293079CB"
+			]
+			description: [
+				"&lIt came back!&r"
+				""
+				"You will need to craft some command block tools in a Smithing Table in order to kill it for good. This means you need to get &oanother&r Enchanted Command Block Book along with a Withered Smithing Template."
+				""
+				"&7&oThe Gateway of the Tainted Village summons a Withered Symbiont for its final wave, meaning you can get another Enchanted Command Block Book by also getting the needed smithing template.&r"
+			]
+			hide_until_deps_complete: true
+			id: "27D12B706D047CB2"
+			rewards: [{
+				id: "122109653B4710D4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oEvery Cloud Has a Silver Lining"
+			tasks: [{
+				advancement: "witherstormmod:main/silver_lining"
+				criterion: ""
+				id: "79BDB2616D842613"
+				type: "advancement"
+			}]
+			title: "Craft a Command Block Weapon"
+			x: 19.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["27D12B706D047CB2"]
+			description: [
+				"After some time has passed, you may notice a hole form on the Wither Storm's body. To enter the final phase, you will need to enter from that hole."
+				""
+				"You can use whatever method you like to get inside, but the mod includes the ability to launch ender pearls using a crossbow in case you cannot fly there."
+				""
+				"Once you're inside, use the weapon you just made to destroy the Command Block. Once and for all!"
+			]
+			id: "14A3F847EF549779"
+			rewards: [{
+				id: "06F24F4331FCCC81"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&8&oThe Belly of the Beast"
+			tasks: [{
+				advancement: "witherstormmod:main/belly_of_the_beast"
+				criterion: ""
+				id: "592F5663A0658A34"
+				type: "advancement"
+			}]
+			title: "Enter the Wither Storm"
+			x: 20.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["4EC3DFF09750A710"]
+			description: [
+				"All three of these items would be very helpful when fighting the Wither Storm."
+				""
+				"&nThe Amulet&r will allow you to track the Storm's distance from you."
+				""
+				"&nThe Phasometer&r will let you see the current phase it is on."
+				""
+				"&nGolden Apple Stew&r cures wither sickness, a disease that lowers the max health of entities while the storm is still alive."
+			]
+			id: "4558E859197446A0"
+			rewards: [{
+				id: "6E2F1EA55AA7353C"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "3142209EB388DB1A"
+					item: {
+						Count: 1
+						id: "witherstormmod:amulet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2880176F93A5B80B"
+					item: {
+						Count: 1
+						id: "witherstormmod:phasometer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "252E6C64FDD41414"
+					item: "witherstormmod:golden_apple_stew"
+					type: "item"
+				}
+			]
+			title: "Preparing For the Storm"
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			description: ["These aren't needed until the end-game, but they have some rituals which may be useful before then."]
+			disable_toast: true
+			icon: "summoningrituals:indestructible_altar"
+			id: "68EB589E7A45F716"
+			invisible: true
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				disable_toast: true
+				icon: "summoningrituals:indestructible_altar"
+				id: "4B43F26F29D80FE7"
+				observe_type: 0
+				timer: 1L
+				title: "&a&lObserve:&r Summoning Altar"
+				to_observe: "summoningrituals:indestructible_altar"
+				type: "observation"
+			}]
+			title: "Find a Summoning Altar"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["284C09DDB1C08FEC"]
+			description: [
+				"To craft the weapon you need, you will need the Withered Smithing Template, which can only be obtained by defeating all of the summoned mobs from the Gate Pearl - "
+				"&5&oGateway of the Tainted Village&r."
+				""
+				"This Gate Pearl is crafted at the Summoning Altar as well, so you will need to go back to it."
+				""
+				"&7&o(You cannot prepare for this beforehand, as you cannot craft the Gate Pearl until you have summoned the Wither Storm)&r"
+			]
+			hide_until_deps_complete: true
+			id: "54FEE8C7293079CB"
+			rewards: [{
+				id: "23D8DC1F3D5A30E1"
+				table_id: 8973588302294504714L
+				title: "Medium Random Reward"
+				type: "random"
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "64CCE0B698CE6D5C"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "kubejs:tainted_village"
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "08144A01E9262038"
+					item: "kubejs:withered_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Obtaining Necessary Materials"
+			x: 18.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68EB589E7A45F716"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "4690C38844E97910"
+			tasks: [{
+				count: 4L
+				id: "0BA544792BC78EF8"
+				item: { Count: 4, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+	]
+	title: "Chapter II: Command Block"
+}

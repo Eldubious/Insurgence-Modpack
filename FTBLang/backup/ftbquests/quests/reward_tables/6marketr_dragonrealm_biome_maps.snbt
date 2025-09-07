@@ -1,0 +1,164 @@
+{
+	id: "73198FE275D0932E"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:highland_fields"
+					targetBiomeColor: 10674143
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Highland Fields"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:clover_plains"
+					targetBiomeColor: 9159498
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Clover Plains"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:barley_fields"
+					targetBiomeColor: 16767882
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Barley Fields"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:maple_forest"
+					targetBiomeColor: 4360785
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Maple Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:autumnal_maple_forest"
+					targetBiomeColor: 9055276
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Autumnal Maple Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:rocky_meadow"
+					targetBiomeColor: 13984754
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Rocky Meadow"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:mauve_hills"
+					targetBiomeColor: 65529
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Mauve Hills"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:poppy_fields"
+					targetBiomeColor: 16711680
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Poppy Fields"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:marsh"
+					targetBiomeColor: 7377527
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Marsh"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:eucalyptus_forest"
+					targetBiomeColor: 15305152
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Eucalyptus Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:rainforest"
+					targetBiomeColor: 5187859
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Rainforest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:spires"
+					targetBiomeColor: 10217448
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Spires"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:frozen_pine_taiga"
+					targetBiomeColor: 10217448
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Frozen Pine Taiga"
+		}
+	]
+	title: "&3Maps:&r Dragonrealm Biomes"
+}

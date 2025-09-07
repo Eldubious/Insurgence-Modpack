@@ -1,0 +1,67 @@
+{
+	id: "249C04BC8A53C0D3"
+	loot_crate: {
+		color: 2182651
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.magnetic_cave_trophies"
+		string_id: "trophies_magnetic_caves"
+	}
+	loot_size: 1
+	order_index: 58
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/ferrouslime"
+					}
+				}
+			}
+			weight: 35.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/notor"
+					}
+				}
+			}
+			weight: 35.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/teletor"
+					}
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/alexscaves/magnetron"
+					}
+				}
+			}
+			weight: 10.0f
+		}
+	]
+	title: "&eTrophies:&r Magnetic Caves"
+}

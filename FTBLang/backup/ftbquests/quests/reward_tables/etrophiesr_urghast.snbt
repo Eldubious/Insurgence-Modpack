@@ -1,0 +1,90 @@
+{
+	id: "5702004EFCABEBA1"
+	loot_crate: {
+		color: 12019063
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.ur_ghast_trophies"
+		string_id: "trophies_ur_ghast"
+	}
+	loot_size: 1
+	order_index: 53
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/ur_ghast"
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/carminite_ghastguard"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/carminite_ghastling"
+					}
+				}
+			}
+			weight: 1.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/carminite_golem"
+					}
+				}
+			}
+			weight: 1.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/carminite_broodling"
+					}
+				}
+			}
+			weight: 1.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/towerwood_borer"
+					}
+				}
+			}
+			weight: 1.8f
+		}
+	]
+	title: "&eTrophies:&r Ur-Ghast"
+}

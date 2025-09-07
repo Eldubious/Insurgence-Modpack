@@ -24,6 +24,10 @@
     "tooltip.kubejs.command_block_book": "§7§oA reward for defeating the Withered Symbiont.",
     "tooltip.kubejs.increase_carrying_capacity": "§9When equipped, this item will allow you to carry +1 backpack.",
     "tooltip.kubejs.stellarite": "§7§oFound in the Dragonrealm",
+    "tooltip.kubejs.tarot_deck": "§7§oA reward for collecting all of the tarot cards.",
+    "tooltip.kubejs.nether_ruby_ore": "§7§oFound near the roof of the Nether.",
+    "tooltip.kubejs.magma_ruby_ore": "§7§oFound near lava pools in the Nether.",
+    "tooltip.kubejs.depths_ruby_ore": "§7§oFound in the Dragon's Hollow biome in the Depths.",
 
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",

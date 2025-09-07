@@ -1,0 +1,25 @@
+{
+  "values": [
+    "#ars_nouveau:familiar",
+    "#ae2:blacklisted/spatial",
+    "#ars_nouveau:drygmy_blacklist",
+    "#c:bosses",
+    "#enderio:soul_vial_blacklist",
+    "#forbidden_arcanus:quantum_catcher_blacklisted",
+    "#forge:bosses",
+    "#industrialforegoing:mob_duplicator_blacklist",
+    "#industrialforegoing:mob_imprisonment_tool_blacklist",
+    "#irons_spellbooks:summons",
+    "#mobcapturingtool:blacklisted",
+    "#mobcatcher:blacklisted",
+    "#portablemobs:capture_blacklist",
+    "#supplementaries:capture_blacklist",
+    "#the_bumblezone:bosses",
+    "#the_bumblezone:uncapturable_entities",
+    "#traveloptics:supermassive_blackhole_pull_blacklist",
+    "#true_ending:boss_mobs",
+    "#twilightforest:bosses",
+    "#witherstormmod:wither_sickness_immune",
+    "#yytr:unsnareable"
+  ]
+}

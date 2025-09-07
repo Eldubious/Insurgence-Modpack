@@ -1,0 +1,78 @@
+{
+	id: "2DDFA5F2B5E1E78C"
+	loot_crate: {
+		color: 4928705
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.glacier_trophies"
+		string_id: "trophies_twilight_glacier"
+	}
+	loot_size: 1
+	order_index: 54
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/snow_queen"
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:large_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/alpha_yeti"
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/yeti"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/winter_wolf"
+					}
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/penguin"
+					}
+				}
+			}
+			weight: 1.75f
+		}
+	]
+	title: "&eTrophies:&r Twilight Glacier"
+}

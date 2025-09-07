@@ -1,0 +1,136 @@
+{
+	id: "4C7DFB0BB55F6C0E"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_forest\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/forest"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_flower_forest\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/flower_forest"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_dark_forest\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/dark_forest"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_desert\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/desert"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_savanna\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/savanna"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_jungle\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/jungle"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_bamboo\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/bamboo"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:chest"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.altar_snowy\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "kubejs:summoning_altar/snowy"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Summoning Altars"
+}

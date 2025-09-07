@@ -1,0 +1,17 @@
+{
+	id: "52BD13893C636EC2"
+	loot_size: 1
+	order_index: 69
+	rewards: [
+		{ count: 8, item: "apotheosis:helmet_tome" }
+		{ count: 8, item: "apotheosis:chestplate_tome" }
+		{ count: 8, item: "apotheosis:leggings_tome" }
+		{ count: 8, item: "apotheosis:boots_tome" }
+		{ count: 8, item: "apotheosis:weapon_tome" }
+		{ count: 8, item: "apotheosis:bow_tome" }
+		{ count: 8, item: "apotheosis:pickaxe_tome" }
+		{ count: 8, item: "apotheosis:fishing_tome" }
+		{ count: 8, item: "apotheosis:other_tome" }
+	]
+	title: "&6Market:&r Enchanting Tomes"
+}

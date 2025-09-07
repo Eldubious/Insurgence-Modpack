@@ -1,0 +1,386 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/star"
+		}
+	}
+	id: "04CDD1093DE085CB"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.25f }
+		{ item: "minecraft:golden_carrot" }
+		{ item: "quark:ancient_fruit" }
+		{ item: "minecraft:pumpkin_pie" }
+		{ item: "minecraft:mushroom_stew" }
+		{ item: "minecraft:beetroot_soup" }
+		{ item: "minecraft:rabbit_stew" }
+		{ item: "estrogen:estrogen_chip_cookie" }
+		{ item: "aetherdelight:enchanted_pie_slice" }
+		{ item: "alexsmobs:shrimp_fried_rice" }
+		{ item: "alexsmobs:kangaroo_burger" }
+		{ item: "alexsmobs:mosquito_repellent_stew" }
+		{ item: "aquaculturedelight:raw_fish_fillet_roll" }
+		{ item: "aquaculturedelight:jellyfish_jelly" }
+		{ item: "aquaculturedelight:poor_fisher_chowder" }
+		{ item: "aquaculturedelight:bass_stew" }
+		{ item: "aetherdelight:ambrosia_glazed_apple" }
+		{ item: "aetherdelight:swet_pudding" }
+		{ item: "aetherdelight:sweet_and_sour_soup" }
+		{ item: "aetherdelight:bowl_of_ginger_cookies" }
+		{ item: "aetherdelight:festive_sweets" }
+		{ item: "aetherdelight:bowl_of_enchanted_berries" }
+		{ item: "the_bumblezone:royal_jelly_bottle", weight: 0.25f }
+		{ item: "the_bumblezone:bee_soup" }
+		{ item: "nethers_exoticism:curious_fruits_salad" }
+		{ item: "nethers_exoticism:unsettling_fruits_salad" }
+		{ item: "aquaculturedelight:unusual_fish_soup" }
+		{ item: "aquaculturedelight:halaszle" }
+		{ item: "aquaculturedelight:large_fish_with_vegetables" }
+		{ item: "aquaculturedelight:baked_pollock_with_carrots" }
+		{ item: "aquaculturedelight:buckling" }
+		{ item: "aquaculturedelight:tuna_spaghetti" }
+		{ item: "aquaculturedelight:rollmops" }
+		{ item: "aquaculturedelight:turtle_meat_dish" }
+		{ item: "aquaculturedelight:catfish_barbecue" }
+		{ item: "create:honeyed_apple" }
+		{ item: "create:sweet_roll" }
+		{ item: "arsdelight:frostaya_mutton" }
+		{ item: "arsdelight:bombegrante_steak" }
+		{ item: "arsdelight:bastion_pork" }
+		{ item: "arsdelight:mendosteen_chicken" }
+		{ item: "arsdelight:bowl_of_honey_glazed_chimera" }
+		{ item: "arsdelight:horn_roll" }
+		{ item: "arsdelight:bowl_of_wilden_salad" }
+		{ item: "arsdelight:wilden_stew" }
+		{ item: "arsdelight:arch_soup" }
+		{ item: "arsdelight:wilden_sauce" }
+		{ item: "arsdelight:arch_sauce" }
+		{ item: "arsdelight:source_berry_cupcake" }
+		{ item: "arsdelight:grilled_chimera_skewer" }
+		{ item: "arsdelight:grilled_wilden_skewer" }
+		{ item: "arsdelight:frostaya_pie_slice" }
+		{ item: "arsdelight:bombegrante_pie_slice" }
+		{ item: "arsdelight:bastion_pie_slice" }
+		{ item: "arsdelight:mendosteen_pie_slice" }
+		{ item: "arsdelight:source_berry_jelly" }
+		{ item: "arsdelight:frostaya_jelly" }
+		{ item: "arsdelight:bombegrante_jelly" }
+		{ item: "arsdelight:bastion_jelly" }
+		{ item: "arsdelight:mendosteen_jelly" }
+		{ item: "aquaculturedelight:halibut_with_tartar_sauce" }
+		{ item: "cataclysm:blessed_amethyst_crab_meat", weight: 0.25f }
+		{ item: "witherstormmod:golden_apple_stew" }
+		{ item: "farmersdelight:cake_slice" }
+		{ item: "farmersdelight:apple_pie_slice" }
+		{ item: "farmersdelight:sweet_berry_cheesecake_slice" }
+		{ item: "farmersdelight:chocolate_pie_slice" }
+		{ item: "farmersdelight:melon_popsicle" }
+		{ item: "farmersdelight:chicken_soup" }
+		{ item: "farmersdelight:vegetable_soup" }
+		{ item: "farmersdelight:fish_stew" }
+		{ item: "farmersdelight:fried_rice" }
+		{ item: "farmersdelight:pumpkin_soup" }
+		{ item: "farmersdelight:baked_cod_stew" }
+		{ item: "farmersdelight:noodle_soup" }
+		{ item: "farmersdelight:bacon_and_eggs" }
+		{ item: "farmersdelight:pasta_with_meatballs" }
+		{ item: "farmersdelight:beef_stew" }
+		{ item: "farmersdelight:bone_broth" }
+		{ item: "farmersdelight:kelp_roll" }
+		{ item: "farmersdelight:cod_roll" }
+		{ item: "farmersdelight:salmon_roll" }
+		{ item: "farmersdelight:cabbage_rolls" }
+		{ item: "farmersdelight:stuffed_potato" }
+		{ item: "farmersdelight:dumplings" }
+		{ item: "farmersdelight:mutton_wrap" }
+		{ item: "farmersdelight:glow_berry_custard" }
+		{ item: "farmersdelight:fruit_salad" }
+		{ item: "farmersdelight:mixed_salad" }
+		{ item: "farmersdelight:nether_salad" }
+		{ item: "farmersdelight:barbecue_stick" }
+		{ item: "farmersdelight:egg_sandwich" }
+		{ item: "farmersdelight:chicken_sandwich" }
+		{ item: "farmersdelight:hamburger" }
+		{ item: "farmersdelight:bacon_sandwich" }
+		{ item: "farmersdelight:pasta_with_mutton_chop" }
+		{ item: "farmersdelight:mushroom_rice" }
+		{ item: "farmersdelight:roasted_mutton_chops" }
+		{ item: "farmersdelight:vegetable_noodles" }
+		{ item: "farmersdelight:steak_and_potatoes" }
+		{ item: "farmersdelight:ratatouille" }
+		{ item: "farmersdelight:squid_ink_pasta" }
+		{ item: "farmersdelight:grilled_salmon" }
+		{ item: "farmersdelight:roast_chicken" }
+		{ item: "farmersdelight:stuffed_pumpkin" }
+		{ item: "farmersdelight:honey_glazed_ham" }
+		{ item: "farmersdelight:shepherds_pie" }
+		{ item: "farmersdelight:dog_food" }
+		{ item: "ars_nouveau:source_berry_pie" }
+		{ item: "ars_nouveau:source_berry_roll" }
+		{ item: "iceandfire:ambrosia" }
+		{ item: "twilightforest:meef_stroganoff" }
+		{ item: "twilightforest:hydra_chop" }
+		{ item: "twilightforest:experiment_115" }
+		{ item: "mahoutsukai:faecake" }
+		{ item: "miners_delight:pasta_with_veggieballs" }
+		{ item: "miners_delight:cave_soup" }
+		{ item: "miners_delight:vegan_hamburger" }
+		{ item: "miners_delight:vegan_wrap" }
+		{ item: "miners_delight:vegan_steak_and_potatoes" }
+		{ item: "miners_delight:bat_rolls" }
+		{ item: "miners_delight:bowl_of_stuffed_squid" }
+		{ item: "miners_delight:takoyaki" }
+		{ item: "miners_delight:squid_sandwich" }
+		{ item: "miners_delight:seasoned_arthropods" }
+		{ item: "miners_delight:insect_stew" }
+		{ item: "miners_delight:insect_wrap" }
+		{ item: "miners_delight:insect_sandwich" }
+		{ item: "miners_delight:weird_caviar" }
+		{ item: "miners_delight:improvised_barbecue_stick" }
+		{ item: "miners_delight:glow_ink_pasta" }
+		{ item: "alexscaves:serene_salad" }
+		{ item: "alexscaves:seething_stew" }
+		{ item: "alexscaves:primordial_soup" }
+		{ item: "quarkdelight:cavern_explorer_stew" }
+		{ item: "quarkdelight:bowl_of_exotic_fruits" }
+		{ item: "quarkdelight:lush_moss_salad" }
+		{ item: "quarkdelight:miso_with_bamboo_sprouts" }
+		{ item: "quarkdelight:crab_pasta" }
+		{ item: "quarkdelight:cooked_whole_crab" }
+		{ item: "quarkdelight:crab_bars" }
+		{ item: "quarkdelight:bucket_of_sweet_gelatine" }
+		{ item: "aether:blue_gummy_swet" }
+		{ item: "aether:golden_gummy_swet" }
+		{ item: "aether_redux:vanilla_gummy_swet" }
+		{ item: "aquaculture:turtle_soup" }
+		{ item: "alexscaves:spelunkie" }
+		{ item: "alexscaves:slam" }
+		{ item: "alexscaves:green_soylent" }
+		{ item: "alexscaves:deep_sea_sushi_roll" }
+		{ item: "alexscaves:vesper_stew" }
+		{ item: "alexscaves:darkened_apple" }
+		{ item: "alexscaves:sundae" }
+		{ item: "alexscaves:caramel_apple" }
+		{ item: "ends_delight:chorus_fruit_pie_slice" }
+		{ item: "ends_delight:grilled_shulker" }
+		{ item: "ends_delight:dragon_meat_stew" }
+		{ item: "ends_delight:steamed_dragon_egg" }
+		{ item: "ends_delight:dragon_leg_with_sauce" }
+		{ item: "ends_delight:end_barbecue_stick" }
+		{ item: "ends_delight:assorted_salad" }
+		{ item: "ends_delight:bubble_tea" }
+		{ item: "ends_delight:shulker_soup" }
+		{ item: "ends_delight:end_mixed_salad" }
+		{ item: "ends_delight:smoked_dragon_leg" }
+		{ item: "ends_delight:shulker_omelette" }
+		{ item: "ends_delight:ender_sausage" }
+		{ item: "ends_delight:ender_bamboo_rice" }
+		{ item: "ends_delight:chorus_flower_pie" }
+		{ item: "ends_delight:chorus_fruit_popsicle" }
+		{ item: "unusualend:wandering_stew", weight: 0.25f }
+		{ item: "unusualend:bluk_au_chocolat" }
+		{ item: "unusualend:bluk_skewer" }
+		{ item: "ends_delight:dragon_breath_and_chorus_soup" }
+		{ item: "ends_delight:roasted_dragon_steak" }
+		{ item: "ends_delight:stir_fried_shulker_meat" }
+		{ item: "ends_delight:enderman_gristle_stew" }
+		{ item: "ends_delight:ender_noodle" }
+		{ item: "ends_delight:ender_congee" }
+		{ item: "twilightdelight:grilled_ghast" }
+		{ item: "twilightdelight:grilled_tomahawk_smeak" }
+		{ item: "twilightdelight:borer_tear_soup" }
+		{ item: "twilightdelight:ghast_brain_salad", weight: 0.25f }
+		{ item: "twilightdelight:plate_of_lily_chicken" }
+		{ item: "twilightdelight:plate_of_fiery_snakes" }
+		{ item: "twilightdelight:plate_of_meef_wellington" }
+		{ item: "twilightdelight:phytochemical_juice" }
+		{ item: "twilightdelight:glacier_ice_tea" }
+		{ item: "twilightdelight:tear_drink" }
+		{ item: "twilightdelight:aurora_pie_slice" }
+		{ item: "twilightdelight:torchberry_pie_slice" }
+		{ item: "twilightdelight:chocolate_wafer" }
+		{ item: "twilightdelight:chocolate_113" }
+		{ item: "twilightdelight:milky_113" }
+		{ item: "twilightdelight:glow_113" }
+		{ item: "twilightdelight:honey_113" }
+		{ item: "twilightdelight:meef_wrap" }
+		{ item: "twilightdelight:ghast_burger" }
+		{ item: "twilightdelight:hydra_burger" }
+		{ item: "twilightdelight:berry_stick" }
+		{ item: "twilightdelight:glowstew" }
+		{ item: "twilightdelight:mushgloom_sauce" }
+		{ item: "twilightdelight:glow_venison_rib_with_pasta" }
+		{ item: "twilightdelight:mushgloom_meef_pasta" }
+		{ item: "twilightdelight:fried_insect" }
+		{ item: "twilightdelight:thousand_plant_stew" }
+		{ item: "tropicraft:seared_marlin" }
+		{ item: "tropicraft:sea_urchin_roe" }
+		{ item: "tropicraft:cooked_ray" }
+		{
+			item: {
+				Count: 1
+				id: "vinery:apple_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vinery:jellie_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vinery:chorus_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vinery:aegis_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vinery:creepers_crush"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vinery:cristel_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vinery:bottle_mojang_noir"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{ item: "alexscaves:gummy_ring_red" }
+		{ item: "alexscaves:gummy_ring_green" }
+		{ item: "alexscaves:gummy_ring_yellow" }
+		{ item: "alexscaves:gummy_ring_blue" }
+		{ item: "alexscaves:gummy_ring_pink" }
+		{ item: "mynethersdelight:plate_of_stuffed_hoglin_ham" }
+		{ item: "mynethersdelight:plate_of_stuffed_hoglin_snout" }
+		{ item: "mynethersdelight:plate_of_stuffed_hoglin" }
+		{ item: "mynethersdelight:spicy_noodle_soup" }
+		{ item: "mynethersdelight:spicy_cotton" }
+		{ item: "mynethersdelight:plate_of_ghasta_with_cream" }
+		{ item: "mynethersdelight:breakfast_sampler" }
+		{ item: "mynethersdelight:fried_hoglin_chop" }
+		{ item: "mynethersdelight:strider_with_grilled_fungus" }
+		{ item: "mynethersdelight:crimson_stroganoff" }
+		{ item: "mynethersdelight:spicy_curry" }
+		{ item: "mynethersdelight:hot_wings_bucket" }
+		{ item: "mynethersdelight:magma_cake_slice" }
+		{ item: "mynethersdelight:chilidog" }
+		{ item: "mynethersdelight:plate_of_cold_striderloaf" }
+		{ item: "trailandtales_delight:pitcher_plant_tea" }
+		{ item: "trailandtales_delight:cherry_petal_tea" }
+		{ item: "trailandtales_delight:torchflower_tea" }
+		{ item: "trailandtales_delight:ancient_coffee" }
+		{ item: "trailandtales_delight:cherry_cheese_pie_slice" }
+		{ item: "trailandtales_delight:cherry_cheese_slice" }
+		{ item: "trailandtales_delight:cherry_cake_slice" }
+		{ item: "trailandtales_delight:cheese_slice" }
+		{ item: "trailandtales_delight:stuffed_sniffer_egg" }
+		{ item: "trailandtales_delight:golden_lantern_fruit" }
+		{ item: "ancient_aether:festive_gummy_swet" }
+		{ item: "hexcasting:sub_sandwich" }
+		{ item: "oceanic_delight:ancient_fish_eggs" }
+		{ item: "oceanic_delight:squid_salad" }
+		{ item: "oceanic_delight:caesar_salad" }
+		{ item: "oceanic_delight:sea_salad" }
+		{ item: "oceanic_delight:sponge_cake_slice" }
+		{ item: "oceanic_delight:nautilus_juice" }
+		{ item: "oceanic_delight:steamed_beef" }
+		{ item: "oceanic_delight:sea_pickle_roll" }
+		{ item: "oceanic_delight:fish_egg_roll" }
+		{ item: "oceanic_delight:glow_squid_stew" }
+		{ item: "oceanic_delight:globular_rice" }
+		{ item: "oceanic_delight:shrimp_stew" }
+		{ item: "oceanic_delight:pasta_with_eyeball" }
+		{ item: "oceanic_delight:squid_and_pickles" }
+		{ item: "oceanic_delight:bowl_of_paella" }
+		{ item: "oceanic_delight:plate_of_stuffed_pufferfish" }
+		{ item: "pineapple_delight:pineapple_pie_side" }
+		{ item: "pineapple_delight:pineapple_fried_rice" }
+		{ item: "pineapple_delight:pineapple_juice" }
+		{ item: "pineapple_delight:pineapple_milk_shake" }
+		{ item: "pineapple_delight:pineapple_ice_cream" }
+		{ item: "mynethersdelight:spicy_hoglin_stew" }
+		{ item: "mynethersdelight:spicy_skewer" }
+		{ item: "mynethersdelight:toasts" }
+		{ item: "mynethersdelight:giant_takoyaki" }
+		{ item: "mynethersdelight:sizzling_pudding" }
+		{ item: "mynethersdelight:ghast_salad" }
+		{ item: "mynethersdelight:twisted_ghasta" }
+		{ item: "mynethersdelight:tear_popsicle" }
+		{ item: "mynethersdelight:strider_stew" }
+		{ item: "mynethersdelight:rock_soup" }
+		{ item: "mynethersdelight:hot_cream_cone" }
+		{ item: "mynethersdelight:scotch_eggs" }
+		{ item: "mynethersdelight:deviled_egg" }
+		{ item: "mynethersdelight:enchanted_golden_egg" }
+		{ item: "mynethersdelight:golden_egg" }
+		{ item: "mynethersdelight:hotdog_with_nether_salad" }
+		{ item: "mynethersdelight:hotdog_with_mixed_salad" }
+		{ item: "mynethersdelight:nether_burger" }
+		{ item: "mynethersdelight:blue_tenderloin_steak" }
+		{ item: "mynethersdelight:bleeding_tartar" }
+		{ item: "farmersdelight:apple_cider" }
+		{ item: "ends_delight:dragon_breath_soda" }
+		{ item: "twilightdelight:thorn_rose_tea" }
+		{ item: "twilightdelight:torchberry_juice" }
+		{ item: "twilightdelight:twilight_spring" }
+		{ item: "aetherdelight:aetherflower_tea" }
+		{ item: "aetherdelight:swet_syrup" }
+		{ item: "arsdelight:mendosteen_hornbeer" }
+		{ item: "arsdelight:bastion_hornbeer" }
+		{ item: "arsdelight:bombegrante_hornbeer" }
+		{ item: "arsdelight:frostaya_hornbeer" }
+		{ item: "arsdelight:source_berry_hornbeer" }
+		{ item: "arsdelight:unstable_cocktail" }
+		{ item: "ends_delight:chorus_fruit_milk_tea" }
+		{ item: "ends_delight:chorus_fruit_wine" }
+		{ item: "ends_delight:chorus_flower_tea" }
+		{ item: "aquaculturedelight:fried_perch_roll" }
+		{ item: "aquaculture:sushi" }
+		{ item: "aquaculturedelight:trout_steak" }
+		{ item: "aquaculturedelight:fish_chorba" }
+		{ item: "aquaculturedelight:fish_and_chips" }
+		{ item: "aquaculturedelight:roasted_tambaqui" }
+		{ item: "arsdelight:grilled_chimera_meat" }
+		{ item: "oceanic_delight:fish_egg_noodle_soup" }
+		{ item: "oceanic_delight:potato_salad" }
+	]
+	title: "Quest Reward: Food"
+}

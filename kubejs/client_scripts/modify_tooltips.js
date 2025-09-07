@@ -22,6 +22,11 @@ ItemEvents.tooltip(event => {
         event.add(element, Component.translate('tooltip.kubejs.increase_carrying_capacity'))
     })
     event.add('forbidden_arcanus:stella_arcanum', Component.translate('tooltip.kubejs.stellarite'))
+    event.add('tarotcards:tarot_deck', Component.translate('tooltip.kubejs.tarot_deck'))
+    event.add('rubinated_nether:nether_ruby_ore', Component.translate('tooltip.kubejs.nether_ruby_ore'))
+    event.add('rubinated_nether:molten_ruby_ore', Component.translate('tooltip.kubejs.magma_ruby_ore'))
+    event.add('samurai_dynasty:ruby_ore', Component.translate('tooltip.kubejs.depths_ruby_ore'))
+    event.add('samurai_dynasty:deepslate_ruby_ore', Component.translate('tooltip.kubejs.depths_ruby_ore'))
     
     // Mark unused items
     const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'simplyswords:decaying_relic',

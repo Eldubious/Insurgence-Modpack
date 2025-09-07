@@ -1,0 +1,56 @@
+{
+	id: "3FDCD4DAA4AAFC10"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:nether_fortress"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.nether_fortress\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:fortress"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:bastion"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.bastion\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "minecraft:bastion_remnant"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:ocean_ruin"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.ancient_battleground\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "irons_spellbooks:ancient_battleground"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "&3Maps:&r Nether Structures"
+}

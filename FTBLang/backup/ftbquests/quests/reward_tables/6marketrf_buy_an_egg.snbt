@@ -1,0 +1,27 @@
+{
+	id: "2252760EA9B068D6"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "minecraft:turtle_egg" }
+		{ item: "minecraft:sniffer_egg" }
+		{ item: "wan_ancient_beasts:eater_egg" }
+		{ item: "wan_ancient_beasts:walker_egg" }
+		{ item: "wan_ancient_beasts:crusher_egg" }
+		{ item: "wan_ancient_beasts:glider_egg" }
+		{ item: "wan_ancient_beasts:soarer_egg" }
+		{ item: "quark:egg_parrot_red_blue" }
+		{ item: "quark:egg_parrot_blue" }
+		{ item: "quark:egg_parrot_green" }
+		{ item: "quark:egg_parrot_yellow_blue" }
+		{ item: "quark:egg_parrot_gray" }
+		{ item: "alexsmobs:crocodile_egg" }
+		{ item: "alexsmobs:caiman_egg" }
+		{ item: "alexsmobs:platypus_egg" }
+		{ item: "alexsmobs:terrapin_egg" }
+		{ item: "iceandfire:myrmex_desert_egg" }
+		{ item: "iceandfire:myrmex_jungle_egg" }
+		{ item: "wan_ancient_beasts:surfer_egg" }
+	]
+	title: "&6Market:&r Buy an Egg"
+}

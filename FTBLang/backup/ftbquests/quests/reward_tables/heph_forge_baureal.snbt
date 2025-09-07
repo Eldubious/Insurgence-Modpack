@@ -1,0 +1,11 @@
+{
+	icon: "forbidden_arcanus:aureal_bottle"
+	id: "67F970FAAA1D3906"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "forbidden_arcanus:aureal_bottle" }
+		{ item: "forbidden_arcanus:splash_aureal_bottle" }
+	]
+	title: "Heph. Forge: &bAureal"
+}

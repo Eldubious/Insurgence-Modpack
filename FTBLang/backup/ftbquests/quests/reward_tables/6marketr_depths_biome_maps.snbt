@@ -1,0 +1,80 @@
+{
+	id: "78DF51B00BCD4B86"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:redstone_caves"
+					targetBiomeColor: 16711680
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Redstone Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:prismachasm"
+					targetBiomeColor: 15277667
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Prismachasm"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "kubejs:mossy_fields"
+					targetBiomeColor: 5468205
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Mossy Fields"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "kubejs:crimson_caves"
+					targetBiomeColor: 7540226
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Crimson Caves"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "kubejs:dragon_hollow"
+					targetBiomeColor: 10697229
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Dragon's Hollow"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "kubejs:asurine_caves"
+					targetBiomeColor: 3636377
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Asurine Caves"
+		}
+	]
+	title: "&3Maps:&r Depths Biomes"
+}

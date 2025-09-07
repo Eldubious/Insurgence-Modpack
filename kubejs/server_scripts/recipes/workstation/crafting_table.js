@@ -136,6 +136,12 @@ ServerEvents.recipes(event => {
         'minecraft:netherite_upgrade_smithing_template',
         'experienceobelisk:primordial_assembly'
     )
+    event.replaceInput([{id: 'traveloptics:witherite_upgrade_smithing_template'}, {id: 'traveloptics:abyssal_upgrade_smithing_template'},
+        {id: 'traveloptics:abyssal_upgrade_smithing_template2'}, {id: 'traveloptics:tectonic_upgrade_smithing_template'},
+        {id: 'traveloptics:darkness_upgrade_smithing_template'}],
+        'irons_spellbooks:arcane_ingot',
+        'create:refined_radiance'
+    )
     // Ignitium and Cursium Smithing Templates
     event.remove([{id: 'cataclysm:ignitium_upgrade_smithing_template'}, {id: 'cataclysm:cursium_upgrade_smithing_template'}])
     event.shaped('cataclysm:ignitium_upgrade_smithing_template',
@@ -145,7 +151,7 @@ ServerEvents.recipes(event => {
             'ABA'
         ],
         {
-            A: 'create:shadow_steel',
+            A: 'create:refined_radiance',
             B: 'minecraft:blaze_powder',
             C: 'experienceobelisk:primordial_assembly'
         }
@@ -158,7 +164,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'minecraft:gold_ingot',
-            B: 'create:shadow_steel',
+            B: 'create:refined_radiance',
             C: 'cataclysm:black_steel_ingot',
             D: 'experienceobelisk:primordial_assembly'
         }
@@ -2091,4 +2097,61 @@ ServerEvents.recipes(event => {
             }
         )
     })
+    // Primordial Crest Armor
+    event.replaceInput([{id: 'traveloptics:primordial_crest_armor_boots'}, {id: 'traveloptics:primordial_crest_armor_leggings'},
+        {id: 'traveloptics:primordial_crest_armor_chestplate'}, {id: 'traveloptics:primordial_crest_armor_helmet'}],
+        'irons_spellbooks:magic_cloth',
+        'create:refined_radiance'
+    )
+    // Deepling Mage Armor
+    event.remove([{id: 'traveloptics:deepling_mage_armor_helmet'}, {id: 'traveloptics:deepling_mage_armor_leggings'},
+        {id: 'traveloptics:deepling_mage_armor_robe'}, {id: 'traveloptics:deepling_mage_armor_boots'}
+    ])
+    event.shaped('traveloptics:deepling_mage_armor_helmet',
+        [
+            'AAA',
+            'BCB'
+        ],
+        {
+            A: 'minecraft:prismarine_crystals',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:aqua_rune'
+        }
+    ),
+    event.shaped('traveloptics:deepling_mage_armor_robe',
+        [
+            'DCD',
+            'ABA',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:prismarine_crystals',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:aqua_rune',
+            D: 'minecraft:nautilus_shell'
+        }
+    )
+    event.shaped('traveloptics:deepling_mage_armor_leggings',
+        [
+            'BAB',
+            'ACA',
+            'A A'
+        ],
+        {
+            A: 'minecraft:prismarine_crystals',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:aqua_rune'
+        }
+    )
+    event.shaped('traveloptics:deepling_mage_armor_boots',
+        [
+            'A A',
+            'BCB'
+        ],
+        {
+            A: 'minecraft:prismarine_crystals',
+            B: 'create:refined_radiance',
+            C: 'traveloptics:aqua_rune'
+        }
+    )
 })

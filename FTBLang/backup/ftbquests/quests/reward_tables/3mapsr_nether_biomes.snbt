@@ -1,0 +1,116 @@
+{
+	id: "2FAFADF97DA18502"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:crimson_forest"
+					targetBiomeColor: 16711680
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Crimson Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:warped_forest"
+					targetBiomeColor: 4168420
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Warped Forest"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:soul_sand_valley"
+					targetBiomeColor: 4073251
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Soul Sand Valley"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:basalt_deltas"
+					targetBiomeColor: 5591374
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Basalt Deltas"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:redstone_abyss"
+					targetBiomeColor: 16711680
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Redstone Abyss"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:mycotoxic_undergrowth"
+					targetBiomeColor: 16775936
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Mycotoxic Undergrowth"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:infernal_holt"
+					targetBiomeColor: 1379841
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Infernal Holt"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:glistering_meadow"
+					targetBiomeColor: 15277667
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Glistering Meadow"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "regions_unexplored:blackstone_basin"
+					targetBiomeColor: 1713022
+					targetBiomeUnderground: 0b
+				}
+			}
+			title: "Blackstone Basin"
+		}
+	]
+	title: "&3Maps:&r Nether Biomes"
+}

@@ -1,0 +1,66 @@
+{
+	id: "7D7C5C4875973CB9"
+	loot_crate: {
+		color: 13369281
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.kubejs.goblin_trophies"
+		string_id: "trophies_goblins"
+	}
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/lower_goblin_knight"
+					}
+				}
+			}
+			weight: 1.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:medium_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/upper_goblin_knight"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/blockchain_goblin"
+					}
+				}
+			}
+			weight: 1.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "trofers:small_plate"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "kubejs:mobs/twilight_forest/helmet_crab"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "&eTrophies:&r Goblins"
+}
