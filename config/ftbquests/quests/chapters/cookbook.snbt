@@ -9,8 +9,8 @@
 	id: "66B69E92DD0384D7"
 	images: [
 		{
+			dependency: "601A4A79EE3E5FA0"
 			height: 1.0d
-			hover: ["ftbquests.chapter.cookbook.image.hovertext1"]
 			image: "create:item/brass_hand"
 			order: 1
 			rotation: 0.0d
@@ -19,6 +19,7 @@
 			y: -7.5d
 		}
 		{
+			dependency: "601A4A79EE3E5FA0"
 			height: 1.6d
 			image: "farmersdelight:item/cooking_pot"
 			order: 1
@@ -28,6 +29,7 @@
 			y: -5.5d
 		}
 		{
+			dependency: "601A4A79EE3E5FA0"
 			height: 2.0d
 			image: "sophisticatedstorage:item/crafting_upgrade"
 			rotation: 0.0d
@@ -36,8 +38,8 @@
 			y: -8.0d
 		}
 		{
+			dependency: "601A4A79EE3E5FA0"
 			height: 1.0d
-			hover: ["ftbquests.chapter.cookbook.image.hovertext2"]
 			image: "create:item/brass_hand"
 			order: 2
 			rotation: 0.0d
@@ -46,6 +48,7 @@
 			y: -5.0d
 		}
 		{
+			dependency: "601A4A79EE3E5FA0"
 			height: 2.0d
 			image: "sophisticatedstorage:item/upgrade_base"
 			rotation: 0.0d
@@ -2155,6 +2158,7 @@
 			dependencies: ["601A4A79EE3E5FA0"]
 			description: ["{ftbquests.chapter.cookbook.quest912584173957202599.description1}"]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "0CAA26789C5CC2A7"
 			tasks: [{
 				id: "4C0DB645B67D96A0"

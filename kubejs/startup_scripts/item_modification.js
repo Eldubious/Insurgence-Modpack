@@ -238,7 +238,8 @@ ItemEvents.modification(event => {
         'quark:monster_box', 'mutantmonsters:creeper_minion_tracker', 'simplyswords:diamond_longsword', 'simplyswords:diamond_twinblade', 'simplyswords:diamond_rapier',
         'simplyswords:diamond_katana', 'simplyswords:diamond_sai', 'simplyswords:diamond_spear', 'simplyswords:diamond_glaive', 'simplyswords:diamond_warglaive',
         'simplyswords:diamond_cutlass', 'simplyswords:diamond_claymore', 'simplyswords:diamond_greathammer', 'simplyswords:diamond_greataxe', 'simplyswords:diamond_chakram',
-        'simplyswords:diamond_scythe', 'simplyswords:diamond_halberd'
+        'simplyswords:diamond_scythe', 'simplyswords:diamond_halberd', 'dungeonnowloading:scuttle_statue', 'dungeonnowloading:ballista_golem_statue',
+        'dungeonnowloading:repulsor', 'dungeonnowloading:overcharged_redstone_block'
     ]
     uncommon_items.forEach(element => uncommon(element))
         
@@ -326,7 +327,8 @@ ItemEvents.modification(event => {
         'alexscaves:nuclear_bomb', 'iceandfire:dread_spawner', 'simplyswords:netherite_longsword', 'simplyswords:netherite_twinblade', 'simplyswords:netherite_rapier',
         'simplyswords:netherite_katana', 'simplyswords:netherite_sai', 'simplyswords:netherite_spear', 'simplyswords:netherite_glaive', 'simplyswords:netherite_warglaive',
         'simplyswords:netherite_cutlass', 'simplyswords:netherite_claymore', 'simplyswords:netherite_greathammer', 'simplyswords:netherite_greataxe', 'simplyswords:netherite_chakram',
-        'simplyswords:netherite_scythe', 'simplyswords:netherite_halberd'
+        'simplyswords:netherite_scythe', 'simplyswords:netherite_halberd', 'dungeonnowloading:spawner_helmet', 'dungeonnowloading:spawner_chestplate', 'dungeonnowloading:spawner_leggings',
+        'dungeonnowloading:spawner_boots', 'dungeonnowloading:life_stealer', 'dungeonnowloading:spawner_sword'
     ]
     rare_items.forEach(element => rare(element))
 

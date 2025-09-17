@@ -187,9 +187,6 @@
     "kubejs.tip.aquamarine_ore": "In The Depths, aquamarine ore can be found in the Asurine Caves biome.",
     "kubejs.tip.ruby_ore_nether": "In the Nether, you can find ruby ore near the bedrock roof.",
 
-    "questbook.kubejs.hovertext.cooking_pot": "These foods are made using a Cooking Pot.",
-    "questbook.kubejs.hovertext.crafting_table": "These foods are made using a Crafting Table.",
-
     "structure_map.kubejs.ocean_monument": "§rOcean Monument Map",
     "structure_map.kubejs.buried_treasure": "§rBuried Treasure Map",
     "structure_map.kubejs.woodland_mansion": "§rWoodland Mansion Map",
@@ -221,7 +218,7 @@
     "structure_map.kubejs.ribbit_village": "§rRibbit Village Map",
     "structure_map.kubejs.illager_fort": "§rIllager Fort Map",
     "structure_map.kubejs.illusioner_tower": "§rIllusioner Tower Map",
-    "structure_map.kubejs.labyrinth": "§rLabyrinth Map",
+    "structure_map.kubejs.labyrinth": "§rLabyrinth Map (Illager Invasion)",
     "structure_map.kubejs.gorgon_temple": "§rGorgon Temple Map",
     "structure_map.kubejs.dragon_nest_fire": "§rFire Dragon Nest Map",
     "structure_map.kubejs.dragon_nest_ice": "§rIce Dragon Nest Map",
@@ -256,6 +253,8 @@
     "structure_map.kubejs.flying_end_ship": "§rFlying End Ship Map",
     "structure_map.kubejs.end_house": "§rEnd House Map",
     "structure_map.kubejs.warped_station": "§rWarped Station Map",
+    "structure_map.kubejs.temple_of_duality": "§rTemple of Duality Map",
+    "structure_map.kubejs.dnl_labyrinth": "§rLabyrinth Map (Dungeon Now Loading)",
 
     "kubejs.basic/ender_dragon": "Ender Dragon Gateway",
     "kubejs.basic/warden": "Warden Gateway",

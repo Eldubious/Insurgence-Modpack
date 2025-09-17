@@ -447,7 +447,7 @@
         {
             "type": "gateways:stack",
             "stack": {
-                "item": "witherstormmod:command_block_book",
+                "item": "kubejs:withered_smithing_template",
                 "count": 1
             }
         }

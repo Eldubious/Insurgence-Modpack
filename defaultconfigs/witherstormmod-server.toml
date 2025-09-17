@@ -240,7 +240,7 @@
 		#Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0.
 		#Default: 1.0
 		#Range: 0.01 ~ 32.0
-		evolutionAttributeModifier = 0.4
+		evolutionAttributeModifier = 0.15
 
 	#Performance
 	[server.performance]
@@ -468,7 +468,7 @@
 		#Specifies the delay in minutes (+random) that the Wither Storm will be able to summon a Withered Symbiont.
 		#Default: 10
 		#Range: 1 ~ 20
-		witherStormSummoningDelay = 4
+		witherStormSummoningDelay = 1
 		#Specifies the time in minutes (+random) that the players who killed a Withered Symbiont should be ignored by the Wither Storm for.
 		#Default: 5
 		#Range: 1 ~ 10
@@ -476,7 +476,7 @@
 		#Specifies the delay in minutes (+random) that the Wither Storm should be able summon a Withered Symbiont for the player it summoned one for.
 		#Default: 10
 		#Range: 1 ~ 60
-		playerSummoningDelay = 10
+		playerSummoningDelay = 5
 		#If a player kills a Withered Symbiont, their sumoning delay will be increased to this value in minutes (+random).
 		#Default: 40
 		#Range: 1 ~ 60
@@ -490,7 +490,7 @@
 		#Adds this value multiplied by the amount of nearby players to the Symbiont's max health when it is spawned. Set to zero to disable this feature.
 		#Default: 20.0
 		#Range: 0.0 ~ 100.0
-		healthScalePerPlayer = 40.0
+		healthScalePerPlayer = 100.0
 
 	#Flaming Skulls
 	[server.flaming_skulls]

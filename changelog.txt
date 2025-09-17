@@ -1,3 +1,23 @@
+Version 1.3.0
+    Additions:
+    - Added Mods:
+        - Jade Addons
+        - Better Mob Combat
+        - In Control
+        - Dungeon Now loading
+    - Added structure maps for the dungeons from Dungeon Now Loading
+
+    Changes:
+    - Several quests are now hidden behind the completion of other quests
+    - Changes to server configs (only affects new worlds):
+        - The Wither Storm now progresses through its phases much faster,
+            and summons the Withered Symbiont more quickly
+        - The Withered Symbiont can now be attacked from behind at any time,
+            but it has 100 more hp
+
+    Fixes:
+    - The Tainted Village Gate Pearl now actually gives a Withered Smithing Template
+
 Version 1.2.2
     Additions:
     - Added Mods:

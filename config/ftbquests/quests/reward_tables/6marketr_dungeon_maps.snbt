@@ -371,6 +371,38 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:stronghold"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.dnl_labyrinth\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "dungeonnowloading:labyrinth"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "supplementaries:jungle_temple"
+					display: {
+						Name: "{\"translate\":\"structure_map.kubejs.temple_of_duality\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "dungeonnowloading:temple_of_duality"
+					zoomLevel: 2
+				}
+			}
+		}
 	]
 	title: "{ftbquests.loot_table.2858426624542482252.title}"
 }

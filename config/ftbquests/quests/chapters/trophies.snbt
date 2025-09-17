@@ -15,6 +15,7 @@
 	id: "5630439797049014"
 	images: [
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 2.5d
 			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
 			rotation: 0.0d
@@ -23,6 +24,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "cataclysm:item/lava_power_cell"
 			order: 1
@@ -32,6 +34,7 @@
 			y: -0.4035455645010657d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "cataclysm:item/cursium_ingot"
 			order: 1
@@ -41,6 +44,7 @@
 			y: -0.3678312787867881d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 2.5d
 			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
 			rotation: 0.0d
@@ -49,6 +53,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 2.5d
 			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
 			rotation: 0.0d
@@ -57,6 +62,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 2.5d
 			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
 			rotation: 0.0d
@@ -65,6 +71,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 2.5d
 			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
 			rotation: 0.0d
@@ -73,6 +80,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 2.5d
 			image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
 			rotation: 0.0d
@@ -81,6 +89,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "traveloptics:item/last_glow"
 			rotation: 0.0d
@@ -89,6 +98,7 @@
 			y: -0.7249741359296422d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "alexscaves:item/tree_star"
 			rotation: 0.0d
@@ -97,6 +107,7 @@
 			y: -0.7606884216439269d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "alexscaves:item/azure_neodymium_ingot"
 			rotation: 0.0d
@@ -105,6 +116,7 @@
 			y: -0.4035455645010657d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "alexscaves:item/occult_gem"
 			rotation: 0.0d
@@ -113,6 +125,7 @@
 			y: -0.3678312787867881d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "twilightforest:item/fortification_scepter"
 			rotation: 0.0d
@@ -121,6 +134,7 @@
 			y: -0.5821169930725034d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "twilightforest:item/carminite"
 			rotation: 0.0d
@@ -129,6 +143,7 @@
 			y: -0.5464027073582116d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "galosphere:item/cured_membrane"
 			rotation: 0.0d
@@ -137,6 +152,7 @@
 			y: -0.5821169930725034d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "dreadsteel:item/dreadsteel_ingot"
 			rotation: 0.0d
@@ -145,6 +161,7 @@
 			y: -0.6178312787867881d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "unusualend:item/wandering_pearl"
 			order: 1
@@ -154,6 +171,7 @@
 			y: -0.4035455645010799d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "minecraft:item/quartz"
 			rotation: 0.0d
@@ -162,6 +180,7 @@
 			y: -0.7249741359296422d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "irons_spellbooks:item/arcane_rune"
 			rotation: 0.0d
@@ -170,6 +189,7 @@
 			y: -0.4392598502153575d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "minecraft:item/carrot"
 			order: 1
@@ -179,6 +199,7 @@
 			y: -0.40354556450108703d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "minecraft:item/amethyst_shard"
 			rotation: 0.0d
@@ -187,6 +208,7 @@
 			y: -0.40354556450108703d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 0.8d
 			image: "minecraft:item/nautilus_shell"
 			rotation: 0.0d
@@ -195,6 +217,7 @@
 			y: -0.7249741359296564d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -203,6 +226,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -211,6 +235,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -219,6 +244,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -227,6 +253,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -235,6 +262,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -243,6 +271,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -251,6 +280,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -259,6 +289,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -267,6 +298,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -275,6 +307,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -283,6 +316,7 @@
 			y: 8.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -291,6 +325,7 @@
 			y: 9.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -299,6 +334,7 @@
 			y: 9.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -307,6 +343,7 @@
 			y: 8.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -315,6 +352,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -323,6 +361,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -331,6 +370,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -339,6 +379,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -347,6 +388,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -355,6 +397,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -363,6 +406,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -371,6 +415,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -379,6 +424,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -387,6 +433,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -395,6 +442,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -403,6 +451,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -411,6 +460,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -419,6 +469,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -427,6 +478,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -435,6 +487,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -443,6 +496,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -451,6 +505,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -459,6 +514,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -467,6 +523,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -475,6 +532,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -483,6 +541,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -491,6 +550,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -499,6 +559,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -507,6 +568,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -515,6 +577,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -523,6 +586,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -531,6 +595,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -539,6 +604,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -547,6 +613,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -555,6 +622,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -563,6 +631,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -571,6 +640,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -579,6 +649,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -587,6 +658,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -595,6 +667,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -603,6 +676,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -611,6 +685,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -619,6 +694,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -627,6 +703,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -635,6 +712,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -643,6 +721,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -651,6 +730,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -659,6 +739,7 @@
 			y: 2.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -667,6 +748,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -675,6 +757,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -683,6 +766,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -691,6 +775,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -699,6 +784,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -707,6 +793,7 @@
 			y: 5.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -715,6 +802,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -723,6 +811,7 @@
 			y: 6.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -731,6 +820,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -739,6 +829,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -747,6 +838,7 @@
 			y: 8.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -755,6 +847,7 @@
 			y: 8.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -763,6 +856,7 @@
 			y: 8.5d
 		}
 		{
+			dependency: "2D1D7EBC3A9A9BA2"
 			height: 1.0d
 			image: "supplementaries:item/item_shelf"
 			rotation: 0.0d
@@ -1407,7 +1501,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1507,7 +1603,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1613,7 +1711,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1673,7 +1773,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1702,7 +1804,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1730,7 +1834,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1774,7 +1880,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -1818,7 +1926,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1884,7 +1994,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1919,7 +2031,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -1954,7 +2068,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2004,7 +2120,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2054,7 +2172,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2116,7 +2236,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2151,7 +2273,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2241,7 +2365,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2282,7 +2408,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2338,7 +2466,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2366,7 +2496,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2449,7 +2581,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2483,7 +2617,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2539,7 +2675,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2595,7 +2733,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2646,7 +2786,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2710,7 +2852,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2772,7 +2916,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2834,7 +2980,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2892,7 +3040,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -2962,7 +3112,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3018,7 +3170,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3066,7 +3220,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3128,7 +3284,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3182,7 +3340,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3230,7 +3390,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3284,7 +3446,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3332,7 +3496,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3376,7 +3542,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3420,7 +3588,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3449,7 +3619,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3505,7 +3677,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3561,7 +3735,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3590,7 +3766,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3653,7 +3831,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3681,7 +3861,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3724,7 +3906,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3753,7 +3937,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3781,7 +3967,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3809,7 +3997,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3853,7 +4043,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3881,7 +4073,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -3924,7 +4118,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3959,7 +4155,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -3994,7 +4192,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4064,7 +4264,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4099,7 +4301,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4149,7 +4353,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4184,7 +4390,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4219,7 +4427,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4269,7 +4479,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4304,7 +4516,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4354,7 +4568,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4408,7 +4624,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4458,7 +4676,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4508,7 +4728,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4543,7 +4765,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4605,7 +4829,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4667,7 +4893,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -4695,7 +4923,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -4743,7 +4973,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4778,7 +5010,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"
@@ -4841,6 +5075,7 @@
 				""
 				"{ftbquests.chapter.trophies.quest3250893852933528482.description4}"
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -4868,6 +5103,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			description: ["{ftbquests.chapter.trophies.quest7518950383537477928.description1}"]
 			disable_toast: true
 			icon: "create:experience_nugget"
@@ -4920,7 +5156,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -4948,7 +5186,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D1D7EBC3A9A9BA2"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 5
 				id: "ftbquests:lootcrate"

@@ -71,6 +71,13 @@
         "traveloptics:aqua_grandmaster",
         "traveloptics:aquamancer",
         "traveloptics:fading_mage",
-        "unusualend:endstone_golem"
+        "unusualend:endstone_golem",
+        "dungeonnowloading:chaos_spawner",
+        "dungeonnowloading:fairkeeper_boros",
+        "dungeonnowloading:fairkeeper_boros_part",
+        "dungeonnowloading:fairkeeper_ouros",
+        "dungeonnowloading:fairkeeper_ouros_part",
+        "dungeonnowloading:fairkeeper_serpent_caller",
+        "dungeonnowloading:sealed_chaos"
     ]
 }
