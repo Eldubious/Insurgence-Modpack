@@ -114,4 +114,6 @@ ServerEvents.recipes(event => {
     event.remove([{id: 'ae2:materials/basiccard'}, {id: 'ae2:materials/advancedcard'}])
     metamorphosis('ae2:basic_card', 2, 'ae2:calculation_processor', 1, 'create:iron_sheet', 1, 'mahoutsukai:powdered_gold', 2, 55, 40)
     metamorphosis('ae2:advanced_card', 2, 'ae2:calculation_processor', 1, 'create:iron_sheet', 1, 'mahoutsukai:powdered_diamond', 2, 55, 40)
+    // Stained Scrap
+    metamorphosis('dungeonsdelight:stained_scrap', 1, 'forbidden_arcanus:spawner_scrap', 1, 'forbidden_arcanus:soul', 1, 'forbidden_arcanus:dark_matter', 1, 55, 60)
 })

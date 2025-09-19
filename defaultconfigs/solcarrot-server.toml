@@ -8,7 +8,7 @@
 	heartsPerMilestone = 1
 	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
 	milestones = [16, 32, 48, 64, 80, 96, 112, 128, 144, 160,
-		176, 192, 208, 224, 240, 256, 272, 288, 304, 320]
+		176, 192, 208, 224, 240, 256, 272, 288, 304, 320, 336, 352, 368, 384]
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
@@ -89,7 +89,21 @@
 		"arsdelight:frostaya_hornbeer", "arsdelight:source_berry_hornbeer", "arsdelight:unstable_cocktail", "ends_delight:chorus_fruit_milk_tea",
 		"ends_delight:chorus_fruit_wine", "ends_delight:chorus_flower_tea", "aetherdelight:aetherflower_tea", "aetherdelight:swet_syrup", "aquaculture:sushi",
 		"aquaculturedelight:fried_perch_roll", "aquaculturedelight:trout_steak", "aquaculturedelight:fish_chorba", "aquaculturedelight:fish_and_chips",
-		"aquaculturedelight:roasted_tambaqui"]
+		"aquaculturedelight:roasted_tambaqui", "dungeonsdelight:glow_berry_gelatin", "dungeonsdelight:ossobuco", "dungeonsdelight:guardian_angel", "dungeonsdelight:silverfish_and_chips",
+		"dungeonsdelight:ghastly_spirits", "dungeonsdelight:bloody_mary", "dungeonsdelight:spider_bubble_tea", "dungeonsdelight:taro_milk_tea",
+		"dungeonsdelight:snuffledog", "dungeonsdelight:ominous_omelette", "dungeonsdelight:chicken_jockey_sandwich", "dungeonsdelight:terrine_loaf",
+		"dungeonsdelight:rubaboo", "dungeonsdelight:gyudon", "dungeonsdelight:ghast_roll", "dungeonsdelight:devilish_eggs", "dungeonsdelight:sculk_mayo",
+		"dungeonsdelight:bloated_baked_potato", "dungeonsdelight:malicious_sandwich", "dungeonsdelight:monster_muffin", "dungeonsdelight:monster_cake_slice",
+		"dungeonsdelight:spider_pie_slice", "dungeonsdelight:sculk_tart_slice", "dungeonsdelight:salt_soaked_stew", "dungeonsdelight:candied_silverfish_sucker",
+		"dungeonsdelight:candied_vex_sucker", "dungeonsdelight:gelled_salad", "dungeonsdelight:silverfish_fried_rice", "dungeonsdelight:chloropasta",
+		"dungeonsdelight:shiokara", "dungeonsdelight:spider_salmagundi", "dungeonsdelight:au_rotten_potatoes", "largemeals:pufferfish_broth", "largemeals:cod_deluxe",
+		"largemeals:hearty_lunch", "largemeals:chicken_curry", "largemeals:sweet_berry_custard", "largemeals:omurice", "largemeals:mushroom_pot_pie",
+		"largemeals:roasted_mutton_rack", "lendersdelight:crystallized_coral_pie_slice", "lendersdelight:void_custard", "lendersdelight:berserker_stick",
+		"lendersdelight:void_popsicle", "lendersdelight:amethyst_crab_meat_stick", "lendersdelight:crystallized_coral_potato", "lendersdelight:crystallized_coral_roll",
+		"lendersdelight:lionfish_roll", "lendersdelight:urchinkin_pumpkin", "lendersdelight:koboleton_pumpkin", "lendersdelight:glazed_remnant_skull",
+		"lendersdelight:pasta_with_witherite", "lendersdelight:ender_blood_glazed_maledictus_heart", "lendersdelight:honey_glazed_horn", "lendersdelight:leviathan_and_abyssal_egg",
+		"lendersdelight:scylla_snake_glazed_cindaria_hat", "lendersdelight:amethyst_crab_sandwich", "lendersdelight:coral_chunk_sandwich", "lendersdelight:maledictus_heart_stew",
+		"lendersdelight:grilled_lionfish", "lendersdelight:coral_and_void", "lendersdelight:ham_of_berserker", "lendersdelight:red_coral_stew", "lendersdelight:sea_meat_salad"]
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
 	#Range: 0 ~ 1000
 	minimumFoodValue = 0

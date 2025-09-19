@@ -1,0 +1,9 @@
+
+[Stat]
+	#Enable or disable stat effects.
+	enableStat = false
+	#Show stat in food tooltips.
+	showStatTip = false
+	#Reset player stats on death.
+	resetOnDeath = true
+

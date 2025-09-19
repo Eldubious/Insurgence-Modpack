@@ -204,6 +204,13 @@ ServerEvents.recipes(event => {
         ],
         3000
     )
+    // Stained Scrap
+    imbuement('dungeonsdelight:stained_scrap', 'dungeonsdelight:stained_scrap_fragment',
+        [
+            'dungeonsdelight:stained_scrap', 'forbidden_arcanus:corrupt_soul', 'forbidden_arcanus:dark_rune'
+        ],
+        800
+    )
 
     /*
         Architects Palette decoration blocks made originally from warping

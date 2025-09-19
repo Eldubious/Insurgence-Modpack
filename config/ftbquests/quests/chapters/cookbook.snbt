@@ -1365,7 +1365,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -1393,8 +1393,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.cookbook.quest2837688833182159396.title}"
-			x: 3.5d
-			y: -2.0d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1421,8 +1421,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.cookbook.quest4797289355803828024.title}"
-			x: 3.5d
-			y: -3.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1449,7 +1449,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.cookbook.quest3084546666414303286.title}"
-			x: 4.0d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -1476,8 +1476,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A8FA33882276472"]
@@ -1509,7 +1509,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -1536,7 +1536,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -1575,7 +1575,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -1602,7 +1602,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -1656,7 +1656,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -1710,7 +1710,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -1737,7 +1737,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -1764,7 +1764,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1791,7 +1791,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -1818,7 +1818,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
@@ -2964,7 +2964,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -3003,7 +3003,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -3060,6 +3060,160 @@
 			title: "{ftbquests.chapter.cookbook.quest3125673391835898181.title}"
 			x: -6.6d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "dungeonsdelight:glow_berry_gelatin_block"
+			id: "626F39BF261EBAE1"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "798FFA8393BDE081"
+					item: "dungeonsdelight:glow_berry_gelatin_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5C5D809FCAB90DDD"
+					item: "dungeonsdelight:glow_berry_gelatin"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "dungeonsdelight:ossobuco_block"
+			id: "62960F496094CA59"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "573DF6D9D9A484EA"
+					item: "dungeonsdelight:ossobuco_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "095BF6157874AC77"
+					item: "dungeonsdelight:ossobuco"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "dungeonsdelight:guardian_angel_block"
+			id: "7658976D449C3E54"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "105D85590D4E70AB"
+					item: "dungeonsdelight:guardian_angel_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "21BB591004B0CCCD"
+					item: "dungeonsdelight:guardian_angel"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "dungeonsdelight:silverfish_and_chips_block"
+			id: "6D372568D0850EF0"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "240BD0DD8FF4B085"
+					item: "dungeonsdelight:silverfish_and_chips_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "225F5DE4EE7DD603"
+					item: "dungeonsdelight:silverfish_and_chips"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "largemeals:omurice_block"
+			id: "0D1079246EB0D7C9"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5945AA3A435419ED"
+					item: "largemeals:omurice_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2253E5938A34F2A3"
+					item: "largemeals:omurice"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "largemeals:mushroom_pot_pie_block"
+			id: "0F6F55D1DD1ED15E"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "203E42D8FFF08F68"
+					item: "largemeals:mushroom_pot_pie_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "54D6F2C99889D612"
+					item: "largemeals:mushroom_pot_pie"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A8FA33882276472"]
+			icon: "largemeals:roasted_mutton_rack_block"
+			id: "494AACA29655C659"
+			shape: "diamond"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7E7DDC12B4EA56D0"
+					item: "largemeals:roasted_mutton_rack_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "58F98533B05D9928"
+					item: "largemeals:roasted_mutton_rack"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.0d
 		}
 	]
 	title: "{ftbquests.chapter.cookbook.title}"

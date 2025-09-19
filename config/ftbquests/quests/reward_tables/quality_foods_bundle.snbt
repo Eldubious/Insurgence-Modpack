@@ -381,6 +381,70 @@
 		{ item: "arsdelight:grilled_chimera_meat" }
 		{ item: "oceanic_delight:fish_egg_noodle_soup" }
 		{ item: "oceanic_delight:potato_salad" }
+		{ item: "dungeonsdelight:taro_milk_tea" }
+		{ item: "dungeonsdelight:spider_bubble_tea" }
+		{ item: "dungeonsdelight:bloody_mary" }
+		{ item: "dungeonsdelight:ghastly_spirits" }
+		{ item: "dungeonsdelight:silverfish_and_chips" }
+		{ item: "dungeonsdelight:guardian_angel" }
+		{ item: "dungeonsdelight:ossobuco" }
+		{ item: "dungeonsdelight:glow_berry_gelatin" }
+		{ item: "dungeonsdelight:devilish_eggs" }
+		{ item: "dungeonsdelight:ghast_roll" }
+		{ item: "dungeonsdelight:gyudon" }
+		{ item: "dungeonsdelight:rubaboo" }
+		{ item: "dungeonsdelight:terrine_loaf" }
+		{ item: "dungeonsdelight:chicken_jockey_sandwich" }
+		{ item: "dungeonsdelight:ominous_omelette" }
+		{ item: "dungeonsdelight:snuffledog" }
+		{ item: "dungeonsdelight:au_rotten_potatoes" }
+		{ item: "dungeonsdelight:salt_soaked_stew" }
+		{ item: "dungeonsdelight:sculk_tart_slice" }
+		{ item: "dungeonsdelight:spider_pie_slice" }
+		{ item: "dungeonsdelight:monster_cake_slice" }
+		{ item: "dungeonsdelight:monster_muffin" }
+		{ item: "dungeonsdelight:malicious_sandwich" }
+		{ item: "dungeonsdelight:bloated_baked_potato" }
+		{ item: "dungeonsdelight:sculk_mayo" }
+		{ item: "dungeonsdelight:candied_silverfish_sucker" }
+		{ item: "dungeonsdelight:candied_vex_sucker" }
+		{ item: "dungeonsdelight:gelled_salad" }
+		{ item: "dungeonsdelight:silverfish_fried_rice" }
+		{ item: "dungeonsdelight:chloropasta" }
+		{ item: "dungeonsdelight:shiokara" }
+		{ item: "dungeonsdelight:spider_salmagundi" }
+		{ item: "lendersdelight:lionfish_roll" }
+		{ item: "largemeals:roasted_mutton_rack" }
+		{ item: "largemeals:mushroom_pot_pie" }
+		{ item: "largemeals:omurice" }
+		{ item: "largemeals:sweet_berry_custard" }
+		{ item: "largemeals:chicken_curry" }
+		{ item: "largemeals:hearty_lunch" }
+		{ item: "largemeals:cod_deluxe" }
+		{ item: "largemeals:pufferfish_broth" }
+		{ item: "lendersdelight:crystallized_coral_pie_slice" }
+		{ item: "lendersdelight:void_custard" }
+		{ item: "lendersdelight:berserker_stick" }
+		{ item: "lendersdelight:void_popsicle" }
+		{ item: "lendersdelight:amethyst_crab_meat_stick" }
+		{ item: "lendersdelight:crystallized_coral_potato" }
+		{ item: "lendersdelight:crystallized_coral_roll" }
+		{ item: "lendersdelight:sea_meat_salad" }
+		{ item: "lendersdelight:scylla_snake_glazed_cindaria_hat" }
+		{ item: "lendersdelight:leviathan_and_abyssal_egg" }
+		{ item: "lendersdelight:honey_glazed_horn" }
+		{ item: "lendersdelight:ender_blood_glazed_maledictus_heart" }
+		{ item: "lendersdelight:pasta_with_witherite" }
+		{ item: "lendersdelight:glazed_remnant_skull" }
+		{ item: "lendersdelight:koboleton_pumpkin" }
+		{ item: "lendersdelight:urchinkin_pumpkin" }
+		{ item: "lendersdelight:amethyst_crab_sandwich" }
+		{ item: "lendersdelight:coral_chunk_sandwich" }
+		{ item: "lendersdelight:maledictus_heart_stew" }
+		{ item: "lendersdelight:grilled_lionfish" }
+		{ item: "lendersdelight:coral_and_void" }
+		{ item: "lendersdelight:ham_of_berserker" }
+		{ item: "lendersdelight:red_coral_stew" }
 	]
 	title: "{ftbquests.loot_table.346162584000431563.title}"
 }

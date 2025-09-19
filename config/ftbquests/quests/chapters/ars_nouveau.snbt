@@ -323,10 +323,6 @@
 						items: [
 							{
 								Count: 1b
-								id: "endrem:undead_soul"
-							}
-							{
-								Count: 1b
 								id: "forbidden_arcanus:soul"
 							}
 							{
@@ -336,6 +332,26 @@
 							{
 								Count: 1b
 								id: "forbidden_arcanus:enchanted_soul"
+							}
+							{
+								Count: 1b
+								id: "minecraft:phantom_membrane"
+							}
+							{
+								Count: 1b
+								id: "quark:soul_bead"
+							}
+							{
+								Count: 1b
+								id: "endrem:undead_soul"
+							}
+							{
+								Count: 1b
+								id: "dungeonnowloading:soul_cloth"
+							}
+							{
+								Count: 1b
+								id: "dungeonnowloading:soul_silk"
 							}
 						]
 					}
@@ -440,7 +456,7 @@
 			}]
 			shape: "diamond"
 			tasks: [{
-				id: "4B45D00C8C4556FA"
+				id: "312EA908332D5085"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -449,6 +465,10 @@
 							{
 								Count: 1b
 								id: "minecraft:experience_bottle"
+							}
+							{
+								Count: 1b
+								id: "dungeonnowloading:great_experience_bottle"
 							}
 							{
 								Count: 1b

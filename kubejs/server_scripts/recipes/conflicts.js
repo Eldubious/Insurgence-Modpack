@@ -144,4 +144,7 @@ ServerEvents.recipes(event => {
         'rubinated_nether:ruby',
         '#minecraft:trim_materials'
     )
+
+    // Replace Soft-Serve Sniffer Egg with Cooked Sniffer Egg
+    event.remove({id: 'dungeonsdelight:soft_serve_sniffer_egg_from_smoking'})
 })

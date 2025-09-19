@@ -28,6 +28,7 @@
     "tooltip.kubejs.nether_ruby_ore": "§7§oFound near the roof of the Nether.",
     "tooltip.kubejs.magma_ruby_ore": "§7§oFound near lava pools in the Nether.",
     "tooltip.kubejs.depths_ruby_ore": "§7§oFound in the Dragon's Hollow biome in the Depths.",
+    "tooltip.kubejs.spawner_scrap": "§7§oObtained by breaking Spawner Blocks.",
 
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",
