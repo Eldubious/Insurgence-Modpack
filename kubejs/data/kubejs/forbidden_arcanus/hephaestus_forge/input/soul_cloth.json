@@ -1,0 +1,8 @@
+{
+    "type": "forbidden_arcanus:simple_item",
+    "amount": 12,
+    "essence_type": "souls",
+    "item": {
+        "item": "dungeonnowloading:soul_cloth"
+    }
+}

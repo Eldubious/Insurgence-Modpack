@@ -27,6 +27,7 @@ ItemEvents.tooltip(event => {
     event.add('rubinated_nether:molten_ruby_ore', Component.translate('tooltip.kubejs.magma_ruby_ore'))
     event.add('samurai_dynasty:ruby_ore', Component.translate('tooltip.kubejs.depths_ruby_ore'))
     event.add('samurai_dynasty:deepslate_ruby_ore', Component.translate('tooltip.kubejs.depths_ruby_ore'))
+    event.add('forbidden_arcanus:spawner_scrap', Component.translate('tooltip.kubejs.spawner_scrap'))
     
     // Mark unused items
     const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'simplyswords:decaying_relic',
@@ -46,7 +47,7 @@ ItemEvents.tooltip(event => {
         'ae2:4k_crafting_storage', 'ae2:16k_crafting_storage', 'ae2:64k_crafting_storage', 'ae2:256k_crafting_storage', 'ae2:crafting_monitor', 'ae2:name_press', 'ae2:blank_pattern',
         'ae2:molecular_assembler', 'ae2:pattern_provider', 'ae2:cable_pattern_provider', 'ae2:ender_dust', 'ae2:formation_plane', 'ae2:annihilation_plane', 'ae2:pattern_access_terminal',
         'ae2:pattern_encoding_terminal', 'ae2:vibration_chamber', 'ae2:export_bus', 'ae2:import_bus', 'ae2:crystal_resonance_generator', 'ae2:quantum_entangled_singularity',
-        'ae2:creative_item_cell', 'ae2:creative_fluid_cell', 'ae2:quantum_ring', 'ae2:quantum_link', 'ae2:inscriber'
+        'ae2:creative_item_cell', 'ae2:creative_fluid_cell', 'ae2:quantum_ring', 'ae2:quantum_link', 'ae2:inscriber', 'dungeonsdelight:soft_serve_sniffer_egg'
     ]
     unused_items.forEach(element => {
         event.add(element, Component.translate('tooltip.kubejs.unused_item'))

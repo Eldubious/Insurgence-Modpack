@@ -1,0 +1,79 @@
+[
+    {
+        "mob": [
+            "minecraft:zombie",
+            "witherstormmod:sickened_zombie"
+        ],
+        "when": "onjoin",
+        "maxdaycount": 2,
+        "helditem": [
+            "4=minecraft:wooden_sword",
+            "2=farmersdelight:flint_knife",
+            "1=minecraft:wooden_axe",
+            "1=farmersdelight:skillet"
+        ],
+        "result": "allow"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "witherstormmod:sickened_zombie"
+        ],
+        "when": "onjoin",
+        "mindaycount": 2,
+        "helditem": [
+            "4=minecraft:iron_sword",
+            "2=simplyswords:iron_longsword",
+            "2=simplyswords:iron_rapier",
+            "2=simplyswords:iron_spear",
+            "2=simplyswords:iron_cutlass",
+            "2=farmersdelight:iron_knife",
+            "2=farmersdelight:skillet",
+            "1=simplyswords:iron_katana",
+            "1=simplyswords:iron_sai",
+            "1=simplyswords:iron_glaive",
+            "1=simplyswords:iron_warglaive",
+            "1=simplyswords:iron_claymore",
+            "1=simplyswords:iron_greataxe",
+            "1=simplyswords:iron_greathammer",
+            "1=simplyswords:iron_scythe",
+            "1=simplyswords:iron_halberd",
+            "1=simplyswords:sword_on_a_stick"
+        ],
+        "result": "allow"
+    },
+    {
+        "mob": "dungeonsdelight:rotten_zombie",
+        "when": "onjoin",
+        "helditem": [
+            "1=farmersdelight:iron_knife",
+            "1=minecraft:stone_axe"
+        ]
+    },
+    {
+        "mob": [
+            "minecraft:piglin",
+            "minecraft:zombified_piglin"
+        ],
+        "when": "onjoin",
+        "helditem": [
+            "4=minecraft:golden_sword",
+            "4=minecraft:crossbow",
+            "2=simplyswords:gold_longsword",
+            "2=simplyswords:gold_rapier",
+            "2=simplyswords:gold_spear",
+            "2=simplyswords:gold_cutlass",
+            "2=farmersdelight:golden_knife",
+            "1=simplyswords:gold_katana",
+            "1=simplyswords:gold_sai",
+            "1=simplyswords:gold_glaive",
+            "1=simplyswords:gold_warglaive",
+            "1=simplyswords:gold_claymore",
+            "1=simplyswords:gold_greataxe",
+            "1=simplyswords:gold_greathammer",
+            "1=simplyswords:gold_scythe",
+            "1=simplyswords:gold_halberd"
+        ],
+        "result": "allow"
+    }
+]

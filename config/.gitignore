@@ -34,6 +34,7 @@ apotheosis/spawner.cfg
 apotheosis/village.cfg
 ars_elemental
 ars_nouveau
+bettermobcombat
 bettercombat/fallback_compatibility.json
 bettercombat/server.json5
 cataclysm
@@ -75,6 +76,8 @@ iceandfire/*
 !iceandfire/hippogryph_dark_brown_biomes.json
 !iceandfire/hippogryph_gray_biomes.json
 !iceandfire/hippogryph_white_biomes.json
+incontrol/*
+!incontrol/spawn.json
 inline
 jade
 jei/*
@@ -82,6 +85,7 @@ jei/*
 !jei/recipe-category-sort-order.ini
 konkrete/*
 l2_configs
+mobplayeranimator
 NoChatReports
 not_enough_glyphs
 Obscuria
